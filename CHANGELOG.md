@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/newhighsco/chipset/compare/v1.1.0...v1.2.0) (2020-03-16)
+
+
+### Bug Fixes
+
+* **deps:** add missing peerDependency ([205f215](https://github.com/newhighsco/chipset/commit/205f215458ae8f469b3d919b1d4f494ddf9e866f))
+
+
+### Features
+
+* **styles:** exports includePaths ([f4b9250](https://github.com/newhighsco/chipset/commit/f4b92501d1fb13b99dd426bc3f3747aa594a815f))
+
 # [1.1.0](https://github.com/newhighsco/chipset/compare/v1.0.0...v1.1.0) (2020-03-16)
 
 
