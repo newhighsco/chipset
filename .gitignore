@@ -21,6 +21,5 @@ npm-debug.log
 yarn-error.log
 
 # Project specific
-.editorconfig
 .eslintcache
 .stylelintcache
