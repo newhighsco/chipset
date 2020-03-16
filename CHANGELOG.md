@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/newhighsco/chipset/compare/v1.3.0...v1.3.1) (2020-03-16)
+
+
+### Bug Fixes
+
+* **lint:** fixes linting error ([7f58f7f](https://github.com/newhighsco/chipset/commit/7f58f7fee1d4e4aae23a51d9b1c1d36aeefc12b0))
+* **style:** change wip export style ([ab9fdd1](https://github.com/newhighsco/chipset/commit/ab9fdd18580d27dda1c5d57ab5cb7b01e44af157))
+
 # [1.3.0](https://github.com/newhighsco/chipset/compare/v1.2.0...v1.3.0) (2020-03-16)
 
 
