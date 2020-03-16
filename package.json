@@ -70,17 +70,17 @@
     }
   },
   "prettier": "@newhighsco/prettier-config",
-  "stylelint": {
-    "extends": [
-      "@newhighsco/stylelint-config"
-    ]
-  },
   "release": {
     "extends": "@newhighsco/release-config"
   },
   "renovate": {
     "extends": [
       "@newhighsco"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@newhighsco/stylelint-config"
     ]
   }
 }
