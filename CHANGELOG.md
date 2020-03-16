@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/newhighsco/chipset/compare/v1.2.0...v1.3.0) (2020-03-16)
+
+
+### Features
+
+* **styles:** adds wip normalize ([fbb83ad](https://github.com/newhighsco/chipset/commit/fbb83adb1fa09ae0f53137460952a9705326b584))
+
 # [1.2.0](https://github.com/newhighsco/chipset/compare/v1.1.0...v1.2.0) (2020-03-16)
 
 
