@@ -1,2 +1,2 @@
 // export { default as PageContainer } from './PageContainer'
-export * from './SiteContainer'
+export { default as SiteContainer } from './SiteContainer'

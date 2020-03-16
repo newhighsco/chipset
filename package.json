@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/newhighsco/chipset/issues"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "style": "styles/_chipset.scss",
   "scripts": {
     "test": "npm run lint",
