@@ -16,4 +16,4 @@ SiteContainer.propTypes = {
   children: node
 }
 
-export default SiteContainer
+export { SiteContainer }
