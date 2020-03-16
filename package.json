@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/newhighsco/chipset.git"
