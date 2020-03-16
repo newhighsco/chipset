@@ -12,8 +12,8 @@
   "bugs": {
     "url": "https://github.com/newhighsco/chipset/issues"
   },
-  "main": "src/index.js",
-  "style": "src/styles/_chipset.scss",
+  "main": "index.js",
+  "style": "styles/_chipset.scss",
   "scripts": {
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
