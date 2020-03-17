@@ -1,3 +1,6 @@
 .*
 npm-debug.log
 yarn-error.log
+build
+__tests__
+stories.js

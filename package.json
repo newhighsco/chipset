@@ -15,6 +15,9 @@
   "main": "src/index.js",
   "style": "styles/_chipset.scss",
   "scripts": {
+    "start": "start-storybook -p 9001 --ci --quiet",
+    "prebuild": "rm -rf build",
+    "build": "build-storybook --output-dir build --quiet",
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.jsx,.json .",
@@ -23,7 +26,12 @@
     "format:js": "npm run lint:js -- --fix",
     "format:css": "npm run lint:css -- --fix"
   },
+  "dependencies": {
+    "@friendsofreactjs/react-css-themr": "4.1.0",
+    "classnames": "2.2.6"
+  },
   "devDependencies": {
+    "@babel/core": "^7.8.7",
     "@commitlint/cli": "8.3.5",
     "@newhighsco/browserslist-config": "1.0.0",
     "@newhighsco/commitlint-config": "1.0.0",
@@ -32,7 +40,9 @@
     "@newhighsco/prettier-config": "1.0.3",
     "@newhighsco/release-config": "1.0.16",
     "@newhighsco/stylelint-config": "2.0.1",
-    "classnames": "2.2.6",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/react": "^5.3.17",
+    "babel-loader": "^8.0.6",
     "eslint": "6.8.0",
     "husky": "4.2.3",
     "node-sass": "4.13.1",
@@ -40,11 +50,11 @@
     "prettier": "1.19.1",
     "react": "16.13.0",
     "react-dom": "16.13.0",
+    "sass-loader": "8.0.2",
     "semantic-release": "17.0.4",
     "stylelint": "13.2.1"
   },
   "peerDependencies": {
-    "classnames": "2.2.6",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
