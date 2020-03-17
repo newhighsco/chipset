@@ -31,7 +31,7 @@
     "classnames": "2.2.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.7",
+    "@babel/core": "7.8.7",
     "@commitlint/cli": "8.3.5",
     "@newhighsco/browserslist-config": "1.0.0",
     "@newhighsco/commitlint-config": "1.0.0",
@@ -40,9 +40,9 @@
     "@newhighsco/prettier-config": "1.0.3",
     "@newhighsco/release-config": "1.0.16",
     "@newhighsco/stylelint-config": "2.0.1",
-    "@storybook/addons": "^5.3.17",
-    "@storybook/react": "^5.3.17",
-    "babel-loader": "^8.0.6",
+    "@storybook/addons": "5.3.17",
+    "@storybook/react": "5.3.17",
+    "babel-loader": "8.0.6",
     "eslint": "6.8.0",
     "husky": "4.2.3",
     "node-sass": "4.13.1",
