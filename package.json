@@ -20,7 +20,7 @@
   "scripts": {
     "start": "start-storybook --port 9001 --static-dir .storybook/static --ci --quiet",
     "prebuild": "rm -rf build",
-    "build": "build-storybook --output-dir build --static-dir .storybook/static --doc --quiet",
+    "build": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
     "test": "npm run lint",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.jsx,.json .",
