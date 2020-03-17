@@ -1,9 +1,9 @@
 import React from 'react'
 import { node, object, string } from 'prop-types'
 import classNames from 'classnames'
-import { themr } from '@friendsofreactjs/react-css-themr'
+// import { themr } from '@friendsofreactjs/react-css-themr'
 
-import { wrapper } from './styles.module.scss'
+import { wrapper } from './SiteContainer.module.scss'
 
 const SiteContainer = ({ theme = {}, className, children }) => (
   <div className={classNames(wrapper, className, theme.wrapper)}>
@@ -17,6 +17,6 @@ SiteContainer.propTypes = {
   children: node
 }
 
-const ThemedSiteContainer = themr('SiteContainer')(SiteContainer)
+// const ThemedSiteContainer = themr('SiteContainer')(SiteContainer)
 
-export { ThemedSiteContainer as SiteContainer }
+export { SiteContainer }

@@ -1,6 +1,18 @@
 module.exports = {
-  stories: ['../src/components/**/stories.js'],
-  addons: [],
+  stories: [
+    '../src/index.stories.mdx',
+    '../src/components/**/*.stories.(js|mdx)'
+  ],
+  addons: [
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        configureJSX: true,
+        babelOptions: {},
+        sourceLoaderOptions: null
+      }
+    }
+  ],
   webpackFinal: async (config, { configType }) => {
     const isProd = configType === 'PRODUCTION'
 
