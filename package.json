@@ -11,12 +11,11 @@
     "type": "git",
     "url": "https://github.com/newhighsco/chipset.git"
   },
-  "homepage": "https://github.com/newhighsco/chipset#readme",
+  "homepage": "https://chipset.newhighsco.re/",
   "bugs": {
     "url": "https://github.com/newhighsco/chipset/issues"
   },
   "main": "src/index.js",
-  "style": "styles/_chipset.scss",
   "scripts": {
     "start": "start-storybook --port 9001 --static-dir .storybook/static --ci --quiet",
     "prebuild": "rm -rf build",

@@ -1,0 +1,19 @@
+import { Meta, Preview, Props } from '@storybook/addon-docs/blocks'
+import { PageContainer } from '.'
+
+<Meta title="Core/PageContainer" component={PageContainer} />
+
+# PageContainer
+
+The `PageContainer`
+
+<Preview isExpanded>
+  <PageContainer
+    Header={() => <p>Header</p>}
+    Footer={() => <p>Footer</p>}
+  >
+    <p>Children</p>
+  </PageContainer>
+</Preview>
+
+<Props of={PageContainer} />

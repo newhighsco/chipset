@@ -7,6 +7,4 @@ export default create({
   base: 'light',
   brandTitle: title,
   brandUrl: homepage
-  // TODO:
-  // brandImage: 'https://placehold.it/350x150'
 })
