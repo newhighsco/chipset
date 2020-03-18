@@ -1,4 +1,5 @@
 {
+  "alias": "chipset",
   "scope": "newhighsco",
   "github": {
     "enabled": false
