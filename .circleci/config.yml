@@ -12,7 +12,7 @@ commands:
   now-deploy:
     steps:
       - deploy:
-          command: npx now << build-dir >> --token {NOW_TOKEN} --no-clipboard
+          command: npx now << pipeline.parameters.build-dir >> --token {NOW_TOKEN} --no-clipboard
 
 executors:
   node-executor:
@@ -52,7 +52,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - << build-dir >>
+            - << pipeline.parameters.build-dir >>
   preview:
     executor: node-executor
     steps:
