@@ -4,3 +4,4 @@ yarn-error.log
 build
 __tests__
 stories.js
+now.json

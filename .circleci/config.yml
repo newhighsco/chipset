@@ -16,7 +16,7 @@ commands:
         default: ''
     steps:
       - deploy:
-          command: npx now << pipeline.parameters.build-dir >> --token {NOW_TOKEN} --no-clipboard<<# parameters.arguments >> << parameters.arguments >><</ parameters.arguments >>
+          command: npx now << pipeline.parameters.build-dir >> --token ${NOW_TOKEN} --no-clipboard<<# parameters.arguments >> << parameters.arguments >><</ parameters.arguments >>
 
 executors:
   node-executor:
