@@ -10,9 +10,13 @@ parameters:
 
 commands:
   now-deploy:
+    parameters:
+      arguments:
+        type: string
+        default: ''
     steps:
       - deploy:
-          command: npx now << pipeline.parameters.build-dir >> --token {NOW_TOKEN} --no-clipboard
+          command: npx now << pipeline.parameters.build-dir >> --token {NOW_TOKEN} --no-clipboard<<# parameters.arguments >> << parameters.arguments >><</ parameters.arguments >>
 
 executors:
   node-executor:
