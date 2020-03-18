@@ -11,8 +11,8 @@ parameters:
 commands:
   now-deploy:
     steps:
-      deploy:
-        command: npx now << build-dir >> --token {NOW_TOKEN} --no-clipboard
+      - deploy:
+          command: npx now << build-dir >> --token {NOW_TOKEN} --no-clipboard
 
 executors:
   node-executor:
