@@ -1,9 +1,4 @@
 {
-  "alias": [
-    "chipset",
-    "chipset.newhighsco.re"
-  ],
-  "scope": "newhighsco",
   "github": {
     "enabled": false
   }
