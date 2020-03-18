@@ -1,8 +1,18 @@
 version: 2.1
+
 parameters:
+  build-dir:
+    type: string
+    default: build
   yarn-cache-key:
     type: string
     default: v1-yarn-cache-{{ checksum ".nvmrc" }}-{{ checksum "yarn.lock" }}
+
+commands:
+  now-deploy:
+    steps:
+      deploy:
+        command: npx now << build-dir >> --token {NOW_TOKEN} --no-clipboard
 
 executors:
   node-executor:
@@ -11,7 +21,7 @@ executors:
     working_directory: ~/repo
 
 jobs:
-  build:
+  setup:
     executor: node-executor
     steps:
       - checkout
@@ -33,6 +43,22 @@ jobs:
       - attach_workspace:
           at: .
       - run: yarn test
+  build:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - << build-dir >>
+  preview:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - now-deploy
   release:
     executor: node-executor
     steps:
@@ -40,18 +66,30 @@ jobs:
           at: .
       - deploy:
           command: npx semantic-release
+      - now-deploy:
+          arguments: --prod
 
 workflows:
   version: 2
   test_and_release:
     jobs:
-      - build
+      - setup
       - test:
           requires:
+            - setup
+      - build:
+          require:
+            - test
+      - preview:
+          requires:
             - build
+          filters:
+            branches:
+              ignore:
+                - master
       - release:
           requires:
-            - test
+            - build
           filters:
             branches:
               only:
