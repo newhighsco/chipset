@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/newhighsco/chipset/compare/v1.5.0...v1.5.1) (2020-03-19)
+
+
+### Bug Fixes
+
+* add default export to Element ([c732323](https://github.com/newhighsco/chipset/commit/c732323c0560006b08b3477fb989b78a0789abe5))
+
 # [1.5.0](https://github.com/newhighsco/chipset/compare/v1.4.0...v1.5.0) (2020-03-19)
 
 
