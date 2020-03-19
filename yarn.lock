@@ -1322,15 +1322,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-1.0.3.tgz#b86634f8e54f188c398e41ddeb39f3a0740a9bc8"
   integrity sha512-wXSYC6a86x6CrrYJpCpLgUlxzzoUevFm+wTIZg3Emt0fgIqf2G9cLhSny1O0Dmgi+02v5F3b6DWM8ijP0zWlcQ==
 
-"@newhighsco/release-config@1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.17.tgz#e7a039fe4bcd970f3c924f37b2ebe501d554efa4"
-  integrity sha512-FcMcoHX5sk4Z5xTIVF5ttMoIdgzuDGZJlhELJppqrQ3Wn7NAMFuU5IEKzsdLbjzdlDWT+jRIKyEHbyRpUgG4vg==
+"@newhighsco/release-config@1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.18.tgz#80d28e82e42ceff96892e8dee1dd7a64f6b937c3"
+  integrity sha512-ru9MgPXelbcaeF75kDO1uSBGfp3bjppLp/WF38BS87jN26YUCd41kdugEfWvoNW+O7ChWjQMs8vJEhNxVsIkCw==
   dependencies:
     "@semantic-release/changelog" "5.0.0"
     "@semantic-release/commit-analyzer" "8.0.1"
     "@semantic-release/git" "9.0.0"
-    "@semantic-release/github" "7.0.4"
+    "@semantic-release/github" "7.0.5"
     "@semantic-release/npm" "7.0.5"
     "@semantic-release/release-notes-generator" "9.0.1"
 
@@ -1520,7 +1520,29 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@7.0.4", "@semantic-release/github@^7.0.0":
+"@semantic-release/github@7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-7.0.5.tgz#042b515cbae8695aa60bc4ed17722c34512a5b89"
+  integrity sha512-1nJCMeomspRIXKiFO3VXtkUMbIBEreYLFNBdWoLjvlUNcEK0/pEbupEZJA3XHfJuSzv43u3OLpPhF/JBrMuv+A==
+  dependencies:
+    "@octokit/rest" "^17.0.0"
+    "@semantic-release/error" "^2.2.0"
+    aggregate-error "^3.0.0"
+    bottleneck "^2.18.1"
+    debug "^4.0.0"
+    dir-glob "^3.0.0"
+    fs-extra "^9.0.0"
+    globby "^11.0.0"
+    http-proxy-agent "^4.0.0"
+    https-proxy-agent "^5.0.0"
+    issue-parser "^6.0.0"
+    lodash "^4.17.4"
+    mime "^2.4.3"
+    p-filter "^2.0.0"
+    p-retry "^4.0.0"
+    url-join "^4.0.0"
+
+"@semantic-release/github@^7.0.0":
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-7.0.4.tgz#6a62c020d086b84e723e143c78b4d72078e87d28"
   integrity sha512-qQi41eGIa/tne7T8rvQK+xJNoyadOmd5mVsNZUUqZCVueiUkCItspJ7Mgy5ZWuhwlo28+hKeT/4zJ6MIG6er2Q==
