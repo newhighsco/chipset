@@ -13,4 +13,5 @@ VisuallyHidden.propTypes = {
   children: node
 }
 
+export default VisuallyHidden
 export { VisuallyHidden }

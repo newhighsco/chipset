@@ -12,4 +12,5 @@ Element.propTypes = {
   children: node
 }
 
+export default Element
 export { Element }
