@@ -1,0 +1,36 @@
+import { Meta, Preview, Props, Source, Story } from '@storybook/addon-docs/blocks'
+import { PageContainer } from '.'
+import { ThemeProvider } from '../../providers'
+import { default as ContentContainer } from '../ContentContainer'
+import theme from '../__mocks__/theme'
+
+<Meta title="Components/PageContainer" component={PageContainer} />
+
+# PageContainer
+
+The `PageContainer` flexes to fill the unused space within it's parent
+
+<Source dark code={`
+  <PageContainer Header={header} Footer={footer}>
+    {children}
+  </PageContainer>
+`} />
+
+<Props of={PageContainer} />
+
+## With theme
+
+<Preview>
+  <Story name="With theme">
+    <ThemeProvider theme={theme}>
+      <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
+        <PageContainer
+          Header={() => <ContentContainer is="header">Header</ContentContainer>}
+          Footer={() => <ContentContainer is="footer">Footer</ContentContainer>}
+        >
+          Content
+        </PageContainer>
+      </div>
+    </ThemeProvider>
+  </Story>
+</Preview>

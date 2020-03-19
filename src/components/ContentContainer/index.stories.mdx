@@ -1,0 +1,28 @@
+import { Meta, Preview, Props, Source, Story } from '@storybook/addon-docs/blocks'
+import { ContentContainer } from '.'
+import { ThemeProvider } from '../../providers'
+import theme from '../__mocks__/theme'
+
+<Meta title="Components/ContentContainer" component={ContentContainer} />
+
+# ContentContainer
+
+The `ContentContainer`
+
+<Source dark code={`
+  <ContentContainer>
+    {children}
+  </ContentContainer>
+`} />
+
+<Props of={ContentContainer} />
+
+## With theme
+
+<Preview>
+  <Story name="With theme">
+    <ThemeProvider theme={theme}>
+      <ContentContainer>Content</ContentContainer>
+    </ThemeProvider>
+  </Story>
+</Preview>

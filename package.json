@@ -17,7 +17,7 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "start": "start-storybook --port 9001 --static-dir .storybook/static --ci --quiet",
+    "start": "start-storybook --port 9001 --static-dir .storybook/static --docs --ci --quiet",
     "prebuild": "rm -rf build",
     "build": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
     "test": "npm run lint",
@@ -29,7 +29,7 @@
     "format:css": "npm run lint:css -- --fix"
   },
   "dependencies": {
-    "classnames": "2.2.6"
+    "@friendsofreactjs/react-css-themr": "4.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.8.7",

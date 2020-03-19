@@ -1,0 +1,17 @@
+@import './colors';
+@import './fonts';
+
+.wrapper {
+  background-color: $color-melon;
+  font-family: $font-body;
+  outline: 2px dashed $color-cranberry;
+  outline-offset: -2px;
+
+  & + & {
+    margin-top: 1em;
+  }
+}
+
+.content {
+  padding: 1em;
+}

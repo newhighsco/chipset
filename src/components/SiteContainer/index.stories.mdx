@@ -1,0 +1,30 @@
+import { Meta, Preview, Props, Source, Story } from '@storybook/addon-docs/blocks'
+import { SiteContainer } from '.'
+import { ThemeProvider } from '../../providers'
+import theme from '../__mocks__/theme'
+
+<Meta title="Components/SiteContainer" component={SiteContainer} />
+
+# SiteContainer
+
+The `SiteContainer` stretches to fill the height of the viewport
+
+<Source dark code={`
+  <SiteContainer>
+    {children}
+  </SiteContainer>
+`} />
+
+<Props of={SiteContainer} />
+
+## With theme
+
+<Preview>
+  <Story name="With theme">
+    <ThemeProvider theme={theme}>
+      <SiteContainer>Content</SiteContainer>
+    </ThemeProvider>
+  </Story>
+</Preview>
+
+

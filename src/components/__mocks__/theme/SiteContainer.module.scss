@@ -1,0 +1,10 @@
+@import './colors';
+@import './fonts';
+
+.wrapper {
+  background-color: $color-lemon;
+  font-family: $font-body;
+  outline: 2px dashed $color-black-forest;
+  outline-offset: -2px;
+  padding: 1em;
+}
