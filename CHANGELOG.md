@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/newhighsco/chipset/compare/v1.3.1...v1.4.0) (2020-03-18)
+
+
+### Features
+
+* **core:** adds containers ([05795da](https://github.com/newhighsco/chipset/commit/05795da78d5b58ea6d27ce5bd1325e07fb7f4bfe))
+
 ## [1.3.1](https://github.com/newhighsco/chipset/compare/v1.3.0...v1.3.1) (2020-03-16)
 
 
