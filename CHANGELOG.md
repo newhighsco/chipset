@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/newhighsco/chipset/compare/v1.4.0...v1.5.0) (2020-03-19)
+
+
+### Features
+
+* adds theming ([0063000](https://github.com/newhighsco/chipset/commit/006300094244161d67a7276ecdbc270ed7dc09a0))
+
 # [1.4.0](https://github.com/newhighsco/chipset/compare/v1.3.1...v1.4.0) (2020-03-18)
 
 
