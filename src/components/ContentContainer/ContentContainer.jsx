@@ -1,19 +1,18 @@
 import React from 'react'
-import { bool, func, node, oneOfType, object, string } from 'prop-types'
+import { bool, node, object } from 'prop-types'
 import { Element } from '../Element'
 
-const ContentContainer = ({ is, children, theme, ...rest }) => {
+const ContentContainer = ({ children, theme, ...rest }) => {
   if (!children) return null
 
   return (
-    <Element is={is} className={theme.wrapper} {...rest}>
+    <Element className={theme.wrapper} {...rest}>
       <div className={theme.content}>{children}</div>
     </Element>
   )
 }
 
 ContentContainer.propTypes = {
-  is: oneOfType([func, string]),
   gutter: bool,
   children: node,
   theme: object
