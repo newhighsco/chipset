@@ -11,7 +11,7 @@ import theme from '../__mocks__/theme'
 The `PageContainer` flexes to fill the unused space within it's parent
 
 <Source dark code={`
-  <PageContainer Header={header} Footer={footer}>
+  <PageContainer header={<Component />} footer={<Component />}>
     {children}
   </PageContainer>
 `} />
@@ -25,8 +25,9 @@ The `PageContainer` flexes to fill the unused space within it's parent
     <ThemeProvider theme={theme}>
       <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
         <PageContainer
-          Header={() => <ContentContainer is="header">Header</ContentContainer>}
-          Footer={() => <ContentContainer is="footer">Footer</ContentContainer>}
+          is="main"
+          header={<ContentContainer is="header">Header</ContentContainer>}
+          footer={<ContentContainer is="footer">Footer</ContentContainer>}
         >
           Content
         </PageContainer>

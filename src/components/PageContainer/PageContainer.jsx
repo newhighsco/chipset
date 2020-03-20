@@ -1,20 +1,20 @@
 import React from 'react'
-import { func, node, object } from 'prop-types'
+import { node, object } from 'prop-types'
 import { ContentContainer } from '../ContentContainer'
 
-const PageContainer = ({ Header, Footer, children, theme }) => (
+const PageContainer = ({ header, footer, children, theme, ...rest }) => (
   <>
-    <Header />
-    <ContentContainer is="main" id="content" role="main" theme={theme}>
+    {header}
+    <ContentContainer theme={theme} {...rest}>
       {children}
     </ContentContainer>
-    <Footer />
+    {footer}
   </>
 )
 
 PageContainer.propTypes = {
-  Header: func,
-  Footer: func,
+  header: node,
+  footer: node,
   children: node,
   theme: object
 }
