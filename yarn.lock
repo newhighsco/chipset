@@ -1334,10 +1334,10 @@
     "@semantic-release/npm" "7.0.5"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/stylelint-config@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.3.tgz#a93f1083246064207cf66c58e07fc9c6a1085acd"
-  integrity sha512-NQOUj0sDbVoUDlXrLTYxaX/hbwdgOissBNmFCyTAkpC8pRs/Shpftx6QpVHEcOCwWq53BPQewxzr4xMZsYYOcw==
+"@newhighsco/stylelint-config@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.4.tgz#25414e2db03d9edbd503aa0b34b8cec58fe204e0"
+  integrity sha512-6kkO7hb3uKoXlH1NsFj7g5QPGVyTJu0wVmQ1mH7veZKnqgr3uLLcvS2g63T4Sm51/cdp552WKRwdDVPee+OLBg==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.1"
