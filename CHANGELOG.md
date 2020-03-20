@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/newhighsco/chipset/compare/v1.5.2...v1.5.3) (2020-03-20)
+
+
+### Bug Fixes
+
+* ignore more files from npm package ([555c188](https://github.com/newhighsco/chipset/commit/555c188160361bd4ad15419e8052ad875eb61ab9))
+
 ## [1.5.2](https://github.com/newhighsco/chipset/compare/v1.5.1...v1.5.2) (2020-03-20)
 
 
