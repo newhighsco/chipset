@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/newhighsco/chipset/compare/v1.5.1...v1.5.2) (2020-03-20)
+
+
+### Bug Fixes
+
+* **pagecontainer:** use node for header and footer ([5ddaec6](https://github.com/newhighsco/chipset/commit/5ddaec69fb634eccd6648922a5bf9f41a6932b5c))
+
 ## [1.5.1](https://github.com/newhighsco/chipset/compare/v1.5.0...v1.5.1) (2020-03-19)
 
 
