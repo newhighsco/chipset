@@ -1410,12 +1410,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-1.0.3.tgz#b86634f8e54f188c398e41ddeb39f3a0740a9bc8"
   integrity sha512-wXSYC6a86x6CrrYJpCpLgUlxzzoUevFm+wTIZg3Emt0fgIqf2G9cLhSny1O0Dmgi+02v5F3b6DWM8ijP0zWlcQ==
 
-"@newhighsco/release-config@1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.18.tgz#80d28e82e42ceff96892e8dee1dd7a64f6b937c3"
-  integrity sha512-ru9MgPXelbcaeF75kDO1uSBGfp3bjppLp/WF38BS87jN26YUCd41kdugEfWvoNW+O7ChWjQMs8vJEhNxVsIkCw==
+"@newhighsco/release-config@1.0.19":
+  version "1.0.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.19.tgz#66cf3cf7d1f2afe120fa690094831951e97290f6"
+  integrity sha512-y2gOMl0kir+TvA8Oic0w3qSYVp/udXuOYLBT23kqHV7vt29rbk+Gdb7UutwfZNTAZ0htK+J/3gQgbonuKcDRNA==
   dependencies:
-    "@semantic-release/changelog" "5.0.0"
+    "@semantic-release/changelog" "5.0.1"
     "@semantic-release/commit-analyzer" "8.0.1"
     "@semantic-release/git" "9.0.0"
     "@semantic-release/github" "7.0.5"
@@ -1566,14 +1566,14 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@semantic-release/changelog@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-5.0.0.tgz#3db43fc15d78267c5b3f3f9dd311ddb2a0f8596b"
-  integrity sha512-A1uKqWtQG4WX9Vh4QI5b2ddhqx1qAJFlbow8szSNiXn+TaJg15LSUA9NVqyu0VxQFy3hKUJYwbBHGRXCxCy2fg==
+"@semantic-release/changelog@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/changelog/-/changelog-5.0.1.tgz#50a84b63e5d391b7debfe021421589fa2bcdafe4"
+  integrity sha512-unvqHo5jk4dvAf2nZ3aw4imrlwQ2I50eVVvq9D47Qc3R+keNqepx1vDYwkjF8guFXnOYaYcR28yrZWno1hFbiw==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^3.0.0"
-    fs-extra "^8.0.0"
+    fs-extra "^9.0.0"
     lodash "^4.17.4"
 
 "@semantic-release/commit-analyzer@8.0.1", "@semantic-release/commit-analyzer@^8.0.0":
