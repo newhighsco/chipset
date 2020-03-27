@@ -1405,10 +1405,10 @@
     eslint-plugin-react "7.19.0"
     eslint-plugin-standard "4.0.1"
 
-"@newhighsco/prettier-config@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-1.0.3.tgz#b86634f8e54f188c398e41ddeb39f3a0740a9bc8"
-  integrity sha512-wXSYC6a86x6CrrYJpCpLgUlxzzoUevFm+wTIZg3Emt0fgIqf2G9cLhSny1O0Dmgi+02v5F3b6DWM8ijP0zWlcQ==
+"@newhighsco/prettier-config@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-1.1.1.tgz#f2ff543fe60ff24bbd4de3872aa263ddb833ca83"
+  integrity sha512-4HyP+pgfJ5oU43a4+xhZ5NAThQaQUJszC20e6o0d3HU3SbPaQOrJWGmSfvyNyywI/ZDTCxpXnR/2psHja4uLPA==
 
 "@newhighsco/release-config@1.0.19":
   version "1.0.19"
