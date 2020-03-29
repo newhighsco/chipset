@@ -1388,15 +1388,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.0.tgz#4f015e0b839b994fb45a7f04b095378728b9553f"
   integrity sha512-qLYVUmIhY4kx+otYIhqJoXnup0qEof0LrGUdc2DJFcE9tJxttGLwmeYeFerRYGEu3dj4zrLgBBEinBo9VcTSxQ==
 
-"@newhighsco/eslint-config@2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.0.5.tgz#b23713ccb58c25c6a064ffc7a4132a0df7abe606"
-  integrity sha512-SOdwawlhDwqf0NG/gyy8ayyswqyJT/Ny6hLaBSAhLsoePG0Aria0ChooLMY2mLoRRYuYVgEvbjgmqH21GOFwuA==
+"@newhighsco/eslint-config@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.0.6.tgz#7692353c8a363348da8e515ad9029ee6728495b1"
+  integrity sha512-VUuzOPt+VN56ZqY9gy72W1pmbgXYiNy8KUc/MP1IaR1uK64zDXpeE76/+gPshkLMGDeJtQiFvCQe4+ccyzr4/Q==
   dependencies:
     eslint-config-prettier "6.10.1"
     eslint-config-standard "14.1.1"
     eslint-config-standard-react "9.2.0"
-    eslint-plugin-import "2.20.1"
+    eslint-plugin-import "2.20.2"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.2.3"
     eslint-plugin-node "11.1.0"
@@ -5459,10 +5459,10 @@ eslint-plugin-es@^3.0.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-import@2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.1.tgz#802423196dcb11d9ce8435a5fc02a6d3b46939b3"
-  integrity sha512-qQHgFOTjguR+LnYRoToeZWT62XM55MBVXObHM6SKFd1VzDcX/vqT1kAz8ssqigh5eMj8qXcRoXXGZpPP6RfdCw==
+eslint-plugin-import@2.20.2:
+  version "2.20.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.2.tgz#91fc3807ce08be4837141272c8b99073906e588d"
+  integrity sha512-FObidqpXrR8OnCh4iNsxy+WACztJLXAHBO5hK79T1Hc77PgQZkyDGA5Ag9xAvRpglvLNxhH/zSmZ70/pZ31dHg==
   dependencies:
     array-includes "^3.0.3"
     array.prototype.flat "^1.2.1"
