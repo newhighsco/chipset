@@ -1,12 +1,10 @@
 import { addParameters } from '@storybook/react'
-import { DocsPage } from '@storybook/addon-docs/blocks'
+import theme from './theme'
 
 addParameters({
   options: {
-    showRoots: true
-  },
-  docs: {
-    page: DocsPage
+    showRoots: true,
+    theme
   },
   viewMode: 'docs'
 })

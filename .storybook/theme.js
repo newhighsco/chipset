@@ -6,5 +6,6 @@ const { title } = config
 export default create({
   base: 'light',
   brandTitle: title,
-  brandUrl: homepage
+  brandUrl: homepage,
+  brandImage: '/logo.svg'
 })
