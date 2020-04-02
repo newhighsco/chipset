@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/newhighsco/chipset/compare/v1.5.3...v1.6.0) (2020-04-02)
+
+
+### Features
+
+* **mixins:** adds first couple of mixins ([75ae8be](https://github.com/newhighsco/chipset/commit/75ae8be2e54fd733df097d24b94ba89459e95747))
+
 ## [1.5.3](https://github.com/newhighsco/chipset/compare/v1.5.2...v1.5.3) (2020-03-20)
 
 
