@@ -1,0 +1,16 @@
+@import '../settings/colors';
+@import '../settings/fonts';
+
+.wrapper {
+  background-color: $color-yellow;
+  font-family: $font-body;
+
+  & + & {
+    margin-top: 1em;
+  }
+}
+
+.content {
+  background-color: $color-lemon;
+  padding: 1em;
+}

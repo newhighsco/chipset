@@ -1,0 +1,9 @@
+$spacing-base-unit: 8 !default;
+
+@function spacing($i) {
+  @if ($i == 0) {
+    @return 0;
+  }
+
+  @return $i * $spacing-base-unit * 1px;
+}

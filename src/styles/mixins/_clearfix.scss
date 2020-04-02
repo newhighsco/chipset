@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/// Outputs a [micro clearfix hack](http://nicolasgallagher.com/micro-clearfix-hack/)
+/// on a parent element, to contain floated children elements without adding
+/// extra markup.
+///
+/// @example scss
+///   .element {
+///     @include clearfix;
+///   }
+///
+///   // CSS Output
+///   .element:after,
+///   .element:before {
+///     content: "";
+///     display: table;
+///   }
+///   .element:after {
+///     clear: both;
+///   }
+
+@mixin clearfix {
+  &::before,
+  &::after {
+    content: '';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}

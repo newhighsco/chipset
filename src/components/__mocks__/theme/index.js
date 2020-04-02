@@ -1,6 +1,6 @@
-import ContentContainer from './ContentContainer.module.scss'
-import PageContainer from './PageContainer.module.scss'
-import SiteContainer from './SiteContainer.module.scss'
+import ContentContainer from './components/ContentContainer.module.scss'
+import PageContainer from './components/PageContainer.module.scss'
+import SiteContainer from './components/SiteContainer.module.scss'
 
 export default {
   ContentContainer,
