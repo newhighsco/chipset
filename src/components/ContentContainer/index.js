@@ -2,7 +2,7 @@ import { withTheme } from '../../providers'
 import { CONTENT_CONTAINER } from '../identifiers'
 import { ContentContainer } from './ContentContainer'
 
-import theme from './styles.module.scss'
+import theme from './base.module.scss'
 
 const WithTheme = withTheme(CONTENT_CONTAINER, theme)(ContentContainer)
 

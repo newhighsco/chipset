@@ -1,7 +1,7 @@
 import React from 'react'
 import { node } from 'prop-types'
 
-import theme from './styles.module.scss'
+import theme from './base.module.scss'
 
 const VisuallyHidden = ({ children }) => {
   if (!children) return null

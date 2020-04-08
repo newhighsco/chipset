@@ -1,7 +1,7 @@
-import ContentContainer from './components/ContentContainer.module.scss'
-import CreditLockup from './components/CreditLockup.module.scss'
-import PageContainer from './components/PageContainer.module.scss'
-import SiteContainer from './components/SiteContainer.module.scss'
+import ContentContainer from '../styles/components/ContentContainer.module.scss'
+import CreditLockup from '../styles/components/CreditLockup.module.scss'
+import PageContainer from '../styles/components/PageContainer.module.scss'
+import SiteContainer from '../styles/components/SiteContainer.module.scss'
 
 export default {
   ContentContainer,
