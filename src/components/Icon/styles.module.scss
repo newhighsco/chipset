@@ -1,0 +1,16 @@
+.wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+
+  svg {
+    vertical-align: top;
+    height: auto;
+  }
+}
+
+.customSize {
+  svg {
+    width: inherit;
+  }
+}

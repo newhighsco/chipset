@@ -1,0 +1,49 @@
+import { Meta, Preview, Props, Source, Story } from '@storybook/addon-docs/blocks'
+import { CreditLockup } from '.'
+import { ThemeProvider } from '../../providers'
+import theme from '../../__mocks__/theme'
+
+<Meta title="Components/CreditLockup" component={CreditLockup} />
+
+# CreditLockup
+
+The `CreditLockup` provides a link to the New High Score website
+
+<Source dark code={`
+  <CreditLockup />
+`} />
+
+<Props of={CreditLockup} />
+
+## With theme
+
+<Preview columns={2}>
+  <Story name="Left-to-right">
+    <ThemeProvider theme={theme}>
+      <CreditLockup />
+    </ThemeProvider>
+  </Story>
+  <Story name="Right-to-left">
+    <ThemeProvider theme={theme}>
+      <CreditLockup dir="rtl" />
+    </ThemeProvider>
+  </Story>
+</Preview>
+
+<Preview columns={1}>
+  <Story name="Left aligned">
+    <ThemeProvider theme={theme}>
+      <CreditLockup />
+    </ThemeProvider>
+  </Story>
+  <Story name="Center aligned">
+    <ThemeProvider theme={theme}>
+      <CreditLockup align="center" />
+    </ThemeProvider>
+  </Story>
+  <Story name="Right aligned">
+    <ThemeProvider theme={theme}>
+      <CreditLockup align="right" />
+    </ThemeProvider>
+  </Story>
+</Preview>

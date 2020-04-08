@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, object } from 'prop-types'
+import { node, shape, string } from 'prop-types'
 import { Element } from '../Element'
 
 const SiteContainer = ({ children, theme, ...rest }) => (
@@ -10,7 +10,7 @@ const SiteContainer = ({ children, theme, ...rest }) => (
 
 SiteContainer.propTypes = {
   children: node,
-  theme: object
+  theme: shape({ wrapper: string })
 }
 
 export { SiteContainer }

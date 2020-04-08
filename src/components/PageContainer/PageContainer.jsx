@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, object } from 'prop-types'
+import { node, shape, string } from 'prop-types'
 import { ContentContainer } from '../ContentContainer'
 
 const PageContainer = ({ header, footer, children, theme, ...rest }) => (
@@ -16,7 +16,7 @@ PageContainer.propTypes = {
   header: node,
   footer: node,
   children: node,
-  theme: object
+  theme: shape({ wrapper: string })
 }
 
 export { PageContainer }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { bool, node, object } from 'prop-types'
+import { bool, node, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import { Element } from '../Element'
 
@@ -24,7 +24,7 @@ ContentContainer.propTypes = {
   fullWidth: bool,
   gutter: bool,
   children: node,
-  theme: object
+  theme: shape({ wrapper: string, fullWidth: string, gutter: string })
 }
 
 export { ContentContainer }

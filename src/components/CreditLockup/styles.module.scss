@@ -1,0 +1,31 @@
+@import '../../styles/functions/spacing';
+
+.wrapper {
+  line-height: 1.1;
+}
+
+.link {
+  color: currentColor;
+  display: inline-block;
+}
+
+.logo {
+  fill: currentColor;
+  vertical-align: top;
+  width: 50px;
+}
+
+.text {
+  $credit-content-margin: spacing(1);
+
+  display: inline-block;
+  margin-left: $credit-content-margin;
+  text-align: left;
+
+  .wrapper[dir='rtl'] & {
+    margin-left: 0;
+    margin-right: $credit-content-margin;
+    margin-top: 10px;
+    text-align: right;
+  }
+}

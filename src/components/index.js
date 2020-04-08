@@ -1,5 +1,8 @@
 export { default as ContentContainer } from './ContentContainer'
+export { default as CreditLockup } from './CreditLockup'
 export { default as Element } from './Element'
+export { default as Icon } from './Icon'
 export { default as PageContainer } from './PageContainer'
 export { default as SiteContainer } from './SiteContainer'
+export { default as SmartLink } from './SmartLink'
 export { default as VisuallyHidden } from './VisuallyHidden'
