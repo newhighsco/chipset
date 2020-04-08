@@ -1,3 +1,4 @@
+@import '../../../styles/functions/spacing';
 @import '../settings/colors';
 @import '../settings/fonts';
 
@@ -13,4 +14,9 @@
 .content {
   background-color: $color-lemon;
   padding: 1em;
+}
+
+.gutter {
+  padding-left: spacing(1);
+  padding-right: spacing(1);
 }

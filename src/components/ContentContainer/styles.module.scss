@@ -1,4 +1,3 @@
-@import '../../styles/functions/spacing';
 @import '../../styles/mixins/clearfix';
 @import '../../styles/settings/breakpoints.module';
 
@@ -13,9 +12,4 @@
 
 .fullWidth {
   max-width: none;
-}
-
-.gutter {
-  padding-left: spacing(1);
-  padding-right: spacing(1);
 }
