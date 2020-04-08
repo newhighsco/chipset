@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/newhighsco/chipset/compare/v1.6.0...v1.7.0) (2020-04-08)
+
+
+### Features
+
+* add new components ([f7074a9](https://github.com/newhighsco/chipset/commit/f7074a9accf6ba148d1455a922941f9095c436d3))
+
 # [1.6.0](https://github.com/newhighsco/chipset/compare/v1.5.3...v1.6.0) (2020-04-02)
 
 
