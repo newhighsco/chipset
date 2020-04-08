@@ -1,6 +1,5 @@
 import React from 'react'
 import { oneOf, shape, string } from 'prop-types'
-import Element from '../Element'
 import { SmartLink } from '../SmartLink'
 import { Icon } from '../Icon'
 
@@ -12,7 +11,7 @@ const prefix = 'Proudly brought to you by'
 const href = 'http://newhighsco.re'
 
 const CreditLockup = ({ theme, ...rest }) => (
-  <Element className={theme.wrapper} {...rest}>
+  <span className={theme.wrapper} {...rest}>
     <SmartLink
       className={theme.link}
       href={href}
@@ -29,7 +28,7 @@ const CreditLockup = ({ theme, ...rest }) => (
         <small>{name}</small>
       </span>
     </SmartLink>
-  </Element>
+  </span>
 )
 
 CreditLockup.propTypes = {
