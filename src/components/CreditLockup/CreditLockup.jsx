@@ -19,7 +19,7 @@ const CreditLockup = ({ theme, ...rest }) => (
       target="_blank"
       title={title}
     >
-      <Icon theme={{ wrapper: theme.logo }} a11yText={name}>
+      <Icon theme={{ wrapper: theme.logo }} alt={name}>
         <LogoSvg />
       </Icon>
       <span className={theme.text}>

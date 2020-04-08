@@ -3,7 +3,7 @@ import { node, number, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import { VisuallyHidden } from '../VisuallyHidden'
 
-const Icon = ({ height, width, a11yText, children, theme }) => {
+const Icon = ({ height, width, alt, children, theme }) => {
   if (!children) return null
 
   return (
@@ -12,11 +12,11 @@ const Icon = ({ height, width, a11yText, children, theme }) => {
         theme.wrapper,
         (width || height) && theme.customSize
       )}
-      {...(a11yText && {
+      {...(alt && {
         role: 'img',
-        'aria-label': a11yText
+        'aria-label': alt
       })}
-      {...(!a11yText && {
+      {...(!alt && {
         'aria-hidden': 'true'
       })}
       style={{
@@ -25,7 +25,7 @@ const Icon = ({ height, width, a11yText, children, theme }) => {
         lineHeight: height && `${height}px`
       }}
     >
-      {a11yText && <VisuallyHidden>{a11yText}</VisuallyHidden>}
+      {alt && <VisuallyHidden>{alt}</VisuallyHidden>}
       {children}
     </span>
   )
@@ -34,7 +34,7 @@ const Icon = ({ height, width, a11yText, children, theme }) => {
 Icon.propTypes = {
   height: number,
   width: number,
-  a11yText: string,
+  alt: string,
   children: node,
   theme: shape({ wrapper: string, customSize: string })
 }
