@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/newhighsco/chipset/compare/v1.7.0...v1.7.1) (2020-04-08)
+
+
+### Bug Fixes
+
+* moves default gutter size ([d491ccf](https://github.com/newhighsco/chipset/commit/d491ccf1100779a5fbb797526f57f5edc0736838))
+
 # [1.7.0](https://github.com/newhighsco/chipset/compare/v1.6.0...v1.7.0) (2020-04-08)
 
 
