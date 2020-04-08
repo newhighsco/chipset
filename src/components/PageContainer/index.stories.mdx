@@ -25,9 +25,9 @@ The `PageContainer` flexes to fill the unused space within its parent
     <ThemeProvider theme={theme}>
       <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
         <PageContainer
-          is="main"
-          header={<ContentContainer is="header">Header</ContentContainer>}
-          footer={<ContentContainer is="footer">Footer</ContentContainer>}
+          as="main"
+          header={<ContentContainer as="header">Header</ContentContainer>}
+          footer={<ContentContainer as="footer">Footer</ContentContainer>}
         >
           Content
         </PageContainer>
