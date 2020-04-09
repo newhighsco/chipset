@@ -1,3 +1,23 @@
+# [2.0.0](https://github.com/newhighsco/chipset/compare/v1.7.1...v2.0.0) (2020-04-08)
+
+
+### Bug Fixes
+
+* **credit:** removes use of Element ([bafb4a0](https://github.com/newhighsco/chipset/commit/bafb4a04fc005a10696a7a7bfe4b281f678f7164))
+
+
+### Features
+
+* **icon:** replaces `a11yText` with `alt` ([8a055e7](https://github.com/newhighsco/chipset/commit/8a055e7a8ec11e99748940da6fdc89567434a492))
+* renames `is` to `as` ([9174855](https://github.com/newhighsco/chipset/commit/91748550d82146e64048deb64b495cccf150694c))
+* **styles:** restructures base styles ([8a4c36d](https://github.com/newhighsco/chipset/commit/8a4c36d335cdbb23cf2ac8a3ac1e845500cfa9ce))
+
+
+### BREAKING CHANGES
+
+* **icon:** Not backwards compatible
+* Existing use of `is` is not backward compatible
+
 ## [1.7.1](https://github.com/newhighsco/chipset/compare/v1.7.0...v1.7.1) (2020-04-08)
 
 
