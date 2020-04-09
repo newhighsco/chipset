@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/newhighsco/chipset/compare/v2.1.0...v2.1.1) (2020-04-09)
+
+
+### Bug Fixes
+
+* **smartlink:** allows func for setRef ([ca25e90](https://github.com/newhighsco/chipset/commit/ca25e90627769f7424a29485288158501733b296))
+
 # [2.1.0](https://github.com/newhighsco/chipset/compare/v2.0.0...v2.1.0) (2020-04-09)
 
 
