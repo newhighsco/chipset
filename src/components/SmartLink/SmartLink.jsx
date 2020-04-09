@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, object, oneOf, string } from 'prop-types'
+import { func, node, object, oneOf, oneOfType, string } from 'prop-types'
 import { OutboundLink } from 'react-ga'
 import { absoluteUrl } from '../../utils'
 
@@ -55,7 +55,7 @@ SmartLink.propTypes = {
   target: string,
   eventLabel: string,
   type: oneOf(['button', 'reset', 'submit']),
-  setRef: object,
+  setRef: oneOfType([func, object]),
   children: node,
   className: string
 }
