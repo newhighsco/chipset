@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/newhighsco/chipset/compare/v2.0.0...v2.1.0) (2020-04-09)
+
+
+### Features
+
+* **smartlink:** adds wrapper to set ref ([85e4bcf](https://github.com/newhighsco/chipset/commit/85e4bcf07ad8bb07452cc1c45c5be1c5cb079a69))
+
 # [2.0.0](https://github.com/newhighsco/chipset/compare/v1.7.1...v2.0.0) (2020-04-08)
 
 
