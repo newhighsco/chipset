@@ -39,5 +39,4 @@ Icon.propTypes = {
   theme: shape({ wrapper: string, customSize: string })
 }
 
-export default Icon
 export { Icon }

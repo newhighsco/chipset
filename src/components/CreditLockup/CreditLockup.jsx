@@ -37,5 +37,4 @@ CreditLockup.propTypes = {
   theme: shape({ wrapper: string, link: string, logo: string, text: string })
 }
 
-export default CreditLockup
 export { CreditLockup }
