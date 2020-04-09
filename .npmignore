@@ -1,7 +1,11 @@
 .*
 npm-debug.log
 yarn-error.log
+babel.config.js
+jest.config.js
 build
+coverage
 __mocks__
 __tests__
 *.stories.{js,mdx}
+*.spec.*
