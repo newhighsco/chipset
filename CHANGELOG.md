@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/newhighsco/chipset/compare/v2.1.1...v2.1.2) (2020-04-11)
+
+
+### Bug Fixes
+
+* **creditlockup:** fixes alignment ([589c2ee](https://github.com/newhighsco/chipset/commit/589c2eefbfbff47aed7a23a20f8bcaf80738c1d6))
+
 ## [2.1.1](https://github.com/newhighsco/chipset/compare/v2.1.0...v2.1.1) (2020-04-09)
 
 
