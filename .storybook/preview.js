@@ -1,12 +1,14 @@
+import React from 'react'
 import { addParameters } from '@storybook/react'
-import theme from './theme'
-
-import '../src/styles/_chipset-normalize.scss'
+// import { DocsPage } from '@newhighsco/storybook-preset/src/components/DocsPage'
+import theme from '@newhighsco/storybook-preset/src/theme'
 
 addParameters({
+  // docs: {
+  //   page: () => <DocsPage theme={theme} />
+  // },
   options: {
     showRoots: true,
     theme
-  },
-  viewMode: 'docs'
+  }
 })
