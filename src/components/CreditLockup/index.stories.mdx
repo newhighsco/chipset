@@ -17,7 +17,17 @@ The `CreditLockup` provides a link to the New High Score website
 
 ## With theme
 
-<Preview columns={2}>
+<Preview withToolbar>
+  <Story name="With theme">
+    <ThemeProvider theme={theme}>
+      <CreditLockup />
+    </ThemeProvider>
+  </Story>
+</Preview>
+
+### Text direction
+
+<Preview>
   <Story name="Left-to-right">
     <ThemeProvider theme={theme}>
       <CreditLockup />
@@ -29,6 +39,8 @@ The `CreditLockup` provides a link to the New High Score website
     </ThemeProvider>
   </Story>
 </Preview>
+
+### Alignment
 
 <Preview columns={1}>
   <Story name="Left aligned">
