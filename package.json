@@ -5,7 +5,8 @@
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "config": {
-    "title": "Chipset"
+    "title": "Chipset",
+    "logo": "logo.svg"
   },
   "repository": {
     "type": "git",
@@ -46,7 +47,7 @@
     "@newhighsco/eslint-config": "2.0.6",
     "@newhighsco/prettier-config": "2.0.1",
     "@newhighsco/release-config": "1.0.19",
-    "@newhighsco/storybook-preset": "2.0.0",
+    "@newhighsco/storybook-preset": "2.1.1",
     "@newhighsco/stylelint-config": "2.0.6",
     "@storybook/react": "5.3.18",
     "babel-jest": "25.3.0",
