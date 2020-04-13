@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/newhighsco/chipset/compare/v2.1.2...v2.2.0) (2020-04-13)
+
+
+### Features
+
+* **storybook-preset:** adds shared preset ([a0a44a2](https://github.com/newhighsco/chipset/commit/a0a44a23b751653164da67c56ee53de422c90106))
+
 ## [2.1.2](https://github.com/newhighsco/chipset/compare/v2.1.1...v2.1.2) (2020-04-11)
 
 
