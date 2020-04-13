@@ -3,6 +3,9 @@ import { node } from 'prop-types'
 
 import theme from './base.module.scss'
 
+/**
+ * Use `VisuallyHidden` to hide content that you still want screen-readers to access
+ */
 const VisuallyHidden = ({ children }) => {
   if (!children) return null
 

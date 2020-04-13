@@ -3,6 +3,9 @@ import { bool, node, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import { Element } from '../Element'
 
+/**
+ * The `ContentContainer` constrains the width of an item within its parent
+ */
 const ContentContainer = ({ fullWidth, gutter, children, theme, ...rest }) => {
   if (!children) return null
 
