@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/newhighsco/chipset/compare/v2.3.0...v2.3.1) (2020-04-13)
+
+
+### Reverts
+
+* Revert "feat(build): transpile with babel" ([bc9c4d2](https://github.com/newhighsco/chipset/commit/bc9c4d28f67dee2c4f79846fb725ff579925ef70))
+
 # [2.3.0](https://github.com/newhighsco/chipset/compare/v2.2.0...v2.3.0) (2020-04-13)
 
 
