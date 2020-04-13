@@ -5,6 +5,7 @@ babel.config.js
 jest.config.js
 build
 coverage
+src
 __mocks__
 __tests__
 *.stories.{js,mdx}
