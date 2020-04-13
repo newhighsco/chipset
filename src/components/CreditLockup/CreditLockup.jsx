@@ -10,6 +10,9 @@ const title = `${name} - Extending your favourite end-game`
 const prefix = 'Proudly brought to you by'
 const href = 'http://newhighsco.re'
 
+/**
+ * The `CreditLockup` provides a link to the New High Score website
+ */
 const CreditLockup = ({ theme, ...rest }) => (
   <span className={theme.wrapper} {...rest}>
     <SmartLink

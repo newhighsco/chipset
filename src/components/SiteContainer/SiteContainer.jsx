@@ -2,6 +2,9 @@ import React from 'react'
 import { node, shape, string } from 'prop-types'
 import { Element } from '../Element'
 
+/**
+ * The `SiteContainer` stretches to fill the height of the viewport
+ */
 const SiteContainer = ({ children, theme, ...rest }) => (
   <Element className={theme.wrapper} {...rest}>
     {children}

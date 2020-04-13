@@ -1,11 +1,11 @@
 import { create } from '@storybook/theming/create'
-import { config, homepage } from '../package.json'
+import { config, homepage, name } from '../package.json'
 
-const { title } = config
+const { logo, theme, title } = config
 
 export default create({
-  base: 'light',
-  brandTitle: title,
+  base: theme,
+  brandTitle: title || name,
   brandUrl: homepage,
-  brandImage: '/logo.svg'
+  brandImage: logo
 })

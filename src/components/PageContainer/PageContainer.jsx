@@ -2,6 +2,9 @@ import React from 'react'
 import { node, shape, string } from 'prop-types'
 import { ContentContainer } from '../ContentContainer'
 
+/**
+ * The `PageContainer` flexes to fill the unused space within its parent
+ */
 const PageContainer = ({ header, footer, children, theme, ...rest }) => (
   <>
     {header}

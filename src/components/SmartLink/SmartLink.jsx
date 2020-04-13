@@ -3,6 +3,9 @@ import { func, node, object, oneOf, oneOfType, string } from 'prop-types'
 import { OutboundLink } from 'react-ga'
 import { absoluteUrl } from '../../utils'
 
+/**
+ * Use `SmartLink` to automatically render an button, internal anchor, or outbound link
+ */
 const SmartLink = ({
   href,
   target,

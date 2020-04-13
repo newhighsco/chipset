@@ -3,6 +3,9 @@ import { node, number, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import { VisuallyHidden } from '../VisuallyHidden'
 
+/**
+ * Use `Icon` to wrap SVGs
+ */
 const Icon = ({ height, width, alt, children, theme }) => {
   if (!children) return null
 
