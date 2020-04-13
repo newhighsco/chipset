@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/newhighsco/chipset/compare/v2.2.0...v2.3.0) (2020-04-13)
+
+
+### Features
+
+* **build:** transpile with babel ([8e7e47f](https://github.com/newhighsco/chipset/commit/8e7e47fb7f939e910fa860dab8d99b187693f10a)), closes [#36](https://github.com/newhighsco/chipset/issues/36)
+
 # [2.2.0](https://github.com/newhighsco/chipset/compare/v2.1.2...v2.2.0) (2020-04-13)
 
 
