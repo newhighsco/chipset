@@ -1,7 +1,7 @@
 import React from 'react'
 import { addDecorator, addParameters } from '@storybook/react'
 import { ThemeProvider } from '../src/providers'
-import componentTheme from '../src/__mocks__/theme'
+import componentTheme from '../__mocks__/theme'
 import storybookTheme from './theme'
 
 import '../src/styles/_chipset-normalize.scss'

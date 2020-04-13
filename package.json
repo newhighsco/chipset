@@ -16,11 +16,15 @@
   "bugs": {
     "url": "https://github.com/newhighsco/chipset/issues"
   },
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "start-storybook --port 9001 --static-dir .storybook/static --docs --ci --quiet",
-    "prebuild": "rm -rf build",
-    "build": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
+    "prepare": "npm run build:js",
+    "prebuild:js": "rm -rf dist",
+    "prebuild:storybook": "rm -rf build",
+    "build": "npm-run-all --parallel build:*",
+    "build:js": "babel src --out-dir dist --ignore '**/__mocks__','**/*.spec.js','*.stories.js' --copy-files",
+    "build:storybook": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
     "pretest": "npm run lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
@@ -37,6 +41,7 @@
     "react-ga": "2.7.0"
   },
   "devDependencies": {
+    "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
     "@babel/preset-env": "7.9.5",
     "@babel/preset-react": "7.9.4",
