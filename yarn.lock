@@ -1599,16 +1599,16 @@
     sass "1.26.3"
     sass-loader "8.0.2"
 
-"@newhighsco/stylelint-config@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.6.tgz#3fab44a0f534257bc37ff97311bd5437cdc1318c"
-  integrity sha512-KVw6kMyb+u841nA5Zosh04mNXIRvjlqJEQS0E2aSux1DmgJyQwsCrFd0sMWj7KU/RzfVyxfJBhn8Wos2U8MI5A==
+"@newhighsco/stylelint-config@2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.7.tgz#4855c0ae6ae9aa78bc90ad7d84546bae4b046f14"
+  integrity sha512-OkbZYFcWckDPBT+USKUEJ6pMLMPGGvlX7KjF9SjI8c+NwJ5BZgGPYPild9jLUUUcs072f9scDVC7IR+CDNhFOA==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.1"
     stylelint-config-standard "20.0.0"
     stylelint-prettier "1.1.2"
-    stylelint-scss "3.16.1"
+    stylelint-scss "3.17.0"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -14108,10 +14108,10 @@ stylelint-prettier@1.1.2:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@3.16.1:
-  version "3.16.1"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.16.1.tgz#4164558f2113663e54101175588603e014cd0b9c"
-  integrity sha512-ATApYyUzIuwuppReVdAgjpJ77OXRQacV6Ff3vvYaT9z993ZOsSTEN+urdXsk9V28yWCLiAzcNjNZe01aw0VGBg==
+stylelint-scss@3.17.0:
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.17.0.tgz#20480ec52d0acf6fadde54e655f44a858af380da"
+  integrity sha512-zY6fLHailK3++UEtGOwa5BKeWemLOXUATRlV7H056Z+xCT224/TaLXR5x2zjPXFMEf89uqwv15yM9zhbwm/zDw==
   dependencies:
     lodash "^4.17.15"
     postcss-media-query-parser "^0.2.3"
