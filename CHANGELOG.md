@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/newhighsco/chipset/compare/v2.5.0...v2.5.1) (2020-04-15)
+
+
+### Bug Fixes
+
+* adds missing Backdrop export ([a13fa96](https://github.com/newhighsco/chipset/commit/a13fa960378b4f4ce31645059a485648626a2bf8))
+
 # [2.5.0](https://github.com/newhighsco/chipset/compare/v2.4.1...v2.5.0) (2020-04-15)
 
 
