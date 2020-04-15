@@ -1535,10 +1535,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@newhighsco/browserslist-config@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.0.tgz#0e2f178ea49305d389df030e0b00d914bcd1d674"
-  integrity sha512-xdEl1Jwj2ra6GTX61IdTzWI9PQ7EPhMd/yzGA/rbhxURpvkkTEdTzrDBPMY+M1LeWqTLcVod9IvRG18QKA81Bw==
+"@newhighsco/browserslist-config@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.1.tgz#63cc30fd5651e14eda9c38c6a512102c9f13172e"
+  integrity sha512-GW5dKcdPu1eJ5jBCRY1qZNziy6JHuRX5ph8nIgiEB/hDnvfJUKtRJnD8Vgsepy2IALicB6t+WPfv1pwvHE7Yfw==
 
 "@newhighsco/commitlint-config@1.0.0":
   version "1.0.0"
