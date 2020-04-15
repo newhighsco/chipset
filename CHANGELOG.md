@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/newhighsco/chipset/compare/v2.3.1...v2.4.0) (2020-04-15)
+
+
+### Features
+
+* adds Landmark component ([b741b17](https://github.com/newhighsco/chipset/commit/b741b17f9706b53378126370ad4e03dc539259d2))
+
 ## [2.3.1](https://github.com/newhighsco/chipset/compare/v2.3.0...v2.3.1) (2020-04-13)
 
 
