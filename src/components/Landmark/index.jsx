@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, string } from 'prop-types'
+import { node } from 'prop-types'
 import { VisuallyHidden } from '../VisuallyHidden'
 
 import theme from './base.module.scss'
@@ -7,10 +7,10 @@ import theme from './base.module.scss'
 /**
  * Use `Landmark` to create visually hidden anchors
  */
-const Landmark = ({ id, children }) => (
+const Landmark = ({ children, ...rest }) => (
   <>
     {/* eslint-disable jsx-a11y/anchor-is-valid */}
-    <a id={id} className={theme.wrapper}>
+    <a className={theme.wrapper} {...rest}>
       {children && <VisuallyHidden>{children}</VisuallyHidden>}
     </a>
     {/* eslint-enable jsx-a11y/anchor-is-valid */}
@@ -18,7 +18,6 @@ const Landmark = ({ id, children }) => (
 )
 
 Landmark.propTypes = {
-  id: string,
   children: node
 }
 
