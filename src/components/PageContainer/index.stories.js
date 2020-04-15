@@ -13,6 +13,14 @@ export const basic = () => (
   </PageContainer>
 )
 
+basic.story = {
+  parameters: {
+    docs: {
+      disable: true
+    }
+  }
+}
+
 export const withHeaderAndFooter = () => (
   <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
     <PageContainer
