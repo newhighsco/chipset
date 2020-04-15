@@ -1,4 +1,5 @@
 export { default as ContentContainer } from './ContentContainer'
+export { default as Backdrop } from './Backdrop'
 export { default as CreditLockup } from './CreditLockup'
 export { default as Element } from './Element'
 export { default as Icon } from './Icon'
