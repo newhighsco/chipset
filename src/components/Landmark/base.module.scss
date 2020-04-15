@@ -1,0 +1,6 @@
+.wrapper {
+  &::after {
+    content: '';
+    display: block;
+  }
+}
