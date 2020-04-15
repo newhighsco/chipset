@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/newhighsco/chipset/compare/v2.4.1...v2.5.0) (2020-04-15)
+
+
+### Features
+
+* **components:** adds Backdrop component ([90748fe](https://github.com/newhighsco/chipset/commit/90748fe756571eb04e6240297d8f68f181c4ce2d))
+
 ## [2.4.1](https://github.com/newhighsco/chipset/compare/v2.4.0...v2.4.1) (2020-04-15)
 
 
