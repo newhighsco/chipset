@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/newhighsco/chipset/compare/v2.4.0...v2.4.1) (2020-04-15)
+
+
+### Bug Fixes
+
+* **landmark:** exports component ([5f72408](https://github.com/newhighsco/chipset/commit/5f72408e80565b46e17631d2c8ef0a3365936e62))
+
 # [2.4.0](https://github.com/newhighsco/chipset/compare/v2.3.1...v2.4.0) (2020-04-15)
 
 
