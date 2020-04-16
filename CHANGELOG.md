@@ -1,3 +1,11 @@
+# [2.6.0](https://github.com/newhighsco/chipset/compare/v2.5.1...v2.6.0) (2020-04-16)
+
+
+### Features
+
+* **components:** adds List component ([dbadcbe](https://github.com/newhighsco/chipset/commit/dbadcbe3fd9e5b5563da595e93b2a947c7a43abe))
+* **sass:** migrates to Dart Sass and creates friendlier sass entry points ([f023c51](https://github.com/newhighsco/chipset/commit/f023c519ec3ab39eaee59c3782b686c2cf7763cb))
+
 ## [2.5.1](https://github.com/newhighsco/chipset/compare/v2.5.0...v2.5.1) (2020-04-15)
 
 
