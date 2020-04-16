@@ -1,9 +1,18 @@
-import { Meta } from '@storybook/addon-docs/blocks'
-import { CreditLockup } from '.'
+import { Meta, Title } from '@storybook/addon-docs/blocks'
+import { CreditLockup, SmartLink } from '.'
+import { config } from '../package.json'
+
+import LogoSvg from '../.storybook/static/logo.svg'
 
 <Meta title="Intro/Chipset" />
 
-# ⚡️ Chipset [![NPM version](https://img.shields.io/npm/v/@newhighsco/chipset.svg)](https://www.npmjs.com/package/@newhighsco/chipset)
+<Title>
+  <LogoSvg />{' '}
+  <strong>{config.title}</strong>{' '}
+  <SmartLink href="https://npmjs.com/@newhighsco/chipset" target="_blank">
+    <img src="https://img.shields.io/npm/v/@newhighsco/chipset.svg" alt="NPM version" />
+  </SmartLink>
+</Title>
 
 Shareable, theme-able component library
 
@@ -12,3 +21,5 @@ Shareable, theme-able component library
 <p>
   <CreditLockup />
 </p>
+
+<style dangerouslySetInnerHTML={{ __html: '.sbdocs-title * { vertical-align: middle; }'}} />
