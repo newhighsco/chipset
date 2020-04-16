@@ -1,0 +1,17 @@
+$mobile: 300px !default;
+$mobileLandscape: 400px !default;
+$tablet: 550px !default;
+$tabletLandscape: 800px !default;
+$desktop: 960px !default;
+$desktopMedium: 1280px !default;
+$desktopLarge: 1600px !default;
+
+:export {
+  mobile: $mobile;
+  mobileLandscape: $mobileLandscape;
+  tablet: $tablet;
+  tabletLandscape: $tabletLandscape;
+  desktop: $desktop;
+  desktopMedium: $desktopMedium;
+  desktopLarge: $desktopLarge;
+}

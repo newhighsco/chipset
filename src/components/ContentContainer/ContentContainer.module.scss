@@ -1,0 +1,15 @@
+@use '../../../styles/mixins';
+@use '../../../styles/settings/breakpoints.module';
+
+.wrapper {
+  @include mixins.clearfix;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: breakpoints.$desktopLarge;
+  width: 100%;
+}
+
+.fullWidth {
+  max-width: none;
+}

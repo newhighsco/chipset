@@ -2,7 +2,7 @@ import React from 'react'
 import { node } from 'prop-types'
 import { VisuallyHidden } from '../VisuallyHidden'
 
-import theme from './base.module.scss'
+import theme from './index.module.scss'
 
 /**
  * Use `Landmark` to create visually hidden anchors

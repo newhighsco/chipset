@@ -6,11 +6,13 @@ import { Element } from '../Element'
 describe('Components/Backdrop', () => {
   it('should render nothing by default', () => {
     const wrapper = shallow(<Backdrop />)
+
     expect(wrapper.type()).toEqual(null)
   })
 
   it("should render a <div /> when 'image' is set", () => {
     const wrapper = shallow(<Backdrop image="https://example.com/image.png" />)
+
     expect(wrapper.type()).toEqual(Element)
     expect(wrapper.prop('as')).toEqual(undefined)
     expect(wrapper.prop('style')).toEqual({
@@ -20,6 +22,7 @@ describe('Components/Backdrop', () => {
 
   it("should render a <video /> when 'video' is set", () => {
     const wrapper = shallow(<Backdrop video="https://example.com/image.mp4" />)
+
     expect(wrapper.type()).toEqual(Element)
     expect(wrapper.prop('style')).toEqual(undefined)
     expect(wrapper.prop('as')).toEqual('video')

@@ -1,8 +1,8 @@
-@import '../settings/colors';
-@import '../settings/fonts';
+@use '../settings/colors';
+@use '../settings/fonts';
 
 .wrapper {
-  background-color: $color-lemon;
-  font-family: $font-body;
+  background-color: colors.$lemon;
+  font-family: fonts.$body;
   padding: 1em;
 }

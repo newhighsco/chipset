@@ -1,13 +1,14 @@
 import React from 'react'
 import { string } from 'prop-types'
+import classNames from 'classnames'
 import Element from '../Element'
 
-import theme from './base.module.scss'
+import theme from './index.module.scss'
 
 /**
  * Use `Backdrop` to add full-width image or video background to am element
  */
-const Backdrop = ({ image, video, ...rest }) => {
+const Backdrop = ({ image, video, className, ...rest }) => {
   if (!image && !video) return null
 
   const props = {
@@ -24,12 +25,19 @@ const Backdrop = ({ image, video, ...rest }) => {
     })
   }
 
-  return <Element className={theme.wrapper} {...props} {...rest} />
+  return (
+    <Element
+      className={classNames(theme.wrapper, className)}
+      {...props}
+      {...rest}
+    />
+  )
 }
 
 Backdrop.propTypes = {
   image: string,
-  video: string
+  video: string,
+  className: string
 }
 
 export default Backdrop

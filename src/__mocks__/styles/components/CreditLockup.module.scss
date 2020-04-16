@@ -1,6 +1,5 @@
-@import '../settings/colors';
-@import '../settings/fonts';
+@use '../settings/fonts';
 
 .wrapper {
-  font-family: $font-body;
+  font-family: fonts.$body;
 }

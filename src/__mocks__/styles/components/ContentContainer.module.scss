@@ -1,10 +1,10 @@
-@import '../../../styles/functions/spacing';
-@import '../settings/colors';
-@import '../settings/fonts';
+@use '../../../../styles/functions';
+@use '../settings/colors';
+@use '../settings/fonts';
 
 .wrapper {
-  background-color: $color-yellow;
-  font-family: $font-body;
+  background-color: colors.$yellow;
+  font-family: fonts.$body;
 
   & + & {
     margin-top: 1em;
@@ -12,11 +12,11 @@
 }
 
 .content {
-  background-color: $color-lemon;
+  background-color: colors.$lemon;
   padding: 1em;
 }
 
 .gutter {
-  padding-left: spacing(1);
-  padding-right: spacing(1);
+  padding-left: functions.spacing(1);
+  padding-right: functions.spacing(1);
 }

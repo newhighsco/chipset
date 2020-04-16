@@ -1,4 +1,4 @@
-@import '../../styles/functions/spacing';
+@use '../../../styles/functions';
 
 .wrapper {
   display: block;
@@ -17,7 +17,7 @@
 }
 
 .text {
-  $credit-content-margin: spacing(1);
+  $credit-content-margin: functions.spacing(1);
 
   display: inline-block;
   margin-left: $credit-content-margin;

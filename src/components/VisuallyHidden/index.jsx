@@ -1,7 +1,7 @@
 import React from 'react'
 import { node } from 'prop-types'
 
-import theme from './base.module.scss'
+import theme from './index.module.scss'
 
 /**
  * Use `VisuallyHidden` to hide content that you still want screen-readers to access
