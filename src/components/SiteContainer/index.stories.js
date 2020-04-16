@@ -6,4 +6,18 @@ export default {
   component: SiteContainer
 }
 
-export const basic = () => <SiteContainer>Content</SiteContainer>
+export const source = () => <SiteContainer>Content</SiteContainer>
+
+source.story = {
+  parameters: {
+    docs: {
+      disable: true
+    }
+  }
+}
+
+export const example = () => <SiteContainer>Content</SiteContainer>
+
+example.story = {
+  name: ' '
+}

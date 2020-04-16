@@ -11,4 +11,4 @@ export default {
   }
 }
 
-export const basic = () => <SmartLink>Content</SmartLink>
+export const source = () => <SmartLink>Content</SmartLink>

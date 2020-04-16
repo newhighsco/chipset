@@ -11,7 +11,7 @@ export default {
   }
 }
 
-export const basic = () => (
+export const source = () => (
   <Icon>
     <svg />
   </Icon>

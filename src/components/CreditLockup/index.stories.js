@@ -6,7 +6,15 @@ export default {
   component: CreditLockup
 }
 
-export const basic = () => <CreditLockup />
+export const source = () => <CreditLockup />
+
+source.story = {
+  parameters: {
+    docs: {
+      disable: true
+    }
+  }
+}
 
 export const textDirection = () => (
   <>

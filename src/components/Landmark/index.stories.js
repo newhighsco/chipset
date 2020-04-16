@@ -11,4 +11,4 @@ export default {
   }
 }
 
-export const basic = () => <Landmark>Content</Landmark>
+export const source = () => <Landmark>Content</Landmark>

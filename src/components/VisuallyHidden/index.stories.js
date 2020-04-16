@@ -11,4 +11,4 @@ export default {
   }
 }
 
-export const basic = () => <VisuallyHidden>Content</VisuallyHidden>
+export const source = () => <VisuallyHidden>Content</VisuallyHidden>

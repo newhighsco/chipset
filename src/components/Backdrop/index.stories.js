@@ -6,14 +6,14 @@ export default {
   component: Backdrop
 }
 
-export const basic = () => (
+export const source = () => (
   <Backdrop
     image="https://example.com/image.png"
     video="https://example.com/video.mp4"
   />
 )
 
-basic.story = {
+source.story = {
   parameters: {
     docs: {
       disable: true

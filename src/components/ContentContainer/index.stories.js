@@ -6,18 +6,48 @@ export default {
   component: ContentContainer
 }
 
-export const basic = () => <ContentContainer>Content</ContentContainer>
+export const source = () => <ContentContainer>Content</ContentContainer>
 
-export const withGutter = () => (
-  <ContentContainer gutter>Content with gutter</ContentContainer>
+source.story = {
+  parameters: {
+    docs: {
+      disable: true
+    }
+  }
+}
+
+export const restrictedWidth = () => (
+  <ContentContainer>Restricted-width content</ContentContainer>
 )
+
+restrictedWidth.story = {
+  name: 'Restricted-width'
+}
+
+export const restrictedWidthWithGutter = () => (
+  <ContentContainer gutter>
+    Restricted-width content with gutter
+  </ContentContainer>
+)
+
+restrictedWidthWithGutter.story = {
+  name: 'Restricted-width with gutter'
+}
 
 export const fullWidth = () => (
-  <ContentContainer fullWidth>Full width content</ContentContainer>
+  <ContentContainer fullWidth>Full-width content</ContentContainer>
 )
+
+fullWidth.story = {
+  name: 'Full-width'
+}
 
 export const fullWidthWithGutter = () => (
   <ContentContainer fullWidth gutter>
-    Full width content with gutter
+    Full-width content with gutter
   </ContentContainer>
 )
+
+fullWidthWithGutter.story = {
+  name: 'Full-width with gutter'
+}

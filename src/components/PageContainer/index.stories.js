@@ -7,13 +7,13 @@ export default {
   component: PageContainer
 }
 
-export const basic = () => (
+export const source = () => (
   <PageContainer header={<header />} footer={<footer />}>
     Content
   </PageContainer>
 )
 
-basic.story = {
+source.story = {
   parameters: {
     docs: {
       disable: true
@@ -21,7 +21,7 @@ basic.story = {
   }
 }
 
-export const withHeaderAndFooter = () => (
+export const example = () => (
   <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
     <PageContainer
       as="main"
@@ -32,3 +32,7 @@ export const withHeaderAndFooter = () => (
     </PageContainer>
   </div>
 )
+
+example.story = {
+  name: ' '
+}
