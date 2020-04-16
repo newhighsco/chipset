@@ -1,0 +1,31 @@
+@use '../../../styles/functions';
+
+.wrapper {
+  > li {
+    margin-left: functions.spacing(1);
+  }
+}
+
+.unstyled {
+  margin-bottom: 0;
+
+  > li {
+    list-style: none;
+    margin-left: 0;
+  }
+}
+
+.inline {
+  > li {
+    display: inline-block;
+    margin-left: 0;
+  }
+}
+
+.commaSeparated {
+  > li {
+    &:not(:last-child)::after {
+      content: ',\00a0';
+    }
+  }
+}
