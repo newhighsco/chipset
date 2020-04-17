@@ -1,3 +1,15 @@
+# [2.8.0](https://github.com/newhighsco/chipset/compare/v2.7.0...v2.8.0) (2020-04-17)
+
+
+### Bug Fixes
+
+* **backdrop:** change to fixed positioning ([152c7af](https://github.com/newhighsco/chipset/commit/152c7af83959f31e3fb4138f6ff2dbbfcebcd322))
+
+
+### Features
+
+* **sitecontainer:** determine correct height based on window size ([c67e312](https://github.com/newhighsco/chipset/commit/c67e312924b7d7ea9fc1a2be009186ca53158c0b))
+
 # [2.7.0](https://github.com/newhighsco/chipset/compare/v2.6.0...v2.7.0) (2020-04-17)
 
 
