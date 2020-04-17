@@ -1,5 +1,5 @@
 @use '../../../styles/mixins';
-@use '../../../styles/settings/breakpoints.module';
+@use '../../../styles/breakpoints.module';
 
 .wrapper {
   @include mixins.clearfix;
