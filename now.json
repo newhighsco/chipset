@@ -10,8 +10,10 @@
     },
     {
       "src": "/.*",
-      "status": 404,
-      "dest": "/"
+      "status": 308,
+      "headers": {
+        "Location": "/"
+      }
     }
   ]
 }
