@@ -1,3 +1,15 @@
+# [2.7.0](https://github.com/newhighsco/chipset/compare/v2.6.0...v2.7.0) (2020-04-17)
+
+
+### Bug Fixes
+
+* **breakpoints:** moves to correct path ([f1623e5](https://github.com/newhighsco/chipset/commit/f1623e538f61244ac68a12400993856243e82fd6))
+
+
+### Features
+
+* **styles:** adds useful functions and mixins ([a4217c2](https://github.com/newhighsco/chipset/commit/a4217c242574532ed1d6819e89f967de4be8b72d))
+
 # [2.6.0](https://github.com/newhighsco/chipset/compare/v2.5.1...v2.6.0) (2020-04-16)
 
 
