@@ -1584,10 +1584,10 @@
     "@semantic-release/npm" "7.0.5"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.2.1.tgz#47aa0f0191cc06cba3dd04d74bb19470badb682a"
-  integrity sha512-i9wg/DQcF6nJn6FHB7qRgslon8+DZ4FWr0Ee/G9pvxHJcYUad8ehPwCRjNiImD/ruhskpLvfwoVBC0uFcfLKzg==
+"@newhighsco/storybook-preset@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.3.0.tgz#1a8d9aec60ea9cb8c82c8655b5cf7bbcd1401084"
+  integrity sha512-B9SMDDQ/dgAqVvm8qa2lgRMC7a+vq1hqvNn95kOCEK/QcfQTUiIVysve6h220kMOz0yTAp1VutIRx9DI/5PBQA==
   dependencies:
     "@storybook/addon-actions" "5.3.18"
     "@storybook/addon-docs" "5.3.18"
