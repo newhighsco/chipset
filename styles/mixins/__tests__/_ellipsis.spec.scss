@@ -1,0 +1,65 @@
+@use '../ellipsis' as *;
+
+@import 'true';
+
+@include test-module('ellipsis()') {
+  @include test('should output default ellipsis styles') {
+    @include assert {
+      @include output {
+        .element {
+          @include ellipsis();
+        }
+      }
+
+      @include expect {
+        .element {
+          display: block;
+          max-width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  @include test('should allow custom display type') {
+    @include assert {
+      @include output {
+        .element {
+          @include ellipsis($display: inline-block);
+        }
+      }
+
+      @include expect {
+        .element {
+          display: inline-block;
+          max-width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  @include test('should allow custom max-width') {
+    @include assert {
+      @include output {
+        .element {
+          @include ellipsis($width: 50%);
+        }
+      }
+
+      @include expect {
+        .element {
+          display: block;
+          max-width: 50%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

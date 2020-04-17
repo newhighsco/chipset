@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+/// Adds an ellipsis to overflowing text.
+///
+/// @param {number} $width [100%]
+///   Adds a `max-width` to the element being truncated.
+///
+/// @param {string} $display [block]
+///   Gives the element custom display type.
+///
+/// @example scss
+///   .element {
+///     @include ellipsis();
+///   }
+///
+///   // CSS Output
+///   .element {
+///     display: block;
+///     max-width: 100%;
+///     overflow: hidden;
+///     text-overflow: ellipsis;
+///     white-space: nowrap;
+///   }
+
+@mixin ellipsis($display: block, $width: 100%) {
+  display: $display;
+  max-width: $width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,18 @@
+@use '../spacing' as *;
+
+@import 'true';
+
+@include test-module('spacing()') {
+  @include test('should output expected spacing value') {
+    @include assert-equal(spacing(1), 8px);
+    @include assert-equal(spacing(2), 16px);
+  }
+
+  @include test('should output as unitless when passed a zero value') {
+    @include assert-equal(spacing(0), 0);
+  }
+
+  @include test('should handle odd values') {
+    @include assert-equal(spacing(1px), 8px);
+  }
+}

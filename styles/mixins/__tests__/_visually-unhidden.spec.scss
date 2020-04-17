@@ -1,0 +1,26 @@
+@use '../visually-unhidden' as *;
+
+@import 'true';
+
+@include test-module('visually-unhidden()') {
+  @include test('should output expected styles') {
+    @include assert {
+      @include output {
+        .element {
+          @include visually-unhidden();
+        }
+      }
+
+      @include expect {
+        .element {
+          position: static !important;
+          height: auto !important;
+          width: 1px !important;
+          margin: 0 !important;
+          overflow: visible !important;
+          clip: auto !important;
+        }
+      }
+    }
+  }
+}

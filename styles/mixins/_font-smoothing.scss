@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+/// Adds prefixed font-smoothing properties.
+/// Before using, consider if [legibility will be harmed](http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/)
+///
+/// @example scss
+///   .element {
+///     @include font-smoothing;
+///   }
+///
+///   // CSS Output
+///   .element,
+///     -webkit-font-smoothing: antialiased;
+///     -moz-osx-font-smoothing: grayscale;
+///   }
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

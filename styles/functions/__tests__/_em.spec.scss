@@ -1,0 +1,21 @@
+@use '../em' as *;
+
+@import 'true';
+
+@include test-module('em()') {
+  @include test('should convert number to em') {
+    @include assert-equal(em(16), 1em);
+  }
+
+  @include test('should convert number to em with optional base value') {
+    @include assert-equal(em(16, 32), 0.5em);
+  }
+
+  @include test('should handle `px` unit types') {
+    @include assert-equal(em(16px, 32px), 0.5em);
+  }
+
+  @include test('should output as unitless when passed a zero value') {
+    @include assert-equal(em(0), 0);
+  }
+}

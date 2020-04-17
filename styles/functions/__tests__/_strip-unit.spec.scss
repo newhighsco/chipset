@@ -1,0 +1,18 @@
+@use '../strip-unit' as *;
+
+@import 'true';
+
+@include test-module('strip-unit()') {
+  @include test('should output expected unitless value') {
+    @include assert-equal(strip-unit(10px), 10);
+    @include assert-equal(strip-unit(10em), 10);
+    @include assert-equal(strip-unit(10%), 10);
+  }
+
+  @include test('should handle odd values') {
+    @include assert-equal(strip-unit(1.5px), 1.5);
+    @include assert-equal(strip-unit(10), 10);
+    @include assert-equal(strip-unit(0%), 0);
+    @include assert-equal(strip-unit(0), 0);
+  }
+}

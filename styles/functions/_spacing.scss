@@ -1,9 +1,11 @@
-$base-unit: 8 !default;
+@use './strip-unit' as *;
+
+$spacing-base-unit: 8 !default;
 
 @function spacing($i) {
   @if ($i == 0) {
     @return 0;
   }
 
-  @return $i * $base-unit * 1px;
+  @return strip-unit($i) * strip-unit($spacing-base-unit) * 1px;
 }

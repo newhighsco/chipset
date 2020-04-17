@@ -1,0 +1,184 @@
+@use '../mq' as *;
+@use '../../functions/em' as *;
+
+@import 'true';
+
+@include test-module('mq()') {
+  @include test('should output min-width by default') {
+    @include assert {
+      @include output {
+        @include mq(1000px) {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (min-width: 1000px) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+  }
+
+  @include test('should output correct values from units/mixins/variables') {
+    @include assert {
+      @include output {
+        @include mq(2em) {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (min-width: 2em) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+
+    @include assert {
+      @include output {
+        @include mq(em(64, 16)) {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (min-width: 4em) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+
+    @include assert {
+      @include output {
+        $mq-example-value: em(80, 16);
+
+        @include mq($mq-example-value) {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (min-width: 5em) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+  }
+
+  @include test('should output max-width if passed as type') {
+    @include assert {
+      @include output {
+        @include mq($max: 1000px) {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (max-width: 1000px) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+  }
+
+  @include test('should output as height if required') {
+    @include assert {
+      @include output {
+        @include mq(1000px, $height: true) {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (min-height: 1000px) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+  }
+
+  @include test('should output custom media types') {
+    @include assert {
+      @include output {
+        @include mq(1000px, $media: print) {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media print and (min-width: 1000px) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+  }
+
+  @include test('should output only media features') {
+    @include assert {
+      @include output {
+        @include mq($and: '(orientation: landscape)') {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (orientation: landscape) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+  }
+
+  @include test('should output additional media features') {
+    @include assert {
+      @include output {
+        @include mq(1000px, $and: '(orientation: landscape)') {
+          p {
+            color: lime;
+          }
+        }
+      }
+
+      @include expect {
+        @media all and (min-width: 1000px) and (orientation: landscape) {
+          p {
+            color: lime;
+          }
+        }
+      }
+    }
+  }
+}

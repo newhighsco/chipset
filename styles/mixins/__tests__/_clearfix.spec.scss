@@ -1,0 +1,27 @@
+@use '../clearfix' as *;
+
+@import 'true';
+
+@include test-module('clearfix()') {
+  @include test('should output expected styles') {
+    @include assert {
+      @include output {
+        .element {
+          @include clearfix;
+        }
+      }
+
+      @include expect {
+        .element::before,
+        .element::after {
+          content: '';
+          display: table;
+        }
+
+        .element::after {
+          clear: both;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@use '../font-smoothing' as *;
+
+@import 'true';
+
+@include test-module('font-smoothing()') {
+  @include test('should output expected styles') {
+    @include assert {
+      @include output {
+        .element {
+          @include font-smoothing();
+        }
+      }
+
+      @include expect {
+        .element {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+      }
+    }
+  }
+}

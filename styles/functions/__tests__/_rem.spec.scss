@@ -1,0 +1,21 @@
+@use '../rem' as *;
+
+@import 'true';
+
+@include test-module('rem()') {
+  @include test('should convert number to rem') {
+    @include assert-equal(rem(16), 1rem);
+  }
+
+  @include test('should convert number to rem with optional base value') {
+    @include assert-equal(rem(16, 32), 0.5rem);
+  }
+
+  @include test('should handle `px` unit types') {
+    @include assert-equal(rem(16px, 32px), 0.5rem);
+  }
+
+  @include test('should output as unitless when passed a zero value') {
+    @include assert-equal(rem(0), 0);
+  }
+}

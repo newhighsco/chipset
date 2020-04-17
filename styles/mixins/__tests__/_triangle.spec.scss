@@ -1,0 +1,177 @@
+@use '../triangle' as *;
+
+@import 'true';
+
+@include test-module('triangle()') {
+  @include test('should output defualt triangle with no parameters passed') {
+    @include assert {
+      @include output {
+        .element {
+          @include triangle();
+        }
+      }
+
+      @include expect {
+        .element {
+          width: 0;
+          height: 0;
+          border-right: 1em solid transparent;
+          border-bottom: 1em solid;
+          border-left: 1em solid transparent;
+        }
+      }
+    }
+  }
+
+  @include test('should output in any any of 8 different directions') {
+    @include assert {
+      @include output {
+        .element--up-left {
+          @include triangle('up-left');
+        }
+
+        .element--up {
+          @include triangle('up');
+        }
+
+        .element--up-right {
+          @include triangle('up-right');
+        }
+
+        .element--right {
+          @include triangle('right');
+        }
+
+        .element--down-right {
+          @include triangle('down-right');
+        }
+
+        .element--down {
+          @include triangle('down');
+        }
+
+        .element--down-left {
+          @include triangle('down-left');
+        }
+
+        .element--left {
+          @include triangle('left');
+        }
+      }
+
+      @include expect {
+        .element--up-left {
+          width: 0;
+          height: 0;
+          border-top: 0.5em solid;
+          border-right: 0.5em solid transparent;
+          border-bottom: 0.5em solid transparent;
+          border-left: 0.5em solid;
+        }
+
+        .element--up {
+          width: 0;
+          height: 0;
+          border-right: 1em solid transparent;
+          border-bottom: 1em solid;
+          border-left: 1em solid transparent;
+        }
+
+        .element--up-right {
+          width: 0;
+          height: 0;
+          border-top: 0.5em solid;
+          border-right: 0.5em solid;
+          border-bottom: 0.5em solid transparent;
+          border-left: 0.5em solid transparent;
+        }
+
+        .element--right {
+          width: 0;
+          height: 0;
+          border-top: 1em solid transparent;
+          border-bottom: 1em solid transparent;
+          border-left: 1em solid;
+        }
+
+        .element--down-right {
+          width: 0;
+          height: 0;
+          border-top: 0.5em solid transparent;
+          border-right: 0.5em solid;
+          border-bottom: 0.5em solid;
+          border-left: 0.5em solid transparent;
+        }
+
+        .element--down {
+          width: 0;
+          height: 0;
+          border-top: 1em solid;
+          border-right: 1em solid transparent;
+          border-left: 1em solid transparent;
+        }
+
+        .element--down-left {
+          width: 0;
+          height: 0;
+          border-top: 0.5em solid transparent;
+          border-right: 0.5em solid transparent;
+          border-bottom: 0.5em solid;
+          border-left: 0.5em solid;
+        }
+
+        .element--left {
+          width: 0;
+          height: 0;
+          border-top: 1em solid transparent;
+          border-right: 1em solid;
+          border-bottom: 1em solid transparent;
+        }
+      }
+    }
+  }
+
+  @include test('should output a custom triangle with width and/or color') {
+    @include assert {
+      @include output {
+        .element1 {
+          @include triangle('right', 6px, #f00);
+        }
+
+        .element2 {
+          @include triangle('right', $color: #00f);
+        }
+
+        .element3 {
+          @include triangle('right', 10px);
+        }
+      }
+
+      @include expect {
+        .element1 {
+          width: 0;
+          height: 0;
+          border-top: 6px solid transparent;
+          border-bottom: 6px solid transparent;
+          border-left: 6px solid #f00;
+        }
+
+        .element2 {
+          width: 0;
+          height: 0;
+          border-top: 1em solid transparent;
+          border-bottom: 1em solid transparent;
+          border-left: 1em solid #00f;
+        }
+
+        .element3 {
+          width: 0;
+          height: 0;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          border-left: 10px solid;
+        }
+      }
+    }
+  }
+}
