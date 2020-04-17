@@ -3,7 +3,9 @@ npm-debug.log
 yarn-error.log
 babel.config.js
 jest.config.js
+now.json
 build
+config
 coverage
 __mocks__
 __tests__
