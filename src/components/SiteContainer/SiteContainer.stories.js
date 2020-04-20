@@ -11,7 +11,8 @@ export const source = () => <SiteContainer>Content</SiteContainer>
 source.story = {
   parameters: {
     docs: {
-      disable: true
+      disable: true,
+      excludedPropTypes: ['windowHeight']
     }
   }
 }
