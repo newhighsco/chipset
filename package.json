@@ -48,7 +48,7 @@
     "@newhighsco/prettier-config": "2.0.2",
     "@newhighsco/release-config": "1.0.20",
     "@newhighsco/storybook-preset": "2.3.0",
-    "@newhighsco/stylelint-config": "2.0.8",
+    "@newhighsco/stylelint-config": "2.0.9",
     "@storybook/react": "5.3.18",
     "babel-jest": "25.4.0",
     "babel-loader": "8.1.0",
