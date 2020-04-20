@@ -4,7 +4,7 @@ import { ThemeProvider } from '../src/providers'
 import componentTheme from '../src/__mocks__/theme'
 import storybookTheme from './theme'
 
-import '../styles/_normalize.scss'
+import './preview.scss'
 
 addDecorator(storyFn => (
   <ThemeProvider theme={componentTheme}>{storyFn()}</ThemeProvider>

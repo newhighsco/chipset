@@ -1,0 +1,7 @@
+@use '../styles/normalize';
+
+:global {
+  .sbdocs-title * {
+    vertical-align: middle !important;
+  }
+}
