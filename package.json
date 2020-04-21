@@ -44,7 +44,7 @@
     "@newhighsco/browserslist-config": "1.0.1",
     "@newhighsco/commitlint-config": "1.0.1",
     "@newhighsco/editor-config": "1.1.1",
-    "@newhighsco/eslint-config": "2.1.0",
+    "@newhighsco/eslint-config": "2.1.1",
     "@newhighsco/prettier-config": "2.0.2",
     "@newhighsco/release-config": "1.0.20",
     "@newhighsco/storybook-preset": "2.3.0",
