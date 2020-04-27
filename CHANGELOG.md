@@ -1,3 +1,10 @@
+## [2.8.1](https://github.com/newhighsco/chipset/compare/v2.8.0...v2.8.1) (2020-04-27)
+
+
+### Bug Fixes
+
+* correctly extends shared browserslist-config ([b99c6be](https://github.com/newhighsco/chipset/commit/b99c6be1b6a62f2da235ed7243b2a9669ce097e7))
+
 # [2.8.0](https://github.com/newhighsco/chipset/compare/v2.7.0...v2.8.0) (2020-04-17)
 
 
