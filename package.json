@@ -41,7 +41,7 @@
     "@babel/preset-env": "7.9.5",
     "@babel/preset-react": "7.9.4",
     "@commitlint/cli": "8.3.5",
-    "@newhighsco/browserslist-config": "1.0.1",
+    "@newhighsco/browserslist-config": "1.0.2",
     "@newhighsco/commitlint-config": "1.0.1",
     "@newhighsco/editor-config": "1.1.1",
     "@newhighsco/eslint-config": "2.1.1",
