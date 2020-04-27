@@ -1,3 +1,10 @@
+## [2.8.2](https://github.com/newhighsco/chipset/compare/v2.8.1...v2.8.2) (2020-04-27)
+
+
+### Bug Fixes
+
+* **sitecontainer:** uses CSS-only technique for maintaining 100vh ([6bc8a6b](https://github.com/newhighsco/chipset/commit/6bc8a6bbd26165121bb72155d0302f5cb3a80c3d))
+
 ## [2.8.1](https://github.com/newhighsco/chipset/compare/v2.8.0...v2.8.1) (2020-04-27)
 
 
