@@ -37,8 +37,8 @@
     "react-ga": "2.7.0"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0",
-    "@babel/preset-env": "7.9.5",
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
     "@babel/preset-react": "7.9.4",
     "@commitlint/cli": "8.3.5",
     "@newhighsco/browserslist-config": "1.0.2",
