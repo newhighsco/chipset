@@ -12,13 +12,13 @@ const ContentContainer = ({ fullWidth, gutter, children, theme, ...rest }) => {
   return (
     <Element
       className={classNames(
-        theme.wrapper,
-        fullWidth && theme.fullWidth,
-        gutter && theme.gutter
+        theme?.wrapper,
+        fullWidth && theme?.fullWidth,
+        gutter && theme?.gutter
       )}
       {...rest}
     >
-      <div className={theme.content}>{children}</div>
+      <div className={theme?.content}>{children}</div>
     </Element>
   )
 }

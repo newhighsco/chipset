@@ -12,7 +12,7 @@ describe('Components/SmartLink', () => {
   })
 
   it("should render a <button /> when no 'href' is set", () => {
-    const wrapper = shallow(<SmartLink>children</SmartLink>)
+    const wrapper = shallow(<SmartLink>Content</SmartLink>)
 
     expect(wrapper.type()).toEqual('button')
   })
@@ -30,7 +30,7 @@ describe('Components/SmartLink', () => {
 
   it("should render an <OutboundLink /> when external 'href' is set", () => {
     const wrapper = shallow(
-      <SmartLink href="https://test.com/">children</SmartLink>
+      <SmartLink href="https://test.com/">Content</SmartLink>
     )
 
     expect(wrapper.type()).toEqual(OutboundLink)
@@ -45,7 +45,7 @@ describe('Components/SmartLink', () => {
         target="_blank"
         eventLabel="customEventLabel"
       >
-        children
+        Content
       </SmartLink>
     )
 
@@ -59,7 +59,7 @@ describe('Components/SmartLink', () => {
 
     mount(
       <>
-        <WithRef ref={ref}>children</WithRef>
+        <WithRef ref={ref}>Content</WithRef>
       </>
     )
 

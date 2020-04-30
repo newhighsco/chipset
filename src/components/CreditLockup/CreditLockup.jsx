@@ -13,19 +13,19 @@ const href = 'http://newhighsco.re'
 /**
  * The `CreditLockup` provides a link to the New High Score website
  */
-const CreditLockup = ({ theme = {}, ...rest }) => (
-  <span className={theme.wrapper} {...rest}>
+const CreditLockup = ({ theme, ...rest }) => (
+  <span className={theme?.wrapper} {...rest}>
     <SmartLink
-      className={theme.link}
+      className={theme?.link}
       href={href}
       eventLabel="credit"
       target="_blank"
       title={title}
     >
-      <Icon theme={{ wrapper: theme.logo }} alt={name}>
+      <Icon theme={{ wrapper: theme?.logo }} alt={name}>
         <LogoSvg />
       </Icon>
-      <span className={theme.text}>
+      <span className={theme?.text}>
         <small>{prefix}</small>
         <br />
         <small>{name}</small>

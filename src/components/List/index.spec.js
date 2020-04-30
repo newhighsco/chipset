@@ -4,8 +4,8 @@ import { Element, List } from '..'
 
 const children = (
   <>
-    <li>Child</li>
-    <li>Child</li>
+    <li>Content</li>
+    <li>Content</li>
   </>
 )
 

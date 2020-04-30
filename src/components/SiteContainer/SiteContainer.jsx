@@ -5,9 +5,11 @@ import { Element } from '../Element'
 /**
  * The `SiteContainer` stretches to fill the height of the viewport
  */
-const SiteContainer = ({ children, theme = {}, ...rest }) => {
+const SiteContainer = ({ children, theme, ...rest }) => {
+  if (!children) return null
+
   return (
-    <Element className={theme.wrapper} {...rest}>
+    <Element className={theme?.wrapper} {...rest}>
       {children}
     </Element>
   )
