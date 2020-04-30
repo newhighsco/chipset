@@ -1,0 +1,17 @@
+.wrapper {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  & > * {
+    display: block;
+    width: 100%;
+  }
+
+  & > iframe {
+    border: 0;
+    position: absolute;
+    height: 100%;
+  }
+}
