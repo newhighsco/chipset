@@ -1,7 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { List } from '.'
-import { Element } from '../Element'
+import { Element, List } from '..'
 
 const children = (
   <>
