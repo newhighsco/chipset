@@ -1,5 +1,5 @@
 import React from 'react'
-import { CreditLockup } from '.'
+import { CreditLockup } from '..'
 
 export default {
   title: 'Components/CreditLockup',

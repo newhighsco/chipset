@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContentContainer } from '.'
+import { ContentContainer } from '..'
 
 export default {
   title: 'Components/ContentContainer',

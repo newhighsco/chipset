@@ -1,5 +1,5 @@
 import React from 'react'
-import { Landmark } from '.'
+import { Landmark } from '..'
 
 export default {
   title: 'Components/Landmark',

@@ -1,5 +1,5 @@
 import React from 'react'
-import { VisuallyHidden } from '.'
+import { VisuallyHidden } from '..'
 
 export default {
   title: 'Components/VisuallyHidden',

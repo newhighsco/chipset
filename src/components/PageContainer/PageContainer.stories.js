@@ -1,6 +1,5 @@
 import React from 'react'
-import { PageContainer } from '.'
-import { ContentContainer } from '../ContentContainer'
+import { ContentContainer, PageContainer } from '..'
 
 export default {
   title: 'Components/PageContainer',

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiteContainer } from '.'
+import { SiteContainer } from '..'
 
 export default {
   title: 'Components/SiteContainer',

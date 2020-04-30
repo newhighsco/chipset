@@ -1,5 +1,5 @@
 import React from 'react'
-import { Backdrop } from '.'
+import { Backdrop } from '..'
 
 export default {
   title: 'Components/Backdrop',
@@ -29,6 +29,6 @@ export const withImage = () => (
 
 export const withVideo = () => (
   <div style={{ height: 300 }}>
-    <Backdrop video="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" />
+    <Backdrop video="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" />
   </div>
 )
