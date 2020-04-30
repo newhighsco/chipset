@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/newhighsco/chipset/compare/v2.8.2...v2.9.0) (2020-04-30)
+
+
+### Features
+
+* **components:** adds ResponsiveMedia component ([ee8453e](https://github.com/newhighsco/chipset/commit/ee8453e089fb0b1e8caa42642f0051e28abe4632))
+
 ## [2.8.2](https://github.com/newhighsco/chipset/compare/v2.8.1...v2.8.2) (2020-04-27)
 
 
