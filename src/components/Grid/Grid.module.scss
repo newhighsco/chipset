@@ -1,0 +1,7 @@
+@use '../../../styles/functions';
+@use '../../../styles/mixins/grid';
+
+@include grid.initialize();
+@include grid.gutter('', functions.spacing(1));
+@include grid.gutter('gutterless', 0);
+@include grid.reverse();

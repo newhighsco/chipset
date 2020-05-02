@@ -1,0 +1,697 @@
+@use '../grid';
+
+@import 'true';
+
+@include test-module('grid.initialize()') {
+  @include test('should output base styles using fallback gutter') {
+    @include assert {
+      @include output {
+        @include grid.initialize();
+      }
+
+      @include expect {
+        .item {
+          box-sizing: border-box;
+          vertical-align: top;
+          display: inline-block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include test-module('grid.gutter()') {
+  @include test('should output base styles when passed a gutter as px') {
+    @include assert {
+      @include output {
+        @include grid.gutter('', 20px);
+      }
+
+      @include expect {
+        .wrapper {
+          margin-left: -20px;
+        }
+
+        .wrapper > .item {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+
+  @include test('should output base styles when passed a gutter as em') {
+    @include assert {
+      @include output {
+        @include grid.gutter('', 2em);
+      }
+
+      @include expect {
+        .wrapper {
+          margin-left: -2em;
+        }
+
+        .wrapper > .item {
+          padding-left: 2em;
+        }
+      }
+    }
+  }
+
+  @include test('should output base styles when passed a gutter as %') {
+    @include assert {
+      @include output {
+        @include grid.gutter('', 20%);
+      }
+
+      @include expect {
+        .wrapper {
+          margin-left: -20%;
+        }
+
+        .wrapper > .item {
+          padding-left: 16.6666666667%;
+        }
+      }
+    }
+  }
+
+  @include test('should allow custom gutters for grid modifiers') {
+    @include assert {
+      @include output {
+        @include grid.gutter('foo', 1em);
+        @include grid.gutter('bar', 10%);
+      }
+
+      @include expect {
+        .wrapper.foo {
+          margin-left: -1em;
+        }
+
+        .wrapper.foo > .item {
+          padding-left: 1em;
+        }
+
+        .wrapper.bar {
+          margin-left: -10%;
+        }
+
+        .wrapper.bar > .item {
+          padding-left: 9.0909090909%;
+        }
+      }
+    }
+  }
+}
+
+@include test-module('grid.reverse()') {
+  @include test('should output styles to visually reverse grid item order') {
+    @include assert {
+      @include output {
+        @include grid.reverse();
+      }
+
+      @include expect {
+        .wrapper.reverse {
+          direction: rtl;
+          text-align: right;
+        }
+
+        .wrapper.reverse > .item {
+          direction: ltr;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  @include test('should output reverse grid with prefixed with modifiers') {
+    @include assert {
+      @include output {
+        @include grid.reverse('desktop');
+      }
+
+      @include expect {
+        .wrapper.desktop-reverse {
+          direction: rtl;
+          text-align: right;
+        }
+
+        .wrapper.desktop-reverse > .item {
+          direction: ltr;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@include test-module('grid.widths()') {
+  @include test(
+    'should output grid widths from whole width, through to sixteenths'
+  ) {
+    @include assert {
+      @include output {
+        @include grid.widths('', 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16);
+      }
+
+      @include expect {
+        .item.one-whole {
+          width: 100%;
+        }
+
+        .item.one-half {
+          width: 50%;
+        }
+
+        .item.one-third {
+          width: 33.3333333333%;
+        }
+
+        .item.two-thirds {
+          width: 66.6666666667%;
+        }
+
+        .item.one-quarter {
+          width: 25%;
+        }
+
+        .item.two-quarters {
+          width: 50%;
+        }
+
+        .item.three-quarters {
+          width: 75%;
+        }
+
+        .item.one-fifth {
+          width: 20%;
+        }
+
+        .item.two-fifths {
+          width: 40%;
+        }
+
+        .item.three-fifths {
+          width: 60%;
+        }
+
+        .item.four-fifths {
+          width: 80%;
+        }
+
+        .item.one-sixth {
+          width: 16.6666666667%;
+        }
+
+        .item.two-sixths {
+          width: 33.3333333333%;
+        }
+
+        .item.three-sixths {
+          width: 50%;
+        }
+
+        .item.four-sixths {
+          width: 66.6666666667%;
+        }
+
+        .item.five-sixths {
+          width: 83.3333333333%;
+        }
+
+        .item.one-seventh {
+          width: 14.2857142857%;
+        }
+
+        .item.two-sevenths {
+          width: 28.5714285714%;
+        }
+
+        .item.three-sevenths {
+          width: 42.8571428571%;
+        }
+
+        .item.four-sevenths {
+          width: 57.1428571429%;
+        }
+
+        .item.five-sevenths {
+          width: 71.4285714286%;
+        }
+
+        .item.six-sevenths {
+          width: 85.7142857143%;
+        }
+
+        .item.one-eighth {
+          width: 12.5%;
+        }
+
+        .item.two-eighths {
+          width: 25%;
+        }
+
+        .item.three-eighths {
+          width: 37.5%;
+        }
+
+        .item.four-eighths {
+          width: 50%;
+        }
+
+        .item.five-eighths {
+          width: 62.5%;
+        }
+
+        .item.six-eighths {
+          width: 75%;
+        }
+
+        .item.seven-eighths {
+          width: 87.5%;
+        }
+
+        .item.one-ninth {
+          width: 11.1111111111%;
+        }
+
+        .item.two-ninths {
+          width: 22.2222222222%;
+        }
+
+        .item.three-ninths {
+          width: 33.3333333333%;
+        }
+
+        .item.four-ninths {
+          width: 44.4444444444%;
+        }
+
+        .item.five-ninths {
+          width: 55.5555555556%;
+        }
+
+        .item.six-ninths {
+          width: 66.6666666667%;
+        }
+
+        .item.seven-ninths {
+          width: 77.7777777778%;
+        }
+
+        .item.eight-ninths {
+          width: 88.8888888889%;
+        }
+
+        .item.one-tenth {
+          width: 10%;
+        }
+
+        .item.two-tenths {
+          width: 20%;
+        }
+
+        .item.three-tenths {
+          width: 30%;
+        }
+
+        .item.four-tenths {
+          width: 40%;
+        }
+
+        .item.five-tenths {
+          width: 50%;
+        }
+
+        .item.six-tenths {
+          width: 60%;
+        }
+
+        .item.seven-tenths {
+          width: 70%;
+        }
+
+        .item.eight-tenths {
+          width: 80%;
+        }
+
+        .item.nine-tenths {
+          width: 90%;
+        }
+
+        .item.one-eleventh {
+          width: 9.0909090909%;
+        }
+
+        .item.two-elevenths {
+          width: 18.1818181818%;
+        }
+
+        .item.three-elevenths {
+          width: 27.2727272727%;
+        }
+
+        .item.four-elevenths {
+          width: 36.3636363636%;
+        }
+
+        .item.five-elevenths {
+          width: 45.4545454545%;
+        }
+
+        .item.six-elevenths {
+          width: 54.5454545455%;
+        }
+
+        .item.seven-elevenths {
+          width: 63.6363636364%;
+        }
+
+        .item.eight-elevenths {
+          width: 72.7272727273%;
+        }
+
+        .item.nine-elevenths {
+          width: 81.8181818182%;
+        }
+
+        .item.ten-elevenths {
+          width: 90.9090909091%;
+        }
+
+        .item.one-twelfth {
+          width: 8.3333333333%;
+        }
+
+        .item.two-twelfths {
+          width: 16.6666666667%;
+        }
+
+        .item.three-twelfths {
+          width: 25%;
+        }
+
+        .item.four-twelfths {
+          width: 33.3333333333%;
+        }
+
+        .item.five-twelfths {
+          width: 41.6666666667%;
+        }
+
+        .item.six-twelfths {
+          width: 50%;
+        }
+
+        .item.seven-twelfths {
+          width: 58.3333333333%;
+        }
+
+        .item.eight-twelfths {
+          width: 66.6666666667%;
+        }
+
+        .item.nine-twelfths {
+          width: 75%;
+        }
+
+        .item.ten-twelfths {
+          width: 83.3333333333%;
+        }
+
+        .item.eleven-twelfths {
+          width: 91.6666666667%;
+        }
+
+        .item.one-thirteenth {
+          width: 7.6923076923%;
+        }
+
+        .item.two-thirteenths {
+          width: 15.3846153846%;
+        }
+
+        .item.three-thirteenths {
+          width: 23.0769230769%;
+        }
+
+        .item.four-thirteenths {
+          width: 30.7692307692%;
+        }
+
+        .item.five-thirteenths {
+          width: 38.4615384615%;
+        }
+
+        .item.six-thirteenths {
+          width: 46.1538461538%;
+        }
+
+        .item.seven-thirteenths {
+          width: 53.8461538462%;
+        }
+
+        .item.eight-thirteenths {
+          width: 61.5384615385%;
+        }
+
+        .item.nine-thirteenths {
+          width: 69.2307692308%;
+        }
+
+        .item.ten-thirteenths {
+          width: 76.9230769231%;
+        }
+
+        .item.eleven-thirteenths {
+          width: 84.6153846154%;
+        }
+
+        .item.twelve-thirteenths {
+          width: 92.3076923077%;
+        }
+
+        .item.one-fourteenth {
+          width: 7.1428571429%;
+        }
+
+        .item.two-fourteenths {
+          width: 14.2857142857%;
+        }
+
+        .item.three-fourteenths {
+          width: 21.4285714286%;
+        }
+
+        .item.four-fourteenths {
+          width: 28.5714285714%;
+        }
+
+        .item.five-fourteenths {
+          width: 35.7142857143%;
+        }
+
+        .item.six-fourteenths {
+          width: 42.8571428571%;
+        }
+
+        .item.seven-fourteenths {
+          width: 50%;
+        }
+
+        .item.eight-fourteenths {
+          width: 57.1428571429%;
+        }
+
+        .item.nine-fourteenths {
+          width: 64.2857142857%;
+        }
+
+        .item.ten-fourteenths {
+          width: 71.4285714286%;
+        }
+
+        .item.eleven-fourteenths {
+          width: 78.5714285714%;
+        }
+
+        .item.twelve-fourteenths {
+          width: 85.7142857143%;
+        }
+
+        .item.thirteen-fourteenths {
+          width: 92.8571428571%;
+        }
+
+        .item.one-fifteenth {
+          width: 6.6666666667%;
+        }
+
+        .item.two-fifteenths {
+          width: 13.3333333333%;
+        }
+
+        .item.three-fifteenths {
+          width: 20%;
+        }
+
+        .item.four-fifteenths {
+          width: 26.6666666667%;
+        }
+
+        .item.five-fifteenths {
+          width: 33.3333333333%;
+        }
+
+        .item.six-fifteenths {
+          width: 40%;
+        }
+
+        .item.seven-fifteenths {
+          width: 46.6666666667%;
+        }
+
+        .item.eight-fifteenths {
+          width: 53.3333333333%;
+        }
+
+        .item.nine-fifteenths {
+          width: 60%;
+        }
+
+        .item.ten-fifteenths {
+          width: 66.6666666667%;
+        }
+
+        .item.eleven-fifteenths {
+          width: 73.3333333333%;
+        }
+
+        .item.twelve-fifteenths {
+          width: 80%;
+        }
+
+        .item.thirteen-fifteenths {
+          width: 86.6666666667%;
+        }
+
+        .item.fourteen-fifteenths {
+          width: 93.3333333333%;
+        }
+
+        .item.one-sixteenth {
+          width: 6.25%;
+        }
+
+        .item.two-sixteenths {
+          width: 12.5%;
+        }
+
+        .item.three-sixteenths {
+          width: 18.75%;
+        }
+
+        .item.four-sixteenths {
+          width: 25%;
+        }
+
+        .item.five-sixteenths {
+          width: 31.25%;
+        }
+
+        .item.six-sixteenths {
+          width: 37.5%;
+        }
+
+        .item.seven-sixteenths {
+          width: 43.75%;
+        }
+
+        .item.eight-sixteenths {
+          width: 50%;
+        }
+
+        .item.nine-sixteenths {
+          width: 56.25%;
+        }
+
+        .item.ten-sixteenths {
+          width: 62.5%;
+        }
+
+        .item.eleven-sixteenths {
+          width: 68.75%;
+        }
+
+        .item.twelve-sixteenths {
+          width: 75%;
+        }
+
+        .item.thirteen-sixteenths {
+          width: 81.25%;
+        }
+
+        .item.fourteen-sixteenths {
+          width: 87.5%;
+        }
+
+        .item.fifteen-sixteenths {
+          width: 93.75%;
+        }
+      }
+    }
+  }
+
+  @include test('should output grid widths, prefixed with modifiers') {
+    @include assert {
+      @include output {
+        @include grid.widths('desktop', 1);
+      }
+
+      @include expect {
+        .item.desktop-one-whole {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include test-module('grid.uncompressed()') {
+  @include test('should output base styles when expecting uncompressed html') {
+    @include assert {
+      @include output {
+        @include grid.uncompressed();
+      }
+
+      @include expect {
+        .wrapper.uncompressed {
+          letter-spacing: -0.25em;
+        }
+
+        .item.uncompressed {
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+
+  @include test('should allow custom letter-spacing') {
+    @include assert {
+      @include output {
+        @include grid.uncompressed(-20px);
+      }
+
+      @include expect {
+        .wrapper.uncompressed {
+          letter-spacing: -20px;
+        }
+
+        .item.uncompressed {
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+}

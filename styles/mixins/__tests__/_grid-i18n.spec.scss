@@ -1,0 +1,34 @@
+@use '../grid' with (
+  $count-names: uno dos tres,
+  $fraction-names: primero segundo tercero
+);
+
+@import 'true';
+
+@include test-module('grid: i18n') {
+  @include test('should output i18n grid widths if set') {
+    @include assert {
+      @include output {
+        @include grid.widths('', 1 2 3);
+      }
+
+      @include expect {
+        .item.uno-primero {
+          width: 100%;
+        }
+
+        .item.uno-segundo {
+          width: 50%;
+        }
+
+        .item.uno-tercero {
+          width: 33.3333333333%;
+        }
+
+        .item.dos-terceros {
+          width: 66.6666666667%;
+        }
+      }
+    }
+  }
+}

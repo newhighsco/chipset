@@ -1,0 +1,130 @@
+//
+// DEFAULT VARIABLES
+//
+
+// Default count & fraction names
+$count-names: one two three four five six seven eight nine ten eleven twelve
+  thirteen fourteen fifteen sixteen !default;
+$fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
+  eleventh twelfth thirteenth fourteenth fifteenth sixteenth !default;
+
+//
+// INITIALIZE GRID
+//
+
+@mixin initialize() {
+  .item {
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    width: 100%; // Set default width
+  }
+}
+
+//
+// GRID UNCOMPRESSED
+// Workaround for non-compressed HTML (avoid if possible)
+//
+
+@mixin uncompressed($spacing: -0.25em) {
+  .wrapper.uncompressed {
+    letter-spacing: $spacing;
+  }
+
+  .item.uncompressed {
+    letter-spacing: normal;
+  }
+}
+
+//
+// GRID GUTTER
+// Custom namespaced gutter widths
+//
+
+@mixin gutter($namespace, $grid-modifier--gutter) {
+  @if ($namespace != '') {
+    $namespace: '.' + $namespace;
+  }
+
+  .wrapper#{$namespace} {
+    margin-left: -($grid-modifier--gutter);
+
+    & > .item {
+      padding-left: _grid-gutter--item($grid-modifier--gutter);
+    }
+  }
+}
+
+//
+// GRID REVERSE
+// Reverses the rendered layout of the `grid__item`s
+//
+
+@mixin reverse($namespace: '') {
+  $namespace: _namespace-suffix($namespace, 'reverse');
+
+  .wrapper#{$namespace} {
+    direction: rtl;
+    text-align: right;
+
+    > .item {
+      direction: ltr;
+      text-align: left;
+    }
+  }
+}
+
+//
+// GRID WIDTHS
+// Sets up grid width styles
+//
+
+@mixin widths($namespace, $columns) {
+  $namespace: _namespace-suffix($namespace);
+
+  @include _grid($namespace, $columns, 'width');
+}
+
+//
+// INTERNAL MIXINS
+// These mixins should not be called directly,
+// instead are used as helpers within other mixins
+//
+
+@mixin _grid($namespace, $columns, $property) {
+  $columns-length: length($columns);
+
+  @for $i from 1 through $columns-length {
+    $column: nth($columns, $i);
+    $grid: nth($fraction-names, $column);
+    $column-count: if($column == 1, 1, $column - 1);
+
+    @for $j from 1 through $column-count {
+      $plural: if($j == 1, '', 's');
+      $column-width: $j * (100 / $column);
+      $column-name: nth($count-names, $j);
+
+      .item#{$namespace}#{$column-name}-#{$grid}#{$plural} {
+        #{$property}: $column-width + 0%;
+      }
+    }
+  }
+}
+
+@function _grid-gutter--item($g) {
+  @if unit($g) == '%' {
+    $scale: 100 / (100 + $g);
+
+    @return ($scale * $g) + 0%;
+  } @else {
+    @return $g;
+  }
+}
+
+@function _namespace-suffix($namespace, $suffix: '') {
+  @if ($namespace != '') {
+    $namespace: $namespace + '-';
+  }
+
+  @return '.' + $namespace + $suffix;
+}
