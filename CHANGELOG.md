@@ -1,3 +1,10 @@
+## [2.10.1](https://github.com/newhighsco/chipset/compare/v2.10.0...v2.10.1) (2020-05-02)
+
+
+### Bug Fixes
+
+* **grid:** pass through props to GridItem ([6047e74](https://github.com/newhighsco/chipset/commit/6047e7438c1e7d392d308bf54f9b79b2314d2479))
+
 # [2.10.0](https://github.com/newhighsco/chipset/compare/v2.9.0...v2.10.0) (2020-05-02)
 
 
