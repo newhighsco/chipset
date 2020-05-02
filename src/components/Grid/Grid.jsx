@@ -2,6 +2,9 @@ import React from 'react'
 import { arrayOf, bool, node, object, string } from 'prop-types'
 import classNames from 'classnames'
 
+/**
+ * `Grid` provides  a simple `inline-block` based responsive grid
+ */
 const Grid = ({ gutter, gutterless, reverse, children, theme }) => {
   if (!children) return null
 
