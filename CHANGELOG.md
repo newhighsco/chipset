@@ -1,3 +1,10 @@
+## [2.10.4](https://github.com/newhighsco/chipset/compare/v2.10.3...v2.10.4) (2020-05-02)
+
+
+### Bug Fixes
+
+* **grid:** fixes vertical alignment ([9094ee0](https://github.com/newhighsco/chipset/commit/9094ee0663012e3d73013fda9fdf825c12714533))
+
 ## [2.10.3](https://github.com/newhighsco/chipset/compare/v2.10.2...v2.10.3) (2020-05-02)
 
 
