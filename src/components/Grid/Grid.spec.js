@@ -7,6 +7,7 @@ const theme = {
   double: 'double',
   gutterless: 'gutterless',
   reverse: 'reverse',
+  bottomed: 'bottomed',
   item: 'item',
   'one-half': 'one-half',
   'desktop-one-whole': 'desktop-one-whole'
@@ -21,14 +22,14 @@ describe('Components/Grid', () => {
 
   it('should set correct classNames', () => {
     const wrapper = shallow(
-      <Grid gutter="double" gutterless reverse theme={theme}>
+      <Grid gutter="double" gutterless reverse valign="bottom" theme={theme}>
         Content
       </Grid>
     )
 
     expect(wrapper.type()).toEqual('div')
     expect(wrapper.prop('className')).toEqual(
-      'wrapper double gutterless reverse'
+      'wrapper double gutterless reverse bottomed'
     )
   })
 })

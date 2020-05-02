@@ -658,6 +658,24 @@
   }
 }
 
+@include test-module('grid.valign()') {
+  @include test('should output styles to vertically align grid items') {
+    @include assert {
+      @include output {
+        @include grid.valign(middle);
+      }
+
+      @include expect {
+        .wrapper.valign-middle {
+          > .item {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+
 @include test-module('grid.uncompressed()') {
   @include test('should output base styles when expecting uncompressed html') {
     @include assert {
