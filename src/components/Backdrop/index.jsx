@@ -3,7 +3,7 @@ import { string } from 'prop-types'
 import classNames from 'classnames'
 import Element from '../Element'
 
-import theme from './index.module.scss'
+import styles from './index.module.scss'
 
 /**
  * Use `Backdrop` to add full-width image or video background to am element
@@ -27,7 +27,7 @@ const Backdrop = ({ image, video, className, ...rest }) => {
 
   return (
     <Element
-      className={classNames(theme.wrapper, className)}
+      className={classNames(styles.wrapper, className)}
       {...props}
       {...rest}
     />

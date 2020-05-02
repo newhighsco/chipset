@@ -2,7 +2,7 @@ import React from 'react'
 import { node, number, oneOfType, string } from 'prop-types'
 import classNames from 'classnames'
 
-import theme from './index.module.scss'
+import styles from './index.module.scss'
 
 const ratioRegExp = /^\d+:\d+$/
 
@@ -26,7 +26,7 @@ const ResponsiveMedia = ({ ratio, children, className }) => {
 
   return (
     <div
-      className={classNames(theme.wrapper, className)}
+      className={classNames(styles.wrapper, className)}
       style={parsedRatio && { paddingBottom: `${parsedRatio}%` }}
     >
       {children}
