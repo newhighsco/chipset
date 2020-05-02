@@ -13,7 +13,7 @@ const Icon = ({ height, width, alt, children, theme }) => {
     <span
       className={classNames(
         theme?.wrapper,
-        (width || height) && theme?.customSize
+        (width ?? height) && theme?.customSize
       )}
       {...(alt && {
         role: 'img',

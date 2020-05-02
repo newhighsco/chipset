@@ -32,7 +32,7 @@ const SmartLink = ({
         ref={setRef}
         className={className}
         to={href}
-        eventLabel={eventLabel || href}
+        eventLabel={eventLabel ?? href}
         target={target}
         {...(target === '_blank' && { rel: 'noopener noreferrer' })}
         {...rest}
