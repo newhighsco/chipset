@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/newhighsco/chipset/compare/v2.9.0...v2.10.0) (2020-05-02)
+
+
+### Features
+
+* **components:** adds Grid component ([b8cdeaa](https://github.com/newhighsco/chipset/commit/b8cdeaa400fcf9121a32a19a7db673965be11d79))
+
 # [2.9.0](https://github.com/newhighsco/chipset/compare/v2.8.2...v2.9.0) (2020-04-30)
 
 
