@@ -30,7 +30,7 @@ Grid.propTypes = {
   theme: object
 }
 
-const GridItem = ({ sizes, children, theme }) => {
+const GridItem = ({ sizes, children, theme, ...rest }) => {
   if (!children) return null
 
   return (
@@ -39,6 +39,7 @@ const GridItem = ({ sizes, children, theme }) => {
         theme?.item,
         sizes && sizes.map(size => theme[size])
       )}
+      {...rest}
     >
       {children}
     </div>
