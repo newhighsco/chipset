@@ -5,5 +5,5 @@
 @include grid.gutter('', functions.spacing(1));
 @include grid.gutter('gutterless', 0);
 @include grid.reverse();
-@include grid.valign('middle');
-@include grid.valign('bottom');
+@include grid.valign(middle);
+@include grid.valign(bottom);

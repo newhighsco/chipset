@@ -72,3 +72,33 @@ export const reversed = () => (
     </GridItem>
   </Grid>
 )
+
+export const middled = () => (
+  <Grid valign="middle">
+    <GridItem sizes={['one-half']}>
+      <ContentContainer>
+        Long content that wraps
+        <br />
+        Long content that wraps
+      </ContentContainer>
+    </GridItem>
+    <GridItem sizes={['one-half']}>
+      <ContentContainer>Short</ContentContainer>
+    </GridItem>
+  </Grid>
+)
+
+export const bottomed = () => (
+  <Grid valign="bottom">
+    <GridItem sizes={['one-half']}>
+      <ContentContainer>
+        Long content that wraps
+        <br />
+        Long content that wraps
+      </ContentContainer>
+    </GridItem>
+    <GridItem sizes={['one-half']}>
+      <ContentContainer>Short</ContentContainer>
+    </GridItem>
+  </Grid>
+)
