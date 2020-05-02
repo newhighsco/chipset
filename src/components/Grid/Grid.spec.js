@@ -7,7 +7,7 @@ const theme = {
   double: 'double',
   gutterless: 'gutterless',
   reverse: 'reverse',
-  bottomed: 'bottomed',
+  'valign-bottom': 'valign-bottom',
   item: 'item',
   'one-half': 'one-half',
   'desktop-one-whole': 'desktop-one-whole'
@@ -29,7 +29,7 @@ describe('Components/Grid', () => {
 
     expect(wrapper.type()).toEqual('div')
     expect(wrapper.prop('className')).toEqual(
-      'wrapper double gutterless reverse bottomed'
+      'wrapper double gutterless reverse valign-bottom'
     )
   })
 })

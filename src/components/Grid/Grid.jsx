@@ -15,7 +15,7 @@ const Grid = ({ gutter, gutterless, reverse, valign, children, theme }) => {
         gutter && theme[gutter],
         gutterless && theme?.gutterless,
         reverse && theme?.reverse,
-        valign && theme[`${valign}ed`]
+        valign && theme[`valign-${valign}`]
       )}
     >
       {children}
