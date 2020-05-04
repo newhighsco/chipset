@@ -6,14 +6,14 @@ import { Element } from '../Element'
 /**
  * The `ContentContainer` constrains the width of an item within its parent
  */
-const ContentContainer = ({ fullWidth, gutter, children, theme, ...rest }) => {
+const ContentContainer = ({ size, gutter, children, theme, ...rest }) => {
   if (!children) return null
 
   return (
     <Element
       className={classNames(
         theme?.wrapper,
-        fullWidth && theme?.fullWidth,
+        size && theme[size],
         gutter && theme?.gutter
       )}
       {...rest}
@@ -24,10 +24,10 @@ const ContentContainer = ({ fullWidth, gutter, children, theme, ...rest }) => {
 }
 
 ContentContainer.propTypes = {
-  fullWidth: bool,
+  size: string,
   gutter: bool,
   children: node,
-  theme: shape({ wrapper: string, fullWidth: string, gutter: string })
+  theme: shape({ wrapper: string, gutter: string })
 }
 
 export { ContentContainer }

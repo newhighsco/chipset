@@ -5,6 +5,15 @@ $tabletLandscape: 800px !default;
 $desktop: 960px !default;
 $desktopMedium: 1280px !default;
 $desktopLarge: 1600px !default;
+$all: (
+  mobile: $mobile,
+  mobileLandscape: $mobileLandscape,
+  tablet: $tablet,
+  tabletLandscape: $tabletLandscape,
+  desktop: $desktop,
+  desktopMedium: $desktopMedium,
+  desktopLarge: $desktopLarge
+);
 
 :export {
   mobile: $mobile;

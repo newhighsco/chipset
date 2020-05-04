@@ -22,11 +22,11 @@ describe('Components/ContentContainer', () => {
 
   it('should set correct classNames', () => {
     const wrapper = shallow(
-      <ContentContainer theme={theme} fullWidth gutter>
+      <ContentContainer theme={theme} size="mobile" gutter>
         Content
       </ContentContainer>
     )
 
-    expect(wrapper.prop('className')).toEqual('wrapper fullWidth gutter')
+    expect(wrapper.prop('className')).toEqual('wrapper mobile gutter')
   })
 })

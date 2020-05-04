@@ -10,6 +10,8 @@
   width: 100%;
 }
 
-.fullWidth {
-  max-width: none;
+@each $size, $maxWidth in breakpoints.$all {
+  .#{$size} {
+    max-width: $maxWidth;
+  }
 }
