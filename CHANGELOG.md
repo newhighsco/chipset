@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/newhighsco/chipset/compare/v3.0.1...v3.0.2) (2020-05-04)
+
+
+### Bug Fixes
+
+* **credit-lockup:** fixes wrapping alignment ([fb2baec](https://github.com/newhighsco/chipset/commit/fb2baece80b184794b5311955c1b35dd9158bd5c))
+
 ## [3.0.1](https://github.com/newhighsco/chipset/compare/v3.0.0...v3.0.1) (2020-05-04)
 
 
