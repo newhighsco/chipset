@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/newhighsco/chipset/compare/v3.0.0...v3.0.1) (2020-05-04)
+
+
+### Bug Fixes
+
+* **content-container:** removes max-width ([c6db674](https://github.com/newhighsco/chipset/commit/c6db674375bafc253b789ac0c63bcec472696492))
+
 # [3.0.0](https://github.com/newhighsco/chipset/compare/v2.10.6...v3.0.0) (2020-05-04)
 
 
