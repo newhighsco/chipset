@@ -19,7 +19,7 @@ const parseRatio = ratio => {
 /**
  * Use `ResponsiveMedia` to reserves a space on page for slow-loading resources, using the supplied ratio. Avoids document reflow when child elements load.
  */
-const ResponsiveMedia = ({ ratio, children, className }) => {
+const ResponsiveMedia = ({ ratio, children, className, ...rest }) => {
   if (!children) return null
 
   const parsedRatio = parseRatio(ratio)
@@ -28,6 +28,7 @@ const ResponsiveMedia = ({ ratio, children, className }) => {
     <div
       className={classNames(styles.wrapper, className)}
       style={parsedRatio && { paddingBottom: `${parsedRatio}%` }}
+      {...rest}
     >
       {children}
     </div>
