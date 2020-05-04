@@ -11,21 +11,24 @@
 }
 
 .logo {
+  $credit-content-margin: functions.spacing(1);
+
   fill: currentColor;
+  margin-right: $credit-content-margin;
   vertical-align: top;
   width: 50px;
+
+  .wrapper[dir='rtl'] & {
+    margin-right: 0;
+    margin-left: $credit-content-margin;
+  }
 }
 
 .text {
-  $credit-content-margin: functions.spacing(1);
-
   display: inline-block;
-  margin-left: $credit-content-margin;
   text-align: left;
 
   .wrapper[dir='rtl'] & {
-    margin-left: 0;
-    margin-right: $credit-content-margin;
     margin-top: 10px;
     text-align: right;
   }
