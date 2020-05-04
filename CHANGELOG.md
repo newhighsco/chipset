@@ -1,3 +1,10 @@
+## [2.10.6](https://github.com/newhighsco/chipset/compare/v2.10.5...v2.10.6) (2020-05-04)
+
+
+### Bug Fixes
+
+* **responsive-media:** set ref via function ([401b86f](https://github.com/newhighsco/chipset/commit/401b86fc856a510a27a237c3f6ec079b803d81da))
+
 ## [2.10.5](https://github.com/newhighsco/chipset/compare/v2.10.4...v2.10.5) (2020-05-04)
 
 
