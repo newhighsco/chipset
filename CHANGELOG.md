@@ -1,3 +1,10 @@
+## [2.10.5](https://github.com/newhighsco/chipset/compare/v2.10.4...v2.10.5) (2020-05-04)
+
+
+### Bug Fixes
+
+* **responsive-media:** passes rest props through ([a630035](https://github.com/newhighsco/chipset/commit/a6300358b4713edf6ee75a0fd6a69e7aecdceca2))
+
 ## [2.10.4](https://github.com/newhighsco/chipset/compare/v2.10.3...v2.10.4) (2020-05-02)
 
 
