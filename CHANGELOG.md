@@ -1,3 +1,21 @@
+# [3.0.0](https://github.com/newhighsco/chipset/compare/v2.10.6...v3.0.0) (2020-05-04)
+
+
+### Bug Fixes
+
+* **icon:** set sensible default for size ([494687f](https://github.com/newhighsco/chipset/commit/494687f3a753b2ed14e52d10b6b2da30b145b609))
+* **responsive-media:** set sensible default for size ([45cd7eb](https://github.com/newhighsco/chipset/commit/45cd7eb2a0806a2e3f82b9ba1df68590f9269f66))
+
+
+### Features
+
+* **content-container:** introduces sizes based on breakpoints ([e34a241](https://github.com/newhighsco/chipset/commit/e34a2416a822b37f58625be431bdf1e104bf0ec8))
+
+
+### BREAKING CHANGES
+
+* **content-container:** `fullWidth` has been deprecated and is now the default width
+
 ## [2.10.6](https://github.com/newhighsco/chipset/compare/v2.10.5...v2.10.6) (2020-05-04)
 
 
