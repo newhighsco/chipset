@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, number, oneOfType, string } from 'prop-types'
+import { func, node, number, object, oneOfType, string } from 'prop-types'
 import classNames from 'classnames'
 
 import styles from './index.module.scss'
@@ -19,7 +19,7 @@ const parseRatio = ratio => {
 /**
  * Use `ResponsiveMedia` to reserves a space on page for slow-loading resources, using the supplied ratio. Avoids document reflow when child elements load.
  */
-const ResponsiveMedia = ({ ratio, children, className, ...rest }) => {
+const ResponsiveMedia = ({ ratio, setRef, children, className, ...rest }) => {
   if (!children) return null
 
   const parsedRatio = parseRatio(ratio)
@@ -28,6 +28,7 @@ const ResponsiveMedia = ({ ratio, children, className, ...rest }) => {
     <div
       className={classNames(styles.wrapper, className)}
       style={parsedRatio && { paddingBottom: `${parsedRatio}%` }}
+      ref={setRef}
       {...rest}
     >
       {children}
@@ -40,6 +41,7 @@ ResponsiveMedia.propTypes = {
    *  `{ 9 / 16 }` | `"16:9"`
    */
   ratio: oneOfType([number, string]),
+  setRef: oneOfType([func, object]),
   children: node,
   className: string
 }
