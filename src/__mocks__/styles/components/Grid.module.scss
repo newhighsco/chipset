@@ -3,7 +3,7 @@
 @use '../../../../styles/mixins/grid';
 @use '../../../../styles/breakpoints.module';
 
-@include grid.gutter('double', functions.spacing(2));
+@include grid.gutter('', functions.spacing(1));
 @include grid.widths('', 2 3 4);
 
 @include mixins.mq(breakpoints.$tablet) {
