@@ -658,6 +658,23 @@
   }
 }
 
+@include test-module('grid.flex()') {
+  @include test('should output styles for flexbox grid items') {
+    @include assert {
+      @include output {
+        @include grid.flex();
+      }
+
+      @include expect {
+        .wrapper.flex {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+}
+
 @include test-module('grid.valign()') {
   @include test('should output styles to vertically align grid items') {
     @include assert {
@@ -667,6 +684,10 @@
 
       @include expect {
         .wrapper.valign-middle {
+          &.flex {
+            align-items: center;
+          }
+
           > .item {
             vertical-align: middle;
           }

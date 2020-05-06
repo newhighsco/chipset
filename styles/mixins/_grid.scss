@@ -1,3 +1,5 @@
+@use "sass:map";
+
 //
 // DEFAULT VARIABLES
 //
@@ -86,12 +88,34 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 }
 
 //
+// GRID FLEXBOX
+// Sets up grid flexbox styles
+//
+
+@mixin flex() {
+  .wrapper.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+//
 // GRID VERTICAL ALIGNMENTS
 // Sets up grid vertical-align styles
 //
 
 @mixin valign($align) {
+  $align-items: (
+    'top': flex-start,
+    'middle': center,
+    'bottom': flex-end
+  );
+
   .wrapper.valign-#{$align} {
+    &.flex {
+      align-items: map.get($align-items, $align);
+    }
+
     > .item {
       vertical-align: $align;
     }

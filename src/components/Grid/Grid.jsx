@@ -5,7 +5,15 @@ import classNames from 'classnames'
 /**
  * `Grid` provides  a simple `inline-block` based responsive grid
  */
-const Grid = ({ gutter, gutterless, reverse, valign, children, theme }) => {
+const Grid = ({
+  gutter,
+  gutterless,
+  reverse,
+  flex,
+  valign,
+  children,
+  theme
+}) => {
   if (!children) return null
 
   return (
@@ -15,6 +23,7 @@ const Grid = ({ gutter, gutterless, reverse, valign, children, theme }) => {
         gutter && theme[gutter],
         gutterless && theme?.gutterless,
         reverse && theme?.reverse,
+        flex && theme?.flex,
         valign && theme[`valign-${valign}`]
       )}
     >
@@ -27,19 +36,21 @@ Grid.propTypes = {
   gutter: string,
   gutterless: bool,
   reverse: bool,
+  flex: bool,
   valign: oneOf(['top', 'middle', 'bottom']),
   children: node,
   theme: object
 }
 
-const GridItem = ({ sizes, children, theme, ...rest }) => {
+const GridItem = ({ sizes, children, theme, className, ...rest }) => {
   if (!children) return null
 
   return (
     <div
       className={classNames(
         theme?.item,
-        sizes && sizes.map(size => theme[size])
+        sizes && sizes.map(size => theme[size]),
+        className
       )}
       {...rest}
     >
@@ -52,7 +63,8 @@ GridItem.propTypes = {
   align: oneOf(['left', 'right', 'center']),
   sizes: arrayOf(string),
   children: node,
-  theme: object
+  theme: object,
+  className: string
 }
 
 export { Grid, GridItem }
