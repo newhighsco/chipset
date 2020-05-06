@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { bool, oneOf, string } from 'prop-types'
+import { bool, func, oneOf, string } from 'prop-types'
 import classNames from 'classnames'
 import fetch from 'node-fetch'
 import urlParse from 'url-parse'
@@ -15,6 +15,7 @@ const TwitchEmbed = ({
   autoplay = true,
   muted,
   theme = 'light',
+  onOnline,
   className
 }) => {
   if (!channel) return null
@@ -39,6 +40,7 @@ const TwitchEmbed = ({
   }, [online])
 
   if (!online) return null
+  if (onOnline) onOnline()
 
   const videoSrc = urlParse('https://player.twitch.tv')
   videoSrc.set('query', {
@@ -74,6 +76,7 @@ TwitchEmbed.propTypes = {
   allowFullScreen: bool,
   autoplay: bool,
   muted: bool,
+  onOnline: func,
   theme: oneOf(['light', 'dark']),
   className: string
 }

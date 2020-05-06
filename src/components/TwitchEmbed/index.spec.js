@@ -50,7 +50,10 @@ describe('Components/TwitchEmbed', () => {
   })
 
   it("should render correctly when 'alwaysOnline' is set", () => {
-    const wrapper = mount(<TwitchEmbed channel="failarmy" alwaysOnline />)
+    const handleOnline = jest.fn(() => ({}))
+    const wrapper = mount(
+      <TwitchEmbed channel="failarmy" alwaysOnline onOnline={handleOnline} />
+    )
 
     expect(wrapper.find('iframe[title="Live"]').prop('src')).toEqual(
       'https://player.twitch.tv?channel=failarmy&autoplay=true&muted=false'
@@ -64,6 +67,7 @@ describe('Components/TwitchEmbed', () => {
     expect(
       wrapper.find('iframe[title="Chat"]').prop('allowFullScreen')
     ).toEqual(undefined)
+    expect(handleOnline).toBeCalled()
   })
 
   it("should render correctly when 'autoplay' is set to 'false'", () => {
