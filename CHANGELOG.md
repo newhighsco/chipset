@@ -1,3 +1,17 @@
+# [3.1.0](https://github.com/newhighsco/chipset/compare/v3.0.2...v3.1.0) (2020-05-06)
+
+
+### Bug Fixes
+
+* **grid:** removes default gutter to theme ([754aa3f](https://github.com/newhighsco/chipset/commit/754aa3fa3b66fe83c373fd05f33a255bc17b45a2))
+
+
+### Features
+
+* **components:** adds TwitchEmbed ([5b137fd](https://github.com/newhighsco/chipset/commit/5b137fd2d2c524d89115b2c72bafd4837bab09cc))
+* **grid:** adds flexbox variant ([0df3463](https://github.com/newhighsco/chipset/commit/0df3463d6225b5831debe6922c94ba96127ab986))
+* **twitch-embed:** adds onOnline function ([cf7f05c](https://github.com/newhighsco/chipset/commit/cf7f05c79fe4465b96f425f3998d8e8549948643))
+
 ## [3.0.2](https://github.com/newhighsco/chipset/compare/v3.0.1...v3.0.2) (2020-05-04)
 
 
