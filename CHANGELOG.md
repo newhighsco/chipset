@@ -1,3 +1,10 @@
+## [3.1.2](https://github.com/newhighsco/chipset/compare/v3.1.1...v3.1.2) (2020-05-07)
+
+
+### Bug Fixes
+
+* **grid:** adds className to wrapper ([c150604](https://github.com/newhighsco/chipset/commit/c150604e6ca664164e2aa285feef75cf434ccf39))
+
 ## [3.1.1](https://github.com/newhighsco/chipset/compare/v3.1.0...v3.1.1) (2020-05-07)
 
 
