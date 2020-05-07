@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/newhighsco/chipset/compare/v3.1.0...v3.1.1) (2020-05-07)
+
+
+### Bug Fixes
+
+* **twitch-embed:** removes online API check ([093fa77](https://github.com/newhighsco/chipset/commit/093fa77e4a292675c9120f015fb54d056896c80f))
+
 # [3.1.0](https://github.com/newhighsco/chipset/compare/v3.0.2...v3.1.0) (2020-05-06)
 
 
