@@ -1,59 +1,16 @@
 import React from 'react'
-import { mount, shallow } from 'enzyme'
-import fetch from 'node-fetch'
+import { shallow } from 'enzyme'
 import { TwitchEmbed } from '..'
 
-jest.mock('node-fetch')
-
-const { Response } = jest.requireActual('node-fetch')
-
 describe('Components/TwitchEmbed', () => {
-  beforeEach(() => {
-    fetch.mockRestore()
-  })
-
   it('should render nothing by default', () => {
     const wrapper = shallow(<TwitchEmbed />)
 
     expect(wrapper.type()).toEqual(null)
   })
 
-  it("should render correctly when 'channel' is offline", () => {
-    fetch.mockReturnValue(
-      Promise.resolve(new Response(JSON.stringify({ data: null })))
-    )
-
-    const wrapper = mount(<TwitchEmbed channel="failarmy" />)
-
-    expect(fetch).toBeCalledWith(
-      'https://api.twitch.tv/helix/streams?user_login=failarmy',
-      {
-        headers: { 'Client-ID': undefined }
-      }
-    )
-    expect(wrapper.find('iframe').length).toEqual(0)
-  })
-
-  it("should render correctly when 'channel' is online", () => {
-    fetch.mockReturnValue(
-      Promise.resolve(new Response(JSON.stringify({ data: [{ id: 'foo' }] })))
-    )
-
-    mount(<TwitchEmbed channel="failarmy" />)
-
-    expect(fetch).toBeCalledWith(
-      'https://api.twitch.tv/helix/streams?user_login=failarmy',
-      {
-        headers: { 'Client-ID': undefined }
-      }
-    )
-  })
-
-  it("should render correctly when 'alwaysOnline' is set", () => {
-    const handleOnline = jest.fn(() => ({}))
-    const wrapper = mount(
-      <TwitchEmbed channel="failarmy" alwaysOnline onOnline={handleOnline} />
-    )
+  it("should render correctly when 'channel' is set", () => {
+    const wrapper = shallow(<TwitchEmbed channel="failarmy" />)
 
     expect(wrapper.find('iframe[title="Live"]').prop('src')).toEqual(
       'https://player.twitch.tv?channel=failarmy&autoplay=true&muted=false'
@@ -67,13 +24,10 @@ describe('Components/TwitchEmbed', () => {
     expect(
       wrapper.find('iframe[title="Chat"]').prop('allowFullScreen')
     ).toEqual(undefined)
-    expect(handleOnline).toBeCalled()
   })
 
   it("should render correctly when 'autoplay' is set to 'false'", () => {
-    const wrapper = shallow(
-      <TwitchEmbed channel="failarmy" alwaysOnline autoplay={false} />
-    )
+    const wrapper = shallow(<TwitchEmbed channel="failarmy" autoplay={false} />)
 
     expect(wrapper.find('iframe[title="Live"]').prop('src')).toEqual(
       'https://player.twitch.tv?channel=failarmy&autoplay=false&muted=false'
@@ -81,9 +35,7 @@ describe('Components/TwitchEmbed', () => {
   })
 
   it("should render correctly when 'mute' is set", () => {
-    const wrapper = shallow(
-      <TwitchEmbed channel="failarmy" alwaysOnline muted />
-    )
+    const wrapper = shallow(<TwitchEmbed channel="failarmy" muted />)
 
     expect(wrapper.find('iframe[title="Live"]').prop('src')).toEqual(
       'https://player.twitch.tv?channel=failarmy&autoplay=true&muted=true'
@@ -91,9 +43,7 @@ describe('Components/TwitchEmbed', () => {
   })
 
   it("should render correctly when 'theme' is set to 'dark'", () => {
-    const wrapper = shallow(
-      <TwitchEmbed channel="failarmy" alwaysOnline theme="dark" />
-    )
+    const wrapper = shallow(<TwitchEmbed channel="failarmy" theme="dark" />)
 
     expect(wrapper.find('iframe[title="Chat"]').prop('src')).toEqual(
       'https://www.twitch.tv/embed/failarmy/chat?darkpopout='
@@ -101,9 +51,7 @@ describe('Components/TwitchEmbed', () => {
   })
 
   it('should set correct classNames', () => {
-    const wrapper = shallow(
-      <TwitchEmbed channel="failarmy" alwaysOnline className="foo" />
-    )
+    const wrapper = shallow(<TwitchEmbed channel="failarmy" className="foo" />)
 
     expect(wrapper.prop('className')).toEqual('wrapper foo')
   })

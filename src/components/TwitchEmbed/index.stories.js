@@ -17,15 +17,9 @@ source.story = {
 }
 
 export const light = () => (
-  <TwitchEmbed channel="failarmy" alwaysOnline autoplay={false} muted />
+  <TwitchEmbed channel="jarvenis" autoplay={false} muted />
 )
 
 export const dark = () => (
-  <TwitchEmbed
-    channel="failarmy"
-    theme="dark"
-    alwaysOnline
-    autoplay={false}
-    muted
-  />
+  <TwitchEmbed channel="failarmy" theme="dark" autoplay={false} muted />
 )

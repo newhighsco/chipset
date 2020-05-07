@@ -9,13 +9,14 @@
   background: black;
 
   @include mixins.mq(breakpoints.$tabletLandscape) {
-    width: 75%;
+    flex-grow: 1;
+    width: auto;
   }
 }
 
 .chat {
   @include mixins.mq(breakpoints.$tabletLandscape) {
-    width: 25%;
+    width: 340px;
   }
 
   iframe {
