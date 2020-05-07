@@ -30,6 +30,7 @@ describe('Components/Grid', () => {
         flex
         valign="bottom"
         theme={theme}
+        className="foo"
       >
         Content
       </Grid>
@@ -37,7 +38,7 @@ describe('Components/Grid', () => {
 
     expect(wrapper.type()).toEqual('div')
     expect(wrapper.prop('className')).toEqual(
-      'wrapper double gutterless reverse flex valign-bottom'
+      'wrapper double gutterless reverse flex valign-bottom foo'
     )
   })
 })
@@ -51,12 +52,18 @@ describe('Components/GridItem', () => {
 
   it('should set correct classNames', () => {
     const wrapper = shallow(
-      <GridItem sizes={['one-half', 'desktop-one-whole']} theme={theme}>
+      <GridItem
+        sizes={['one-half', 'desktop-one-whole']}
+        theme={theme}
+        className="bar"
+      >
         Content
       </GridItem>
     )
 
     expect(wrapper.type()).toEqual('div')
-    expect(wrapper.prop('className')).toEqual('item one-half desktop-one-whole')
+    expect(wrapper.prop('className')).toEqual(
+      'item one-half desktop-one-whole bar'
+    )
   })
 })

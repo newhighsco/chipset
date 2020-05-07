@@ -12,7 +12,8 @@ const Grid = ({
   flex,
   valign,
   children,
-  theme
+  theme,
+  className
 }) => {
   if (!children) return null
 
@@ -24,7 +25,8 @@ const Grid = ({
         gutterless && theme?.gutterless,
         reverse && theme?.reverse,
         flex && theme?.flex,
-        valign && theme[`valign-${valign}`]
+        valign && theme[`valign-${valign}`],
+        className
       )}
     >
       {children}
@@ -39,7 +41,8 @@ Grid.propTypes = {
   flex: bool,
   valign: oneOf(['top', 'middle', 'bottom']),
   children: node,
-  theme: object
+  theme: object,
+  className: string
 }
 
 const GridItem = ({ sizes, children, theme, className, ...rest }) => {
