@@ -1,3 +1,10 @@
+## [3.1.3](https://github.com/newhighsco/chipset/compare/v3.1.2...v3.1.3) (2020-05-08)
+
+
+### Bug Fixes
+
+* **components:** adds missing classNames ([bb35e65](https://github.com/newhighsco/chipset/commit/bb35e65f338d6009d4fc5ccc534f98e1911c77cf))
+
 ## [3.1.2](https://github.com/newhighsco/chipset/compare/v3.1.1...v3.1.2) (2020-05-07)
 
 
