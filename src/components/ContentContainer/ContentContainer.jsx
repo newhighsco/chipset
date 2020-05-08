@@ -6,7 +6,14 @@ import { Element } from '../Element'
 /**
  * The `ContentContainer` constrains the width of an item within its parent
  */
-const ContentContainer = ({ size, gutter, children, theme, ...rest }) => {
+const ContentContainer = ({
+  size,
+  gutter,
+  children,
+  theme,
+  className,
+  ...rest
+}) => {
   if (!children) return null
 
   return (
@@ -14,7 +21,8 @@ const ContentContainer = ({ size, gutter, children, theme, ...rest }) => {
       className={classNames(
         theme?.wrapper,
         size && theme[size],
-        gutter && theme?.gutter
+        gutter && theme?.gutter,
+        className
       )}
       {...rest}
     >
@@ -27,7 +35,8 @@ ContentContainer.propTypes = {
   size: string,
   gutter: bool,
   children: node,
-  theme: shape({ wrapper: string, gutter: string })
+  theme: shape({ wrapper: string, gutter: string }),
+  className: string
 }
 
 export { ContentContainer }

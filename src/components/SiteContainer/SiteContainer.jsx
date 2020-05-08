@@ -1,15 +1,16 @@
 import React from 'react'
 import { node, shape, string } from 'prop-types'
+import classNames from 'classnames'
 import { Element } from '../Element'
 
 /**
  * The `SiteContainer` stretches to fill the height of the viewport
  */
-const SiteContainer = ({ children, theme, ...rest }) => {
+const SiteContainer = ({ children, theme, className, ...rest }) => {
   if (!children) return null
 
   return (
-    <Element className={theme?.wrapper} {...rest}>
+    <Element className={classNames(theme?.wrapper, className)} {...rest}>
       {children}
     </Element>
   )
@@ -17,7 +18,8 @@ const SiteContainer = ({ children, theme, ...rest }) => {
 
 SiteContainer.propTypes = {
   children: node,
-  theme: shape({ wrapper: string })
+  theme: shape({ wrapper: string }),
+  className: string
 }
 
 export { SiteContainer }

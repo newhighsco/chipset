@@ -15,6 +15,6 @@ describe('Components/SiteContainer', () => {
 
     expect(wrapper.type()).toEqual(Element)
     expect(wrapper.prop('as')).toEqual(undefined)
-    expect(wrapper.prop('className')).toEqual(undefined)
+    expect(wrapper.prop('className')).toEqual('')
   })
 })
