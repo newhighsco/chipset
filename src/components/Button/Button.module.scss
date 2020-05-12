@@ -1,0 +1,18 @@
+.wrapper {
+  display: block;
+}
+
+.item {
+  cursor: default;
+  display: inline-block;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: auto;
+
+  &[href],
+  &[type] {
+    cursor: pointer;
+  }
+}

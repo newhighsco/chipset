@@ -1,0 +1,18 @@
+@use '../settings/colors';
+@use '../settings/fonts';
+
+.item {
+  background-color: colors.$yellow;
+  border: 1px solid colors.$black;
+  color: currentColor;
+  font-family: fonts.$body;
+  padding: 1em;
+}
+
+.wrapper {
+  text-align: center;
+
+  .item {
+    margin: 0 0.5em;
+  }
+}
