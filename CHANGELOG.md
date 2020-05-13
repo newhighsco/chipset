@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/newhighsco/chipset/compare/v3.2.0...v3.2.1) (2020-05-13)
+
+
+### Bug Fixes
+
+* add missing dependency ([4a19dfc](https://github.com/newhighsco/chipset/commit/4a19dfc26c72a3bb8212232a85c15c1314ebc8ce))
+
 # [3.2.0](https://github.com/newhighsco/chipset/compare/v3.1.3...v3.2.0) (2020-05-12)
 
 
