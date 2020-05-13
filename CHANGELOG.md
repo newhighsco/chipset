@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/newhighsco/chipset/compare/v3.1.3...v3.2.0) (2020-05-12)
+
+
+### Features
+
+* **components:** adds button component ([a261242](https://github.com/newhighsco/chipset/commit/a26124276357aee5656099dde3e4a9b3874d56ea))
+
 ## [3.1.3](https://github.com/newhighsco/chipset/compare/v3.1.2...v3.1.3) (2020-05-08)
 
 

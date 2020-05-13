@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/chipset",
   "description": "Shareable, theme-able component library by New High Score",
-  "version": "3.1.3",
+  "version": "3.2.0",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "config": {
@@ -56,7 +56,7 @@
     "babel-loader": "8.1.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
-    "eslint": "6.8.0",
+    "eslint": "7.0.0",
     "husky": "4.2.5",
     "identity-obj-proxy": "3.0.0",
     "jest": "26.0.1",
