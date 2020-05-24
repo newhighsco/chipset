@@ -48,7 +48,7 @@
     "@newhighsco/editor-config": "1.1.1",
     "@newhighsco/eslint-config": "2.2.3",
     "@newhighsco/prettier-config": "2.0.3",
-    "@newhighsco/release-config": "1.0.23",
+    "@newhighsco/release-config": "1.0.24",
     "@newhighsco/storybook-preset": "2.3.3",
     "@newhighsco/stylelint-config": "2.0.14",
     "@storybook/react": "5.3.19",
