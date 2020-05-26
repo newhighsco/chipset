@@ -425,19 +425,19 @@
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-object-rest-spread" "^7.8.0"
 
-"@babel/plugin-proposal-object-rest-spread@^7.0.0", "@babel/plugin-proposal-object-rest-spread@^7.6.2", "@babel/plugin-proposal-object-rest-spread@^7.9.5":
-  version "7.9.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.9.5.tgz#3fd65911306d8746014ec0d0cf78f0e39a149116"
-  integrity sha512-VP2oXvAf7KCYTthbUHwBlewbl1Iq059f6seJGsxMizaCdgHIeczOr7FBqELhSqfkIl04Fi8okzWzl63UKbQmmg==
+"@babel/plugin-proposal-object-rest-spread@7.9.6", "@babel/plugin-proposal-object-rest-spread@^7.9.6":
+  version "7.9.6"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.9.6.tgz#7a093586fcb18b08266eb1a7177da671ac575b63"
+  integrity sha512-Ga6/fhGqA9Hj+y6whNpPv8psyaK5xzrQwSPsGPloVkvmH+PqW1ixdnfJ9uIO06OjQNYol3PMnfmJ8vfZtkzF+A==
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-object-rest-spread" "^7.8.0"
     "@babel/plugin-transform-parameters" "^7.9.5"
 
-"@babel/plugin-proposal-object-rest-spread@^7.9.6":
-  version "7.9.6"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.9.6.tgz#7a093586fcb18b08266eb1a7177da671ac575b63"
-  integrity sha512-Ga6/fhGqA9Hj+y6whNpPv8psyaK5xzrQwSPsGPloVkvmH+PqW1ixdnfJ9uIO06OjQNYol3PMnfmJ8vfZtkzF+A==
+"@babel/plugin-proposal-object-rest-spread@^7.0.0", "@babel/plugin-proposal-object-rest-spread@^7.6.2", "@babel/plugin-proposal-object-rest-spread@^7.9.5":
+  version "7.9.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.9.5.tgz#3fd65911306d8746014ec0d0cf78f0e39a149116"
+  integrity sha512-VP2oXvAf7KCYTthbUHwBlewbl1Iq059f6seJGsxMizaCdgHIeczOr7FBqELhSqfkIl04Fi8okzWzl63UKbQmmg==
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-object-rest-spread" "^7.8.0"
@@ -1739,6 +1739,11 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.5.8.tgz#cbadda0378af899c17ce1aa69c677015cab28448"
   integrity sha512-a7Gjjw8bfBSertA/pTWBA/9WKEhgaSxvQE2NTSUzaknrzGFOhs4alZSHh3RHmSFdSWv5pUuzAgsWseMLhWEVkQ==
 
+"@mdx-js/util@^1.6.4":
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.4.tgz#ae31e83f2ccb30f122457ee436a015d654ac3c12"
+  integrity sha512-cVGZ68yZwyJnOMhARAdgD1IhZ0bsbsKCvsj6I/XnJcT9hNV/8WXErSV98zFfZwH3LmSRPde58l9hln+zXdK/mQ==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1762,10 +1767,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.3":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.3.tgz#ae34bae47b33905c5f542a12956d6025d2547efa"
-  integrity sha512-Wd9XnskKrUzYk1sb5B+uCHQnLRECA9Wz51Snp23KO2cYM+mLU4/4nsd0CLWc/4ycJYdKZM5eu0FV97xLXeqn/Q==
+"@newhighsco/eslint-config@2.2.4":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.4.tgz#27fb76cb148941533234389f74cdb103da03bf68"
+  integrity sha512-48ZBB1UoKUzzigsbgvRcjypCvA8GYYWSa0di4mQHXioxaQqdeG96j7eL4kWhCQaJPA3VG6fmUHQ/U2RW1/aOiQ==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "6.11.0"
@@ -1774,7 +1779,7 @@
     eslint-plugin-import "2.20.2"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.2.3"
-    eslint-plugin-mdx "1.6.9"
+    eslint-plugin-mdx "1.7.0"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.1.3"
     eslint-plugin-promise "4.2.1"
@@ -6453,14 +6458,14 @@ eslint-import-resolver-node@^0.3.2:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-mdx@^1.6.9:
-  version "1.6.9"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-1.6.9.tgz#7f34dbc5fc3469399fe88651229851a58d9d8aef"
-  integrity sha512-nJ23ulpOqM0NI8AW9GhnvxBr5fsIx1eYDquUKbKRvRK6TwOwf6Mzti8RJnZT4acALwRg5IxBcxyLZp5jqTOKXg==
+eslint-mdx@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-1.7.0.tgz#9a4d92d38e6dbb80dddf0ccf70e74c8ecbc3e4be"
+  integrity sha512-92pxUaau8BxE1cblg5uMBE0MgVIianJiB7QuCdSz1WBNYP93HxxdBIxY8s5USEO9XnKlB7ZOuNKxfjboqphEmQ==
   dependencies:
     espree "^6.2.1"
-    remark-mdx "^1.5.8"
-    remark-parse "^8.0.0"
+    remark-mdx "^1.6.0"
+    remark-parse "^8.0.2"
     tslib "^1.11.1"
     unified "^9.0.0"
 
@@ -6527,16 +6532,16 @@ eslint-plugin-jsx-a11y@6.2.3:
     has "^1.0.3"
     jsx-ast-utils "^2.2.1"
 
-eslint-plugin-mdx@1.6.9:
-  version "1.6.9"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-1.6.9.tgz#9b1d3ce3862730c77394b2c468b526196ca065bf"
-  integrity sha512-MVSeIdvpIkH7FmmIBRo/GLjsYxTziKtosCSmLCrxTF5gtwbNXjxkT0HoKx+XL1cbCvg7vgu1Ic7VjpCVtdU41w==
+eslint-plugin-mdx@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-1.7.0.tgz#a345bf73a9fda5c6a7971eadc6e3f8c0731bc8e0"
+  integrity sha512-imsjx2FATGv9dZR7vU4XCmgh84QgXFCe8QgNd9emttv1r6gAYP3QolLD0v4JdqyugqHDZ473Vliot6+UNH0DtQ==
   dependencies:
     cosmiconfig "^6.0.0"
-    eslint-mdx "^1.6.9"
+    eslint-mdx "^1.7.0"
     eslint-plugin-react "^7.19.0"
-    remark-mdx "^1.5.8"
-    remark-parse "^8.0.0"
+    remark-mdx "^1.6.0"
+    remark-parse "^8.0.2"
     remark-stringify "^8.0.0"
     tslib "^1.11.1"
     unified "^9.0.0"
@@ -13236,6 +13241,20 @@ remark-mdx@^1.5.8:
     remark-parse "7.0.2"
     unified "8.4.2"
 
+remark-mdx@^1.6.0:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-1.6.4.tgz#51c6eba0abb97591f0926c195e088bdb025c0b8a"
+  integrity sha512-tJ/CGNNLVC8nOm0C3EjDQH4Vl3YhawgR2f3J+RaalrMDrT4s5ZzOqoNesV1cnF/DsoOxKlYkExOpNSOa6rkAtQ==
+  dependencies:
+    "@babel/core" "7.9.6"
+    "@babel/helper-plugin-utils" "7.8.3"
+    "@babel/plugin-proposal-object-rest-spread" "7.9.6"
+    "@babel/plugin-syntax-jsx" "7.8.3"
+    "@mdx-js/util" "^1.6.4"
+    is-alphabetical "1.0.4"
+    remark-parse "8.0.2"
+    unified "9.0.0"
+
 remark-parse@7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-7.0.2.tgz#41e7170d9c1d96c3d32cf1109600a9ed50dba7cf"
@@ -13255,6 +13274,28 @@ remark-parse@7.0.2:
     unherit "^1.0.4"
     unist-util-remove-position "^1.0.0"
     vfile-location "^2.0.0"
+    xtend "^4.0.1"
+
+remark-parse@8.0.2, remark-parse@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/remark-parse/-/remark-parse-8.0.2.tgz#5999bc0b9c2e3edc038800a64ff103d0890b318b"
+  integrity sha512-eMI6kMRjsAGpMXXBAywJwiwAse+KNpmt+BK55Oofy4KvBZEqUDj6mWbGLJZrujoPIPPxDXzn3T9baRlpsm2jnQ==
+  dependencies:
+    ccount "^1.0.0"
+    collapse-white-space "^1.0.2"
+    is-alphabetical "^1.0.0"
+    is-decimal "^1.0.0"
+    is-whitespace-character "^1.0.0"
+    is-word-character "^1.0.0"
+    markdown-escapes "^1.0.0"
+    parse-entities "^2.0.0"
+    repeat-string "^1.5.4"
+    state-toggle "^1.0.0"
+    trim "0.0.1"
+    trim-trailing-lines "^1.0.0"
+    unherit "^1.0.4"
+    unist-util-remove-position "^2.0.0"
+    vfile-location "^3.0.0"
     xtend "^4.0.1"
 
 remark-parse@^8.0.0:
@@ -15334,7 +15375,7 @@ unified@8.4.2:
     trough "^1.0.0"
     vfile "^4.0.0"
 
-unified@^9.0.0:
+unified@9.0.0, unified@^9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/unified/-/unified-9.0.0.tgz#12b099f97ee8b36792dbad13d278ee2f696eed1d"
   integrity sha512-ssFo33gljU3PdlWLjNp15Inqb77d6JnJSfyplGJPT/a+fNRNyCBeveBAYJdO5khKdF6WVHa/yYCC7Xl6BDwZUQ==
