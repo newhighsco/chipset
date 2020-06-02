@@ -1,3 +1,10 @@
+## [3.2.2](https://github.com/newhighsco/chipset/compare/v3.2.1...v3.2.2) (2020-06-02)
+
+
+### Bug Fixes
+
+* **twitch:** lazy-load iframes ([97f592d](https://github.com/newhighsco/chipset/commit/97f592de7fc21bbbca46cbef5a2694382b51ab75))
+
 ## [3.2.1](https://github.com/newhighsco/chipset/compare/v3.2.0...v3.2.1) (2020-05-13)
 
 
