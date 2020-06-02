@@ -35,11 +35,12 @@ const TwitchEmbed = ({
             title="Live"
             src={videoSrc.toString()}
             allowFullScreen={allowFullScreen}
+            loading="lazy"
           />
         </ResponsiveMedia>
       </GridItem>
       <GridItem className={styles.chat}>
-        <iframe title="Chat" src={chatSrc.toString()} />
+        <iframe title="Chat" src={chatSrc.toString()} loading="lazy" />
       </GridItem>
     </Grid>
   )
