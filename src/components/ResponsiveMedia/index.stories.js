@@ -20,13 +20,21 @@ source.story = {
 
 export const withImage = () => (
   <ResponsiveMedia ratio="4:3">
-    <img src="https://source.unsplash.com/random/800x600" alt="" />
+    <img
+      src="https://source.unsplash.com/random/800x600"
+      alt=""
+      loading="lazy"
+    />
   </ResponsiveMedia>
 )
 
 export const withIframe = () => (
   <ResponsiveMedia ratio="16:9">
-    <iframe title="iframe" src="https://www.youtube.com/embed/ScMzIvxBSi4" />
+    <iframe
+      title="iframe"
+      src="https://www.youtube.com/embed/ScMzIvxBSi4"
+      loading="lazy"
+    />
   </ResponsiveMedia>
 )
 
