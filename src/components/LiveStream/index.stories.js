@@ -18,15 +18,16 @@ source.story = {
   }
 }
 
-export const light = () => (
-  <LiveStream href="https://www.twitch.tv/jarvenis" autoplay={false} muted />
+export const twitch = () => (
+  <LiveStream href="https://www.twitch.tv/failarmy" muted />
 )
 
-export const dark = () => (
-  <LiveStream
-    href="https://www.twitch.tv/failarmy"
-    darkMode
-    autoplay={false}
-    muted
-  />
+export const twitchDarkMode = () => (
+  <LiveStream href="https://www.twitch.tv/failarmy" muted darkMode />
+)
+
+twitchDarkMode.story = { name: 'Twitch - dark mode' }
+
+export const mixer = () => (
+  <LiveStream href="https://mixer.com/NatureTec" muted />
 )
