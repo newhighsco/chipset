@@ -7,7 +7,7 @@ export default {
 }
 
 export const source = () => (
-  <LiveStream href="https://www.twitch.tv/newhighsco" theme="dark" />
+  <LiveStream href="https://www.twitch.tv/newhighsco" darkMode />
 )
 
 source.story = {
