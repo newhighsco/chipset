@@ -34,8 +34,7 @@
   "dependencies": {
     "@friendsofreactjs/react-css-themr": "4.1.0",
     "classnames": "2.2.6",
-    "react-ga": "2.7.0",
-    "url-parse": "1.4.7"
+    "react-ga": "2.7.0"
   },
   "devDependencies": {
     "@babel/core": "7.10.2",

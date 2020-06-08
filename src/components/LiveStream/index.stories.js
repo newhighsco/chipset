@@ -18,16 +18,38 @@ source.story = {
   }
 }
 
+export const mixer = () => (
+  <LiveStream href="https://mixer.com/NatureTec" autoplay={false} muted />
+)
+
 export const twitch = () => (
-  <LiveStream href="https://www.twitch.tv/failarmy" muted />
+  <LiveStream href="https://www.twitch.tv/failarmy" autoplay={false} muted />
 )
 
 export const twitchDarkMode = () => (
-  <LiveStream href="https://www.twitch.tv/failarmy" muted darkMode />
+  <LiveStream
+    href="https://www.twitch.tv/failarmy"
+    autoplay={false}
+    muted
+    darkMode
+  />
 )
 
 twitchDarkMode.story = { name: 'Twitch - dark mode' }
 
-export const mixer = () => (
-  <LiveStream href="https://mixer.com/NatureTec" muted />
+export const youtube = () => (
+  <LiveStream href="https://youtube.com/jarvenis" autoplay={false} muted />
 )
+
+youtube.story = { name: 'YouTube' }
+
+export const youtubeDarkMode = () => (
+  <LiveStream
+    href="https://youtube.com/jarvenis"
+    autoplay={false}
+    muted
+    darkMode
+  />
+)
+
+youtubeDarkMode.story = { name: 'YouTube - dark mode' }

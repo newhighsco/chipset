@@ -9,6 +9,8 @@
   background: black;
 
   @include mixins.mq(breakpoints.$tabletLandscape) {
+    display: flex;
+    align-items: center;
     flex-grow: 1;
     width: auto;
   }

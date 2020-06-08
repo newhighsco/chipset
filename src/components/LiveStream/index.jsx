@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { bool, string } from 'prop-types'
 import classNames from 'classnames'
 import { Grid, GridItem } from '../Grid'
@@ -16,13 +16,30 @@ const LiveStream = ({
   showChat = true,
   className
 }) => {
-  const [videoUrl, chatUrl] = getLiveStreamUrls({
-    href,
-    autoplay,
-    muted,
-    darkMode,
-    showChat
+  if (!href) return null
+
+  const [liveStreamUrls, setLiveSteamUrls] = useState({
+    videoUrl: null,
+    chatUrl: null
   })
+
+  useEffect(() => {
+    const loadUrls = async () => {
+      setLiveSteamUrls(
+        await getLiveStreamUrls({
+          href,
+          autoplay,
+          muted,
+          darkMode,
+          showChat
+        })
+      )
+    }
+
+    loadUrls()
+  }, [href])
+
+  const { videoUrl, chatUrl } = liveStreamUrls
 
   if (!videoUrl) return null
 

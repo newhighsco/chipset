@@ -1,6 +1,20 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { act } from 'react-dom/test-utils'
+import { mount, shallow } from 'enzyme'
+import fetch from 'node-fetch'
 import { LiveStream } from '..'
+
+jest.mock('node-fetch')
+
+const { Response } = jest.requireActual('node-fetch')
+
+const waitForMount = async wrapper => {
+  await act(async () => {
+    await Promise.resolve(wrapper)
+    await new Promise(resolve => setImmediate(resolve))
+    wrapper.update()
+  })
+}
 
 describe('Components/LiveStream', () => {
   it('should render nothing by default', () => {
@@ -9,17 +23,21 @@ describe('Components/LiveStream', () => {
     expect(wrapper.type()).toEqual(null)
   })
 
-  it("should render nothing when 'href' is invalid", () => {
-    const wrapper = shallow(<LiveStream href="https://foo.com/bar" />)
+  it("should render nothing when 'href' is invalid", async () => {
+    const wrapper = mount(<LiveStream href="https://foo.com/bar" />)
 
-    expect(wrapper.type()).toEqual(null)
+    await waitForMount(wrapper)
+
+    expect(wrapper.children().length).toEqual(0)
   })
 
   describe('Mixer', () => {
     const props = { href: 'https://mixer.com/NatureTec' }
 
-    it("should render correctly when 'href' is set", () => {
-      const wrapper = shallow(<LiveStream {...props} />)
+    it("should render correctly when 'href' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} />)
+
+      await waitForMount(wrapper)
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
@@ -41,8 +59,10 @@ describe('Components/LiveStream', () => {
       ).toEqual(undefined)
     })
 
-    it("should render correctly when 'muted' is set", () => {
-      const wrapper = shallow(<LiveStream {...props} muted />)
+    it("should render correctly when 'muted' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} muted />)
+
+      await waitForMount(wrapper)
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
@@ -55,13 +75,15 @@ describe('Components/LiveStream', () => {
   describe('Twitch', () => {
     const props = { href: 'https://www.twitch.tv/failarmy' }
 
-    it("should render correctly when 'href' is set", () => {
-      const wrapper = shallow(<LiveStream {...props} />)
+    it("should render correctly when 'href' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} />)
+
+      await waitForMount(wrapper)
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://player.twitch.tv?channel=failarmy&autoplay=true&muted=false'
+        'https://player.twitch.tv/?channel=failarmy&autoplay=true&muted=false'
       )
       expect(
         wrapper
@@ -78,32 +100,121 @@ describe('Components/LiveStream', () => {
       ).toEqual(undefined)
     })
 
-    it("should render correctly when 'autoplay' is set to 'false'", () => {
-      const wrapper = shallow(<LiveStream {...props} autoplay={false} />)
+    it("should render correctly when 'autoplay' is set to 'false'", async () => {
+      const wrapper = mount(<LiveStream {...props} autoplay={false} />)
+
+      await waitForMount(wrapper)
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://player.twitch.tv?channel=failarmy&autoplay=false&muted=false'
+        'https://player.twitch.tv/?channel=failarmy&autoplay=false&muted=false'
       )
     })
 
-    it("should render correctly when 'muted' is set", () => {
-      const wrapper = shallow(<LiveStream {...props} muted />)
+    it("should render correctly when 'muted' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} muted />)
+
+      await waitForMount(wrapper)
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://player.twitch.tv?channel=failarmy&autoplay=true&muted=true'
+        'https://player.twitch.tv/?channel=failarmy&autoplay=true&muted=true'
       )
     })
 
-    it("should render correctly when 'darkMode' is set", () => {
-      const wrapper = shallow(<LiveStream {...props} darkMode />)
+    it("should render correctly when 'darkMode' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} darkMode />)
+
+      await waitForMount(wrapper)
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamChat"]').prop('src')
       ).toEqual('https://www.twitch.tv/embed/failarmy/chat?darkpopout=')
+    })
+  })
+
+  describe('YouTube', () => {
+    const props = { href: 'https://www.youtube.com/benedfit' }
+
+    beforeEach(() => {
+      fetch.mockReturnValue(
+        Promise.resolve(
+          new Response(
+            JSON.stringify({
+              contents: `\\"currentVideoEndpoint\\":{\\"watchEndpoint\\":{\\"videoId\\":\\"FooBar123\\"`
+            })
+          )
+        )
+      )
+    })
+
+    it("should render correctly when 'href' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} />)
+
+      await waitForMount(wrapper)
+
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
+      ).toEqual('https://www.youtube.com/embed/FooBar123?autoplay=true')
+      expect(
+        wrapper
+          .find('iframe[data-test-id="LiveStreamVideo"]')
+          .prop('allowFullScreen')
+      ).toEqual(true)
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamChat"]').prop('src')
+      ).toEqual(
+        'https://www.youtube.com/live_chat?v=FooBar123&embed_domain=localhost'
+      )
+      expect(
+        wrapper
+          .find('iframe[data-test-id="LiveStreamChat"]')
+          .prop('allowFullScreen')
+      ).toEqual(undefined)
+    })
+
+    it("should render nothing when 'href' is invalid", async () => {
+      fetch.mockReturnValue(
+        Promise.resolve(
+          new Response(
+            JSON.stringify({
+              contents: '404'
+            })
+          )
+        )
+      )
+
+      const wrapper = mount(
+        <LiveStream href="https://youtube.com/_____^^***" />
+      )
+
+      await waitForMount(wrapper)
+
+      expect(wrapper.children().length).toEqual(0)
+    })
+
+    it("should render correctly when 'autoplay' is set to 'false'", async () => {
+      const wrapper = mount(<LiveStream {...props} autoplay={false} />)
+
+      await waitForMount(wrapper)
+
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
+      ).toEqual('https://www.youtube.com/embed/FooBar123?autoplay=false')
+    })
+
+    it("should render correctly when 'darkMode' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} darkMode />)
+
+      await waitForMount(wrapper)
+
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamChat"]').prop('src')
+      ).toEqual(
+        'https://www.youtube.com/live_chat?v=FooBar123&embed_domain=localhost&dark_theme=1'
+      )
     })
   })
 })
