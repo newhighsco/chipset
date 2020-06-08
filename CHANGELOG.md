@@ -1,3 +1,22 @@
+# [4.0.0](https://github.com/newhighsco/chipset/compare/v3.2.3...v4.0.0) (2020-06-08)
+
+
+### Bug Fixes
+
+* typo ([75a1d50](https://github.com/newhighsco/chipset/commit/75a1d505cdf39fdec191a09181f56661ebb23e20))
+
+
+### Features
+
+* **live-stream:** adds Mixer support ([1ce83ed](https://github.com/newhighsco/chipset/commit/1ce83ed53ea61e9b446707ea0cda659981e836f6))
+* **live-stream:** adds multi-platform LiveStream component ([287f337](https://github.com/newhighsco/chipset/commit/287f337b94d71d536b733d52d49793de7e60254c))
+* **live-stream:** adds YouTube live stream support ([8617809](https://github.com/newhighsco/chipset/commit/8617809d825f746222615074a996f59651fa3d89))
+
+
+### BREAKING CHANGES
+
+* **live-stream:** deprecates TwitchEmbed component, replace with new LiveStream component
+
 ## [3.2.3](https://github.com/newhighsco/chipset/compare/v3.2.2...v3.2.3) (2020-06-08)
 
 
