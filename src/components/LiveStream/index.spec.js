@@ -145,7 +145,7 @@ describe('Components/LiveStream', () => {
         Promise.resolve(
           new Response(
             JSON.stringify({
-              contents: `\\"currentVideoEndpoint\\":{\\"watchEndpoint\\":{\\"videoId\\":\\"FooBar123\\"`
+              contents: `\\"liveStreamabilityRenderer\\":{\\"videoId\\":\\"FooBar123\\"`
             })
           )
         )

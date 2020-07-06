@@ -7,7 +7,7 @@ const YOUTUBE = 'YouTube'
 const mixerUrlRegEx = /^(https?:\/\/)?(www\.)?(mixer\.com)\/(.+)$/
 const twitchUrlRegEx = /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/
 const youtubeUrlRegEx = /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/
-const youtubeVideoRegEx = /\\"currentVideoEndpoint\\":{.*?\\"watchEndpoint\\":{\\"videoId\\":\\"(\w+?)\\"/
+const youtubeVideoRegEx = /\\"liveStreamabilityRenderer\\":{\\"videoId\\":\\"(\w+?)\\"/
 
 const mixerUrl = url => mixerUrlRegEx.exec(url)
 const twitchUrl = url => twitchUrlRegEx.exec(url)
