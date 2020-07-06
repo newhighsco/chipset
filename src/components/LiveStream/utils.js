@@ -66,9 +66,9 @@ export const getLiveStreamUrls = async ({
     if (type === TWITCH) {
       videoUrl = new URL('https://player.twitch.tv')
       videoUrl.searchParams.set('channel', channel)
+      videoUrl.searchParams.set('parent', location.hostname)
       videoUrl.searchParams.set('autoplay', !!autoplay)
       videoUrl.searchParams.set('muted', !!muted)
-      videoUrl.searchParams.set('parent', location.hostname)
 
       chatUrl = new URL(`https://www.twitch.tv/embed/${channel}/chat`)
       chatUrl.searchParams.set('parent', location.hostname)

@@ -83,7 +83,7 @@ describe('Components/LiveStream', () => {
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://player.twitch.tv/?channel=failarmy&autoplay=true&muted=false'
+        'https://player.twitch.tv/?channel=failarmy&parent=localhost&autoplay=true&muted=false'
       )
       expect(
         wrapper
@@ -92,7 +92,7 @@ describe('Components/LiveStream', () => {
       ).toEqual(true)
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamChat"]').prop('src')
-      ).toEqual('https://www.twitch.tv/embed/failarmy/chat')
+      ).toEqual('https://www.twitch.tv/embed/failarmy/chat?parent=localhost')
       expect(
         wrapper
           .find('iframe[data-test-id="LiveStreamChat"]')
@@ -108,7 +108,7 @@ describe('Components/LiveStream', () => {
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://player.twitch.tv/?channel=failarmy&autoplay=false&muted=false'
+        'https://player.twitch.tv/?channel=failarmy&parent=localhost&autoplay=false&muted=false'
       )
     })
 
@@ -120,7 +120,7 @@ describe('Components/LiveStream', () => {
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://player.twitch.tv/?channel=failarmy&autoplay=true&muted=true'
+        'https://player.twitch.tv/?channel=failarmy&parent=localhost&autoplay=true&muted=true'
       )
     })
 
@@ -131,7 +131,9 @@ describe('Components/LiveStream', () => {
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamChat"]').prop('src')
-      ).toEqual('https://www.twitch.tv/embed/failarmy/chat?darkpopout=')
+      ).toEqual(
+        'https://www.twitch.tv/embed/failarmy/chat?parent=localhost&darkpopout='
+      )
     })
   })
 
