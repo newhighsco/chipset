@@ -1,3 +1,11 @@
+## [4.0.2](https://github.com/newhighsco/chipset/compare/v4.0.1...v4.0.2) (2020-07-06)
+
+
+### Bug Fixes
+
+* **live-stream:** adds missing `parent` query string param for Twitch ([1ea5931](https://github.com/newhighsco/chipset/commit/1ea59319a80f8fb37f591d218d60b662cf488d95))
+* **live-stream:** resolves changes with YouTube API ([47db1e5](https://github.com/newhighsco/chipset/commit/47db1e55e23eb11a1aa43f3e7f80781dce3dbae9))
+
 ## [4.0.1](https://github.com/newhighsco/chipset/compare/v4.0.0...v4.0.1) (2020-07-04)
 
 
