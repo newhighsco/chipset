@@ -68,8 +68,10 @@ export const getLiveStreamUrls = async ({
       videoUrl.searchParams.set('channel', channel)
       videoUrl.searchParams.set('autoplay', !!autoplay)
       videoUrl.searchParams.set('muted', !!muted)
+      videoUrl.searchParams.set('parent', location.hostname)
 
       chatUrl = new URL(`https://www.twitch.tv/embed/${channel}/chat`)
+      chatUrl.searchParams.set('parent', location.hostname)
 
       if (darkMode) chatUrl.searchParams.set('darkpopout', '')
     }
