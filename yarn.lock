@@ -2184,10 +2184,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@friendsofreactjs/react-css-themr@4.3.1":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@friendsofreactjs/react-css-themr/-/react-css-themr-4.3.1.tgz#6b3739492b20b934e1be029353358dfbf9587610"
-  integrity sha512-64jKCVvzXhnj8dnP+i8xH6YY9HNmMNCsaV8cCgltSLgBNKyvAES3E2A5KH5pyLCNm08mPrFboIBQqN+k7P/wqw==
+"@friendsofreactjs/react-css-themr@4.3.2":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/@friendsofreactjs/react-css-themr/-/react-css-themr-4.3.2.tgz#4bc8d309aa4aae275a009fd0289c7cedaacc069b"
+  integrity sha512-bjGSPhn2SzR1FaJfEY8KFIWJWhtocdPEmrOE2l7MNkcnf+qAzEId46qhn3NviEl8+zTJZtdB3xqIRpaRXxbP4w==
   dependencies:
     hoist-non-react-statics "^3.3.0"
     invariant "^2.2.4"
