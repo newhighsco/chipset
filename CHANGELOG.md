@@ -1,3 +1,10 @@
+## [4.0.6](https://github.com/newhighsco/chipset/compare/v4.0.5...v4.0.6) (2020-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @friendsofreactjs/react-css-themr to v4.3.0 ([5084e6a](https://github.com/newhighsco/chipset/commit/5084e6ada067db54feb40f8a6027b17e15591893))
+
 ## [4.0.5](https://github.com/newhighsco/chipset/compare/v4.0.4...v4.0.5) (2020-07-22)
 
 
