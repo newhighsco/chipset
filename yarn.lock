@@ -2545,10 +2545,10 @@
     eslint-plugin-react "7.20.4"
     eslint-plugin-standard "4.0.1"
 
-"@newhighsco/postcss-config@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-1.0.1.tgz#3855e58fd34d8e81b713b553ea87f27718ad3f8f"
-  integrity sha512-FkGvWwP7Aq4Q90ErgyL6f63FnR/rW/bculNao31Mjsm69CvMGzmAYIbxsZNC2dB92BRRI3TzSVfaFCF4D5sKIw==
+"@newhighsco/postcss-config@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-1.0.2.tgz#eab13ca49cef22e84eee96bf2d3788e59cee3c41"
+  integrity sha512-GHVr5lxnCpNb+QQX4ut1EwPgbpnYaG70eltstTaUMw4i+GYNgnaxllSJfjV+/HrgPi3l02/r9PGlxJtZsQRT3A==
   dependencies:
     autoprefixer "9.8.5"
     postcss-flexbugs-fixes "4.2.1"
