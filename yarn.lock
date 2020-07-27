@@ -2557,16 +2557,15 @@
     "@semantic-release/npm" "7.0.5"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@2.3.10":
-  version "2.3.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.3.10.tgz#05826eebb7dda557a1e499e82281b4e0b7e40ecb"
-  integrity sha512-EPjcj4CcvraSiQMShg2TULPbBovPSKFwbvP3M8+wQhR5GntcUH3i/aY7U+DQP2+lvIV2ALXtiKujX7XW/WolPw==
+"@newhighsco/storybook-preset@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.4.1.tgz#3c274898ae684bbc3e50759396e63abcca259c26"
+  integrity sha512-Gx2pVt7Sqc3T+QttVXb63fVk7Snzlb9k4O0bNVlyYp8ADadCaYM0vhW7GmAsElArnIAz3Ca2bTEJy30KxSaxMw==
   dependencies:
     "@storybook/addon-actions" "5.3.19"
     "@storybook/addon-docs" "5.3.19"
     "@storybook/addon-links" "5.3.19"
     "@storybook/addons" "5.3.19"
-    "@storybook/preset-scss" "1.0.2"
     "@svgr/webpack" "5.4.0"
     react-is "16.13.1"
     sass "1.26.10"
@@ -3152,11 +3151,6 @@
   integrity sha512-TQfpAnst6j9wSJ0M+hGW/56udUdiBRYMIrbnw2flu753gTjtt06OhcVi/Zz5ltfVrn7aS1rfyX88mdKYpbr8sg==
   dependencies:
     core-js "^3.0.1"
-
-"@storybook/preset-scss@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-scss/-/preset-scss-1.0.2.tgz#6c993b972c6f599237082b55e12c875f0f66ab06"
-  integrity sha512-Kq+Y3H7qRBxocLW57V9HtQhrw9ZzmTodFCjf+OelMh1k6SZ7/FvJHb7mtWofafHcqq1tSQlNIgYMtHRDJ64WVg==
 
 "@storybook/react@5.3.19":
   version "5.3.19"
