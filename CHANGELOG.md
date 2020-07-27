@@ -1,3 +1,10 @@
+## [4.0.9](https://github.com/newhighsco/chipset/compare/v4.0.8...v4.0.9) (2020-07-27)
+
+
+### Bug Fixes
+
+* **site-container:** fixes height ([a3172c7](https://github.com/newhighsco/chipset/commit/a3172c7fdade967c36c4c430c934d96524796948))
+
 ## [4.0.8](https://github.com/newhighsco/chipset/compare/v4.0.7...v4.0.8) (2020-07-22)
 
 
