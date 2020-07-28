@@ -1,15 +1,12 @@
 import fetch from 'node-fetch'
 import urlJoin from 'url-join'
 
-const MIXER = 'Mixer'
 const TWITCH = 'Twitch'
 const YOUTUBE = 'YouTube'
-const mixerUrlRegEx = /^(https?:\/\/)?(www\.)?(mixer\.com)\/(.+)$/
 const twitchUrlRegEx = /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/
 const youtubeUrlRegEx = /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/
 const youtubeVideoRegEx = /\\"liveStreamabilityRenderer\\":{\\"videoId\\":\\"(\w+?)\\"/
 
-const mixerUrl = url => mixerUrlRegEx.exec(url)
 const twitchUrl = url => twitchUrlRegEx.exec(url)
 const youtubeUrl = url => youtubeUrlRegEx.exec(url)
 const youtubeVideo = contents => youtubeVideoRegEx.exec(contents)
@@ -17,11 +14,6 @@ const youtubeVideo = contents => youtubeVideoRegEx.exec(contents)
 export const getChannel = async url => {
   var type
   var channel
-
-  if (mixerUrl(url)) {
-    type = MIXER
-    channel = url.match(mixerUrlRegEx)[4]
-  }
 
   if (twitchUrl(url)) {
     type = TWITCH
@@ -55,14 +47,6 @@ export const getLiveStreamUrls = async ({
   var chatUrl
 
   if (channel) {
-    if (type === MIXER) {
-      videoUrl = new URL(`https://mixer.com/embed/player/${channel}`)
-      videoUrl.searchParams.set('disableLowLatency', true)
-      videoUrl.searchParams.set('muted', !!muted)
-
-      chatUrl = new URL(`https://mixer.com/embed/chat/${channel}`)
-    }
-
     if (type === TWITCH) {
       videoUrl = new URL('https://player.twitch.tv')
       videoUrl.searchParams.set('channel', channel)

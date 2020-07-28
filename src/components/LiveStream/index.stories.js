@@ -21,10 +21,6 @@ source.story = {
   }
 }
 
-export const mixer = () => (
-  <LiveStream href="https://mixer.com/NatureTec" autoplay={false} muted />
-)
-
 export const twitch = () => (
   <LiveStream href="https://www.twitch.tv/failarmy" autoplay={false} muted />
 )

@@ -31,47 +31,6 @@ describe('Components/LiveStream', () => {
     expect(wrapper.children().length).toEqual(0)
   })
 
-  describe('Mixer', () => {
-    const props = { href: 'https://mixer.com/NatureTec' }
-
-    it("should render correctly when 'href' is set", async () => {
-      const wrapper = mount(<LiveStream {...props} />)
-
-      await waitForMount(wrapper)
-
-      expect(
-        wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
-      ).toEqual(
-        'https://mixer.com/embed/player/NatureTec?disableLowLatency=true&muted=false'
-      )
-      expect(
-        wrapper
-          .find('iframe[data-test-id="LiveStreamVideo"]')
-          .prop('allowFullScreen')
-      ).toEqual(true)
-      expect(
-        wrapper.find('iframe[data-test-id="LiveStreamChat"]').prop('src')
-      ).toEqual('https://mixer.com/embed/chat/NatureTec')
-      expect(
-        wrapper
-          .find('iframe[data-test-id="LiveStreamChat"]')
-          .prop('allowFullScreen')
-      ).toEqual(undefined)
-    })
-
-    it("should render correctly when 'muted' is set", async () => {
-      const wrapper = mount(<LiveStream {...props} muted />)
-
-      await waitForMount(wrapper)
-
-      expect(
-        wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
-      ).toEqual(
-        'https://mixer.com/embed/player/NatureTec?disableLowLatency=true&muted=true'
-      )
-    })
-  })
-
   describe('Twitch', () => {
     const props = { href: 'https://www.twitch.tv/failarmy' }
 
