@@ -31,3 +31,7 @@ export const example = () => (
     </Button>
   </ButtonGroup>
 )
+
+example.story = {
+  name: ' '
+}
