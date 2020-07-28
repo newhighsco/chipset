@@ -17,6 +17,9 @@ source.story = {
   parameters: {
     docs: {
       disable: true
+    },
+    percy: {
+      skip: true
     }
   }
 }
@@ -32,3 +35,11 @@ export const withVideo = () => (
     <Backdrop video="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" />
   </div>
 )
+
+withVideo.story = {
+  parameters: {
+    percy: {
+      skip: true
+    }
+  }
+}

@@ -19,6 +19,9 @@ source.story = {
   parameters: {
     docs: {
       disable: true
+    },
+    percy: {
+      skip: true
     }
   }
 }

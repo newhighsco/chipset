@@ -7,6 +7,9 @@ export default {
   parameters: {
     docs: {
       disable: true
+    },
+    percy: {
+      skip: true
     }
   }
 }

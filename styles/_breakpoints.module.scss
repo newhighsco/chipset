@@ -1,3 +1,5 @@
+@use './functions/strip-unit' as *;
+
 $mobile: 300px !default;
 $mobileLandscape: 400px !default;
 $tablet: 550px !default;
@@ -16,11 +18,11 @@ $all: (
 );
 
 :export {
-  mobile: $mobile;
-  mobileLandscape: $mobileLandscape;
-  tablet: $tablet;
-  tabletLandscape: $tabletLandscape;
-  desktop: $desktop;
-  desktopMedium: $desktopMedium;
-  desktopLarge: $desktopLarge;
+  mobile: strip-unit($mobile);
+  mobileLandscape: strip-unit($mobileLandscape);
+  tablet: strip-unit($tablet);
+  tabletLandscape: strip-unit($tabletLandscape);
+  desktop: strip-unit($desktop);
+  desktopMedium: strip-unit($desktopMedium);
+  desktopLarge: strip-unit($desktopLarge);
 }

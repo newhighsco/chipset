@@ -11,7 +11,7 @@ executors:
     working_directory: ~/repo
 
 jobs:
-  build:
+  setup:
     executor: node-executor
     steps:
       - checkout
@@ -27,6 +27,12 @@ jobs:
           root: .
           paths:
             - '*'
+  build:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn build
   test:
     executor: node-executor
     steps:
@@ -45,7 +51,10 @@ workflows:
   version: 2
   test_and_release:
     jobs:
-      - build
+      - setup
+      - build:
+          requires:
+            - setup
       - test:
           requires:
             - build
