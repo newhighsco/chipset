@@ -24,7 +24,7 @@
     "pretest": "npm run lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
-    "snapshot": "npm-run-all --parallel posttest:*",
+    "snapshot": "npm-run-all --parallel snapshot:*",
     "snapshot:percy": "percy-storybook --build_dir build",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache --ext .js,.json,.jsx,.mdx .",
