@@ -72,12 +72,12 @@ workflows:
       - build:
           requires:
             - test
-      - snapshot:
-          requires:
-            - build
+      # - snapshot:
+      #     requires:
+      #       - build
       - release:
           requires:
-            - snapshot
+            - test
           filters:
             branches:
               only:
