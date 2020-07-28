@@ -78,6 +78,7 @@ workflows:
       - release:
           requires:
             - test
+            - snapshot
           filters:
             branches:
               only:
