@@ -1,3 +1,11 @@
+## [4.0.10](https://github.com/newhighsco/chipset/compare/v4.0.9...v4.0.10) (2020-07-28)
+
+
+### Bug Fixes
+
+* typo ([b718276](https://github.com/newhighsco/chipset/commit/b718276706949fc0a5ed0247ecc3d3b3e9d81acb))
+* **live-stream:** removes Mixer ([b274dea](https://github.com/newhighsco/chipset/commit/b274deac0b766509d9d07c34e295972027852eb3))
+
 ## [4.0.9](https://github.com/newhighsco/chipset/compare/v4.0.8...v4.0.9) (2020-07-27)
 
 
