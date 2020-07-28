@@ -31,12 +31,6 @@ jobs:
           root: .
           paths:
             - '*'
-  test:
-    executor: node-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - run: yarn test
   build:
     executor: node-executor
     steps:
@@ -47,6 +41,12 @@ jobs:
           root: .
           paths:
             - build
+  test:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn test
   snapshot:
     executor: snapshot-executor
     steps:
@@ -66,12 +66,12 @@ workflows:
   test_and_release:
     jobs:
       - setup
-      - test:
-          requires:
-            - setup
       - build:
           requires:
-            - test
+            - setup
+      - test:
+          requires:
+            - build
       - snapshot:
           requires:
             - build
