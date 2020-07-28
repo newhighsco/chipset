@@ -9,6 +9,10 @@ executors:
     docker:
       - image: circleci/node:13.14.0
     working_directory: ~/repo
+  snapshot-executor:
+    docker:
+      - image: 'percyio/agent:latest'
+    working_directory: ~/repo
 
 jobs:
   setup:
@@ -27,6 +31,12 @@ jobs:
           root: .
           paths:
             - '*'
+  test:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn test
   build:
     executor: node-executor
     steps:
@@ -37,12 +47,12 @@ jobs:
           root: .
           paths:
             - build
-  test:
-    executor: node-executor
+  snapshot:
+    executor: snapshot-executor
     steps:
       - attach_workspace:
           at: .
-      - run: yarn test
+      - run: yarn snapshot
   release:
     executor: node-executor
     steps:
@@ -56,10 +66,13 @@ workflows:
   test_and_release:
     jobs:
       - setup
-      - build:
+      - test:
           requires:
             - setup
-      - test:
+      - build:
+          requires:
+            - test
+      - snapshot:
           requires:
             - build
       - release:
