@@ -2516,10 +2516,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
   integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
 
-"@newhighsco/commitlint-config@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.3.tgz#6435d8dd7a41db400166621f32346259f5da197f"
-  integrity sha512-P+RgixXwppU2tnNjIEbgzYTxr9xah26cBtjeB6y3LFneJALVzVK77x4/QsANC+rP7jPu2nQRzhfZjKoeJBb9VQ==
+"@newhighsco/commitlint-config@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.5.tgz#64415caea3a7b5641fee675a7363b89e65d10c1a"
+  integrity sha512-xBh9AGaoCOh/UP1Etkta/SpPBvWNTkEoW6klQlPAnXlI3X+ATOOgO8g9ditWe5Jn/h57208r/03BKTH3AIrPbA==
 
 "@newhighsco/editor-config@1.1.1":
   version "1.1.1"
@@ -2571,10 +2571,10 @@
     "@semantic-release/npm" "7.0.5"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.4.3.tgz#7f351f3851df3defd0db7d6434dbe91786f68ffe"
-  integrity sha512-vSI3BXsq8IIx6YIjwpygHwa4m0yPLz/MG68nuodteYtekWJ2y8UE/t/bqkCCCBSqMwfSYUp59NJTNaUdzVS+kA==
+"@newhighsco/storybook-preset@2.4.4":
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.4.4.tgz#c4ae7ad6dec9f07f58ed76519f58c3f36e90b00e"
+  integrity sha512-KrhEd53l/kgqkrfWUL/W+nSZgQOWK+tuRtM08tVzGz1YhEGi38V4ijMBMNhVWfroKMeiG5kP5Z5yOXa15GvCLQ==
   dependencies:
     "@storybook/addon-actions" "5.3.19"
     "@storybook/addon-docs" "5.3.19"
