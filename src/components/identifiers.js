@@ -1,4 +1,5 @@
 export const BUTTON = 'Button'
+export const CARD = 'Card'
 export const CONTENT_CONTAINER = 'ContentContainer'
 export const CREDIT_LOCKUP = 'CreditLockup'
 export const ICON = 'Icon'

@@ -1,0 +1,38 @@
+@use '../settings/colors';
+@use '../settings/fonts';
+
+.wrapper {
+  background-color: colors.$lemon;
+  border: 1px solid colors.$black;
+  color: currentColor;
+  font-family: fonts.$body;
+
+  &[role='link']:hover {
+    box-shadow: 0 0 0 5px colors.$yellow;
+  }
+}
+
+.content {
+  padding: 1em;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.copy {
+  > * + * {
+    margin-top: 1em;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
