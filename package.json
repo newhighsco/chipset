@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/chipset",
   "description": "Shareable, theme-able component library by New High Score",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "config": {

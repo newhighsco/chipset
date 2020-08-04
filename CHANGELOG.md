@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/newhighsco/chipset/compare/v4.1.0...v4.1.1) (2020-08-04)
+
+
+### Bug Fixes
+
+* **card:** simplifies properties ([d2cb9d2](https://github.com/newhighsco/chipset/commit/d2cb9d2a2edaeb172eab167619b71b2f3b0b5fe5))
+
 # [4.1.0](https://github.com/newhighsco/chipset/compare/v4.0.10...v4.1.0) (2020-08-04)
 
 
