@@ -9,7 +9,8 @@ export default {
 
 export const source = () => (
   <Card
-    heading={{ text: 'Heading text', href: 'https://example.com/' }}
+    href="https://example.com/"
+    heading={<h2>Heading</h2>}
     image={{ src: 'https://example.com/image.png' }}
   >
     Content
@@ -28,28 +29,19 @@ source.story = {
 }
 
 export const withHeading = () => (
-  <Card heading={{ text: 'With Heading' }}>
+  <Card heading={<h2>With heading</h2>}>
     <p>Content</p>
   </Card>
 )
 
 export const withImage = () => (
-  <Card
-    heading={{ text: 'With Image' }}
-    image={{ src: imageUrl, ratio: '4:1' }}
-  >
+  <Card heading={<h2>With image</h2>} image={{ src: imageUrl, ratio: '4:1' }}>
     <p>Content</p>
   </Card>
 )
 
 export const withLink = () => (
-  <Card
-    heading={{
-      text: 'With Link',
-      href: 'https://example.com/title-link',
-      target: '_blank'
-    }}
-  >
+  <Card heading={<h2>With link</h2>} href="https://example.com/outer-link">
     <p>Content</p>
     <p>
       <a href="https://example.com/inner-link">Inner link</a>

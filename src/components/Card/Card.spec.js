@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { Card, CardHeading, CardImage } from './Card'
-import { Element, ResponsiveMedia } from '..'
+import { ResponsiveMedia, SmartLink } from '..'
 
 import theme from './Card.module.scss'
 
@@ -22,9 +22,9 @@ describe('Components/Card', () => {
     expect(wrapper.find(CardHeading).prop('text')).toEqual(undefined)
   })
 
-  it("should render correct [role] when 'heading.href' is set", () => {
+  it("should render correct [role] when 'href' is set", () => {
     const wrapper = shallow(
-      <Card heading={{ text: 'Heading text', href: 'https://example.com/' }}>
+      <Card href="https://example.com/" heading={<h2>Heading</h2>}>
         Content
       </Card>
     )
@@ -68,23 +68,30 @@ describe('Components/CardHeading', () => {
     expect(wrapper.type()).toEqual(null)
   })
 
-  it("should render a <h2 /> when 'text' is set", () => {
-    const wrapper = shallow(<CardHeading text="Heading text" />)
-
-    expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual('h2')
-    expect(wrapper.prop('className')).toEqual(undefined)
-    expect(wrapper.childAt(0).text()).toEqual('Heading text')
-  })
-
-  it("should render an <a /> when 'href' is set", () => {
+  it("should render correctly when 'children' is set", () => {
     const wrapper = shallow(
-      <CardHeading text="Heading text" href="https://example.com/" />
+      <CardHeading>
+        <h2>Heading</h2>
+      </CardHeading>
     )
 
-    expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual('h2')
+    expect(wrapper.type()).toEqual('div')
+    expect(wrapper.prop('className')).toEqual(undefined)
+    expect(wrapper.childAt(0).type()).toEqual('h2')
+    expect(wrapper.childAt(0).text()).toEqual('Heading')
+  })
+
+  it("should render an <SmartLink /> when 'href' is set", () => {
+    const wrapper = shallow(
+      <CardHeading href="https://example.com/">
+        <h2>Heading</h2>
+      </CardHeading>
+    )
+
+    expect(wrapper.type()).toEqual('div')
+    expect(wrapper.childAt(0).type()).toEqual(SmartLink)
     expect(wrapper.childAt(0).prop('href')).toEqual('https://example.com/')
-    expect(wrapper.childAt(0).text()).toEqual('Heading text')
+    expect(wrapper.childAt(0).childAt(0).type()).toEqual('h2')
+    expect(wrapper.childAt(0).childAt(0).text()).toEqual('Heading')
   })
 })
