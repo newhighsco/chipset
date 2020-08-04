@@ -1,5 +1,6 @@
 import React from 'react'
 import { ResponsiveMedia } from '..'
+import { imageUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
   title: 'Components/ResponsiveMedia',
@@ -22,31 +23,19 @@ source.story = {
 }
 
 export const withImage = () => (
-  <ResponsiveMedia ratio="4:3">
-    <img
-      src="https://source.unsplash.com/random/800x600"
-      alt=""
-      loading="lazy"
-    />
+  <ResponsiveMedia ratio="4:1">
+    <img src={imageUrl} alt="" loading="lazy" />
   </ResponsiveMedia>
 )
 
 export const withIframe = () => (
   <ResponsiveMedia ratio="16:9">
-    <iframe
-      title="iframe"
-      src="https://www.youtube.com/embed/ScMzIvxBSi4"
-      loading="lazy"
-    />
+    <iframe title="iframe" src="https://example.com/" loading="lazy" />
   </ResponsiveMedia>
 )
 
 export const withVideo = () => (
   <ResponsiveMedia ratio={9 / 16}>
-    <video
-      src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
-      controls
-      muted
-    />
+    <video src={videoUrl} poster={imageUrl} controls muted />
   </ResponsiveMedia>
 )

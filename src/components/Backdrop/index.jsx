@@ -6,7 +6,7 @@ import Element from '../Element'
 import styles from './index.module.scss'
 
 /**
- * Use `Backdrop` to add full-width image or video background to am element
+ * Use `Backdrop` to add full-width image or video background to an element
  */
 const Backdrop = ({ image, video, className, ...rest }) => {
   if (!image && !video) return null
