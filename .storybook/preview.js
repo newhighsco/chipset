@@ -16,6 +16,6 @@ addParameters({
     theme: storybookTheme
   },
   percy: {
-    widths: [breakpoints.mobile, breakpoints.desktopLarge]
+    widths: [Number(breakpoints.mobile), Number(breakpoints.desktopLarge)]
   }
 })
