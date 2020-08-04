@@ -24,6 +24,7 @@
     "pretest": "npm run lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
+    "tdd": "npm run test:js -- --watch",
     "snapshot": "npm-run-all --parallel snapshot:*",
     "snapshot:percy": "percy-storybook --build_dir build",
     "lint": "npm-run-all --parallel lint:*",
