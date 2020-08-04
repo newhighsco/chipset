@@ -7,11 +7,7 @@ parameters:
 executors:
   node-executor:
     docker:
-      - image: circleci/node:13.14.0
-    working_directory: ~/repo
-  snapshot-executor:
-    docker:
-      - image: 'percyio/agent:latest'
+      - image: circleci/node:13.14.0-browsers
     working_directory: ~/repo
 
 jobs:
@@ -48,7 +44,7 @@ jobs:
           paths:
             - build
   snapshot:
-    executor: snapshot-executor
+    executor: node-executor
     steps:
       - attach_workspace:
           at: .
@@ -72,12 +68,12 @@ workflows:
       - build:
           requires:
             - test
-      # - snapshot:
-      #     requires:
-      #       - build
+      - snapshot:
+          requires:
+            - build
       - release:
           requires:
-            - test
+            - snapshot
           filters:
             branches:
               only:
