@@ -1,5 +1,6 @@
 import React from 'react'
-import { Backdrop } from '..'
+import { Backdrop, Button } from '..'
+import { imageUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
   title: 'Components/Backdrop',
@@ -25,21 +26,15 @@ source.story = {
 }
 
 export const withImage = () => (
-  <div style={{ height: 300 }}>
-    <Backdrop image="https://source.unsplash.com/random" />
+  <div style={{ height: 300, padding: '1em' }}>
+    <Backdrop image={imageUrl} />
+    <Button>Content</Button>
   </div>
 )
 
 export const withVideo = () => (
-  <div style={{ height: 300 }}>
-    <Backdrop video="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4" />
+  <div style={{ height: 300, padding: '1em' }}>
+    <Backdrop image={imageUrl} video={videoUrl} />
+    <Button>Content</Button>
   </div>
 )
-
-withVideo.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
-  }
-}
