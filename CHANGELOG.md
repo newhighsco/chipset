@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/newhighsco/chipset/compare/v4.0.10...v4.1.0) (2020-08-04)
+
+
+### Features
+
+* adds Card component ([d83aefc](https://github.com/newhighsco/chipset/commit/d83aefc4498ef0869529244e1e13bba03b77d804))
+
 ## [4.0.10](https://github.com/newhighsco/chipset/compare/v4.0.9...v4.0.10) (2020-07-28)
 
 
