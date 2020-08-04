@@ -30,11 +30,7 @@ export const withImage = () => (
 
 export const withIframe = () => (
   <ResponsiveMedia ratio="16:9">
-    <iframe
-      title="iframe"
-      src="https://www.youtube.com/embed/ScMzIvxBSi4"
-      loading="lazy"
-    />
+    <iframe title="iframe" src="https://example.com/" loading="lazy" />
   </ResponsiveMedia>
 )
 
