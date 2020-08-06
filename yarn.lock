@@ -2590,10 +2590,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.15":
-  version "2.2.15"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.15.tgz#72dbbf4b51bc6be67dc6b5d44dee7fd307f514a7"
-  integrity sha512-KJ66jOIl3cD6KGblP/A+oYt5pVpPpsZlfT9zMhXjVRIlxpWeQ3ovZs3jWP2v8BFYDRovfpnIrDRA7kRy1PsnFA==
+"@newhighsco/eslint-config@2.2.16":
+  version "2.2.16"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.16.tgz#fa59e4ccb8213b227a38bb5271fa1fb80ef6b411"
+  integrity sha512-0+mzTW8hXSrPNkhsx5UBYUPXcfbJnzWfI3fZIG49Y2wsxWTA1D9bmTzbyZZEaGWQfuB6X6A7O6IUDXQMU0g8FQ==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "6.11.0"
@@ -2602,7 +2602,7 @@
     eslint-plugin-import "2.22.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.3.1"
-    eslint-plugin-mdx "1.7.1"
+    eslint-plugin-mdx "1.8.1"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.1.4"
     eslint-plugin-promise "4.2.1"
@@ -2635,10 +2635,10 @@
     "@semantic-release/npm" "7.0.5"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@2.4.5":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.4.5.tgz#37e3c2c9de8deaf02aa5a0d109ddce3844b5c831"
-  integrity sha512-22YzBJIoTQ83GGpBDFOo/yA5uisCNKs/enormrOFa0OX19PXbIw7ja+9Ki0Wxhfde5kRaN1GS+agMXISytkLUw==
+"@newhighsco/storybook-preset@2.4.6":
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-2.4.6.tgz#b36bb7f1f17e01cccce183873a9620be5c4a8a38"
+  integrity sha512-4rWu0R6Lwnp5pYR93x+0BCN7SJRZENXFPC2b99WAm31V5VcnpmNzSh+hD4Rto9pkkp1/9XBJmQos77TPwaVK7Q==
   dependencies:
     "@storybook/addon-actions" "5.3.19"
     "@storybook/addon-docs" "5.3.19"
@@ -2647,7 +2647,7 @@
     "@svgr/webpack" "5.4.0"
     react-is "16.13.1"
     sass "1.26.10"
-    sass-loader "9.0.2"
+    sass-loader "9.0.3"
 
 "@newhighsco/stylelint-config@2.0.18":
   version "2.0.18"
@@ -7538,10 +7538,10 @@ eslint-import-resolver-node@^0.3.3:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-mdx@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-1.7.1.tgz#616c6f39025c2beb55a24f0c4ce94949e1288134"
-  integrity sha512-xcwxSopOn1LWn2lJyIkpT3osdSpqHdtLsC5ovNfY6QNlaBN8UZ+yT14XgmqURKqqGKwSeLOgfRDsXKbupDoN9g==
+eslint-mdx@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-1.8.1.tgz#75316e06f0217627b3361e6968b0bc84cedfdced"
+  integrity sha512-SWxV/T/51v3zLvLJjgKJpyDuA/pyl1oTNhhXKJ2VbN/W1T7nsRFtWtTzywJbhJ21UytDDiRkJ5Z0wmRz17ilqw==
   dependencies:
     espree "^7.1.0"
     remark-mdx "^1.6.5"
@@ -7615,13 +7615,13 @@ eslint-plugin-jsx-a11y@6.3.1:
     jsx-ast-utils "^2.4.1"
     language-tags "^1.0.5"
 
-eslint-plugin-mdx@1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-1.7.1.tgz#24693ec1c88e91da364ec209d99354085dfd1f4b"
-  integrity sha512-l8EzaTIYtgzUG0Tur2u0swPRFT73YbG7oQUP6qnMTHGXrqjO9aDF8lsMfDRyUPvLBJJJua0DFraCIvHyFPrPeg==
+eslint-plugin-mdx@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-1.8.1.tgz#203e906e0cc4c322d9a810d00beae1201a298d44"
+  integrity sha512-fo0I0M50xUGag247cAsI8YlOYmAsleLf1OnSbXugqtIMEBfIIl3H0+ZvdQNTmFfg9NqHnd+HBMbNmP8KJJ8luQ==
   dependencies:
     cosmiconfig "^6.0.0"
-    eslint-mdx "^1.7.1"
+    eslint-mdx "^1.8.1"
     eslint-plugin-react "^7.20.0"
     remark-mdx "^1.6.5"
     remark-parse "^8.0.2"
@@ -10840,7 +10840,7 @@ kleur@^3.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-3.0.3.tgz#a79c9ecc86ee1ce3fa6206d1216c501f147fc07e"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-klona@^1.1.1:
+klona@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/klona/-/klona-1.1.2.tgz#a79e292518a5a5412ec8d097964bff1571a64db0"
   integrity sha512-xf88rTeHiXk+XE2Vhi6yj8Wm3gMZrygGdKjJqN8HkV+PwF/t50/LdAKHoHpPcxFAlmQszTZ1CugrK25S7qDRLA==
@@ -12010,6 +12010,11 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+neo-async@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
+  integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
 nerf-dart@^1.0.0:
   version "1.0.0"
@@ -15265,14 +15270,14 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.2.tgz#847c9b4c95328ddc8c7d35cf28c9d6e54e59a90b"
-  integrity sha512-nphcum3jNI442njnrZ5wJgSNX5lfEOHOKHCLf+PrTIaleploKqAMUuT9CVKjf+lyi6c2MCGPHh1vb9nGsjnZJA==
+sass-loader@9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-9.0.3.tgz#086adcf0bfdcc9d920413e2cdc3ba3321373d547"
+  integrity sha512-fOwsP98ac1VMme+V3+o0HaaMHp8Q/C9P+MUazLFVi3Jl7ORGHQXL1XeRZt3zLSGZQQPC8xE42Y2WptItvGjDQg==
   dependencies:
-    klona "^1.1.1"
+    klona "^1.1.2"
     loader-utils "^2.0.0"
-    neo-async "^2.6.1"
+    neo-async "^2.6.2"
     schema-utils "^2.7.0"
     semver "^7.3.2"
 
