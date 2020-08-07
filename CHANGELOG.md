@@ -1,3 +1,10 @@
+## [4.1.2](https://github.com/newhighsco/chipset/compare/v4.1.1...v4.1.2) (2020-08-07)
+
+
+### Bug Fixes
+
+* **live-stream:** hides Youtube chat on mobile devices ([#166](https://github.com/newhighsco/chipset/issues/166)) ([c627350](https://github.com/newhighsco/chipset/commit/c627350859882b3d70e75f990cabf8f43ec75f36))
+
 ## [4.1.1](https://github.com/newhighsco/chipset/compare/v4.1.0...v4.1.1) (2020-08-04)
 
 
