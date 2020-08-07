@@ -2,9 +2,11 @@ import React from 'react'
 import { act } from 'react-dom/test-utils'
 import { mount, shallow } from 'enzyme'
 import fetch from 'node-fetch'
+import * as deviceDetect from 'react-device-detect'
 import { LiveStream } from '..'
 
 jest.mock('node-fetch')
+jest.mock('react-device-detect')
 
 const { Response } = jest.requireActual('node-fetch')
 
@@ -17,6 +19,10 @@ const waitForMount = async wrapper => {
 }
 
 describe('Components/LiveStream', () => {
+  beforeAll(() => {
+    deviceDetect.isMobile = false
+  })
+
   it('should render nothing by default', () => {
     const wrapper = shallow(<LiveStream />)
 
@@ -97,7 +103,7 @@ describe('Components/LiveStream', () => {
   })
 
   describe('YouTube', () => {
-    const props = { href: 'https://www.youtube.com/benedfit' }
+    const props = { href: 'https://www.youtube.com/failarmy' }
 
     beforeEach(() => {
       fetch.mockReturnValue(
@@ -176,6 +182,22 @@ describe('Components/LiveStream', () => {
       ).toEqual(
         'https://www.youtube.com/live_chat?v=FooBar123&embed_domain=localhost&dark_theme=1'
       )
+    })
+
+    describe('Mobile device', () => {
+      beforeAll(() => {
+        deviceDetect.isMobile = true
+      })
+
+      it('should render correctly on mobile devices', async () => {
+        const wrapper = mount(<LiveStream {...props} />)
+
+        await waitForMount(wrapper)
+
+        expect(
+          wrapper.find('iframe[data-test-id="LiveStreamChat"]').length
+        ).toEqual(0)
+      })
     })
   })
 })

@@ -1,5 +1,6 @@
 import fetch from 'node-fetch'
 import urlJoin from 'url-join'
+import { isMobile } from 'react-device-detect'
 
 const TWITCH = 'Twitch'
 const YOUTUBE = 'YouTube'
@@ -64,11 +65,13 @@ export const getLiveStreamUrls = async ({
       videoUrl = new URL(`https://www.youtube.com/embed/${channel}`)
       videoUrl.searchParams.set('autoplay', !!autoplay)
 
-      chatUrl = new URL('https://www.youtube.com/live_chat')
-      chatUrl.searchParams.set('v', channel)
-      chatUrl.searchParams.set('embed_domain', location.hostname)
+      if (!isMobile) {
+        chatUrl = new URL('https://www.youtube.com/live_chat')
+        chatUrl.searchParams.set('v', channel)
+        chatUrl.searchParams.set('embed_domain', location.hostname)
 
-      if (darkMode) chatUrl.searchParams.set('dark_theme', 1)
+        if (darkMode) chatUrl.searchParams.set('dark_theme', 1)
+      }
     }
   }
 
