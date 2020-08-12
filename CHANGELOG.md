@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/newhighsco/chipset/compare/v4.2.0...v4.3.0) (2020-08-12)
+
+
+### Features
+
+* **components:** adds Prose component ([18261ca](https://github.com/newhighsco/chipset/commit/18261ca607f7950336b76afbe7a0379235c47c5c))
+
 # [4.2.0](https://github.com/newhighsco/chipset/compare/v4.1.2...v4.2.0) (2020-08-12)
 
 
