@@ -36,6 +36,6 @@ export const withIframe = () => (
 
 export const withVideo = () => (
   <ResponsiveMedia ratio={9 / 16}>
-    <video src={videoUrl} poster={imageUrl} controls muted />
+    <video src={videoUrl} poster={imageUrl} muted />
   </ResponsiveMedia>
 )
