@@ -12,9 +12,6 @@ export const source = () => <ContentContainer>Content</ContentContainer>
 
 source.story = {
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }

@@ -6,6 +6,16 @@ export default {
   component: Prose
 }
 
+export const source = () => <Prose>Content</Prose>
+
+source.story = {
+  parameters: {
+    percy: {
+      skip: true
+    }
+  }
+}
+
 const ProseText = () => (
   <>
     <h1>Typography</h1>
@@ -176,19 +186,6 @@ const ProseText = () => (
     </p>
   </>
 )
-
-export const source = () => <Prose>Content</Prose>
-
-source.story = {
-  parameters: {
-    docs: {
-      disable: true
-    },
-    percy: {
-      skip: true
-    }
-  }
-}
 
 export const withChildren = () => (
   <Prose>

@@ -5,13 +5,14 @@ export default {
   title: 'Components/SmartLink',
   component: SmartLink,
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }
   }
 }
 
-export const source = () => <SmartLink>Content</SmartLink>
+export const source = args => <SmartLink {...args} />
+
+source.args = {
+  children: 'Content'
+}

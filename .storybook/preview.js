@@ -1,21 +1,20 @@
 import React from 'react'
-import { addDecorator, addParameters } from '@storybook/react'
 import { ThemeProvider } from '../src/providers'
 import componentTheme from '../src/__mocks__/theme'
-import storybookTheme from './theme'
 
 import breakpoints from '../styles/_breakpoints.module.scss'
 import './preview.scss'
 
-addDecorator(storyFn => (
-  <ThemeProvider theme={componentTheme}>{storyFn()}</ThemeProvider>
-))
+export const decorators = [
+  Story => (
+    <ThemeProvider theme={componentTheme}>
+      <Story />
+    </ThemeProvider>
+  )
+]
 
-addParameters({
-  options: {
-    theme: storybookTheme
-  },
+export const parameters = {
   percy: {
     widths: [Number(breakpoints.mobile), Number(breakpoints.desktopLarge)]
   }
-})
+}

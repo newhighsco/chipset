@@ -5,9 +5,6 @@ export default {
   title: 'Components/Icon',
   component: Icon,
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }
