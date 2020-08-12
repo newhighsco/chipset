@@ -15,14 +15,6 @@ export const source = () => (
   <LiveStream href="https://www.twitch.tv/newhighsco" darkMode />
 )
 
-source.story = {
-  parameters: {
-    docs: {
-      disable: true
-    }
-  }
-}
-
 export const twitch = () => (
   <LiveStream href="https://www.twitch.tv/failarmy" autoPlay={false} muted />
 )

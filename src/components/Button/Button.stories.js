@@ -11,9 +11,6 @@ export const source = () => <Button>Content</Button>
 
 source.story = {
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }

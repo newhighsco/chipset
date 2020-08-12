@@ -6,7 +6,7 @@ import Element from '../Element'
 import styles from './index.module.scss'
 
 /**
- * Use `Backdrop` to add full-width image or video background to an element
+ * Use `Backdrop` to add full-width image or video background to the viewport
  */
 const Backdrop = ({
   image,

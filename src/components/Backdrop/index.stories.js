@@ -16,9 +16,6 @@ export const source = () => (
 
 source.story = {
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }
@@ -32,9 +29,25 @@ export const withImage = () => (
   </div>
 )
 
+withImage.story = {
+  parameters: {
+    docs: {
+      disable: true
+    }
+  }
+}
+
 export const withVideo = () => (
   <div style={{ height: 300, padding: '1em' }}>
     <Backdrop image={imageUrl} video={videoUrl} autoPlay={false} />
     <Button>Content</Button>
   </div>
 )
+
+withVideo.story = {
+  parameters: {
+    docs: {
+      disable: true
+    }
+  }
+}

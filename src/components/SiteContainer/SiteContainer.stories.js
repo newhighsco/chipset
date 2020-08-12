@@ -1,26 +1,31 @@
 import React from 'react'
 import { SiteContainer } from '..'
+import { SiteContainer as PureSiteContainer } from './SiteContainer'
 
 export default {
   title: 'Components/SiteContainer',
   component: SiteContainer
 }
 
-export const source = () => <SiteContainer>Content</SiteContainer>
+const storyArgs = { children: 'Content' }
+const StoryComponent = args => <PureSiteContainer {...args} />
+
+export const source = StoryComponent.bind({})
 
 source.story = {
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }
   }
 }
 
-export const example = () => <SiteContainer>Content</SiteContainer>
+source.args = storyArgs
+
+export const example = args => <SiteContainer {...args} />
 
 example.story = {
   name: ' '
 }
+
+example.args = storyArgs

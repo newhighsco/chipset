@@ -10,9 +10,6 @@ export const source = () => <List>Content</List>
 
 source.story = {
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }

@@ -5,9 +5,6 @@ export default {
   title: 'Components/Landmark',
   component: Landmark,
   parameters: {
-    docs: {
-      disable: true
-    },
     percy: {
       skip: true
     }
