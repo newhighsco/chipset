@@ -56,7 +56,7 @@
     "@newhighsco/storybook-preset": "2.4.6",
     "@newhighsco/stylelint-config": "2.0.18",
     "@percy/storybook": "3.3.0",
-    "@storybook/react": "5.3.19",
+    "@storybook/react": "6.0.5",
     "babel-jest": "26.3.0",
     "babel-loader": "8.1.0",
     "enzyme": "3.11.0",
