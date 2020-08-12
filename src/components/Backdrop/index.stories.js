@@ -34,7 +34,7 @@ export const withImage = () => (
 
 export const withVideo = () => (
   <div style={{ height: 300, padding: '1em' }}>
-    <Backdrop image={imageUrl} video={videoUrl} />
+    <Backdrop image={imageUrl} video={videoUrl} autoPlay={false} />
     <Button>Content</Button>
   </div>
 )

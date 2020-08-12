@@ -1,5 +1,5 @@
 import React from 'react'
-import { string } from 'prop-types'
+import { bool, string } from 'prop-types'
 import classNames from 'classnames'
 import Element from '../Element'
 
@@ -8,7 +8,16 @@ import styles from './index.module.scss'
 /**
  * Use `Backdrop` to add full-width image or video background to an element
  */
-const Backdrop = ({ image, video, className, ...rest }) => {
+const Backdrop = ({
+  image,
+  video,
+  autoPlay = true,
+  loop = true,
+  muted = true,
+  playsInline = true,
+  className,
+  ...rest
+}) => {
   if (!image && !video) return null
 
   const props = {
@@ -18,10 +27,10 @@ const Backdrop = ({ image, video, className, ...rest }) => {
     ...(video && {
       as: 'video',
       src: video,
-      autoPlay: true,
-      loop: true,
-      muted: true,
-      playsInline: true
+      autoPlay,
+      loop,
+      muted,
+      playsInline
     })
   }
 
@@ -37,6 +46,10 @@ const Backdrop = ({ image, video, className, ...rest }) => {
 Backdrop.propTypes = {
   image: string,
   video: string,
+  autoPlay: bool,
+  loop: bool,
+  muted: bool,
+  playsInline: bool,
   className: string
 }
 
