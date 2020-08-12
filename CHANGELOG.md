@@ -1,3 +1,15 @@
+# [4.2.0](https://github.com/newhighsco/chipset/compare/v4.1.2...v4.2.0) (2020-08-12)
+
+
+### Bug Fixes
+
+* **backdrop:** provides control to set hard-coded props ([3b021cd](https://github.com/newhighsco/chipset/commit/3b021cd8dc5977639ab7dd2ccb14aea7a41509a4))
+
+
+### Features
+
+* **live-stream:** makes component themable ([bc67b53](https://github.com/newhighsco/chipset/commit/bc67b53c3a076c9cd9f5792e0c239101d170a46b))
+
 ## [4.1.2](https://github.com/newhighsco/chipset/compare/v4.1.1...v4.1.2) (2020-08-07)
 
 
