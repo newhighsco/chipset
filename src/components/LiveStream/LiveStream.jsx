@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from 'react'
-import { bool, string } from 'prop-types'
+import { bool, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import { Grid, GridItem } from '../Grid'
 import { ResponsiveMedia } from '../ResponsiveMedia'
 import { getLiveStreamUrls } from './utils'
 
-import styles from './index.module.scss'
-
 const LiveStream = ({
   href,
   allowFullScreen = true,
-  autoplay = true,
+  autoPlay = true,
   muted,
   darkMode,
   showChat = true,
+  theme,
   className
 }) => {
   if (!href) return null
@@ -28,7 +27,7 @@ const LiveStream = ({
       setLiveSteamUrls(
         await getLiveStreamUrls({
           href,
-          autoplay,
+          autoPlay,
           muted,
           darkMode,
           showChat
@@ -44,8 +43,8 @@ const LiveStream = ({
   if (!videoUrl) return null
 
   return (
-    <Grid gutterless flex className={classNames(styles.wrapper, className)}>
-      <GridItem className={styles.video}>
+    <Grid gutterless flex className={classNames(theme?.wrapper, className)}>
+      <GridItem className={theme?.video}>
         <ResponsiveMedia ratio="16:9">
           <iframe
             data-test-id="LiveStreamVideo"
@@ -57,7 +56,7 @@ const LiveStream = ({
         </ResponsiveMedia>
       </GridItem>
       {chatUrl && (
-        <GridItem className={styles.chat}>
+        <GridItem className={theme?.chat}>
           <iframe
             data-test-id="LiveStreamChat"
             title="Live chat"
@@ -73,10 +72,11 @@ const LiveStream = ({
 LiveStream.propTypes = {
   href: string,
   allowFullScreen: bool,
-  autoplay: bool,
+  autoPlay: bool,
   muted: bool,
   darkMode: bool,
   showChat: bool,
+  theme: shape({ wrapper: string, video: string, chat: string }),
   className: string
 }
 

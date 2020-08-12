@@ -3,7 +3,12 @@ import { LiveStream } from '..'
 
 export default {
   title: 'Components/LiveStream',
-  component: LiveStream
+  component: LiveStream,
+  parameters: {
+    percy: {
+      skip: true
+    }
+  }
 }
 
 export const source = () => (
@@ -14,21 +19,18 @@ source.story = {
   parameters: {
     docs: {
       disable: true
-    },
-    percy: {
-      skip: true
     }
   }
 }
 
 export const twitch = () => (
-  <LiveStream href="https://www.twitch.tv/failarmy" autoplay={false} muted />
+  <LiveStream href="https://www.twitch.tv/failarmy" autoPlay={false} muted />
 )
 
 export const twitchDarkMode = () => (
   <LiveStream
     href="https://www.twitch.tv/failarmy"
-    autoplay={false}
+    autoPlay={false}
     muted
     darkMode
   />
@@ -37,7 +39,7 @@ export const twitchDarkMode = () => (
 twitchDarkMode.story = { name: 'Twitch - dark mode' }
 
 export const youtube = () => (
-  <LiveStream href="https://youtube.com/failarmy" autoplay={false} muted />
+  <LiveStream href="https://youtube.com/failarmy" autoPlay={false} muted />
 )
 
 youtube.story = { name: 'YouTube' }
@@ -45,7 +47,7 @@ youtube.story = { name: 'YouTube' }
 export const youtubeDarkMode = () => (
   <LiveStream
     href="https://youtube.com/failarmy"
-    autoplay={false}
+    autoPlay={false}
     muted
     darkMode
   />

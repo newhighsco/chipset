@@ -3,7 +3,7 @@ import { act } from 'react-dom/test-utils'
 import { mount, shallow } from 'enzyme'
 import fetch from 'node-fetch'
 import * as deviceDetect from 'react-device-detect'
-import { LiveStream } from '..'
+import { LiveStream } from './LiveStream'
 
 jest.mock('node-fetch')
 jest.mock('react-device-detect')
@@ -65,8 +65,8 @@ describe('Components/LiveStream', () => {
       ).toEqual(undefined)
     })
 
-    it("should render correctly when 'autoplay' is set to 'false'", async () => {
-      const wrapper = mount(<LiveStream {...props} autoplay={false} />)
+    it("should render correctly when 'autoPlay' is set to 'false'", async () => {
+      const wrapper = mount(<LiveStream {...props} autoPlay={false} />)
 
       await waitForMount(wrapper)
 
@@ -162,8 +162,8 @@ describe('Components/LiveStream', () => {
       expect(wrapper.children().length).toEqual(0)
     })
 
-    it("should render correctly when 'autoplay' is set to 'false'", async () => {
-      const wrapper = mount(<LiveStream {...props} autoplay={false} />)
+    it("should render correctly when 'autoPlay' is set to 'false'", async () => {
+      const wrapper = mount(<LiveStream {...props} autoPlay={false} />)
 
       await waitForMount(wrapper)
 

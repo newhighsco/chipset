@@ -38,7 +38,7 @@ export const getChannel = async url => {
 
 export const getLiveStreamUrls = async ({
   href,
-  autoplay,
+  autoPlay,
   muted,
   darkMode,
   showChat
@@ -52,7 +52,7 @@ export const getLiveStreamUrls = async ({
       videoUrl = new URL('https://player.twitch.tv')
       videoUrl.searchParams.set('channel', channel)
       videoUrl.searchParams.set('parent', location.hostname)
-      videoUrl.searchParams.set('autoplay', !!autoplay)
+      videoUrl.searchParams.set('autoplay', !!autoPlay)
       videoUrl.searchParams.set('muted', !!muted)
 
       chatUrl = new URL(`https://www.twitch.tv/embed/${channel}/chat`)
@@ -63,7 +63,7 @@ export const getLiveStreamUrls = async ({
 
     if (type === YOUTUBE) {
       videoUrl = new URL(`https://www.youtube.com/embed/${channel}`)
-      videoUrl.searchParams.set('autoplay', !!autoplay)
+      videoUrl.searchParams.set('autoplay', !!autoPlay)
 
       if (!isMobile) {
         chatUrl = new URL('https://www.youtube.com/live_chat')
