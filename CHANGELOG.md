@@ -1,3 +1,15 @@
+# [4.4.0](https://github.com/newhighsco/chipset/compare/v4.3.0...v4.4.0) (2020-08-14)
+
+
+### Bug Fixes
+
+* **backdrop:** use poster attribute for video ([1096ff0](https://github.com/newhighsco/chipset/commit/1096ff042df7644646cb8f507dc04e6050093bd1))
+
+
+### Features
+
+* **components:** adds Image component ([ba9562d](https://github.com/newhighsco/chipset/commit/ba9562d1395334237105c8c87719de0538999a02))
+
 # [4.3.0](https://github.com/newhighsco/chipset/compare/v4.2.0...v4.3.0) (2020-08-12)
 
 
