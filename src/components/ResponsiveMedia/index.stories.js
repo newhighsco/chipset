@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResponsiveMedia } from '..'
+import { Image, ResponsiveMedia } from '..'
 import { imageUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
@@ -21,7 +21,7 @@ source.story = {
 
 export const withImage = () => (
   <ResponsiveMedia ratio="4:1">
-    <img src={imageUrl} alt="" loading="lazy" />
+    <Image src={imageUrl} />
   </ResponsiveMedia>
 )
 

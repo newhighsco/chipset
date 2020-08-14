@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { Card, CardHeading, CardImage } from './Card'
-import { ResponsiveMedia, SmartLink } from '..'
+import { Image, ResponsiveMedia, SmartLink } from '..'
 
 import theme from './Card.module.scss'
 
@@ -55,7 +55,7 @@ describe('Components/CardImage', () => {
 
     expect(wrapper.type()).toEqual(ResponsiveMedia)
     expect(wrapper.prop('className')).toEqual(undefined)
-    expect(wrapper.find('img').prop('src')).toEqual(
+    expect(wrapper.find(Image).prop('src')).toEqual(
       'https://example.com/image.png'
     )
   })

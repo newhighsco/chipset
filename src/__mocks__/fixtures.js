@@ -1,2 +1,5 @@
-export const imageUrl = '/fixtures/image.jpg'
-export const videoUrl = '/fixtures/video.mp4'
+const baseUrl = '/fixtures/'
+
+export const imageUrl = `${baseUrl}image.jpg`
+export const imageWebPUrl = `${baseUrl}image.webp`
+export const videoUrl = `${baseUrl}video.mp4`

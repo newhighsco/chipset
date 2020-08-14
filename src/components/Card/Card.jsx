@@ -1,6 +1,7 @@
 import React from 'react'
 import { node, number, object, oneOfType, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { Image } from '../Image'
 import { ResponsiveMedia } from '../ResponsiveMedia'
 import { SmartLink } from '../SmartLink'
 
@@ -47,12 +48,12 @@ Card.propTypes = {
   className: string
 }
 
-const CardImage = ({ src, alt = '', ratio, theme, ...rest }) => {
+const CardImage = ({ src, ratio, theme, ...rest }) => {
   if (!src) return null
 
   return (
     <ResponsiveMedia ratio={ratio} className={theme?.image}>
-      <img src={src} alt={alt} loading="lazy" {...rest} />
+      <Image src={src} {...rest} />
     </ResponsiveMedia>
   )
 }

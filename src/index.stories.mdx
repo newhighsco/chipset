@@ -1,5 +1,5 @@
 import { Meta, Title } from '@storybook/addon-docs/blocks'
-import { CreditLockup, SmartLink } from '.'
+import { CreditLockup, Image, SmartLink } from '.'
 import { config } from '../package.json'
 
 import LogoSvg from '../.storybook/static/logo.svg'
@@ -9,13 +9,13 @@ import LogoSvg from '../.storybook/static/logo.svg'
 <Title>
   <LogoSvg /> <strong>{config.title}</strong>{' '}
   <SmartLink href="https://npmjs.com/@newhighsco/chipset" target="_blank">
-    <img
+    <Image
       src="https://img.shields.io/npm/v/@newhighsco/chipset.svg"
       alt="NPM version"
     />
   </SmartLink>{' '}
   <SmartLink href="https://github.com/newhighsco/chipset" target="_blank">
-    <img
+    <Image
       src="https://img.shields.io/github/stars/newhighsco/chipset?style=social"
       alt="Github"
     />
