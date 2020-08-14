@@ -1,7 +1,7 @@
 import React from 'react'
 import { node } from 'prop-types'
 
-import styles from './index.module.scss'
+import styles from './VisuallyHidden.module.scss'
 
 /**
  * Use `VisuallyHidden` to hide content that you still want screen-readers to access
@@ -16,5 +16,4 @@ VisuallyHidden.propTypes = {
   children: node
 }
 
-export default VisuallyHidden
 export { VisuallyHidden }
