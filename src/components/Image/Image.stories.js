@@ -7,15 +7,17 @@ export default {
   component: Image
 }
 
-const storyArgs = {
-  src: imageUrl,
-  sources: [{ srcSet: imageWebPUrl }, { srcSet: imageUrl }]
+const Template = args => <Image {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  src: 'https://example.com/image.jpg',
+  sources: [
+    { srcSet: 'https://example.com/image.webp' },
+    { srcSet: 'https://example.com/image.jpg' }
+  ]
 }
-const StoryComponent = args => <Image {...args} />
-
-export const source = StoryComponent.bind({})
-
-source.args = storyArgs
 
 source.story = {
   parameters: {
@@ -25,15 +27,15 @@ source.story = {
   }
 }
 
-export const img = StoryComponent.bind({})
+export const img = Template.bind({})
 
 img.args = {
-  src: storyArgs.src
+  src: imageUrl
 }
 
-export const picture = StoryComponent.bind({})
+export const picture = Template.bind({})
 
 picture.args = {
-  ...storyArgs,
+  src: imageUrl,
   sources: [{ srcSet: imageWebPUrl }, { srcSet: imageUrl }]
 }

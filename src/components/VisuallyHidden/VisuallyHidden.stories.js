@@ -11,7 +11,9 @@ export default {
   }
 }
 
-export const source = args => <VisuallyHidden {...args} />
+const Template = args => <VisuallyHidden {...args} />
+
+export const source = Template.bind({})
 
 source.args = {
   children: 'Content'

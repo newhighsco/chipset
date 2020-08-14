@@ -11,8 +11,11 @@ export default {
   }
 }
 
-export const source = args => <SmartLink {...args} />
+const Template = args => <SmartLink {...args} />
+
+export const source = Template.bind({})
 
 source.args = {
+  href: 'https://example.com/',
   children: 'Content'
 }

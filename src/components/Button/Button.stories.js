@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, ButtonGroup } from '..'
+import { Button as PureButton } from './Button'
 
 export default {
   title: 'Components/Button',
@@ -7,7 +8,14 @@ export default {
   subcomponents: { ButtonGroup }
 }
 
-export const source = () => <Button>Content</Button>
+const Template = args => <PureButton {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  href: 'https://example.com/',
+  children: 'Content'
+}
 
 source.story = {
   parameters: {

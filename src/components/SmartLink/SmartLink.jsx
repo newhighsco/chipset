@@ -10,7 +10,7 @@ const SmartLink = ({
   href,
   target,
   eventLabel,
-  type,
+  type = 'button',
   setRef,
   children,
   className,
@@ -47,10 +47,6 @@ const SmartLink = ({
       {children}
     </a>
   )
-}
-
-SmartLink.defaultProps = {
-  type: 'button'
 }
 
 SmartLink.propTypes = {
