@@ -1,3 +1,10 @@
+## [4.4.1](https://github.com/newhighsco/chipset/compare/v4.4.0...v4.4.1) (2020-08-18)
+
+
+### Bug Fixes
+
+* **responsive-media:** correctly size picture elements ([b17a4e6](https://github.com/newhighsco/chipset/commit/b17a4e661d5e343081ad9ae94b76092e415eb60c))
+
 # [4.4.0](https://github.com/newhighsco/chipset/compare/v4.3.0...v4.4.0) (2020-08-14)
 
 
