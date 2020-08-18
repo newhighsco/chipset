@@ -37,5 +37,5 @@ export const picture = Template.bind({})
 
 picture.args = {
   src: imageUrl,
-  sources: [{ srcSet: imageWebPUrl }, { srcSet: imageUrl }]
+  sources: [{ srcSet: imageWebPUrl }]
 }
