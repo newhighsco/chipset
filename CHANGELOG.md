@@ -1,3 +1,10 @@
+# [4.5.0](https://github.com/newhighsco/chipset/compare/v4.4.1...v4.5.0) (2020-08-18)
+
+
+### Features
+
+* **logo:** adds interaction styles ([0a5f39e](https://github.com/newhighsco/chipset/commit/0a5f39e51df565fb0688822ef3d0825cca17a3a4))
+
 ## [4.4.1](https://github.com/newhighsco/chipset/compare/v4.4.0...v4.4.1) (2020-08-18)
 
 
