@@ -5,7 +5,8 @@
   position: relative;
   width: 100%;
 
-  & > * {
+  & > *,
+  & > picture img {
     display: block;
     width: 100%;
   }

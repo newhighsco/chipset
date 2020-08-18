@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image, ResponsiveMedia } from '..'
-import { imageUrl, videoUrl } from '../../__mocks__/fixtures'
+import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
   title: 'Components/ResponsiveMedia',
@@ -22,6 +22,12 @@ source.story = {
 export const withImage = () => (
   <ResponsiveMedia ratio="4:1">
     <Image src={imageUrl} />
+  </ResponsiveMedia>
+)
+
+export const withPicture = () => (
+  <ResponsiveMedia ratio="4:1">
+    <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
   </ResponsiveMedia>
 )
 
