@@ -7,7 +7,7 @@
     'white-space';
 
   @each $property in $overrides {
-    [style*='#{$property}'] {
+    :global([style*='#{$property}']) {
       #{$property}: inherit !important;
     }
   }
