@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { VisuallyHidden } from '..'
+import { Element, VisuallyHidden } from '..'
 
 describe('Components/VisuallyHidden', () => {
   it('should render nothing by default', () => {
@@ -12,6 +12,7 @@ describe('Components/VisuallyHidden', () => {
   it("should render a <span /> when 'children' is set", () => {
     const wrapper = shallow(<VisuallyHidden>Content</VisuallyHidden>)
 
-    expect(wrapper.type()).toEqual('span')
+    expect(wrapper.type()).toEqual(Element)
+    expect(wrapper.prop('as')).toEqual('span')
   })
 })
