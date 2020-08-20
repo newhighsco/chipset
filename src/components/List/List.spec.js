@@ -1,6 +1,9 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Element, List } from '..'
+import { List } from './List'
+import { Element } from '..'
+
+import theme from './List.module.scss'
 
 const children = (
   <>
@@ -21,7 +24,6 @@ describe('Components/List', () => {
 
     expect(wrapper.type()).toEqual(Element)
     expect(wrapper.prop('as')).toEqual('ul')
-    expect(wrapper.prop('className')).toEqual('wrapper')
   })
 
   it("should render the correct component when 'as' is set", () => {
@@ -29,12 +31,11 @@ describe('Components/List', () => {
 
     expect(wrapper.type()).toEqual(Element)
     expect(wrapper.prop('as')).toEqual('ol')
-    expect(wrapper.prop('className')).toEqual('wrapper')
   })
 
   it('should set correct classNames', () => {
     const wrapper = shallow(
-      <List unstyled inline commaSeparated>
+      <List theme={theme} unstyled inline commaSeparated>
         {children}
       </List>
     )

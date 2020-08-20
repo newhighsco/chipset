@@ -1,9 +1,7 @@
 import React from 'react'
-import { bool, node, oneOf, string } from 'prop-types'
+import { bool, node, object, oneOf, string } from 'prop-types'
 import classNames from 'classnames'
 import { Element } from '../Element'
-
-import styles from './index.module.scss'
 
 const List = ({
   as = 'ul',
@@ -11,6 +9,7 @@ const List = ({
   inline,
   commaSeparated,
   children,
+  theme,
   className
 }) => {
   if (!children) return null
@@ -19,10 +18,10 @@ const List = ({
     <Element
       as={as}
       className={classNames(
-        styles.wrapper,
-        unstyled && styles.unstyled,
-        inline && styles.inline,
-        commaSeparated && styles.commaSeparated,
+        theme?.wrapper,
+        unstyled && theme?.unstyled,
+        inline && theme?.inline,
+        commaSeparated && theme?.commaSeparated,
         className
       )}
     >
@@ -37,8 +36,8 @@ List.propTypes = {
   inline: bool,
   commaSeparated: bool,
   children: node,
+  theme: object,
   className: string
 }
 
-export default List
 export { List }
