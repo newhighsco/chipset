@@ -1,3 +1,16 @@
+# [4.6.0](https://github.com/newhighsco/chipset/compare/v4.5.0...v4.6.0) (2020-08-20)
+
+
+### Bug Fixes
+
+* **list:** makes List themable ([32e8229](https://github.com/newhighsco/chipset/commit/32e8229b92edf8c52ae74a1832f932851a7e040b))
+* **visually-hidden:** control element via "is" property ([f3ddcb8](https://github.com/newhighsco/chipset/commit/f3ddcb819eee97dc7d1aafdb647fef8630cbbe81))
+
+
+### Features
+
+* **components:** adds Navigation component ([dcdd0b9](https://github.com/newhighsco/chipset/commit/dcdd0b9af1dc52dd60231f24424428fd8cf804de))
+
 # [4.5.0](https://github.com/newhighsco/chipset/compare/v4.4.1...v4.5.0) (2020-08-18)
 
 
