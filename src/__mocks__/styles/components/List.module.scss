@@ -1,0 +1,5 @@
+@use '../settings/fonts';
+
+.wrapper {
+  font-family: fonts.$body;
+}

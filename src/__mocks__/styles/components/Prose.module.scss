@@ -1,0 +1,16 @@
+@use '../settings/colors';
+@use '../settings/fonts';
+
+.wrapper {
+  font-family: fonts.$body;
+
+  a {
+    color: currentColor;
+    text-decoration-color: colors.$yellow;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.5em;
+  }
+}
