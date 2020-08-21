@@ -1,3 +1,15 @@
+# [4.7.0](https://github.com/newhighsco/chipset/compare/v4.6.1...v4.7.0) (2020-08-21)
+
+
+### Bug Fixes
+
+* **list:** pass rest props to underlying component ([80edeca](https://github.com/newhighsco/chipset/commit/80edeca59cd2de8d290ff357f1a860b497c49010))
+
+
+### Features
+
+* **navigation:** adds ability to toggle Navigation ([e7fb052](https://github.com/newhighsco/chipset/commit/e7fb052d413b05ef05c11a024ed78922f7888e81))
+
 ## [4.6.1](https://github.com/newhighsco/chipset/compare/v4.6.0...v4.6.1) (2020-08-20)
 
 
