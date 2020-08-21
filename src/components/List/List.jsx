@@ -10,7 +10,8 @@ const List = ({
   commaSeparated,
   children,
   theme,
-  className
+  className,
+  ...rest
 }) => {
   if (!children) return null
 
@@ -24,6 +25,7 @@ const List = ({
         commaSeparated && theme?.commaSeparated,
         className
       )}
+      {...rest}
     >
       {children}
     </Element>
