@@ -38,3 +38,10 @@ inline.args = {
   ...source.args,
   inline: true
 }
+
+export const toggle = args => <Navigation {...args} />
+
+toggle.args = {
+  ...source.args,
+  toggle: true
+}

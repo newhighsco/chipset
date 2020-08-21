@@ -5,6 +5,16 @@
   font-family: fonts.$body;
 }
 
+.toggle {
+  &:focus {
+    outline: none;
+  }
+
+  &[aria-expanded='true'] {
+    margin-bottom: 0.5em;
+  }
+}
+
 .list {
   background: colors.$lemon;
   border: 1px solid colors.$black;
@@ -25,6 +35,7 @@
 
 .link {
   color: currentColor;
+  display: block;
   padding: 1em;
   text-decoration: none;
 
