@@ -2580,10 +2580,10 @@
     postcss-flexbugs-fixes "4.2.1"
     postcss-preset-env "6.7.0"
 
-"@newhighsco/prettier-config@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.3.tgz#93b0890a85811d974c470eabc52416b51812f4bc"
-  integrity sha512-CSM7psOyseGde8oJ+cGx6qQ0TLlADpCNDTs3R91Z/H/9hXcFyLSk3E+TUC81jATGE6L5r35O7zf8csX+zM9PqA==
+"@newhighsco/prettier-config@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.4.tgz#512040223e48def054ebc516ca5bdad70500b64d"
+  integrity sha512-MNkO4uvb5qw8I3uu+F/j742u+1OeeVvTbQY//8VZ2Dvkwq/OE8skVp3J7f1STSpWJW2U4MoMRc1HBbvEm57jHQ==
 
 "@newhighsco/release-config@1.0.26":
   version "1.0.26"
@@ -2609,10 +2609,10 @@
     sass "1.26.10"
     sass-loader "9.0.3"
 
-"@newhighsco/stylelint-config@2.0.18":
-  version "2.0.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.18.tgz#a9ed2f4a87ed87025cef02aa799d345e312db52d"
-  integrity sha512-35y64xQcM6SpV76iLbINFPgn+8Vzsxh8hUctMBRNytjEI8qN7DX2y/i+ThqA9HOgl0v+4WJWvHL1msUv0OFeGw==
+"@newhighsco/stylelint-config@2.0.19":
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.19.tgz#793b2b4687f1205d36b1845d174ac0e1da6e0348"
+  integrity sha512-1CjKfE1wGrgPKYBBOLBeAXhCvPOrpDgKzbJHjfB4lY4PYFTzT+F4C/WljnvY/ZRLdQ5tgcFvKGxxXup90zxZHA==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
