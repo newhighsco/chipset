@@ -7,8 +7,8 @@ import List from '../List'
 import SmartLink from '../SmartLink'
 import VisuallyHidden from '../VisuallyHidden'
 
-import MenuSvg from './images/menu.svg'
-import CloseSvg from './images/close.svg'
+import { ReactComponent as MenuSvg } from './images/menu.svg'
+import { ReactComponent as CloseSvg } from './images/close.svg'
 
 const Navigation = ({
   title = 'Navigation',

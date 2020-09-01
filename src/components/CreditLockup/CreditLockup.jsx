@@ -3,7 +3,7 @@ import { oneOf, shape, string } from 'prop-types'
 import { SmartLink } from '../SmartLink'
 import { Icon } from '../Icon'
 
-import LogoSvg from './new-high-score.svg'
+import { ReactComponent as LogoSvg } from './images/logo.svg'
 
 const name = 'New High Score'
 const title = `${name} - Extending your favourite end-game`
