@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/newhighsco/chipset/compare/v4.7.0...v5.0.0) (2020-09-01)
+
+
+### Features
+
+* **svgs:** refactors SVG imports to follow change to loader ([8a82747](https://github.com/newhighsco/chipset/commit/8a827473ccf4e6837fcc4970a7a99240f4c00c94))
+
+
+### BREAKING CHANGES
+
+* **svgs:** existing projects will break until `next-plugin-svgr` is updated to v3
+
 # [4.7.0](https://github.com/newhighsco/chipset/compare/v4.6.1...v4.7.0) (2020-08-21)
 
 
