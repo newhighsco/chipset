@@ -7,4 +7,5 @@ const MockSvg = () => (
   </svg>
 )
 
-export default MockSvg
+export default 'MockSvgURL.svg'
+export const ReactComponent = MockSvg
