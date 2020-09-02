@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navigation } from '..'
-import { Navigation as PureNavigation } from './Navigation'
+import PureNavigation from './Navigation'
 
 export default {
   title: 'Components/Navigation',

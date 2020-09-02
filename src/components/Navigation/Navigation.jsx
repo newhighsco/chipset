@@ -34,9 +34,10 @@ const Navigation = ({
       <VisuallyHidden as="h2">{title}</VisuallyHidden>
       {toggle && (
         <Button
+          active={visible}
           aria-expanded={visible}
           onClick={toggleVisibility}
-          className={theme?.toggle}
+          theme={{ item: theme?.toggle, active: theme?.toggleActive }}
         >
           <Icon
             theme={{ wrapper: theme?.toggleIcon }}
@@ -74,8 +75,15 @@ Navigation.propTypes = {
   renderLink: func,
   toggle: bool,
   onToggle: func,
-  theme: shape({ wrapper: string, item: string, link: string }),
+  theme: shape({
+    wrapper: string,
+    item: string,
+    link: string,
+    toggle: string,
+    toggleActive: string,
+    toggleIcon: string
+  }),
   className: string
 }
 
-export { Navigation }
+export default Navigation

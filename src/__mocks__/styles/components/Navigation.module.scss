@@ -10,7 +10,7 @@
     outline: none;
   }
 
-  &[aria-expanded='true'] {
+  &.toggleActive {
     margin-bottom: 0.5em;
   }
 }

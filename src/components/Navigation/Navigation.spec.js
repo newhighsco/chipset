@@ -1,8 +1,8 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Navigation } from './Navigation'
-import { Button } from '../Button'
-import { List } from '../List'
+import Navigation from './Navigation'
+import Button from '../Button'
+import List from '../List'
 
 const links = [
   { href: '/foo', children: 'Foo' },
