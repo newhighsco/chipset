@@ -1,5 +1,6 @@
 import React from 'react'
-import { ContentContainer, Grid, GridItem } from '..'
+import { ContentContainer, Grid } from '..'
+import GridItem from './GridItem'
 
 export default {
   title: 'Components/Grid',
@@ -9,9 +10,9 @@ export default {
 
 export const source = () => (
   <Grid>
-    <GridItem>Content</GridItem>
-    <GridItem sizes={['one-half']}>Content</GridItem>
-    <GridItem sizes={['one-quarter', 'tablet-one-whole']}>Content</GridItem>
+    <Grid.Item>Content</Grid.Item>
+    <Grid.Item sizes={['one-half']}>Content</Grid.Item>
+    <Grid.Item sizes={['one-quarter', 'tablet-one-whole']}>Content</Grid.Item>
   </Grid>
 )
 
@@ -25,15 +26,15 @@ source.story = {
 
 export const withGutter = () => (
   <Grid>
-    <GridItem>
+    <Grid.Item>
       <ContentContainer>Full-width</ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Left</ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Right</ContentContainer>
-    </GridItem>
+    </Grid.Item>
   </Grid>
 )
 
@@ -43,15 +44,15 @@ withGutter.story = {
 
 export const withoutGutter = () => (
   <Grid gutterless>
-    <GridItem>
+    <Grid.Item>
       <ContentContainer>Full-width</ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Left</ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Right</ContentContainer>
-    </GridItem>
+    </Grid.Item>
   </Grid>
 )
 
@@ -61,44 +62,44 @@ withoutGutter.story = {
 
 export const reversed = () => (
   <Grid reverse>
-    <GridItem>
+    <Grid.Item>
       <ContentContainer>Full-width</ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Left</ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Right</ContentContainer>
-    </GridItem>
+    </Grid.Item>
   </Grid>
 )
 
 export const middled = () => (
   <Grid valign="middle">
-    <GridItem sizes={['one-half']}>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>
         Long content that wraps
         <br />
         Long content that wraps
       </ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Short</ContentContainer>
-    </GridItem>
+    </Grid.Item>
   </Grid>
 )
 
 export const bottomed = () => (
   <Grid valign="bottom">
-    <GridItem sizes={['one-half']}>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>
         Long content that wraps
         <br />
         Long content that wraps
       </ContentContainer>
-    </GridItem>
-    <GridItem sizes={['one-half']}>
+    </Grid.Item>
+    <Grid.Item sizes={['one-half']}>
       <ContentContainer>Short</ContentContainer>
-    </GridItem>
+    </Grid.Item>
   </Grid>
 )

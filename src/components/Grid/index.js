@@ -1,11 +1,13 @@
 import { withTheme } from '../../providers'
 import { GRID } from '../identifiers'
-import { Grid, GridItem } from './Grid'
+import PureGrid from './Grid'
+import PureGridItem from './GridItem'
 
 import theme from './Grid.module.scss'
 
-const WithThemeWrapper = withTheme(GRID, theme)(Grid)
-const WithThemeItem = withTheme(GRID, theme)(GridItem)
+const Grid = withTheme(GRID, theme)(PureGrid)
+const GridItem = withTheme(GRID, theme)(PureGridItem)
 
-export default WithThemeWrapper
-export { WithThemeWrapper as Grid, WithThemeItem as GridItem }
+Grid.Item = GridItem
+
+export default Grid
