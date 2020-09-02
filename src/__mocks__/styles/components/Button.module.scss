@@ -8,9 +8,15 @@
   font-family: fonts.$body;
   padding: 1em;
 
-  &:hover {
+  &:hover,
+  &.active {
     background-color: colors.$yellow;
     text-decoration: none !important;
+  }
+
+  &[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
   }
 }
 

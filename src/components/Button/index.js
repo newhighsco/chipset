@@ -1,11 +1,13 @@
 import { withTheme } from '../../providers'
 import { BUTTON } from '../identifiers'
-import { Button, ButtonGroup } from './Button'
+import PureButton from './Button'
+import PureButtonGroup from './ButtonGroup'
 
 import theme from './Button.module.scss'
 
-const WithThemeItem = withTheme(BUTTON, theme)(Button)
-const WithThemeWrapper = withTheme(BUTTON, theme)(ButtonGroup)
+const Button = withTheme(BUTTON, theme)(PureButton)
+const ButtonGroup = withTheme(BUTTON, theme)(PureButtonGroup)
 
-export default WithThemeItem
-export { WithThemeItem as Button, WithThemeWrapper as ButtonGroup }
+Button.Group = ButtonGroup
+
+export default Button

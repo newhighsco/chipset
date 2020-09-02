@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button, ButtonGroup } from '..'
-import { Button as PureButton } from './Button'
+import { Button } from '..'
+import PureButton from './Button'
+import ButtonGroup from './ButtonGroup'
 
 export default {
   title: 'Components/Button',
@@ -26,15 +27,13 @@ source.story = {
 }
 
 export const example = () => (
-  <ButtonGroup>
-    <Button>Blah</Button>
-    <Button href="/test" disabled>
-      Blah
+  <Button.Group>
+    <Button>Default</Button>
+    <Button href="https://example.com/" target="_blank" active>
+      Active
     </Button>
-    <Button href="https://test.com/" active>
-      Blah
-    </Button>
-  </ButtonGroup>
+    <Button disabled>Disabled</Button>
+  </Button.Group>
 )
 
 example.story = {
