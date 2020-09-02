@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { List } from './List'
-import { Element } from '..'
+import List from './List'
+import Element from '../Element'
 
 import theme from './List.module.scss'
 

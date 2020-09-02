@@ -1,12 +1,19 @@
 import React from 'react'
 import { List } from '..'
+import PureList from './List'
 
 export default {
   title: 'Components/List',
   component: List
 }
 
-export const source = () => <List>Content</List>
+const Template = args => <PureList {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  children: 'Content'
+}
 
 source.story = {
   parameters: {

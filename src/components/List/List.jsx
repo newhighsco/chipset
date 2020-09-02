@@ -1,7 +1,7 @@
 import React from 'react'
 import { bool, node, object, oneOf, string } from 'prop-types'
 import classNames from 'classnames'
-import { Element } from '../Element'
+import Element from '../Element'
 
 const List = ({
   as = 'ul',
@@ -42,4 +42,4 @@ List.propTypes = {
   className: string
 }
 
-export { List }
+export default List
