@@ -1,3 +1,10 @@
+# [6.1.0](https://github.com/newhighsco/chipset/compare/v6.0.0...v6.1.0) (2020-09-02)
+
+
+### Features
+
+* **backdrop:** add support for multiple child objects ([28d0486](https://github.com/newhighsco/chipset/commit/28d048634f9a02848dface798a7320b0b7b0b6ab))
+
 # [6.0.0](https://github.com/newhighsco/chipset/compare/v5.0.0...v6.0.0) (2020-09-02)
 
 
