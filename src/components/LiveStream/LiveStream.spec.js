@@ -3,7 +3,7 @@ import { act } from 'react-dom/test-utils'
 import { mount, shallow } from 'enzyme'
 import fetch from 'node-fetch'
 import * as deviceDetect from 'react-device-detect'
-import { LiveStream } from './LiveStream'
+import LiveStream from './LiveStream'
 
 jest.mock('node-fetch')
 jest.mock('react-device-detect')
@@ -124,7 +124,9 @@ describe('Components/LiveStream', () => {
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
-      ).toEqual('https://www.youtube.com/embed/FooBar123?autoplay=true')
+      ).toEqual(
+        'https://www.youtube-nocookie.com/embed/FooBar123?autoplay=true'
+      )
       expect(
         wrapper
           .find('iframe[data-test-id="LiveStreamVideo"]')
@@ -169,7 +171,9 @@ describe('Components/LiveStream', () => {
 
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
-      ).toEqual('https://www.youtube.com/embed/FooBar123?autoplay=false')
+      ).toEqual(
+        'https://www.youtube-nocookie.com/embed/FooBar123?autoplay=false'
+      )
     })
 
     it("should render correctly when 'darkMode' is set", async () => {

@@ -62,7 +62,7 @@ export const getLiveStreamUrls = async ({
     }
 
     if (type === YOUTUBE) {
-      videoUrl = new URL(`https://www.youtube.com/embed/${channel}`)
+      videoUrl = new URL(`https://www.youtube-nocookie.com/embed/${channel}`)
       videoUrl.searchParams.set('autoplay', !!autoPlay)
 
       if (!isMobile) {
