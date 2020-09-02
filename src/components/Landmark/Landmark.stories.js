@@ -11,4 +11,10 @@ export default {
   }
 }
 
-export const source = () => <Landmark>Content</Landmark>
+const Template = args => <Landmark {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  children: 'Content'
+}

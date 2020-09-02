@@ -1,8 +1,8 @@
 import React from 'react'
 import { node } from 'prop-types'
-import { VisuallyHidden } from '../VisuallyHidden'
+import VisuallyHidden from '../VisuallyHidden'
 
-import styles from './index.module.scss'
+import styles from './Landmark.module.scss'
 
 /**
  * Use `Landmark` to create visually hidden anchors
@@ -22,4 +22,3 @@ Landmark.propTypes = {
 }
 
 export default Landmark
-export { Landmark }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Landmark, VisuallyHidden } from '..'
+import Landmark from './Landmark'
+import VisuallyHidden from '../VisuallyHidden'
 
 describe('Components/Landmark', () => {
   it('should render correctly by default', () => {
