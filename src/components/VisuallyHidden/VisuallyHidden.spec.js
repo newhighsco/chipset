@@ -1,6 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Element, VisuallyHidden } from '..'
+import VisuallyHidden from './VisuallyHidden'
+import Element from '../Element'
 
 describe('Components/VisuallyHidden', () => {
   it('should render nothing by default', () => {
