@@ -23,4 +23,4 @@ Prose.propTypes = {
   className: string
 }
 
-export { Prose }
+export default Prose

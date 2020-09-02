@@ -1,12 +1,19 @@
 import React from 'react'
 import { Prose } from '..'
+import PureProse from './Prose'
 
 export default {
   title: 'Components/Prose',
   component: Prose
 }
 
-export const source = () => <Prose>Content</Prose>
+const Template = args => <PureProse {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  children: 'Content'
+}
 
 source.story = {
   parameters: {
@@ -16,8 +23,8 @@ source.story = {
   }
 }
 
-const ProseText = () => (
-  <>
+export const withChildren = () => (
+  <Prose>
     <h1>Typography</h1>
     <p>
       Prose text generally appears on article pages or service pages. Any text
@@ -184,12 +191,6 @@ const ProseText = () => (
     <p>
       Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>
     </p>
-  </>
-)
-
-export const withChildren = () => (
-  <Prose>
-    <ProseText />
   </Prose>
 )
 

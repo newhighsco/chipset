@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Prose } from './Prose'
+import Prose from './Prose'
 
 describe('Component/Prose', () => {
   it('should render nothing by default', () => {
