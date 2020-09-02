@@ -1,10 +1,9 @@
 import { withTheme } from '../../providers'
 import { ICON } from '../identifiers'
-import { Icon } from './Icon'
+import PureIcon from './Icon'
 
 import theme from './Icon.module.scss'
 
-const WithTheme = withTheme(ICON, theme)(Icon)
+const Icon = withTheme(ICON, theme)(PureIcon)
 
-export default WithTheme
-export { WithTheme as Icon }
+export default Icon

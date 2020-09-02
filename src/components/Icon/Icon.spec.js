@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { VisuallyHidden } from '..'
-import { Icon } from './Icon'
+import Icon from './Icon'
+import VisuallyHidden from '../VisuallyHidden'
 
 const theme = { wrapper: 'wrapper', customSize: 'customSize' }
 

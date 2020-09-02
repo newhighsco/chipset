@@ -1,7 +1,7 @@
 import React from 'react'
 import { node, number, shape, string } from 'prop-types'
 import classNames from 'classnames'
-import { VisuallyHidden } from '../VisuallyHidden'
+import VisuallyHidden from '../VisuallyHidden'
 
 /**
  * Use `Icon` to wrap SVGs
@@ -42,4 +42,4 @@ Icon.propTypes = {
   theme: shape({ wrapper: string, customSize: string })
 }
 
-export { Icon }
+export default Icon

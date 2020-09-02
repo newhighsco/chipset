@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icon } from '..'
+import PureIcon from './Icon'
 
 export default {
   title: 'Components/Icon',
@@ -11,8 +12,10 @@ export default {
   }
 }
 
-export const source = () => (
-  <Icon>
-    <svg />
-  </Icon>
-)
+const Template = args => <PureIcon {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  children: <svg />
+}
