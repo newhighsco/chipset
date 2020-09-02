@@ -1,10 +1,9 @@
 import { withTheme } from '../../providers'
 import { CREDIT_LOCKUP } from '../identifiers'
-import { CreditLockup } from './CreditLockup'
+import PureCreditLockup from './CreditLockup'
 
 import theme from './CreditLockup.module.scss'
 
-const WithTheme = withTheme(CREDIT_LOCKUP, theme)(CreditLockup)
+const CreditLockup = withTheme(CREDIT_LOCKUP, theme)(PureCreditLockup)
 
-export default WithTheme
-export { WithTheme as CreditLockup }
+export default CreditLockup

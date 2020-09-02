@@ -1,12 +1,15 @@
 import React from 'react'
 import { CreditLockup } from '..'
+import PureCreditLockup from './CreditLockup'
 
 export default {
   title: 'Components/CreditLockup',
   component: CreditLockup
 }
 
-export const source = () => <CreditLockup />
+const Template = args => <PureCreditLockup {...args} />
+
+export const source = Template.bind({})
 
 source.story = {
   parameters: {

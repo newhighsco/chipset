@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { CreditLockup } from './CreditLockup'
+import CreditLockup from './CreditLockup'
 
 import theme from './CreditLockup.module.scss'
 

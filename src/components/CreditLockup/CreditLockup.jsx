@@ -1,7 +1,7 @@
 import React from 'react'
 import { oneOf, shape, string } from 'prop-types'
-import { SmartLink } from '../SmartLink'
-import { Icon } from '../Icon'
+import SmartLink from '../SmartLink'
+import Icon from '../Icon'
 
 import { ReactComponent as LogoSvg } from './images/logo.svg'
 
@@ -40,4 +40,4 @@ CreditLockup.propTypes = {
   theme: shape({ wrapper: string, link: string, logo: string, text: string })
 }
 
-export { CreditLockup }
+export default CreditLockup
