@@ -9,4 +9,3 @@ Element.propTypes = {
 }
 
 export default Element
-export { Element }

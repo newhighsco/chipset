@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Element } from '..'
+import Element from './Element'
 
 describe('Components/Element', () => {
   it('should render <div /> by default', () => {
