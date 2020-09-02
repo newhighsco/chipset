@@ -1,9 +1,8 @@
 import React, { forwardRef } from 'react'
-import { SmartLink } from './SmartLink'
+import PureSmartLink from './SmartLink'
 
-const WithRef = forwardRef((props, ref) => {
-  return <SmartLink {...props} setRef={ref} />
+const SmartLink = forwardRef((props, ref) => {
+  return <PureSmartLink {...props} setRef={ref} />
 })
 
-export default WithRef
-export { WithRef as SmartLink }
+export default SmartLink

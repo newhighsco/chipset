@@ -1,5 +1,6 @@
 import React from 'react'
-import { SmartLink } from './SmartLink'
+import { SmartLink } from '..'
+import PureSmartLink from './SmartLink'
 
 export default {
   title: 'Components/SmartLink',
@@ -11,7 +12,7 @@ export default {
   }
 }
 
-const Template = args => <SmartLink {...args} />
+const Template = args => <PureSmartLink {...args} />
 
 export const source = Template.bind({})
 

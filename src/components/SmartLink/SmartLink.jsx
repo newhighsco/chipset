@@ -59,4 +59,4 @@ SmartLink.propTypes = {
   className: string
 }
 
-export { SmartLink }
+export default SmartLink

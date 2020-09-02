@@ -2,7 +2,7 @@ import React, { createRef } from 'react'
 import { mount, shallow } from 'enzyme'
 import { OutboundLink } from 'react-ga'
 import WithRef from '.'
-import { SmartLink } from './SmartLink'
+import SmartLink from './SmartLink'
 
 describe('Components/SmartLink', () => {
   it('should render nothing by default', () => {
