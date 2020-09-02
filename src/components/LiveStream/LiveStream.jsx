@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { bool, shape, string } from 'prop-types'
 import classNames from 'classnames'
-import { Grid, GridItem } from '../Grid'
-import { ResponsiveMedia } from '../ResponsiveMedia'
+import Grid from '../Grid'
+import ResponsiveMedia from '../ResponsiveMedia'
 import { getLiveStreamUrls } from './utils'
 
 const LiveStream = ({
@@ -44,7 +44,7 @@ const LiveStream = ({
 
   return (
     <Grid gutterless flex className={classNames(theme?.wrapper, className)}>
-      <GridItem className={theme?.video}>
+      <Grid.Item className={theme?.video}>
         <ResponsiveMedia ratio="16:9">
           <iframe
             data-test-id="LiveStreamVideo"
@@ -54,16 +54,16 @@ const LiveStream = ({
             loading="lazy"
           />
         </ResponsiveMedia>
-      </GridItem>
+      </Grid.Item>
       {chatUrl && (
-        <GridItem className={theme?.chat}>
+        <Grid.Item className={theme?.chat}>
           <iframe
             data-test-id="LiveStreamChat"
             title="Live chat"
             src={chatUrl.toString()}
             loading="lazy"
           />
-        </GridItem>
+        </Grid.Item>
       )}
     </Grid>
   )
@@ -81,4 +81,3 @@ LiveStream.propTypes = {
 }
 
 export default LiveStream
-export { LiveStream }

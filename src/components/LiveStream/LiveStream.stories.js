@@ -1,5 +1,6 @@
 import React from 'react'
 import { LiveStream } from '..'
+import PureLiveStream from './LiveStream'
 
 export default {
   title: 'Components/LiveStream',
@@ -11,9 +12,13 @@ export default {
   }
 }
 
-export const source = () => (
-  <LiveStream href="https://www.twitch.tv/newhighsco" darkMode />
-)
+const Template = args => <PureLiveStream {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  href: 'https://www.twitch.tv/newhighsco'
+}
 
 export const twitch = () => (
   <LiveStream href="https://www.twitch.tv/failarmy" autoPlay={false} muted />
