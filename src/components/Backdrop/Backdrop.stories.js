@@ -1,6 +1,6 @@
 import React from 'react'
-import { Backdrop, Button } from '..'
-import { imageUrl, videoUrl } from '../../__mocks__/fixtures'
+import { Backdrop, Button, Image } from '..'
+import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
   title: 'Components/Backdrop',
@@ -20,8 +20,7 @@ const Template = args => <Backdrop {...args} />
 export const source = Template.bind({})
 
 source.args = {
-  image: 'https://example.com/image.png',
-  video: 'https://example.com/video.mp4'
+  children: 'Content'
 }
 
 source.story = {
@@ -35,7 +34,7 @@ source.story = {
 export const withImage = Template.bind({})
 
 withImage.args = {
-  image: imageUrl
+  children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
 }
 
 withImage.decorators = storyDecorators
@@ -51,9 +50,7 @@ withImage.story = {
 export const withVideo = Template.bind({})
 
 withVideo.args = {
-  image: imageUrl,
-  video: videoUrl,
-  autoplay: false
+  children: <video src={videoUrl} poster={imageUrl} muted />
 }
 
 withVideo.decorators = storyDecorators

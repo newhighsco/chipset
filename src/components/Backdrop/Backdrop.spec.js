@@ -10,23 +10,17 @@ describe('Components/Backdrop', () => {
     expect(wrapper.type()).toEqual(null)
   })
 
-  it("should render a <div /> when 'image' is set", () => {
-    const wrapper = shallow(<Backdrop image="https://example.com/image.png" />)
+  it("should render a <div /> when 'children' is set", () => {
+    const wrapper = shallow(<Backdrop>Children</Backdrop>)
 
     expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual(undefined)
-    expect(wrapper.prop('style')).toEqual({
-      backgroundImage: 'url(https://example.com/image.png)'
-    })
   })
 
-  it("should render a <video /> when 'video' is set", () => {
-    const wrapper = shallow(<Backdrop video="https://example.com/video.mp4" />)
+  it('should render a <div /> when a prop is set', () => {
+    const wrapper = shallow(<Backdrop as="p" style={{ background: 'red' }} />)
 
     expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('style')).toEqual(undefined)
-    expect(wrapper.prop('as')).toEqual('video')
-    expect(wrapper.prop('src')).toEqual('https://example.com/video.mp4')
-    expect(wrapper.prop('loop')).toEqual(true)
+    expect(wrapper.prop('as')).toEqual('p')
+    expect(wrapper.prop('style')).toEqual({ background: 'red' })
   })
 })
