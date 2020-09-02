@@ -1,5 +1,6 @@
 import React from 'react'
 import { ContentContainer } from '..'
+import PureContentContainer from './ContentContainer'
 
 import breakpoints from '../../../styles/_breakpoints.module.scss'
 
@@ -8,7 +9,13 @@ export default {
   component: ContentContainer
 }
 
-export const source = () => <ContentContainer>Content</ContentContainer>
+const Template = args => <PureContentContainer {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  children: 'Content'
+}
 
 source.story = {
   parameters: {

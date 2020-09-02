@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Element } from '..'
-import { ContentContainer } from './ContentContainer'
+import ContentContainer from './ContentContainer'
+import Element from '../Element'
 
 import theme from './ContentContainer.module.scss'
 

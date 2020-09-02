@@ -1,7 +1,7 @@
 import React from 'react'
 import { bool, node, shape, string } from 'prop-types'
 import classNames from 'classnames'
-import { Element } from '../Element'
+import Element from '../Element'
 
 /**
  * The `ContentContainer` constrains the width of an item within its parent
@@ -39,4 +39,4 @@ ContentContainer.propTypes = {
   className: string
 }
 
-export { ContentContainer }
+export default ContentContainer
