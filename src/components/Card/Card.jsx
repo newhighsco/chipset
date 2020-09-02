@@ -1,9 +1,8 @@
 import React from 'react'
-import { node, number, object, oneOfType, shape, string } from 'prop-types'
+import { node, number, oneOfType, shape, string } from 'prop-types'
 import classNames from 'classnames'
-import { Image } from '../Image'
-import { ResponsiveMedia } from '../ResponsiveMedia'
-import { SmartLink } from '../SmartLink'
+import CardHeading from './CardHeading'
+import CardImage from './CardImage'
 
 /**
  * The `Card` contains content and actions about a single subject
@@ -48,44 +47,4 @@ Card.propTypes = {
   className: string
 }
 
-const CardImage = ({ src, ratio, theme, ...rest }) => {
-  if (!src) return null
-
-  return (
-    <ResponsiveMedia ratio={ratio} className={theme?.image}>
-      <Image src={src} {...rest} />
-    </ResponsiveMedia>
-  )
-}
-
-CardImage.propTypes = {
-  src: string,
-  alt: string,
-  ratio: oneOfType([number, string]),
-  theme: object
-}
-
-const CardHeading = ({ href, target, children, theme }) => {
-  if (!children) return null
-
-  return (
-    <div className={theme?.heading}>
-      {href ? (
-        <SmartLink href={href} target={target}>
-          {children}
-        </SmartLink>
-      ) : (
-        children
-      )}
-    </div>
-  )
-}
-
-CardHeading.propTypes = {
-  href: string,
-  target: string,
-  children: node,
-  theme: object
-}
-
-export { Card, CardImage, CardHeading }
+export default Card

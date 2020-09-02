@@ -1,10 +1,9 @@
 import { withTheme } from '../../providers'
 import { CARD } from '../identifiers'
-import { Card } from './Card'
+import PureCard from './Card'
 
 import theme from './Card.module.scss'
 
-const WithTheme = withTheme(CARD, theme)(Card)
+const Card = withTheme(CARD, theme)(PureCard)
 
-export default WithTheme
-export { WithTheme as Card }
+export default Card

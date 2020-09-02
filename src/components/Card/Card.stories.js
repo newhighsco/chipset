@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Card } from '..'
+import PureCard from './Card'
 import { imageUrl } from '../../__mocks__/fixtures'
 
 export default {
@@ -7,15 +8,16 @@ export default {
   component: Card
 }
 
-export const source = () => (
-  <Card
-    href="https://example.com/"
-    heading={<h2>Heading</h2>}
-    image={{ src: 'https://example.com/image.png' }}
-  >
-    Content
-  </Card>
-)
+const Template = args => <PureCard {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  href: 'https://example.com/',
+  heading: 'Heading',
+  image: { src: 'https://example.com/image.png' },
+  children: 'Content'
+}
 
 source.story = {
   parameters: {
