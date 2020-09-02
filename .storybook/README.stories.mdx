@@ -1,10 +1,10 @@
 import { Meta, Title } from '@storybook/addon-docs/blocks'
-import { CreditLockup, Image, SmartLink } from '.'
+import { CreditLockup, Image, SmartLink } from '../src'
 import { config } from '../package.json'
 
-import { ReactComponent as LogoSvg } from '../.storybook/static/logo.svg'
+import { ReactComponent as LogoSvg } from './static/logo.svg'
 
-<Meta title="Intro/Chipset" />
+<Meta title={`${config.title}/README`} />
 
 <Title>
   <LogoSvg /> <strong>{config.title}</strong>{' '}
