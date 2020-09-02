@@ -1,6 +1,6 @@
 import React from 'react'
 import { mount, shallow } from 'enzyme'
-import { Image } from '..'
+import Image from './Image'
 
 describe('Components/Image', () => {
   it('should render nothing by default', () => {

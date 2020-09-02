@@ -51,4 +51,4 @@ Image.propTypes = {
   className: string
 }
 
-export { Image }
+export default Image
