@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { ResponsiveMedia } from '..'
+import ResponsiveMedia from './ResponsiveMedia'
 
 describe('Components/ResponsiveMedia', () => {
   it('should render nothing by default', () => {

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Image, ResponsiveMedia } from '..'
+import PureResponsiveMedia from './ResponsiveMedia'
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
@@ -7,9 +8,14 @@ export default {
   component: ResponsiveMedia
 }
 
-export const source = () => (
-  <ResponsiveMedia ratio="16:9">Content</ResponsiveMedia>
-)
+const Template = args => <PureResponsiveMedia {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  ratio: '16:9',
+  children: 'Content'
+}
 
 source.story = {
   parameters: {

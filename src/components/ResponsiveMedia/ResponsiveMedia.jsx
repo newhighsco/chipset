@@ -2,8 +2,6 @@ import React from 'react'
 import { func, node, number, object, oneOfType, string } from 'prop-types'
 import classNames from 'classnames'
 
-import styles from './index.module.scss'
-
 const ratioRegExp = /^\d+:\d+$/
 
 const parseRatio = ratio => {
@@ -23,6 +21,7 @@ const ResponsiveMedia = ({
   ratio,
   setRef,
   children,
+  theme,
   className,
   style,
   ...rest
@@ -33,7 +32,7 @@ const ResponsiveMedia = ({
 
   return (
     <div
-      className={classNames(styles.wrapper, className)}
+      className={classNames(theme?.wrapper, className)}
       style={{
         ...style,
         ...(parsedRatio && { paddingBottom: `${parsedRatio}%` })
@@ -53,9 +52,9 @@ ResponsiveMedia.propTypes = {
   ratio: oneOfType([number, string]),
   setRef: oneOfType([func, object]),
   children: node,
+  theme: object,
   className: string,
   style: object
 }
 
 export default ResponsiveMedia
-export { ResponsiveMedia }
