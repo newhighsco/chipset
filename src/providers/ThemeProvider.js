@@ -1,4 +1,4 @@
 export {
-  themr as withTheme,
-  ThemeProvider
+  ThemeProvider,
+  themr as withTheme
 } from '@friendsofreactjs/react-css-themr'
