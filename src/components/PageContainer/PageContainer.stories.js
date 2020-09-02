@@ -1,16 +1,28 @@
 import React from 'react'
 import { ContentContainer, PageContainer } from '..'
+import PurePageContainer from './PageContainer'
 
 export default {
   title: 'Components/PageContainer',
   component: PageContainer
 }
 
-export const source = () => (
-  <PageContainer header={<header />} footer={<footer />}>
-    Content
-  </PageContainer>
-)
+const storyDecorators = [
+  Story => (
+    <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
+      <Story />
+    </div>
+  )
+]
+const Template = args => <PurePageContainer {...args} />
+
+export const source = Template.bind({})
+
+source.args = {
+  header: <header />,
+  footer: <footer />,
+  children: 'Content'
+}
 
 source.story = {
   parameters: {
@@ -21,16 +33,16 @@ source.story = {
 }
 
 export const example = () => (
-  <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
-    <PageContainer
-      as="main"
-      header={<ContentContainer as="header">Header</ContentContainer>}
-      footer={<ContentContainer as="footer">Footer</ContentContainer>}
-    >
-      Content
-    </PageContainer>
-  </div>
+  <PageContainer
+    as="main"
+    header={<ContentContainer as="header">Header</ContentContainer>}
+    footer={<ContentContainer as="footer">Footer</ContentContainer>}
+  >
+    Content
+  </PageContainer>
 )
+
+example.decorators = storyDecorators
 
 example.story = {
   name: ' '

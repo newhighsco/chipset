@@ -1,6 +1,6 @@
 import React from 'react'
 import { node, shape, string } from 'prop-types'
-import { ContentContainer } from '../ContentContainer'
+import ContentContainer from '../ContentContainer'
 
 /**
  * The `PageContainer` flexes to fill the unused space within its parent
@@ -26,4 +26,4 @@ PageContainer.propTypes = {
   theme: shape({ wrapper: string })
 }
 
-export { PageContainer }
+export default PageContainer
