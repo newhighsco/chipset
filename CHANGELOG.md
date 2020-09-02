@@ -1,3 +1,20 @@
+# [6.0.0](https://github.com/newhighsco/chipset/compare/v5.0.0...v6.0.0) (2020-09-02)
+
+
+### Features
+
+* **button:** refactor imports ([9378598](https://github.com/newhighsco/chipset/commit/9378598d174590076dc3cd4d4f716a98e385f237))
+* **grid:** refactors exports ([1deb4af](https://github.com/newhighsco/chipset/commit/1deb4afd1d33cdb60892db71c15cbf26e5c984c5))
+* **live-stream:** uses cookieless domain for YouTube videos ([1bb622e](https://github.com/newhighsco/chipset/commit/1bb622e7564f825d43021fc63cb269baa1c68cda))
+* **navigation:** provides additional classes for theming toggle button ([b85dda4](https://github.com/newhighsco/chipset/commit/b85dda404e307a10a1d4c29edc15cbed3d480390))
+* **responsive-media:** adds ability to theme component ([f583b41](https://github.com/newhighsco/chipset/commit/f583b41994c8f95fa67e06148be94b3d318370b1))
+
+
+### BREAKING CHANGES
+
+* **grid:** Replaces <GridItem /> with <Grid.Item />
+* **button:** <ButtonGroup /> replaced with <Button.Group />
+
 # [5.0.0](https://github.com/newhighsco/chipset/compare/v4.7.0...v5.0.0) (2020-09-01)
 
 
