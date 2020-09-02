@@ -1,6 +1,6 @@
 import React from 'react'
 import { SiteContainer } from '..'
-import { SiteContainer as PureSiteContainer } from './SiteContainer'
+import PureSiteContainer from './SiteContainer'
 
 export default {
   title: 'Components/SiteContainer',
@@ -22,10 +22,8 @@ source.story = {
 
 source.args = storyArgs
 
-export const example = args => <SiteContainer {...args} />
+export const example = () => <SiteContainer>Content</SiteContainer>
 
 example.story = {
   name: ' '
 }
-
-example.args = storyArgs

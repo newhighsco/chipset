@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Element } from '..'
-import { SiteContainer } from './SiteContainer'
+import SiteContainer from './SiteContainer'
+import Element from '../Element'
 
 describe('Components/SiteContainer', () => {
   it('should render nothing by default', () => {
