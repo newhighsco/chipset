@@ -1,6 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Backdrop, Element } from '..'
+import Backdrop from './Backdrop'
+import Element from '../Element'
 
 describe('Components/Backdrop', () => {
   it('should render nothing by default', () => {

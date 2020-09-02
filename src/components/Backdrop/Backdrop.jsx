@@ -51,4 +51,4 @@ Backdrop.propTypes = {
   className: string
 }
 
-export { Backdrop }
+export default Backdrop
