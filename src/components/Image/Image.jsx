@@ -6,6 +6,7 @@ const Image = ({
   sources,
   alt = '',
   loading = 'lazy',
+  decoding = 'async',
   className,
   ...rest
 }) => {
@@ -30,6 +31,7 @@ const Image = ({
         src={src}
         alt={alt}
         loading={loading}
+        decoding={decoding}
         {...rest}
       />
     </Picture>
@@ -48,6 +50,7 @@ Image.propTypes = {
   ),
   alt: string,
   loading: oneOf(['auto', 'lazy', 'eager']),
+  decoding: oneOf(['auto', 'async', 'sync']),
   className: string
 }
 
