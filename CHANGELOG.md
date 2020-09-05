@@ -1,3 +1,10 @@
+# [6.2.0](https://github.com/newhighsco/chipset/compare/v6.1.0...v6.2.0) (2020-09-05)
+
+
+### Features
+
+* **image:** sets default decoding to "async" to improve performance ([c5f4c07](https://github.com/newhighsco/chipset/commit/c5f4c07f198dcf22f796a886aa4e6cf890e574f1))
+
 # [6.1.0](https://github.com/newhighsco/chipset/compare/v6.0.0...v6.1.0) (2020-09-02)
 
 
