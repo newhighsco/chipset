@@ -2722,15 +2722,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.5.tgz#91cec5acf8f79895c65bebb8ec9dba3d53787ce0"
   integrity sha512-eJkHeuzoTUnJSEeufJ/nHAh9D2Ioty3pEz5uP4tZMmuKowzwdGb6ySpJkp2rrvcoWu2YJLBrHBYqt3KSCx39GQ==
 
-"@newhighsco/release-config@1.0.27":
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.27.tgz#24c6971456825f6fa0e38cca434983673386701b"
-  integrity sha512-TlB9FnGLltnY9enlm2Ew48TzqZBcQ8lb+7oSMSkohXYXzurRrEXurIqQa/ZsJvsFLBr3p5a1o0c1wUrAljBk9A==
+"@newhighsco/release-config@1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.29.tgz#601ce23738ab4cdbf7b4e4102c1a748c55492b63"
+  integrity sha512-SE5aVTHZ9lSrxtqZ9Cv0MP4iSeg5nZv0e9vltNqOmajiVPa8s/ndcFOzUFFkkvMAs2yNiCWIS6pbDW13kJr4BA==
   dependencies:
     "@semantic-release/changelog" "5.0.1"
     "@semantic-release/commit-analyzer" "8.0.1"
     "@semantic-release/git" "9.0.0"
-    "@semantic-release/github" "7.0.7"
+    "@semantic-release/github" "7.1.1"
     "@semantic-release/npm" "7.0.6"
     "@semantic-release/release-notes-generator" "9.0.1"
 
@@ -2746,10 +2746,10 @@
     sass "1.26.10"
     sass-loader "10.0.2"
 
-"@newhighsco/stylelint-config@2.0.21":
-  version "2.0.21"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.21.tgz#0a5837982308196c6558de55c6380a2f21348cb4"
-  integrity sha512-BVB58jdi7EIPXHYjr1E0lPv61YST15cGP2ykEsXAigQJBx+uxGmJFebOtn7FtSwhzItE8BbqjtiZN9o5+pn1wg==
+"@newhighsco/stylelint-config@2.0.22":
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.22.tgz#f4d56384bf9b6ddbe556330a6eadc3c2174ef243"
+  integrity sha512-IZUCasodkNilLq5ZgmYtQew5KNaIaYxWV7mOS7atfQzCGaktSdd67rIsOzy4rXKtsSS/lYlx+/dmWZAjlQFSnw==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
@@ -2965,10 +2965,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@7.0.7":
-  version "7.0.7"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-7.0.7.tgz#e3999b06433d08871acd68ecec2b4e212c05d09f"
-  integrity sha512-Sai2UucYQ+5rJzKVEVJ4eiZNDdoo0/CzfpValBdeU5h97uJE7t4CoBTmUWkiXlPOx46CSw1+JhI+PHC1PUxVZw==
+"@semantic-release/github@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-7.1.1.tgz#e998aa9a9cd770838d9f27c64f060c2b686b9d95"
+  integrity sha512-w8CLCvGVKNe2FPOYQ68OFxFVNNha7YRzptnwTZYdjXYtgTDKw0XVfnMSd9NlJeQPYGfQmIhIVPNBU/cA6zUY0A==
   dependencies:
     "@octokit/rest" "^17.0.0"
     "@semantic-release/error" "^2.2.0"
