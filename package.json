@@ -23,7 +23,7 @@
     "build": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
     "pretest": "npm run lint",
     "test": "npm-run-all --parallel test:*",
-    "test:js": "jest --coverage",
+    "test:js": "jest --maxWorkers=2 --coverage",
     "tdd": "npm run test:js -- --watch",
     "snapshot": "npm-run-all --parallel snapshot:*",
     "snapshot:percy": "percy-storybook --build_dir build",
