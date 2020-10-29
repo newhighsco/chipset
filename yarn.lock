@@ -3308,10 +3308,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.6.tgz#a335ab0d02a646d7d2a861400c1908849c419b6b"
   integrity sha512-R+bUXyRysP3gb1cvxf0S4wrrKQWVvRpaYvjNZZuOYQFHlx2UOvckuE+MHpGkYvPAg6QXzQstkYaPudRgKXeIlA==
 
-"@newhighsco/release-config@1.0.33":
-  version "1.0.33"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.33.tgz#00b6e07ac0210ad3bf027c2b7a6d02332c0b3364"
-  integrity sha512-aLA7qBh44+PK1q3i1fLbcL9l/XP2CY0ra4a+HWBBn5/mQ/t/WCPg3SyKM+VXSzqpyTo6VLtbB3YMXl/CtcscBQ==
+"@newhighsco/release-config@1.0.34":
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.34.tgz#16dc81539d161fcda505c155d49f3c2ff78460ce"
+  integrity sha512-E3BstOgtik9sSwZFop1RAkH7tiPNDdbJwHiJbaJorrEd4EwC/OLfsOaEpV8kvFXC6Y3Jvc9IdICh83BsVsRatg==
   dependencies:
     "@semantic-release/changelog" "5.0.1"
     "@semantic-release/commit-analyzer" "8.0.1"
@@ -3320,16 +3320,16 @@
     "@semantic-release/npm" "7.0.6"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@3.0.13":
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.0.13.tgz#671f238c211191fdaa1f42fe4f4359cf24a08f39"
-  integrity sha512-/mb3X61lGhVqgIGzOLS26imAcF3rJvKavodE6ynmbJNutTS09S1eAqaiAsEPDU9youBu8F5X1OtEimjemkCOyA==
+"@newhighsco/storybook-preset@3.0.14":
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.0.14.tgz#6c2b600c2ce60a156f71e9be5d42b60ec5038e94"
+  integrity sha512-QX4MsptyN2tiJxgVP2IyqIXDc6rMmKYf4PDQG0nUcTZkPRs4vW3vIPcCcfRVLdR0Q0MtSJpRGVNY5LliLez+ng==
   dependencies:
     "@storybook/addon-essentials" "6.0.27"
     "@storybook/addon-links" "6.0.27"
     "@svgr/webpack" "5.4.0"
     react-is "16.13.1"
-    sass "1.27.1"
+    sass "1.27.2"
     sass-loader "10.0.4"
 
 "@newhighsco/stylelint-config@2.0.24":
@@ -16255,10 +16255,10 @@ sass-true@6.0.1:
     css "^3.0.0"
     lodash "^4.17.19"
 
-sass@1.27.1:
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.27.1.tgz#fe4c730f2abfe1502ecff047798b35a7b792dc03"
-  integrity sha512-Co5i3s4kN0AgXe8ZFfIl4pfjHjPgotT81O68m3buwdj7v3oHjYiWNqp0oXTKXnEqyKU30KAYC5u8uUF4x+BKfw==
+sass@1.27.2:
+  version "1.27.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.27.2.tgz#4e7128b25c523c06e0df1601bbbf9f49227f6670"
+  integrity sha512-8gUAdqW1sdNKcZ6ccf37WKIkuS/wP5tlK52QLNLV3e3JqqgT5ACuT/0CboDElnXJRD7ld+SRAd8oZ++nMI1mrQ==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
