@@ -1,3 +1,10 @@
+## [6.2.3](https://github.com/newhighsco/chipset/compare/v6.2.2...v6.2.3) (2020-11-02)
+
+
+### Bug Fixes
+
+* **deps:** update newhighsco packages ([a2d5edd](https://github.com/newhighsco/chipset/commit/a2d5edd203f1d999df321fbc6d607b130db0aec6))
+
 ## [6.2.2](https://github.com/newhighsco/chipset/compare/v6.2.1...v6.2.2) (2020-10-16)
 
 
