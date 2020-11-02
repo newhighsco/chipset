@@ -42,7 +42,7 @@ describe('Components/Image', () => {
   })
 
   it('should set correct classNames', () => {
-    var wrapper = mount(
+    let wrapper = mount(
       <Image className="foo" src="https://example.com/image.png" />
     )
 

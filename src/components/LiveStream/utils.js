@@ -13,8 +13,8 @@ const youtubeUrl = url => youtubeUrlRegEx.exec(url)
 const youtubeVideo = contents => youtubeVideoRegEx.exec(contents)
 
 export const getChannel = async url => {
-  var type
-  var channel
+  let type
+  let channel
 
   if (twitchUrl(url)) {
     type = TWITCH
@@ -44,8 +44,8 @@ export const getLiveStreamUrls = async ({
   showChat
 }) => {
   const [type, channel] = await getChannel(href)
-  var videoUrl
-  var chatUrl
+  let videoUrl
+  let chatUrl
 
   if (channel) {
     if (type === TWITCH) {
