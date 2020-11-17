@@ -1750,10 +1750,10 @@
     sass "1.28.0"
     sass-loader "10.0.4"
 
-"@newhighsco/stylelint-config@2.0.24":
-  version "2.0.24"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.24.tgz#9ebc1f52a0a58e33ffbbcee6f2c17499141e6cec"
-  integrity sha512-Vcl6sQ/+7LdmnUaGumzw+LDNlsjixnl7980FOh2nnSMNBVjo/ODq2UIJh4o4skgey0R5t0MJnrysaqtNsuss8Q==
+"@newhighsco/stylelint-config@2.0.25":
+  version "2.0.25"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.25.tgz#7a23abd9cf23100c1a3a1715017f1e30cca794ff"
+  integrity sha512-CZdFet+nBga28mRw9Vj+LqnC6Hux2LEWTfMGso9dbkctv4Q7okieHYqibdxsVoNJHyp87hAYl4H+tBF/kFCYXA==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
