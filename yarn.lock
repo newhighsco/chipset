@@ -1759,14 +1759,14 @@
     eslint-plugin-react "7.21.5"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.17":
-  version "3.0.17"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.17.tgz#5c93afc25b03aeb83060b8bfa6fc586ce97a63cb"
-  integrity sha512-CqXltrdfkQx6P832zO6L7xt5Y3WCr+sRgUcKZMfvfYoe7/njNRutsE+boZBRMNsmKOU7+xjlxjjXdMba/1N5Nw==
+"@newhighsco/postcss-config@3.0.18":
+  version "3.0.18"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.18.tgz#46bb940ad16b8deeedaaa3112363968bd42cb8cb"
+  integrity sha512-e5EZFvRRACCgiFkxsbzka2md5vYkQ8soI8ngm3K26bo6+frNCah+q33gk0sJSSCQEhPoi4h9NfcTxebFXXnCdA==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.0.0"
     autoprefixer "10.0.2"
-    postcss "8.1.7"
+    postcss "8.1.8"
     postcss-flexbugs-fixes "5.0.1"
     postcss-preset-env "6.7.0"
 
@@ -13337,10 +13337,10 @@ postcss@7.0.32:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@8.1.7:
-  version "8.1.7"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.7.tgz#ff6a82691bd861f3354fd9b17b2332f88171233f"
-  integrity sha512-llCQW1Pz4MOPwbZLmOddGM9eIJ8Bh7SZ2Oj5sxZva77uVaotYDsYTch1WBTNu7fUY0fpWp0fdt7uW40D4sRiiQ==
+postcss@8.1.8:
+  version "8.1.8"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.8.tgz#697439e7276735ecdd2893d2cf8efb2236693ac3"
+  integrity sha512-hO6jFWBy0QnBBRaw+s0F4hVPKGDICec/nLNEG1D4qqw9/LBzWMkTjckqqELXAo0J42jN8GFZXtgQfezEaoG9gQ==
   dependencies:
     colorette "^1.2.1"
     line-column "^1.0.2"
