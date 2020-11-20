@@ -1759,15 +1759,15 @@
     eslint-plugin-react "7.21.5"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.18":
-  version "3.0.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.18.tgz#46bb940ad16b8deeedaaa3112363968bd42cb8cb"
-  integrity sha512-e5EZFvRRACCgiFkxsbzka2md5vYkQ8soI8ngm3K26bo6+frNCah+q33gk0sJSSCQEhPoi4h9NfcTxebFXXnCdA==
+"@newhighsco/postcss-config@3.0.19":
+  version "3.0.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.19.tgz#cea1090363fa2537028226e34d7b3df27be8b4e7"
+  integrity sha512-K5Un/CSFaXCpekVuVwNiPb8DA8CPcQeF3KKrmTKjaImyuPqY/4/UAMg4TgyiojGUZ1jF6AWR+zynWPGv/6WhDA==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.0.0"
     autoprefixer "10.0.2"
     postcss "8.1.8"
-    postcss-flexbugs-fixes "5.0.1"
+    postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
 "@newhighsco/prettier-config@2.0.7":
@@ -13009,12 +13009,10 @@ postcss-env-function@^2.0.2:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-flexbugs-fixes@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-5.0.1.tgz#8a4b84937e94e7c100e48e019eaad33850bc7b33"
-  integrity sha512-CBEfCMk5hcqGlgRb9SDzQ3bIExJlfz89heRsAYNuNRiCJOETlVOL1KfBV1AGKFww8olEpOOSAgGiWeaGTPCkeg==
-  dependencies:
-    postcss "^8.1.4"
+postcss-flexbugs-fixes@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-flexbugs-fixes/-/postcss-flexbugs-fixes-5.0.2.tgz#2028e145313074fc9abe276cb7ca14e5401eb49d"
+  integrity sha512-18f9voByak7bTktR2QgDveglpn9DTbBWPUzSOe9g0N4WR/2eSt6Vrcbf0hmspvMI6YWGywz6B9f7jzpFNJJgnQ==
 
 postcss-flexbugs-fixes@^4.1.0:
   version "4.2.1"
@@ -13355,16 +13353,6 @@ postcss@^7.0.0, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.2
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
-
-postcss@^8.1.4:
-  version "8.1.6"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.6.tgz#b022ba2cfb8701da234d073ed3128c5a384c35ff"
-  integrity sha512-JuifSl4h8dJ70SiMXKjzCxhalE6p2TnMHuq9G8ftyXj2jg6SXzqCsEuxMj9RkmJoO5D+Z9YrWunNkxqpRT02qg==
-  dependencies:
-    colorette "^1.2.1"
-    line-column "^1.0.2"
-    nanoid "^3.1.16"
-    source-map "^0.6.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
