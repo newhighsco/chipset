@@ -1,3 +1,10 @@
+## [6.2.5](https://github.com/newhighsco/chipset/compare/v6.2.4...v6.2.5) (2020-11-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-ga to v3.3.0 ([#358](https://github.com/newhighsco/chipset/issues/358)) ([449cfd0](https://github.com/newhighsco/chipset/commit/449cfd0697959890ec951b79c882948b697a398a))
+
 ## [6.2.4](https://github.com/newhighsco/chipset/compare/v6.2.3...v6.2.4) (2020-11-10)
 
 
