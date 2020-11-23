@@ -39,7 +39,7 @@
     "@newhighsco/storybook-preset": "^3.1.2",
     "classnames": "2.2.6",
     "react-device-detect": "1.14.0",
-    "react-ga": "3.2.1"
+    "react-ga": "3.3.0"
   },
   "devDependencies": {
     "@babel/core": "7.12.7",
