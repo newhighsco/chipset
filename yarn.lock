@@ -2002,13 +2002,13 @@
     eslint-plugin-react "7.21.5"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.22":
-  version "3.0.22"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.22.tgz#89c7eec4a54744f539ca8f532f3e1fc36429ee1b"
-  integrity sha512-cyTP4hmWXtxfkgfQWF4mEi8XPmaGIwfC14dtgTyXvAYZz5fWw7+Nip6eTbgLYNmPOWzgZFmyqf/JGsDHytJcRw==
+"@newhighsco/postcss-config@3.0.23":
+  version "3.0.23"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.23.tgz#9a1d039ba31f96a1b8b4de3be4c8f6e9fb500646"
+  integrity sha512-ng9xji00hf81zZN51m75W0fKyrfQQnUsJ7dlVRglLCrJ0xiewYxcEWiy7YlpyT3p8XWLvk7icOq3n1dWn9bgjQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.0.0"
-    autoprefixer "10.0.3"
+    autoprefixer "10.0.4"
     postcss "8.1.10"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
@@ -4493,10 +4493,10 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@10.0.3:
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.0.3.tgz#43c8fb60ab095f4b6ff7bc5d24cd05925112f2ce"
-  integrity sha512-SIUDNQlGARsfL69nsmi7OKnDtz1HVwPAiYPGn1Nv9eLMpBywXK5DNwAnvTq6aTjuPx3XKPl2boCQRYcThjJa2A==
+autoprefixer@10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.0.4.tgz#f87ac6105d7861e31af794b8ebb1c6d4390d3d55"
+  integrity sha512-hmjYejN/WTyPP9cdNmiwtwqM8/ACVJPD5ExtwoOceQohNbgnFNiwpL2+U4bXS8aXozBL00WvH6WhqbuHf0Fgfg==
   dependencies:
     browserslist "^4.14.7"
     caniuse-lite "^1.0.30001161"
