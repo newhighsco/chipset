@@ -17,11 +17,9 @@ source.args = {
   children: 'Content'
 }
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 
@@ -29,17 +27,13 @@ export const fullWidth = () => (
   <ContentContainer>Full-width content</ContentContainer>
 )
 
-fullWidth.story = {
-  name: 'Full-width'
-}
+fullWidth.storyName = 'Full-width'
 
 export const fullWidthWithGutter = () => (
   <ContentContainer gutter>Full-width content with gutter</ContentContainer>
 )
 
-fullWidthWithGutter.story = {
-  name: 'Full-width with gutter'
-}
+fullWidthWithGutter.storyName = 'Full-width with gutter'
 
 export const restrictedWidth = () => (
   <>
@@ -51,9 +45,7 @@ export const restrictedWidth = () => (
   </>
 )
 
-restrictedWidth.story = {
-  name: 'Restricted-width'
-}
+restrictedWidth.storyName = 'Restricted-width'
 
 export const restrictedWidthWithGutter = () => (
   <>
@@ -65,6 +57,4 @@ export const restrictedWidthWithGutter = () => (
   </>
 )
 
-restrictedWidthWithGutter.story = {
-  name: 'Restricted-width with gutter'
-}
+restrictedWidthWithGutter.storyName = 'Restricted-width with gutter'

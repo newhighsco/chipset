@@ -11,11 +11,9 @@ const Template = args => <PureCreditLockup {...args} />
 
 export const source = Template.bind({})
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 

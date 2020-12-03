@@ -24,11 +24,9 @@ source.args = {
   children: 'Content'
 }
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 
@@ -44,6 +42,4 @@ export const example = () => (
 
 example.decorators = storyDecorators
 
-example.story = {
-  name: ' '
-}
+example.storyName = ' '

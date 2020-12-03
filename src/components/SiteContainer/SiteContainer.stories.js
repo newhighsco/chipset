@@ -12,11 +12,9 @@ const StoryComponent = args => <PureSiteContainer {...args} />
 
 export const source = StoryComponent.bind({})
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 
@@ -24,6 +22,4 @@ source.args = storyArgs
 
 export const example = () => <SiteContainer>Content</SiteContainer>
 
-example.story = {
-  name: ' '
-}
+example.storyName = ' '

@@ -33,13 +33,13 @@ export const twitchDarkMode = () => (
   />
 )
 
-twitchDarkMode.story = { name: 'Twitch - dark mode' }
+twitchDarkMode.storyName = 'Twitch - dark mode'
 
 export const youtube = () => (
   <LiveStream href="https://youtube.com/failarmy" autoPlay={false} muted />
 )
 
-youtube.story = { name: 'YouTube' }
+youtube.storyName = 'YouTube'
 
 export const youtubeDarkMode = () => (
   <LiveStream
@@ -50,4 +50,4 @@ export const youtubeDarkMode = () => (
   />
 )
 
-youtubeDarkMode.story = { name: 'YouTube - dark mode' }
+youtubeDarkMode.storyName = 'YouTube - dark mode'

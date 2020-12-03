@@ -18,11 +18,9 @@ source.args = {
   children: 'Content'
 }
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 
@@ -36,6 +34,4 @@ export const example = () => (
   </Button.Group>
 )
 
-example.story = {
-  name: ' '
-}
+example.storyName = ' '

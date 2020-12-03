@@ -23,11 +23,9 @@ source.args = {
   children: 'Content'
 }
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 
@@ -39,11 +37,9 @@ withImage.args = {
 
 withImage.decorators = storyDecorators
 
-withImage.story = {
-  parameters: {
-    docs: {
-      disable: true
-    }
+withImage.parameters = {
+  docs: {
+    disable: true
   }
 }
 
@@ -55,10 +51,8 @@ withVideo.args = {
 
 withVideo.decorators = storyDecorators
 
-withVideo.story = {
-  parameters: {
-    docs: {
-      disable: true
-    }
+withVideo.parameters = {
+  docs: {
+    disable: true
   }
 }

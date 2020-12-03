@@ -16,11 +16,9 @@ export const source = () => (
   </Grid>
 )
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 
@@ -38,9 +36,7 @@ export const withGutter = () => (
   </Grid>
 )
 
-withGutter.story = {
-  name: 'With gutter'
-}
+withGutter.storyName = 'With gutter'
 
 export const withoutGutter = () => (
   <Grid gutterless>
@@ -56,9 +52,7 @@ export const withoutGutter = () => (
   </Grid>
 )
 
-withoutGutter.story = {
-  name: 'Without gutter'
-}
+withoutGutter.storyName = 'Without gutter'
 
 export const reversed = () => (
   <Grid reverse>

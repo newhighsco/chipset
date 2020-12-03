@@ -20,11 +20,9 @@ source.args = {
   ]
 }
 
-source.story = {
-  parameters: {
-    percy: {
-      skip: true
-    }
+source.parameters = {
+  percy: {
+    skip: true
   }
 }
 
