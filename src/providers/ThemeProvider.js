@@ -1,4 +1,1 @@
-export {
-  ThemeProvider,
-  themr as withTheme
-} from '@friendsofreactjs/react-css-themr'
+export { ThemeProvider, default as withTheme } from '@dr.pogodin/react-themes'

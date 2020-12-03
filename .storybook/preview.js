@@ -7,7 +7,7 @@ import './preview.scss'
 
 export const decorators = [
   Story => (
-    <ThemeProvider theme={componentTheme}>
+    <ThemeProvider themes={componentTheme}>
       <Story />
     </ThemeProvider>
   )
