@@ -1,3 +1,10 @@
+## [6.3.1](https://github.com/newhighsco/chipset/compare/v6.3.0...v6.3.1) (2020-12-03)
+
+
+### Bug Fixes
+
+* **navigation:** passes correct theme prop to button ([f66bb11](https://github.com/newhighsco/chipset/commit/f66bb11c200ade10f5156bfd1797d82dbd4ac285))
+
 # [6.3.0](https://github.com/newhighsco/chipset/compare/v6.2.6...v6.3.0) (2020-12-03)
 
 
