@@ -9,7 +9,7 @@
         @include grid.initialize();
       }
 
-      @include expect {
+      @include contains {
         .item {
           box-sizing: border-box;
           vertical-align: top;
@@ -28,7 +28,7 @@
         @include grid.gutter('', 20px);
       }
 
-      @include expect {
+      @include contains {
         .root {
           margin-left: -20px;
         }
@@ -46,7 +46,7 @@
         @include grid.gutter('', 2em);
       }
 
-      @include expect {
+      @include contains {
         .root {
           margin-left: -2em;
         }
@@ -64,7 +64,7 @@
         @include grid.gutter('', 20%);
       }
 
-      @include expect {
+      @include contains {
         .root {
           margin-left: -20%;
         }
@@ -83,7 +83,7 @@
         @include grid.gutter('bar', 10%);
       }
 
-      @include expect {
+      @include contains {
         .root.foo {
           margin-left: -1em;
         }
@@ -111,7 +111,7 @@
         @include grid.reverse();
       }
 
-      @include expect {
+      @include contains {
         .root.reverse {
           direction: rtl;
           text-align: right;
@@ -131,7 +131,7 @@
         @include grid.reverse('desktop');
       }
 
-      @include expect {
+      @include contains {
         .root.desktop-reverse {
           direction: rtl;
           text-align: right;
@@ -155,7 +155,7 @@
         @include grid.widths('', 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16);
       }
 
-      @include expect {
+      @include contains {
         .item.one-whole {
           width: 100%;
         }
@@ -649,7 +649,7 @@
         @include grid.widths('desktop', 1);
       }
 
-      @include expect {
+      @include contains {
         .item.desktop-one-whole {
           width: 100%;
         }
@@ -665,7 +665,7 @@
         @include grid.flex();
       }
 
-      @include expect {
+      @include contains {
         .root.flex {
           display: flex;
           flex-wrap: wrap;
@@ -682,7 +682,7 @@
         @include grid.valign(middle);
       }
 
-      @include expect {
+      @include contains {
         .root.valign-middle {
           &.flex {
             align-items: center;
@@ -704,7 +704,7 @@
         @include grid.uncompressed();
       }
 
-      @include expect {
+      @include contains {
         .root.uncompressed {
           letter-spacing: -0.25em;
         }
@@ -722,7 +722,7 @@
         @include grid.uncompressed(-20px);
       }
 
-      @include expect {
+      @include contains {
         .root.uncompressed {
           letter-spacing: -20px;
         }
