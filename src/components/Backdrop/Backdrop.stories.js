@@ -9,7 +9,14 @@ export default {
 
 const storyDecorators = [
   Story => (
-    <div style={{ height: 300, padding: '1em' }}>
+    <div
+      style={{
+        height: 300,
+        padding: '1em',
+        transform: 'translate3d(0,0,0)',
+        overflow: 'hidden'
+      }}
+    >
       <Story />
       <Button>Content</Button>
     </div>
@@ -37,12 +44,6 @@ withImage.args = {
 
 withImage.decorators = storyDecorators
 
-withImage.parameters = {
-  docs: {
-    disable: true
-  }
-}
-
 export const withVideo = Template.bind({})
 
 withVideo.args = {
@@ -50,9 +51,3 @@ withVideo.args = {
 }
 
 withVideo.decorators = storyDecorators
-
-withVideo.parameters = {
-  docs: {
-    disable: true
-  }
-}
