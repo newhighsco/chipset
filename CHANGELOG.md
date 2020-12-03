@@ -1,3 +1,10 @@
+# [6.3.0](https://github.com/newhighsco/chipset/compare/v6.2.6...v6.3.0) (2020-12-03)
+
+
+### Features
+
+* **refactor:** changes theme API ([#382](https://github.com/newhighsco/chipset/issues/382)) ([3f7d445](https://github.com/newhighsco/chipset/commit/3f7d445c1a84713092196c48ae5c4c66e37c1b9d))
+
 ## [6.2.6](https://github.com/newhighsco/chipset/compare/v6.2.5...v6.2.6) (2020-12-03)
 
 
