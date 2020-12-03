@@ -9,7 +9,7 @@
         @include grid.initialize();
       }
 
-      @include contains {
+      @include expect {
         .item {
           box-sizing: border-box;
           vertical-align: top;
@@ -155,7 +155,7 @@
         @include grid.widths('', 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16);
       }
 
-      @include contains {
+      @include expect {
         .item.one-whole {
           width: 100%;
         }
@@ -649,7 +649,7 @@
         @include grid.widths('desktop', 1);
       }
 
-      @include contains {
+      @include expect {
         .item.desktop-one-whole {
           width: 100%;
         }
@@ -665,7 +665,7 @@
         @include grid.flex();
       }
 
-      @include contains {
+      @include expect {
         .root.flex {
           display: flex;
           flex-wrap: wrap;
@@ -679,10 +679,20 @@
   @include test('should output styles to vertically align grid items') {
     @include assert {
       @include output {
-        @include grid.valign(middle);
+        @include grid.valign(top middle bottom);
       }
 
       @include contains {
+        .root.valign-top {
+          &.flex {
+            align-items: flex-start;
+          }
+
+          > .item {
+            vertical-align: top;
+          }
+        }
+
         .root.valign-middle {
           &.flex {
             align-items: center;
@@ -690,6 +700,16 @@
 
           > .item {
             vertical-align: middle;
+          }
+        }
+
+        .root.valign-bottom {
+          &.flex {
+            align-items: flex-end;
+          }
+
+          > .item {
+            vertical-align: bottom;
           }
         }
       }
@@ -704,7 +724,7 @@
         @include grid.uncompressed();
       }
 
-      @include contains {
+      @include expect {
         .root.uncompressed {
           letter-spacing: -0.25em;
         }
@@ -722,7 +742,7 @@
         @include grid.uncompressed(-20px);
       }
 
-      @include contains {
+      @include expect {
         .root.uncompressed {
           letter-spacing: -20px;
         }

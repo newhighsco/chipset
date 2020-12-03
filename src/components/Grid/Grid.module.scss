@@ -2,7 +2,3 @@
 
 @include grid.initialize();
 @include grid.gutter('gutterless', 0);
-@include grid.reverse();
-@include grid.flex();
-@include grid.valign(middle);
-@include grid.valign(bottom);

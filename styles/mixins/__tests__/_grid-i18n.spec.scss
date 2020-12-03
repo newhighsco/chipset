@@ -12,7 +12,7 @@
         @include grid.widths('', 1 2 3);
       }
 
-      @include contains {
+      @include expect {
         .item.uno-primero {
           width: 100%;
         }

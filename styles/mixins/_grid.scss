@@ -48,15 +48,16 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
     $namespace: '.' + $namespace;
   }
 
+  /*! purgecss start ignore */
   .root#{$namespace} {
-    /* purgecss ignore current */
     margin-left: -($grid-modifier--gutter);
 
     & > .item {
-      /* purgecss ignore current */
       padding-left: _grid-gutter--item($grid-modifier--gutter);
     }
   }
+
+  /*! purgecss end ignore */
 }
 
 //
@@ -67,17 +68,18 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 @mixin reverse($namespace: '') {
   $namespace: _namespace-suffix($namespace, 'reverse');
 
+  /*! purgecss start ignore */
   .root#{$namespace} {
-    /* purgecss ignore current */
     direction: rtl;
     text-align: right;
 
     > .item {
-      /* purgecss ignore current */
       direction: ltr;
       text-align: left;
     }
   }
+
+  /*! purgecss end ignore */
 }
 
 //
@@ -108,25 +110,28 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 // Sets up grid vertical-align styles
 //
 
-@mixin valign($align) {
+@mixin valign($aligns) {
   $align-items: (
-    'top': flex-start,
-    'middle': center,
-    'bottom': flex-end
+    top: flex-start,
+    middle: center,
+    bottom: flex-end
   );
 
-  .root.valign-#{$align} {
-    /* purgecss ignore current */
+  @each $align in $aligns {
+    $namespace: _namespace-suffix('valign', $align);
 
-    &.flex {
-      /* purgecss ignore current */
-      align-items: map.get($align-items, $align);
+    /*! purgecss start ignore */
+    .root#{$namespace} {
+      &.flex {
+        align-items: map.get($align-items, $align);
+      }
+
+      > .item {
+        vertical-align: $align;
+      }
     }
 
-    > .item {
-      /* purgecss ignore current */
-      vertical-align: $align;
-    }
+    /*! purgecss end ignore */
   }
 }
 
@@ -150,7 +155,6 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
       $column-name: nth($count-names, $j);
 
       .item#{$namespace}#{$column-name}-#{$grid}#{$plural} {
-        /* purgecss ignore current */
         #{$property}: $column-width + 0%;
       }
     }
