@@ -1939,10 +1939,10 @@
     eslint-plugin-react "7.21.5"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.25":
-  version "3.0.25"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.25.tgz#062f172bce730b782967470e775cebcc85c9f538"
-  integrity sha512-CmnIb+iBoI4mNxY3YwIjvYG68C///4jVW8WPUChfhEcc4mI1KLHOD84JiY5D/kk3nCRzzTOL40ldtpZlBRWe+w==
+"@newhighsco/postcss-config@3.0.26":
+  version "3.0.26"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.26.tgz#5c0e2b0e9ecc6ee60ac1d4649e1c2491a40cedc7"
+  integrity sha512-wiT3SBS1esm5KMUt/yCcbjcm9/zyR6qD8T/Sy5KvMSa0Iv/H7MzSdiceaSR3nJkSOXL1A6aRHnJu602adUlSCA==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.0.0"
     autoprefixer "10.0.4"
