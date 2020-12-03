@@ -37,7 +37,7 @@ const Navigation = ({
           active={visible}
           aria-expanded={visible}
           onClick={toggleVisibility}
-          theme={{ item: theme?.toggle, active: theme?.toggleActive }}
+          theme={{ root: theme?.toggle, active: theme?.toggleActive }}
         >
           <Icon
             theme={{ root: theme?.toggleIcon }}
