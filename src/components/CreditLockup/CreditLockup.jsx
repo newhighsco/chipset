@@ -14,7 +14,7 @@ const href = 'http://newhighsco.re'
  * The `CreditLockup` provides a link to the New High Score website
  */
 const CreditLockup = ({ theme, ...rest }) => (
-  <span className={theme?.wrapper} {...rest}>
+  <span className={theme?.root} {...rest}>
     <SmartLink
       className={theme?.link}
       href={href}
@@ -22,7 +22,7 @@ const CreditLockup = ({ theme, ...rest }) => (
       target="_blank"
       title={title}
     >
-      <Icon theme={{ wrapper: theme?.logo }} alt={name}>
+      <Icon theme={{ root: theme?.logo }} alt={name}>
         <LogoSvg />
       </Icon>
       <span className={theme?.text}>
@@ -37,7 +37,7 @@ const CreditLockup = ({ theme, ...rest }) => (
 CreditLockup.propTypes = {
   align: oneOf(['left', 'right', 'center']),
   dir: oneOf(['ltr', 'rtl']),
-  theme: shape({ wrapper: string, link: string, logo: string, text: string })
+  theme: shape({ root: string, link: string, logo: string, text: string })
 }
 
 export default CreditLockup

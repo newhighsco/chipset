@@ -1,7 +1,7 @@
 @use '../../../styles/mixins';
 @use '../../../styles/breakpoints.module';
 
-.wrapper {
+.root {
   @include mixins.clearfix;
 
   margin-left: auto;

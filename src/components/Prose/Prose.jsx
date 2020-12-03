@@ -7,7 +7,7 @@ const Prose = ({ html, children, theme, className, ...rest }) => {
 
   return (
     <div
-      className={classNames(theme?.wrapper, className)}
+      className={classNames(theme?.root, className)}
       {...(html && { dangerouslySetInnerHTML: { __html: html } })}
       {...rest}
     >
@@ -19,7 +19,7 @@ const Prose = ({ html, children, theme, className, ...rest }) => {
 Prose.propTypes = {
   html: string,
   children: node,
-  theme: shape({ wrapper: string }),
+  theme: shape({ root: string }),
   className: string
 }
 

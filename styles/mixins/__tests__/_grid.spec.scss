@@ -29,11 +29,11 @@
       }
 
       @include expect {
-        .wrapper {
+        .root {
           margin-left: -20px;
         }
 
-        .wrapper > .item {
+        .root > .item {
           padding-left: 20px;
         }
       }
@@ -47,11 +47,11 @@
       }
 
       @include expect {
-        .wrapper {
+        .root {
           margin-left: -2em;
         }
 
-        .wrapper > .item {
+        .root > .item {
           padding-left: 2em;
         }
       }
@@ -65,11 +65,11 @@
       }
 
       @include expect {
-        .wrapper {
+        .root {
           margin-left: -20%;
         }
 
-        .wrapper > .item {
+        .root > .item {
           padding-left: 16.6666666667%;
         }
       }
@@ -84,19 +84,19 @@
       }
 
       @include expect {
-        .wrapper.foo {
+        .root.foo {
           margin-left: -1em;
         }
 
-        .wrapper.foo > .item {
+        .root.foo > .item {
           padding-left: 1em;
         }
 
-        .wrapper.bar {
+        .root.bar {
           margin-left: -10%;
         }
 
-        .wrapper.bar > .item {
+        .root.bar > .item {
           padding-left: 9.0909090909%;
         }
       }
@@ -112,12 +112,12 @@
       }
 
       @include expect {
-        .wrapper.reverse {
+        .root.reverse {
           direction: rtl;
           text-align: right;
         }
 
-        .wrapper.reverse > .item {
+        .root.reverse > .item {
           direction: ltr;
           text-align: left;
         }
@@ -132,12 +132,12 @@
       }
 
       @include expect {
-        .wrapper.desktop-reverse {
+        .root.desktop-reverse {
           direction: rtl;
           text-align: right;
         }
 
-        .wrapper.desktop-reverse > .item {
+        .root.desktop-reverse > .item {
           direction: ltr;
           text-align: left;
         }
@@ -666,7 +666,7 @@
       }
 
       @include expect {
-        .wrapper.flex {
+        .root.flex {
           display: flex;
           flex-wrap: wrap;
         }
@@ -683,7 +683,7 @@
       }
 
       @include expect {
-        .wrapper.valign-middle {
+        .root.valign-middle {
           &.flex {
             align-items: center;
           }
@@ -705,7 +705,7 @@
       }
 
       @include expect {
-        .wrapper.uncompressed {
+        .root.uncompressed {
           letter-spacing: -0.25em;
         }
 
@@ -723,7 +723,7 @@
       }
 
       @include expect {
-        .wrapper.uncompressed {
+        .root.uncompressed {
           letter-spacing: -20px;
         }
 

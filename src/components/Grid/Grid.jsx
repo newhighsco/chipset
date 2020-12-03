@@ -20,7 +20,7 @@ const Grid = ({
   return (
     <div
       className={classNames(
-        theme?.wrapper,
+        theme?.root,
         gutter && theme[gutter],
         gutterless && theme?.gutterless,
         reverse && theme?.reverse,

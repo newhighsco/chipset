@@ -1,7 +1,7 @@
 @use '../settings/colors';
 @use '../settings/fonts';
 
-.wrapper {
+.root {
   background-color: colors.$lemon;
   border: 1px solid colors.$black;
   color: currentColor;

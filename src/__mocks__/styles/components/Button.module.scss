@@ -1,7 +1,7 @@
 @use '../settings/colors';
 @use '../settings/fonts';
 
-.item {
+.root {
   background-color: colors.$lemon;
   border: 1px solid colors.$black;
   color: currentColor;
@@ -20,10 +20,10 @@
   }
 }
 
-.wrapper {
+.group {
   text-align: center;
 
-  .item {
+  .root {
     margin: 0 0.5em;
   }
 }

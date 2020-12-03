@@ -32,7 +32,7 @@ const ResponsiveMedia = ({
 
   return (
     <div
-      className={classNames(theme?.wrapper, className)}
+      className={classNames(theme?.root, className)}
       style={{
         ...style,
         ...(parsedRatio && { paddingBottom: `${parsedRatio}%` })

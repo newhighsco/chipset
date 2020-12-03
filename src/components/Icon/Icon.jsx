@@ -12,7 +12,7 @@ const Icon = ({ height, width, alt, children, theme }) => {
   return (
     <span
       className={classNames(
-        theme?.wrapper,
+        theme?.root,
         (width ?? height) && theme?.customSize
       )}
       {...(alt && {
@@ -39,7 +39,7 @@ Icon.propTypes = {
   width: number,
   alt: string,
   children: node,
-  theme: shape({ wrapper: string, customSize: string })
+  theme: shape({ root: string, customSize: string })
 }
 
 export default Icon

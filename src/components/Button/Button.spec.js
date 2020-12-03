@@ -25,6 +25,6 @@ describe('Components/Button', () => {
       </Button>
     )
 
-    expect(wrapper.prop('className')).toEqual('item active foo')
+    expect(wrapper.prop('className')).toEqual('root active foo')
   })
 })

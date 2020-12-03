@@ -29,7 +29,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 //
 
 @mixin uncompressed($spacing: -0.25em) {
-  .wrapper.uncompressed {
+  .root.uncompressed {
     letter-spacing: $spacing;
   }
 
@@ -48,7 +48,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
     $namespace: '.' + $namespace;
   }
 
-  .wrapper#{$namespace} {
+  .root#{$namespace} {
     margin-left: -($grid-modifier--gutter);
 
     & > .item {
@@ -65,7 +65,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 @mixin reverse($namespace: '') {
   $namespace: _namespace-suffix($namespace, 'reverse');
 
-  .wrapper#{$namespace} {
+  .root#{$namespace} {
     direction: rtl;
     text-align: right;
 
@@ -93,7 +93,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 //
 
 @mixin flex() {
-  .wrapper.flex {
+  .root.flex {
     display: flex;
     flex-wrap: wrap;
   }
@@ -111,7 +111,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
     'bottom': flex-end
   );
 
-  .wrapper.valign-#{$align} {
+  .root.valign-#{$align} {
     &.flex {
       align-items: map.get($align-items, $align);
     }

@@ -19,7 +19,7 @@ const ContentContainer = ({
   return (
     <Element
       className={classNames(
-        theme?.wrapper,
+        theme?.root,
         size && theme[size],
         gutter && theme?.gutter,
         className
@@ -35,7 +35,7 @@ ContentContainer.propTypes = {
   size: string,
   gutter: bool,
   children: node,
-  theme: shape({ wrapper: string, gutter: string }),
+  theme: shape({ root: string, gutter: string }),
   className: string
 }
 

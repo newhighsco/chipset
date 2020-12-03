@@ -12,7 +12,7 @@ const Card = ({ href, target, image, heading, children, theme, className }) => {
 
   return (
     <div
-      className={classNames(theme?.wrapper, className)}
+      className={classNames(theme?.root, className)}
       {...(href && { role: 'link' })}
     >
       <CardImage {...image} theme={theme} />
@@ -38,7 +38,7 @@ Card.propTypes = {
   heading: node,
   children: node,
   theme: shape({
-    wrapper: string,
+    root: string,
     image: string,
     content: string,
     heading: string,

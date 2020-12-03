@@ -24,6 +24,6 @@ describe('Components/ButtonGroup', () => {
       </ButtonGroup>
     )
 
-    expect(wrapper.prop('className')).toEqual('wrapper foo')
+    expect(wrapper.prop('className')).toEqual('group foo')
   })
 })

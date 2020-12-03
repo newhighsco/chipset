@@ -1,8 +1,4 @@
-.wrapper {
-  display: block;
-}
-
-.item {
+.root {
   cursor: default;
   display: inline-block;
   overflow: visible;
@@ -15,4 +11,8 @@
   &[type] {
     cursor: pointer;
   }
+}
+
+.group {
+  display: block;
 }
