@@ -17,6 +17,6 @@ describe('Components/CreditLockup', () => {
   it('should set correct classNames', () => {
     const wrapper = shallow(<CreditLockup theme={theme} />)
 
-    expect(wrapper.prop('className')).toEqual('wrapper')
+    expect(wrapper.prop('className')).toEqual('root')
   })
 })

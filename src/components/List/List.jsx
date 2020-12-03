@@ -19,7 +19,7 @@ const List = ({
     <Element
       as={as}
       className={classNames(
-        theme?.wrapper,
+        theme?.root,
         unstyled && theme?.unstyled,
         inline && theme?.inline,
         commaSeparated && theme?.commaSeparated,

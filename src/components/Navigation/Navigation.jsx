@@ -30,7 +30,7 @@ const Navigation = ({
   }
 
   return (
-    <nav role="navigation" className={classNames(theme?.wrapper, className)}>
+    <nav role="navigation" className={classNames(theme?.root, className)}>
       <VisuallyHidden as="h2">{title}</VisuallyHidden>
       {toggle && (
         <Button
@@ -40,7 +40,7 @@ const Navigation = ({
           theme={{ item: theme?.toggle, active: theme?.toggleActive }}
         >
           <Icon
-            theme={{ wrapper: theme?.toggleIcon }}
+            theme={{ root: theme?.toggleIcon }}
             alt={`${!visible ? 'Show' : 'Hide'} ${title}`}
           >
             {!visible ? <MenuSvg /> : <CloseSvg />}
@@ -52,7 +52,7 @@ const Navigation = ({
         unstyled
         inline={inline}
         hidden={!visible}
-        theme={{ wrapper: theme?.list, inline: theme?.inline }}
+        theme={{ root: theme?.list, inline: theme?.inline }}
       >
         {links.map((link, index) => {
           const props = { ...link, className: theme?.link }
@@ -76,7 +76,7 @@ Navigation.propTypes = {
   toggle: bool,
   onToggle: func,
   theme: shape({
-    wrapper: string,
+    root: string,
     item: string,
     link: string,
     toggle: string,

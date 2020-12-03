@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'
 import Icon from './Icon'
 import VisuallyHidden from '../VisuallyHidden'
 
-const theme = { wrapper: 'wrapper', customSize: 'customSize' }
+const theme = { root: 'root', customSize: 'customSize' }
 
 describe('Components/Icon', () => {
   it('should render npothing by default', () => {
@@ -46,7 +46,7 @@ describe('Components/Icon', () => {
       </Icon>
     )
 
-    expect(wrapper.prop('className')).toEqual('wrapper customSize')
+    expect(wrapper.prop('className')).toEqual('root customSize')
     expect(wrapper.prop('style')).toEqual({
       width: '20px',
       height: '10px',

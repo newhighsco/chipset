@@ -11,7 +11,7 @@ const VisuallyHidden = ({ children, ...rest }) => {
   if (!children) return null
 
   return (
-    <Element as="span" className={styles.wrapper} {...rest}>
+    <Element as="span" className={styles.root} {...rest}>
       {children}
     </Element>
   )

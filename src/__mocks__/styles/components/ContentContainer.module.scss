@@ -2,7 +2,7 @@
 @use '../settings/colors';
 @use '../settings/fonts';
 
-.wrapper {
+.root {
   background-color: colors.$yellow;
   font-family: fonts.$body;
 

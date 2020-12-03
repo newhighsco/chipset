@@ -28,12 +28,12 @@
         @include grid.gutter('', 20px);
       }
 
-      @include expect {
-        .wrapper {
+      @include contains {
+        .root {
           margin-left: -20px;
         }
 
-        .wrapper > .item {
+        .root > .item {
           padding-left: 20px;
         }
       }
@@ -46,12 +46,12 @@
         @include grid.gutter('', 2em);
       }
 
-      @include expect {
-        .wrapper {
+      @include contains {
+        .root {
           margin-left: -2em;
         }
 
-        .wrapper > .item {
+        .root > .item {
           padding-left: 2em;
         }
       }
@@ -64,12 +64,12 @@
         @include grid.gutter('', 20%);
       }
 
-      @include expect {
-        .wrapper {
+      @include contains {
+        .root {
           margin-left: -20%;
         }
 
-        .wrapper > .item {
+        .root > .item {
           padding-left: 16.6666666667%;
         }
       }
@@ -83,20 +83,20 @@
         @include grid.gutter('bar', 10%);
       }
 
-      @include expect {
-        .wrapper.foo {
+      @include contains {
+        .root.foo {
           margin-left: -1em;
         }
 
-        .wrapper.foo > .item {
+        .root.foo > .item {
           padding-left: 1em;
         }
 
-        .wrapper.bar {
+        .root.bar {
           margin-left: -10%;
         }
 
-        .wrapper.bar > .item {
+        .root.bar > .item {
           padding-left: 9.0909090909%;
         }
       }
@@ -111,13 +111,13 @@
         @include grid.reverse();
       }
 
-      @include expect {
-        .wrapper.reverse {
+      @include contains {
+        .root.reverse {
           direction: rtl;
           text-align: right;
         }
 
-        .wrapper.reverse > .item {
+        .root.reverse > .item {
           direction: ltr;
           text-align: left;
         }
@@ -131,13 +131,13 @@
         @include grid.reverse('desktop');
       }
 
-      @include expect {
-        .wrapper.desktop-reverse {
+      @include contains {
+        .root.desktop-reverse {
           direction: rtl;
           text-align: right;
         }
 
-        .wrapper.desktop-reverse > .item {
+        .root.desktop-reverse > .item {
           direction: ltr;
           text-align: left;
         }
@@ -666,7 +666,7 @@
       }
 
       @include expect {
-        .wrapper.flex {
+        .root.flex {
           display: flex;
           flex-wrap: wrap;
         }
@@ -679,17 +679,37 @@
   @include test('should output styles to vertically align grid items') {
     @include assert {
       @include output {
-        @include grid.valign(middle);
+        @include grid.valign(top middle bottom);
       }
 
-      @include expect {
-        .wrapper.valign-middle {
+      @include contains {
+        .root.valign-top {
+          &.flex {
+            align-items: flex-start;
+          }
+
+          > .item {
+            vertical-align: top;
+          }
+        }
+
+        .root.valign-middle {
           &.flex {
             align-items: center;
           }
 
           > .item {
             vertical-align: middle;
+          }
+        }
+
+        .root.valign-bottom {
+          &.flex {
+            align-items: flex-end;
+          }
+
+          > .item {
+            vertical-align: bottom;
           }
         }
       }
@@ -705,7 +725,7 @@
       }
 
       @include expect {
-        .wrapper.uncompressed {
+        .root.uncompressed {
           letter-spacing: -0.25em;
         }
 
@@ -723,7 +743,7 @@
       }
 
       @include expect {
-        .wrapper.uncompressed {
+        .root.uncompressed {
           letter-spacing: -20px;
         }
 

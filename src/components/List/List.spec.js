@@ -41,7 +41,7 @@ describe('Components/List', () => {
     )
 
     expect(wrapper.prop('className')).toEqual(
-      'wrapper unstyled inline commaSeparated'
+      'root unstyled inline commaSeparated'
     )
   })
 })

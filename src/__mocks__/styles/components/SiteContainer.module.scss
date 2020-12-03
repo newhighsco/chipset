@@ -1,7 +1,7 @@
 @use '../settings/colors';
 @use '../settings/fonts';
 
-.wrapper {
+.root {
   background-color: colors.$lemon;
   font-family: fonts.$body;
   padding: 1em;

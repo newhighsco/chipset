@@ -27,6 +27,6 @@ describe('Components/ContentContainer', () => {
       </ContentContainer>
     )
 
-    expect(wrapper.prop('className')).toEqual('wrapper mobile gutter')
+    expect(wrapper.prop('className')).toEqual('root mobile gutter')
   })
 })

@@ -8,7 +8,7 @@ const Button = ({ active, children, theme, className, ...rest }) => {
 
   return (
     <SmartLink
-      className={classNames(theme?.item, active && theme?.active, className)}
+      className={classNames(theme?.root, active && theme?.active, className)}
       {...rest}
     >
       <span className={theme?.content}>{children}</span>

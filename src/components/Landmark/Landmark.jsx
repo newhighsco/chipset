@@ -10,7 +10,7 @@ import styles from './Landmark.module.scss'
 const Landmark = ({ children, ...rest }) => (
   <>
     {/* eslint-disable jsx-a11y/anchor-is-valid */}
-    <a className={styles.wrapper} {...rest}>
+    <a className={styles.root} {...rest}>
       {children && <VisuallyHidden>{children}</VisuallyHidden>}
     </a>
     {/* eslint-enable jsx-a11y/anchor-is-valid */}

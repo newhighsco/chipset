@@ -1,7 +1,7 @@
 @use '../../../styles/mixins';
 @use '../../../styles/breakpoints.module';
 
-.wrapper {
+.root {
   @include mixins.clearfix;
 
   margin-left: auto;
@@ -11,6 +11,7 @@
 
 @each $size, $maxWidth in breakpoints.$all {
   .#{$size} {
+    /*! purgecss ignore current */
     max-width: $maxWidth;
   }
 }

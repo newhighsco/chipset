@@ -1252,7 +1252,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.5":
+"@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
@@ -1492,6 +1492,13 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@dr.pogodin/react-themes@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.3.0.tgz#88737a9881d977edf49860935493f47e3717385c"
+  integrity sha512-DpVQm6EFYW2WmQUsVMJu/9sk2ztUY5fjPZ49SqDApki8m1YIp99cAvZ4gW7ck9RD74dgm+vjZuHjFxWH3N0MEQ==
+  dependencies:
+    "@babel/runtime" "^7.12.1"
+
 "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
@@ -1609,15 +1616,6 @@
     lodash "^4.17.19"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
-
-"@friendsofreactjs/react-css-themr@4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@friendsofreactjs/react-css-themr/-/react-css-themr-4.3.2.tgz#4bc8d309aa4aae275a009fd0289c7cedaacc069b"
-  integrity sha512-bjGSPhn2SzR1FaJfEY8KFIWJWhtocdPEmrOE2l7MNkcnf+qAzEId46qhn3NviEl8+zTJZtdB3xqIRpaRXxbP4w==
-  dependencies:
-    hoist-non-react-statics "^3.3.0"
-    invariant "^2.2.4"
-    prop-types "^15.7.2"
 
 "@fullhuman/postcss-purgecss@3.0.0":
   version "3.0.0"
@@ -1941,10 +1939,10 @@
     eslint-plugin-react "7.21.5"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.26":
-  version "3.0.26"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.26.tgz#5c0e2b0e9ecc6ee60ac1d4649e1c2491a40cedc7"
-  integrity sha512-wiT3SBS1esm5KMUt/yCcbjcm9/zyR6qD8T/Sy5KvMSa0Iv/H7MzSdiceaSR3nJkSOXL1A6aRHnJu602adUlSCA==
+"@newhighsco/postcss-config@3.0.27":
+  version "3.0.27"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.27.tgz#7445a3b532cf08d21c8eb0454a6760d75dcc2724"
+  integrity sha512-0F2TmU2l/0ZbfWZN5JYxaFo1QKNZQRu7h0WHRE9NCSiik7/HLPAJ8HSl8PxulJBYNM25TapQGw0cpyJfTrsIsQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.0.0"
     autoprefixer "10.0.4"

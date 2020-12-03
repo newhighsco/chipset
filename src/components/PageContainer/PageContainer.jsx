@@ -23,7 +23,7 @@ PageContainer.propTypes = {
   header: node,
   footer: node,
   children: node,
-  theme: shape({ wrapper: string })
+  theme: shape({ root: string })
 }
 
 export default PageContainer

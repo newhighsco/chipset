@@ -29,7 +29,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 //
 
 @mixin uncompressed($spacing: -0.25em) {
-  .wrapper.uncompressed {
+  .root.uncompressed {
     letter-spacing: $spacing;
   }
 
@@ -48,13 +48,16 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
     $namespace: '.' + $namespace;
   }
 
-  .wrapper#{$namespace} {
+  /*! purgecss start ignore */
+  .root#{$namespace} {
     margin-left: -($grid-modifier--gutter);
 
     & > .item {
       padding-left: _grid-gutter--item($grid-modifier--gutter);
     }
   }
+
+  /*! purgecss end ignore */
 }
 
 //
@@ -65,7 +68,8 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 @mixin reverse($namespace: '') {
   $namespace: _namespace-suffix($namespace, 'reverse');
 
-  .wrapper#{$namespace} {
+  /*! purgecss start ignore */
+  .root#{$namespace} {
     direction: rtl;
     text-align: right;
 
@@ -74,6 +78,8 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
       text-align: left;
     }
   }
+
+  /*! purgecss end ignore */
 }
 
 //
@@ -93,7 +99,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 //
 
 @mixin flex() {
-  .wrapper.flex {
+  .root.flex {
     display: flex;
     flex-wrap: wrap;
   }
@@ -104,21 +110,28 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 // Sets up grid vertical-align styles
 //
 
-@mixin valign($align) {
+@mixin valign($aligns) {
   $align-items: (
-    'top': flex-start,
-    'middle': center,
-    'bottom': flex-end
+    top: flex-start,
+    middle: center,
+    bottom: flex-end
   );
 
-  .wrapper.valign-#{$align} {
-    &.flex {
-      align-items: map.get($align-items, $align);
+  @each $align in $aligns {
+    $namespace: _namespace-suffix('valign', $align);
+
+    /*! purgecss start ignore */
+    .root#{$namespace} {
+      &.flex {
+        align-items: map.get($align-items, $align);
+      }
+
+      > .item {
+        vertical-align: $align;
+      }
     }
 
-    > .item {
-      vertical-align: $align;
-    }
+    /*! purgecss end ignore */
   }
 }
 

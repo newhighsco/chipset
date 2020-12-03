@@ -28,7 +28,7 @@ describe('Components/Grid', () => {
 
     expect(wrapper.type()).toEqual('div')
     expect(wrapper.prop('className')).toEqual(
-      'wrapper double gutterless reverse flex valign-bottom foo'
+      'root double gutterless reverse flex valign-bottom foo'
     )
   })
 })

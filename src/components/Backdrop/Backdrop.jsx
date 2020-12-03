@@ -12,7 +12,7 @@ const Backdrop = ({ children, className, ...rest }) => {
   if (!children && !Object.keys(rest).length) return null
 
   return (
-    <Element className={classNames(styles.wrapper, className)} {...rest}>
+    <Element className={classNames(styles.root, className)} {...rest}>
       {children}
     </Element>
   )

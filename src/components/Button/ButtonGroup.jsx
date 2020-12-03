@@ -5,7 +5,7 @@ import classNames from 'classnames'
 const ButtonGroup = ({ children, theme, className }) => {
   if (!children) return null
 
-  return <div className={classNames(theme?.wrapper, className)}>{children}</div>
+  return <div className={classNames(theme?.group, className)}>{children}</div>
 }
 
 ButtonGroup.propTypes = {

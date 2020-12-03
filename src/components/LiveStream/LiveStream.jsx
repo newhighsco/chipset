@@ -43,7 +43,7 @@ const LiveStream = ({
   if (!videoUrl) return null
 
   return (
-    <Grid gutterless flex className={classNames(theme?.wrapper, className)}>
+    <Grid gutterless flex className={classNames(theme?.root, className)}>
       <Grid.Item className={theme?.video}>
         <ResponsiveMedia ratio="16:9">
           <iframe
@@ -76,7 +76,7 @@ LiveStream.propTypes = {
   muted: bool,
   darkMode: bool,
   showChat: bool,
-  theme: shape({ wrapper: string, video: string, chat: string }),
+  theme: shape({ root: string, video: string, chat: string }),
   className: string
 }
 

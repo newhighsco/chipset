@@ -10,7 +10,7 @@ const SiteContainer = ({ children, theme, className, ...rest }) => {
   if (!children) return null
 
   return (
-    <Element className={classNames(theme?.wrapper, className)} {...rest}>
+    <Element className={classNames(theme?.root, className)} {...rest}>
       {children}
     </Element>
   )
@@ -18,7 +18,7 @@ const SiteContainer = ({ children, theme, className, ...rest }) => {
 
 SiteContainer.propTypes = {
   children: node,
-  theme: shape({ wrapper: string }),
+  theme: shape({ root: string }),
   className: string
 }
 

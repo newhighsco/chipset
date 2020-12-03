@@ -1,5 +1,5 @@
 @use '../../../styles/mixins/visually-hidden' as *;
 
-.wrapper {
+.root {
   @include visually-hidden();
 }
