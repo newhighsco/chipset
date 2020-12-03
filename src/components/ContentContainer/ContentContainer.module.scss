@@ -10,7 +10,10 @@
 }
 
 @each $size, $maxWidth in breakpoints.$all {
+  /* purgecss start ignore */
   .#{$size} {
     max-width: $maxWidth;
   }
+
+  /* purgecss start ignore */
 }
