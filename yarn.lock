@@ -1967,10 +1967,10 @@
     "@semantic-release/npm" "7.0.9"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@3.1.15":
-  version "3.1.15"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.1.15.tgz#49fe6f835fcb31a1f5d6917bf1152b198a4722ca"
-  integrity sha512-KtALDYSEX18QSh0C6UGwbDAR8sI78O2AbDZ4jZNSOXmUFzkEwJHZTefyrK05jgY5z9XOaKFrbKlukoHAPTdyeg==
+"@newhighsco/storybook-preset@3.1.16":
+  version "3.1.16"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.1.16.tgz#dd27239e4cb465b7e9441ae42aa0536e5c195427"
+  integrity sha512-x9ZYFj6GmUGw8raPl96VdV31FSfK3iTokGe51Ts/7BnBoL61dTmf0vH0QsIclZU7I8Ih7F6K23WyFKWTIcbQ+Q==
   dependencies:
     "@storybook/addon-actions" "6.1.10"
     "@storybook/addon-docs" "6.1.10"
@@ -1978,7 +1978,7 @@
     "@storybook/addons" "6.1.10"
     "@svgr/webpack" "5.5.0"
     react-is "17.0.1"
-    sass "1.29.0"
+    sass "1.30.0"
     sass-loader "10.1.0"
 
 "@newhighsco/stylelint-config@2.0.27":
@@ -14323,10 +14323,10 @@ sass-true@6.0.1:
     css "^3.0.0"
     lodash "^4.17.19"
 
-sass@1.29.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.29.0.tgz#ec4e1842c146d8ea9258c28c141b8c2b7c6ab7f1"
-  integrity sha512-ZpwAUFgnvAUCdkjwPREny+17BpUj8nh5Yr6zKPGtLNTLrmtoRYIjm7njP24COhjJldjwW1dcv52Lpf4tNZVVRA==
+sass@1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.30.0.tgz#60bbbbaf76ba10117e61c6c24f00161c3d60610e"
+  integrity sha512-26EUhOXRLaUY7+mWuRFqGeGGNmhB1vblpTENO1Z7mAzzIZeVxZr9EZoaY1kyGLFWdSOZxRMAufiN2mkbO6dAlw==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
