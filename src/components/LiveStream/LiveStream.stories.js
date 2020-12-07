@@ -36,14 +36,14 @@ export const twitchDarkMode = () => (
 twitchDarkMode.storyName = 'Twitch - dark mode'
 
 export const youtube = () => (
-  <LiveStream href="https://youtube.com/failarmy" autoPlay={false} muted />
+  <LiveStream href="https://youtube.com/mashonly" autoPlay={false} muted />
 )
 
 youtube.storyName = 'YouTube'
 
 export const youtubeDarkMode = () => (
   <LiveStream
-    href="https://youtube.com/failarmy"
+    href="https://youtube.com/mashonly"
     autoPlay={false}
     muted
     darkMode
