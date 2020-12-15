@@ -1,3 +1,10 @@
+## [6.3.4](https://github.com/newhighsco/chipset/compare/v6.3.3...v6.3.4) (2020-12-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fullhuman/postcss-purgecss to v3.1.3 ([e7c3a52](https://github.com/newhighsco/chipset/commit/e7c3a521695bebcf95538e14c7ebe9217c27b2ce))
+
 ## [6.3.3](https://github.com/newhighsco/chipset/compare/v6.3.2...v6.3.3) (2020-12-05)
 
 
