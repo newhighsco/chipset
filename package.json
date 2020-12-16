@@ -45,7 +45,7 @@
   "devDependencies": {
     "@babel/core": "7.12.10",
     "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.12.10",
+    "@babel/preset-env": "7.12.11",
     "@babel/preset-react": "7.12.10",
     "@commitlint/cli": "11.0.0",
     "@newhighsco/browserslist-config": "1.0.2",
