@@ -1,12 +1,12 @@
 import { withTheme } from '../../providers'
-import { GRID } from '../identifiers'
 import PureGrid from './Grid'
 import PureGridItem from './GridItem'
 
 import theme from './Grid.module.scss'
 
-const Grid = withTheme(GRID, theme)(PureGrid)
-const GridItem = withTheme(GRID, theme)(PureGridItem)
+const { displayName } = PureGrid
+const Grid = withTheme(displayName, theme)(PureGrid)
+const GridItem = withTheme(displayName, theme)(PureGridItem)
 
 Grid.Item = GridItem
 

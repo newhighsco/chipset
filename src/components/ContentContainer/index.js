@@ -1,12 +1,9 @@
 import { withTheme } from '../../providers'
-import { CONTENT_CONTAINER } from '../identifiers'
 import PureContentContainer from './ContentContainer'
 
 import theme from './ContentContainer.module.scss'
 
-const ContentContainer = withTheme(
-  CONTENT_CONTAINER,
-  theme
-)(PureContentContainer)
+const { displayName } = PureContentContainer
+const ContentContainer = withTheme(displayName, theme)(PureContentContainer)
 
 export default ContentContainer

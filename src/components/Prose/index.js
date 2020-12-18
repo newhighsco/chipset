@@ -1,9 +1,9 @@
 import { withTheme } from '../../providers'
-import { PROSE } from '../identifiers'
 import PureProse from './Prose'
 
 import theme from './Prose.module.scss'
 
-const Prose = withTheme(PROSE, theme)(PureProse)
+const { displayName } = PureProse
+const Prose = withTheme(displayName, theme)(PureProse)
 
 export default Prose

@@ -1,9 +1,9 @@
 import { withTheme } from '../../providers'
-import { LIST } from '../identifiers'
 import PureList from './List'
 
 import theme from './List.module.scss'
 
-const List = withTheme(LIST, theme)(PureList)
+const { displayName } = PureList
+const List = withTheme(displayName, theme)(PureList)
 
 export default List

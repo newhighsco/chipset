@@ -1,9 +1,9 @@
 import { withTheme } from '../../providers'
-import { LIVE_STREAM } from '../identifiers'
 import PureLiveStream from './LiveStream'
 
 import theme from './LiveStream.module.scss'
 
-const LiveStream = withTheme(LIVE_STREAM, theme)(PureLiveStream)
+const { displayName } = PureLiveStream
+const LiveStream = withTheme(displayName, theme)(PureLiveStream)
 
 export default LiveStream
