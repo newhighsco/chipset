@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 @use '../styles/normalize';
 
 :global {
@@ -9,3 +10,5 @@
     vertical-align: middle !important;
   }
 }
+
+/* purgecss end ignore */
