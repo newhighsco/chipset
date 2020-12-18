@@ -1,7 +1,7 @@
-@use '../../../../styles/functions';
-@use '../../../../styles/mixins';
-@use '../../../../styles/mixins/grid';
-@use '../../../../styles/breakpoints.module';
+@use '../../styles/functions';
+@use '../../styles/mixins';
+@use '../../styles/mixins/grid';
+@use '../../styles/breakpoints.module';
 
 @include grid.gutter('', functions.spacing(1));
 @include grid.reverse();

@@ -1,6 +1,6 @@
 import React from 'react'
 import { ThemeProvider } from '../src/providers'
-import componentTheme from '../src/__mocks__/theme'
+import componentTheme from '../example/theme'
 
 import breakpoints from '../styles/_breakpoints.module.scss'
 import './preview.scss'

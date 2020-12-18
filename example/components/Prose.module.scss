@@ -1,5 +1,5 @@
-@use '../settings/colors';
-@use '../settings/fonts';
+@use '../styles/colors';
+@use '../styles/fonts';
 
 .root {
   font-family: fonts.$body;
