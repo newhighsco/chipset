@@ -4,22 +4,23 @@ import PureSiteContainer from './SiteContainer'
 
 export default {
   title: 'Components/SiteContainer',
-  component: SiteContainer
+  component: PureSiteContainer
 }
 
-const storyArgs = { children: 'Content' }
-const StoryComponent = args => <PureSiteContainer {...args} />
+const Template = args => <SiteContainer {...args} />
 
-export const source = StoryComponent.bind({})
+export const source = Template.bind({})
 
 source.parameters = {
   percy: {
     skip: true
   }
 }
+source.args = {
+  children: 'Content'
+}
 
-source.args = storyArgs
+export const example = Template.bind({})
 
-export const example = () => <SiteContainer>Content</SiteContainer>
-
+example.args = source.args
 example.storyName = ' '

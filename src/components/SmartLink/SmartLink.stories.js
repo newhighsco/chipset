@@ -4,7 +4,7 @@ import PureSmartLink from './SmartLink'
 
 export default {
   title: 'Components/SmartLink',
-  component: SmartLink,
+  component: PureSmartLink,
   parameters: {
     percy: {
       skip: true
@@ -12,7 +12,7 @@ export default {
   }
 }
 
-const Template = args => <PureSmartLink {...args} />
+const Template = args => <SmartLink {...args} />
 
 export const source = Template.bind({})
 

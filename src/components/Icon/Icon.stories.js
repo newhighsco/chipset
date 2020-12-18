@@ -4,7 +4,7 @@ import PureIcon from './Icon'
 
 export default {
   title: 'Components/Icon',
-  component: Icon,
+  component: PureIcon,
   parameters: {
     percy: {
       skip: true
@@ -12,7 +12,7 @@ export default {
   }
 }
 
-const Template = args => <PureIcon {...args} />
+const Template = args => <Icon {...args} />
 
 export const source = Template.bind({})
 

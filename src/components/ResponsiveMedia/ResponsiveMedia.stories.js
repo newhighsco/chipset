@@ -5,10 +5,10 @@ import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
   title: 'Components/ResponsiveMedia',
-  component: ResponsiveMedia
+  component: PureResponsiveMedia
 }
 
-const Template = args => <PureResponsiveMedia {...args} />
+const Template = args => <ResponsiveMedia {...args} />
 
 export const source = Template.bind({})
 
@@ -16,33 +16,36 @@ source.args = {
   ratio: '16:9',
   children: 'Content'
 }
-
 source.parameters = {
   percy: {
     skip: true
   }
 }
 
-export const withImage = () => (
-  <ResponsiveMedia ratio="4:1">
-    <Image src={imageUrl} />
-  </ResponsiveMedia>
-)
+export const withImage = Template.bind({})
 
-export const withPicture = () => (
-  <ResponsiveMedia ratio="4:1">
-    <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
-  </ResponsiveMedia>
-)
+withImage.args = {
+  ratio: '4:1',
+  children: <Image src={imageUrl} />
+}
 
-export const withIframe = () => (
-  <ResponsiveMedia ratio="16:9">
-    <iframe title="iframe" src="https://example.com/" loading="lazy" />
-  </ResponsiveMedia>
-)
+export const withPicture = Template.bind({})
 
-export const withVideo = () => (
-  <ResponsiveMedia ratio={9 / 16}>
-    <video src={videoUrl} poster={imageUrl} muted />
-  </ResponsiveMedia>
-)
+withPicture.args = {
+  ratio: '4:1',
+  children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
+}
+
+export const withIframe = Template.bind({})
+
+withIframe.args = {
+  ratio: '16:9',
+  children: <iframe title="iframe" src="https://example.com/" loading="lazy" />
+}
+
+export const withVideo = Template.bind({})
+
+withVideo.args = {
+  ratio: 9 / 16,
+  children: <video src={videoUrl} poster={imageUrl} muted />
+}

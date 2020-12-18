@@ -29,7 +29,6 @@ export const source = Template.bind({})
 source.args = {
   children: 'Content'
 }
-
 source.parameters = {
   percy: {
     skip: true
@@ -41,7 +40,6 @@ export const withImage = Template.bind({})
 withImage.args = {
   children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
 }
-
 withImage.decorators = storyDecorators
 
 export const withVideo = Template.bind({})
@@ -49,5 +47,4 @@ export const withVideo = Template.bind({})
 withVideo.args = {
   children: <video src={videoUrl} poster={imageUrl} muted />
 }
-
 withVideo.decorators = storyDecorators

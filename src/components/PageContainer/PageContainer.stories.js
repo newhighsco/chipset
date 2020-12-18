@@ -4,17 +4,10 @@ import PurePageContainer from './PageContainer'
 
 export default {
   title: 'Components/PageContainer',
-  component: PageContainer
+  component: PurePageContainer
 }
 
-const storyDecorators = [
-  Story => (
-    <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
-      <Story />
-    </div>
-  )
-]
-const Template = args => <PurePageContainer {...args} />
+const Template = args => <PageContainer {...args} />
 
 export const source = Template.bind({})
 
@@ -23,23 +16,24 @@ source.args = {
   footer: <footer />,
   children: 'Content'
 }
-
 source.parameters = {
   percy: {
     skip: true
   }
 }
 
-export const example = () => (
-  <PageContainer
-    as="main"
-    header={<ContentContainer as="header">Header</ContentContainer>}
-    footer={<ContentContainer as="footer">Footer</ContentContainer>}
-  >
-    Content
-  </PageContainer>
-)
+export const example = Template.bind({})
 
-example.decorators = storyDecorators
-
+example.args = {
+  header: <ContentContainer as="header">Header</ContentContainer>,
+  footer: <ContentContainer as="footer">Footer</ContentContainer>,
+  children: 'Content'
+}
+example.decorators = [
+  Story => (
+    <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
+      <Story />
+    </div>
+  )
+]
 example.storyName = ' '

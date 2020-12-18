@@ -4,61 +4,58 @@ import PureList from './List'
 
 export default {
   title: 'Components/List',
-  component: List
+  component: PureList
 }
 
-const Template = args => <PureList {...args} />
+const Template = args => <List {...args} />
 
 export const source = Template.bind({})
 
 source.args = {
   children: 'Content'
 }
-
 source.parameters = {
   percy: {
     skip: true
   }
 }
 
-export const unordered = () => (
-  <List>
-    <li>List item</li>
-    <li>List item</li>
-    <li>List item</li>
-  </List>
-)
+export const unordered = Template.bind({})
 
-export const ordered = () => (
-  <List as="ol">
-    <li>List item</li>
-    <li>List item</li>
-    <li>List item</li>
-  </List>
-)
+unordered.args = {
+  children: [
+    <li key="0">List item</li>,
+    <li key="1">List item</li>,
+    <li key="2">List item</li>
+  ]
+}
 
-export const unstyled = () => (
-  <List unstyled>
-    <li>List item</li>
-    <li>List item</li>
-    <li>List item</li>
-  </List>
-)
+export const ordered = Template.bind({})
 
-export const inline = () => (
-  <List inline>
-    <li>List item</li>
-    <li>List item</li>
-    <li>List item</li>
-  </List>
-)
+ordered.args = {
+  ...unordered.args,
+  as: 'ol'
+}
 
-export const inlineCommaSeparated = () => (
-  <List inline commaSeparated>
-    <li>List item</li>
-    <li>List item</li>
-    <li>List item</li>
-  </List>
-)
+export const unstyled = Template.bind({})
 
+unstyled.args = {
+  ...unordered.args,
+  unstyled: true
+}
+
+export const inline = Template.bind({})
+
+inline.args = {
+  ...unordered.args,
+  inline: true
+}
+
+export const inlineCommaSeparated = Template.bind({})
+
+inlineCommaSeparated.args = {
+  ...unordered.args,
+  inline: true,
+  commaSeparated: true
+}
 inlineCommaSeparated.storyName = 'Inline, comma-separated'

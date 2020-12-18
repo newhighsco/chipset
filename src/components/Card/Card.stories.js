@@ -5,10 +5,10 @@ import { imageUrl } from '../../__mocks__/fixtures'
 
 export default {
   title: 'Components/Card',
-  component: Card
+  component: PureCard
 }
 
-const Template = args => <PureCard {...args} />
+const Template = args => <Card {...args} />
 
 export const source = Template.bind({})
 
@@ -25,24 +25,33 @@ source.parameters = {
   }
 }
 
-export const withHeading = () => (
-  <Card heading={<h2>With heading</h2>}>
-    <p>Content</p>
-  </Card>
-)
+export const withHeading = Template.bind({})
 
-export const withImage = () => (
-  <Card heading={<h2>With image</h2>} image={{ src: imageUrl, ratio: '4:1' }}>
-    <p>Content</p>
-  </Card>
-)
+withHeading.args = {
+  heading: <h2>With heading</h2>,
+  children: <p>Content</p>
+}
 
-export const withLink = () => (
-  <Card heading={<h2>With link</h2>} href="https://example.com/outer-link">
-    <p>Content</p>
-    <p>
+export const withImage = Template.bind({})
+
+withImage.args = {
+  heading: <h2>With image</h2>,
+  image: { src: imageUrl, ratio: '4:1' },
+  children: <p>Content</p>
+}
+
+export const withLink = Template.bind({})
+
+withLink.args = {
+  heading: <h2>With link</h2>,
+  href: 'https://example.com/outer-link',
+  children: [
+    <p key="content">Content</p>,
+    <p key="inner-link">
       <a href="https://example.com/inner-link">Inner link</a>
-    </p>
-    <Button href="https://example.com/inner-button">Inner button</Button>
-  </Card>
-)
+    </p>,
+    <Button key="button" href="https://example.com/inner-button">
+      Inner button
+    </Button>
+  ]
+}

@@ -4,10 +4,10 @@ import PureNavigation from './Navigation'
 
 export default {
   title: 'Components/Navigation',
-  component: Navigation
+  component: PureNavigation
 }
 
-const Template = args => <PureNavigation {...args} />
+const Template = args => <Navigation {...args} />
 
 export const source = Template.bind({})
 
@@ -19,25 +19,24 @@ source.args = {
     { href: 'https://buzz.com', target: '_blank', children: 'Buzz' }
   ]
 }
-
 source.parameters = {
   percy: {
     skip: true
   }
 }
 
-export const block = args => <Navigation {...args} />
+export const block = Template.bind({})
 
 block.args = source.args
 
-export const inline = args => <Navigation {...args} />
+export const inline = Template.bind({})
 
 inline.args = {
   ...source.args,
   inline: true
 }
 
-export const toggle = args => <Navigation {...args} />
+export const toggle = Template.bind({})
 
 toggle.args = {
   ...source.args,

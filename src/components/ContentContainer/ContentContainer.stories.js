@@ -6,33 +6,35 @@ import breakpoints from '../../../styles/_breakpoints.module.scss'
 
 export default {
   title: 'Components/ContentContainer',
-  component: ContentContainer
+  component: PureContentContainer
 }
 
-const Template = args => <PureContentContainer {...args} />
+const Template = args => <ContentContainer {...args} />
 
 export const source = Template.bind({})
 
 source.args = {
   children: 'Content'
 }
-
 source.parameters = {
   percy: {
     skip: true
   }
 }
 
-export const fullWidth = () => (
-  <ContentContainer>Full-width content</ContentContainer>
-)
+export const fullWidth = Template.bind({})
 
+fullWidth.args = {
+  children: 'Full-width content'
+}
 fullWidth.storyName = 'Full-width'
 
-export const fullWidthWithGutter = () => (
-  <ContentContainer gutter>Full-width content with gutter</ContentContainer>
-)
+export const fullWidthWithGutter = Template.bind({})
 
+fullWidthWithGutter.args = {
+  gutter: true,
+  children: 'Full-width content with gutter'
+}
 fullWidthWithGutter.storyName = 'Full-width with gutter'
 
 export const restrictedWidth = () => (

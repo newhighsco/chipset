@@ -4,10 +4,10 @@ import PureCreditLockup from './CreditLockup'
 
 export default {
   title: 'Components/CreditLockup',
-  component: CreditLockup
+  component: PureCreditLockup
 }
 
-const Template = args => <PureCreditLockup {...args} />
+const Template = args => <CreditLockup {...args} />
 
 export const source = Template.bind({})
 
