@@ -1,5 +1,5 @@
 import React from 'react'
-import { bool, node, object, oneOf, string } from 'prop-types'
+import { bool, node, oneOf, shape, string } from 'prop-types'
 import classNames from 'classnames'
 
 /**
@@ -42,7 +42,7 @@ Grid.propTypes = {
   flex: bool,
   valign: oneOf(['top', 'middle', 'bottom']),
   children: node,
-  theme: object,
+  theme: shape({ root: string }),
   className: string
 }
 

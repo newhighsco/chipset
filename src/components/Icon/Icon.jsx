@@ -40,7 +40,7 @@ Icon.propTypes = {
   width: number,
   alt: string,
   children: node,
-  theme: shape({ root: string, customSize: string })
+  theme: shape({ root: string })
 }
 
 export default Icon

@@ -36,7 +36,7 @@ ContentContainer.propTypes = {
   size: string,
   gutter: bool,
   children: node,
-  theme: shape({ root: string, gutter: string }),
+  theme: shape({ root: string, size: string, gutter: string, content: string }),
   className: string
 }
 

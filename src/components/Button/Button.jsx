@@ -1,5 +1,5 @@
 import React from 'react'
-import { bool, node, object, string } from 'prop-types'
+import { bool, node, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import SmartLink from '../SmartLink'
 
@@ -20,7 +20,7 @@ Button.displayName = 'Button'
 Button.propTypes = {
   active: bool,
   children: node,
-  theme: object,
+  theme: shape({ root: string, active: string }),
   className: string
 }
 

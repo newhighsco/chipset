@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, object, string } from 'prop-types'
+import { node, shape, string } from 'prop-types'
 import classNames from 'classnames'
 
 const ButtonGroup = ({ children, theme, className }) => {
@@ -10,7 +10,7 @@ const ButtonGroup = ({ children, theme, className }) => {
 
 ButtonGroup.propTypes = {
   children: node,
-  theme: object,
+  theme: shape({ group: string }),
   className: string
 }
 

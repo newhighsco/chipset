@@ -1,5 +1,13 @@
 import React from 'react'
-import { func, node, number, object, oneOfType, string } from 'prop-types'
+import {
+  func,
+  node,
+  number,
+  object,
+  oneOfType,
+  shape,
+  string
+} from 'prop-types'
 import classNames from 'classnames'
 
 const ratioRegExp = /^\d+:\d+$/
@@ -53,7 +61,7 @@ ResponsiveMedia.propTypes = {
   ratio: oneOfType([number, string]),
   setRef: oneOfType([func, object]),
   children: node,
-  theme: object,
+  theme: shape({ root: string }),
   className: string,
   style: object
 }

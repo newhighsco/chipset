@@ -1,5 +1,5 @@
 import React from 'react'
-import { arrayOf, node, object, oneOf, string } from 'prop-types'
+import { arrayOf, node, oneOf, shape, string } from 'prop-types'
 import classNames from 'classnames'
 
 const GridItem = ({ sizes, children, theme, className, ...rest }) => {
@@ -23,7 +23,7 @@ GridItem.propTypes = {
   align: oneOf(['left', 'right', 'center']),
   sizes: arrayOf(string),
   children: node,
-  theme: object,
+  theme: shape({ item: string }),
   className: string
 }
 
