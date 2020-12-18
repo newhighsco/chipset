@@ -34,6 +34,7 @@ const Icon = ({ height, width, alt, children, theme }) => {
   )
 }
 
+Icon.displayName = 'Icon'
 Icon.propTypes = {
   height: number,
   width: number,

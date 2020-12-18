@@ -16,6 +16,7 @@ const SiteContainer = ({ children, theme, className, ...rest }) => {
   )
 }
 
+SiteContainer.displayName = 'SiteContainer'
 SiteContainer.propTypes = {
   children: node,
   theme: shape({ root: string }),

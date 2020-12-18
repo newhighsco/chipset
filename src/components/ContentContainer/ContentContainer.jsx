@@ -31,6 +31,7 @@ const ContentContainer = ({
   )
 }
 
+ContentContainer.displayName = 'ContentContainer'
 ContentContainer.propTypes = {
   size: string,
   gutter: bool,

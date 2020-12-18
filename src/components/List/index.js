@@ -6,4 +6,6 @@ import theme from './List.module.scss'
 const { displayName } = PureList
 const List = withTheme(displayName, theme)(PureList)
 
+List.displayName = displayName
+
 export default List

@@ -49,6 +49,7 @@ const SmartLink = ({
   )
 }
 
+SmartLink.displayName = 'SmartLink'
 SmartLink.propTypes = {
   href: string,
   target: string,

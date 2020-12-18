@@ -6,4 +6,6 @@ import theme from './PageContainer.module.scss'
 const { displayName } = PurePageContainer
 const PageContainer = withTheme(displayName, theme)(PurePageContainer)
 
+PageContainer.displayName = displayName
+
 export default PageContainer

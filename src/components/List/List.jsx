@@ -32,6 +32,7 @@ const List = ({
   )
 }
 
+List.displayName = 'List'
 List.propTypes = {
   as: oneOf(['ol', 'ul']),
   unstyled: bool,

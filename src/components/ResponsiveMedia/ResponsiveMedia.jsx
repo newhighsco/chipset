@@ -45,6 +45,7 @@ const ResponsiveMedia = ({
   )
 }
 
+ResponsiveMedia.displayName = 'ResponsiveMedia'
 ResponsiveMedia.propTypes = {
   /**
    *  `{ 9 / 16 }` | `"16:9"`

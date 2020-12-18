@@ -28,6 +28,7 @@ const Card = ({ href, target, image, heading, children, theme, className }) => {
   )
 }
 
+Card.displayName = 'Card'
 Card.propTypes = {
   href: string,
   target: string,

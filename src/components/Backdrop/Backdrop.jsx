@@ -18,6 +18,7 @@ const Backdrop = ({ children, className, ...rest }) => {
   )
 }
 
+Backdrop.displayName = 'Backdrop'
 Backdrop.propTypes = {
   children: node,
   className: string

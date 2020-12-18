@@ -69,6 +69,7 @@ const LiveStream = ({
   )
 }
 
+LiveStream.displayName = 'LiveStream'
 LiveStream.propTypes = {
   href: string,
   allowFullScreen: bool,

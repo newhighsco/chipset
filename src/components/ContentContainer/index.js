@@ -6,4 +6,6 @@ import theme from './ContentContainer.module.scss'
 const { displayName } = PureContentContainer
 const ContentContainer = withTheme(displayName, theme)(PureContentContainer)
 
+ContentContainer.displayName = displayName
+
 export default ContentContainer

@@ -19,6 +19,7 @@ const PageContainer = ({ header, footer, children, theme, ...rest }) => {
   )
 }
 
+PageContainer.displayName = 'PageContainer'
 PageContainer.propTypes = {
   header: node,
   footer: node,

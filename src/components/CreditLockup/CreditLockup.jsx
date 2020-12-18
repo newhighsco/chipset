@@ -34,6 +34,7 @@ const CreditLockup = ({ theme, ...rest }) => (
   </span>
 )
 
+CreditLockup.displayName = 'CreditLockup'
 CreditLockup.propTypes = {
   align: oneOf(['left', 'right', 'center']),
   dir: oneOf(['ltr', 'rtl']),

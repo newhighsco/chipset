@@ -68,6 +68,7 @@ const Navigation = ({
   )
 }
 
+Navigation.displayName = 'Navigation'
 Navigation.propTypes = {
   title: string,
   links: array,

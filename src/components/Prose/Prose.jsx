@@ -16,6 +16,7 @@ const Prose = ({ html, children, theme, className, ...rest }) => {
   )
 }
 
+Prose.displayName = 'Prose'
 Prose.propTypes = {
   html: string,
   children: node,

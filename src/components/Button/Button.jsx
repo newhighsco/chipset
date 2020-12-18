@@ -16,6 +16,7 @@ const Button = ({ active, children, theme, className, ...rest }) => {
   )
 }
 
+Button.displayName = 'Button'
 Button.propTypes = {
   active: bool,
   children: node,

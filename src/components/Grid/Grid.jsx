@@ -34,6 +34,7 @@ const Grid = ({
   )
 }
 
+Grid.displayName = 'Grid'
 Grid.propTypes = {
   gutter: string,
   gutterless: bool,

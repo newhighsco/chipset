@@ -8,6 +8,9 @@ const { displayName } = PureButton
 const Button = withTheme(displayName, theme)(PureButton)
 const ButtonGroup = withTheme(displayName, theme)(PureButtonGroup)
 
+Button.displayName = displayName
+ButtonGroup.displayName = `${displayName}.Group`
+
 Button.Group = ButtonGroup
 
 export default Button

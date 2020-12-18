@@ -8,6 +8,9 @@ const { displayName } = PureGrid
 const Grid = withTheme(displayName, theme)(PureGrid)
 const GridItem = withTheme(displayName, theme)(PureGridItem)
 
+Grid.displayName = displayName
+GridItem.displayName = `${displayName}.Item`
+
 Grid.Item = GridItem
 
 export default Grid
