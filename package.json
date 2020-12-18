@@ -18,7 +18,7 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "start": "start-storybook --port 9001 --static-dir .storybook/static --docs --ci --quiet",
+    "start": "start-storybook --static-dir .storybook/static --docs",
     "prebuild": "rm -rf build",
     "build": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
     "pretest": "npm run lint",
