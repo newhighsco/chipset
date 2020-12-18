@@ -1,3 +1,11 @@
+# [6.4.0](https://github.com/newhighsco/chipset/compare/v6.3.4...v6.4.0) (2020-12-18)
+
+
+### Features
+
+* **components:** sets correct displayNames for all components ([dd2e6cd](https://github.com/newhighsco/chipset/commit/dd2e6cd481000863ec31cc5312d222b94d68889e))
+* **theming:** sets correct shape prop for all components ([02a9b24](https://github.com/newhighsco/chipset/commit/02a9b24b68521615e51780b5737736db27107f01))
+
 ## [6.3.4](https://github.com/newhighsco/chipset/compare/v6.3.3...v6.3.4) (2020-12-15)
 
 
