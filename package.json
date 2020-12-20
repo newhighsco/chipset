@@ -17,6 +17,10 @@
     "url": "https://github.com/newhighsco/chipset/issues"
   },
   "main": "src/index.js",
+  "files": [
+    "src",
+    "styles"
+  ],
   "scripts": {
     "start": "start-storybook --static-dir .storybook/static --docs",
     "prebuild": "rm -rf build",
