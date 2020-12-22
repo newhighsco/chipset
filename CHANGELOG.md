@@ -1,3 +1,10 @@
+## [6.4.1](https://github.com/newhighsco/chipset/compare/v6.4.0...v6.4.1) (2020-12-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-device-detect to v1.15.0 ([#415](https://github.com/newhighsco/chipset/issues/415)) ([76da4bd](https://github.com/newhighsco/chipset/commit/76da4bd1c5a3bdeffc97d4c7524939480dcf7267))
+
 # [6.4.0](https://github.com/newhighsco/chipset/compare/v6.3.4...v6.4.0) (2020-12-18)
 
 
