@@ -2030,15 +2030,15 @@
     eslint-plugin-react "7.22.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.42":
-  version "3.0.42"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.42.tgz#13ddea5726087d30282e847f0bb04e7cac5ba8a3"
-  integrity sha512-RUuzvS6w/Dwr8zA1q/l/ZrPOEzc+b4f2tB0BExM2c0hw+6wJExP/zG5HRjrPcMLhSlmayHy6EOhzJ8j4GirsEg==
+"@newhighsco/postcss-config@3.0.43":
+  version "3.0.43"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.43.tgz#97354c863bf5d23ad740f827d2691bb6576b8acf"
+  integrity sha512-2IljhSWIJLfGp2gEL+K1SG/lBqwhA3lArvjPkCVyP3CcpwsYnXPbWxlT8hN5tj+q9Eytwd0WV1l74G/XyHhMvg==
   dependencies:
     "@fullhuman/postcss-purgecss" "3.1.3"
     autoprefixer "10.2.0"
     caniuse-lite "1.0.30001173"
-    postcss "8.2.2"
+    postcss "8.2.3"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -13066,10 +13066,10 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@8.2.2:
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.2.tgz#60613b62297005084fd21024a68637798864fe26"
-  integrity sha512-HM1NDNWLgglJPQQMNwvLxgH2KcrKZklKLi/xXYIOaqQB57p/pDWEJNS83PVICYsn1Dg/9C26TiejNr422/ePaQ==
+postcss@8.2.3:
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.3.tgz#14ed1294850c99661761d9cb68863718eb75690d"
+  integrity sha512-tdmNCCmxJEsLZNj810qlj8QbvnUNKFL9A5doV+uHrGGK/YNKWEslrytnHDWr9M/GgGjfUFwXCRbxd/b6IoRBXQ==
   dependencies:
     colorette "^1.2.1"
     nanoid "^3.1.20"
