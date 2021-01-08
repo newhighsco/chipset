@@ -2,40 +2,76 @@ import fetch from 'node-fetch'
 import urlJoin from 'url-join'
 import { isMobile } from 'react-device-detect'
 
-const TWITCH = 'Twitch'
-const YOUTUBE = 'YouTube'
-const twitchUrlRegEx = /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/
-const youtubeUrlRegEx = /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/
-const youtubeVideoRegEx = /"liveStreamabilityRenderer":{"videoId":"(.+?)"/
+const PROVIDERS = {
+  twitch: {
+    urlRegEx: /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/,
+    getChannelParam: url => url.match(PROVIDERS.twitch.urlRegEx)[4],
+    getVideoUrl: ({ channel, autoPlay, muted }) => {
+      const url = new URL('https://player.twitch.tv')
+      url.search = new URLSearchParams({
+        channel,
+        parent: location?.hostname,
+        autoplay: !!autoPlay,
+        muted: !!muted
+      })
 
-const twitchUrl = url => twitchUrlRegEx.exec(url)
-const youtubeUrl = url => youtubeUrlRegEx.exec(url)
-const youtubeVideo = contents => youtubeVideoRegEx.exec(contents)
+      return url
+    },
+    getChatUrl: ({ channel, darkMode }) => {
+      const url = new URL(`https://www.twitch.tv/embed/${channel}/chat`)
+      url.search = new URLSearchParams({
+        parent: location?.hostname,
+        ...(darkMode && { darkpopout: '' })
+      })
 
-export const getChannel = async url => {
-  let type
-  let channel
+      return url
+    }
+  },
+  youtube: {
+    urlRegEx: /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/,
+    getChannelParam: async url => {
+      const { contents } = await fetch(
+        `https://api.allorigins.win/get?url=${encodeURIComponent(
+          urlJoin(url, 'live')
+        )}`
+      ).then(response => response.json())
 
-  if (twitchUrl(url)) {
-    type = TWITCH
-    channel = url.match(twitchUrlRegEx)[4]
-  }
+      return contents.match(
+        /"liveStreamabilityRenderer":{"videoId":"(.+?)"/
+      )?.[1]
+    },
+    getVideoUrl: ({ channel, autoPlay }) => {
+      const url = new URL(`https://www.youtube-nocookie.com/embed/${channel}`)
+      url.search = new URLSearchParams({
+        autoplay: !!autoPlay
+      })
 
-  if (youtubeUrl(url)) {
-    type = YOUTUBE
+      return url
+    },
+    getChatUrl: ({ channel, darkMode }) => {
+      if (isMobile) return null
 
-    const { contents } = await fetch(
-      `https://api.allorigins.win/get?url=${encodeURIComponent(
-        urlJoin(url, 'live')
-      )}`
-    ).then(response => response.json())
+      const url = new URL('https://www.youtube.com/live_chat')
+      url.search = new URLSearchParams({
+        v: channel,
+        embed_domain: location?.hostname,
+        ...(darkMode && { dark_theme: 1 })
+      })
 
-    if (youtubeVideo(contents)) {
-      channel = contents.match(youtubeVideoRegEx)[1]
+      return url
     }
   }
+}
 
-  return [type, channel]
+const getProvider = url => {
+  const keys = Object.keys(PROVIDERS)
+  let i = keys.length
+
+  while (i--) {
+    const provider = PROVIDERS[keys[i]]
+
+    if (provider.urlRegEx.exec(url)) return provider
+  }
 }
 
 export const getLiveStreamUrls = async ({
@@ -45,37 +81,10 @@ export const getLiveStreamUrls = async ({
   darkMode,
   showChat
 }) => {
-  const [type, channel] = await getChannel(href)
-  let videoUrl
-  let chatUrl
-
-  if (channel) {
-    if (type === TWITCH) {
-      videoUrl = new URL('https://player.twitch.tv')
-      videoUrl.searchParams.set('channel', channel)
-      videoUrl.searchParams.set('parent', location.hostname)
-      videoUrl.searchParams.set('autoplay', !!autoPlay)
-      videoUrl.searchParams.set('muted', !!muted)
-
-      chatUrl = new URL(`https://www.twitch.tv/embed/${channel}/chat`)
-      chatUrl.searchParams.set('parent', location.hostname)
-
-      if (darkMode) chatUrl.searchParams.set('darkpopout', '')
-    }
-
-    if (type === YOUTUBE) {
-      videoUrl = new URL(`https://www.youtube-nocookie.com/embed/${channel}`)
-      videoUrl.searchParams.set('autoplay', !!autoPlay)
-
-      if (!isMobile) {
-        chatUrl = new URL('https://www.youtube.com/live_chat')
-        chatUrl.searchParams.set('v', channel)
-        chatUrl.searchParams.set('embed_domain', location.hostname)
-
-        if (darkMode) chatUrl.searchParams.set('dark_theme', 1)
-      }
-    }
-  }
+  const provider = getProvider(href)
+  const channel = await (provider && provider.getChannelParam(href))
+  const videoUrl = channel && provider.getVideoUrl({ channel, autoPlay, muted })
+  const chatUrl = channel && provider.getChatUrl({ channel, darkMode })
 
   return { videoUrl, chatUrl: showChat && chatUrl }
 }
