@@ -2,6 +2,9 @@ import fetch from 'node-fetch'
 import urlJoin from 'url-join'
 import { isMobile } from 'react-device-detect'
 
+const getExternalUrl = url =>
+  `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
+
 const PROVIDERS = {
   twitch: {
     urlRegEx: /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/,
@@ -31,9 +34,7 @@ const PROVIDERS = {
     urlRegEx: /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/,
     getChannelParam: async url => {
       const { contents } = await fetch(
-        `https://api.allorigins.win/get?url=${encodeURIComponent(
-          urlJoin(url, 'live')
-        )}`
+        getExternalUrl(urlJoin(url, 'live'))
       ).then(response => response.json())
 
       return contents.match(
