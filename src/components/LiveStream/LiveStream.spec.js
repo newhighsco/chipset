@@ -111,7 +111,7 @@ describe('Components/LiveStream', () => {
         Promise.resolve(
           new Response(
             JSON.stringify({
-              contents: `\\"liveStreamabilityRenderer\\":{\\"videoId\\":\\"FooBar123\\"`
+              contents: `"liveStreamabilityRenderer":{"videoId":"FooBar123"`
             })
           )
         )
