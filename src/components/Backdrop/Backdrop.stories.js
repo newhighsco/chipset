@@ -17,7 +17,7 @@ const storyDecorators = [
         overflow: 'hidden'
       }}
     >
-      <Story />
+      {Story()}
       <Button>Content</Button>
     </div>
   )

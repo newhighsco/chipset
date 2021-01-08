@@ -229,7 +229,7 @@ withInlineStyleOverrides.args = {
 withInlineStyleOverrides.decorators = [
   Story => (
     <>
-      <Story />
+      {Story()}
       <p style={inlineStyles}>
         This HTML has the same styles, but isn&pos;t wrapped in a Prose
         component.

@@ -32,7 +32,7 @@ example.args = {
 example.decorators = [
   Story => (
     <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
-      <Story />
+      {Story()}
     </div>
   )
 ]
