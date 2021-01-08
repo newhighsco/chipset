@@ -6,6 +6,27 @@ const getExternalUrl = url =>
   `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
 
 const PROVIDERS = {
+  facebook: {
+    urlRegEx: /^(https?:\/\/)?(www\.)?(facebook\.(com|gg))(\/gaming)?\/(.+)$/,
+    getChannelParam: async url => {
+      const channel = url.match(PROVIDERS.facebook.urlRegEx)[6]
+      const { contents } = await fetch(
+        getExternalUrl(`https://www.facebook.com/${channel}/live`)
+      ).then(response => response.json())
+
+      return contents.match(/"videoID":"(\w+?)"/)?.[1]
+    },
+    getVideoUrl: ({ channel, autoPlay }) => {
+      const url = new URL('https://www.facebook.com/plugins/video.php')
+      url.search = new URLSearchParams({
+        href: `https://www.facebook.com/facebook/videos/${channel}`,
+        autoplay: !!autoPlay
+      })
+
+      return url
+    },
+    getChatUrl: () => {}
+  },
   twitch: {
     urlRegEx: /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/,
     getChannelParam: url => url.match(PROVIDERS.twitch.urlRegEx)[4],
