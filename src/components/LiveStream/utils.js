@@ -6,7 +6,7 @@ const TWITCH = 'Twitch'
 const YOUTUBE = 'YouTube'
 const twitchUrlRegEx = /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/
 const youtubeUrlRegEx = /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/
-const youtubeVideoRegEx = /\\"liveStreamabilityRenderer\\":{\\"videoId\\":\\"(\w+?)\\"/
+const youtubeVideoRegEx = /"liveStreamabilityRenderer":{"videoId":"(.+?)"/
 
 const twitchUrl = url => twitchUrlRegEx.exec(url)
 const youtubeUrl = url => youtubeUrlRegEx.exec(url)
@@ -25,7 +25,9 @@ export const getChannel = async url => {
     type = YOUTUBE
 
     const { contents } = await fetch(
-      `https://api.allorigins.win/get?url=${urlJoin(url, 'live')}`
+      `https://api.allorigins.win/get?url=${encodeURIComponent(
+        urlJoin(url, 'live')
+      )}`
     ).then(response => response.json())
 
     if (youtubeVideo(contents)) {

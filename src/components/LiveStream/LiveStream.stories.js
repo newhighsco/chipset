@@ -43,7 +43,7 @@ export const youTube = Template.bind({})
 
 youTube.args = {
   ...storyArgs,
-  href: 'https://youtube.com/KittenAcademy'
+  href: 'https://youtube.com/c/ExploreAfrica'
 }
 youTube.storyName = 'YouTube'
 
