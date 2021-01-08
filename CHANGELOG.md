@@ -1,3 +1,10 @@
+## [6.4.5](https://github.com/newhighsco/chipset/compare/v6.4.4...v6.4.5) (2021-01-08)
+
+
+### Bug Fixes
+
+* **live-stream:** optimise video and chat URL lookup ([1c817fe](https://github.com/newhighsco/chipset/commit/1c817fe6425dec9ead785ea0c832221c5a20ccee))
+
 ## [6.4.4](https://github.com/newhighsco/chipset/compare/v6.4.3...v6.4.4) (2021-01-08)
 
 
