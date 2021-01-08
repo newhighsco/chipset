@@ -38,7 +38,7 @@ const PROVIDERS = {
       ).then(response => response.json())
 
       return contents.match(
-        /"liveStreamabilityRenderer":{"videoId":"(.+?)"/
+        /"liveStreamabilityRenderer":{"videoId":"(\w+?)"/
       )?.[1]
     },
     getVideoUrl: ({ channel, autoPlay }) => {
