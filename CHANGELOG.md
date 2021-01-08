@@ -1,3 +1,10 @@
+## [6.4.4](https://github.com/newhighsco/chipset/compare/v6.4.3...v6.4.4) (2021-01-08)
+
+
+### Bug Fixes
+
+* **live-stream:** correctly encodes URLs when using YouTube ([#432](https://github.com/newhighsco/chipset/issues/432)) ([932335e](https://github.com/newhighsco/chipset/commit/932335eff3f25a9d7b530d2bbe78877d2012cf6e)), closes [#383](https://github.com/newhighsco/chipset/issues/383)
+
 ## [6.4.3](https://github.com/newhighsco/chipset/compare/v6.4.2...v6.4.3) (2021-01-07)
 
 
