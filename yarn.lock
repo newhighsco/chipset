@@ -2059,10 +2059,10 @@
     "@semantic-release/npm" "7.0.9"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@3.1.20":
-  version "3.1.20"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.1.20.tgz#f335eb92c1ec1075b27632e2eaab1a800caf992c"
-  integrity sha512-exXosYe6AD4txV+JSAl68/0NzU5JcUdXWP7MjNw+mwpfZSfl6LZ4EEdCc8+ugKdeaiOsfdPqXZygTOjgl09Auw==
+"@newhighsco/storybook-preset@3.1.21":
+  version "3.1.21"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.1.21.tgz#926807752fa7b7c422a159fd02e8ca9ac7da8b40"
+  integrity sha512-c0gLQfRmVdQuyCtRxP/+r/6IzKVCpbFHDqnuypMdNM8RaQvMz/meIGRJfUwGsUV+EWveyF1rwwGTllTu/WO6QA==
   dependencies:
     "@storybook/addon-actions" "6.1.11"
     "@storybook/addon-docs" "6.1.11"
@@ -2071,7 +2071,7 @@
     "@svgr/webpack" "5.5.0"
     react-is "17.0.1"
     sass "1.32.2"
-    sass-loader "10.1.0"
+    sass-loader "10.1.1"
 
 "@newhighsco/stylelint-config@2.0.27":
   version "2.0.27"
@@ -14471,10 +14471,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.1.0.tgz#1727fcc0c32ab3eb197cda61d78adf4e9174a4b3"
-  integrity sha512-ZCKAlczLBbFd3aGAhowpYEy69Te3Z68cg8bnHHl6WnSCvnKpbM6pQrz957HWMa8LKVuhnD9uMplmMAHwGQtHeg==
+sass-loader@10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.1.1.tgz#4ddd5a3d7638e7949065dd6e9c7c04037f7e663d"
+  integrity sha512-W6gVDXAd5hR/WHsPicvZdjAWHBcEJ44UahgxcIE196fW2ong0ZHMPO1kZuI5q0VlvMQZh32gpv69PLWQm70qrw==
   dependencies:
     klona "^2.0.4"
     loader-utils "^2.0.0"
