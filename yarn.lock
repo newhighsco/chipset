@@ -1326,7 +1326,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5":
+"@babel/runtime@^7.12.5":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
@@ -1584,12 +1584,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@dr.pogodin/react-themes@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.3.0.tgz#88737a9881d977edf49860935493f47e3717385c"
-  integrity sha512-DpVQm6EFYW2WmQUsVMJu/9sk2ztUY5fjPZ49SqDApki8m1YIp99cAvZ4gW7ck9RD74dgm+vjZuHjFxWH3N0MEQ==
+"@dr.pogodin/react-themes@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.3.1.tgz#bdb7a7e50498d410a98547d7ee8992e1a00c047b"
+  integrity sha512-cQyqVXzV/ynZBaYIWNWVoPMtOEfoRA+3f7GBEViX1fPRa0x9XkktlfD8CAUmvzHDqj9Z5P8bIyh++kyLEvGahw==
   dependencies:
-    "@babel/runtime" "^7.12.1"
+    "@babel/runtime" "^7.12.5"
 
 "@emotion/cache@^10.0.27":
   version "10.0.29"
