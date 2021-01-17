@@ -6,9 +6,8 @@ export default {
   title: 'Components/LiveStream',
   component: PureLiveStream,
   parameters: {
-    percy: {
-      skip: true
-    }
+    chromatic: { disable: true },
+    percy: { skip: true }
   }
 }
 

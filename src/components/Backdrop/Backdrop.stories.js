@@ -30,9 +30,8 @@ source.args = {
   children: 'Content'
 }
 source.parameters = {
-  percy: {
-    skip: true
-  }
+  chromatic: { disable: true },
+  percy: { skip: true }
 }
 
 export const withImage = Template.bind({})
