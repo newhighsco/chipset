@@ -5,6 +5,8 @@ import componentTheme from '../example/theme'
 import breakpoints from '../styles/_breakpoints.module.scss'
 import './preview.scss'
 
+const viewports = [Number(breakpoints.mobile), Number(breakpoints.desktopLarge)]
+
 export const decorators = [
   Story => (
     <ThemeProvider themes={componentTheme}>
@@ -14,7 +16,6 @@ export const decorators = [
 ]
 
 export const parameters = {
-  percy: {
-    widths: [Number(breakpoints.mobile), Number(breakpoints.desktopLarge)]
-  }
+  chromatic: { viewports },
+  percy: { widths: viewports }
 }

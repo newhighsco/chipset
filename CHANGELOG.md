@@ -1,3 +1,31 @@
+## [6.4.9](https://github.com/newhighsco/chipset/compare/v6.4.8...v6.4.9) (2021-01-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.3.1 ([#445](https://github.com/newhighsco/chipset/issues/445)) ([030a973](https://github.com/newhighsco/chipset/commit/030a9735d4931ae56f378ec148a4d47be8a1b0ca))
+
+## [6.4.8](https://github.com/newhighsco/chipset/compare/v6.4.7...v6.4.8) (2021-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v3.1.24 ([#441](https://github.com/newhighsco/chipset/issues/441)) ([e721a8e](https://github.com/newhighsco/chipset/commit/e721a8e7c7a769bcc26e852d4a381128c8bbb1f4))
+
+## [6.4.7](https://github.com/newhighsco/chipset/compare/v6.4.6...v6.4.7) (2021-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v3.1.23 ([#439](https://github.com/newhighsco/chipset/issues/439)) ([1a59902](https://github.com/newhighsco/chipset/commit/1a59902ec7eb974bdbfc7a703fa512eb413710f6))
+
+## [6.4.6](https://github.com/newhighsco/chipset/compare/v6.4.5...v6.4.6) (2021-01-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v3.1.21 ([#437](https://github.com/newhighsco/chipset/issues/437)) ([0d99a4c](https://github.com/newhighsco/chipset/commit/0d99a4c3fba358a6bae99b9381687fdb9c822d0d))
+
 ## [6.4.5](https://github.com/newhighsco/chipset/compare/v6.4.4...v6.4.5) (2021-01-08)
 
 

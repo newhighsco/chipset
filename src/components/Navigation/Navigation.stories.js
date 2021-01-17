@@ -20,9 +20,8 @@ source.args = {
   ]
 }
 source.parameters = {
-  percy: {
-    skip: true
-  }
+  chromatic: { disable: true },
+  percy: { skip: true }
 }
 
 export const block = Template.bind({})
