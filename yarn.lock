@@ -2079,10 +2079,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.8.tgz#b9b36e271ea4319d751c8477bf5d1a998a51b226"
   integrity sha512-zKHc6e7Eq6jIYqGwAlNi3pw3kromQqnY1loOq5Foj1Vx4C3zF2c9OILJyDSHFI9C7AMWcs5kX3mMi18pC8cQ2w==
 
-"@newhighsco/release-config@1.0.45":
-  version "1.0.45"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.45.tgz#449213e598df1d3f8a76b5aec4cee1721d9b96cb"
-  integrity sha512-JNVlnPzlDty6KjQXAHKDFl7Qce89ElimpceilRhULC524tb4NiNINyVgLEPJ8RZQNOJAYzi6sXjrDXzFkoOAXA==
+"@newhighsco/release-config@1.0.46":
+  version "1.0.46"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.46.tgz#f37e939e0caf8b14393c8c6745225624753e2901"
+  integrity sha512-w/8vB/4wqifFKPKQlLHVZTm10tSfeU71ZW+Haw8R4C+ppYecEbTseTk6JLH2YkP1qaQiBP/8B+U5M6MVt61CZQ==
   dependencies:
     "@semantic-release/changelog" "5.0.1"
     "@semantic-release/commit-analyzer" "8.0.1"
@@ -2105,10 +2105,10 @@
     sass "1.32.4"
     sass-loader "10.1.1"
 
-"@newhighsco/stylelint-config@2.0.27":
-  version "2.0.27"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.27.tgz#0530b16b374cd33fc6e736232d07660115a293b7"
-  integrity sha512-veWiVXxGgw/F893EbMpx6UD0+wwOIZol9MazLJcSShdVzUWVLgUwxFcaoVpAKpsbc8nvm4H/OGzYcjZzJCMh4g==
+"@newhighsco/stylelint-config@2.0.28":
+  version "2.0.28"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.28.tgz#51143470f006b214780face7ef51143a912f8f6c"
+  integrity sha512-lzZc7KP8X2PGK2sN4onjxHZia0YavS+aX/mz2lUXqMi1Ay4/pfZMaGY99EZW80VW/n6ULU3fPFZ2rgg9DxerPA==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
