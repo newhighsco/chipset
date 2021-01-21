@@ -59,7 +59,7 @@
     "@newhighsco/eslint-config": "2.2.63",
     "@newhighsco/postcss-config": "3.0.50",
     "@newhighsco/prettier-config": "2.0.8",
-    "@newhighsco/release-config": "1.0.46",
+    "@newhighsco/release-config": "1.0.47",
     "@newhighsco/stylelint-config": "2.0.28",
     "@percy/storybook": "3.3.1",
     "@storybook/addon-docs": "6.1.14",
