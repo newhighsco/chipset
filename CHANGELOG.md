@@ -1,3 +1,24 @@
+## [6.4.13](https://github.com/newhighsco/chipset/compare/v6.4.12...v6.4.13) (2021-02-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v3.1.28 ([#474](https://github.com/newhighsco/chipset/issues/474)) ([039ffcc](https://github.com/newhighsco/chipset/commit/039ffcc053adba5c7ed565af28fc782d2d919418))
+
+## [6.4.12](https://github.com/newhighsco/chipset/compare/v6.4.11...v6.4.12) (2021-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v3.1.26 ([#465](https://github.com/newhighsco/chipset/issues/465)) ([78626cc](https://github.com/newhighsco/chipset/commit/78626cc7c8b5bf0760ea40bf6832f2a1e14ad5de))
+
+## [6.4.11](https://github.com/newhighsco/chipset/compare/v6.4.10...v6.4.11) (2021-01-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v3.1.25 ([#458](https://github.com/newhighsco/chipset/issues/458)) ([4b01564](https://github.com/newhighsco/chipset/commit/4b01564625b41200b1dc15d125fdc8bfa6f5990d))
+
 ## [6.4.10](https://github.com/newhighsco/chipset/compare/v6.4.9...v6.4.10) (2021-01-17)
 
 ## [6.4.9](https://github.com/newhighsco/chipset/compare/v6.4.8...v6.4.9) (2021-01-14)
