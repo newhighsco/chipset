@@ -1,3 +1,10 @@
+# [6.5.0](https://github.com/newhighsco/chipset/compare/v6.4.13...v6.5.0) (2021-02-04)
+
+
+### Features
+
+* **postcss:** support PostCSS 8 ([#477](https://github.com/newhighsco/chipset/issues/477)) ([69d251a](https://github.com/newhighsco/chipset/commit/69d251af8921ad91b1b97a3180c0f2257a219bae))
+
 ## [6.4.13](https://github.com/newhighsco/chipset/compare/v6.4.12...v6.4.13) (2021-02-02)
 
 
