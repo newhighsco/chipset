@@ -2497,10 +2497,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.64":
-  version "2.2.64"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.64.tgz#4ef3195d530ce69bf99b474c9d7d6699999152f0"
-  integrity sha512-uybvW4uqAqQj4EqxQCgBGG/kVUwHXNHxTqoTdxmonBYZnuJcEAGvKmB9cXRRUm85DxHtmKCfWfoz0YY0GMUZhA==
+"@newhighsco/eslint-config@2.2.65":
+  version "2.2.65"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.65.tgz#cd086510e4bc01cc7057447dccf2f22cf1087d29"
+  integrity sha512-q1pkU4dlwFJf7w9YrT/hHSsUN/u+yFjhqIpLeAXVFMgVMz5Tymn0sudOkaE9vHbQsdk/lpyoOTfSRvMFpyt6jw==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "7.2.0"
@@ -2513,19 +2513,19 @@
     eslint-plugin-mdx "1.8.2"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.3.1"
-    eslint-plugin-promise "4.2.1"
+    eslint-plugin-promise "4.3.1"
     eslint-plugin-react "7.22.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.58":
-  version "3.0.58"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.58.tgz#bdc14a98e9669598796e1a4c765b4fdb97ecf164"
-  integrity sha512-EKxV/gfgjm1zNvhH/GmVedHnCAXvgnxzNzPoG6Md40uMfnWDWZlqBy9K6FCFFQuwfp5usjsZA/91W3nS7e1J4A==
+"@newhighsco/postcss-config@3.0.59":
+  version "3.0.59"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.59.tgz#c34be7034690f25959c812c4ba594c10f3ada173"
+  integrity sha512-BuBZoBWtHP1NAd3yPvZKDP0K5VgrvYy5SrU4aGxYfvA3IOuCK1JvD5pZR8UNhGMYNUZc9GPpX/ulOeHOp3tCVw==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.0"
     autoprefixer "10.2.4"
     caniuse-lite "1.0.30001185"
-    postcss "8.2.5"
+    postcss "8.2.6"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -2546,10 +2546,10 @@
     "@semantic-release/npm" "7.0.10"
     "@semantic-release/release-notes-generator" "9.0.1"
 
-"@newhighsco/storybook-preset@3.2.3":
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.2.3.tgz#2e421442cd7d7da9fd0f1332893c6df8f69bd2c6"
-  integrity sha512-cFtyefhEbwUNvZPJ21O5CAy+3tnvqFeulNH7kx+SzRojuRGtsuYWfXfdmvNEs/Nx9bKWWKlAhfVPPYjQkLaryg==
+"@newhighsco/storybook-preset@3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.2.4.tgz#c0a2c6230c915b99d7825687ff4b06ae68747605"
+  integrity sha512-5kgWihshBpEyw+Hs3TYA/tsSPMnc7D4ZBGIYupfwCeXUsUmnIK5dRBe6hIQ6hL/nZO075dYG8CQz5Hmcv+AS1A==
   dependencies:
     "@storybook/addon-actions" "6.1.17"
     "@storybook/addon-docs" "6.1.17"
@@ -2557,7 +2557,7 @@
     "@storybook/addon-postcss" "2.0.0"
     "@storybook/addons" "6.1.17"
     "@svgr/webpack" "5.5.0"
-    postcss "8.2.5"
+    postcss "8.2.6"
     react-is "17.0.1"
     sass "1.32.7"
     sass-loader "10.1.1"
@@ -7813,10 +7813,10 @@ eslint-plugin-prettier@3.3.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-promise@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
-  integrity sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
+eslint-plugin-promise@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.3.1.tgz#61485df2a359e03149fdafc0a68b0e030ad2ac45"
+  integrity sha512-bY2sGqyptzFBDLh/GMbAxfdJC+b0f23ME63FOE4+Jao0oZ3E1LEwFtWJX/1pGMJLiTtrSSern2CRM/g+dfc0eQ==
 
 eslint-plugin-react@7.22.0:
   version "7.22.0"
@@ -14069,10 +14069,10 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@8.2.5:
-  version "8.2.5"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.5.tgz#3c75149ada4e93db9521913654c0144517f77c9a"
-  integrity sha512-wMcb7BpDcm3gxQOQx46NDNT36Kk0Ao6PJLLI2ed5vehbbbxCEuslSQzbQ2sfSKy+gkYxhWcGWSeaK+gwm4KIZg==
+postcss@8.2.6:
+  version "8.2.6"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.6.tgz#5d69a974543b45f87e464bc4c3e392a97d6be9fe"
+  integrity sha512-xpB8qYxgPuly166AGlpRjUdEYtmOWx2iCwGmrv4vqZL9YPVviDVPZPRXxnXr6xPZOdxQ9lp3ZBFCRgWJ7LE3Sg==
   dependencies:
     colorette "^1.2.1"
     nanoid "^3.1.20"
