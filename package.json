@@ -60,7 +60,7 @@
     "@newhighsco/postcss-config": "3.0.59",
     "@newhighsco/prettier-config": "2.0.8",
     "@newhighsco/release-config": "1.0.49",
-    "@newhighsco/stylelint-config": "2.0.29",
+    "@newhighsco/stylelint-config": "2.0.30",
     "@percy/storybook": "3.3.1",
     "@storybook/addon-docs": "6.1.17",
     "@storybook/react": "6.1.17",
