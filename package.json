@@ -48,9 +48,9 @@
     "react-ga": "3.3.0"
   },
   "devDependencies": {
-    "@babel/core": "7.12.16",
+    "@babel/core": "7.12.17",
     "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.12.16",
+    "@babel/preset-env": "7.12.17",
     "@babel/preset-react": "7.12.13",
     "@commitlint/cli": "11.0.0",
     "@newhighsco/browserslist-config": "1.0.2",
