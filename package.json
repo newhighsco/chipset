@@ -79,7 +79,7 @@
     "react-dom": "17.0.1",
     "sass-true": "6.0.1",
     "semantic-release": "17.3.9",
-    "stylelint": "13.10.0"
+    "stylelint": "13.11.0"
   },
   "peerDependencies": {
     "react": "17.0.1",
