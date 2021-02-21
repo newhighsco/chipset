@@ -1,3 +1,10 @@
+## [6.5.6](https://github.com/newhighsco/chipset/compare/v6.5.5...v6.5.6) (2021-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fullhuman/postcss-purgecss to v4.0.2 ([#508](https://github.com/newhighsco/chipset/issues/508)) ([dd6a23c](https://github.com/newhighsco/chipset/commit/dd6a23c194b663abef1bc8ab8b3006d0875fb80c))
+
 ## [6.5.5](https://github.com/newhighsco/chipset/compare/v6.5.4...v6.5.5) (2021-02-19)
 
 
