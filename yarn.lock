@@ -2264,13 +2264,6 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fullhuman/postcss-purgecss@4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.0.0.tgz#9e27ccdc5d19192af8b59d9d9e4f480cfb5c55c9"
-  integrity sha512-1DNYIDxFsvGOeKdc2BFtIQriMWwzX6dY+9q0Z0n9TNZhFZ9T6nHRZHPC22aYLlPDd0ucCgIr1deTgDTrjq21KQ==
-  dependencies:
-    purgecss "^4.0.0"
-
 "@fullhuman/postcss-purgecss@4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.0.2.tgz#6e4809293f006957dfa2d6b4fc9c77d26091177e"
@@ -2592,12 +2585,12 @@
     eslint-plugin-react "7.22.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.62":
-  version "3.0.62"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.62.tgz#b7bb011b47950b47ee92621c99c18e8f4cf668b2"
-  integrity sha512-At3Z/N5RaXBSS4baYvHdSPTmVGP22Kjsq0jKlT6fkYXxJgSUxPgvfJFqRejLIi9nChV56dHT78p5gzvexOFwhw==
+"@newhighsco/postcss-config@3.0.63":
+  version "3.0.63"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.63.tgz#3f9455d78231defdab704eed44f47e296364b65b"
+  integrity sha512-3S/nv2+VPob4VAVWQ3NEVdxq+gRYWJ2n1TrBvMuJ2OQGxSVarFT0Lt+k6RPBHsG5xOHFHRhTke/YxaRCvxMZzw==
   dependencies:
-    "@fullhuman/postcss-purgecss" "4.0.0"
+    "@fullhuman/postcss-purgecss" "4.0.2"
     autoprefixer "10.2.4"
     caniuse-lite "1.0.30001190"
     postcss "8.2.6"
@@ -14422,16 +14415,6 @@ puppeteer@^1.4.0:
     proxy-from-env "^1.0.0"
     rimraf "^2.6.1"
     ws "^6.1.0"
-
-purgecss@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.0.0.tgz#25446199df2ec40d418caf4b95c7548a011be3f1"
-  integrity sha512-j/y6OtNpEiggw/ipCJUOMNLgLpeAv9L8q+SqzEdDzyVEZOfdWjg8yvgOxhBflNyYgJ8SZ+tTwPxrHT9vQUpEPw==
-  dependencies:
-    commander "^6.0.0"
-    glob "^7.0.0"
-    postcss "^8.2.1"
-    postcss-selector-parser "^6.0.2"
 
 purgecss@^4.0.2:
   version "4.0.2"
