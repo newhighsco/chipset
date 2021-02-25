@@ -38,6 +38,42 @@ describe('Components/LiveStream', () => {
     expect(wrapper.children().length).toEqual(0)
   })
 
+  describe('Facebook', () => {
+    const props = { href: 'https://facebook.gg/failarmy' }
+
+    it("should render correctly when 'href' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} />)
+
+      await waitForMount(wrapper)
+
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
+      ).toEqual(
+        'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffailarmy%2Flive&autoplay=true'
+      )
+      expect(
+        wrapper
+          .find('iframe[data-test-id="LiveStreamVideo"]')
+          .prop('allowFullScreen')
+      ).toEqual(true)
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamChat"]').length
+      ).toEqual(0)
+    })
+
+    it("should render correctly when 'autoPlay' is set to 'false'", async () => {
+      const wrapper = mount(<LiveStream {...props} autoPlay={false} />)
+
+      await waitForMount(wrapper)
+
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
+      ).toEqual(
+        'https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffailarmy%2Flive&autoplay=false'
+      )
+    })
+  })
+
   describe('Twitch', () => {
     const props = { href: 'https://www.twitch.tv/failarmy' }
 

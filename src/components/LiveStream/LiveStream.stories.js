@@ -53,3 +53,10 @@ youTubeDarkMode.args = {
   darkMode: true
 }
 youTubeDarkMode.storyName = 'YouTube - dark mode'
+
+export const facebook = Template.bind({})
+
+facebook.args = {
+  ...storyArgs,
+  href: 'https://facebook.gg/deltaofficialgaming'
+}
