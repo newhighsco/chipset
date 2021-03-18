@@ -44,7 +44,7 @@
     "@fullhuman/postcss-purgecss": "4.0.2",
     "@newhighsco/storybook-preset": "3.3.5",
     "classnames": "2.2.6",
-    "react-device-detect": "1.15.0",
+    "react-device-detect": "1.17.0",
     "react-ga": "3.3.0"
   },
   "devDependencies": {
