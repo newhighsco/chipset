@@ -2383,13 +2383,6 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fullhuman/postcss-purgecss@4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.0.2.tgz#6e4809293f006957dfa2d6b4fc9c77d26091177e"
-  integrity sha512-Qm8M89v4HVUTBQwuWREtzQojSqAbdp98kALMEw2NTrtrgHVqbLQrdiTBr0DAiNmG3hcqXSEexF/78uNUthMM9w==
-  dependencies:
-    purgecss "^4.0.2"
-
 "@fullhuman/postcss-purgecss@4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.0.3.tgz#55d71712ec1c7a88e0d1ba5f10ce7fb6aa05beb4"
@@ -2711,12 +2704,12 @@
     eslint-plugin-react "7.22.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.76":
-  version "3.0.76"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.76.tgz#e3909593f2fa388e8444f9639bd6052ade1dbe95"
-  integrity sha512-KphD0dYnNyRvsxE1u3X6IBWaC1dCxnulOHsRubeT+6EmD3hDCrqKsHcpcmHFwUFjz6iRVsOGumDNUXxMgew8yQ==
+"@newhighsco/postcss-config@3.0.77":
+  version "3.0.77"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.77.tgz#9e155b9bcded63729d5507756ec548c9ecc3e5bd"
+  integrity sha512-CTwgRsOxUYxVVMjEB5FRkbboG7B5RpKMqt25L51StwYOTkbJs83P2Zc+N2U58kKhNILWxcndtACT6uTSh4zLdQ==
   dependencies:
-    "@fullhuman/postcss-purgecss" "4.0.2"
+    "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.5"
     caniuse-lite "1.0.30001203"
     postcss "8.2.8"
@@ -14503,16 +14496,6 @@ puppeteer@^1.4.0:
     proxy-from-env "^1.0.0"
     rimraf "^2.6.1"
     ws "^6.1.0"
-
-purgecss@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.0.2.tgz#7281f233c08b4f41e1c5d85c66a2d064e6d7e1b3"
-  integrity sha512-6J1zOEAZJX6VbfcaJHgdQf4uPhxVXvHz7dGgWYXLOI9q7QFZ5feh8NZ2+G3ysii/Sr8OyUe5yhQ5Z/xZ5gIRnQ==
-  dependencies:
-    commander "^6.0.0"
-    glob "^7.0.0"
-    postcss "^8.2.1"
-    postcss-selector-parser "^6.0.2"
 
 purgecss@^4.0.3:
   version "4.0.3"
