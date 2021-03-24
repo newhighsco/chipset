@@ -64,7 +64,7 @@
     "@percy/storybook": "3.3.1",
     "@storybook/addon-docs": "6.1.21",
     "@storybook/react": "6.1.21",
-    "@wojtekmaj/enzyme-adapter-react-17": "0.5.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.0",
     "babel-jest": "26.6.3",
     "babel-loader": "8.2.2",
     "chromatic": "5.7.0",
