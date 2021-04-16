@@ -20,8 +20,7 @@ source.args = {
 }
 
 source.parameters = {
-  chromatic: { disable: true },
-  percy: { skip: true }
+  chromatic: { disable: true }
 }
 
 export const img = Template.bind({})

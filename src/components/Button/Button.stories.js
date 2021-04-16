@@ -18,8 +18,7 @@ source.args = {
   children: 'Content'
 }
 source.parameters = {
-  chromatic: { disable: true },
-  percy: { skip: true }
+  chromatic: { disable: true }
 }
 
 Template = args => <Button.Group {...args} />

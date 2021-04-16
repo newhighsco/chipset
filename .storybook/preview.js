@@ -16,6 +16,5 @@ export const decorators = [
 ]
 
 export const parameters = {
-  chromatic: { viewports },
-  percy: { widths: viewports }
+  chromatic: { viewports }
 }

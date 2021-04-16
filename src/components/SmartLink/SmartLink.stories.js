@@ -6,8 +6,7 @@ export default {
   title: 'Components/SmartLink',
   component: PureSmartLink,
   parameters: {
-    chromatic: { disable: true },
-    percy: { skip: true }
+    chromatic: { disable: true }
   }
 }
 

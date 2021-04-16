@@ -12,8 +12,7 @@ const Template = args => <SiteContainer {...args} />
 export const source = Template.bind({})
 
 source.parameters = {
-  chromatic: { disable: true },
-  percy: { skip: true }
+  chromatic: { disable: true }
 }
 source.args = {
   children: 'Content'

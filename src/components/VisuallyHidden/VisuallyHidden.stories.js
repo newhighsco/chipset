@@ -5,8 +5,7 @@ export default {
   title: 'Components/VisuallyHidden',
   component: VisuallyHidden,
   parameters: {
-    chromatic: { disable: true },
-    percy: { skip: true }
+    chromatic: { disable: true }
   }
 }
 

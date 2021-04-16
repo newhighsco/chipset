@@ -6,8 +6,7 @@ export default {
   title: 'Components/Icon',
   component: PureIcon,
   parameters: {
-    chromatic: { disable: true },
-    percy: { skip: true }
+    chromatic: { disable: true }
   }
 }
 

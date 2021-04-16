@@ -5,8 +5,7 @@ export default {
   title: 'Components/Landmark',
   component: Landmark,
   parameters: {
-    chromatic: { disable: true },
-    percy: { skip: true }
+    chromatic: { disable: true }
   }
 }
 

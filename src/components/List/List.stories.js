@@ -15,8 +15,7 @@ source.args = {
   children: 'Content'
 }
 source.parameters = {
-  chromatic: { disable: true },
-  percy: { skip: true }
+  chromatic: { disable: true }
 }
 
 export const unordered = Template.bind({})
