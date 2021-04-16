@@ -2,11 +2,16 @@ import React from 'react'
 import { LiveStream } from '..'
 import PureLiveStream from './LiveStream'
 
+import breakpoints from '../../../styles/_breakpoints.module.scss'
+
 export default {
   title: 'Components/LiveStream',
   component: PureLiveStream,
   parameters: {
-    chromatic: { disable: true }
+    chromatic: {
+      disable: true,
+      viewports: [Number(breakpoints.mobile), Number(breakpoints.desktopLarge)]
+    }
   }
 }
 

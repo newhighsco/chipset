@@ -5,7 +5,7 @@ import componentTheme from '../example/theme'
 import breakpoints from '../styles/_breakpoints.module.scss'
 import './preview.scss'
 
-const viewports = [Number(breakpoints.mobile), Number(breakpoints.desktopLarge)]
+const viewports = [Number(breakpoints.desktopLarge)]
 
 export const decorators = [
   Story => (
