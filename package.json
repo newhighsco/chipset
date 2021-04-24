@@ -41,7 +41,7 @@
   "dependencies": {
     "@dr.pogodin/react-themes": "1.3.1",
     "@fullhuman/postcss-purgecss": "4.0.3",
-    "@newhighsco/storybook-preset": "3.3.17",
+    "@newhighsco/storybook-preset": "3.3.18",
     "classnames": "2.3.1",
     "react-device-detect": "1.17.0",
     "react-ga": "3.3.0"
@@ -55,7 +55,7 @@
     "@newhighsco/browserslist-config": "1.0.2",
     "@newhighsco/commitlint-config": "1.0.10",
     "@newhighsco/editor-config": "1.1.1",
-    "@newhighsco/eslint-config": "2.2.82",
+    "@newhighsco/eslint-config": "2.2.83",
     "@newhighsco/postcss-config": "3.0.88",
     "@newhighsco/prettier-config": "2.0.8",
     "@newhighsco/release-config": "1.0.57",
