@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../spacing' as *;
-
-@import 'true';
 
 @include test-module('spacing()') {
   @include test('should output expected spacing value') {

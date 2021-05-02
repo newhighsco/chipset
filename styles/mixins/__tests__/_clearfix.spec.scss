@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../clearfix' as *;
-
-@import 'true';
 
 @include test-module('clearfix()') {
   @include test('should output expected styles') {

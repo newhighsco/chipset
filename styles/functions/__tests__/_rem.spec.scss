@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../rem' as *;
-
-@import 'true';
 
 @include test-module('rem()') {
   @include test('should convert number to rem') {

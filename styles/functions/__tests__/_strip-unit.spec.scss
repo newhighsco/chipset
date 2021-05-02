@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../strip-unit' as *;
-
-@import 'true';
 
 @include test-module('strip-unit()') {
   @include test('should output expected unitless value') {

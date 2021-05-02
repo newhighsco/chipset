@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../visually-unhidden' as *;
-
-@import 'true';
 
 @include test-module('visually-unhidden()') {
   @include test('should output expected styles') {

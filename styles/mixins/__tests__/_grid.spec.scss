@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../grid';
-
-@import 'true';
 
 @include test-module('grid.initialize()') {
   @include test('should output base styles using fallback gutter') {

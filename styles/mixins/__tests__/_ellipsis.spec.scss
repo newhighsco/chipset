@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../ellipsis' as *;
-
-@import 'true';
 
 @include test-module('ellipsis()') {
   @include test('should output default ellipsis styles') {

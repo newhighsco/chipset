@@ -1,7 +1,6 @@
+@use 'true' as *;
 @use '../mq' as *;
 @use '../../functions/em' as *;
-
-@import 'true';
 
 @include test-module('mq()') {
   @include test('should output min-width by default') {

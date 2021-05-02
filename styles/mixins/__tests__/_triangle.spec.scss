@@ -1,6 +1,5 @@
+@use 'true' as *;
 @use '../triangle' as *;
-
-@import 'true';
 
 @include test-module('triangle()') {
   @include test('should output defualt triangle with no parameters passed') {

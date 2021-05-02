@@ -1,9 +1,8 @@
+@use 'true' as *;
 @use '../grid' with (
   $count-names: uno dos tres,
   $fraction-names: primero segundo tercero
 );
-
-@import 'true';
 
 @include test-module('grid: i18n') {
   @include test('should output i18n grid widths if set') {
