@@ -162,7 +162,7 @@ describe('Components/LiveStream', () => {
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://www.youtube-nocookie.com/embed/FooBar123?autoplay=true'
+        'https://www.youtube-nocookie.com/embed/FooBar123?autoplay=true&mute=false'
       )
       expect(
         wrapper
@@ -209,7 +209,19 @@ describe('Components/LiveStream', () => {
       expect(
         wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
       ).toEqual(
-        'https://www.youtube-nocookie.com/embed/FooBar123?autoplay=false'
+        'https://www.youtube-nocookie.com/embed/FooBar123?autoplay=false&mute=false'
+      )
+    })
+
+    it("should render correctly when 'muted' is set", async () => {
+      const wrapper = mount(<LiveStream {...props} muted />)
+
+      await waitForMount(wrapper)
+
+      expect(
+        wrapper.find('iframe[data-test-id="LiveStreamVideo"]').prop('src')
+      ).toEqual(
+        'https://www.youtube-nocookie.com/embed/FooBar123?autoplay=true&mute=true'
       )
     })
 
