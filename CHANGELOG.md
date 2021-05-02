@@ -1,3 +1,10 @@
+# [6.6.0](https://github.com/newhighsco/chipset/compare/v6.5.13...v6.6.0) (2021-05-02)
+
+
+### Features
+
+* **live-stream:** adds option to mute YouTube ([96363e8](https://github.com/newhighsco/chipset/commit/96363e8ef82e440d7fe49854a9a6ee343a4ec8ab))
+
 ## [6.5.13](https://github.com/newhighsco/chipset/compare/v6.5.12...v6.5.13) (2021-04-30)
 
 
