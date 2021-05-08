@@ -58,7 +58,7 @@
     "@newhighsco/eslint-config": "2.2.85",
     "@newhighsco/postcss-config": "3.0.97",
     "@newhighsco/prettier-config": "2.0.8",
-    "@newhighsco/release-config": "1.0.58",
+    "@newhighsco/release-config": "1.0.59",
     "@newhighsco/stylelint-config": "2.0.37",
     "@storybook/addon-docs": "6.2.9",
     "@storybook/react": "6.2.9",
