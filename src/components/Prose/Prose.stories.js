@@ -196,8 +196,7 @@ withChildren.args = {
 export const withHTML = Template.bind({})
 
 withHTML.args = {
-  html:
-    '<p><strong>This text</strong> may have been passed from <em>a CMS</em>.</p><p>Do not use for User-supplied content.</p>'
+  html: '<p><strong>This text</strong> may have been passed from <em>a CMS</em>.</p><p>Do not use for User-supplied content.</p>'
 }
 
 const inlineStyles = {
