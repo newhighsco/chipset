@@ -3040,15 +3040,15 @@
     eslint-plugin-react "7.23.2"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.99":
-  version "3.0.99"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.99.tgz#454675800056bd630270ac6e0975a925b08fe21c"
-  integrity sha512-mkk1Z+emmjZ4e3xHKB+81UJtETilM/2YfljLjGuhYiutSfVFDxcsLgPno7JP3ID0SEq47qxBriNwiOM1w5y0ig==
+"@newhighsco/postcss-config@3.0.100":
+  version "3.0.100"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.100.tgz#38194334cf69f2d35f685fd6ed2715fe83c9d09f"
+  integrity sha512-av2Y2iuyBrXfl/kCnNm9884yjZaRc8rn+zM6vTk2M+ghkVVbLPIzgwR3kCtB12dhnoPzIXOs1I6aM7BFpIs7Bw==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.5"
     caniuse-lite "1.0.30001228"
-    postcss "8.2.14"
+    postcss "8.2.15"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -3069,10 +3069,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.2"
 
-"@newhighsco/storybook-preset@3.3.21":
-  version "3.3.21"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.3.21.tgz#1c56fff73b11300b9bb8288774b26dbe0157ff23"
-  integrity sha512-DO9Xd2DMxLuYbI8UNwf+oQJD5kXISIWPEV7FeO0FMlFuOTpCv7YO+e3yVth+EHWygZfYgrR5KZBfvmfSOtltSg==
+"@newhighsco/storybook-preset@3.3.23":
+  version "3.3.23"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-3.3.23.tgz#e13990005c42e3cd33011d6c5f4cc6e5cf46a554"
+  integrity sha512-n6FcXQo3RJ6rLL889vKhkv6rQ556y3KZtpk/TmgbHKBPYyEfs9SmIxzrnCNdIUCZ8bzMQAPLwpqeCf0dk8aipw==
   dependencies:
     "@storybook/addon-actions" "6.2.9"
     "@storybook/addon-docs" "6.2.9"
@@ -3081,10 +3081,10 @@
     "@storybook/addons" "6.2.9"
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
-    postcss "8.2.14"
+    postcss "8.2.15"
     react-is "17.0.2"
     sass "1.32.12"
-    sass-loader "10.1.1"
+    sass-loader "10.2.0"
 
 "@newhighsco/stylelint-config@2.0.38":
   version "2.0.38"
@@ -12955,10 +12955,10 @@ nanoid@^3.1.20:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
   integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
 
-nanoid@^3.1.22:
-  version "3.1.22"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.22.tgz#b35f8fb7d151990a8aebd5aa5015c03cf726f844"
-  integrity sha512-/2ZUaJX2ANuLtTvqTlgqBQNJoQO398KyJgZloL0PZkC0dpysjncRUPsFe3DUPzz/y3h+u7C46np8RMuvF3jsSQ==
+nanoid@^3.1.23:
+  version "3.1.23"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
+  integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -14882,13 +14882,13 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@8.2.14:
-  version "8.2.14"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.14.tgz#dcf313eb8247b3ce8078d048c0e8262ca565ad2b"
-  integrity sha512-+jD0ZijcvyCqPQo/m/CW0UcARpdFylq04of+Q7RKX6f/Tu+dvpUI/9Sp81+i6/vJThnOBX09Quw0ZLOVwpzX3w==
+postcss@8.2.15:
+  version "8.2.15"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.15.tgz#9e66ccf07292817d226fc315cbbf9bc148fbca65"
+  integrity sha512-2zO3b26eJD/8rb106Qu2o7Qgg52ND5HPjcyQiK2B98O388h43A448LCslC0dI2P97wCAQRJsFvwTRcXxTKds+Q==
   dependencies:
     colorette "^1.2.2"
-    nanoid "^3.1.22"
+    nanoid "^3.1.23"
     source-map "^0.6.1"
 
 postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.5, postcss@^7.0.6:
@@ -16260,10 +16260,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.1.1.tgz#4ddd5a3d7638e7949065dd6e9c7c04037f7e663d"
-  integrity sha512-W6gVDXAd5hR/WHsPicvZdjAWHBcEJ44UahgxcIE196fW2ong0ZHMPO1kZuI5q0VlvMQZh32gpv69PLWQm70qrw==
+sass-loader@10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-10.2.0.tgz#3d64c1590f911013b3fa48a0b22a83d5e1494716"
+  integrity sha512-kUceLzC1gIHz0zNJPpqRsJyisWatGYNFRmv2CKZK2/ngMJgLqxTbXwe/hJ85luyvZkgqU3VlJ33UVF2T/0g6mw==
   dependencies:
     klona "^2.0.4"
     loader-utils "^2.0.0"
