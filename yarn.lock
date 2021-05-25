@@ -3180,14 +3180,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.92":
-  version "2.2.92"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.92.tgz#113e0d1e1e805f523d5b8bea1aa0e90a0146cf50"
-  integrity sha512-X0Pik9r3fASqBxR9lzoLg1gKgmGB8flNfoQwv0uHcH9gKtmO4qmy1QDhilLiCK/oZ6zhSQww9VVOqrh+skNhHQ==
+"@newhighsco/eslint-config@2.2.93":
+  version "2.2.93"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.93.tgz#e32dd2e534e003e421177973160368c7d329a8d2"
+  integrity sha512-sV67y1OHcGMaFUwI/oTgn8iS91f+rTTOSnVnyBen3wgFJfGQC6fRsgLAKtuLsHkdKBTS3x9IopJ14XTRz70glw==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "8.3.0"
-    eslint-config-standard "16.0.2"
+    eslint-config-standard "16.0.3"
     eslint-config-standard-jsx "10.0.0"
     eslint-config-standard-react "11.0.1"
     eslint-plugin-import "2.23.3"
@@ -3200,14 +3200,14 @@
     eslint-plugin-react "7.23.2"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.101":
-  version "3.0.101"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.101.tgz#8ec0238a7ab6f977d7a43601e8afe3aea5793acc"
-  integrity sha512-MOu9AnSUKB1bwgSSUtwgks+PzLkRs0yV6VqBar6QgvIGXzb6FstGuAWpijLQW0X9wAOPHDEg9HNvKFjQNX993Q==
+"@newhighsco/postcss-config@3.0.102":
+  version "3.0.102"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.102.tgz#c16a1a45f789ad3a28beb0ee7bf0506671090376"
+  integrity sha512-IHrDzIn+1Ekhd/tACh+nAXIua+kOTHJf2bj0xSEQC6cBO3ds87ZijYAJBz5dhR67ghnocAKb8a0ibkrX8hRw6A==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.5"
-    caniuse-lite "1.0.30001228"
+    caniuse-lite "1.0.30001230"
     postcss "8.3.0"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
@@ -6390,10 +6390,10 @@ camelcase@^6.0.0, camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001228:
-  version "1.0.30001228"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001228.tgz#bfdc5942cd3326fa51ee0b42fbef4da9d492a7fa"
-  integrity sha512-QQmLOGJ3DEgokHbMSA8cj2a+geXqmnpyOFT0lhQV6P3/YOJvGDEwoedcwxEQ30gJIwIIunHIicunJ2rzK5gB2A==
+caniuse-lite@1.0.30001230:
+  version "1.0.30001230"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001230.tgz#8135c57459854b2240b57a4a6786044bdc5a9f71"
+  integrity sha512-5yBd5nWCBS+jWKTcHOzXwo5xzcj4ePE/yjtkZyUV1BTUmrBaA9MRGC+e7mxnqXSA90CmCA8L3eKLaSUkt099IQ==
 
 caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001154:
   version "1.0.30001154"
@@ -8451,10 +8451,10 @@ eslint-config-standard-react@11.0.1:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-11.0.1.tgz#1f488e0062c1e21c4c8584551619f11750658f55"
   integrity sha512-4WlBynOqBZJRaX81CBcIGDHqUiqxvw4j/DbEIICz8QkMs3xEncoPgAoysiqCSsg71X92uhaBc8sgqB96smaMmg==
 
-eslint-config-standard@16.0.2:
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.2.tgz#71e91727ac7a203782d0a5ca4d1c462d14e234f6"
-  integrity sha512-fx3f1rJDsl9bY7qzyX8SAtP8GBSk6MfXFaTfaGgk12aAYW4gJSyRm7dM790L6cbXv63fvjY4XeSzXnb4WM+SKw==
+eslint-config-standard@16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.3.tgz#6c8761e544e96c531ff92642eeb87842b8488516"
+  integrity sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
