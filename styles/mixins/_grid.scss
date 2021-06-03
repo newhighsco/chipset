@@ -1,3 +1,4 @@
+@use "sass:math";
 @use "sass:map";
 
 //
@@ -151,7 +152,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 
     @for $j from 1 through $column-count {
       $plural: if($j == 1, '', 's');
-      $column-width: $j * (100 / $column);
+      $column-width: $j * math.div(100, $column);
       $column-name: nth($count-names, $j);
 
       .item#{$namespace}#{$column-name}-#{$grid}#{$plural} {
@@ -163,7 +164,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 
 @function _grid-gutter--item($g) {
   @if unit($g) == '%' {
-    $scale: 100 / (100 + $g);
+    $scale: math.div(100, 100 + $g);
 
     @return ($scale * $g) + 0%;
   } @else {

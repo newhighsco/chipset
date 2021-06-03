@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @mixin triangle($point: 'up', $size: 1em, $color: '') {
   @if ($point == 'up') {
     @include _triangle-borders(
@@ -47,7 +49,7 @@
         bottom: transparent,
         left: filled
       ),
-      $size / 2,
+      math.div($size, 2),
       $color
     );
   } @else if $point == 'up-right' {
@@ -58,7 +60,7 @@
         bottom: transparent,
         left: transparent
       ),
-      $size / 2,
+      math.div($size, 2),
       $color
     );
   } @else if $point == 'down-right' {
@@ -69,7 +71,7 @@
         bottom: filled,
         left: transparent
       ),
-      $size / 2,
+      math.div($size, 2),
       $color
     );
   } @else if $point == 'down-left' {
@@ -80,7 +82,7 @@
         bottom: filled,
         left: filled
       ),
-      $size / 2,
+      math.div($size, 2),
       $color
     );
   }
