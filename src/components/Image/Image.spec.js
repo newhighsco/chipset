@@ -1,3 +1,4 @@
+import 'jsdom-global/register'
 import React from 'react'
 import { mount, shallow } from 'enzyme'
 import Image from './Image'

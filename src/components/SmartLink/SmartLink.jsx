@@ -1,3 +1,4 @@
+import 'jsdom-global/register'
 import React from 'react'
 import { func, node, object, oneOf, oneOfType, string } from 'prop-types'
 import { OutboundLink } from 'react-ga'
