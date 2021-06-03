@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import React, { createRef } from 'react'
 import { mount, shallow } from 'enzyme'
 import { OutboundLink } from 'react-ga'
