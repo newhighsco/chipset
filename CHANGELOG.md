@@ -1,3 +1,10 @@
+# [6.7.0](https://github.com/newhighsco/chipset/compare/v6.6.3...v6.7.0) (2021-06-03)
+
+
+### Features
+
+* **deps:** use webpack 5 ([#633](https://github.com/newhighsco/chipset/issues/633)) ([7a970ef](https://github.com/newhighsco/chipset/commit/7a970efc88f5feb17132dd0ce0784524de5b1503))
+
 ## [6.6.3](https://github.com/newhighsco/chipset/compare/v6.6.2...v6.6.3) (2021-06-03)
 
 
