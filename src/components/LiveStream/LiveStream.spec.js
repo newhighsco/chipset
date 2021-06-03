@@ -1,4 +1,7 @@
-import 'jsdom-global/register'
+/**
+ * @jest-environment jsdom
+ */
+
 import React from 'react'
 import { act } from 'react-dom/test-utils'
 import { mount, shallow } from 'enzyme'
@@ -8,8 +11,6 @@ import LiveStream from './LiveStream'
 
 jest.mock('node-fetch')
 jest.mock('react-device-detect')
-
-location = new URL('http://localhost')
 
 const { Response } = jest.requireActual('node-fetch')
 
