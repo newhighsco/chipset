@@ -1,3 +1,10 @@
+## [6.6.3](https://github.com/newhighsco/chipset/compare/v6.6.2...v6.6.3) (2021-06-03)
+
+
+### Bug Fixes
+
+* **sass:** removes deprecated slashes as division ([5a2d069](https://github.com/newhighsco/chipset/commit/5a2d06920656216d77bd7642983d64fda81cad51))
+
 ## [6.6.2](https://github.com/newhighsco/chipset/compare/v6.6.1...v6.6.2) (2021-06-03)
 
 
