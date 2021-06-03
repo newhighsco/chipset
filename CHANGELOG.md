@@ -1,3 +1,10 @@
+## [6.6.2](https://github.com/newhighsco/chipset/compare/v6.6.1...v6.6.2) (2021-06-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v3.3.28 ([#632](https://github.com/newhighsco/chipset/issues/632)) ([1143016](https://github.com/newhighsco/chipset/commit/1143016195d8e3892b495d003765dfbfc4b3d591))
+
 ## [6.6.1](https://github.com/newhighsco/chipset/compare/v6.6.0...v6.6.1) (2021-05-22)
 
 
