@@ -64,7 +64,7 @@
     "@storybook/addon-docs": "6.2.9",
     "@storybook/builder-webpack5": "6.2.9",
     "@storybook/react": "6.2.9",
-    "@wojtekmaj/enzyme-adapter-react-17": "0.6.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.2",
     "babel-jest": "27.0.2",
     "babel-loader": "8.2.2",
     "chromatic": "5.9.0",
