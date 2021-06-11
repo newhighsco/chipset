@@ -3749,15 +3749,15 @@
     eslint-plugin-react "7.24.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.110":
-  version "3.0.110"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.110.tgz#97891d06e7ea56f88b3bba812162916288c90109"
-  integrity sha512-sGip3/zp1hzQ72oU858QJOVhvsiYnKXXfKlJwjuGExdXHmmVzvIS1CqhX3CEo9kPfm+TVLo1pAhvuH+87mc1yA==
+"@newhighsco/postcss-config@3.0.111":
+  version "3.0.111"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.111.tgz#33e036f9fce3844bfd1140d130e1ea484d271749"
+  integrity sha512-uLqzklBy9MRxz3lJ+HrLkMpBY7/ZvN246wxyAXZoc1AWYvYRKWefPThIJr6CJkRSiIZMiIMQ7v0iXeD0iwap4A==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.6"
     caniuse-lite "1.0.30001236"
-    postcss "8.3.1"
+    postcss "8.3.2"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -3778,10 +3778,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.1.tgz#c6f1ca364cdf9d16049bd34c56386dea77cba4cb"
-  integrity sha512-Uuvbm1lEFcFTbItSL9/UvZL8BdKoSqlWBaYsCS6PNfCMeWwrJN2AZXo4QZFCpfS0r+rM53HzIgAYD1SjO4dAeA==
+"@newhighsco/storybook-preset@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.3.tgz#36edb06e1dae66068ec77158a0f230c0e967c884"
+  integrity sha512-Ns0LddjrvCRd06Yy7R0aVcY8b8Aok9LLjqt9Emnw/ZjWn+RjO1114ifpY+/YTBbkvTj9+MhSKt/eeDDMRIMrhA==
   dependencies:
     "@storybook/addon-actions" "6.2.9"
     "@storybook/addon-docs" "6.2.9"
@@ -3791,10 +3791,10 @@
     "@storybook/builder-webpack5" "6.2.9"
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
-    postcss "8.3.1"
+    postcss "8.3.2"
     react-is "17.0.2"
     sass "1.34.1"
-    sass-loader "12.0.0"
+    sass-loader "12.1.0"
 
 "@newhighsco/stylelint-config@2.0.39":
   version "2.0.39"
@@ -16125,10 +16125,10 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@8.3.1:
-  version "8.3.1"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.1.tgz#71f380151c227f83b898294a46481f689f86b70a"
-  integrity sha512-9qH0MGjsSm+fjxOi3GnwViL1otfi7qkj+l/WX5gcRGmZNGsIcqc+A5fBkE6PUobEQK4APqYVaES+B3Uti98TCw==
+postcss@8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.2.tgz#ed3ec489f5428af5740cd6effcc216b4d455ee64"
+  integrity sha512-y1FK/AWdZlBF5lusS5j5l4/vF67+vQZt1SXPVJ32y1kRGDQyrs1zk32hG1cInRTu14P0V+orPz+ifwW/7rR4bg==
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
@@ -17504,10 +17504,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.0.0.tgz#ba91df5725cb9676c8e0937002a647ab011eb94a"
-  integrity sha512-LJQMyDdNdhcvoO2gJFw7KpTaioVFDeRJOuatRDUNgCIqyu4s4kgDsNofdGzAZB1zFOgo/p3fy+aR/uGXamcJBg==
+sass-loader@12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.1.0.tgz#b73324622231009da6fba61ab76013256380d201"
+  integrity sha512-FVJZ9kxVRYNZTIe2xhw93n3xJNYZADr+q69/s98l9nTCrWASo+DR2Ot0s5xTKQDDEosUkatsGeHxcH4QBp5bSg==
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
