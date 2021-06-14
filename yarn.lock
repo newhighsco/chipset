@@ -3749,15 +3749,15 @@
     eslint-plugin-react "7.24.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.113":
-  version "3.0.113"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.113.tgz#1ee7c0ae0c93c9444d4b0df508c241457f9a68a1"
-  integrity sha512-qdjDM7ji7/wdIsL+AxCVGEB6zwdrSxb3j1fqL0jE3fEoA/Q7KKL45UL8dLnIyIfsx5OY30/nYH2Uj1wBkfTkRg==
+"@newhighsco/postcss-config@3.0.114":
+  version "3.0.114"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.114.tgz#2602def0f4a46fdc234186634fd62d0b16c3e981"
+  integrity sha512-KD4xlk8lio3f3XpJGZP+csc4qJ9SNXZ8k+RPaMRQsjkZeiMRMpQA4jP4HOuwwTwPDyXJyMsoo/SyWcF9iXhjPQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.6"
     caniuse-lite "1.0.30001237"
-    postcss "8.3.3"
+    postcss "8.3.4"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -3778,10 +3778,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.4.tgz#68a60b0f05bf8993db6eb2229a521311dcce4d2f"
-  integrity sha512-jG+KZGwQUNmXJQGfUdfza83B4s/XBErxgBAkx4IZca4HR8NlftoQdmpOlcUQMg94UggaM2bqTrqwtWS+/uA3XA==
+"@newhighsco/storybook-preset@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.5.tgz#eae3ef464d65e42b864a7b4b46bc355517b5f8f7"
+  integrity sha512-ITOojcaBU/L8bhblZwF0PX6P+Hyte2zSE6c0BFDEq9g2Jk8QB57Woe0g4oeS7KskcQghCR1RKu27EE1lhdhIfg==
   dependencies:
     "@storybook/addon-actions" "6.2.9"
     "@storybook/addon-docs" "6.2.9"
@@ -3791,7 +3791,7 @@
     "@storybook/builder-webpack5" "6.2.9"
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
-    postcss "8.3.3"
+    postcss "8.3.4"
     react-is "17.0.2"
     sass "1.34.1"
     sass-loader "12.1.0"
@@ -16125,10 +16125,10 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@8.3.3:
-  version "8.3.3"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.3.tgz#ef412a7a67e85c5b2c9f0ab3c4d9e8a3814d55cc"
-  integrity sha512-gnXd9C4bGKevvlNFd80I8WfxHX+g6MR+W2h19PlDNHUuT9248rHTvCIDeZI3Hvs5mB3gzXiNDwVK3S153WJbZA==
+postcss@8.3.4:
+  version "8.3.4"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.4.tgz#41ece1c43f2f7c74dc7d90144047ce052757b822"
+  integrity sha512-/tZY0PXExXXnNhKv3TOvZAOUYRyuqcCbBm2c17YMDK0PlVII3K7/LKdt3ScHL+hhouddjUWi+1sKDf9xXW+8YA==
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
