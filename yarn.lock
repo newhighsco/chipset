@@ -189,6 +189,15 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
+"@babel/eslint-parser@7.14.5":
+  version "7.14.5"
+  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.14.5.tgz#441c04e2fe9825ea628c2b4e5524d40129cbbccd"
+  integrity sha512-20BlOHuGf3UXS7z1QPyllM9Gz8SEgcp/UcKeUmdHIFZO6HF1n+3KaLpeyfwWvjY/Os/ynPX3k8qXE/nZ5dw/0g==
+  dependencies:
+    eslint-scope "^5.1.1"
+    eslint-visitor-keys "^2.1.0"
+    semver "^6.3.0"
+
 "@babel/generator@^7.12.1":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.12.1.tgz#0d70be32bdaa03d7c51c8597dda76e0df1f15468"
@@ -1062,7 +1071,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.10.4", "@babel/parser@^7.12.1", "@babel/parser@^7.12.3", "@babel/parser@^7.7.0":
+"@babel/parser@^7.1.0", "@babel/parser@^7.10.4", "@babel/parser@^7.12.1", "@babel/parser@^7.12.3":
   version "7.12.3"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.3.tgz#a305415ebe7a6c7023b40b5122a0662d928334cd"
   integrity sha512-kFsOS0IbsuhO5ojF8Hc8z/8vEIOkylVBrjiZUbLTE3XFe0Qi+uu6HjzQixkFaqr0ZPAMZcBVxEwmsnsLPZ2Xsw==
@@ -2934,7 +2943,7 @@
     "@babel/parser" "^7.14.5"
     "@babel/types" "^7.14.5"
 
-"@babel/traverse@^7.1.0", "@babel/traverse@^7.10.4", "@babel/traverse@^7.12.1", "@babel/traverse@^7.7.0":
+"@babel/traverse@^7.1.0", "@babel/traverse@^7.10.4", "@babel/traverse@^7.12.1":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.12.1.tgz#941395e0c5cc86d5d3e75caa095d3924526f0c1e"
   integrity sha512-MA3WPoRt1ZHo2ZmoGKNqi20YnPt0B1S0GTZEPhhd+hw2KGUzBlHuVunj6K4sNuK+reEvyiPwtp0cpaqLzJDmAw==
@@ -3051,7 +3060,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.10.4", "@babel/types@^7.10.5", "@babel/types@^7.11.0", "@babel/types@^7.12.1", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
+"@babel/types@^7.0.0", "@babel/types@^7.10.4", "@babel/types@^7.10.5", "@babel/types@^7.11.0", "@babel/types@^7.12.1", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.12.1.tgz#e109d9ab99a8de735be287ee3d6a9947a190c4ae"
   integrity sha512-BzSY3NJBKM4kyatSOWh3D/JJ2O3CVzBybHWxtgxnggaxEuaSTTDqeiSb/xk9lrkw2Tbqyivw5ZU4rT+EfznQsA==
@@ -3719,27 +3728,28 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@newhighsco/browserslist-config@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.2.tgz#4f87aae28d94f9072a6c4dfdb0b7fe84edbb1fef"
-  integrity sha512-8YvdUKZ5R7e5f1IIPwHRlWIHVoAxAVMJXTLm/2Tct93pEfPFE4AdBORiv++tA4IxTB78oc9teAMp36AoP9UiPA==
+"@newhighsco/browserslist-config@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.3.tgz#e4a8ee575fbe5a21bc9df809a4998e1959713524"
+  integrity sha512-iV6oB/iFrObsOBVQIAsV2PBDPSm2cLktnKEvT0k9AjiL15+R6I40OIddzBDve0buW1i/zDNtWJj5WH/P9ugQcw==
 
-"@newhighsco/commitlint-config@1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.12.tgz#5020e33efdfc84be68209e1cbaee10e337670dee"
-  integrity sha512-AuEfpDDSINyZTgrYEbn2+lZ67VedRLybaYvt2TdJWCTfrWkuKYJOeLOZ0+w15bAZDgWNbCymZNPPoaBXIK9EIQ==
+"@newhighsco/commitlint-config@1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.13.tgz#61ca439487bb8d49125272bd575640f8027029e1"
+  integrity sha512-BgSXx40mtzwJl7Xe/HJuvj6VTPg2XpxXHinW/grcTtQroe+fGevDGsRfko3Rq+NBm+QOrpJ2+JkET5CBubE/2Q==
 
-"@newhighsco/editor-config@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
-  integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
+"@newhighsco/editor-config@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
+  integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.2.97":
-  version "2.2.97"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.97.tgz#f282dc465b65fb7ae6b20618ea0574e4b739a375"
-  integrity sha512-rWrJqnpYf6YRy5GVsi8plmDjN/IZrTAXuWqf/Irz8rx2UnjmoDQHaAYLq8yL7HbvyQntENqfLfpQ/kyO6mb4Gg==
+"@newhighsco/eslint-config@2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.0.tgz#73613fc4a7ceddc9e74acdac9cd198d9a62034b0"
+  integrity sha512-GHI8Yw9y9NJUz38fKBGLXrgkPWmL72iU12ArX+YnKOG0vkTc/eCeNYj26v5CaptmeXjQ28vWISnpJLWZC9lgHQ==
   dependencies:
-    babel-eslint "10.1.0"
+    "@babel/core" "7.14.6"
+    "@babel/eslint-parser" "7.14.5"
     eslint-config-prettier "8.3.0"
     eslint-config-standard "16.0.3"
     eslint-config-standard-jsx "10.0.0"
@@ -3754,10 +3764,10 @@
     eslint-plugin-react "7.24.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.0.114":
-  version "3.0.114"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.0.114.tgz#2602def0f4a46fdc234186634fd62d0b16c3e981"
-  integrity sha512-KD4xlk8lio3f3XpJGZP+csc4qJ9SNXZ8k+RPaMRQsjkZeiMRMpQA4jP4HOuwwTwPDyXJyMsoo/SyWcF9iXhjPQ==
+"@newhighsco/postcss-config@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.1.0.tgz#d0397d2a0bf33d7f12f15cc933e34e0b753b9064"
+  integrity sha512-vLq1XeAP4uYAUTNtCX2oTza8PkniUiUksuMKJ0BCA7nfc2Mn8WzXyb3hfk0h0T1ykgvx0/k5LJz+W9PwIFO4Qw==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.2.6"
@@ -3766,15 +3776,15 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
-"@newhighsco/prettier-config@2.0.10":
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.10.tgz#e0b9487ceca723cf39549586eb62b583c49dae66"
-  integrity sha512-LTx+LcO9xAQ+Jat7hysCMK26lWp+7vS40SeN6DDEp9sVIsUvZ/Iu1G+N6Z2pUx9qkGB/WMQI32xK06DOlNP7Ng==
+"@newhighsco/prettier-config@2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.11.tgz#08764e4ba748f2e6715e1ad97df23130b23b7697"
+  integrity sha512-uhOQ2QnrATPzv2dPqt1KTy5jBWKuCJ3XnMM5m/q2tSbrau2mej/VDFGhMb9zlor93y/XnBQOS1TQP0YPpzsLbw==
 
-"@newhighsco/release-config@1.0.61":
-  version "1.0.61"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.61.tgz#9c5a3db6912c720f956892c411f5415fe6592344"
-  integrity sha512-JJNZvH0M6JoMMJLVaNCCRLWiPLWRhJbN/SbP0DKe+9IKlxxPR3CJBqcRPlijGnJd9A63U6N7A9N5D1VN7NstBw==
+"@newhighsco/release-config@1.0.62":
+  version "1.0.62"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.62.tgz#ebf31637f1c38238648eb5c1888ce6a8be3306a5"
+  integrity sha512-T/FnbL07pvG+xapWYh2/kAIHJXnPcEn85u7b6+YCU9yiMQEVblksjynaj0EGnHQyW8v5H56sNAYR0/DZ4bKzuQ==
   dependencies:
     "@semantic-release/changelog" "5.0.1"
     "@semantic-release/commit-analyzer" "8.0.1"
@@ -3801,10 +3811,10 @@
     sass "1.35.0"
     sass-loader "12.1.0"
 
-"@newhighsco/stylelint-config@2.0.39":
-  version "2.0.39"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.39.tgz#f4ee436c18f50e7cc9b454960b070223fba325ef"
-  integrity sha512-RWmiRokTEEDYDRrDw/cJhJfUMqZo659mMUmWbw/AuH/z9CTgaKB1VhXz9hU1blShSTdojOmxvtqt7Tqk1lY+ug==
+"@newhighsco/stylelint-config@2.0.40":
+  version "2.0.40"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.40.tgz#a2df24a27944a62edd40a311494e8c4e21ecdd2c"
+  integrity sha512-MmSILSNpUSAUGIbNGZsdFKkddkdWiQodYqx1M6CgJ4/+FD/vAa2Gt2uvtWFmudDbX4U9/w/MG3OHtwa7x5qjwQ==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
@@ -6440,18 +6450,6 @@ axobject-query@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
-
-babel-eslint@10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
-  integrity sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==
-  dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "@babel/parser" "^7.7.0"
-    "@babel/traverse" "^7.7.0"
-    "@babel/types" "^7.7.0"
-    eslint-visitor-keys "^1.0.0"
-    resolve "^1.12.0"
 
 babel-jest@27.0.2, babel-jest@^27.0.2:
   version "27.0.2"
@@ -9486,7 +9484,7 @@ eslint-utils@^2.0.0, eslint-utils@^2.1.0:
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0, eslint-visitor-keys@^1.3.0:
+eslint-visitor-keys@^1.1.0, eslint-visitor-keys@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.3.0.tgz#30ebd1ef7c2fdff01c3a4f151044af25fab0523e"
   integrity sha512-6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==
@@ -9495,6 +9493,11 @@ eslint-visitor-keys@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
+
+eslint-visitor-keys@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
+  integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
 eslint@7.28.0:
   version "7.28.0"
