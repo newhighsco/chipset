@@ -1,3 +1,10 @@
+## [6.7.16](https://github.com/newhighsco/chipset/compare/v6.7.15...v6.7.16) (2021-07-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency caniuse-lite to v1.0.30001244 ([#703](https://github.com/newhighsco/chipset/issues/703)) ([4136795](https://github.com/newhighsco/chipset/commit/41367954601f035eac4aa23d4767a31c5ead02cc))
+
 ## [6.7.15](https://github.com/newhighsco/chipset/compare/v6.7.14...v6.7.15) (2021-07-12)
 
 
