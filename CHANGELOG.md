@@ -1,3 +1,10 @@
+## [6.7.20](https://github.com/newhighsco/chipset/compare/v6.7.19...v6.7.20) (2021-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/storybook-preset to v4.0.15 ([#720](https://github.com/newhighsco/chipset/issues/720)) ([cdfccb1](https://github.com/newhighsco/chipset/commit/cdfccb138f1c56e4cdf1369845eb8b5acf8606ee))
+
 ## [6.7.19](https://github.com/newhighsco/chipset/compare/v6.7.18...v6.7.19) (2021-07-22)
 
 
