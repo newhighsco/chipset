@@ -1915,10 +1915,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.8":
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.8.tgz#a86304cb5d1049c123270242a9e774ab1e81e258"
-  integrity sha512-+z3XMdhKBWGOoMpoYuRyXBdtKEdaO5XlpTOshCGWE5y7hwFTMZR8uFbqucAHQjk8a82XBjg1iZqBrObVu2vOzA==
+"@newhighsco/eslint-config@2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.9.tgz#62c3c4b691bba914ed160f973c3b5b98d689aa27"
+  integrity sha512-5ULZ9vB4yC91UjmJUBZtAXM8+efi/HkVZx7RoIOfpVxXhU0cF6Yds+lNkZ67RGID74Wh1KYV3ST+wwHPOLCPYA==
   dependencies:
     "@babel/core" "7.14.8"
     "@babel/eslint-parser" "7.14.7"
@@ -1965,10 +1965,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.0.16":
-  version "4.0.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.16.tgz#28ba514b00ecce4b0317a8a5f10d252e0e922a29"
-  integrity sha512-G4yHjlAXl2UO4GrSRzLKI0nSwKXayEQ4gin4agCYdB5ylIyx0WDTR3ar7i3Ykgw1Rqd3gYihi/08VWNE8IqdNg==
+"@newhighsco/storybook-preset@4.0.17":
+  version "4.0.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.0.17.tgz#d580dff2060dddbe94450ccd620cf6781f55e423"
+  integrity sha512-ouNrkSpGU9q/5QUYirj5QYpurp6XjJO97SSjHNCv6kGgjAJ6oZ39cFniMmKAE4ozGx5eJOP7FLjZSdFxke7DDw==
   dependencies:
     "@storybook/addon-actions" "6.3.6"
     "@storybook/addon-docs" "6.3.6"
@@ -1981,7 +1981,7 @@
     "@svgr/webpack" "5.5.0"
     postcss "8.3.6"
     react-is "17.0.2"
-    sass "1.36.0"
+    sass "1.37.0"
     sass-loader "12.1.0"
 
 "@newhighsco/stylelint-config@2.0.43":
@@ -13831,10 +13831,10 @@ sass-true@6.0.1:
     css "^3.0.0"
     lodash "^4.17.19"
 
-sass@1.36.0:
-  version "1.36.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.36.0.tgz#5912ef9d5d16714171ba11cb17edb274c4bbc07e"
-  integrity sha512-fQzEjipfOv5kh930nu3Imzq3ie/sGDc/4KtQMJlt7RRdrkQSfe37Bwi/Rf/gfuYHsIuE1fIlDMvpyMcEwjnPvg==
+sass@1.37.0:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.37.0.tgz#f1b03a9d072ee9053a29d125c8130c78e92827c2"
+  integrity sha512-B+Tu6cSAG8ffs/cqsZl/bgSH2pCmavDaPTYAoW8QA1qNHh/RqndNfVKuABKYkLjUQ5aq/BnCENVpE80cqdSM1w==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
