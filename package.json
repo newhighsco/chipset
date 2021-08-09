@@ -61,7 +61,7 @@
     "@newhighsco/prettier-config": "2.0.12",
     "@newhighsco/release-config": "1.0.63",
     "@newhighsco/stylelint-config": "2.0.43",
-    "@storybook/react": "6.3.6",
+    "@storybook/react": "6.3.7",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.3",
     "babel-jest": "27.0.6",
     "babel-loader": "8.2.2",
