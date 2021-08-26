@@ -2049,13 +2049,13 @@
     eslint-plugin-react "7.24.0"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.1.19":
-  version "3.1.19"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.1.19.tgz#10a06ab01156ae1553769fcbbfa3cf0d3309d057"
-  integrity sha512-Na1uXmWZKluVrj0sN8rz6OWz7SWs1Omaz+D/tddKWo0Ijvwdt5v094G1JVgFICm6ZrOrPb2MRjqxXWxvqAb9cQ==
+"@newhighsco/postcss-config@3.1.20":
+  version "3.1.20"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.1.20.tgz#b5d970efac49e06c228d4900e1562ecf16c574e6"
+  integrity sha512-MHXkQVrW8rntEYxuT/0KTJkjaOscnEYcSDgwZGUI6JzUYqmOnp72G4jQ03zEJxQ4pSSsEOBCFYkUMxNvxwMiyA==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
-    autoprefixer "10.3.2"
+    autoprefixer "10.3.3"
     caniuse-lite "1.0.30001252"
     postcss "8.3.6"
     postcss-flexbugs-fixes "5.0.2"
@@ -4595,13 +4595,13 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@10.3.2:
-  version "10.3.2"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.3.2.tgz#836e4b4f59eb6876c41012c1c937be74035f3ec8"
-  integrity sha512-RHKq0YCvhxAn9987n0Gl6lkzLd39UKwCkUPMFE0cHhxU0SvcTjBxWG/CtkZ4/HvbqK9U5V8j03nAcGBlX3er/Q==
+autoprefixer@10.3.3:
+  version "10.3.3"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.3.3.tgz#4bac89c74ef98e6a40fe1c5b76c0d1c91db153ce"
+  integrity sha512-yRzjxfnggrP/+qVHlUuZz5FZzEbkT+Yt0/Df6ScEMnbbZBLzYB2W0KLxoQCW+THm1SpOsM1ZPcTHAwuvmibIsQ==
   dependencies:
     browserslist "^4.16.8"
-    caniuse-lite "^1.0.30001251"
+    caniuse-lite "^1.0.30001252"
     colorette "^1.3.0"
     fraction.js "^4.1.1"
     normalize-range "^0.1.2"
@@ -5288,7 +5288,7 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001252:
+caniuse-lite@1.0.30001252, caniuse-lite@^1.0.30001252:
   version "1.0.30001252"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001252.tgz#cb16e4e3dafe948fc4a9bb3307aea054b912019a"
   integrity sha512-I56jhWDGMtdILQORdusxBOH+Nl/KgQSdDmpJezYddnAkVOmnoU8zwjTV9xAjMIYxr0iPreEAVylCGcmHCjfaOw==
