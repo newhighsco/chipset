@@ -21,6 +21,9 @@
     "src",
     "styles"
   ],
+  "storybook": {
+    "url": "https://main--6004028a0df11e0021f58df8.chromatic.com"
+  },
   "scripts": {
     "start": "start-storybook --static-dir .storybook/static --docs",
     "prebuild": "rm -rf build",
