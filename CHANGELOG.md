@@ -1,3 +1,10 @@
+## [6.7.35](https://github.com/newhighsco/chipset/compare/v6.7.34...v6.7.35) (2021-08-29)
+
+
+### Bug Fixes
+
+* **deps:** upgrade dependencies to fix local development errors ([#772](https://github.com/newhighsco/chipset/issues/772)) ([344f406](https://github.com/newhighsco/chipset/commit/344f4065946a7807a9f898601ad429decfce720e))
+
 ## [6.7.34](https://github.com/newhighsco/chipset/compare/v6.7.33...v6.7.34) (2021-08-28)
 
 
