@@ -1798,10 +1798,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.1.2.tgz#0e8e94cc81f1fcacc14aea3f1f17b81388f1c190"
-  integrity sha512-K4Ft7aEAIB3sHPrZlJCKNgoH6IaO8mCXOy0ouTuOCciPAE9TI1L8yoDvzKfN5frHfa41lTXIrwPOMs0I7gixBA==
+"@newhighsco/storybook-preset@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.2.0.tgz#106cff7b007d8478b6e995a787d526c8bd646ccc"
+  integrity sha512-yEZS6VU9COjeIo6jriu+KOVUoOKfcWvH426TKsca6Bv3CdE6IO2XWlSdP8u4xhz3ZZOaEapviKGiibXfabqL1A==
   dependencies:
     "@storybook/addon-actions" "6.3.7"
     "@storybook/addon-backgrounds" "6.3.7"
