@@ -1,3 +1,10 @@
+# [6.8.0](https://github.com/newhighsco/chipset/compare/v6.7.36...v6.8.0) (2021-09-01)
+
+
+### Features
+
+* uses dark mode addon ([#780](https://github.com/newhighsco/chipset/issues/780)) ([6f679d9](https://github.com/newhighsco/chipset/commit/6f679d94743ac935082f9d0703aaf988026be164))
+
 ## [6.7.36](https://github.com/newhighsco/chipset/compare/v6.7.35...v6.7.36) (2021-08-31)
 
 
