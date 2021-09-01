@@ -18,7 +18,9 @@ export const decorators = [
 
 export const parameters = {
   chromatic: { viewports },
-  docs: {
-    theme
+  darkMode: {
+    current: 'dark',
+    dark: theme,
+    light: theme
   }
 }

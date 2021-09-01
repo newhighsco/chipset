@@ -2,10 +2,6 @@
 @use '../styles/normalize';
 
 :global {
-  body {
-    font-family: system-ui;
-  }
-
   .sbdocs-title * {
     vertical-align: middle !important;
   }
