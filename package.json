@@ -63,7 +63,7 @@
     "@newhighsco/release-config": "1.0.66",
     "@newhighsco/storybook-preset": "4.3.2",
     "@newhighsco/stylelint-config": "2.0.43",
-    "@storybook/react": "6.3.7",
+    "@storybook/react": "6.3.8",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.3",
     "babel-jest": "27.1.0",
     "babel-loader": "8.2.2",
