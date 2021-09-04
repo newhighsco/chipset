@@ -61,7 +61,7 @@
     "@newhighsco/postcss-config": "3.1.21",
     "@newhighsco/prettier-config": "2.0.12",
     "@newhighsco/release-config": "1.0.66",
-    "@newhighsco/storybook-preset": "4.3.2",
+    "@newhighsco/storybook-preset": "4.3.3",
     "@newhighsco/stylelint-config": "2.0.43",
     "@storybook/react": "6.3.8",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.3",
