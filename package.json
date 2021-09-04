@@ -48,7 +48,7 @@
     "react-ga": "3.3.0"
   },
   "devDependencies": {
-    "@babel/core": "7.15.4",
+    "@babel/core": "7.15.5",
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.15.4",
     "@babel/preset-react": "7.14.5",
