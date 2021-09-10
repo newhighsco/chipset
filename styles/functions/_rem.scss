@@ -1,4 +1,4 @@
-@use "sass:math";
+@use 'sass:math';
 @use './strip-unit' as *;
 
 @function rem($px, $base: 16) {

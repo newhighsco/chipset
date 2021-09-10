@@ -1,4 +1,4 @@
-@use "sass:math";
+@use 'sass:math';
 
 @mixin triangle($point: 'up', $size: 1em, $color: '') {
   @if ($point == 'up') {
