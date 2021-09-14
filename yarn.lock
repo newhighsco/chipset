@@ -2211,10 +2211,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.3.5":
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.5.tgz#4c2d72e200d877217f8e1c34cc5904f9fe325174"
-  integrity sha512-gzitWMCnb+P65lYYlB+Akl60hOz+XOT43/Ltn27lTWZl/DagRQPc38NdC3MuMTXLtpk+CVYvhAIKRkZjwgfHIw==
+"@newhighsco/storybook-preset@4.3.6":
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.6.tgz#31b962e2f6a818281823668f79e27747f378cce4"
+  integrity sha512-l+6r3T/Gsf2wiAA8nhFQSrAFPa6blDL09PwL3cK8oi5lzhxUPJTI+LUjlp1QuQDkQ49FIqwv0aHdRX+/jrPLeA==
   dependencies:
     "@storybook/addon-actions" "6.3.8"
     "@storybook/addon-backgrounds" "6.3.8"
@@ -2228,20 +2228,20 @@
     "@svgr/webpack" "5.5.0"
     postcss "8.3.6"
     react-is "17.0.2"
-    sass "1.40.0"
+    sass "1.40.1"
     sass-loader "12.1.0"
     storybook-dark-mode "1.0.8"
 
-"@newhighsco/stylelint-config@2.0.44":
-  version "2.0.44"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.44.tgz#750f8158d09cf08ea3747b9897f3b3d6f2faad63"
-  integrity sha512-NLJkHVaZ6DjoI5zZLmR//DjWTDwVRwxbeW55ZzXo6nnG/1leWJZsr+vAnX3Edx+R+TQ9955bfMfiiqy5qrn6jQ==
+"@newhighsco/stylelint-config@2.0.45":
+  version "2.0.45"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-2.0.45.tgz#35de3c8f1bd1d716b32442f2f367a5be54abf068"
+  integrity sha512-Ds1f7CzUmofAkDdZaaIEcVqFnCbttMdd9D54quqRLSmL3LL+fZ9PWSZw75eKOLmuRfGhOPShCw3db4kQTJ5bZg==
   dependencies:
     stylelint-config-css-modules "2.2.0"
     stylelint-config-prettier "8.0.2"
     stylelint-config-standard "22.0.0"
     stylelint-prettier "1.2.0"
-    stylelint-scss "3.20.1"
+    stylelint-scss "3.21.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -14155,10 +14155,10 @@ sass-true@6.0.1:
     css "^3.0.0"
     lodash "^4.17.19"
 
-sass@1.40.0:
-  version "1.40.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.40.0.tgz#ffa7106d9c0185169f5b08eaab13d634def948f2"
-  integrity sha512-2nLdBmvcxhsYlH6VDsHMhEoc9iYvH7uIkgGJXXNPfTqwKpvXsZyYPMwNLntqoY4zxDKU8wSSqA7XLKHy1o8nVA==
+sass@1.40.1:
+  version "1.40.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.40.1.tgz#55d3fc38fe9dc579e7324ce0eb9185bede7992a9"
+  integrity sha512-M6WskYLzTfdZdb09W9SftIScjudL8jNkhdh9z96U+olQaKIcw2Knb6QLL9bUhnuSm4VD+1yJVaO2/ENDPMTtAQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
@@ -15050,10 +15050,10 @@ stylelint-prettier@1.2.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@3.20.1:
-  version "3.20.1"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.20.1.tgz#88f175d9cfe1c81a72858bd0d3550cf61530e212"
-  integrity sha512-OTd55O1TTAC5nGKkVmUDLpz53LlK39R3MImv1CfuvsK7/qugktqiZAeQLuuC4UBhzxCnsc7fp9u/gfRZwFAIkA==
+stylelint-scss@3.21.0:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.21.0.tgz#9f50898691b16b1c1ca3945837381d98c5b22331"
+  integrity sha512-CMI2wSHL+XVlNExpauy/+DbUcB/oUZLARDtMIXkpV/5yd8nthzylYd1cdHeDMJVBXeYHldsnebUX6MoV5zPW4A==
   dependencies:
     lodash "^4.17.15"
     postcss-media-query-parser "^0.2.3"
