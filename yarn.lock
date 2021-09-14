@@ -2211,10 +2211,10 @@
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
 
-"@newhighsco/storybook-preset@4.3.4":
-  version "4.3.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.4.tgz#0222e1de34dd9bc756a3003809a39c700abd687c"
-  integrity sha512-qNId8nuzlim5Lk8XnIuT6Tu8mmpg7GgRMx7mCE/vQuaDPK9eFpJTMHUKDScwKBwiIbhxXpbP3np4k8qXAC579g==
+"@newhighsco/storybook-preset@4.3.5":
+  version "4.3.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.5.tgz#4c2d72e200d877217f8e1c34cc5904f9fe325174"
+  integrity sha512-gzitWMCnb+P65lYYlB+Akl60hOz+XOT43/Ltn27lTWZl/DagRQPc38NdC3MuMTXLtpk+CVYvhAIKRkZjwgfHIw==
   dependencies:
     "@storybook/addon-actions" "6.3.8"
     "@storybook/addon-backgrounds" "6.3.8"
@@ -2228,7 +2228,7 @@
     "@svgr/webpack" "5.5.0"
     postcss "8.3.6"
     react-is "17.0.2"
-    sass "1.39.2"
+    sass "1.40.0"
     sass-loader "12.1.0"
     storybook-dark-mode "1.0.8"
 
@@ -14155,10 +14155,10 @@ sass-true@6.0.1:
     css "^3.0.0"
     lodash "^4.17.19"
 
-sass@1.39.2:
-  version "1.39.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.39.2.tgz#1681964378f58d76fc64a6a502619bd5ac99f660"
-  integrity sha512-4/6Vn2RPc+qNwSclUSKvssh7dqK1Ih3FfHBW16I/GfH47b3scbYeOw65UIrYG7PkweFiKbpJjgkf5CV8EMmvzw==
+sass@1.40.0:
+  version "1.40.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.40.0.tgz#ffa7106d9c0185169f5b08eaab13d634def948f2"
+  integrity sha512-2nLdBmvcxhsYlH6VDsHMhEoc9iYvH7uIkgGJXXNPfTqwKpvXsZyYPMwNLntqoY4zxDKU8wSSqA7XLKHy1o8nVA==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
