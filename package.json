@@ -57,7 +57,7 @@
     "@newhighsco/browserslist-config": "1.0.3",
     "@newhighsco/commitlint-config": "1.0.14",
     "@newhighsco/editor-config": "1.1.2",
-    "@newhighsco/eslint-config": "2.3.27",
+    "@newhighsco/eslint-config": "2.3.28",
     "@newhighsco/postcss-config": "3.1.25",
     "@newhighsco/prettier-config": "2.0.14",
     "@newhighsco/release-config": "1.0.68",
