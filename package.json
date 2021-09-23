@@ -60,7 +60,7 @@
     "@newhighsco/eslint-config": "2.3.29",
     "@newhighsco/postcss-config": "3.1.25",
     "@newhighsco/prettier-config": "2.0.14",
-    "@newhighsco/release-config": "1.0.70",
+    "@newhighsco/release-config": "1.0.71",
     "@newhighsco/storybook-preset": "4.3.11",
     "@newhighsco/stylelint-config": "2.0.46",
     "@storybook/react": "6.3.8",
