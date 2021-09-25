@@ -2211,10 +2211,10 @@
     "@semantic-release/npm" "8.0.0"
     "@semantic-release/release-notes-generator" "10.0.2"
 
-"@newhighsco/storybook-preset@4.3.11":
-  version "4.3.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.11.tgz#b7ac5fa1b915b87ef71723ba0efacf6aa1524109"
-  integrity sha512-uslq9aHOVytVPHDF16pnsr/w4CltRdc3iKLFGLRu7dOno071g6S8v9XH9MoLu8urB+8JGsXMqY6fsh+QlbOShw==
+"@newhighsco/storybook-preset@4.3.12":
+  version "4.3.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.12.tgz#1ec0b7caf34d0c466f33c3231c3dfed3a2d14ab2"
+  integrity sha512-quwc4P5Apkb+6J9kugOMAUGI42ucIX3h5+vsXugF1YuVqfpki5QJ+exTz44RVIlPr803neFDYxXfuE1Yvgssnw==
   dependencies:
     "@storybook/addon-actions" "6.3.8"
     "@storybook/addon-backgrounds" "6.3.8"
@@ -2226,7 +2226,7 @@
     "@storybook/manager-webpack5" "6.3.8"
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
-    postcss "8.3.7"
+    postcss "8.3.8"
     react-is "17.0.2"
     sass "1.42.1"
     sass-loader "12.1.0"
@@ -11507,10 +11507,10 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
-nanocolors@^0.1.5:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.6.tgz#bc2350d3edfdbfadd7ac018c855ae7c13905a6ad"
-  integrity sha512-2pvTw6vYRaBLGir2xR7MxaJtyWkrn+C53EpW8yPotG+pdAwBvt0Xwk4VJ6VHLY0aLthVZPvDfm9TdZvrvAm5UQ==
+nanocolors@^0.2.2:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.2.3.tgz#3be3717544da25edf04931fc77ea103624a5f0f3"
+  integrity sha512-RxGTOApG8prHMA08UBMOT6qYzcBBW2EMBv7SRBqoXg/Dqp6G3yT7kLy1tpFuYLO+5h7eajmdiIHJA8oewN58XQ==
 
 nanoid@^3.1.23, nanoid@^3.1.25:
   version "3.1.25"
@@ -13075,12 +13075,12 @@ postcss@8.3.6, postcss@^8.2.1, postcss@^8.2.15:
     nanoid "^3.1.23"
     source-map-js "^0.6.2"
 
-postcss@8.3.7:
-  version "8.3.7"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.7.tgz#ec88563588c8da8e58e7226f7633b51ae221eeda"
-  integrity sha512-9SaY7nnyQ63/WittqZYAvkkYPyKxchMKH71UDzeTmWuLSvxTRpeEeABZAzlCi55cuGcoFyoV/amX2BdsafQidQ==
+postcss@8.3.8:
+  version "8.3.8"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.8.tgz#9ebe2a127396b4b4570ae9f7770e7fb83db2bac1"
+  integrity sha512-GT5bTjjZnwDifajzczOC+r3FI3Cu+PgPvrsjhQdRqa2kTJ4968/X9CUce9xttIB0xOs5c6xf0TCWZo/y9lF6bA==
   dependencies:
-    nanocolors "^0.1.5"
+    nanocolors "^0.2.2"
     nanoid "^3.1.25"
     source-map-js "^0.6.2"
 
