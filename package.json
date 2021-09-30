@@ -6,7 +6,7 @@
   "license": "ISC",
   "config": {
     "title": "Chipset",
-    "logo": "logo.svg"
+    "logo": "https://chipset.newhighsco.re/logo.svg"
   },
   "repository": {
     "type": "git",
