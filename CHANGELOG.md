@@ -1,3 +1,10 @@
+## [6.9.1](https://github.com/newhighsco/chipset/compare/v6.9.0...v6.9.1) (2021-09-30)
+
+
+### Bug Fixes
+
+* **components:** Rename `Header` and `Footer` to `HeaderContainer` and `FooterContainer` ([0885d09](https://github.com/newhighsco/chipset/commit/0885d090d0bd721e7f195309cc7fedb4f9357552))
+
 # [6.9.0](https://github.com/newhighsco/chipset/compare/v6.8.2...v6.9.0) (2021-09-30)
 
 
