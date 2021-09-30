@@ -1,3 +1,16 @@
+# [6.9.0](https://github.com/newhighsco/chipset/compare/v6.8.2...v6.9.0) (2021-09-30)
+
+
+### Bug Fixes
+
+* **storybook:** correctly styles table heading fonts in preview ([179b3bb](https://github.com/newhighsco/chipset/commit/179b3bbd76f4f045405bd200ad3fa43d9a6a4368))
+* **storybook:** sets absolute path for logo ([a20c6c8](https://github.com/newhighsco/chipset/commit/a20c6c8dab66d370c4d508921d703ba1ae9e464b))
+
+
+### Features
+
+* **components:** Adds `Header` and `Footer` components ([d7598c7](https://github.com/newhighsco/chipset/commit/d7598c76cd63ff46f80f26006f5c9d3926cb394b))
+
 ## [6.8.2](https://github.com/newhighsco/chipset/compare/v6.8.1...v6.8.2) (2021-09-29)
 
 
