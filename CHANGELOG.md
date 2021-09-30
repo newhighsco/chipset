@@ -1,3 +1,10 @@
+# [6.10.0](https://github.com/newhighsco/chipset/compare/v6.9.1...v6.10.0) (2021-09-30)
+
+
+### Features
+
+* **page-container:** set default props that are used in every project ([4876173](https://github.com/newhighsco/chipset/commit/4876173d37077912e1861b7a4240cc4c520c347e))
+
 ## [6.9.1](https://github.com/newhighsco/chipset/compare/v6.9.0...v6.9.1) (2021-09-30)
 
 
