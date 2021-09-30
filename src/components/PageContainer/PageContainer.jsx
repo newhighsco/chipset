@@ -11,7 +11,13 @@ const PageContainer = ({ header, footer, children, theme, ...rest }) => {
   return (
     <>
       {header}
-      <ContentContainer theme={theme} {...rest}>
+      <ContentContainer
+        as="main"
+        id="content"
+        role="main"
+        theme={theme}
+        {...rest}
+      >
         {children}
       </ContentContainer>
       {footer}
