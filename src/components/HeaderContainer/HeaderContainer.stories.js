@@ -1,17 +1,17 @@
 import React from 'react'
-import { Header } from '..'
+import { HeaderContainer } from '..'
 import PureContentContainer from '../ContentContainer/ContentContainer'
 
 export default {
-  title: 'Components/Header',
-  component: Header,
+  title: 'Components/HeaderContainer',
+  component: HeaderContainer,
   subcomponents: { [PureContentContainer.displayName]: PureContentContainer },
   parameters: {
     chromatic: { disable: true }
   }
 }
 
-const Template = args => <Header {...args} />
+const Template = args => <HeaderContainer {...args} />
 
 export const source = Template.bind({})
 

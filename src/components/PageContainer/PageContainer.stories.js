@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, PageContainer } from '..'
+import { FooterContainer, HeaderContainer, PageContainer } from '..'
 import PurePageContainer from './PageContainer'
 import PureContentContainer from '../ContentContainer/ContentContainer'
 
@@ -25,8 +25,8 @@ source.parameters = {
 export const example = Template.bind({})
 
 example.args = {
-  header: <Header>Header</Header>,
-  footer: <Footer>Footer</Footer>,
+  header: <HeaderContainer>Header</HeaderContainer>,
+  footer: <FooterContainer>Footer</FooterContainer>,
   children: 'Content'
 }
 example.decorators = [
