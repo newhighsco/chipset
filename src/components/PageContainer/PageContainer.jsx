@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, shape, string } from 'prop-types'
+import { node } from 'prop-types'
 import ContentContainer from '../ContentContainer'
 
 /**
@@ -24,7 +24,7 @@ PageContainer.propTypes = {
   header: node,
   footer: node,
   children: node,
-  theme: shape({ root: string })
+  theme: ContentContainer.propTypes.theme
 }
 
 export default PageContainer

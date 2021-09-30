@@ -1,10 +1,12 @@
 import React from 'react'
-import { ContentContainer, PageContainer } from '..'
+import { Footer, Header, PageContainer } from '..'
 import PurePageContainer from './PageContainer'
+import PureContentContainer from '../ContentContainer/ContentContainer'
 
 export default {
   title: 'Components/PageContainer',
-  component: PurePageContainer
+  component: PurePageContainer,
+  subcomponents: { [PureContentContainer.displayName]: PureContentContainer }
 }
 
 const Template = args => <PageContainer {...args} />
@@ -23,8 +25,8 @@ source.parameters = {
 export const example = Template.bind({})
 
 example.args = {
-  header: <ContentContainer as="header">Header</ContentContainer>,
-  footer: <ContentContainer as="footer">Footer</ContentContainer>,
+  header: <Header>Header</Header>,
+  footer: <Footer>Footer</Footer>,
   children: 'Content'
 }
 example.decorators = [
