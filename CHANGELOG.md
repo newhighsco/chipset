@@ -1,3 +1,10 @@
+# [6.11.0](https://github.com/newhighsco/chipset/compare/v6.10.0...v6.11.0) (2021-10-01)
+
+
+### Features
+
+* **smart-link:** remove dependency on `react-ga` ([dc80fb0](https://github.com/newhighsco/chipset/commit/dc80fb0b46597198f94754fcc5438b6aca46b923))
+
 # [6.10.0](https://github.com/newhighsco/chipset/compare/v6.9.1...v6.10.0) (2021-09-30)
 
 
