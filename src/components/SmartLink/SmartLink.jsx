@@ -1,6 +1,5 @@
 import React from 'react'
 import { func, node, object, oneOf, oneOfType, string } from 'prop-types'
-import { OutboundLink } from 'react-ga'
 import { absoluteUrl } from '../../utils'
 
 /**
@@ -9,7 +8,6 @@ import { absoluteUrl } from '../../utils'
 const SmartLink = ({
   href,
   target,
-  eventLabel,
   type = 'button',
   setRef,
   children,
@@ -28,17 +26,16 @@ const SmartLink = ({
 
   if (absoluteUrl(href)) {
     return (
-      <OutboundLink
+      <a
         ref={setRef}
         className={className}
         to={href}
-        eventLabel={eventLabel ?? href}
         target={target}
         {...(target === '_blank' && { rel: 'noopener noreferrer' })}
         {...rest}
       >
         {children}
-      </OutboundLink>
+      </a>
     )
   }
 
@@ -53,7 +50,6 @@ SmartLink.displayName = 'SmartLink'
 SmartLink.propTypes = {
   href: string,
   target: string,
-  eventLabel: string,
   type: oneOf(['button', 'reset', 'submit']),
   setRef: oneOfType([func, object]),
   children: node,

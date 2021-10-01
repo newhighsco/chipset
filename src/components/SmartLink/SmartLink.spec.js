@@ -4,7 +4,6 @@
 
 import React, { createRef } from 'react'
 import { mount, shallow } from 'enzyme'
-import { OutboundLink } from 'react-ga'
 import WithRef from '.'
 import SmartLink from './SmartLink'
 
@@ -37,24 +36,18 @@ describe('Components/SmartLink', () => {
       <SmartLink href="https://test.com/">Content</SmartLink>
     )
 
-    expect(wrapper.type()).toEqual(OutboundLink)
-    expect(wrapper.prop('eventLabel')).toEqual('https://test.com/')
+    expect(wrapper.type()).toEqual('a')
     expect(wrapper.prop('rel')).toEqual(undefined)
   })
 
   it("should add 'rel=noopener noreferrer' when external 'href' and 'target=blank' is set", () => {
     const wrapper = shallow(
-      <SmartLink
-        href="https://test.com/"
-        target="_blank"
-        eventLabel="customEventLabel"
-      >
+      <SmartLink href="https://test.com/" target="_blank">
         Content
       </SmartLink>
     )
 
-    expect(wrapper.type()).toEqual(OutboundLink)
-    expect(wrapper.prop('eventLabel')).toEqual('customEventLabel')
+    expect(wrapper.type()).toEqual('a')
     expect(wrapper.prop('rel')).toEqual('noopener noreferrer')
   })
 

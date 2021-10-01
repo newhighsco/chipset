@@ -18,7 +18,6 @@ const CreditLockup = ({ theme, ...rest }) => (
     <SmartLink
       className={theme?.link}
       href={href}
-      eventLabel="credit"
       target="_blank"
       title={title}
     >
