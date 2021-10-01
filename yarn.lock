@@ -1791,10 +1791,10 @@
     eslint-plugin-react "7.26.1"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.2.3":
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.2.3.tgz#6081dc171521125db6bce88dcc69091027553e81"
-  integrity sha512-XhvfDvHyoyKwU9GQoQBD/W1k9Bmc+0J/kWMZcJr4sZ3LYH9TCcUa4cevFmAXNmM1ybk6kCTXo/m6ZXJaFgtCXQ==
+"@newhighsco/postcss-config@3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.0.tgz#75b0a9182be5c4e9c1c9adfe8f21e4f6a9098d88"
+  integrity sha512-SujJvKFc4s3gtVvOtVRsOXqfme/XWaBQWu7gUWTNQqvyIAqHoWCXEAuVRGC8pY0O74ctLROSfWbrGglPIc90ag==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.3.6"
