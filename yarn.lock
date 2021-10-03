@@ -1791,14 +1791,14 @@
     eslint-plugin-react "7.26.1"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.1.tgz#1d3484310bc4e80318d039c28d96872b4ac96e25"
-  integrity sha512-ZezTt4i1O40AvHcXkYgNTeDfOE019ylRiAlxaByntfee0FS+grNL2KZ755pXDYx2QmQZcRAFVstlniXxL3OLvA==
+"@newhighsco/postcss-config@3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.2.tgz#ded715ded8cb4ae2c63fb2a4f772be0ac88c0802"
+  integrity sha512-TtC/gSjUcAJryD/gRCEQOMdOzwDELQxqq+yk6SMqldkawcW2+MHprRKexyDWbGMMrPPVunR3lNR/rJkDHH2/Jw==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.3.6"
-    caniuse-lite "1.0.30001263"
+    caniuse-lite "1.0.30001264"
     postcss "8.3.8"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
@@ -5042,10 +5042,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001263:
-  version "1.0.30001263"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001263.tgz#7ce7a6fb482a137585cbc908aaf38e90c53a16a4"
-  integrity sha512-doiV5dft6yzWO1WwU19kt8Qz8R0/8DgEziz6/9n2FxUasteZNwNNYSmJO3GLBH8lCVE73AB1RPDPAeYbcO5Cvw==
+caniuse-lite@1.0.30001264:
+  version "1.0.30001264"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001264.tgz#88f625a60efb6724c7c62ac698bc8dbd9757e55b"
+  integrity sha512-Ftfqqfcs/ePiUmyaySsQ4PUsdcYyXG2rfoBVsk3iY1ahHaJEw65vfb7Suzqm+cEkwwPIv/XWkg27iCpRavH4zA==
 
 caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001259, caniuse-lite@^1.0.30001260:
   version "1.0.30001261"
