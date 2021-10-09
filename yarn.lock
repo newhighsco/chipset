@@ -1913,10 +1913,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.3.tgz#e4a8ee575fbe5a21bc9df809a4998e1959713524"
   integrity sha512-iV6oB/iFrObsOBVQIAsV2PBDPSm2cLktnKEvT0k9AjiL15+R6I40OIddzBDve0buW1i/zDNtWJj5WH/P9ugQcw==
 
-"@newhighsco/commitlint-config@1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.15.tgz#e8258f32a7bbd23879f2d60203861566a6a7794e"
-  integrity sha512-6SuqGnLeLAxk6GgGL+N6k8lGyMQlqYpwEj+MbVk/wjO26FQ04HmlN3UUuUav3UBKcil4BCFIWDhsZcmx+Drq0g==
+"@newhighsco/commitlint-config@1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.16.tgz#baf7bb2613adcff18185487984432e9fb56f7340"
+  integrity sha512-oLE6VbtJR//2m+AxxMwsdJROT5FBGxEnUFkz7+4Jb+CQWLBY0K8/JlI1Q5JyW9j6pJ6y/8Ctjh/ILLWw6jwfpA==
 
 "@newhighsco/editor-config@1.1.2":
   version "1.1.2"
