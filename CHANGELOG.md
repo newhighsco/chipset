@@ -1,3 +1,10 @@
+# [6.12.0](https://github.com/newhighsco/chipset/compare/v6.11.2...v6.12.0) (2021-10-13)
+
+
+### Features
+
+* **card:** pass `rest` to container ([dcaf7d4](https://github.com/newhighsco/chipset/commit/dcaf7d439d5c47127c98826ef8122eed4cd314b4))
+
 ## [6.11.2](https://github.com/newhighsco/chipset/compare/v6.11.1...v6.11.2) (2021-10-13)
 
 
