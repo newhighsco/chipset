@@ -1,3 +1,10 @@
+## [6.11.2](https://github.com/newhighsco/chipset/compare/v6.11.1...v6.11.2) (2021-10-13)
+
+
+### Bug Fixes
+
+* **smart-link:** correctly forward refs between components ([d9474bb](https://github.com/newhighsco/chipset/commit/d9474bb8c89c7df1444282f6030ed6dfdb38864e))
+
 ## [6.11.1](https://github.com/newhighsco/chipset/compare/v6.11.0...v6.11.1) (2021-10-04)
 
 
