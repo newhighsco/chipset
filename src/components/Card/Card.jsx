@@ -1,5 +1,13 @@
 import React from 'react'
-import { node, number, oneOfType, shape, string } from 'prop-types'
+import {
+  func,
+  node,
+  number,
+  object,
+  oneOfType,
+  shape,
+  string
+} from 'prop-types'
 import classNames from 'classnames'
 import CardHeading from './CardHeading'
 import CardImage from './CardImage'
@@ -7,12 +15,22 @@ import CardImage from './CardImage'
 /**
  * The `Card` contains content and actions about a single subject
  */
-const Card = ({ href, target, image, heading, children, theme, className }) => {
+const Card = ({
+  href,
+  target,
+  image,
+  heading,
+  children,
+  theme,
+  className,
+  setRef
+}) => {
   if (!image && !heading && !children) return null
 
   return (
     <div
       className={classNames(theme?.root, className)}
+      ref={setRef}
       {...(href && { role: 'link' })}
     >
       <CardImage {...image} theme={theme} />
@@ -45,6 +63,7 @@ Card.propTypes = {
     heading: string,
     copy: string
   }),
+  setRef: oneOfType([func, object]),
   className: string
 }
 

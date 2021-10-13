@@ -1,5 +1,10 @@
-import React from 'react'
-import { shallow } from 'enzyme'
+/**
+ * @jest-environment jsdom
+ */
+
+import React, { createRef } from 'react'
+import { mount, shallow } from 'enzyme'
+import ButtonWithRef from '.'
 import Button from './Button'
 import SmartLink from '../SmartLink'
 
@@ -26,5 +31,17 @@ describe('Components/Button', () => {
     )
 
     expect(wrapper.prop('className')).toEqual('root active foo')
+  })
+
+  it('should forward ref', () => {
+    const ref = createRef()
+
+    mount(
+      <>
+        <ButtonWithRef ref={ref}>Content</ButtonWithRef>
+      </>
+    )
+
+    expect(ref.current).toBeInstanceOf(HTMLButtonElement)
   })
 })

@@ -29,7 +29,7 @@ const SmartLink = ({
       <a
         ref={setRef}
         className={className}
-        to={href}
+        href={href}
         target={target}
         {...(target === '_blank' && { rel: 'noopener noreferrer' })}
         {...rest}

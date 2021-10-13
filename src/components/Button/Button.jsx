@@ -1,14 +1,15 @@
 import React from 'react'
-import { bool, node, shape, string } from 'prop-types'
+import { bool, func, node, object, oneOfType, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import SmartLink from '../SmartLink'
 
-const Button = ({ active, children, theme, className, ...rest }) => {
+const Button = ({ active, children, theme, className, setRef, ...rest }) => {
   if (!children) return null
 
   return (
     <SmartLink
       className={classNames(theme?.root, active && theme?.active, className)}
+      ref={setRef}
       {...rest}
     >
       <span className={theme?.content}>{children}</span>
@@ -21,6 +22,7 @@ Button.propTypes = {
   active: bool,
   children: node,
   theme: shape({ root: string, active: string }),
+  setRef: oneOfType([func, object]),
   className: string
 }
 

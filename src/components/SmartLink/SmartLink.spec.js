@@ -4,7 +4,7 @@
 
 import React, { createRef } from 'react'
 import { mount, shallow } from 'enzyme'
-import WithRef from '.'
+import SmartLinkWithRef from '.'
 import SmartLink from './SmartLink'
 
 describe('Components/SmartLink', () => {
@@ -56,7 +56,7 @@ describe('Components/SmartLink', () => {
 
     mount(
       <>
-        <WithRef ref={ref}>Content</WithRef>
+        <SmartLinkWithRef ref={ref}>Content</SmartLinkWithRef>
       </>
     )
 

@@ -1,5 +1,10 @@
-import React from 'react'
-import { shallow } from 'enzyme'
+/**
+ * @jest-environment jsdom
+ */
+
+import React, { createRef } from 'react'
+import { mount, shallow } from 'enzyme'
+import CardWithRef from '.'
 import Card from './Card'
 import CardHeading from './CardHeading'
 import CardImage from './CardImage'
@@ -41,5 +46,17 @@ describe('Components/Card', () => {
     )
 
     expect(wrapper.prop('className')).toEqual('root foo')
+  })
+
+  it('should forward ref', () => {
+    const ref = createRef()
+
+    mount(
+      <>
+        <CardWithRef ref={ref}>Content</CardWithRef>
+      </>
+    )
+
+    expect(ref.current).toBeInstanceOf(HTMLDivElement)
   })
 })

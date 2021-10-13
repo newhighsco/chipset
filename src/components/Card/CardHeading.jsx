@@ -1,8 +1,8 @@
 import React from 'react'
-import { node, object, string } from 'prop-types'
+import { func, node, object, oneOfType, string } from 'prop-types'
 import SmartLink from '../SmartLink'
 
-const CardHeading = ({ href, target, children, theme }) => {
+const CardHeading = ({ href, target, children, ref, theme }) => {
   if (!children) return null
 
   return (
@@ -22,6 +22,7 @@ CardHeading.propTypes = {
   href: string,
   target: string,
   children: node,
+  ref: oneOfType([func, object]),
   theme: object
 }
 
