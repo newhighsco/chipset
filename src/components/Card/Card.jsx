@@ -23,7 +23,8 @@ const Card = ({
   children,
   theme,
   className,
-  setRef
+  setRef,
+  ...rest
 }) => {
   if (!image && !heading && !children) return null
 
@@ -32,6 +33,7 @@ const Card = ({
       className={classNames(theme?.root, className)}
       ref={setRef}
       {...(href && { role: 'link' })}
+      {...rest}
     >
       <CardImage {...image} theme={theme} />
       {(heading || children) && (
