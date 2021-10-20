@@ -1731,10 +1731,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.33":
-  version "2.3.33"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.33.tgz#be67c89e8ede09b169903d2c6da92795dd022231"
-  integrity sha512-wmxa9wt+sSE0i6xTOAx4FxDvZdkVBLSrrtv2iLeH5NTShP708wFoo+FWpQ4PSGiLQCUQcuVZm7NGIhWeBiInHQ==
+"@newhighsco/eslint-config@2.3.34":
+  version "2.3.34"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.34.tgz#8b5c57795c63a46192c43cf361812d32f60b2f0c"
+  integrity sha512-P9siOpBq28Pw4AbXQ8elSBZIgbzBLxMEiVR74w4qPLcaWOjv97bacDA86dEfkkugsMkNWAgrh5EMieR2AUhRZw==
   dependencies:
     "@babel/core" "7.15.8"
     "@babel/eslint-parser" "7.15.8"
@@ -1752,15 +1752,15 @@
     eslint-plugin-react "7.26.1"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.4.7":
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.7.tgz#4fe59af093565a90a90c629a4ceb00813d2d1a37"
-  integrity sha512-xZ4itGkV+hphcYQ7NrFa7JKK3aFxfxVC+tkR6Svtaqt+yJzJ8/vqy2K4SegH3cJ3cko1cguZ/V7MBwWtKWuVWw==
+"@newhighsco/postcss-config@3.4.8":
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.8.tgz#8846d776213569136ef0f994026e90f1a6c8e583"
+  integrity sha512-pLVEIDN+DqOycfbrEYw2zGkCzeFCXp/yA6Xz7U7D1S7rY7Uf5Najyg79Krmdy8Lzhxf/ZKj/lWLB2CxOxRfjqQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.3.7"
     caniuse-lite "1.0.30001270"
-    postcss "8.3.9"
+    postcss "8.3.10"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -12356,15 +12356,6 @@ postcss@8.3.10:
     picocolors "^1.0.0"
     source-map-js "^0.6.2"
 
-postcss@8.3.9, postcss@^8.2.1, postcss@^8.2.15:
-  version "8.3.9"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.9.tgz#98754caa06c4ee9eb59cc48bd073bb6bd3437c31"
-  integrity sha512-f/ZFyAKh9Dnqytx5X62jgjhhzttjZS7hMsohcI7HEI5tjELX/HxCy3EFhsRxyzGvrzFF+82XPvCS8T9TFleVJw==
-  dependencies:
-    nanoid "^3.1.28"
-    picocolors "^0.2.1"
-    source-map-js "^0.6.2"
-
 postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.36, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.39"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309"
@@ -12372,6 +12363,15 @@ postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.
   dependencies:
     picocolors "^0.2.1"
     source-map "^0.6.1"
+
+postcss@^8.2.1, postcss@^8.2.15:
+  version "8.3.9"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.9.tgz#98754caa06c4ee9eb59cc48bd073bb6bd3437c31"
+  integrity sha512-f/ZFyAKh9Dnqytx5X62jgjhhzttjZS7hMsohcI7HEI5tjELX/HxCy3EFhsRxyzGvrzFF+82XPvCS8T9TFleVJw==
+  dependencies:
+    nanoid "^3.1.28"
+    picocolors "^0.2.1"
+    source-map-js "^0.6.2"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
