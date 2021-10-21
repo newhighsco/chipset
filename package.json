@@ -63,7 +63,7 @@
     "@newhighsco/storybook-preset": "4.3.20",
     "@newhighsco/stylelint-config": "2.0.48",
     "@storybook/react": "6.3.12",
-    "@wojtekmaj/enzyme-adapter-react-17": "0.6.3",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.5",
     "babel-jest": "27.3.1",
     "babel-loader": "8.2.3",
     "chromatic": "6.0.4",
