@@ -1731,10 +1731,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.34":
-  version "2.3.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.34.tgz#8b5c57795c63a46192c43cf361812d32f60b2f0c"
-  integrity sha512-P9siOpBq28Pw4AbXQ8elSBZIgbzBLxMEiVR74w4qPLcaWOjv97bacDA86dEfkkugsMkNWAgrh5EMieR2AUhRZw==
+"@newhighsco/eslint-config@2.3.35":
+  version "2.3.35"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.35.tgz#df09470cd4e6e1399ac1a9ca72a99691f6871bf2"
+  integrity sha512-/qAYxDXGkAs7K619vsGyJfrA3CIJ9kyRJ9B1gW2kcR+1lFol+8rqvotC+xwVty+ABgjXoKqMufS0PA/Gk0FhDA==
   dependencies:
     "@babel/core" "7.15.8"
     "@babel/eslint-parser" "7.15.8"
@@ -1748,19 +1748,19 @@
     eslint-plugin-mdx "1.16.0"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "4.0.0"
-    eslint-plugin-promise "5.1.0"
+    eslint-plugin-promise "5.1.1"
     eslint-plugin-react "7.26.1"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.4.8":
-  version "3.4.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.8.tgz#8846d776213569136ef0f994026e90f1a6c8e583"
-  integrity sha512-pLVEIDN+DqOycfbrEYw2zGkCzeFCXp/yA6Xz7U7D1S7rY7Uf5Najyg79Krmdy8Lzhxf/ZKj/lWLB2CxOxRfjqQ==
+"@newhighsco/postcss-config@3.4.9":
+  version "3.4.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.9.tgz#4d1e110dd6088f64137ac6c6eb7fac18142c0369"
+  integrity sha512-Vzcn9chs0NacSupG6+6kbZ+O0AluZVLinP2oEiPrIPXo/IpggQiuApUtTm5PltSdhRs/ftup3ToJYtaqrYMIzw==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.3.7"
     caniuse-lite "1.0.30001270"
-    postcss "8.3.10"
+    postcss "8.3.11"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -6836,10 +6836,10 @@ eslint-plugin-prettier@4.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-promise@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.1.0.tgz#fb2188fb734e4557993733b41aa1a688f46c6f24"
-  integrity sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==
+eslint-plugin-promise@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.1.1.tgz#9674d11c056d1bafac38e4a3a9060be740988d90"
+  integrity sha512-XgdcdyNzHfmlQyweOPTxmc7pIsS6dE4MvwhXWMQ2Dxs1XAL2GJDilUsjWen6TWik0aSI+zD/PqocZBblcm9rdA==
 
 eslint-plugin-react@7.26.1:
   version "7.26.1"
@@ -12361,6 +12361,15 @@ postcss@8.3.10:
   version "8.3.10"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.10.tgz#4d614e108ccc69c65c2f6dc6cec23dd5c85b73af"
   integrity sha512-YYfvfUdWx+ECpr5Hgc6XRfsaux8LksL5ey8qTtWiuRXOpOF1YYMwAySdh0nSmwhZAFvvJ6rgiIkKVShu4x2T1Q==
+  dependencies:
+    nanoid "^3.1.30"
+    picocolors "^1.0.0"
+    source-map-js "^0.6.2"
+
+postcss@8.3.11:
+  version "8.3.11"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.11.tgz#c3beca7ea811cd5e1c4a3ec6d2e7599ef1f8f858"
+  integrity sha512-hCmlUAIlUiav8Xdqw3Io4LcpA1DOt7h3LSTAC4G6JGHFFaWzI6qvFt9oilvl8BmkbBRX1IhM90ZAmpk68zccQA==
   dependencies:
     nanoid "^3.1.30"
     picocolors "^1.0.0"
