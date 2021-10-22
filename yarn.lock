@@ -1781,10 +1781,10 @@
     "@semantic-release/npm" "8.0.2"
     "@semantic-release/release-notes-generator" "10.0.2"
 
-"@newhighsco/storybook-preset@4.3.20":
-  version "4.3.20"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.20.tgz#f3569b5b90ac8e1d7ba481b28215ec159f66728e"
-  integrity sha512-EkDzHMNLuKrI9pB2PDTpMPSjVHQuWfS1mhciyPsIac9DObPr3CCw6FaMloA0M6/ukOdcQgbYd6VUMtrnzO8gPg==
+"@newhighsco/storybook-preset@4.3.22":
+  version "4.3.22"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.22.tgz#03344626d5fe576b6104fe18d4975cf4ab316f25"
+  integrity sha512-pvLWdXE6ceAlbhUn5p4TTy4uQEmaXBh7aSI3tf2q57eLFcsgQlHkAecz2y88Bw88hfJaRy/rHwkVIYCfKlev/w==
   dependencies:
     "@storybook/addon-actions" "6.3.12"
     "@storybook/addon-backgrounds" "6.3.12"
@@ -1796,9 +1796,9 @@
     "@storybook/manager-webpack5" "6.3.12"
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "5.5.0"
-    postcss "8.3.10"
+    postcss "8.3.11"
     react-is "17.0.2"
-    sass "1.43.2"
+    sass "1.43.3"
     sass-loader "12.2.0"
     storybook-dark-mode "1.0.8"
 
@@ -12357,15 +12357,6 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@8.3.10:
-  version "8.3.10"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.10.tgz#4d614e108ccc69c65c2f6dc6cec23dd5c85b73af"
-  integrity sha512-YYfvfUdWx+ECpr5Hgc6XRfsaux8LksL5ey8qTtWiuRXOpOF1YYMwAySdh0nSmwhZAFvvJ6rgiIkKVShu4x2T1Q==
-  dependencies:
-    nanoid "^3.1.30"
-    picocolors "^1.0.0"
-    source-map-js "^0.6.2"
-
 postcss@8.3.11:
   version "8.3.11"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.11.tgz#c3beca7ea811cd5e1c4a3ec6d2e7599ef1f8f858"
@@ -13543,10 +13534,10 @@ sass-true@6.0.1:
     css "^3.0.0"
     lodash "^4.17.19"
 
-sass@1.43.2:
-  version "1.43.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.43.2.tgz#c02501520c624ad6622529a8b3724eb08da82d65"
-  integrity sha512-DncYhjl3wBaPMMJR0kIUaH3sF536rVrOcqqVGmTZHQRRzj7LQlyGV7Mb8aCKFyILMr5VsPHwRYtyKpnKYlmQSQ==
+sass@1.43.3:
+  version "1.43.3"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.43.3.tgz#aa16a69131b84f0cd23189a242571e8905f1ce43"
+  integrity sha512-BJnLngqWpMeS65UvlYYEuCb3/fLxDxhHtOB/gWPxs6NKrslTxGt3ZxwIvOe/0Jm4tWwM/+tIpE3wj4dLEhPDeQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
