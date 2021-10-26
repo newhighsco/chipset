@@ -8,7 +8,7 @@
 .video {
   background: black;
 
-  @include mixins.mq(breakpoints.$tabletLandscape) {
+  @include mixins.mq(breakpoints.$tablet-landscape) {
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -17,7 +17,7 @@
 }
 
 .chat {
-  @include mixins.mq(breakpoints.$tabletLandscape) {
+  @include mixins.mq(breakpoints.$tablet-landscape) {
     width: 340px;
   }
 

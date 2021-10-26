@@ -5,6 +5,7 @@
 // 2. Prevent adjustments of font size after orientation changes in iOS
 html {
   box-sizing: border-box; // 1
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-text-size-adjust: 100%; // 2
 }
 
@@ -152,6 +153,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-appearance: button;
 }
 
@@ -211,18 +213,21 @@ textarea {
 // 1. Correct the odd appearance in Chrome and Safari.
 // 2. Correct the outline style in Safari.
 [type='search'] {
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-appearance: textfield; // 1
   outline-offset: -2px; // 2
 }
 
 // Remove the inner padding in Chrome and Safari on macOS.
 [type='search']::-webkit-search-decoration {
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-appearance: none;
 }
 
 // 1. Correct the inability to style clickable types in iOS and Safari.
 // 2. Change font properties to `inherit` in Safari.
 ::-webkit-file-upload-button {
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-appearance: button; // 1
   font: inherit; // 2
 }

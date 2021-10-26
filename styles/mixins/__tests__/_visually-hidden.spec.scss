@@ -6,7 +6,7 @@
     @include assert {
       @include output {
         .element {
-          @include visually-hidden();
+          @include visually-hidden;
         }
       }
 

@@ -1,7 +1,8 @@
+@use 'sass:list';
 @use 'sass:math';
 
 @mixin triangle($point: 'up', $size: 1em, $color: '') {
-  @if ($point == 'up') {
+  @if $point == 'up' {
     @include _triangle-borders(
       (
         right: transparent,
@@ -88,13 +89,14 @@
   }
 }
 
+/* stylelint-disable-next-line scss/at-mixin-pattern */
 @mixin _triangle-borders($sides, $size, $color) {
   width: 0;
   height: 0;
 
   @each $side in $sides {
-    $direction: nth($side, 1);
-    $type: nth($side, 2);
+    $direction: list.nth($side, 1);
+    $type: list.nth($side, 2);
 
     @if $type == filled {
       border-#{$direction}: $size solid if($color != '', $color, null);

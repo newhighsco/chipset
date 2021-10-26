@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 $black: #000;
 $yellow: #ff0;
-$lemon: lighten($yellow, 40%);
+$lemon: color.adjust($yellow, $lightness: 40%);

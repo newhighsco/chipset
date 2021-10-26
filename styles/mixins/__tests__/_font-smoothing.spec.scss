@@ -6,7 +6,7 @@
     @include assert {
       @include output {
         .element {
-          @include font-smoothing();
+          @include font-smoothing;
         }
       }
 
