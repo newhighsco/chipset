@@ -4,8 +4,8 @@
 @use '../../styles/breakpoints.module';
 
 @include grid.gutter('', functions.spacing(1));
-@include grid.reverse();
-@include grid.flex();
+@include grid.reverse;
+@include grid.flex;
 @include grid.valign(middle bottom);
 @include grid.widths('', 2 3 4);
 

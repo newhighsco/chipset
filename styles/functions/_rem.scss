@@ -2,7 +2,7 @@
 @use './strip-unit' as *;
 
 @function rem($px, $base: 16) {
-  @if ($px == 0) {
+  @if $px == 0 {
     @return 0;
   }
 

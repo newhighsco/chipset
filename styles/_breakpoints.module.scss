@@ -1,28 +1,28 @@
 @use './functions/strip-unit' as *;
 
 $mobile: 320px !default;
-$mobileLandscape: 400px !default;
+$mobile-landscape: 400px !default;
 $tablet: 550px !default;
-$tabletLandscape: 800px !default;
+$tablet-landscape: 800px !default;
 $desktop: 960px !default;
-$desktopMedium: 1280px !default;
-$desktopLarge: 1600px !default;
+$desktop-medium: 1280px !default;
+$desktop-large: 1600px !default;
 $all: (
   mobile: $mobile,
-  mobileLandscape: $mobileLandscape,
+  mobile-landscape: $mobile-landscape,
   tablet: $tablet,
-  tabletLandscape: $tabletLandscape,
+  tablet-landscape: $tablet-landscape,
   desktop: $desktop,
-  desktopMedium: $desktopMedium,
-  desktopLarge: $desktopLarge
+  desktop-medium: $desktop-medium,
+  desktop-large: $desktop-large
 );
 
 :export {
   mobile: strip-unit($mobile);
-  mobileLandscape: strip-unit($mobileLandscape);
+  mobileLandscape: strip-unit($mobile-landscape);
   tablet: strip-unit($tablet);
-  tabletLandscape: strip-unit($tabletLandscape);
+  tabletLandscape: strip-unit($tablet-landscape);
   desktop: strip-unit($desktop);
-  desktopMedium: strip-unit($desktopMedium);
-  desktopLarge: strip-unit($desktopLarge);
+  desktopMedium: strip-unit($desktop-medium);
+  desktopLarge: strip-unit($desktop-large);
 }

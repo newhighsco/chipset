@@ -5,7 +5,7 @@
   @include test('should output base styles using fallback gutter') {
     @include assert {
       @include output {
-        @include grid.initialize();
+        @include grid.initialize;
       }
 
       @include expect {
@@ -58,6 +58,7 @@
   }
 
   @include test('should output base styles when passed a gutter as %') {
+    /* stylelint-disable number-max-precision */
     @include assert {
       @include output {
         @include grid.gutter('', 20%);
@@ -73,9 +74,11 @@
         }
       }
     }
+    /* stylelint-enable number-max-precision */
   }
 
   @include test('should allow custom gutters for grid modifiers') {
+    /* stylelint-disable number-max-precision */
     @include assert {
       @include output {
         @include grid.gutter('foo', 1em);
@@ -101,13 +104,14 @@
       }
     }
   }
+  /* stylelint-enable number-max-precision */
 }
 
 @include test-module('grid.reverse()') {
   @include test('should output styles to visually reverse grid item order') {
     @include assert {
       @include output {
-        @include grid.reverse();
+        @include grid.reverse;
       }
 
       @include contains {
@@ -149,6 +153,7 @@
   @include test(
     'should output grid widths from whole width, through to sixteenths'
   ) {
+    /* stylelint-disable number-max-precision */
     @include assert {
       @include output {
         @include grid.widths('', 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16);
@@ -640,6 +645,7 @@
         }
       }
     }
+    /* stylelint-enable number-max-precision */
   }
 
   @include test('should output grid widths, prefixed with modifiers') {
@@ -661,7 +667,7 @@
   @include test('should output styles for flexbox grid items') {
     @include assert {
       @include output {
-        @include grid.flex();
+        @include grid.flex;
       }
 
       @include expect {
@@ -720,7 +726,7 @@
   @include test('should output base styles when expecting uncompressed html') {
     @include assert {
       @include output {
-        @include grid.uncompressed();
+        @include grid.uncompressed;
       }
 
       @include expect {

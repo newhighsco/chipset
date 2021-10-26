@@ -1,3 +1,4 @@
+/* stylelint-disable scss/dollar-variable-pattern */
 @mixin mq($min: false, $max: false, $height: false, $and: false, $media: all) {
   $_direction: if($height, height, width);
   $mq: '#{$media} ';
