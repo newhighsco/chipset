@@ -2527,10 +2527,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.0.3.tgz#e4a8ee575fbe5a21bc9df809a4998e1959713524"
   integrity sha512-iV6oB/iFrObsOBVQIAsV2PBDPSm2cLktnKEvT0k9AjiL15+R6I40OIddzBDve0buW1i/zDNtWJj5WH/P9ugQcw==
 
-"@newhighsco/commitlint-config@1.0.16":
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.16.tgz#baf7bb2613adcff18185487984432e9fb56f7340"
-  integrity sha512-oLE6VbtJR//2m+AxxMwsdJROT5FBGxEnUFkz7+4Jb+CQWLBY0K8/JlI1Q5JyW9j6pJ6y/8Ctjh/ILLWw6jwfpA==
+"@newhighsco/commitlint-config@1.0.17":
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.17.tgz#e711b0a000364250d91e1630068e282a34efaa16"
+  integrity sha512-H0Flgkarr/OG5y8M2vh5pa6i9R6VtubQGDfH7D1MpftduH/7Ki9aFztzwHMmQyIfR0AzwngB1tHWIOfYpR9xBg==
 
 "@newhighsco/editor-config@1.1.2":
   version "1.1.2"
@@ -2558,14 +2558,14 @@
     eslint-plugin-react "7.26.1"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/postcss-config@3.4.14":
-  version "3.4.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.14.tgz#84f138d0606d70f7e37928c24ed41c8ef6acfb72"
-  integrity sha512-KK0kAVgFz8DYh3bRQEy07kbJ+HhOeKJssWkTjSuOMNU4MQr+ilpLr5p/PwLZgCR8NtUERGaiXS42ngk4XU++Fw==
+"@newhighsco/postcss-config@3.4.15":
+  version "3.4.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.4.15.tgz#fbcc5aa864887e73f9e9a48cbc469ce0e7d22eb5"
+  integrity sha512-sv5xYH9oh52ffPouMIuvcjscL23Sn5YxE6kFrgBOmjlimLhHEIZ2z+aA1JXHQLmDwFVzrD6Zb1wH3tAjNiA70Q==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.0.3"
     autoprefixer "10.4.0"
-    caniuse-lite "1.0.30001275"
+    caniuse-lite "1.0.30001276"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "6.7.0"
 
@@ -2574,16 +2574,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.14.tgz#947debbd11494d33e4d4ec055eb20548b74c95fc"
   integrity sha512-Vrh2QM6JBp7YpjJcAYkKmB5HPNIwVBdxYcFNZ5AeqmYRFxpOoww4qrsXc/uQuvd43fy3SSzskL9LxnPCUbKX3w==
 
-"@newhighsco/release-config@1.0.75":
-  version "1.0.75"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.75.tgz#82dcd4b40fc59691fa4add5c2022c8cda48ce360"
-  integrity sha512-8p2RNWiVK7OXAgUZniQfyfl30nlRhxiH8WtHdytFuE9rwGp9eLc6Ub/+5dvEMA06VNx7XKMY9DQhL/eWcFmSQw==
+"@newhighsco/release-config@1.0.76":
+  version "1.0.76"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.76.tgz#e3d36c04feac3b9f014c64236c043420fb85ebce"
+  integrity sha512-4V6u+bLkmYFGVuidog4rcBZkCN8JtEa+6v39a+xoNu2Kpc76GclF6mr11pbpjTIGCIsemGW28imEBfWTa8ZmnQ==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
     "@semantic-release/commit-analyzer" "9.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "8.0.2"
-    "@semantic-release/npm" "8.0.2"
+    "@semantic-release/npm" "8.0.3"
     "@semantic-release/release-notes-generator" "10.0.2"
 
 "@newhighsco/storybook-preset@4.3.26":
@@ -3015,10 +3015,10 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/npm@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-8.0.2.tgz#1dc285e4250380bc3259735bf843738c7151f275"
-  integrity sha512-ky7QczJGExZJnS8wjdhag1EV+T3u/DbcxqpBQOIZu1fcJYKsGxr2uK9guc/H2cg0yFCto5atbuZm2sZmaG5qxg==
+"@semantic-release/npm@8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-8.0.3.tgz#69378ce529bbd263aa8fc899b2d0f874114e0302"
+  integrity sha512-Qbg7x/O1t3sJqsv2+U0AL4Utgi/ymlCiUdt67Ftz9HL9N8aDML4t2tE0T9MBaYdqwD976hz57DqHHXKVppUBoA==
   dependencies:
     "@semantic-release/error" "^3.0.0"
     aggregate-error "^3.0.0"
@@ -5847,10 +5847,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
-caniuse-lite@1.0.30001275:
-  version "1.0.30001275"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001275.tgz#26f5076629fe4e52bbd245f9046ad7b90aafdf57"
-  integrity sha512-ihJVvj8RX0kn9GgP43HKhb5q9s2XQn4nEQhdldEJvZhCsuiB2XOq6fAMYQZaN6FPWfsr2qU0cdL0CSbETwbJAg==
+caniuse-lite@1.0.30001276:
+  version "1.0.30001276"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001276.tgz#7049685eb972eb09c0ecbb57227b489d76244fb1"
+  integrity sha512-psUNoaG1ilknZPxi8HuhQWobuhLqtYSRUxplfVkEJdgZNB9TETVYGSBtv4YyfAdGvE6gn2eb0ztiXqHoWJcGnw==
 
 caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001264:
   version "1.0.30001265"
