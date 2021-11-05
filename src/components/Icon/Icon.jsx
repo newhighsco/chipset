@@ -1,5 +1,5 @@
 import React from 'react'
-import { node, number, shape, string } from 'prop-types'
+import { node, number, oneOfType, shape, string } from 'prop-types'
 import classNames from 'classnames'
 import VisuallyHidden from '../VisuallyHidden'
 
@@ -23,9 +23,9 @@ const Icon = ({ height, width, alt, children, theme }) => {
         'aria-hidden': 'true'
       })}
       style={{
-        width: width && `${width}px`,
-        height: height && `${height}px`,
-        lineHeight: height && `${height}px`
+        width,
+        height,
+        lineHeight: height
       }}
     >
       {alt && <VisuallyHidden>{alt}</VisuallyHidden>}
@@ -36,8 +36,8 @@ const Icon = ({ height, width, alt, children, theme }) => {
 
 Icon.displayName = 'Icon'
 Icon.propTypes = {
-  height: number,
-  width: number,
+  height: oneOfType([number, string]),
+  width: oneOfType([number, string]),
   alt: string,
   children: node,
   theme: shape({ root: string })

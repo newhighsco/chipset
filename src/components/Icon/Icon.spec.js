@@ -41,14 +41,14 @@ describe('Components/Icon', () => {
 
   it('should set correct classNames', () => {
     const wrapper = shallow(
-      <Icon theme={theme} width={20} height={10}>
+      <Icon theme={theme} width={20} height="10px">
         Content
       </Icon>
     )
 
     expect(wrapper.prop('className')).toEqual('root customSize')
     expect(wrapper.prop('style')).toEqual({
-      width: '20px',
+      width: 20,
       height: '10px',
       lineHeight: '10px'
     })
