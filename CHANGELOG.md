@@ -1,3 +1,10 @@
+## [6.12.3](https://github.com/newhighsco/chipset/compare/v6.12.2...v6.12.3) (2021-11-05)
+
+
+### Bug Fixes
+
+* **icon:** allow number or string for width and height ([68f6393](https://github.com/newhighsco/chipset/commit/68f6393bfeb10d75121f3fc6619cfa0ad83cb1be))
+
 ## [6.12.2](https://github.com/newhighsco/chipset/compare/v6.12.1...v6.12.2) (2021-10-25)
 
 
