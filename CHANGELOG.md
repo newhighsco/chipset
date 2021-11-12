@@ -1,3 +1,10 @@
+# [6.13.0](https://github.com/newhighsco/chipset/compare/v6.12.3...v6.13.0) (2021-11-12)
+
+
+### Features
+
+* **components:** adds `Tooltip` component ([#902](https://github.com/newhighsco/chipset/issues/902)) ([5ff1a18](https://github.com/newhighsco/chipset/commit/5ff1a182820f2ea039188c2292ddf67d2aa63cfa))
+
 ## [6.12.3](https://github.com/newhighsco/chipset/compare/v6.12.2...v6.12.3) (2021-11-05)
 
 
