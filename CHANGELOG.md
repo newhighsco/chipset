@@ -1,3 +1,10 @@
+## [6.13.2](https://github.com/newhighsco/chipset/compare/v6.13.1...v6.13.2) (2021-11-12)
+
+
+### Bug Fixes
+
+* **tooltip:** replace `automatic` with `manual={false}` ([0951876](https://github.com/newhighsco/chipset/commit/09518766af2679dc0b1ae7fe40294b7147ecf604))
+
 ## [6.13.1](https://github.com/newhighsco/chipset/compare/v6.13.0...v6.13.1) (2021-11-12)
 
 
