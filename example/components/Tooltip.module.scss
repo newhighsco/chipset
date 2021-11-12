@@ -1,3 +1,4 @@
+@use '../../styles/functions';
 @use '../styles/colors';
 @use '../styles/fonts';
 
@@ -11,7 +12,27 @@
 }
 
 .content {
+  $tooltip-content-margin: functions.spacing(1);
+
   background-color: colors.$lemon;
   border: 1px solid colors.$black;
   padding: 0.5em;
+
+  &.top {
+    margin-bottom: $tooltip-content-margin;
+  }
+
+  &.bottom {
+    margin-top: $tooltip-content-margin;
+  }
+
+  &.middle {
+    &.left {
+      margin-right: $tooltip-content-margin;
+    }
+
+    &.right {
+      margin-left: $tooltip-content-margin;
+    }
+  }
 }
