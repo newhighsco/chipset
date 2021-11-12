@@ -20,14 +20,14 @@ source.parameters = {
   chromatic: { disable: true }
 }
 
-export const manual = Template.bind({})
+export const withClick = Template.bind({})
 
-manual.args = {
+withClick.args = {
   toggle: 'Click to view',
   heading: <h2>Heading</h2>,
   children: <p>Content</p>
 }
-manual.decorators = [
+withClick.decorators = [
   Story => (
     <div style={{ padding: 50 }} align="center">
       <Story />
@@ -35,14 +35,15 @@ manual.decorators = [
   )
 ]
 
-export const automatic = Template.bind({})
+export const withHover = Template.bind({})
 
-automatic.args = {
-  ...manual.args,
+withHover.args = {
+  ...withClick.args,
   toggle: 'Hover/focus to view',
-  automatic: true
+  manual: false
 }
-automatic.decorators = manual.decorators
+withHover.decorators = withClick.decorators
+withHover.storyName = 'With Hover/focus'
 
 export const alignment = () => (
   <>
@@ -63,11 +64,12 @@ export const alignment = () => (
             align="center"
           >
             <Tooltip
-              {...manual.args}
+              {...withClick.args}
               toggle={`Tooltip ${valign} ${align}`}
               valign={valign}
               align={align}
               hidden={false}
+              disabled
             />
           </div>
         ))}

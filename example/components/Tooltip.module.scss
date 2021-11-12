@@ -9,6 +9,10 @@
 .toggle {
   color: currentColor;
   text-decoration: none;
+
+  &[disabled] {
+    pointer-events: none;
+  }
 }
 
 .content {

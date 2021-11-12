@@ -9,14 +9,15 @@ import SmartLink from '../SmartLink'
  */
 const Tooltip = ({
   hidden = true,
+  manual = true,
   toggle,
   href,
   target,
-  automatic,
   heading,
   children,
   align = 'center',
   valign = 'top',
+  disabled,
   theme,
   className
 }) => {
@@ -27,7 +28,7 @@ const Tooltip = ({
   return (
     <span
       className={classNames(theme?.root, className)}
-      {...(automatic && {
+      {...(!manual && {
         onMouseOver: setVisibility,
         onMouseOut: setVisibility,
         onFocus: setVisibility,
@@ -39,8 +40,9 @@ const Tooltip = ({
         className={classNames(theme?.toggle, visible && theme?.toggleActive)}
         href={href}
         target={target}
+        disabled={disabled}
         aria-label="Toggle tooltip"
-        {...(!automatic && {
+        {...(manual && {
           'aria-expanded': visible,
           onClick: setVisibility
         })}
@@ -67,14 +69,15 @@ const Tooltip = ({
 Tooltip.displayName = 'Tooltip'
 Tooltip.propTypes = {
   hidden: bool,
+  manual: bool,
   toggle: node,
   href: string,
   target: string,
-  automatic: bool,
   heading: node,
   children: node,
   align: oneOf(['left', 'right', 'center']),
   valign: oneOf(['top', 'middle', 'bottom']),
+  disabled: bool,
   theme: shape({
     root: string,
     toggle: string,

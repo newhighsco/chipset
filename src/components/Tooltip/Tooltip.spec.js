@@ -33,8 +33,8 @@ describe('Components/Tooltip', () => {
     expect(wrapper.type()).toEqual('span')
   })
 
-  it('should handle additional events when `automatic` is set', () => {
-    const wrapper = shallow(<Tooltip automatic>Content</Tooltip>)
+  it('should handle additional events when `manual` is `false`', () => {
+    const wrapper = shallow(<Tooltip manual={false}>Content</Tooltip>)
 
     expect(wrapper.prop('onMouseOver')).not.toEqual(undefined)
     expect(wrapper.find(SmartLink).prop('aria-expanded')).toEqual(undefined)
