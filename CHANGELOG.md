@@ -1,3 +1,10 @@
+## [6.13.1](https://github.com/newhighsco/chipset/compare/v6.13.0...v6.13.1) (2021-11-12)
+
+
+### Bug Fixes
+
+* **tooltip:** remove default margins ([6c72c7d](https://github.com/newhighsco/chipset/commit/6c72c7dc6fa538e85de11dbf423923995c2dc5b1))
+
 # [6.13.0](https://github.com/newhighsco/chipset/compare/v6.12.3...v6.13.0) (2021-11-12)
 
 
