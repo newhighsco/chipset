@@ -1,0 +1,70 @@
+@use '../../../styles/functions';
+
+.root {
+  display: inline-block;
+  position: relative;
+}
+
+.toggle {
+  cursor: help;
+
+  &[href],
+  &[aria-expanded] {
+    cursor: pointer;
+  }
+}
+
+.content {
+  $tooltip-content-margin: functions.spacing(1);
+
+  display: block;
+  position: absolute;
+
+  &[hidden] {
+    display: none;
+  }
+
+  &.top {
+    bottom: 100%;
+    margin-bottom: $tooltip-content-margin;
+  }
+
+  &.bottom {
+    margin-top: $tooltip-content-margin;
+    top: 100%;
+  }
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+
+  &.center {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.middle {
+    top: 50%;
+    transform: translateY(-50%);
+
+    &.left {
+      left: auto;
+      margin-right: $tooltip-content-margin;
+      right: 100%;
+    }
+
+    &.right {
+      left: 100%;
+      margin-left: $tooltip-content-margin;
+      right: auto;
+    }
+
+    &.center {
+      transform: translate(-50%, -50%);
+    }
+  }
+}

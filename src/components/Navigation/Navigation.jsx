@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { array, bool, func, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { useToggle } from '../../hooks'
 import Button from '../Button'
 import Icon from '../Icon'
 import List from '../List'
@@ -22,10 +23,10 @@ const Navigation = ({
 }) => {
   if (!links.length) return null
 
-  const [visible, setVisibility] = useState(!toggle)
+  const [visible, setVisibility] = useToggle(!toggle)
 
   const toggleVisibility = () => {
-    setVisibility(!visible)
+    setVisibility()
     onToggle({ visible })
   }
 

@@ -1,0 +1,17 @@
+@use '../styles/colors';
+@use '../styles/fonts';
+
+.root {
+  font-family: fonts.$body;
+}
+
+.toggle {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.content {
+  background-color: colors.$lemon;
+  border: 1px solid colors.$black;
+  padding: 0.5em;
+}
