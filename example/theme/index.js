@@ -8,6 +8,7 @@ import Navigation from '../components/Navigation.module.scss'
 import PageContainer from '../components/PageContainer.module.scss'
 import Prose from '../components/Prose.module.scss'
 import SiteContainer from '../components/SiteContainer.module.scss'
+import Tooltip from '../components/Tooltip.module.scss'
 
 export default {
   Button,
@@ -19,5 +20,6 @@ export default {
   Navigation,
   PageContainer,
   Prose,
-  SiteContainer
+  SiteContainer,
+  Tooltip
 }
