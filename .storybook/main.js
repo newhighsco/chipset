@@ -3,5 +3,6 @@ module.exports = {
     builder: 'webpack5'
   },
   stories: ['../src/**/*.stories.@(js|mdx)'],
-  addons: ['@newhighsco/storybook-preset']
+  addons: ['@newhighsco/storybook-preset'],
+  staticDirs: ['./static']
 }

@@ -25,9 +25,9 @@
     "url": "https://main--6004028a0df11e0021f58df8.chromatic.com"
   },
   "scripts": {
-    "start": "start-storybook --static-dir .storybook/static --docs",
+    "start": "start-storybook --docs",
     "prebuild": "rm -rf build",
-    "build": "build-storybook --output-dir build --static-dir .storybook/static --docs --quiet",
+    "build": "build-storybook --output-dir build --docs --quiet",
     "pretest": "yarn lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --maxWorkers=2 --coverage",
