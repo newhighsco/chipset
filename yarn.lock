@@ -1748,10 +1748,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.48":
-  version "2.3.48"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.48.tgz#0a7159412db1d05641f746b40fc126c8ab9355b3"
-  integrity sha512-pOkVTKxwYEUKPqSYQ1VzhswAjxGAR/HWtlKrujOP0IK14aotC6IswTOon1T6dodKFOJNI09b30Nmu4NM0MnTjg==
+"@newhighsco/eslint-config@2.3.49":
+  version "2.3.49"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.49.tgz#e1bd17847d4acc9196f2770807a1b29ca85c8954"
+  integrity sha512-qKdlm9xcPOtP2fMUySrE6JdEK7hrcQvnBA6ejgFkLDv8Np3qQCIfMosvWN0BZnPfU+QvCQXIVCgN6dyD6Tr4Ng==
   dependencies:
     "@babel/core" "7.16.0"
     "@babel/eslint-parser" "7.16.3"
@@ -1798,10 +1798,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.3.35":
-  version "4.3.35"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.3.35.tgz#2e057e71705037da7bc6604a540fbd45060547b6"
-  integrity sha512-8njyb0QdDUqea+52gz5FkizZboJAIjHy72gnBt4rJPyVauf91/4JR3/QUldMVvGkfUTuA/wkBMbAWDSiLHgd4w==
+"@newhighsco/storybook-preset@4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.4.0.tgz#747b24bfe56a329055dcd63764b6c41310090fce"
+  integrity sha512-63cxDyuBEwZRytQgRpgtWC7UKrArogGYvHJzS46+sDHMCn787lqh4nDl+iXZqYUaAETCh5Ri19s500Gl4WM/7w==
   dependencies:
     "@storybook/addon-actions" "6.4.8"
     "@storybook/addon-backgrounds" "6.4.8"
