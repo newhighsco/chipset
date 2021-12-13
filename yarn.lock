@@ -1798,10 +1798,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.4.4":
-  version "4.4.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.4.4.tgz#daf5f4d3e7398dc907c7ba2eeb20244e2a146df5"
-  integrity sha512-Y1YXslwfYW+g1fkvFuFfluxlx6etF11CGiwj6VPSB7wZNAq+vFLsevvPPF5KFpXA+J5UJHaPgM1F/JzEIKVqUA==
+"@newhighsco/storybook-preset@4.4.5":
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.4.5.tgz#82797f23d0c4a349a66e75f3e8b84d2d4cb17f10"
+  integrity sha512-PlTJMPknda1CcKQr1GHA67UW+Q0WQVLStOC8rkAYRm17BZ0Kg8iWVamj8nMUS0x3X4OZ+s/1jMlywuVJ03oYvA==
   dependencies:
     "@storybook/addon-actions" "6.4.9"
     "@storybook/addon-backgrounds" "6.4.9"
@@ -1814,7 +1814,7 @@
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "6.1.2"
     new-url-loader "0.1.1"
-    postcss "8.4.4"
+    postcss "8.4.5"
     react-is "17.0.2"
     sass "1.45.0"
     sass-loader "12.4.0"
@@ -13159,15 +13159,6 @@ postcss-values-parser@6.0.1, postcss-values-parser@^6, postcss-values-parser@^6.
     is-url-superb "^4.0.0"
     quote-unquote "^1.0.0"
 
-postcss@8.4.4, postcss@^8.2.15, postcss@^8.3, postcss@^8.3.11, postcss@^8.3.5:
-  version "8.4.4"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.4.tgz#d53d4ec6a75fd62557a66bb41978bf47ff0c2869"
-  integrity sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==
-  dependencies:
-    nanoid "^3.1.30"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.1"
-
 postcss@8.4.5:
   version "8.4.5"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
@@ -13184,6 +13175,15 @@ postcss@^7.0.14, postcss@^7.0.26, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0
   dependencies:
     picocolors "^0.2.1"
     source-map "^0.6.1"
+
+postcss@^8.2.15, postcss@^8.3, postcss@^8.3.11, postcss@^8.3.5:
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.4.tgz#d53d4ec6a75fd62557a66bb41978bf47ff0c2869"
+  integrity sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==
+  dependencies:
+    nanoid "^3.1.30"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
