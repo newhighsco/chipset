@@ -1818,10 +1818,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.4.10":
-  version "4.4.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.4.10.tgz#8d99ff002cba7b08401be277b592d9b8bb3e654c"
-  integrity sha512-EeFSizDvF8vkH+/9Hs0b0R9OeoN1m5yldxR3w5YFwsHj9sPslSAXVTaBrOmQC6iVdFS1rSgM12VBCsYMheiKXQ==
+"@newhighsco/storybook-preset@4.4.12":
+  version "4.4.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.4.12.tgz#a24b60267722d442a26754f6b4d96401e4ed79b9"
+  integrity sha512-2BhiKYG9hwJNdi0iVsh/Q8GByD77xljD9T5R0ab3LTxCafOJu/R4q6MuWsEHBW4IvVmcSwolIw22D0DriPjHfg==
   dependencies:
     "@storybook/addon-actions" "6.4.10"
     "@storybook/addon-backgrounds" "6.4.10"
@@ -1832,7 +1832,7 @@
     "@storybook/builder-webpack5" "6.4.10"
     "@storybook/manager-webpack5" "6.4.10"
     "@storybook/preset-scss" "1.0.3"
-    "@svgr/webpack" "6.1.2"
+    "@svgr/webpack" "6.2.0"
     new-url-loader "0.1.1"
     postcss "8.4.5"
     react-is "17.0.2"
@@ -3178,7 +3178,7 @@
     "@svgr/babel-plugin-transform-react-native-svg" "^6.0.0"
     "@svgr/babel-plugin-transform-svg-component" "^6.2.0"
 
-"@svgr/core@^6.1.2":
+"@svgr/core@^6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/core/-/core-6.2.0.tgz#187a7930695635382c1ab42f476a1d4d45a65994"
   integrity sha512-n5PrYAPoTpWGykqa8U05/TVTHOrVR/TxrUJ5EWHP9Db6vR3qnqzwAVLiFT1+slA7zQoJTXafQb+akwThf9SxGw==
@@ -3195,7 +3195,7 @@
     "@babel/types" "^7.15.6"
     entities "^3.0.1"
 
-"@svgr/plugin-jsx@^6.1.2", "@svgr/plugin-jsx@^6.2.0":
+"@svgr/plugin-jsx@^6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/plugin-jsx/-/plugin-jsx-6.2.0.tgz#5e41a75b12b34cb66509e63e535606161770ff42"
   integrity sha512-QJDEe7K5Hkd4Eewu4pcjiOKTCtjB47Ol6lDLXVhf+jEewi+EKJAaAmM+bNixfW6LSNEg8RwOYQN3GZcprqKfHw==
@@ -3205,7 +3205,7 @@
     "@svgr/hast-util-to-babel-ast" "^6.0.0"
     svg-parser "^2.0.2"
 
-"@svgr/plugin-svgo@^6.1.2":
+"@svgr/plugin-svgo@^6.2.0":
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/plugin-svgo/-/plugin-svgo-6.2.0.tgz#4cbe6a33ccccdcae4e3b63ded64cc1cbe1faf48c"
   integrity sha512-oDdMQONKOJEbuKwuy4Np6VdV6qoaLLvoY86hjvQEgU82Vx1MSWRyYms6Sl0f+NtqxLI/rDVufATbP/ev996k3Q==
@@ -3214,19 +3214,19 @@
     deepmerge "^4.2.2"
     svgo "^2.5.0"
 
-"@svgr/webpack@6.1.2":
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/@svgr/webpack/-/webpack-6.1.2.tgz#23fd605e9163deb7ef3feef52545ff11dc9989bf"
-  integrity sha512-5RzzWxFquywENwvnsiGjZ7IED+0l2lnICR3OKQ6OUyGgxlu+ac73NmDSXp6EPBz/ZTArpMZtug7jiPMUkXxnlg==
+"@svgr/webpack@6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@svgr/webpack/-/webpack-6.2.0.tgz#00fafd32e1d59add7b554c40aa2e97e83f975686"
+  integrity sha512-KlLdGe93A8GDs19g8kjEmHwArgMAP6cUfegr2Nx+yDAYY32IPtjzm3SoqNP+I+cnOF1CToJu1clWTPEmdd8dXg==
   dependencies:
     "@babel/core" "^7.15.5"
     "@babel/plugin-transform-react-constant-elements" "^7.14.5"
     "@babel/preset-env" "^7.15.6"
     "@babel/preset-react" "^7.14.5"
     "@babel/preset-typescript" "^7.15.0"
-    "@svgr/core" "^6.1.2"
-    "@svgr/plugin-jsx" "^6.1.2"
-    "@svgr/plugin-svgo" "^6.1.2"
+    "@svgr/core" "^6.2.0"
+    "@svgr/plugin-jsx" "^6.2.0"
+    "@svgr/plugin-svgo" "^6.2.0"
 
 "@tootallnate/once@1":
   version "1.1.2"
