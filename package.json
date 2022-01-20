@@ -80,7 +80,7 @@
     "sass-true": "6.0.1",
     "semantic-release": "19.0.2",
     "stylelint": "14.2.0",
-    "webpack": "5.65.0"
+    "webpack": "5.66.0"
   },
   "peerDependencies": {
     "react": "17.0.2",
