@@ -1,3 +1,10 @@
+## [6.13.3](https://github.com/newhighsco/chipset/compare/v6.13.2...v6.13.3) (2022-01-20)
+
+
+### Bug Fixes
+
+* **deps:** downgrade missing `colors` package ([#969](https://github.com/newhighsco/chipset/issues/969)) ([6bc2976](https://github.com/newhighsco/chipset/commit/6bc29761e1e5f95384d6f740344a78e9705a2bc4))
+
 ## [6.13.2](https://github.com/newhighsco/chipset/compare/v6.13.1...v6.13.2) (2021-11-12)
 
 
