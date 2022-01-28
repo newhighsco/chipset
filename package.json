@@ -66,7 +66,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.6",
     "babel-jest": "27.4.6",
     "babel-loader": "8.2.3",
-    "chromatic": "6.4.1",
+    "chromatic": "6.4.2",
     "enzyme": "3.11.0",
     "eslint": "8.7.0",
     "husky": "7.0.4",
