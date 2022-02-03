@@ -707,8 +707,8 @@
 
 ### BREAKING CHANGES
 
-* **grid:** Replaces <GridItem /> with <Grid.Item />
-* **button:** <ButtonGroup /> replaced with <Button.Group />
+* **grid:** Replaces `<GridItem />` with `<Grid.Item />`
+* **button:** `<ButtonGroup />` replaced with `<Button.Group />`
 
 # [5.0.0](https://github.com/newhighsco/chipset/compare/v4.7.0...v5.0.0) (2020-09-01)
 

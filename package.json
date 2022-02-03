@@ -25,7 +25,7 @@
     "url": "https://main--6004028a0df11e0021f58df8.chromatic.com"
   },
   "scripts": {
-    "start": "start-storybook --docs",
+    "start": "start-storybook --docs --no-manager-cache",
     "prebuild": "rm -rf build",
     "build": "build-storybook --output-dir build --docs --quiet",
     "pretest": "yarn lint",
