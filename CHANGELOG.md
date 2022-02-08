@@ -1,3 +1,10 @@
+## [6.13.4](https://github.com/newhighsco/chipset/compare/v6.13.3...v6.13.4) (2022-02-08)
+
+
+### Bug Fixes
+
+* **deps:** add Storybook webpack5 devDependencies ([478385f](https://github.com/newhighsco/chipset/commit/478385f86113a44b997fd234331f6031ebb89fff))
+
 ## [6.13.3](https://github.com/newhighsco/chipset/compare/v6.13.2...v6.13.3) (2022-01-20)
 
 
