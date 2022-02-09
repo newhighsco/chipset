@@ -23,9 +23,4 @@ export const parameters = {
     dark: theme,
     light: theme
   }
-  // options: {
-  //   storySort: {
-  //     order: ['Docs', ['README', 'CHANGELOG'], 'Components']
-  //   }
-  // }
 }
