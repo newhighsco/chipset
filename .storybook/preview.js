@@ -19,13 +19,13 @@ export const decorators = [
 export const parameters = {
   chromatic: { viewports },
   darkMode: {
-    current: 'dark',
+    current: theme.base,
     dark: theme,
     light: theme
-  },
-  options: {
-    storySort: {
-      order: ['Docs', ['README', 'CHANGELOG'], 'Components']
-    }
   }
+  // options: {
+  //   storySort: {
+  //     order: ['Docs', ['README', 'CHANGELOG'], 'Components']
+  //   }
+  // }
 }

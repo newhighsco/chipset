@@ -5,7 +5,7 @@ module.exports = {
   features: {
     storyStoreV7: true
   },
-  stories: ['../src/**/*.stories.@(jsx|mdx)'],
+  stories: ['../src/components/**/*.stories.tsx'],
   addons: ['@newhighsco/storybook-preset'],
   staticDirs: ['./static']
 }

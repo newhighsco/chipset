@@ -1,14 +1,13 @@
-import React from 'react'
-import { node, string } from 'prop-types'
+import React, { FC } from 'react'
 import classNames from 'classnames'
 import Element from '../Element'
-
+import { BackdropProps } from './Backdrop.types'
 import styles from './Backdrop.module.scss'
 
 /**
  * Use `Backdrop` to add full-width background to the viewport
  */
-const Backdrop = ({ children, className, ...rest }) => {
+const Backdrop: FC<BackdropProps> = ({ children, className, ...rest }) => {
   if (!children && !Object.keys(rest).length) return null
 
   return (
@@ -19,9 +18,5 @@ const Backdrop = ({ children, className, ...rest }) => {
 }
 
 Backdrop.displayName = 'Backdrop'
-Backdrop.propTypes = {
-  children: node,
-  className: string
-}
 
 export default Backdrop

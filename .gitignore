@@ -25,4 +25,5 @@ yarn-error.log
 .stylelintcache
 build
 coverage
+dist
 .env
