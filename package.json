@@ -21,7 +21,7 @@
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "src",
+    "dist",
     "styles"
   ],
   "storybook": {
@@ -31,8 +31,9 @@
     "prepare": "husky install",
     "clean": "rm -rf {build,coverage,dist}",
     "start": "start-storybook --docs --no-manager-cache",
-    "prebuild": "rm -rf dist",
-    "build": "rollup -c",
+    "build": "npm-run-all --parallel build:*",
+    "prebuild:package": "rm -rf dist",
+    "build:package": "rollup -c",
     "prebuild:storybook": "rm -rf build",
     "build:storybook": "build-storybook --output-dir build --docs --quiet",
     "pretestSkip": "yarn lint",

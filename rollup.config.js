@@ -37,10 +37,10 @@ export default [
       terser()
     ],
     external: ['react', 'react-dom']
+  },
+  {
+    input: 'dist/esm/types/index.d.ts',
+    output: [{ file: typesPath, format: 'esm' }],
+    plugins: [dts()]
   }
-  // {
-  //   input: 'dist/esm/types/index.d.ts',
-  //   output: [{ file: typesPath, format: 'esm' }],
-  //   plugins: [dts()]
-  // }
 ]
