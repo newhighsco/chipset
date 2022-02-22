@@ -61,7 +61,7 @@
     "@newhighsco/prettier-config": "2.0.16",
     "@newhighsco/release-config": "1.1.5",
     "@newhighsco/storybook-preset": "4.4.21",
-    "@newhighsco/stylelint-config": "3.0.15",
+    "@newhighsco/stylelint-config": "3.0.16",
     "@storybook/builder-webpack5": "6.4.19",
     "@storybook/manager-webpack5": "6.4.19",
     "@storybook/react": "6.4.19",
