@@ -1,3 +1,10 @@
+## [6.13.6](https://github.com/newhighsco/chipset/compare/v6.13.5...v6.13.6) (2022-03-08)
+
+
+### Bug Fixes
+
+* **live-stream:** check for existence of `window` before use ([88e5d85](https://github.com/newhighsco/chipset/commit/88e5d857042e85b788a97dbd65359b950419b964))
+
 ## [6.13.5](https://github.com/newhighsco/chipset/compare/v6.13.4...v6.13.5) (2022-03-05)
 
 
