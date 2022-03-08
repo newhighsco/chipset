@@ -1,4 +1,5 @@
 import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { ContentContainer } from '..'
 import PureContentContainer from './ContentContainer'
 
@@ -7,35 +8,37 @@ import breakpoints from '../../../styles/_breakpoints.module.scss'
 export default {
   title: 'Components/ContentContainer',
   component: PureContentContainer
-}
+} as ComponentMeta<typeof ContentContainer>
 
-const Template = args => <ContentContainer {...args} />
+const Template: ComponentStory<typeof ContentContainer> = args => (
+  <ContentContainer {...args} />
+)
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const fullWidth = Template.bind({})
+export const FullWidth = Template.bind({})
 
-fullWidth.args = {
+FullWidth.args = {
   children: 'Full-width content'
 }
-fullWidth.storyName = 'Full-width'
+FullWidth.storyName = 'Full-width'
 
-export const fullWidthWithGutter = Template.bind({})
+export const FullWidthWithGutter = Template.bind({})
 
-fullWidthWithGutter.args = {
+FullWidthWithGutter.args = {
   gutter: true,
   children: 'Full-width content with gutter'
 }
-fullWidthWithGutter.storyName = 'Full-width with gutter'
+FullWidthWithGutter.storyName = 'Full-width with gutter'
 
-export const restrictedWidth = () => (
+export const RestrictedWidth = () => (
   <>
     {Object.keys(breakpoints).map(breakpoint => (
       <ContentContainer key={breakpoint} size={breakpoint}>
@@ -45,9 +48,9 @@ export const restrictedWidth = () => (
   </>
 )
 
-restrictedWidth.storyName = 'Restricted-width'
+RestrictedWidth.storyName = 'Restricted-width'
 
-export const restrictedWidthWithGutter = () => (
+export const RestrictedWidthWithGutter = () => (
   <>
     {Object.keys(breakpoints).map(breakpoint => (
       <ContentContainer key={breakpoint} size={breakpoint} gutter>
@@ -57,4 +60,4 @@ export const restrictedWidthWithGutter = () => (
   </>
 )
 
-restrictedWidthWithGutter.storyName = 'Restricted-width with gutter'
+RestrictedWidthWithGutter.storyName = 'Restricted-width with gutter'

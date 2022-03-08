@@ -1,12 +1,17 @@
-import React from 'react'
-import { node, shape, string } from 'prop-types'
+import React, { FC } from 'react'
 import classNames from 'classnames'
 import Element from '../Element'
+import { SiteContainerProps } from './SiteContainerProps.types'
 
 /**
  * The `SiteContainer` stretches to fill the height of the viewport
  */
-const SiteContainer = ({ children, theme, className, ...rest }) => {
+const SiteContainer: FC<SiteContainerProps> = ({
+  children,
+  theme,
+  className,
+  ...rest
+}) => {
   if (!children) return null
 
   return (
@@ -17,10 +22,5 @@ const SiteContainer = ({ children, theme, className, ...rest }) => {
 }
 
 SiteContainer.displayName = 'SiteContainer'
-SiteContainer.propTypes = {
-  children: node,
-  theme: shape({ root: string }),
-  className: string
-}
 
 export default SiteContainer

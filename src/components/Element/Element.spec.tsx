@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import Element from '.'
+import { Element } from '..'
 
 describe('Components/Element', () => {
   it('should render <div /> by default', () => {

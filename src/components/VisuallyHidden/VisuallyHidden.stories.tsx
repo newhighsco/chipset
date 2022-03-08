@@ -1,6 +1,6 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-import VisuallyHidden from '.'
+import { VisuallyHidden } from '..'
 
 export default {
   title: 'Components/VisuallyHidden',

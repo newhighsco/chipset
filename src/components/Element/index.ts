@@ -1,2 +1,2 @@
 export { default } from './Element'
-export type { ElementProps } from './Element.types'
+export type { ElementProps, ThemedElementProps } from './Element.types'

@@ -1,7 +1,7 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta, DecoratorFn } from '@storybook/react'
 // import { Backdrop, Button, Image } from '..'
-import Backdrop from '.'
+import { Backdrop } from '..'
 import { imageUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
@@ -26,25 +26,25 @@ const decorators = [
 ]
 const Template: ComponentStory<typeof Backdrop> = args => <Backdrop {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const withImage = Template.bind({})
+export const WithImage = Template.bind({})
 
-withImage.args = {
+WithImage.args = {
   children: <img src={imageUrl} alt="" />
 }
-withImage.decorators = decorators
+WithImage.decorators = decorators
 
-export const withVideo = Template.bind({})
+export const WithVideo = Template.bind({})
 
-withVideo.args = {
+WithVideo.args = {
   children: <video src={videoUrl} poster={imageUrl} muted autoPlay />
 }
-withVideo.decorators = decorators
+WithVideo.decorators = decorators

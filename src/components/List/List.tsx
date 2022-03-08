@@ -1,9 +1,9 @@
-import React from 'react'
-import { bool, node, oneOf, shape, string } from 'prop-types'
+import React, { FC } from 'react'
 import classNames from 'classnames'
 import Element from '../Element'
+import { ListProps } from './List.types'
 
-const List = ({
+const List: FC<ListProps> = ({
   as = 'ul',
   unstyled,
   inline,
@@ -33,14 +33,5 @@ const List = ({
 }
 
 List.displayName = 'List'
-List.propTypes = {
-  as: oneOf(['ol', 'ul']),
-  unstyled: bool,
-  inline: bool,
-  commaSeparated: bool,
-  children: node,
-  theme: shape({ root: string }),
-  className: string
-}
 
 export default List

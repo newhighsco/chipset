@@ -1,27 +1,28 @@
-import React from 'react'
-import { node, shape, string } from 'prop-types'
+import React, { FC } from 'react'
 import classNames from 'classnames'
+import Element from '../Element'
+import { ProseProps } from './Prose.types'
 
-const Prose = ({ html, children, theme, className, ...rest }) => {
+const Prose: FC<ProseProps> = ({
+  html,
+  children,
+  theme,
+  className,
+  ...rest
+}) => {
   if (!html && !children) return null
 
   return (
-    <div
+    <Element
       className={classNames(theme?.root, className)}
       {...(html && { dangerouslySetInnerHTML: { __html: html } })}
       {...rest}
     >
       {children}
-    </div>
+    </Element>
   )
 }
 
 Prose.displayName = 'Prose'
-Prose.propTypes = {
-  html: string,
-  children: node,
-  theme: shape({ root: string }),
-  className: string
-}
 
 export default Prose

@@ -1,12 +1,12 @@
-import React from 'react'
-import { bool, node, shape, string } from 'prop-types'
+import React, { FC } from 'react'
 import classNames from 'classnames'
 import Element from '../Element'
+import { ContentContainerProps } from './ContentContainer.types'
 
 /**
  * The `ContentContainer` constrains the width of an item within its parent
  */
-const ContentContainer = ({
+const ContentContainer: FC<ContentContainerProps> = ({
   size,
   gutter,
   children,
@@ -20,7 +20,7 @@ const ContentContainer = ({
     <Element
       className={classNames(
         theme?.root,
-        size && theme[size],
+        size && theme?.[size],
         gutter && theme?.gutter,
         className
       )}
@@ -32,12 +32,5 @@ const ContentContainer = ({
 }
 
 ContentContainer.displayName = 'ContentContainer'
-ContentContainer.propTypes = {
-  size: string,
-  gutter: bool,
-  children: node,
-  theme: shape({ root: string, size: string, gutter: string, content: string }),
-  className: string
-}
 
 export default ContentContainer

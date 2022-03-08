@@ -30,14 +30,14 @@ withImage.args = {
 export const withPicture = Template.bind({})
 
 withPicture.args = {
-  ratio: '4:1',
+  ...withImage.args,
   children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
 }
 
 export const withIframe = Template.bind({})
 
 withIframe.args = {
-  ratio: '16:9',
+  ...source.args,
   children: <iframe title="iframe" src="https://example.com/" loading="lazy" />
 }
 

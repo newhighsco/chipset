@@ -7,6 +7,6 @@ const { displayName } = PureContentContainer
 const ContentContainer = withTheme(displayName, theme)(PureContentContainer)
 
 ContentContainer.displayName = displayName
-ContentContainer.propTypes = PureContentContainer.propTypes
 
 export default ContentContainer
+export type { ContentContainerProps } from './ContentContainer.types'
