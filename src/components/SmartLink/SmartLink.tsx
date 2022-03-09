@@ -1,11 +1,11 @@
-import React from 'react'
-import { func, node, object, oneOf, oneOfType, string } from 'prop-types'
+import React, { FC } from 'react'
 import { absoluteUrl } from '../../utils'
+import { SmartLinkProps } from './SmartLink.types'
 
 /**
  * Use `SmartLink` to automatically render an button, internal anchor, or outbound link
  */
-const SmartLink = ({
+const SmartLink: FC<SmartLinkProps> = ({
   href,
   target,
   type = 'button',
@@ -47,13 +47,5 @@ const SmartLink = ({
 }
 
 SmartLink.displayName = 'SmartLink'
-SmartLink.propTypes = {
-  href: string,
-  target: string,
-  type: oneOf(['button', 'reset', 'submit']),
-  setRef: oneOfType([func, object]),
-  children: node,
-  className: string
-}
 
 export default SmartLink

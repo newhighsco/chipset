@@ -9,3 +9,4 @@ const SiteContainer = withTheme(displayName, theme)(PureSiteContainer)
 SiteContainer.displayName = displayName
 
 export default SiteContainer
+export type { SiteContainerProps } from './SiteContainer.types'

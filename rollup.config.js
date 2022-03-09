@@ -5,6 +5,8 @@ import dts from 'rollup-plugin-dts'
 import postcss from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
+import url from '@rollup/plugin-url'
+import svgr from '@svgr/rollup'
 import packageInfo from './package.json'
 
 const { main: mainPath, module: modulePath, types: typesPath } = packageInfo
@@ -34,6 +36,8 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json' }),
+      url(),
+      svgr(),
       terser()
     ],
     external: ['react', 'react-dom']

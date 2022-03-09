@@ -9,3 +9,4 @@ const List = withTheme(displayName, theme)(PureList)
 List.displayName = displayName
 
 export default List
+export type { ListProps } from './List.types'

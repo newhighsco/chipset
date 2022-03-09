@@ -9,3 +9,4 @@ const CreditLockup = withTheme(displayName, theme)(PureCreditLockup)
 CreditLockup.displayName = displayName
 
 export default CreditLockup
+export type { CreditLockupProps } from './CreditLockup.types'

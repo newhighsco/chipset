@@ -9,3 +9,4 @@ const Prose = withTheme(displayName, theme)(PureProse)
 Prose.displayName = displayName
 
 export default Prose
+export type { ProseProps } from './Prose.types'

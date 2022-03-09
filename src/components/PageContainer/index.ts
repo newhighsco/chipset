@@ -9,3 +9,4 @@ const PageContainer = withTheme(displayName, theme)(PurePageContainer)
 PageContainer.displayName = displayName
 
 export default PageContainer
+export type { PageContainerProps } from './PageContainer.types'

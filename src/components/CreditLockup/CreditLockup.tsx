@@ -1,7 +1,7 @@
-import React from 'react'
-import { oneOf, shape, string } from 'prop-types'
-import SmartLink from '../SmartLink'
-import Icon from '../Icon'
+import React, { FC } from 'react'
+import classNames from 'classnames'
+import { Icon, SmartLink } from '..'
+import { CreditLockupProps } from './CreditLockup.types'
 
 import { ReactComponent as LogoSvg } from './images/logo.svg'
 
@@ -13,15 +13,15 @@ const href = 'http://newhighsco.re'
 /**
  * The `CreditLockup` provides a link to the New High Score website
  */
-const CreditLockup = ({ theme, ...rest }) => (
-  <span className={theme?.root} {...rest}>
+const CreditLockup: FC<CreditLockupProps> = ({ theme, className, ...rest }) => (
+  <span className={classNames(theme?.root, className)} {...rest}>
     <SmartLink
       className={theme?.link}
       href={href}
       target="_blank"
       title={title}
     >
-      <Icon theme={{ root: theme?.logo }} alt={name}>
+      <Icon className={theme?.logo} alt={name}>
         <LogoSvg />
       </Icon>
       <span className={theme?.text}>
@@ -34,10 +34,5 @@ const CreditLockup = ({ theme, ...rest }) => (
 )
 
 CreditLockup.displayName = 'CreditLockup'
-CreditLockup.propTypes = {
-  align: oneOf(['left', 'right', 'center']),
-  dir: oneOf(['ltr', 'rtl']),
-  theme: shape({ root: string, link: string, logo: string, text: string })
-}
 
 export default CreditLockup

@@ -9,3 +9,4 @@ const Icon = withTheme(displayName, theme)(PureIcon)
 Icon.displayName = displayName
 
 export default Icon
+export type { IconProps } from './Icon.types'

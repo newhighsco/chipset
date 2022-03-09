@@ -1,19 +1,27 @@
-import React from 'react'
-import { node, number, oneOfType, shape, string } from 'prop-types'
+import React, { FC } from 'react'
 import classNames from 'classnames'
 import VisuallyHidden from '../VisuallyHidden'
+import { IconProps } from './Icon.types'
 
 /**
  * Use `Icon` to wrap SVGs
  */
-const Icon = ({ height, width, alt, children, theme }) => {
+const Icon: FC<IconProps> = ({
+  height,
+  width,
+  alt,
+  children,
+  theme,
+  className
+}) => {
   if (!children) return null
 
   return (
     <span
       className={classNames(
         theme?.root,
-        (width ?? height) && theme?.customSize
+        (width ?? height) && theme?.customSize,
+        className
       )}
       {...(alt && {
         role: 'img',
@@ -35,12 +43,5 @@ const Icon = ({ height, width, alt, children, theme }) => {
 }
 
 Icon.displayName = 'Icon'
-Icon.propTypes = {
-  height: oneOfType([number, string]),
-  width: oneOfType([number, string]),
-  alt: string,
-  children: node,
-  theme: shape({ root: string })
-}
 
 export default Icon

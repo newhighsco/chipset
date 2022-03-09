@@ -1,28 +1,31 @@
 import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { CreditLockup } from '..'
 import PureCreditLockup from './CreditLockup'
 
 export default {
   title: 'Components/CreditLockup',
   component: PureCreditLockup
-}
+} as ComponentMeta<typeof CreditLockup>
 
-const Template = args => <CreditLockup {...args} />
+const Template: ComponentStory<typeof CreditLockup> = args => (
+  <CreditLockup {...args} />
+)
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const textDirection = () => (
+export const TextDirection = () => (
   <>
     <CreditLockup dir="ltr" />
     <CreditLockup dir="rtl" />
   </>
 )
 
-export const alignment = () => (
+export const Alignment = () => (
   <>
     <CreditLockup align="left" />
     <CreditLockup align="center" />
