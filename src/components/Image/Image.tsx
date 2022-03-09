@@ -1,7 +1,7 @@
-import React from 'react'
-import { arrayOf, oneOf, shape, string } from 'prop-types'
+import React, { FC } from 'react'
+import { ImageProps } from './Image.types'
 
-const Image = ({
+const Image: FC<ImageProps> = ({
   src,
   sources,
   alt = '',
@@ -17,9 +17,9 @@ const Image = ({
 
   return (
     <Picture
-      render={children => (
+      render={(children: HTMLImageElement) => (
         <picture className={className}>
-          {sources.map((props, index) => (
+          {sources?.map((props, index) => (
             <source key={index} {...props} />
           ))}
           {children}
@@ -36,22 +36,6 @@ const Image = ({
       />
     </Picture>
   )
-}
-
-Image.propTypes = {
-  src: string,
-  sources: arrayOf(
-    shape({
-      srcSet: string,
-      sizes: string,
-      media: string,
-      type: string
-    })
-  ),
-  alt: string,
-  loading: oneOf(['auto', 'lazy', 'eager']),
-  decoding: oneOf(['auto', 'async', 'sync']),
-  className: string
 }
 
 export default Image

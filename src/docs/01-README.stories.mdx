@@ -1,5 +1,5 @@
 import { Meta, Title } from '@storybook/addon-docs'
-// import { CreditLockup, Image, SmartLink } from '../../src'
+import { CreditLockup, Image, SmartLink } from '../../src'
 import packageInfo from '../../package.json'
 
 import { ReactComponent as LogoSvg } from '../../.storybook/static/logo.svg'
@@ -8,7 +8,7 @@ import { ReactComponent as LogoSvg } from '../../.storybook/static/logo.svg'
 
 <Title>
   <LogoSvg /> <strong>{packageInfo.config.title}</strong>{' '}
-  {/* <SmartLink href="https://npmjs.com/@newhighsco/chipset" target="_blank">
+  <SmartLink href="https://npmjs.com/@newhighsco/chipset" target="_blank">
     <Image
       src="https://img.shields.io/npm/v/@newhighsco/chipset.svg"
       alt="NPM version"
@@ -19,11 +19,13 @@ import { ReactComponent as LogoSvg } from '../../.storybook/static/logo.svg'
       src="https://img.shields.io/github/stars/newhighsco/chipset?style=social"
       alt="Github"
     />
-  </SmartLink> */}
+  </SmartLink>
 </Title>
 
 Shareable, theme-able component library
 
 ---
 
-<p>{/* <CreditLockup /> */}</p>
+<p>
+  <CreditLockup />
+</p>

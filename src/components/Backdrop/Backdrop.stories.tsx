@@ -1,8 +1,7 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta, DecoratorFn } from '@storybook/react'
-// import { Backdrop, Button, Image } from '..'
-import { Backdrop } from '..'
-import { imageUrl, videoUrl } from '../../__mocks__/fixtures'
+import { Backdrop, Button, Image } from '..'
+import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
   title: 'Components/Backdrop',
@@ -20,7 +19,7 @@ const decorators = [
       }}
     >
       {Story()}
-      <button style={{ background: 'red' }}>Content</button>
+      <Button>Content</Button>
     </div>
   )) as DecoratorFn
 ]
@@ -38,7 +37,7 @@ Source.parameters = {
 export const WithImage = Template.bind({})
 
 WithImage.args = {
-  children: <img src={imageUrl} alt="" />
+  children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
 }
 WithImage.decorators = decorators
 

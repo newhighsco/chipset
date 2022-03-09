@@ -1,9 +1,16 @@
-import React from 'react'
-import { bool, func, node, object, oneOfType, shape, string } from 'prop-types'
+import React, { FC } from 'react'
 import classNames from 'classnames'
 import SmartLink from '../SmartLink'
+import { ButtonProps } from './Button.types'
 
-const Button = ({ active, children, theme, className, setRef, ...rest }) => {
+const Button: FC<ButtonProps> = ({
+  active,
+  children,
+  theme,
+  className,
+  setRef,
+  ...rest
+}) => {
   if (!children) return null
 
   return (
@@ -18,12 +25,5 @@ const Button = ({ active, children, theme, className, setRef, ...rest }) => {
 }
 
 Button.displayName = 'Button'
-Button.propTypes = {
-  active: bool,
-  children: node,
-  theme: shape({ root: string, active: string }),
-  setRef: oneOfType([func, object]),
-  className: string
-}
 
 export default Button

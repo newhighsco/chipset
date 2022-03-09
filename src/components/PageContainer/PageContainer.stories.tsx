@@ -1,5 +1,5 @@
 import React from 'react'
-import { ComponentStory, ComponentMeta } from '@storybook/react'
+import { ComponentStory, ComponentMeta, DecoratorFn } from '@storybook/react'
 import { FooterContainer, HeaderContainer, PageContainer } from '..'
 import PurePageContainer from './PageContainer'
 
@@ -31,10 +31,10 @@ Example.args = {
   footer: <FooterContainer>Footer</FooterContainer>
 }
 Example.decorators = [
-  Story => (
+  (Story => (
     <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
       {Story()}
     </div>
-  )
+  )) as DecoratorFn
 ]
 Example.storyName = ' '

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ComponentStory, ComponentMeta } from '@storybook/react'
+import { ComponentStory, ComponentMeta, DecoratorFn } from '@storybook/react'
 import { Prose } from '..'
 import PureProse from './Prose'
 
@@ -224,7 +224,7 @@ WithInlineStyleOverrides.args = {
   )
 }
 WithInlineStyleOverrides.decorators = [
-  Story => (
+  (Story => (
     <>
       {Story()}
       <p style={inlineStyles}>
@@ -232,5 +232,5 @@ WithInlineStyleOverrides.decorators = [
         component.
       </p>
     </>
-  )
+  )) as DecoratorFn
 ]

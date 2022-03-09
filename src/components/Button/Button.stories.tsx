@@ -1,4 +1,5 @@
 import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { Button } from '..'
 import PureButton from './Button'
 import PureButtonGroup from './ButtonGroup'
@@ -7,25 +8,27 @@ export default {
   title: 'Components/Button',
   component: PureButton,
   subcomponents: { [Button.Group.displayName]: PureButtonGroup }
-}
+} as ComponentMeta<typeof Button>
 
-let Template = args => <Button {...args} />
+const Template: ComponentStory<typeof Button> = args => <Button {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   href: 'https://example.com/',
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-Template = args => <Button.Group {...args} />
+const GroupTemplate: ComponentStory<typeof Button.Group> = args => (
+  <Button.Group {...args} />
+)
 
-export const example = Template.bind({})
+export const Group = GroupTemplate.bind({})
 
-example.args = {
+Group.args = {
   children: [
     <Button key="default">Default</Button>,
     <Button key="active" href="https://example.com/" target="_blank" active>
@@ -36,4 +39,4 @@ example.args = {
     </Button>
   ]
 }
-example.storyName = ' '
+Group.storyName = ' '

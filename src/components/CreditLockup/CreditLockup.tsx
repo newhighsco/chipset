@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import classNames from 'classnames'
-import { Icon, SmartLink } from '..'
+import Icon from '../Icon'
+import SmartLink from '../SmartLink'
 import { CreditLockupProps } from './CreditLockup.types'
 
 import { ReactComponent as LogoSvg } from './images/logo.svg'
