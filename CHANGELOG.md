@@ -1,3 +1,17 @@
+## [6.13.6](https://github.com/newhighsco/chipset/compare/v6.13.5...v6.13.6) (2022-03-08)
+
+
+### Bug Fixes
+
+* **live-stream:** check for existence of `window` before use ([88e5d85](https://github.com/newhighsco/chipset/commit/88e5d857042e85b788a97dbd65359b950419b964))
+
+## [6.13.5](https://github.com/newhighsco/chipset/compare/v6.13.4...v6.13.5) (2022-03-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.4.1 ([#1023](https://github.com/newhighsco/chipset/issues/1023)) ([127d569](https://github.com/newhighsco/chipset/commit/127d5694cacf78d4393318bb4dfd726022c8204a))
+
 ## [6.13.4](https://github.com/newhighsco/chipset/compare/v6.13.3...v6.13.4) (2022-02-08)
 
 
