@@ -5,7 +5,7 @@ import { isMobile } from 'react-device-detect'
 const getExternalUrl = url =>
   `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
 
-const location = window?.location
+const location = typeof window !== 'undefined' ? window.location : null
 
 const PROVIDERS = {
   facebook: {
