@@ -2026,12 +2026,12 @@
     sass-loader "12.6.0"
     storybook-dark-mode "1.0.9"
 
-"@newhighsco/stylelint-config@3.0.19":
-  version "3.0.19"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.0.19.tgz#06154bf488c8d2aea5407f26e589588976879fbf"
-  integrity sha512-ZszdkjjR6mgywPo1TUF49c+RmLX1sec7D5s9X2SJw3LER6ig0TCEhLq+5Wj0Sv+RKZ3k+W/VQ67h2PJGiVJzhA==
+"@newhighsco/stylelint-config@3.0.21":
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.0.21.tgz#f1dff7b9f6362d5bc66a8f88e7645920276193fe"
+  integrity sha512-X69/h16q3eI0MJTZH0vWjw0qemLQHEKA5On4KnNBbk9U4JG8m1RD204c3L88ZH0MqZv5J+nQ8Dr95RVVmFMsLQ==
   dependencies:
-    stylelint-config-css-modules "3.0.0"
+    stylelint-config-css-modules "4.1.0"
     stylelint-config-prettier "9.0.3"
     stylelint-config-standard-scss "3.0.0"
     stylelint-prettier "2.0.0"
@@ -15796,10 +15796,12 @@ style-to-object@0.3.0, style-to-object@^0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
-stylelint-config-css-modules@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-3.0.0.tgz#441bdca77d2ca3cb978524134fdfeb8f51c236ee"
-  integrity sha512-NDvOK4M98r6XGZyYLEwd+1LSqVm8ReXERbdppnhRy25QzuGcjgYvBNA1v/BxeMXq8DCljg0h4uEbQy+av/37JQ==
+stylelint-config-css-modules@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.1.0.tgz#b507bc074ba5bfda9f40f0be79b540db249f0c78"
+  integrity sha512-w6d552NscwvpUEaUcmq8GgWXKRv6lVHLbDj6QIHSM2vCWr83qRqRvXBJCfXDyaG/J3Zojw2inU9VvU99ZlXuUw==
+  optionalDependencies:
+    stylelint-scss "^4.2.0"
 
 stylelint-config-prettier@9.0.3:
   version "9.0.3"
@@ -15846,6 +15848,17 @@ stylelint-scss@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.1.0.tgz#39b808696f8152081163d970449257ff80b5c041"
   integrity sha512-BNYTo7MMamhFOlcaAWp2dMpjg6hPyM/FFqfDIYzmYVLMmQJqc8lWRIiTqP4UX5bresj9Vo0dKC6odSh43VP2NA==
+  dependencies:
+    lodash "^4.17.21"
+    postcss-media-query-parser "^0.2.3"
+    postcss-resolve-nested-selector "^0.1.1"
+    postcss-selector-parser "^6.0.6"
+    postcss-value-parser "^4.1.0"
+
+stylelint-scss@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.2.0.tgz#e25fd390ee38a7e89fcfaec2a8f9dce2ec6ddee8"
+  integrity sha512-HHHMVKJJ5RM9pPIbgJ/XA67h9H0407G68Rm69H4fzFbFkyDMcTV1Byep3qdze5+fJ3c0U7mJrbj6S0Fg072uZA==
   dependencies:
     lodash "^4.17.21"
     postcss-media-query-parser "^0.2.3"
