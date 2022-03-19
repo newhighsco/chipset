@@ -1,3 +1,10 @@
+## [6.13.7](https://github.com/newhighsco/chipset/compare/v6.13.6...v6.13.7) (2022-03-19)
+
+
+### Bug Fixes
+
+* **live-stream:** check if window is undefined ([#1040](https://github.com/newhighsco/chipset/issues/1040)) ([3317554](https://github.com/newhighsco/chipset/commit/33175549bee06de2a6f1d93cdce975cd387e0cc0))
+
 ## [6.13.6](https://github.com/newhighsco/chipset/compare/v6.13.5...v6.13.6) (2022-03-08)
 
 
