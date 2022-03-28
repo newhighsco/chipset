@@ -1,3 +1,10 @@
+## [6.13.8](https://github.com/newhighsco/chipset/compare/v6.13.7...v6.13.8) (2022-03-28)
+
+
+### Bug Fixes
+
+* **chromatic:** deploy new version on tag ([38ae107](https://github.com/newhighsco/chipset/commit/38ae107e2eea25a3dbeb661e4c0a9bdab0005a48)), closes [#991](https://github.com/newhighsco/chipset/issues/991)
+
 ## [6.13.7](https://github.com/newhighsco/chipset/compare/v6.13.6...v6.13.7) (2022-03-19)
 
 
