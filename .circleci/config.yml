@@ -4,6 +4,13 @@ parameters:
     type: string
     default: v1-yarn-cache-{{ checksum ".nvmrc" }}-{{ checksum "yarn.lock" }}
 
+only-version-tags: &only-version-tags
+  filters:
+    tags:
+      only: /^v.*/
+    branches:
+      ignore: /.*/
+
 executors:
   node-executor:
     docker:
@@ -48,7 +55,7 @@ jobs:
     steps:
       - attach_workspace:
           at: .
-      - run: yarn snapshot
+      - run: yarn snapshot --branch-name ${CIRCLE_BRANCH}${CIRCLE_TAG}
   release:
     executor: node-executor
     steps:
@@ -78,3 +85,14 @@ workflows:
             branches:
               only:
                 - main
+  snapshot_version:
+    jobs:
+      - setup: *only-version-tags
+      - build:
+          <<: *only-version-tags
+          requires:
+            - setup
+      - snapshot:
+          <<: *only-version-tags
+          requires:
+            - build
