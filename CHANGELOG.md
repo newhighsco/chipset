@@ -1,3 +1,10 @@
+# [6.14.0](https://github.com/newhighsco/chipset/compare/v6.13.8...v6.14.0) (2022-03-30)
+
+
+### Features
+
+* **card:** support custom image render function ([fdb3d8f](https://github.com/newhighsco/chipset/commit/fdb3d8f719ba8fe308a42a9477451ffe61910b0d))
+
 ## [6.13.8](https://github.com/newhighsco/chipset/compare/v6.13.7...v6.13.8) (2022-03-28)
 
 
