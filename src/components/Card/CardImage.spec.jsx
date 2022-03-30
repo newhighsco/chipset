@@ -20,4 +20,18 @@ describe('Components/CardImage', () => {
       'https://example.com/image.png'
     )
   })
+
+  it("should render correctly when 'render' is set", () => {
+    const wrapper = shallow(
+      <CardImage
+        render={() => <img src="https://example.com/image.jpg" alt="" />}
+      />
+    )
+
+    expect(wrapper.type()).toEqual(ResponsiveMedia)
+    expect(wrapper.prop('className')).toEqual(undefined)
+    expect(wrapper.find('img').prop('src')).toEqual(
+      'https://example.com/image.jpg'
+    )
+  })
 })
