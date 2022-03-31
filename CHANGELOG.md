@@ -1,3 +1,10 @@
+## [6.14.1](https://github.com/newhighsco/chipset/compare/v6.14.0...v6.14.1) (2022-03-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.4.2 ([#1056](https://github.com/newhighsco/chipset/issues/1056)) ([e53a3b8](https://github.com/newhighsco/chipset/commit/e53a3b85cb24b540450cab0b8b517cb2d118a055))
+
 # [6.14.0](https://github.com/newhighsco/chipset/compare/v6.13.8...v6.14.0) (2022-03-30)
 
 
