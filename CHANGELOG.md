@@ -1,3 +1,31 @@
+## [6.14.1](https://github.com/newhighsco/chipset/compare/v6.14.0...v6.14.1) (2022-03-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.4.2 ([#1056](https://github.com/newhighsco/chipset/issues/1056)) ([e53a3b8](https://github.com/newhighsco/chipset/commit/e53a3b85cb24b540450cab0b8b517cb2d118a055))
+
+# [6.14.0](https://github.com/newhighsco/chipset/compare/v6.13.8...v6.14.0) (2022-03-30)
+
+
+### Features
+
+* **card:** support custom image render function ([fdb3d8f](https://github.com/newhighsco/chipset/commit/fdb3d8f719ba8fe308a42a9477451ffe61910b0d))
+
+## [6.13.8](https://github.com/newhighsco/chipset/compare/v6.13.7...v6.13.8) (2022-03-28)
+
+
+### Bug Fixes
+
+* **chromatic:** deploy new version on tag ([38ae107](https://github.com/newhighsco/chipset/commit/38ae107e2eea25a3dbeb661e4c0a9bdab0005a48)), closes [#991](https://github.com/newhighsco/chipset/issues/991)
+
+## [6.13.7](https://github.com/newhighsco/chipset/compare/v6.13.6...v6.13.7) (2022-03-19)
+
+
+### Bug Fixes
+
+* **live-stream:** check if window is undefined ([#1040](https://github.com/newhighsco/chipset/issues/1040)) ([3317554](https://github.com/newhighsco/chipset/commit/33175549bee06de2a6f1d93cdce975cd387e0cc0))
+
 ## [6.13.6](https://github.com/newhighsco/chipset/compare/v6.13.5...v6.13.6) (2022-03-08)
 
 

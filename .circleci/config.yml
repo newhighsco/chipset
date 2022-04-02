@@ -1,80 +1,57 @@
 version: 2.1
-parameters:
-  yarn-cache-key:
-    type: string
-    default: v1-yarn-cache-{{ checksum ".nvmrc" }}-{{ checksum "yarn.lock" }}
 
-executors:
-  node-executor:
-    docker:
-      - image: circleci/node:latest-browsers
-    working_directory: ~/repo
+orbs:
+  newhighsco: newhighsco/orb@1.7.0
 
-jobs:
-  setup:
-    executor: node-executor
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - << pipeline.parameters.yarn-cache-key >>
-      - run: yarn install
-      - save_cache:
-          key: << pipeline.parameters.yarn-cache-key >>
-          paths:
-            - node_modules
-      - persist_to_workspace:
-          root: .
-          paths:
-            - '*'
-  test:
-    executor: node-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - run: yarn test
-  build:
-    executor: node-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - run: yarn build
-      - persist_to_workspace:
-          root: .
-          paths:
-            - build
-  snapshot:
-    executor: node-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - run: yarn snapshot
-  release:
-    executor: node-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - deploy:
-          command: npx semantic-release
+only-version-tags: &only-version-tags
+  filters:
+    tags:
+      only: /^v.*/
+    branches:
+      ignore: /.*/
+
+build-parameters: &build-parameters
+  name: build
+  path-to-persist: build
 
 workflows:
   version: 2
   test_and_release:
     jobs:
-      - setup
-      - test:
+      - newhighsco/setup:
+          name: setup
+      - newhighsco/test:
+          name: test
           requires:
             - setup
-      - build:
+      - newhighsco/build:
+          <<: *build-parameters
           requires:
             - test
-      - snapshot:
+      - newhighsco/snapshot:
+          name: snapshot
           requires:
             - build
-      - release:
+      - newhighsco/release:
+          name: release
           requires:
             - snapshot
           filters:
             branches:
               only:
                 - main
+  snapshot_version:
+    jobs:
+      - newhighsco/setup:
+          <<: *only-version-tags
+          name: setup
+      - newhighsco/build:
+          <<: *only-version-tags
+          <<: *build-parameters
+          requires:
+            - setup
+      - newhighsco/snapshot:
+          <<: *only-version-tags
+          name: snapshot
+          requires:
+            - build
