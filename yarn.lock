@@ -1994,15 +1994,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.2.6":
-  version "3.2.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.6.tgz#576249a79d74781c5a2a6bb1e32acf0919cf2247"
-  integrity sha512-PCvUdPhm9mZXOTv4fEbkrscfjlu0MM35ptAMDbp9slE7sU4bNb9Uhs4WK6mj2irvdX5ak2uKX4AjHhKa6dhXdg==
+"@newhighsco/eslint-config@3.2.8":
+  version "3.2.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.8.tgz#c86786b66e3fb4ed3e7b3e2c784e777749aa0648"
+  integrity sha512-aCxQirrxeV7YG65Gor2v7yzaoD03GwTvoMvJYoCOYIVI97iqJhW0URihi/y7jDmrWCYmh+jub73GJGVI7fDxhw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.20.0"
     "@typescript-eslint/parser" "5.20.0"
     eslint-config-prettier "8.5.0"
-    eslint-config-standard-jsx "10.0.0"
+    eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "11.0.1"
     eslint-config-standard-with-typescript "21.0.1"
     eslint-plugin-import "2.26.0"
@@ -7352,10 +7352,10 @@ eslint-config-prettier@8.5.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-standard-jsx@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-10.0.0.tgz#dc24992661325a2e480e2c3091d669f19034e18d"
-  integrity sha512-hLeA2f5e06W1xyr/93/QJulN/rLbUVUmqTlexv9PRKHFwEC9ffJcH2LvJhMoEqYQBEYafedgGZXH2W8NUpt5lA==
+eslint-config-standard-jsx@11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-11.0.0.tgz#70852d395731a96704a592be5b0bfaccfeded239"
+  integrity sha512-+1EV/R0JxEK1L0NGolAr8Iktm3Rgotx3BKwgaX+eAuSX8D952LULKtjgZD3F+e6SvibONnhLwoTi9DPxN5LvvQ==
 
 eslint-config-standard-react@11.0.1:
   version "11.0.1"
