@@ -1984,10 +1984,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/commitlint-config@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.0.tgz#d4060c18045a0699df25bf8e40f6efb466d48a28"
-  integrity sha512-4zc17HdyDMugBgo7X+0OJbvF5TAwJYgPTa7ekwuOCSSKhoAo/3VEDuZ9HYrE+cOUXqbqelTER7cEJfooqspFMg==
+"@newhighsco/commitlint-config@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.1.tgz#b12a7b83ee020dcfdcfec3d8b14f38c867ff94fe"
+  integrity sha512-roG8QtzKwefrjTHv28jf0Kylm2inLZ9jK0Usu8jO5hQqM7m2bCvP3elQfGbv+sK2ra1E2K8xbMpxRYf/yAqIOw==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
@@ -2044,10 +2044,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.5":
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.5.tgz#d903fb4ea581530325b5624c966645eaf1102432"
-  integrity sha512-CpfVI6gY5R/ggLMDdp5CIs5vjxtCL7eQHl/kUpmyf12iY3KTMc2xlXqGjGFZolB9nZ0j9kzeUmjeBE7npeELeA==
+"@newhighsco/storybook-preset@4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.6.tgz#06335038d8a506b7d5ea1429dc89632cbdc5c755"
+  integrity sha512-JtVjv95mOO04LrrJKh0K98kR7hIXuc+xFUUXlItMDFcvupXO9dzBWBqtxY/b7VfNnq48SfeIqZjwDkCct2JARw==
   dependencies:
     "@storybook/addon-actions" "6.4.22"
     "@storybook/addon-backgrounds" "6.4.22"
@@ -2059,10 +2059,10 @@
     "@svgr/webpack" "6.2.1"
     new-url-loader "0.1.1"
     postcss "8.4.12"
-    react-is "18.0.0"
+    react-is "18.1.0"
     sass "1.51.0"
     sass-loader "12.6.0"
-    storybook-dark-mode "1.0.9"
+    storybook-dark-mode "1.1.0"
 
 "@newhighsco/stylelint-config@3.1.4":
   version "3.1.4"
@@ -14224,10 +14224,10 @@ react-is@17.0.2, "react-is@^16.12.0 || ^17.0.0", react-is@^17.0.0, react-is@^17.
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-is@18.0.0:
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.0.0.tgz#026f6c4a27dbe33bf4a35655b9e1327c4e55e3f5"
-  integrity sha512-yUcBYdBBbo3QiPsgYDcfQcIkGZHfxOaoE6HLSnr1sPzMhdyxusbfKOSUbSd/ocGi32dxcj366PsTj+5oggeKKw==
+react-is@18.1.0:
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.1.0.tgz#61aaed3096d30eacf2a2127118b5b41387d32a67"
+  integrity sha512-Fl7FuabXsJnV5Q1qIOQwx/sagGF18kogb4gpfcG4gjLBWO0WDiiz1ko/ExayuxE7InyQkBLkxRFG5oxY6Uu3Kg==
 
 react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
@@ -15632,10 +15632,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.13.1.tgz#fae7b5bb9d35fc53dc61cd262df3abb2f6e59022"
   integrity sha512-iJtHSGmNgAUx0b/MCS6ASGxb//hGrHHRgzvN+K5bvkBTN7A9RTpPSf1WSp+nPGvWCJ1jRnvY7MKnuqfoi3OEqg==
 
-storybook-dark-mode@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-1.0.9.tgz#40c15aa340bc700df2fb4f1345250e6fdace0b3a"
-  integrity sha512-ITPXM2OSaga1zM5blpZy5HxMWAhrAqYi9aJtLgRtSdgoRrxVNAInDRD14TjmObdgLHNWxINoNbnEB+sKETa+iw==
+storybook-dark-mode@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-1.1.0.tgz#4aca307a9c09f1b95743da2db6b07c8eea99ed24"
+  integrity sha512-F+hG02zYGBzxGTUonA1XDV/CtMYm3OjF38Tu1CIUN+w+8hwUrwLcOtgtLLw6VjSrZdJ/ECK+tjXdKTV4oZqAXw==
   dependencies:
     fast-deep-equal "^3.0.0"
     memoizerific "^1.11.3"
