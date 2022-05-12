@@ -1,3 +1,10 @@
+## [6.14.5](https://github.com/newhighsco/chipset/compare/v6.14.4...v6.14.5) (2022-05-12)
+
+
+### Bug Fixes
+
+* **credit-lockup:** don't scale log when reduce motion is enabled ([9609b95](https://github.com/newhighsco/chipset/commit/9609b9572371c2fb1b2a107196a25e2dc80bc88f))
+
 ## [6.14.4](https://github.com/newhighsco/chipset/compare/v6.14.3...v6.14.4) (2022-05-11)
 
 
