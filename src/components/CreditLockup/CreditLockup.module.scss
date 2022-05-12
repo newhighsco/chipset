@@ -23,16 +23,18 @@
   color: currentColor;
   display: inline-block;
 
-  &:hover {
-    .logo {
-      transform: scale(1.1);
+  @media (prefers-reduced-motion: no-preference) {
+    &:hover {
+      .logo {
+        transform: scale(1.1);
+      }
     }
-  }
 
-  &:focus,
-  &:active {
-    .logo {
-      transform: scale(1);
+    &:focus,
+    &:active {
+      .logo {
+        transform: scale(1);
+      }
     }
   }
 }
