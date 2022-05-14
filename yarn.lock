@@ -2209,10 +2209,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/commitlint-config@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.1.tgz#b12a7b83ee020dcfdcfec3d8b14f38c867ff94fe"
-  integrity sha512-roG8QtzKwefrjTHv28jf0Kylm2inLZ9jK0Usu8jO5hQqM7m2bCvP3elQfGbv+sK2ra1E2K8xbMpxRYf/yAqIOw==
+"@newhighsco/commitlint-config@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.2.tgz#2ea33619a25c4f936a88cbb047ec7bcd6dc69481"
+  integrity sha512-zJWQBDbxKZ4+V160jowYRmPXANuAhvT43gMnDiLuKJf9rEVDmeexw8Pa/lWweRibIQknokDrBDFHxJz6aSAivQ==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
@@ -2240,14 +2240,14 @@
     eslint-plugin-react "7.29.4"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.17":
-  version "3.5.17"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.17.tgz#f8c2201cd9fca709dde2febe0b989205b34bfd8c"
-  integrity sha512-l3yXrGtrWtA0eAsIvckVU68Ih1mogHiYHlWJahjY1rGJtNAqrweOwwSzpVmnkBdTm7jQMIjDLC/158UnDoRH0w==
+"@newhighsco/postcss-config@3.5.18":
+  version "3.5.18"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.18.tgz#8f2201558ae126d9aef039cff7ddd1b5dfd3db91"
+  integrity sha512-DgZR5OLS9l3cEeS7itg2TTFUbE+X3O1LSf4Xtb+XJc4/Lnpg3x7kKptn/6OQQ1HvEGOH8D17Zeuxi58XaavQ3w==
   dependencies:
     "@fullhuman/postcss-purgecss" "4.1.3"
     autoprefixer "10.4.7"
-    caniuse-lite "1.0.30001340"
+    caniuse-lite "1.0.30001341"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.5.0"
 
@@ -5795,10 +5795,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001340:
-  version "1.0.30001340"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001340.tgz#029a2f8bfc025d4820fafbfaa6259fd7778340c7"
-  integrity sha512-jUNz+a9blQTQVu4uFcn17uAD8IDizPzQkIKh3LCJfg9BkyIqExYYdyc/ZSlWUSKb8iYiXxKsxbv4zYSvkqjrxw==
+caniuse-lite@1.0.30001341:
+  version "1.0.30001341"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001341.tgz#59590c8ffa8b5939cf4161f00827b8873ad72498"
+  integrity sha512-2SodVrFFtvGENGCv0ChVJIDQ0KPaS1cg7/qtfMaICgeMolDdo/Z2OD32F0Aq9yl6F4YFwGPBS5AaPqNYiW4PoA==
 
 caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001286:
   version "1.0.30001309"
