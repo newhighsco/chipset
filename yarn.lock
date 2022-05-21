@@ -2370,10 +2370,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.2.15":
-  version "3.2.15"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.15.tgz#cb428c75f34a7c4b87050e75e1dd56d0212e1db5"
-  integrity sha512-eLfD7mj0G5SD6OXww86DZ1QbuyCcwhRFcMTwKqJbeGYIBGIYCvbCi7vrBmiPE/yVzYj7Ld4LWbVp8DG70QGYng==
+"@newhighsco/eslint-config@3.2.16":
+  version "3.2.16"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.16.tgz#bdbf0a72593ddd4b4c5a4c96bc6fa27a41af9d12"
+  integrity sha512-Iw3hh8o9rszQ4rUjbN3eFsOQveD9mU0yOztu6oqV3A3iUT7m/bgsaMJVTn1/8T9fmBBKPhVYGEm497ycza3TyQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.25.0"
     "@typescript-eslint/parser" "5.25.0"
@@ -2420,10 +2420,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.11":
-  version "4.5.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.11.tgz#34083a65180911a6d29ccabc3ba27c1e415e58fc"
-  integrity sha512-JyRobAoJ+uivIfZdgj6yhqgp9CJVYIuvnM7YA4D1OmJJOO6x9iKZaCiSo/pZd4511eQqykDWU7zAFLrPHdtqxQ==
+"@newhighsco/storybook-preset@4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.12.tgz#838e28fa07d1a44e5c84c24338f04c79205635fa"
+  integrity sha512-I2suIp01m0VmuWGwCDrshiE8eQKLkVKOI/SVRiEsDibR2WVhuNYjhzRBHGZcRYul/dWbvMApqW+G3iqP7BvwSw==
   dependencies:
     "@storybook/addon-actions" "6.5.3"
     "@storybook/addon-backgrounds" "6.5.3"
@@ -2436,14 +2436,14 @@
     new-url-loader "0.1.1"
     postcss "8.4.14"
     react-is "18.1.0"
-    sass "1.52.0"
+    sass "1.52.1"
     sass-loader "13.0.0"
     storybook-dark-mode "1.1.0"
 
-"@newhighsco/stylelint-config@3.1.6":
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.6.tgz#68c4e5ade50597013b577944b426b05299d000f9"
-  integrity sha512-xcIwDxE3e01omVkzn5pgnxSHem671lIX1+E9G0rmD31lf5lHT6BQ0cLrU1xn69ODNrp5Ax9FU40Wg4IwMIxr0A==
+"@newhighsco/stylelint-config@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.7.tgz#b2db456303870df2b42df27060b4e13b4128e1b0"
+  integrity sha512-uwiDIVZNkMjZtbagujgIBD3+WAycPGZuo5RaOD/n3NJKPCEbPvlamluM/2wVHVSiTtA8NNUjOtp3SOGiIXGnww==
   dependencies:
     stylelint-config-css-modules "4.1.0"
     stylelint-config-prettier "9.0.3"
@@ -15406,10 +15406,10 @@ sass-true@6.1.0:
     jest-diff "^27.5.1"
     lodash "^4.17.21"
 
-sass@1.52.0:
-  version "1.52.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.0.tgz#3dc755ff459858ce7062887181648701f028c4f5"
-  integrity sha512-6EnTglag2oVD8sNJCxUi2Jd3ICH9tJ5Mqudt/gIZNBR2uKJUBZuTpW9O1t04SkDLP7VFa76FCWTV2rwchqM8Kw==
+sass@1.52.1:
+  version "1.52.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.1.tgz#554693da808543031f9423911d62c60a1acf7889"
+  integrity sha512-fSzYTbr7z8oQnVJ3Acp9hV80dM1fkMN7mSD/25mpcct9F7FPBMOI8krEYALgU1aZoqGhQNhTPsuSmxjnIvAm4Q==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
