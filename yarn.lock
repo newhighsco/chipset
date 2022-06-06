@@ -1680,10 +1680,17 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.17.8", "@babel/runtime@^7.17.9":
+"@babel/runtime@^7.17.8":
   version "7.17.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
   integrity sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.18.3":
+  version "7.18.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.3.tgz#c7b654b57f6f63cf7f8b418ac9ca04408c4579f4"
+  integrity sha512-38Y8f7YUhce/K7RMwTp7m0uCumpv9hZkitCbBClqQIow1qSbCvGkcegKOXpEWCQLfWmevgRiWokZ1GkpfhbZug==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -2056,12 +2063,12 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
-"@dr.pogodin/react-themes@1.4.3":
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.4.3.tgz#71ee778422af3b726535199527728755dfedf7bf"
-  integrity sha512-gW63wxhGaS6MrpeJcy3PCr+eQwA8z1Ac45z62rxNsZd9NDRElEFt/WkaoFgGInL7wmFkN9LFQZld2pCRKUGqzg==
+"@dr.pogodin/react-themes@1.4.4":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.4.4.tgz#02c65fac28a22d6cb560dbdf9388136e6f02e632"
+  integrity sha512-DqaGTRLJq6UYuWdpOBXk0Fzu7xxtKLM/g+MnNH77dDgIRLROEdKWzbM5PAAxzKC1hgWKnTYqCI+gMdt+od8njg==
   dependencies:
-    "@babel/runtime" "^7.17.9"
+    "@babel/runtime" "^7.18.3"
 
 "@eslint/eslintrc@^1.3.0":
   version "1.3.0"
