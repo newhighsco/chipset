@@ -1,3 +1,10 @@
+## [6.14.7](https://github.com/newhighsco/chipset/compare/v6.14.6...v6.14.7) (2022-08-25)
+
+
+### Reverts
+
+* Revert "chore(deps): update dependency semantic-release to v19.0.4 (#1254)" (#1258) ([44d7031](https://github.com/newhighsco/chipset/commit/44d70316947e723ebf6e21aa41468bd394f09a3c)), closes [#1254](https://github.com/newhighsco/chipset/issues/1254) [#1258](https://github.com/newhighsco/chipset/issues/1258)
+
 ## [6.14.6](https://github.com/newhighsco/chipset/compare/v6.14.5...v6.14.6) (2022-06-07)
 
 
