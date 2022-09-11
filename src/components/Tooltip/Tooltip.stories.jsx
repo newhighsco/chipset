@@ -29,7 +29,7 @@ withClick.args = {
 }
 withClick.decorators = [
   Story => (
-    <div style={{ padding: 50 }} align="center">
+    <div style={{ padding: 50, textAlign: 'center' }}>
       <Story />
     </div>
   )
@@ -60,8 +60,7 @@ export const alignment = () => (
         {['left', 'center', 'right'].map(align => (
           <div
             key={align}
-            style={{ minWidth: 250, padding: 50 }}
-            align="center"
+            style={{ minWidth: 250, padding: 50, textAlign: 'center' }}
           >
             <Tooltip
               {...withClick.args}
