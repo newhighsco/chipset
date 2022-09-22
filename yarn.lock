@@ -1834,10 +1834,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.2.68":
-  version "3.2.68"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.68.tgz#1a1cea7ca9986bf0fe18510740f241840dc49f77"
-  integrity sha512-r7vvoTIjWUx+o0bz7KYzzNlFfLShlzjPdms3mIogjqwuuklimLb0mDfc1iiUJbMUYG8NDm6S3kWC8A6Kux5RDg==
+"@newhighsco/eslint-config@3.2.69":
+  version "3.2.69"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.69.tgz#21438526429348962b866b6c443533cef7567f67"
+  integrity sha512-+SAhIInqSVS//A+rGRs621EJVuLNj3q+zhPkQkBMGWV4Io/TE+k7YrRO37ziNEHCoN9eOlKY/LamMIE27hK7Vw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.38.0"
     "@typescript-eslint/parser" "5.38.0"
@@ -1849,7 +1849,7 @@
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.6.1"
     eslint-plugin-mdx "2.0.5"
-    eslint-plugin-n "15.2.5"
+    eslint-plugin-n "15.3.0"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "4.2.1"
     eslint-plugin-promise "6.0.1"
@@ -1885,10 +1885,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.40":
-  version "4.5.40"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.40.tgz#a5900fe9c230fe78e3724cf1d817aba7a112ec93"
-  integrity sha512-A0t9Z4uAv8BW8j9hVB7dMN0wbFUmhmNbvRsYrbfTWl0vD5zmqIbZBkFMmXDQGG5r9aJA9Ol8XtWliJA7N/sOHA==
+"@newhighsco/storybook-preset@4.5.41":
+  version "4.5.41"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.41.tgz#80e44ece2489fef9d69feed1a588a3faff252da0"
+  integrity sha512-FOlAFHdfsMleONNKybSOc5qOEND/N4UPAwUCY3lSjMrbBey22csr5pmP/mcI249MeDTo0P0r31n9NUO8HVWGQA==
   dependencies:
     "@storybook/addon-actions" "6.5.12"
     "@storybook/addon-backgrounds" "6.5.12"
@@ -1901,7 +1901,7 @@
     new-url-loader "0.1.1"
     postcss "8.4.16"
     react-is "18.2.0"
-    sass "1.54.9"
+    sass "1.55.0"
     sass-loader "13.0.2"
     storybook-dark-mode "1.1.2"
 
@@ -7300,10 +7300,10 @@ eslint-plugin-mdx@2.0.5:
     unified "^10.1.2"
     vfile "^5.3.4"
 
-eslint-plugin-n@15.2.5:
-  version "15.2.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-15.2.5.tgz#aa7ff8d45bb8bf2df8ea3b7d3774ae570cb794b8"
-  integrity sha512-8+BYsqiyZfpu6NXmdLOXVUfk8IocpCjpd8nMRRH0A9ulrcemhb2VI9RSJMEy5udx++A/YcVPD11zT8hpFq368g==
+eslint-plugin-n@15.3.0:
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-15.3.0.tgz#3e1ad236a17dce7ecc0760621c46cc251ef99560"
+  integrity sha512-IyzPnEWHypCWasDpxeJnim60jhlumbmq0pubL6IOcnk8u2y53s5QfT8JnXy7skjHJ44yWHRb11PLtDHuu1kg/Q==
   dependencies:
     builtins "^5.0.1"
     eslint-plugin-es "^4.1.0"
@@ -15185,10 +15185,10 @@ sass-true@6.1.0:
     jest-diff "^27.5.1"
     lodash "^4.17.21"
 
-sass@1.54.9:
-  version "1.54.9"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.9.tgz#b05f14ed572869218d1a76961de60cd647221762"
-  integrity sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==
+sass@1.55.0:
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.55.0.tgz#0c4d3c293cfe8f8a2e8d3b666e1cf1bff8065d1c"
+  integrity sha512-Pk+PMy7OGLs9WaxZGJMn7S96dvlyVBwwtToX895WmCpAOr5YiJYEUJfiJidMuKb613z2xNWcXCHEuOvjZbqC6A==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
