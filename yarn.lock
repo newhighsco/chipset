@@ -1453,13 +1453,6 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fullhuman/postcss-purgecss@4.1.3":
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-4.1.3.tgz#e4eb21fc7a49257e4081c6a3a86b338618e61fce"
-  integrity sha512-jqcsyfvq09VOsMXxJMPLRF6Fhg/NNltzWKnC9qtzva+QKTxerCO4esG6je7hbnmkpZtaDyPTwMBj9bzfWorsrw==
-  dependencies:
-    purgecss "^4.1.3"
-
 "@fullhuman/postcss-purgecss@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-5.0.0.tgz#70db9a537c73750fbcf745b49573db758daba1d8"
@@ -1836,17 +1829,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.2.76":
-  version "3.2.76"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.76.tgz#68a7c8be85bcde04771906ae03fb677a14d292a6"
-  integrity sha512-uVSuY6/F+bClyvQQcOZoT80ZXwmz6iqpw4EK0EtnkDxIN9fcEXtdrD9TqwxkY92SDKGVvaVvRxUCIcLaIMRe6A==
+"@newhighsco/eslint-config@3.2.77":
+  version "3.2.77"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.77.tgz#75c1b11824b598f5946020a992d6a9a75a207f7b"
+  integrity sha512-XM5YNt15SbWJ95KjwEFaLkt2nj2HrEGG+7hYHXAqcrj8kzj3f1bPZzu8EUqf9ZE3epdrjH4S2dee1zTOg1GwMA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.40.0"
     "@typescript-eslint/parser" "5.40.0"
     eslint-config-prettier "8.5.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "11.0.1"
-    eslint-config-standard-with-typescript "22.0.0"
+    eslint-config-standard-with-typescript "23.0.0"
     eslint-plugin-import "2.26.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.6.1"
@@ -1858,12 +1851,12 @@
     eslint-plugin-react "7.31.10"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.84":
-  version "3.5.84"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.84.tgz#ef0650b5900054a4409f195d218862abc47a05a9"
-  integrity sha512-dOTMraSfJvYQy3B+ADxFeWx7wKY8eX4hCYzXAPU/sF1dyNQQGKqqrA7CDzIjFdBfPUqwy+S8bogPFK73LFqbew==
+"@newhighsco/postcss-config@3.5.85":
+  version "3.5.85"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.85.tgz#9d769f3d556e3174ea6c9c8e54f39ed1c17148d2"
+  integrity sha512-eXpC6QKMm0BiPnLbIge5FFaMBZCNVrNT32F+mXtBX59sr4ifrEgsbwLl/mnngrqpwozCI1XgNTHDVUEfBJA11g==
   dependencies:
-    "@fullhuman/postcss-purgecss" "4.1.3"
+    "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.12"
     caniuse-lite "1.0.30001418"
     postcss-flexbugs-fixes "5.0.2"
@@ -5826,7 +5819,7 @@ commander@^7.2.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
-commander@^8.0.0, commander@^8.3.0:
+commander@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
@@ -7172,10 +7165,10 @@ eslint-config-standard-react@11.0.1:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-11.0.1.tgz#1f488e0062c1e21c4c8584551619f11750658f55"
   integrity sha512-4WlBynOqBZJRaX81CBcIGDHqUiqxvw4j/DbEIICz8QkMs3xEncoPgAoysiqCSsg71X92uhaBc8sgqB96smaMmg==
 
-eslint-config-standard-with-typescript@22.0.0:
-  version "22.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-22.0.0.tgz#5b91941797da779e17fcb3ba418e3a3ab31fdb2f"
-  integrity sha512-VA36U7UlFpwULvkdnh6MQj5GAV2Q+tT68ALLAwJP0ZuNXU2m0wX07uxX4qyLRdHgSzH4QJ73CveKBuSOYvh7vQ==
+eslint-config-standard-with-typescript@23.0.0:
+  version "23.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-23.0.0.tgz#aa4b656740bbb2592d4cadec735d41e36245a44b"
+  integrity sha512-iaaWifImn37Z1OXbNW1es7KI+S7D408F9ys0bpaQf2temeBWlvb0Nc5qHkOgYaRb5QxTZT32GGeN1gtswASOXA==
   dependencies:
     "@typescript-eslint/parser" "^5.0.0"
     eslint-config-standard "17.0.0"
@@ -8366,7 +8359,7 @@ glob-to-regexp@^0.4.1:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz#c75297087c851b9a578bd217dd59a92f59fe546e"
   integrity sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==
 
-glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.1.7:
+glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
@@ -13986,7 +13979,7 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.17, postcss@^8.2.15, postcss@^8.3.5, postcss@^8.4.16, postcss@^8.4.4:
+postcss@8.4.17, postcss@^8.2.15, postcss@^8.4.16, postcss@^8.4.4:
   version "8.4.17"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.17.tgz#f87863ec7cd353f81f7ab2dec5d67d861bbb1be5"
   integrity sha512-UNxNOLQydcOFi41yHNMcKRZ39NeXlr8AxGuZJsdub8vIb12fHzcq37DTU/QtbI6WLxNg2gF9Z+8qtRwTj1UI1Q==
@@ -14249,16 +14242,6 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-purgecss@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-4.1.3.tgz#683f6a133c8c4de7aa82fe2746d1393b214918f7"
-  integrity sha512-99cKy4s+VZoXnPxaoM23e5ABcP851nC2y2GROkkjS8eJaJtlciGavd7iYAw2V84WeBqggZ12l8ef44G99HmTaw==
-  dependencies:
-    commander "^8.0.0"
-    glob "^7.1.7"
-    postcss "^8.3.5"
-    postcss-selector-parser "^6.0.6"
 
 purgecss@^5.0.0:
   version "5.0.0"
