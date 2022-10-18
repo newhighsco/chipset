@@ -82,7 +82,7 @@
     "react-dom": "18.2.0",
     "sass-true": "6.1.0",
     "semantic-release": "19.0.5",
-    "stylelint": "14.13.0",
+    "stylelint": "14.14.0",
     "webpack": "5.74.0"
   },
   "peerDependencies": {
