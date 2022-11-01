@@ -3,22 +3,21 @@ import { SiteContainer } from '..'
 import PureSiteContainer from './SiteContainer'
 
 export default {
-  title: 'Components/SiteContainer',
   component: PureSiteContainer
 }
 
 const Template = args => <SiteContainer {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
-source.args = {
+Source.args = {
   children: 'Content'
 }
 
-export const example = Template.bind({})
+export const Example = Template.bind({})
 
-example.args = source.args
-example.storyName = ' '
+Example.args = Source.args
+Example.storyName = ' '

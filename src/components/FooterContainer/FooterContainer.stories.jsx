@@ -3,7 +3,6 @@ import { FooterContainer } from '..'
 import PureContentContainer from '../ContentContainer/ContentContainer'
 
 export default {
-  title: 'Components/FooterContainer',
   component: FooterContainer,
   subcomponents: { [PureContentContainer.displayName]: PureContentContainer },
   parameters: {
@@ -13,15 +12,15 @@ export default {
 
 const Template = args => <FooterContainer {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: 'Content'
 }
 
-export const example = Template.bind({})
+export const Example = Template.bind({})
 
-example.args = {
+Example.args = {
   children: 'Content'
 }
-example.storyName = ' '
+Example.storyName = ' '

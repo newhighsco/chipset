@@ -2,7 +2,6 @@ import React from 'react'
 import { VisuallyHidden } from '..'
 
 export default {
-  title: 'Components/VisuallyHidden',
   component: VisuallyHidden,
   parameters: {
     chromatic: { disable: true }
@@ -11,8 +10,8 @@ export default {
 
 const Template = args => <VisuallyHidden {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: 'Content'
 }

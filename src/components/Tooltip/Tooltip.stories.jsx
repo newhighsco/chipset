@@ -3,31 +3,30 @@ import { Tooltip } from '..'
 import PureTooltip from './Tooltip'
 
 export default {
-  title: 'Components/Tooltip',
   component: PureTooltip
 }
 
 const Template = args => <Tooltip {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   toggle: 'Toggle',
   heading: 'Heading',
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const withClick = Template.bind({})
+export const WithClick = Template.bind({})
 
-withClick.args = {
+WithClick.args = {
   toggle: 'Click to view',
   heading: <h2>Heading</h2>,
   children: <p>Content</p>
 }
-withClick.decorators = [
+WithClick.decorators = [
   Story => (
     <div style={{ padding: 50, textAlign: 'center' }}>
       <Story />
@@ -35,17 +34,17 @@ withClick.decorators = [
   )
 ]
 
-export const withHover = Template.bind({})
+export const WithHover = Template.bind({})
 
-withHover.args = {
-  ...withClick.args,
+WithHover.args = {
+  ...WithClick.args,
   toggle: 'Hover/focus to view',
   manual: false
 }
-withHover.decorators = withClick.decorators
-withHover.storyName = 'With Hover/focus'
+WithHover.decorators = WithClick.decorators
+WithHover.storyName = 'With Hover/focus'
 
-export const alignment = () => (
+export const Alignment = () => (
   <>
     {['top', 'middle', 'bottom'].map(valign => (
       <div
@@ -63,7 +62,7 @@ export const alignment = () => (
             style={{ minWidth: 250, padding: 50, textAlign: 'center' }}
           >
             <Tooltip
-              {...withClick.args}
+              {...WithClick.args}
               toggle={`Tooltip ${valign} ${align}`}
               valign={valign}
               align={align}

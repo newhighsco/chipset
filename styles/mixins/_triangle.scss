@@ -89,6 +89,7 @@
   }
 }
 
+/* stylelint-disable annotation-no-unknown */
 /* stylelint-disable-next-line scss/at-mixin-pattern */
 @mixin _triangle-borders($sides, $size, $color) {
   width: 0;

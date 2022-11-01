@@ -3,7 +3,6 @@ import { Backdrop, Button, Image } from '..'
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
-  title: 'Components/Backdrop',
   component: Backdrop
 }
 
@@ -24,25 +23,25 @@ const storyDecorators = [
 ]
 const Template = args => <Backdrop {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const withImage = Template.bind({})
+export const WithImage = Template.bind({})
 
-withImage.args = {
+WithImage.args = {
   children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
 }
-withImage.decorators = storyDecorators
+WithImage.decorators = storyDecorators
 
-export const withVideo = Template.bind({})
+export const WithVideo = Template.bind({})
 
-withVideo.args = {
+WithVideo.args = {
   children: <video src={videoUrl} poster={imageUrl} muted />
 }
-withVideo.decorators = storyDecorators
+WithVideo.decorators = storyDecorators

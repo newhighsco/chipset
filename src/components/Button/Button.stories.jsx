@@ -4,31 +4,30 @@ import PureButton from './Button'
 import PureButtonGroup from './ButtonGroup'
 
 export default {
-  title: 'Components/Button',
   component: PureButton,
   subcomponents: { [Button.Group.displayName]: PureButtonGroup }
 }
 
 let Template = args => <Button {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
-  href: 'https://example.com/',
+Source.args = {
+  href: 'https://Example.com/',
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
 Template = args => <Button.Group {...args} />
 
-export const example = Template.bind({})
+export const Example = Template.bind({})
 
-example.args = {
+Example.args = {
   children: [
     <Button key="default">Default</Button>,
-    <Button key="active" href="https://example.com/" target="_blank" active>
+    <Button key="active" href="https://Example.com/" target="_blank" active>
       Active
     </Button>,
     <Button key="disabled" disabled>
@@ -36,4 +35,4 @@ example.args = {
     </Button>
   ]
 }
-example.storyName = ' '
+Example.storyName = ' '

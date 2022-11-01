@@ -3,7 +3,6 @@ import { SmartLink } from '..'
 import PureSmartLink from './SmartLink'
 
 export default {
-  title: 'Components/SmartLink',
   component: PureSmartLink,
   parameters: {
     chromatic: { disable: true }
@@ -12,9 +11,9 @@ export default {
 
 const Template = args => <SmartLink {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
-  href: 'https://example.com/',
+Source.args = {
+  href: 'https://Example.com/',
   children: 'Content'
 }
