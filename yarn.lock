@@ -1829,16 +1829,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.2.tgz#feaad03a335a98499dfa7200ee1bb1fb3d457b11"
-  integrity sha512-ItzuJLBi0PHpKKNZumUhJB7SD/IYim8RV/fo2LkkayLEq8CEDmCfYBa3shsY43ujQuCRCdTHl+QE/cX1Yu/9gA==
+"@newhighsco/eslint-config@3.4.4":
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.4.tgz#452bc7a2d1769d0dfd3ce930e834e3b9b6f4ff77"
+  integrity sha512-satsiHKr1lOpG6RIQNwhAz8aHiFnbq4/8MFbjKWpNXdjm3EZ9iR35nObduG1Xv9soVOs2pNeMqPiXBnb53bwbQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.42.0"
     "@typescript-eslint/parser" "5.42.0"
     eslint-config-prettier "8.5.0"
     eslint-config-standard-jsx "11.0.0"
-    eslint-config-standard-react "11.0.1"
+    eslint-config-standard-react "12.0.0"
     eslint-config-standard-with-typescript "23.0.0"
     eslint-plugin-import "2.26.0"
     eslint-plugin-json-format "2.0.1"
@@ -1849,17 +1849,17 @@
     eslint-plugin-prettier "4.2.1"
     eslint-plugin-promise "6.1.1"
     eslint-plugin-react "7.31.10"
-    eslint-plugin-storybook "0.6.6"
+    eslint-plugin-storybook "0.6.7"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.94":
-  version "3.5.94"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.94.tgz#047bedccda769ed53672bfd2f4ffbd0cc2ff6412"
-  integrity sha512-EeuRtj4DQjV/zvp5+ekF47tVGRZ+/PKPaZ+yMYTvdBsrvzYmwRcBOMEpUcpSNnXMJp0Z1KJUrFxXTznZ0Ld9YQ==
+"@newhighsco/postcss-config@3.5.95":
+  version "3.5.95"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.95.tgz#1588be120a4b8a4012383b9e684e38e72af9d2db"
+  integrity sha512-F7X44MTYSp13AXZYTYzgQSLiTvieZo5CMEF33JX5DxoRQ+xMTKMCoI1x2a+iMhifCzZHs6ag+YJ5STYhOaLfZA==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.13"
-    caniuse-lite "1.0.30001427"
+    caniuse-lite "1.0.30001429"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.8.2"
 
@@ -5378,12 +5378,7 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001427:
-  version "1.0.30001427"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001427.tgz#d3a749f74be7ae0671fbec3a4eea18576e8ad646"
-  integrity sha512-lfXQ73oB9c8DP5Suxaszm+Ta2sr/4tf8+381GkIm1MLj/YdLf+rEDyDSRCzeltuyTVGm+/s18gdZ0q+Wmp8VsQ==
-
-caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
+caniuse-lite@1.0.30001429, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
   version "1.0.30001429"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001429.tgz#70cdae959096756a85713b36dd9cb82e62325639"
   integrity sha512-511ThLu1hF+5RRRt0zYCf2U2yRr9GPF6m5y90SBCWsvSoYoW7yAGlv/elyPaNfvGCkp6kj/KFZWU0BMA69Prsg==
@@ -7210,10 +7205,10 @@ eslint-config-standard-jsx@11.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-11.0.0.tgz#70852d395731a96704a592be5b0bfaccfeded239"
   integrity sha512-+1EV/R0JxEK1L0NGolAr8Iktm3Rgotx3BKwgaX+eAuSX8D952LULKtjgZD3F+e6SvibONnhLwoTi9DPxN5LvvQ==
 
-eslint-config-standard-react@11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-11.0.1.tgz#1f488e0062c1e21c4c8584551619f11750658f55"
-  integrity sha512-4WlBynOqBZJRaX81CBcIGDHqUiqxvw4j/DbEIICz8QkMs3xEncoPgAoysiqCSsg71X92uhaBc8sgqB96smaMmg==
+eslint-config-standard-react@12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-12.0.0.tgz#61e67b508f4e304276da4d2989eb270bdb538057"
+  integrity sha512-Bw0hN/9YtmrJrBB0l5DIX2YhDR2IkWHOCCZGB87AawgmBsQbcX2y9uec7R178BCPnuqhm6jiwBySPw3zvmKRTg==
 
 eslint-config-standard-with-typescript@23.0.0:
   version "23.0.0"
@@ -7410,10 +7405,10 @@ eslint-plugin-react@7.31.10:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.7"
 
-eslint-plugin-storybook@0.6.6:
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.6.tgz#f8865ad6b2a25143fea0a17e8096352a526afe4e"
-  integrity sha512-nqYq802vJABpaV0n9cpIZl4Mlmy1yStxa8T3sPqvqbByOpXXtA9ZKRqVv2faSDp0DKVC0B3ItTNU7iMX3Et8VQ==
+eslint-plugin-storybook@0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.7.tgz#85e81f4d5d7af541d6abe5657f4f8b8dfb69b83e"
+  integrity sha512-lcUsB+3PesKWXwwEHGSTCijKWDXuQ4ITVbnsSDMXRCR/cjGtHZIEcy2pp/Eh7nfWA/GZrDPpK97DsTWEzyN6Bw==
   dependencies:
     "@storybook/csf" "^0.0.1"
     "@typescript-eslint/experimental-utils" "^5.3.0"
