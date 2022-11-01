@@ -3,35 +3,34 @@ import { Image } from '..'
 import { imageUrl, imageWebPUrl } from '../../__mocks__/fixtures'
 
 export default {
-  title: 'Components/Image',
   component: Image
 }
 
 const Template = args => <Image {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
-  src: 'https://example.com/image.jpg',
+Source.args = {
+  src: 'https://Example.com/image.jpg',
   sources: [
-    { srcSet: 'https://example.com/image.webp' },
-    { srcSet: 'https://example.com/image.jpg' }
+    { srcSet: 'https://Example.com/image.webp' },
+    { srcSet: 'https://Example.com/image.jpg' }
   ]
 }
 
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const img = Template.bind({})
+export const Img = Template.bind({})
 
-img.args = {
+Img.args = {
   src: imageUrl
 }
 
-export const picture = Template.bind({})
+export const Picture = Template.bind({})
 
-picture.args = {
+Picture.args = {
   src: imageUrl,
   sources: [{ srcSet: imageWebPUrl }]
 }

@@ -3,24 +3,23 @@ import { List } from '..'
 import PureList from './List'
 
 export default {
-  title: 'Components/List',
   component: PureList
 }
 
 const Template = args => <List {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const unordered = Template.bind({})
+export const Unordered = Template.bind({})
 
-unordered.args = {
+Unordered.args = {
   children: [
     <li key="0">List item</li>,
     <li key="1">List item</li>,
@@ -28,32 +27,32 @@ unordered.args = {
   ]
 }
 
-export const ordered = Template.bind({})
+export const Ordered = Template.bind({})
 
-ordered.args = {
-  ...unordered.args,
+Ordered.args = {
+  ...Unordered.args,
   as: 'ol'
 }
 
-export const unstyled = Template.bind({})
+export const Unstyled = Template.bind({})
 
-unstyled.args = {
-  ...unordered.args,
+Unstyled.args = {
+  ...Unordered.args,
   unstyled: true
 }
 
-export const inline = Template.bind({})
+export const Inline = Template.bind({})
 
-inline.args = {
-  ...unordered.args,
+Inline.args = {
+  ...Unordered.args,
   inline: true
 }
 
-export const inlineCommaSeparated = Template.bind({})
+export const InlineCommaSeparated = Template.bind({})
 
-inlineCommaSeparated.args = {
-  ...unordered.args,
+InlineCommaSeparated.args = {
+  ...Unordered.args,
   inline: true,
   commaSeparated: true
 }
-inlineCommaSeparated.storyName = 'Inline, comma-separated'
+InlineCommaSeparated.storyName = 'Inline, comma-separated'

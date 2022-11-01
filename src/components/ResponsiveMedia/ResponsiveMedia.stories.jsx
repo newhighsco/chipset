@@ -4,46 +4,45 @@ import PureResponsiveMedia from './ResponsiveMedia'
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
-  title: 'Components/ResponsiveMedia',
   component: PureResponsiveMedia
 }
 
 const Template = args => <ResponsiveMedia {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   ratio: '16:9',
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const withImage = Template.bind({})
+export const WithImage = Template.bind({})
 
-withImage.args = {
+WithImage.args = {
   ratio: '4:1',
   children: <Image src={imageUrl} />
 }
 
-export const withPicture = Template.bind({})
+export const WithPicture = Template.bind({})
 
-withPicture.args = {
+WithPicture.args = {
   ratio: '4:1',
   children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
 }
 
-export const withIframe = Template.bind({})
+export const WithIframe = Template.bind({})
 
-withIframe.args = {
+WithIframe.args = {
   ratio: '16:9',
-  children: <iframe title="iframe" src="https://example.com/" loading="lazy" />
+  children: <iframe title="iframe" src="https://Example.com/" loading="lazy" />
 }
 
-export const withVideo = Template.bind({})
+export const WithVideo = Template.bind({})
 
-withVideo.args = {
+WithVideo.args = {
   ratio: 9 / 16,
   children: <video src={videoUrl} poster={imageUrl} muted />
 }

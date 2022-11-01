@@ -4,16 +4,15 @@ import PureGrid from './Grid'
 import PureGridItem from './GridItem'
 
 export default {
-  title: 'Components/Grid',
   component: PureGrid,
   subcomponents: { [Grid.Item.displayName]: PureGridItem }
 }
 
 const Template = args => <Grid {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: [
     <Grid.Item key="0">Content</Grid.Item>,
     <Grid.Item key="1" sizes={['one-half']}>
@@ -24,13 +23,13 @@ source.args = {
     </Grid.Item>
   ]
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const withGutter = Template.bind({})
+export const WithGutter = Template.bind({})
 
-withGutter.args = {
+WithGutter.args = {
   children: [
     <Grid.Item key="0">
       <ContentContainer>Full-width</ContentContainer>
@@ -43,26 +42,24 @@ withGutter.args = {
     </Grid.Item>
   ]
 }
-withGutter.storyName = 'With gutter'
 
-export const withoutGutter = Template.bind({})
+export const WithoutGutter = Template.bind({})
 
-withoutGutter.args = {
-  ...withGutter.args,
+WithoutGutter.args = {
+  ...WithGutter.args,
   gutterless: true
 }
-withoutGutter.storyName = 'Without gutter'
 
-export const reversed = Template.bind({})
+export const Reversed = Template.bind({})
 
-reversed.args = {
-  ...withGutter.args,
+Reversed.args = {
+  ...WithGutter.args,
   reverse: true
 }
 
-export const middled = Template.bind({})
+export const Middled = Template.bind({})
 
-middled.args = {
+Middled.args = {
   children: [
     <Grid.Item key="0" sizes={['one-half']}>
       <ContentContainer>
@@ -78,9 +75,9 @@ middled.args = {
   valign: 'middle'
 }
 
-export const bottomed = Template.bind({})
+export const Bottomed = Template.bind({})
 
-bottomed.args = {
-  ...middled.args,
+Bottomed.args = {
+  ...Middled.args,
   valign: 'bottom'
 }

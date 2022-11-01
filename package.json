@@ -35,8 +35,8 @@
     "tdd": "yarn test:js --watch",
     "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded",
     "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "eslint --cache --ignore-path .gitignore --ext .js,.json,.jsx,.mdx .",
-    "lint:css": "stylelint '**/*.{css,scss}' --cache --ignore-path .gitignore",
+    "lint:js": "eslint --cache --ignore-path .gitignore .",
+    "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
     "format": "npm-run-all --parallel format:*",
     "format:js": "yarn lint:js --fix",
     "format:css": "yarn lint:css --fix"

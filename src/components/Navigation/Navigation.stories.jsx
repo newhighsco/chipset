@@ -3,15 +3,14 @@ import { Navigation } from '..'
 import PureNavigation from './Navigation'
 
 export default {
-  title: 'Components/Navigation',
   component: PureNavigation
 }
 
 const Template = args => <Navigation {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   links: [
     { href: '/foo', children: 'Foo' },
     { href: '/bar', children: 'Bar' },
@@ -19,24 +18,24 @@ source.args = {
     { href: 'https://buzz.com', target: '_blank', children: 'Buzz' }
   ]
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const block = Template.bind({})
+export const Block = Template.bind({})
 
-block.args = source.args
+Block.args = Source.args
 
-export const inline = Template.bind({})
+export const Inline = Template.bind({})
 
-inline.args = {
-  ...source.args,
+Inline.args = {
+  ...Source.args,
   inline: true
 }
 
-export const toggle = Template.bind({})
+export const Toggle = Template.bind({})
 
-toggle.args = {
-  ...source.args,
+Toggle.args = {
+  ...Source.args,
   toggle: true
 }

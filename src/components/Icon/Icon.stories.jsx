@@ -3,7 +3,6 @@ import { Icon } from '..'
 import PureIcon from './Icon'
 
 export default {
-  title: 'Components/Icon',
   component: PureIcon,
   parameters: {
     chromatic: { disable: true }
@@ -12,8 +11,8 @@ export default {
 
 const Template = args => <Icon {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: <svg />
 }

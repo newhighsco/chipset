@@ -4,36 +4,35 @@ import PurePageContainer from './PageContainer'
 import PureContentContainer from '../ContentContainer/ContentContainer'
 
 export default {
-  title: 'Components/PageContainer',
   component: PurePageContainer,
   subcomponents: { [PureContentContainer.displayName]: PureContentContainer }
 }
 
 const Template = args => <PageContainer {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   header: <header />,
   footer: <footer />,
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const example = Template.bind({})
+export const Example = Template.bind({})
 
-example.args = {
+Example.args = {
   header: <HeaderContainer>Header</HeaderContainer>,
   footer: <FooterContainer>Footer</FooterContainer>,
   children: 'Content'
 }
-example.decorators = [
+Example.decorators = [
   Story => (
     <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
       {Story()}
     </div>
   )
 ]
-example.storyName = ' '
+Example.storyName = ' '

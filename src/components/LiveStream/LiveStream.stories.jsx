@@ -5,7 +5,6 @@ import PureLiveStream from './LiveStream'
 import breakpoints from '../../../styles/_breakpoints.module.scss'
 
 export default {
-  title: 'Components/LiveStream',
   component: PureLiveStream,
   parameters: {
     chromatic: {
@@ -21,46 +20,46 @@ const storyArgs = {
 }
 const Template = args => <LiveStream {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   href: 'https://www.twitch.tv/newhighsco'
 }
 
-export const twitch = Template.bind({})
+export const Twitch = Template.bind({})
 
-twitch.args = {
+Twitch.args = {
   ...storyArgs,
   href: 'https://www.twitch.tv/failarmy'
 }
 
-export const twitchDarkMode = Template.bind({})
+export const TwitchDarkMode = Template.bind({})
 
-twitchDarkMode.args = {
-  ...twitch.args,
+TwitchDarkMode.args = {
+  ...Twitch.args,
   darkMode: true
 }
-twitchDarkMode.storyName = 'Twitch - dark mode'
+TwitchDarkMode.storyName = 'Twitch - dark mode'
 
-export const youTube = Template.bind({})
+export const YouTube = Template.bind({})
 
-youTube.args = {
+YouTube.args = {
   ...storyArgs,
   href: 'https://youtube.com/c/ExploreAfrica'
 }
-youTube.storyName = 'YouTube'
+YouTube.storyName = 'YouTube'
 
-export const youTubeDarkMode = Template.bind({})
+export const YouTubeDarkMode = Template.bind({})
 
-youTubeDarkMode.args = {
-  ...youTube.args,
+YouTubeDarkMode.args = {
+  ...YouTube.args,
   darkMode: true
 }
-youTubeDarkMode.storyName = 'YouTube - dark mode'
+YouTubeDarkMode.storyName = 'YouTube - dark mode'
 
-export const facebook = Template.bind({})
+export const Facebook = Template.bind({})
 
-facebook.args = {
+Facebook.args = {
   ...storyArgs,
   href: 'https://facebook.gg/deltaofficialgaming'
 }

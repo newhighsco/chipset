@@ -3,24 +3,23 @@ import { Prose } from '..'
 import PureProse from './Prose'
 
 export default {
-  title: 'Components/Prose',
   component: PureProse
 }
 
 const Template = args => <Prose {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
+Source.args = {
   children: 'Content'
 }
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const withChildren = Template.bind({})
+export const WithChildren = Template.bind({})
 
-withChildren.args = {
+WithChildren.args = {
   children: (
     <>
       <h1>Typography</h1>
@@ -193,9 +192,9 @@ withChildren.args = {
   )
 }
 
-export const withHTML = Template.bind({})
+export const WithHTML = Template.bind({})
 
-withHTML.args = {
+WithHTML.args = {
   html: '<p><strong>This text</strong> may have been passed from <em>a CMS</em>.</p><p>Do not use for User-supplied content.</p>'
 }
 
@@ -212,9 +211,9 @@ const inlineStyles = {
   textDecoration: 'underline'
 }
 
-export const withInlineStyleOverrides = Template.bind({})
+export const WithInlineStyleOverrides = Template.bind({})
 
-withInlineStyleOverrides.args = {
+WithInlineStyleOverrides.args = {
   children: (
     <p style={inlineStyles}>
       This HTML has inline styles similar to the ones left in by copying text
@@ -223,7 +222,7 @@ withInlineStyleOverrides.args = {
     </p>
   )
 }
-withInlineStyleOverrides.decorators = [
+WithInlineStyleOverrides.decorators = [
   Story => (
     <>
       {Story()}

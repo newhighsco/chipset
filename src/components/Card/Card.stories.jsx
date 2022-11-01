@@ -4,51 +4,50 @@ import PureCard from './Card'
 import { imageUrl } from '../../__mocks__/fixtures'
 
 export default {
-  title: 'Components/Card',
   component: PureCard
 }
 
 const Template = args => <Card {...args} />
 
-export const source = Template.bind({})
+export const Source = Template.bind({})
 
-source.args = {
-  href: 'https://example.com/',
+Source.args = {
+  href: 'https://Example.com/',
   heading: 'Heading',
-  image: { src: 'https://example.com/image.png' },
+  image: { src: 'https://Example.com/image.png' },
   children: 'Content'
 }
 
-source.parameters = {
+Source.parameters = {
   chromatic: { disable: true }
 }
 
-export const withHeading = Template.bind({})
+export const WithHeading = Template.bind({})
 
-withHeading.args = {
+WithHeading.args = {
   heading: <h2>With heading</h2>,
   children: <p>Content</p>
 }
 
-export const withImage = Template.bind({})
+export const WithImage = Template.bind({})
 
-withImage.args = {
+WithImage.args = {
   heading: <h2>With image</h2>,
   image: { src: imageUrl, ratio: '4:1' },
   children: <p>Content</p>
 }
 
-export const withLink = Template.bind({})
+export const WithLink = Template.bind({})
 
-withLink.args = {
+WithLink.args = {
   heading: <h2>With link</h2>,
-  href: 'https://example.com/outer-link',
+  href: 'https://Example.com/outer-link',
   children: [
     <p key="content">Content</p>,
     <p key="inner-link">
-      <a href="https://example.com/inner-link">Inner link</a>
+      <a href="https://Example.com/inner-link">Inner link</a>
     </p>,
-    <Button key="button" href="https://example.com/inner-button">
+    <Button key="button" href="https://Example.com/inner-button">
       Inner button
     </Button>
   ]
