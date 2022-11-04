@@ -1852,14 +1852,14 @@
     eslint-plugin-storybook "0.6.7"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.95":
-  version "3.5.95"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.95.tgz#1588be120a4b8a4012383b9e684e38e72af9d2db"
-  integrity sha512-F7X44MTYSp13AXZYTYzgQSLiTvieZo5CMEF33JX5DxoRQ+xMTKMCoI1x2a+iMhifCzZHs6ag+YJ5STYhOaLfZA==
+"@newhighsco/postcss-config@3.5.96":
+  version "3.5.96"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.96.tgz#52add3cda5276d0241de6ce78b3c008ee0294940"
+  integrity sha512-PWvo+l4E9l37wnuyAxrFLK/WX9KwBxHXa9W/+frOZKYUgCdTJqYiKcZLWA667augi958YtFjQW9cbOr7jUyWKw==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.13"
-    caniuse-lite "1.0.30001429"
+    caniuse-lite "1.0.30001430"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.8.2"
 
@@ -1881,10 +1881,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.48":
-  version "4.5.48"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.48.tgz#ea98417297a105837dea8e346e7cba163a244915"
-  integrity sha512-pTlulmUVOPrBYP393Vf0hcMhnRnKGcZ+jm54Pt0Aao9+R/k7N0bAspGxUAxXCbv+V1fQH8ACAdkmzapxVDe4iQ==
+"@newhighsco/storybook-preset@4.5.49":
+  version "4.5.49"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.49.tgz#3dba18565920cbc465619d3559770ed9e33fde53"
+  integrity sha512-cLgVnSMro5F6vK/yOZZrLyNQl5bal8xcGbs5Ms8eOTWMgzGk/Fl0DPwH+2VDuMKTBVWnBMpWW66UF9Nc0AQ3yg==
   dependencies:
     "@storybook/addon-actions" "6.5.13"
     "@storybook/addon-backgrounds" "6.5.13"
@@ -1897,7 +1897,7 @@
     new-url-loader "0.1.1"
     postcss "8.4.18"
     react-is "18.2.0"
-    sass "1.55.0"
+    sass "1.56.0"
     sass-loader "13.1.0"
     storybook-dark-mode "1.1.2"
 
@@ -5378,10 +5378,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001429, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
-  version "1.0.30001429"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001429.tgz#70cdae959096756a85713b36dd9cb82e62325639"
-  integrity sha512-511ThLu1hF+5RRRt0zYCf2U2yRr9GPF6m5y90SBCWsvSoYoW7yAGlv/elyPaNfvGCkp6kj/KFZWU0BMA69Prsg==
+caniuse-lite@1.0.30001430, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
+  version "1.0.30001430"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001430.tgz#638a8ae00b5a8a97e66ff43733b2701f81b101fa"
+  integrity sha512-IB1BXTZKPDVPM7cnV4iaKaHxckvdr/3xtctB3f7Hmenx3qYBhGtTZ//7EllK66aKXW98Lx0+7Yr0kxBtIt3tzg==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -15252,10 +15252,10 @@ sass-true@6.1.0:
     jest-diff "^27.5.1"
     lodash "^4.17.21"
 
-sass@1.55.0:
-  version "1.55.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.55.0.tgz#0c4d3c293cfe8f8a2e8d3b666e1cf1bff8065d1c"
-  integrity sha512-Pk+PMy7OGLs9WaxZGJMn7S96dvlyVBwwtToX895WmCpAOr5YiJYEUJfiJidMuKb613z2xNWcXCHEuOvjZbqC6A==
+sass@1.56.0:
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.56.0.tgz#134032075a3223c8d49cb5c35e091e5ba1de8e0a"
+  integrity sha512-WFJ9XrpkcnqZcYuLRJh5qiV6ibQOR4AezleeEjTjMsCocYW59dEG19U3fwTTXxzi2Ed3yjPBp727hbbj53pHFw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
