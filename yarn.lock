@@ -1878,10 +1878,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.49":
-  version "4.5.49"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.49.tgz#3dba18565920cbc465619d3559770ed9e33fde53"
-  integrity sha512-cLgVnSMro5F6vK/yOZZrLyNQl5bal8xcGbs5Ms8eOTWMgzGk/Fl0DPwH+2VDuMKTBVWnBMpWW66UF9Nc0AQ3yg==
+"@newhighsco/storybook-preset@4.5.50":
+  version "4.5.50"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.50.tgz#b99ddd28cba9a09a6ca92e448f875ff4d68b52f7"
+  integrity sha512-phnTVRa+TbmFXxTC6QWIPiaGDJN96V6qI11S+2gst4+m8L4I492vHC3kj3s8ezyz3a4DREEPrxcd2AS9anBGVA==
   dependencies:
     "@storybook/addon-actions" "6.5.13"
     "@storybook/addon-backgrounds" "6.5.13"
@@ -1892,10 +1892,10 @@
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "6.5.1"
     new-url-loader "0.1.1"
-    postcss "8.4.18"
+    postcss "8.4.19"
     react-is "18.2.0"
-    sass "1.56.0"
-    sass-loader "13.1.0"
+    sass "1.56.1"
+    sass-loader "13.2.0"
     storybook-dark-mode "1.1.2"
 
 "@newhighsco/stylelint-config@3.1.25":
@@ -14078,15 +14078,6 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.18:
-  version "8.4.18"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.18.tgz#6d50046ea7d3d66a85e0e782074e7203bc7fbca2"
-  integrity sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==
-  dependencies:
-    nanoid "^3.3.4"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
-
 postcss@8.4.19, postcss@^8.2.15, postcss@^8.4.18, postcss@^8.4.4:
   version "8.4.19"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.19.tgz#61178e2add236b17351897c8bcc0b4c8ecab56fc"
@@ -15281,10 +15272,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@13.1.0:
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.1.0.tgz#e5b9acf14199a9bc6eaed7a0b8b23951c2cebf6f"
-  integrity sha512-tZS1RJQ2n2+QNyf3CCAo1H562WjL/5AM6Gi8YcPVVoNxQX8d19mx8E+8fRrMWsyc93ZL6Q8vZDSM0FHVTJaVnQ==
+sass-loader@13.2.0:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.2.0.tgz#80195050f58c9aac63b792fa52acb6f5e0f6bdc3"
+  integrity sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
@@ -15299,10 +15290,10 @@ sass-true@6.1.0:
     jest-diff "^27.5.1"
     lodash "^4.17.21"
 
-sass@1.56.0:
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.56.0.tgz#134032075a3223c8d49cb5c35e091e5ba1de8e0a"
-  integrity sha512-WFJ9XrpkcnqZcYuLRJh5qiV6ibQOR4AezleeEjTjMsCocYW59dEG19U3fwTTXxzi2Ed3yjPBp727hbbj53pHFw==
+sass@1.56.1:
+  version "1.56.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.56.1.tgz#94d3910cd468fd075fa87f5bb17437a0b617d8a7"
+  integrity sha512-VpEyKpyBPCxE7qGDtOcdJ6fFbcpOM+Emu7uZLxVrkX8KVU/Dp5UF7WLvzqRuUhB6mqqQt1xffLoG+AndxTZrCQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
