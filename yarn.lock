@@ -1832,10 +1832,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.4.18":
-  version "3.4.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.18.tgz#a274724d280ea567a7b5f16a5faf354dcaf65bf3"
-  integrity sha512-oAbxKXPmWQ10DDEA5vPdQOx9qcSo868hrZSSt8vgPYY7mebFSXgaBbuZf6PAKXWaGJ6qd9c6gNiOy8iosLAs1g==
+"@newhighsco/eslint-config@3.4.19":
+  version "3.4.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.19.tgz#2178eefc646e2f9f599f9040f94a14c60796d9fb"
+  integrity sha512-q4HbGQVwpBwNa9tJJSQVCkgk0sW+wG8J2K9OfuYth0jCyCTBfb+rcKV1sW0AB3uDKb1dFZek0bj3cJsgcxsR3w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.45.1"
     "@typescript-eslint/parser" "5.45.1"
@@ -1866,10 +1866,10 @@
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "7.8.3"
 
-"@newhighsco/prettier-config@2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.4.tgz#df44e222f690e7bd532c4311418f136b7c074451"
-  integrity sha512-Qxei6QVfKAz6zEfkwmxknJCfNm4UyJW05jvUuRkI6eSV833Z+ZP5lZ0sMX+NEyIpBDuJ3ZXa/9f6VDI9BNdiJg==
+"@newhighsco/prettier-config@2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.5.tgz#21af978a04ee78abb8957e993520e18386f8a6a5"
+  integrity sha512-NwE46EEBRmfS0YlUJTXSl1lXXFY0+vsg71dNVOu7N8WFNCr1QpKXDvycJnCjb4Es+qTsgyjbyMN58WQZFCm01w==
 
 "@newhighsco/release-config@1.3.10":
   version "1.3.10"
@@ -1904,10 +1904,10 @@
     sass-loader "13.2.0"
     storybook-dark-mode "2.0.4"
 
-"@newhighsco/stylelint-config@3.1.28":
-  version "3.1.28"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.28.tgz#beab93c94ded2e9ba9d043fdbc10a2d1e9ef8276"
-  integrity sha512-WG2Pfwvhr8KjC1TA3kAvoYhpYrL0xnQby3mde0pWUKZ2+tEYAegK1oCeHHBBdUS+f+X311tiRDFax98KTVHgCA==
+"@newhighsco/stylelint-config@3.1.29":
+  version "3.1.29"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.29.tgz#08b48ada5e73b3d57a538d67d8b1dfa814526ee0"
+  integrity sha512-0168qGsy4ExbZyQfOyHPfgoGfq3Rn5nE0CDfcXUArogJn+4qNPlOIZK6cSQDt+rD6y9pMxJCoIYbxWDnGSNc/Q==
   dependencies:
     stylelint-config-css-modules "4.1.0"
     stylelint-config-prettier "9.0.4"
