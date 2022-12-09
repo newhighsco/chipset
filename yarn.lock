@@ -1884,10 +1884,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.53":
-  version "4.5.53"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.53.tgz#c2d11dcc7df71834ba770a1e89b521b5193c65a1"
-  integrity sha512-uA99YH9yS6vXqbRU58Co6pw/YiGSr7vpmXOYuC8n0tPrqdoAqIzeo6xOftwc1kbhsVMAguLzJ7sLhb4zo6U3Dg==
+"@newhighsco/storybook-preset@4.5.54":
+  version "4.5.54"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.54.tgz#8136c8d4e1823b8d71905b19b0f901b16b98e874"
+  integrity sha512-Dm5ymeJcnRZbZuSCYahMR5UIKRGF7eeX4fdykx3lc3V+kBBozyg6/VACWdwAasGGAVXdAPotWdKhT7n87S1vnw==
   dependencies:
     "@storybook/addon-actions" "6.5.14"
     "@storybook/addon-backgrounds" "6.5.14"
@@ -1900,7 +1900,7 @@
     new-url-loader "0.1.1"
     postcss "8.4.19"
     react-is "18.2.0"
-    sass "1.56.1"
+    sass "1.56.2"
     sass-loader "13.2.0"
     storybook-dark-mode "2.0.4"
 
@@ -15307,10 +15307,10 @@ sass-true@6.1.0:
     jest-diff "^27.5.1"
     lodash "^4.17.21"
 
-sass@1.56.1:
-  version "1.56.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.56.1.tgz#94d3910cd468fd075fa87f5bb17437a0b617d8a7"
-  integrity sha512-VpEyKpyBPCxE7qGDtOcdJ6fFbcpOM+Emu7uZLxVrkX8KVU/Dp5UF7WLvzqRuUhB6mqqQt1xffLoG+AndxTZrCQ==
+sass@1.56.2:
+  version "1.56.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.56.2.tgz#9433b345ab3872996c82a53a58c014fd244fd095"
+  integrity sha512-ciEJhnyCRwzlBCB+h5cCPM6ie/6f8HrhZMQOf5vlU60Y1bI1rx5Zb0vlDZvaycHsg/MqFfF1Eq2eokAa32iw8w==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
