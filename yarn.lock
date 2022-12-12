@@ -1884,10 +1884,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.54":
-  version "4.5.54"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.54.tgz#8136c8d4e1823b8d71905b19b0f901b16b98e874"
-  integrity sha512-Dm5ymeJcnRZbZuSCYahMR5UIKRGF7eeX4fdykx3lc3V+kBBozyg6/VACWdwAasGGAVXdAPotWdKhT7n87S1vnw==
+"@newhighsco/storybook-preset@4.5.55":
+  version "4.5.55"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.55.tgz#6f648dfb24e0f3417816dd355db09a5fad275cb2"
+  integrity sha512-bQLSRm1GLSCItK1xqvTOdQhOnzDAYlMI4c3hJs33Bvitl2s/dA+ZIYIk6H32ZBKnveWYNjm/iFlIuxPVZrzpQA==
   dependencies:
     "@storybook/addon-actions" "6.5.14"
     "@storybook/addon-backgrounds" "6.5.14"
@@ -1898,7 +1898,7 @@
     "@storybook/preset-scss" "1.0.3"
     "@svgr/webpack" "6.5.1"
     new-url-loader "0.1.1"
-    postcss "8.4.19"
+    postcss "8.4.20"
     react-is "18.2.0"
     sass "1.56.2"
     sass-loader "13.2.0"
@@ -14085,15 +14085,6 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
-
-postcss@8.4.19:
-  version "8.4.19"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.19.tgz#61178e2add236b17351897c8bcc0b4c8ecab56fc"
-  integrity sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==
-  dependencies:
-    nanoid "^3.3.4"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
 
 postcss@8.4.20, postcss@^8.2.15, postcss@^8.4.19, postcss@^8.4.4:
   version "8.4.20"
