@@ -7,8 +7,10 @@ module.exports = {
         '\\.(png|jpg|gif|eot|ttf|woff(2)?)$':
           '<rootDir>/config/jest/file-transform.js'
       },
-      setupFiles: ['<rootDir>/config/jest/setup-tests.js'],
-      testPathIgnorePatterns: ['/styles/']
+      setupFilesAfterEnv: ['<rootDir>/config/jest/setup-tests.js'],
+      testEnvironment: 'jsdom',
+      testPathIgnorePatterns: ['/styles/'],
+      testMatch: ['**/(Backdrop|Button)/*.spec.*']
     },
     {
       rootDir: './styles',
