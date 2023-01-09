@@ -31,7 +31,7 @@
     "build": "build-storybook --output-dir build --docs --quiet",
     "pretest": "yarn lint",
     "test": "npm-run-all --parallel test:*",
-    "test:js": "jest --coverage",
+    "test:js": "jest --maxWorkers=2 --coverage",
     "tdd": "yarn test:js --watch",
     "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded",
     "lint": "npm-run-all --parallel lint:*",
