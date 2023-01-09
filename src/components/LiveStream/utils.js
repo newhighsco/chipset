@@ -54,7 +54,7 @@ const PROVIDERS = {
       ).then(response => response.json())
 
       return contents.match(
-        /"liveStreamabilityRenderer":{"videoId":"(\w+?)"/
+        /"liveStreamabilityRenderer":{"videoId":"([\w|-]+?)"/
       )?.[1]
     },
     getVideoUrl: ({ channel, autoPlay, muted }) => {
@@ -82,6 +82,8 @@ const PROVIDERS = {
 }
 
 const getProvider = url => {
+  if (!url) return null
+
   const keys = Object.keys(PROVIDERS)
   let i = keys.length
 
@@ -100,7 +102,7 @@ export const getLiveStreamUrls = async ({
   showChat
 }) => {
   const provider = getProvider(href)
-  const channel = await (provider && provider.getChannelParam(href))
+  const channel = await provider?.getChannelParam(href)
   const videoUrl = channel && provider.getVideoUrl({ channel, autoPlay, muted })
   const chatUrl = channel && provider.getChatUrl({ channel, darkMode })
 

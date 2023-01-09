@@ -1,39 +1,39 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import ResponsiveMedia from './ResponsiveMedia'
 
 describe('Components/ResponsiveMedia', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<ResponsiveMedia />)
+    const { container } = render(<ResponsiveMedia />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render no `style` when 'ratio' is not set", () => {
-    const wrapper = shallow(<ResponsiveMedia>Content</ResponsiveMedia>)
+    const { container } = render(<ResponsiveMedia>Content</ResponsiveMedia>)
 
-    expect(wrapper.type()).toEqual('div')
-    expect(wrapper.prop('style')).toEqual({})
+    expect(container.firstChild).not.toHaveAttribute('style')
+    expect(screen.getByText('Content')).toBeInTheDocument()
   })
 
   it("should render correct `style` when 'ratio' is set to a number", () => {
-    const wrapper = shallow(
+    const { container } = render(
       <ResponsiveMedia ratio={9 / 16}>Content</ResponsiveMedia>
     )
 
-    expect(wrapper.prop('style')).toEqual({
+    expect(container.firstChild).toHaveStyle({
       paddingBottom: '56.25%'
     })
   })
 
   it("should render correct `style` when 'ratio' is set to a string", () => {
-    const wrapper = shallow(
+    const { container } = render(
       <ResponsiveMedia ratio="4:3" style={{ background: 'red' }}>
         Content
       </ResponsiveMedia>
     )
 
-    expect(wrapper.prop('style')).toEqual({
+    expect(container.firstChild).toHaveStyle({
       background: 'red',
       paddingBottom: '75%'
     })

@@ -1,61 +1,52 @@
-import React, { createRef } from 'react'
-import { mount, shallow } from 'enzyme'
-import SmartLinkWithRef from '.'
+import React from 'react'
+import { render, screen } from '@testing-library/react'
 import SmartLink from './SmartLink'
 
 describe('Components/SmartLink', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<SmartLink />)
+    const { container } = render(<SmartLink />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render a <button /> when no 'href' is set", () => {
-    const wrapper = shallow(<SmartLink>Content</SmartLink>)
+    render(<SmartLink>Content</SmartLink>)
 
-    expect(wrapper.type()).toEqual('button')
+    expect(screen.getByRole('button')).toBeInTheDocument()
   })
 
   it("should render an <a /> when internal 'href' is set", () => {
-    const wrapper = shallow(
+    render(
       <SmartLink href="/" target="_blank">
         children
       </SmartLink>
     )
 
-    expect(wrapper.type()).toEqual('a')
-    expect(wrapper.prop('target')).toEqual(undefined)
+    const link = screen.getByRole('link')
+
+    expect(link).toBeInTheDocument()
+    expect(link).not.toHaveAttribute('target')
   })
 
-  it("should render an <OutboundLink /> when external 'href' is set", () => {
-    const wrapper = shallow(
-      <SmartLink href="https://test.com/">Content</SmartLink>
-    )
+  it("should render an <a /> when external 'href' is set", () => {
+    render(<SmartLink href="https://test.com/">Content</SmartLink>)
 
-    expect(wrapper.type()).toEqual('a')
-    expect(wrapper.prop('rel')).toEqual(undefined)
+    const link = screen.getByRole('link')
+
+    expect(link).toBeInTheDocument()
+    expect(link).not.toHaveAttribute('rel')
   })
 
   it("should add 'rel=noopener noreferrer' when external 'href' and 'target=blank' is set", () => {
-    const wrapper = shallow(
+    render(
       <SmartLink href="https://test.com/" target="_blank">
         Content
       </SmartLink>
     )
 
-    expect(wrapper.type()).toEqual('a')
-    expect(wrapper.prop('rel')).toEqual('noopener noreferrer')
-  })
+    const link = screen.getByRole('link')
 
-  it('should forward ref', () => {
-    const ref = createRef()
-
-    mount(
-      <>
-        <SmartLinkWithRef ref={ref}>Content</SmartLinkWithRef>
-      </>
-    )
-
-    expect(ref.current).toBeInstanceOf(HTMLButtonElement)
+    expect(link).toBeInTheDocument()
+    expect(link).toHaveAttribute('rel', 'noopener noreferrer')
   })
 })

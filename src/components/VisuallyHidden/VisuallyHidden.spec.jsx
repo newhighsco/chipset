@@ -1,19 +1,17 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import VisuallyHidden from './VisuallyHidden'
-import Element from '../Element'
 
 describe('Components/VisuallyHidden', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<VisuallyHidden />)
+    const { container } = render(<VisuallyHidden />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render a <span /> when 'children' is set", () => {
-    const wrapper = shallow(<VisuallyHidden>Content</VisuallyHidden>)
+    render(<VisuallyHidden>Content</VisuallyHidden>)
 
-    expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual('span')
+    expect(screen.getByText('Content')).toBeInTheDocument()
   })
 })

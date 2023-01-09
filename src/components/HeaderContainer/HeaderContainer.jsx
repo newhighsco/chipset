@@ -3,8 +3,6 @@ import { node } from 'prop-types'
 import ContentContainer from '../ContentContainer'
 
 const HeaderContainer = ({ children, theme, ...rest }) => {
-  if (!children) return null
-
   return (
     <ContentContainer
       id="top"

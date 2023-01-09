@@ -45,7 +45,7 @@ export const YouTube = Template.bind({})
 
 YouTube.args = {
   ...storyArgs,
-  href: 'https://youtube.com/c/ExploreAfrica'
+  href: 'https://youtube.com/@LofiGirl'
 }
 YouTube.storyName = 'YouTube'
 
@@ -61,5 +61,5 @@ export const Facebook = Template.bind({})
 
 Facebook.args = {
   ...storyArgs,
-  href: 'https://facebook.gg/deltaofficialgaming'
+  href: 'https://facebook.gg/KingGothalion'
 }

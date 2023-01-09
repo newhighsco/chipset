@@ -9,8 +9,7 @@ module.exports = {
       },
       setupFilesAfterEnv: ['<rootDir>/config/jest/setup-tests.js'],
       testEnvironment: 'jsdom',
-      testPathIgnorePatterns: ['/styles/'],
-      testMatch: ['**/(Backdrop|Button)/*.spec.*']
+      testPathIgnorePatterns: ['/styles/']
     },
     {
       rootDir: './styles',

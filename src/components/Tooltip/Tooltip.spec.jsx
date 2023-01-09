@@ -1,64 +1,86 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { fireEvent, render, screen } from '@testing-library/react'
 import Tooltip from './Tooltip'
-import SmartLink from '../SmartLink'
 
 import theme from './Tooltip.module.scss'
 
 describe('Components/Tooltip', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<Tooltip />)
+    const { container } = render(<Tooltip />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render correctly when 'children' is set", () => {
-    const wrapper = shallow(<Tooltip>Content</Tooltip>)
+    render(<Tooltip toggle="Toggle">Content</Tooltip>)
 
-    expect(wrapper.type()).toEqual('span')
-    expect(wrapper.prop('className')).toEqual('')
-    expect(wrapper.prop('onMouseOver')).toEqual(undefined)
-    expect(wrapper.find(SmartLink).prop('aria-expanded')).toEqual(false)
-    expect(wrapper.find('[hidden=true]').length).toEqual(1)
+    const toggle = screen.getByRole('button')
+    const content = screen.getByText('Content')
 
-    wrapper.find(SmartLink).simulate('click')
+    expect(toggle).toBeInTheDocument()
+    expect(content).not.toBeVisible()
 
-    expect(wrapper.find(SmartLink).prop('aria-expanded')).toEqual(true)
-    expect(wrapper.find('[hidden=false]').length).toEqual(1)
+    fireEvent.click(toggle)
+
+    expect(content).toBeVisible()
+
+    fireEvent.click(toggle)
+
+    expect(content).not.toBeVisible()
   })
 
   it("should render correctly when 'heading' is set", () => {
-    const wrapper = shallow(<Tooltip heading={<h2>Heading</h2>} />)
+    render(<Tooltip toggle="Toggle" heading={<h2>Heading</h2>} />)
 
-    expect(wrapper.type()).toEqual('span')
+    const toggle = screen.getByRole('button')
+    const heading = screen.getByText('Heading')
+
+    expect(toggle).toBeInTheDocument()
+    expect(heading).not.toBeVisible()
+
+    fireEvent.click(toggle)
+
+    expect(heading).toBeVisible()
+
+    fireEvent.click(toggle)
+
+    expect(heading).not.toBeVisible()
   })
 
   it('should handle additional events when `manual` is `false`', () => {
-    const wrapper = shallow(<Tooltip manual={false}>Content</Tooltip>)
+    const { container } = render(
+      <Tooltip toggle="Toggle" manual={false}>
+        Content
+      </Tooltip>
+    )
 
-    expect(wrapper.prop('onMouseOver')).not.toEqual(undefined)
-    expect(wrapper.find(SmartLink).prop('aria-expanded')).toEqual(undefined)
-    expect(wrapper.find('[hidden=true]').length).toEqual(1)
+    const wrapper = container.firstChild
+    const content = screen.getByText('Content')
 
-    wrapper.simulate('focus')
+    expect(content).not.toBeVisible()
 
-    expect(wrapper.find('[hidden=false]').length).toEqual(1)
+    fireEvent.mouseOver(wrapper)
+
+    expect(content).toBeVisible()
+
+    fireEvent.mouseOver(wrapper)
+
+    expect(content).not.toBeVisible()
   })
 
   it('should display the contents when `hidden` is false', () => {
-    const wrapper = shallow(<Tooltip hidden={false}>Content</Tooltip>)
+    render(<Tooltip hidden={false}>Content</Tooltip>)
 
-    expect(wrapper.find(SmartLink).prop('aria-expanded')).toEqual(true)
-    expect(wrapper.find('[hidden=false]').length).toEqual(1)
+    expect(screen.getByText('Content')).toBeVisible()
   })
 
   it('should set correct classNames', () => {
-    const wrapper = shallow(
+    const { container } = render(
       <Tooltip theme={theme} className="foo">
         Content
       </Tooltip>
     )
 
-    expect(wrapper.prop('className')).toEqual('root foo')
+    expect(container.firstChild).toHaveClass('root foo')
   })
 })
