@@ -15,8 +15,6 @@ const LiveStream = ({
   theme,
   className
 }) => {
-  if (!href) return null
-
   const [liveStreamUrls, setLiveSteamUrls] = useState({
     videoUrl: null,
     chatUrl: null
@@ -37,6 +35,8 @@ const LiveStream = ({
 
     loadUrls()
   }, [href])
+
+  if (!href) return null
 
   const { videoUrl, chatUrl } = liveStreamUrls
 
