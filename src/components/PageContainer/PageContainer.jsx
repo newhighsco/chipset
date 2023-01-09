@@ -6,8 +6,6 @@ import ContentContainer from '../ContentContainer'
  * The `PageContainer` flexes to fill the unused space within its parent
  */
 const PageContainer = ({ header, footer, children, theme, ...rest }) => {
-  if (!children) return null
-
   return (
     <>
       {header}

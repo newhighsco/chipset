@@ -1,28 +1,27 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import Prose from './Prose'
 
 describe('Component/Prose', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<Prose />)
+    const { container } = render(<Prose />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render correctly when 'children' is set", () => {
-    const wrapper = shallow(
+    render(
       <Prose>
         <p>Content</p>
       </Prose>
     )
 
-    expect(wrapper.type()).toEqual('div')
-    expect(wrapper.find('p').text()).toEqual('Content')
+    expect(screen.getByText('Content')).toBeInTheDocument()
   })
 
   it("should render correctly when 'html' is set", () => {
-    const wrapper = shallow(<Prose html="<p>Content</p>" />)
+    render(<Prose html="<p>Content</p>" />)
 
-    expect(wrapper.html()).toContain('><p>Content</p></')
+    expect(screen.getByText('Content')).toBeInTheDocument()
   })
 })

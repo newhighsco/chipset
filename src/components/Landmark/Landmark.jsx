@@ -11,7 +11,7 @@ const Landmark = ({ children, ...rest }) => (
   <>
     {/* eslint-disable jsx-a11y/anchor-is-valid */}
     <a className={styles.root} {...rest}>
-      {children && <VisuallyHidden>{children}</VisuallyHidden>}
+      <VisuallyHidden>{children}</VisuallyHidden>
     </a>
     {/* eslint-enable jsx-a11y/anchor-is-valid */}
   </>

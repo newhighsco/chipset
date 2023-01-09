@@ -1,18 +1,18 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render } from '@testing-library/react'
 import GridItem from './GridItem'
 
 import theme from './Grid.module.scss'
 
 describe('Components/GridItem', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<GridItem />)
+    const { container } = render(<GridItem />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it('should set correct classNames', () => {
-    const wrapper = shallow(
+    const { container } = render(
       <GridItem
         sizes={['one-half', 'desktop-one-whole']}
         theme={theme}
@@ -22,8 +22,7 @@ describe('Components/GridItem', () => {
       </GridItem>
     )
 
-    expect(wrapper.type()).toEqual('div')
-    expect(wrapper.prop('className')).toEqual(
+    expect(container.firstChild).toHaveClass(
       'item one-half desktop-one-whole bar'
     )
   })

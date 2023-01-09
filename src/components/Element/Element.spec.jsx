@@ -1,17 +1,17 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render } from '@testing-library/react'
 import Element from './Element'
 
 describe('Components/Element', () => {
   it('should render <div /> by default', () => {
-    const wrapper = shallow(<Element />)
+    const { container } = render(<Element />)
 
-    expect(wrapper.type()).toEqual('div')
+    expect(container.firstChild.tagName).toEqual('DIV')
   })
 
   it("should render the correct component when 'as' is set", () => {
-    const wrapper = shallow(<Element as="span" />)
+    const { container } = render(<Element as="span" />)
 
-    expect(wrapper.type()).toEqual('span')
+    expect(container.firstChild.tagName).toEqual('SPAN')
   })
 })
