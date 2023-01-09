@@ -21,9 +21,9 @@ const Navigation = ({
   theme,
   className
 }) => {
-  if (!links.length) return null
-
   const [visible, setVisibility] = useToggle(!toggle)
+
+  if (!links.length) return null
 
   const toggleVisibility = () => {
     setVisibility()
