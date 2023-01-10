@@ -5,7 +5,7 @@ import { isMobile } from 'react-device-detect'
 const getExternalUrl = url =>
   `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
 
-const location = typeof window !== 'undefined' ? window.location : null
+const { hostname } = window.location
 
 const PROVIDERS = {
   facebook: {
@@ -19,8 +19,7 @@ const PROVIDERS = {
       })
 
       return url
-    },
-    getChatUrl: () => ''
+    }
   },
   twitch: {
     urlRegEx: /^(https?:\/\/)?(www\.)?(twitch\.tv)\/(.+)$/,
@@ -29,7 +28,7 @@ const PROVIDERS = {
       const url = new URL('https://player.twitch.tv')
       url.search = new URLSearchParams({
         channel,
-        parent: location?.hostname,
+        parent: hostname,
         autoplay: !!autoPlay,
         muted: !!muted
       })
@@ -39,7 +38,7 @@ const PROVIDERS = {
     getChatUrl: ({ channel, darkMode }) => {
       const url = new URL(`https://www.twitch.tv/embed/${channel}/chat`)
       url.search = new URLSearchParams({
-        parent: location?.hostname,
+        parent: hostname,
         ...(darkMode && { darkpopout: '' })
       })
 
@@ -49,13 +48,17 @@ const PROVIDERS = {
   youtube: {
     urlRegEx: /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/,
     getChannelParam: async url => {
-      const { contents } = await fetch(
-        getExternalUrl(urlJoin(url, 'live'))
-      ).then(response => response.json())
+      try {
+        const { contents } = await fetch(
+          getExternalUrl(urlJoin(url, 'live'))
+        ).then(response => response.json())
 
-      return contents.match(
-        /"liveStreamabilityRenderer":{"videoId":"([\w|-]+?)"/
-      )?.[1]
+        return contents?.match(
+          /"liveStreamabilityRenderer":{"videoId":"([\w|-]+?)"/
+        )?.[1]
+      } catch {
+        return null
+      }
     },
     getVideoUrl: ({ channel, autoPlay, muted }) => {
       const url = new URL(`https://www.youtube-nocookie.com/embed/${channel}`)
@@ -72,7 +75,7 @@ const PROVIDERS = {
       const url = new URL('https://www.youtube.com/live_chat')
       url.search = new URLSearchParams({
         v: channel,
-        embed_domain: location?.hostname,
+        embed_domain: hostname,
         ...(darkMode && { dark_theme: 1 })
       })
 
@@ -103,8 +106,9 @@ export const getLiveStreamUrls = async ({
 }) => {
   const provider = getProvider(href)
   const channel = await provider?.getChannelParam(href)
-  const videoUrl = channel && provider.getVideoUrl({ channel, autoPlay, muted })
-  const chatUrl = channel && provider.getChatUrl({ channel, darkMode })
+  const videoUrl =
+    channel && provider?.getVideoUrl?.({ channel, autoPlay, muted })
+  const chatUrl = channel && provider?.getChatUrl?.({ channel, darkMode })
 
   return { videoUrl, chatUrl: showChat && chatUrl }
 }

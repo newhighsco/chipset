@@ -13,7 +13,7 @@ module.exports = {
     },
     {
       rootDir: './styles',
-      testEnvironment: 'node'
+      testEnvironment: 'jest-environment-node-single-context'
     }
   ]
 }
