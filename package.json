@@ -26,7 +26,7 @@
   },
   "scripts": {
     "prepare": "is-ci || husky install",
-    "start": "start-storybook --docs --no-manager-cache",
+    "start": "start-storybook --port 49928 --docs --no-manager-cache",
     "prebuild": "rm -rf build",
     "build": "build-storybook --output-dir build --docs --quiet",
     "pretest": "yarn lint",

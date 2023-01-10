@@ -38,7 +38,7 @@ const LiveStream = ({
 
     loadUrls()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [href])
+  }, [])
 
   if (loading) return <VisuallyHidden>Loading live stream</VisuallyHidden>
 

@@ -48,13 +48,17 @@ const PROVIDERS = {
   youtube: {
     urlRegEx: /^(https?:\/\/)?(www\.)?(youtube\.com)(\/c(hannel)?)?\/(.+)$/,
     getChannelParam: async url => {
-      const { contents } = await fetch(
-        getExternalUrl(urlJoin(url, 'live'))
-      ).then(response => response.json())
+      try {
+        const { contents } = await fetch(
+          getExternalUrl(urlJoin(url, 'live'))
+        ).then(response => response.json())
 
-      return contents.match(
-        /"liveStreamabilityRenderer":{"videoId":"([\w|-]+?)"/
-      )?.[1]
+        return contents?.match(
+          /"liveStreamabilityRenderer":{"videoId":"([\w|-]+?)"/
+        )?.[1]
+      } catch {
+        return null
+      }
     },
     getVideoUrl: ({ channel, autoPlay, muted }) => {
       const url = new URL(`https://www.youtube-nocookie.com/embed/${channel}`)
