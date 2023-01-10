@@ -21,9 +21,9 @@ const Tooltip = ({
   theme,
   className
 }) => {
-  if (!heading && !children) return null
-
   const [visible, setVisibility] = useToggle(!hidden)
+
+  if (!heading && !children) return null
 
   return (
     <span

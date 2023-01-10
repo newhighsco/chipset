@@ -1,32 +1,29 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import ContentContainer from './ContentContainer'
-import Element from '../Element'
 
 import theme from './ContentContainer.module.scss'
 
 describe('Components/ContentContainer', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<ContentContainer />)
+    const { container } = render(<ContentContainer />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render a <div /> when 'children' is set", () => {
-    const wrapper = shallow(<ContentContainer>Content</ContentContainer>)
+    render(<ContentContainer>Content</ContentContainer>)
 
-    expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual(undefined)
-    expect(wrapper.prop('className')).toEqual('')
+    expect(screen.getByText('Content')).toBeInTheDocument()
   })
 
   it('should set correct classNames', () => {
-    const wrapper = shallow(
+    const { container } = render(
       <ContentContainer theme={theme} size="mobile" gutter>
         Content
       </ContentContainer>
     )
 
-    expect(wrapper.prop('className')).toEqual('root mobile gutter')
+    expect(container.firstChild).toHaveClass('root mobile gutter')
   })
 })

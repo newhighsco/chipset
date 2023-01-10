@@ -7,12 +7,13 @@ module.exports = {
         '\\.(png|jpg|gif|eot|ttf|woff(2)?)$':
           '<rootDir>/config/jest/file-transform.js'
       },
-      setupFiles: ['<rootDir>/config/jest/setup-tests.js'],
+      setupFilesAfterEnv: ['<rootDir>/config/jest/setup-tests.js'],
+      testEnvironment: 'jsdom',
       testPathIgnorePatterns: ['/styles/']
     },
     {
       rootDir: './styles',
-      testEnvironment: 'node'
+      testEnvironment: 'jest-environment-node-single-context'
     }
   ]
 }

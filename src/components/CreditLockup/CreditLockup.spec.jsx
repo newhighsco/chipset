@@ -1,22 +1,21 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import CreditLockup from './CreditLockup'
 
 import theme from './CreditLockup.module.scss'
 
 describe('Components/CreditLockup', () => {
   it('should render correctly', () => {
-    const wrapper = shallow(<CreditLockup align="left" dir="rtl" />)
+    render(<CreditLockup align="left" dir="rtl" />)
 
-    expect(wrapper.type()).toEqual('span')
-    expect(wrapper.prop('className')).toEqual(undefined)
-    expect(wrapper.prop('align')).toEqual('left')
-    expect(wrapper.prop('dir')).toEqual('rtl')
+    expect(screen.getByRole('link')).toBeInTheDocument()
+    expect(screen.getByRole('img')).toBeInTheDocument()
+    expect(screen.getByLabelText('New High Score')).toBeInTheDocument()
   })
 
   it('should set correct classNames', () => {
-    const wrapper = shallow(<CreditLockup theme={theme} />)
+    const { container } = render(<CreditLockup theme={theme} />)
 
-    expect(wrapper.prop('className')).toEqual('root')
+    expect(container.firstChild).toHaveClass('root')
   })
 })

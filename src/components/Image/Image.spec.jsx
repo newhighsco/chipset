@@ -1,29 +1,24 @@
-/**
- * @jest-environment jsdom
- */
-
 import React from 'react'
-import { mount, shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import Image from './Image'
 
 describe('Components/Image', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<Image />)
+    const { container } = render(<Image />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render the correct component when 'src' is set", () => {
-    const wrapper = mount(<Image src="https://example.com/image.png" />)
+    const { container } = render(<Image src="https://example.com/image.png" />)
 
-    expect(wrapper.find('Picture > img').length).toEqual(1)
-    expect(wrapper.find('Picture > img').prop('src')).toEqual(
-      'https://example.com/image.png'
-    )
+    expect(container.firstChild.tagName).toEqual('IMG')
+    expect(container.querySelectorAll('* > img')).toHaveLength(1)
+    expect(screen.getByRole('img')).toBeInTheDocument()
   })
 
   it("should render the correct component when 'sources' is set", () => {
-    const wrapper = mount(
+    const { container } = render(
       <Image
         src="https://example.com/image.png"
         sources={[
@@ -33,26 +28,20 @@ describe('Components/Image', () => {
       />
     )
 
-    expect(wrapper.find('Picture > img').length).toEqual(0)
-    expect(wrapper.find('Picture > picture').length).toEqual(1)
-    expect(wrapper.find('picture > source').length).toEqual(2)
-    expect(wrapper.find('picture > source').first().prop('srcSet')).toEqual(
-      'https://example.com/image.jpg'
-    )
-    expect(wrapper.find('picture > img').length).toEqual(1)
-    expect(wrapper.find('picture > img').prop('src')).toEqual(
-      'https://example.com/image.png'
-    )
+    expect(container.firstChild.tagName).toEqual('PICTURE')
+    expect(container.querySelectorAll('img')).toHaveLength(1)
+    expect(container.querySelectorAll('source')).toHaveLength(2)
+    expect(screen.getByRole('img')).toBeInTheDocument()
   })
 
   it('should set correct classNames', () => {
-    let wrapper = mount(
+    const { container: image } = render(
       <Image className="foo" src="https://example.com/image.png" />
     )
 
-    expect(wrapper.find('Picture > img').prop('className')).toEqual('foo')
+    expect(image.firstChild).toHaveClass('foo')
 
-    wrapper = mount(
+    const { container: picture } = render(
       <Image
         className="bar"
         src="https://example.com/image.png"
@@ -63,7 +52,7 @@ describe('Components/Image', () => {
       />
     )
 
-    expect(wrapper.find('Picture > picture').prop('className')).toEqual('bar')
-    expect(wrapper.find('picture > img').prop('className')).toEqual(undefined)
+    expect(picture.firstChild).toHaveClass('bar')
+    expect(picture.querySelector('img')).not.toHaveClass()
   })
 })

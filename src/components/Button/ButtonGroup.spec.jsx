@@ -1,29 +1,29 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import ButtonGroup from './ButtonGroup'
 
 import theme from './Button.module.scss'
 
 describe('Components/ButtonGroup', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<ButtonGroup />)
+    const { container } = render(<ButtonGroup />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render a <div /> when 'children' is set", () => {
-    const wrapper = shallow(<ButtonGroup>Content</ButtonGroup>)
+    render(<ButtonGroup>Content</ButtonGroup>)
 
-    expect(wrapper.type()).toEqual('div')
+    expect(screen.getByText('Content')).toBeInTheDocument()
   })
 
   it('should set correct classNames', () => {
-    const wrapper = shallow(
+    render(
       <ButtonGroup theme={theme} className="foo">
         Content
       </ButtonGroup>
     )
 
-    expect(wrapper.prop('className')).toEqual('group foo')
+    expect(screen.getByText('Content')).toHaveClass('group foo')
   })
 })

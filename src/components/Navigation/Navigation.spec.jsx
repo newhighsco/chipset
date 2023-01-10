@@ -1,8 +1,6 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { fireEvent, render, screen } from '@testing-library/react'
 import Navigation from './Navigation'
-import Button from '../Button'
-import List from '../List'
 
 const links = [
   { href: '/foo', children: 'Foo' },
@@ -13,60 +11,51 @@ const links = [
 
 describe('Components/Navigation', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<Navigation />)
+    const { container } = render(<Navigation />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render <nav /> when 'links' are passed", () => {
-    const wrapper = shallow(<Navigation links={links} />)
+    render(<Navigation links={links} />)
 
-    expect(wrapper.type()).toEqual('nav')
-    expect(wrapper.find(Button).length).toEqual(0)
-    expect(wrapper.find(List).prop('hidden')).toEqual(false)
-    expect(wrapper.find('li > [href]').length).toEqual(4)
-    expect(wrapper.find('li > [href]').first().props()).toEqual({
-      href: '/foo',
-      children: 'Foo'
-    })
+    expect(screen.getByRole('heading')).toBeInTheDocument()
+    expect(screen.queryByRole('button')).not.toBeInTheDocument()
+    expect(screen.getAllByRole('link')).toHaveLength(4)
   })
 
   it("should render the correct component when 'renderLink' is set", () => {
-    const wrapper = shallow(
+    render(
       <Navigation
         links={links}
         renderLink={({ href, children }, index) => (
-          <span id={index} data-href={href}>
+          <span data-testid="renderLink" id={index} data-href={href}>
             {children}
           </span>
         )}
       />
     )
 
-    expect(wrapper.find('li > span').length).toEqual(4)
-    expect(wrapper.find('li > span').first().props()).toEqual({
-      id: 0,
-      'data-href': '/foo',
-      children: 'Foo'
-    })
+    expect(screen.getAllByTestId('renderLink')).toHaveLength(4)
   })
 
   it("should render a <Button /> with 'toggle' is set", () => {
-    const wrapper = shallow(<Navigation links={links} toggle />)
+    const { container } = render(<Navigation links={links} toggle />)
 
-    expect(wrapper.find(Button).length).toEqual(1)
-    expect(wrapper.find(Button).prop('aria-expanded')).toEqual(false)
-    expect(wrapper.find(Button).childAt(0).prop('alt')).toEqual(
-      'Show Navigation'
-    )
-    expect(wrapper.find(List).prop('hidden')).toEqual(true)
+    const button = screen.getByRole('button')
+    const menu = container.querySelector('ul')
 
-    wrapper.find(Button).simulate('click')
+    expect(button).toBeInTheDocument()
+    expect(screen.getByLabelText('Show Navigation')).toBeInTheDocument()
+    expect(menu).not.toBeVisible()
 
-    expect(wrapper.find(Button).prop('aria-expanded')).toEqual(true)
-    expect(wrapper.find(Button).childAt(0).prop('alt')).toEqual(
-      'Hide Navigation'
-    )
-    expect(wrapper.find(List).prop('hidden')).toEqual(false)
+    fireEvent.click(button)
+
+    expect(screen.getByLabelText('Hide Navigation')).toBeInTheDocument()
+    expect(menu).toBeVisible()
+
+    fireEvent.click(button)
+
+    expect(menu).not.toBeVisible()
   })
 })

@@ -1,20 +1,17 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render, screen } from '@testing-library/react'
 import SiteContainer from './SiteContainer'
-import Element from '../Element'
 
 describe('Components/SiteContainer', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<SiteContainer />)
+    const { container } = render(<SiteContainer />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render a <div /> when 'children' is set", () => {
-    const wrapper = shallow(<SiteContainer>Content</SiteContainer>)
+    render(<SiteContainer>Content</SiteContainer>)
 
-    expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual(undefined)
-    expect(wrapper.prop('className')).toEqual('')
+    expect(screen.getByText('Content')).toBeInTheDocument()
   })
 })

@@ -4,6 +4,7 @@ import classNames from 'classnames'
 import Grid from '../Grid'
 import ResponsiveMedia from '../ResponsiveMedia'
 import { getLiveStreamUrls } from './utils'
+import VisuallyHidden from '../VisuallyHidden'
 
 const LiveStream = ({
   href,
@@ -15,8 +16,7 @@ const LiveStream = ({
   theme,
   className
 }) => {
-  if (!href) return null
-
+  const [loading, setLoading] = useState(true)
   const [liveStreamUrls, setLiveSteamUrls] = useState({
     videoUrl: null,
     chatUrl: null
@@ -24,19 +24,23 @@ const LiveStream = ({
 
   useEffect(() => {
     const loadUrls = async () => {
-      setLiveSteamUrls(
-        await getLiveStreamUrls({
-          href,
-          autoPlay,
-          muted,
-          darkMode,
-          showChat
-        })
-      )
+      const urls = await getLiveStreamUrls({
+        href,
+        autoPlay,
+        muted,
+        darkMode,
+        showChat
+      })
+
+      setLiveSteamUrls(urls)
+      setLoading(false)
     }
 
     loadUrls()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [href])
+
+  if (loading) return <VisuallyHidden>Loading live stream</VisuallyHidden>
 
   const { videoUrl, chatUrl } = liveStreamUrls
 
@@ -47,9 +51,8 @@ const LiveStream = ({
       <Grid.Item className={theme?.video}>
         <ResponsiveMedia ratio="16:9">
           <iframe
-            data-test-id="LiveStreamVideo"
             title="Live stream"
-            src={videoUrl.toString()}
+            src={videoUrl.href}
             allowFullScreen={allowFullScreen}
             loading="lazy"
           />
@@ -57,12 +60,7 @@ const LiveStream = ({
       </Grid.Item>
       {chatUrl && (
         <Grid.Item className={theme?.chat}>
-          <iframe
-            data-test-id="LiveStreamChat"
-            title="Live chat"
-            src={chatUrl.toString()}
-            loading="lazy"
-          />
+          <iframe title="Live chat" src={chatUrl.href} loading="lazy" />
         </Grid.Item>
       )}
     </Grid>

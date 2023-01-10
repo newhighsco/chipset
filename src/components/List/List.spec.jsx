@@ -1,7 +1,6 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render } from '@testing-library/react'
 import List from './List'
-import Element from '../Element'
 
 import theme from './List.module.scss'
 
@@ -14,33 +13,31 @@ const children = (
 
 describe('Components/List', () => {
   it('should render nothing by default', () => {
-    const wrapper = shallow(<List />)
+    const { container } = render(<List />)
 
-    expect(wrapper.type()).toEqual(null)
+    expect(container.firstChild).toBeNull()
   })
 
   it("should render <ul /> when 'children' are passed", () => {
-    const wrapper = shallow(<List>{children}</List>)
+    const { container } = render(<List>{children}</List>)
 
-    expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual('ul')
+    expect(container.firstChild.tagName).toEqual('UL')
   })
 
   it("should render the correct component when 'as' is set", () => {
-    const wrapper = shallow(<List as="ol">{children}</List>)
+    const { container } = render(<List as="ol">{children}</List>)
 
-    expect(wrapper.type()).toEqual(Element)
-    expect(wrapper.prop('as')).toEqual('ol')
+    expect(container.firstChild.tagName).toEqual('OL')
   })
 
   it('should set correct classNames', () => {
-    const wrapper = shallow(
+    const { container } = render(
       <List theme={theme} unstyled inline commaSeparated>
         {children}
       </List>
     )
 
-    expect(wrapper.prop('className')).toEqual(
+    expect(container.firstChild).toHaveClass(
       'root unstyled inline commaSeparated'
     )
   })
