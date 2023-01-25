@@ -1,6 +1,7 @@
-import React from 'react'
-import { bool, node, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { bool, node, shape, string } from 'prop-types'
+import React from 'react'
+
 import Element from '../Element'
 
 /**

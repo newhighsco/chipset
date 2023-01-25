@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
-import urlJoin from 'url-join'
 import { isMobile } from 'react-device-detect'
+import urlJoin from 'url-join'
 
 const getExternalUrl = url =>
   `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`

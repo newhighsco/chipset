@@ -1,6 +1,7 @@
 import React from 'react'
-import { Backdrop, Button, Image } from '..'
+
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
+import { Backdrop, Button, Image } from '..'
 
 export default {
   component: Backdrop

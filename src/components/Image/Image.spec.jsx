@@ -1,5 +1,6 @@
+import { cleanup, render, screen } from '@testing-library/react'
 import React from 'react'
-import { render, screen } from '@testing-library/react'
+
 import Image from './Image'
 
 describe('Components/Image', () => {
@@ -13,8 +14,7 @@ describe('Components/Image', () => {
     const { container } = render(<Image src="https://example.com/image.png" />)
 
     expect(container.firstChild.tagName).toEqual('IMG')
-    expect(container.querySelectorAll('* > img')).toHaveLength(1)
-    expect(screen.getByRole('img')).toBeInTheDocument()
+    expect(screen.getAllByRole('img')).toHaveLength(1)
   })
 
   it("should render the correct component when 'sources' is set", () => {
@@ -29,19 +29,18 @@ describe('Components/Image', () => {
     )
 
     expect(container.firstChild.tagName).toEqual('PICTURE')
-    expect(container.querySelectorAll('img')).toHaveLength(1)
-    expect(container.querySelectorAll('source')).toHaveLength(2)
-    expect(screen.getByRole('img')).toBeInTheDocument()
+    expect(screen.getAllByRole('img')).toHaveLength(1)
+    expect(container.firstChild.childNodes).toHaveLength(3)
   })
 
   it('should set correct classNames', () => {
-    const { container: image } = render(
-      <Image className="foo" src="https://example.com/image.png" />
-    )
+    render(<Image className="foo" src="https://example.com/image.png" />)
 
-    expect(image.firstChild).toHaveClass('foo')
+    expect(screen.getByRole('img')).toHaveClass('foo')
 
-    const { container: picture } = render(
+    cleanup()
+
+    const { container } = render(
       <Image
         className="bar"
         src="https://example.com/image.png"
@@ -52,7 +51,7 @@ describe('Components/Image', () => {
       />
     )
 
-    expect(picture.firstChild).toHaveClass('bar')
-    expect(picture.querySelector('img')).not.toHaveClass()
+    expect(container.firstChild).toHaveClass('bar')
+    expect(screen.getByRole('img')).not.toHaveClass()
   })
 })

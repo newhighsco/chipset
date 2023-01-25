@@ -1,7 +1,7 @@
-import React from 'react'
 import { node } from 'prop-types'
-import Element from '../Element'
+import React from 'react'
 
+import Element from '../Element'
 import styles from './VisuallyHidden.module.scss'
 
 /**

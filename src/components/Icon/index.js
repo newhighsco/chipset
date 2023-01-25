@@ -1,6 +1,5 @@
 import { withTheme } from '../../providers'
 import PureIcon from './Icon'
-
 import theme from './Icon.module.scss'
 
 const { displayName } = PureIcon

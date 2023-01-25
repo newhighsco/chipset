@@ -1,6 +1,7 @@
-import React from 'react'
-import { bool, node, oneOf, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { bool, node, oneOf, shape, string } from 'prop-types'
+import React from 'react'
+
 import Element from '../Element'
 
 const List = ({

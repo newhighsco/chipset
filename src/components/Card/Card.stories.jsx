@@ -1,7 +1,8 @@
 import React from 'react'
+
+import { imageUrl } from '../../__mocks__/fixtures'
 import { Button, Card } from '..'
 import PureCard from './Card'
-import { imageUrl } from '../../__mocks__/fixtures'
 
 export default {
   component: PureCard

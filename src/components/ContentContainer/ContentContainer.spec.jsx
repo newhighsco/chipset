@@ -1,7 +1,7 @@
-import React from 'react'
 import { render, screen } from '@testing-library/react'
-import ContentContainer from './ContentContainer'
+import React from 'react'
 
+import ContentContainer from './ContentContainer'
 import theme from './ContentContainer.module.scss'
 
 describe('Components/ContentContainer', () => {

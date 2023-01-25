@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { HeaderContainer } from '..'
 import PureContentContainer from '../ContentContainer/ContentContainer'
 

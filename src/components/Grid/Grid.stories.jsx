@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { ContentContainer, Grid } from '..'
 import PureGrid from './Grid'
 import PureGridItem from './GridItem'

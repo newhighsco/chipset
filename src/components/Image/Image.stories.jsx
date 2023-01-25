@@ -1,6 +1,7 @@
 import React from 'react'
-import { Image } from '..'
+
 import { imageUrl, imageWebPUrl } from '../../__mocks__/fixtures'
+import { Image } from '..'
 
 export default {
   component: Image

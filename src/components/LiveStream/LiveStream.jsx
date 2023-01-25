@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { bool, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { bool, shape, string } from 'prop-types'
+import React, { useEffect, useState } from 'react'
+
 import Grid from '../Grid'
 import ResponsiveMedia from '../ResponsiveMedia'
-import { getLiveStreamUrls } from './utils'
 import VisuallyHidden from '../VisuallyHidden'
+import { getLiveStreamUrls } from './utils'
 
 const LiveStream = ({
   href,

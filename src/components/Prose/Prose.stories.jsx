@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Prose } from '..'
 import PureProse from './Prose'
 

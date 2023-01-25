@@ -1,7 +1,7 @@
-export { default as ContentContainer } from './ContentContainer'
 export { default as Backdrop } from './Backdrop'
 export { default as Button } from './Button'
 export { default as Card } from './Card'
+export { default as ContentContainer } from './ContentContainer'
 export { default as CreditLockup } from './CreditLockup'
 export { default as Element } from './Element'
 export { default as FooterContainer } from './FooterContainer'

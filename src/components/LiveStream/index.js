@@ -1,6 +1,5 @@
 import { withTheme } from '../../providers'
 import PureLiveStream from './LiveStream'
-
 import theme from './LiveStream.module.scss'
 
 const { displayName } = PureLiveStream

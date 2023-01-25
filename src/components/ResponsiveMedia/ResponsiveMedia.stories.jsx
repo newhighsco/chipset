@@ -1,7 +1,8 @@
 import React from 'react'
+
+import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 import { Image, ResponsiveMedia } from '..'
 import PureResponsiveMedia from './ResponsiveMedia'
-import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 
 export default {
   component: PureResponsiveMedia

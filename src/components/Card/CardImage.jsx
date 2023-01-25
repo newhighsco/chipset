@@ -1,5 +1,6 @@
-import React from 'react'
 import { func, number, object, oneOfType, string } from 'prop-types'
+import React from 'react'
+
 import Image from '../Image'
 import ResponsiveMedia from '../ResponsiveMedia'
 

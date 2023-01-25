@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
+
 import { withTheme } from '../../providers'
 import PureCard from './Card'
-
 import theme from './Card.module.scss'
 
 const { displayName } = PureCard

@@ -1,8 +1,8 @@
-import React from 'react'
 import { render } from '@testing-library/react'
-import GridItem from './GridItem'
+import React from 'react'
 
 import theme from './Grid.module.scss'
+import GridItem from './GridItem'
 
 describe('Components/GridItem', () => {
   it('should render nothing by default', () => {

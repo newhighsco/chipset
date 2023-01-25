@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Landmark } from '..'
 
 export default {
@@ -13,5 +14,6 @@ const Template = args => <Landmark {...args} />
 export const Source = Template.bind({})
 
 Source.args = {
+  id: 'landmark',
   children: 'Content'
 }

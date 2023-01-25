@@ -1,9 +1,9 @@
 import React, { forwardRef } from 'react'
+
 import { withTheme } from '../../providers'
 import PureButton from './Button'
-import PureButtonGroup from './ButtonGroup'
-
 import theme from './Button.module.scss'
+import PureButtonGroup from './ButtonGroup'
 
 const { displayName } = PureButton
 const ButtonWithRef = forwardRef((props, ref) => (

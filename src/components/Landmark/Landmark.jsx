@@ -1,7 +1,7 @@
-import React from 'react'
 import { node } from 'prop-types'
-import VisuallyHidden from '../VisuallyHidden'
+import React from 'react'
 
+import VisuallyHidden from '../VisuallyHidden'
 import styles from './Landmark.module.scss'
 
 /**

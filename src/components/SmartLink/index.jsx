@@ -1,4 +1,5 @@
 import React, { forwardRef } from 'react'
+
 import PureSmartLink from './SmartLink'
 
 const { displayName } = PureSmartLink

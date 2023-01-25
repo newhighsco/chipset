@@ -1,7 +1,7 @@
-import React from 'react'
 import { render, screen } from '@testing-library/react'
-import CreditLockup from './CreditLockup'
+import React from 'react'
 
+import CreditLockup from './CreditLockup'
 import theme from './CreditLockup.module.scss'
 
 describe('Components/CreditLockup', () => {

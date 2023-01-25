@@ -1,5 +1,6 @@
-import React from 'react'
 import { node } from 'prop-types'
+import React from 'react'
+
 import ContentContainer from '../ContentContainer'
 
 const FooterContainer = ({ children, theme, ...rest }) => {

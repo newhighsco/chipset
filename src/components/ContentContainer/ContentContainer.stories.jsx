@@ -1,8 +1,8 @@
 import React from 'react'
-import { ContentContainer } from '..'
-import PureContentContainer from './ContentContainer'
 
 import breakpoints from '../../../styles/_breakpoints.module.scss'
+import { ContentContainer } from '..'
+import PureContentContainer from './ContentContainer'
 
 export default {
   component: PureContentContainer

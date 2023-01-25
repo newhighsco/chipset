@@ -1,5 +1,6 @@
-import React from 'react'
 import { fireEvent, render, screen } from '@testing-library/react'
+import React from 'react'
+
 import Navigation from './Navigation'
 
 const links = [
@@ -29,21 +30,21 @@ describe('Components/Navigation', () => {
       <Navigation
         links={links}
         renderLink={({ href, children }, index) => (
-          <span data-testid="renderLink" id={index} data-href={href}>
+          <span id={index} data-href={href}>
             {children}
           </span>
         )}
       />
     )
 
-    expect(screen.getAllByTestId('renderLink')).toHaveLength(4)
+    expect(screen.getAllByRole('menuitem')).toHaveLength(4)
   })
 
   it("should render a <Button /> with 'toggle' is set", () => {
-    const { container } = render(<Navigation links={links} toggle />)
+    render(<Navigation links={links} toggle />)
 
     const button = screen.getByRole('button')
-    const menu = container.querySelector('ul')
+    const menu = screen.getByRole('menubar', { hidden: true })
 
     expect(button).toBeInTheDocument()
     expect(screen.getByLabelText('Show Navigation')).toBeInTheDocument()

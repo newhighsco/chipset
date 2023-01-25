@@ -1,6 +1,6 @@
-import React from 'react'
-import { node, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { node, shape, string } from 'prop-types'
+import React from 'react'
 
 const ButtonGroup = ({ children, theme, className }) => {
   if (!children) return null

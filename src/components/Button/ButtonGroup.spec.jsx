@@ -1,8 +1,8 @@
-import React from 'react'
 import { render, screen } from '@testing-library/react'
-import ButtonGroup from './ButtonGroup'
+import React from 'react'
 
 import theme from './Button.module.scss'
+import ButtonGroup from './ButtonGroup'
 
 describe('Components/ButtonGroup', () => {
   it('should render nothing by default', () => {
