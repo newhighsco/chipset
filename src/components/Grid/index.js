@@ -1,8 +1,7 @@
 import { withTheme } from '../../providers'
 import PureGrid from './Grid'
-import PureGridItem from './GridItem'
-
 import theme from './Grid.module.scss'
+import PureGridItem from './GridItem'
 
 const { displayName } = PureGrid
 const Grid = withTheme(displayName, theme)(PureGrid)

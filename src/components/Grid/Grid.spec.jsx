@@ -1,7 +1,7 @@
-import React from 'react'
 import { render } from '@testing-library/react'
-import Grid from './Grid'
+import React from 'react'
 
+import Grid from './Grid'
 import theme from './Grid.module.scss'
 
 describe('Components/Grid', () => {

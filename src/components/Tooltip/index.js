@@ -1,6 +1,5 @@
 import { withTheme } from '../../providers'
 import PureTooltip from './Tooltip'
-
 import theme from './Tooltip.module.scss'
 
 const { displayName } = PureTooltip

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { FooterContainer } from '..'
 import PureContentContainer from '../ContentContainer/ContentContainer'
 

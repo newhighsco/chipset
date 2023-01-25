@@ -1,15 +1,15 @@
-import React from 'react'
-import { array, bool, func, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { array, bool, func, shape, string } from 'prop-types'
+import React from 'react'
+
 import { useToggle } from '../../hooks'
 import Button from '../Button'
 import Icon from '../Icon'
 import List from '../List'
 import SmartLink from '../SmartLink'
 import VisuallyHidden from '../VisuallyHidden'
-
-import { ReactComponent as MenuSvg } from './images/menu.svg'
 import { ReactComponent as CloseSvg } from './images/close.svg'
+import { ReactComponent as MenuSvg } from './images/menu.svg'
 
 const Navigation = ({
   title = 'Navigation',

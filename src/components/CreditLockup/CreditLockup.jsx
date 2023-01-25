@@ -1,8 +1,8 @@
-import React from 'react'
 import { oneOf, shape, string } from 'prop-types'
-import SmartLink from '../SmartLink'
-import Icon from '../Icon'
+import React from 'react'
 
+import Icon from '../Icon'
+import SmartLink from '../SmartLink'
 import { ReactComponent as LogoSvg } from './images/logo.svg'
 
 const name = 'New High Score'

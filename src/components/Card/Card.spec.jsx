@@ -1,7 +1,7 @@
-import React from 'react'
 import { render, screen } from '@testing-library/react'
-import Card from './Card'
+import React from 'react'
 
+import Card from './Card'
 import theme from './Card.module.scss'
 
 describe('Components/Card', () => {

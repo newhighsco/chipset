@@ -1,11 +1,12 @@
-import React from 'react'
 import {
   render,
   screen,
   waitForElementToBeRemoved
 } from '@testing-library/react'
 import fetch from 'node-fetch'
+import React from 'react'
 import * as deviceDetect from 'react-device-detect'
+
 import LiveStream from './LiveStream'
 
 jest.mock('node-fetch')

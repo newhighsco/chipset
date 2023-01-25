@@ -1,6 +1,6 @@
-import React from 'react'
-import { node, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { node, shape, string } from 'prop-types'
+import React from 'react'
 
 const Prose = ({ html, children, theme, className, ...rest }) => {
   if (!html && !children) return null

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Landmark } from '..'
 
 export default {

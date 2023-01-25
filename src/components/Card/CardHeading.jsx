@@ -1,5 +1,6 @@
-import React from 'react'
 import { func, node, object, oneOfType, string } from 'prop-types'
+import React from 'react'
+
 import SmartLink from '../SmartLink'
 
 const CardHeading = ({ href, target, children, ref, theme }) => {

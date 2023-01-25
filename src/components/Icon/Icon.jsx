@@ -1,6 +1,7 @@
-import React from 'react'
-import { node, number, oneOfType, shape, string } from 'prop-types'
 import classNames from 'classnames'
+import { node, number, oneOfType, shape, string } from 'prop-types'
+import React from 'react'
+
 import VisuallyHidden from '../VisuallyHidden'
 
 /**

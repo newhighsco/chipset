@@ -1,6 +1,5 @@
 import { withTheme } from '../../providers'
 import PureResponsiveMedia from './ResponsiveMedia'
-
 import theme from './ResponsiveMedia.module.scss'
 
 const { displayName } = PureResponsiveMedia

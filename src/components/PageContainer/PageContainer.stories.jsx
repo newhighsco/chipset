@@ -1,7 +1,8 @@
 import React from 'react'
+
 import { FooterContainer, HeaderContainer, PageContainer } from '..'
-import PurePageContainer from './PageContainer'
 import PureContentContainer from '../ContentContainer/ContentContainer'
+import PurePageContainer from './PageContainer'
 
 export default {
   component: PurePageContainer,

@@ -1,8 +1,8 @@
 import React from 'react'
-import { LiveStream } from '..'
-import PureLiveStream from './LiveStream'
 
 import breakpoints from '../../../styles/_breakpoints.module.scss'
+import { LiveStream } from '..'
+import PureLiveStream from './LiveStream'
 
 export default {
   component: PureLiveStream,

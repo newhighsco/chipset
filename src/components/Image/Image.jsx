@@ -1,5 +1,5 @@
-import React from 'react'
 import { arrayOf, oneOf, shape, string } from 'prop-types'
+import React from 'react'
 
 const Image = ({
   src,

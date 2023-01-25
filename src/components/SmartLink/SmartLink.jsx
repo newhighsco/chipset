@@ -1,5 +1,6 @@
-import React from 'react'
 import { func, node, object, oneOf, oneOfType, string } from 'prop-types'
+import React from 'react'
+
 import { absoluteUrl } from '../../utils'
 
 /**

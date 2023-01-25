@@ -1,8 +1,8 @@
-import React from 'react'
-import { node, string } from 'prop-types'
 import classNames from 'classnames'
-import Element from '../Element'
+import { node, string } from 'prop-types'
+import React from 'react'
 
+import Element from '../Element'
 import styles from './Backdrop.module.scss'
 
 /**
