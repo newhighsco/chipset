@@ -1949,16 +1949,16 @@
     eslint-plugin-testing-library "5.10.0"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.110":
-  version "3.5.110"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.110.tgz#2741028a77b10602687bfcc1b7527e10c753926d"
-  integrity sha512-IW4JjW9o6LjsKjnAwmqXPvcmI237DzerVJHcKC9cXrXAb1YvNdUNjMR0lsifm4BUmRT+kr4R9hCO8pUxwnHK4w==
+"@newhighsco/postcss-config@3.5.111":
+  version "3.5.111"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.111.tgz#e9cf5ad84152721c65f8bedf55556317f18663ad"
+  integrity sha512-+zxLM20yv8IBsjjzcRqCh2EHxZr4L8x9BVN+bAhU0NHho2YKUcjCIq6blYdCTFK1Mj+DxETZUnZ+hvUvypEEzA==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.13"
     caniuse-lite "1.0.30001449"
     postcss-flexbugs-fixes "5.0.2"
-    postcss-preset-env "8.0.0"
+    postcss-preset-env "8.0.1"
 
 "@newhighsco/prettier-config@2.1.7":
   version "2.1.7"
@@ -14738,10 +14738,10 @@ postcss-place@^8.0.0:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-8.0.0.tgz#17830b4a9f3317c47be092345c96e52317471c27"
-  integrity sha512-/kFWdq109OONR2Hl3T3nmo1dOdS7lHB6kF/nPaBn/2lGjQ99f/j5vGBYvupSmSni+F7T/0A0Xb0nfbJLnxwdjA==
+postcss-preset-env@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-8.0.1.tgz#d249c137febc037dd5dbb97e18f94dba4dd0cda8"
+  integrity sha512-IUbymw0JlUbyVG+I85963PNWgPp3KhnFa1sxU7M/2dGthxV8e297P0VV5W9XcyypoH4hirH2fp1c6fmqh6YnSg==
   dependencies:
     "@csstools/postcss-cascade-layers" "^3.0.0"
     "@csstools/postcss-color-function" "^2.0.0"
