@@ -1,3 +1,10 @@
+## [6.14.12](https://github.com/newhighsco/chipset/compare/v6.14.11...v6.14.12) (2023-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-device-detect to v2.2.3 ([#1458](https://github.com/newhighsco/chipset/issues/1458)) ([9fa5ae7](https://github.com/newhighsco/chipset/commit/9fa5ae724de71900e949fcf7f168b5cae37826a2))
+
 ## [6.14.11](https://github.com/newhighsco/chipset/compare/v6.14.10...v6.14.11) (2022-11-19)
 
 
