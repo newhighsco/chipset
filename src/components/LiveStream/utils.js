@@ -6,7 +6,6 @@ const getExternalUrl = url =>
   `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
 
 const location = typeof window !== 'undefined' ? window.location : null
-const { hostname } = location
 
 const PROVIDERS = {
   facebook: {
@@ -29,7 +28,7 @@ const PROVIDERS = {
       const url = new URL('https://player.twitch.tv')
       url.search = new URLSearchParams({
         channel,
-        parent: hostname,
+        parent: location?.hostname,
         autoplay: !!autoPlay,
         muted: !!muted
       })
@@ -39,7 +38,7 @@ const PROVIDERS = {
     getChatUrl: ({ channel, darkMode }) => {
       const url = new URL(`https://www.twitch.tv/embed/${channel}/chat`)
       url.search = new URLSearchParams({
-        parent: hostname,
+        parent: location?.hostname,
         ...(darkMode && { darkpopout: '' })
       })
 
@@ -76,7 +75,7 @@ const PROVIDERS = {
       const url = new URL('https://www.youtube.com/live_chat')
       url.search = new URLSearchParams({
         v: channel,
-        embed_domain: hostname,
+        embed_domain: location?.hostname,
         ...(darkMode && { dark_theme: 1 })
       })
 
