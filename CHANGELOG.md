@@ -1,3 +1,10 @@
+## [6.14.14](https://github.com/newhighsco/chipset/compare/v6.14.13...v6.14.14) (2023-02-10)
+
+
+### Bug Fixes
+
+* **live-stream:** correctly handle missing `hostname` ([cc339c4](https://github.com/newhighsco/chipset/commit/cc339c4dbd1f023d9ceaafaed0d784028be72c1c))
+
 ## [6.14.13](https://github.com/newhighsco/chipset/compare/v6.14.12...v6.14.13) (2023-02-10)
 
 
