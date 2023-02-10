@@ -5,7 +5,8 @@ import urlJoin from 'url-join'
 const getExternalUrl = url =>
   `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`
 
-const { hostname } = window.location
+const location = typeof window !== 'undefined' ? window.location : null
+const { hostname } = location
 
 const PROVIDERS = {
   facebook: {
