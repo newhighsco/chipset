@@ -1922,10 +1922,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.11.tgz#479ffd1e25685c945bf02416e24717c7f8faae32"
-  integrity sha512-0NblLyjN+HRqWUzCPP8QC5BQLlZlsS/J8p6pTH9zVuiurKcvxn3/px/I7OvlSWoMCy/dmimgNN0GwvE2awy39Q==
+"@newhighsco/eslint-config@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.12.tgz#495a5ed7a0e20af6dc8cd0f62297758056a4514a"
+  integrity sha512-QNA9MFufAbEwtJ16qs4esEriFddstz65T+gHk8wpsyHt3BuIzHmbUOz9vRIqvJmh4Yx+SYKXfpY82uwkywBeFw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.51.0"
     "@typescript-eslint/parser" "5.51.0"
@@ -1978,10 +1978,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.62":
-  version "4.5.62"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.62.tgz#c2148351664ad1d8e6c1c55008a1ef2bd0503c49"
-  integrity sha512-cPxSLzV5E+gtYh44zM7+q/bgdBkMEi2LZGds7l+F4iMd/+3AcIPSPtmB/p4uF/55D/pT6lad5mRaGzZYmkaFGw==
+"@newhighsco/storybook-preset@4.5.63":
+  version "4.5.63"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.63.tgz#3d15c31945da4d8927e910edadc64636d967ac9e"
+  integrity sha512-oo/1J/gbuQLAU163c535yVRlHXInp4i+AQ1rTtSrko1phiZISm74Q7iWv7tgwIp+QftsMUpJ1CyPkBQWTRrI9A==
   dependencies:
     "@storybook/addon-actions" "6.5.16"
     "@storybook/addon-backgrounds" "6.5.16"
@@ -1996,15 +1996,15 @@
     react-is "18.2.0"
     sass "1.58.0"
     sass-loader "13.2.0"
-    storybook-dark-mode "2.0.5"
+    storybook-dark-mode "2.0.6"
 
-"@newhighsco/stylelint-config@3.1.34":
-  version "3.1.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.34.tgz#e610b49a88209c560f8001761b8f22a79cc2d88d"
-  integrity sha512-PUSasqclxNzYKLKUffLiSe7u4uY/ZB/yyWnPQqBkSYK8dFb+2YeRLUkTnBFVf++7UzmA/G5XTbyr/wqj8LXQZA==
+"@newhighsco/stylelint-config@3.1.37":
+  version "3.1.37"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.37.tgz#38a526212d5c5871484d9074be97a6812c173db6"
+  integrity sha512-EfllF4uGDIPxRQuNXCoMI3M+PbK3qWOLOXsLVSkm3ZQyZ9b0t8rwTkLO8ZAn4HcSEVhEs4isqjnoHE2fN2zO3g==
   dependencies:
-    stylelint-config-css-modules "4.1.0"
-    stylelint-config-prettier "9.0.4"
+    stylelint-config-css-modules "4.2.0"
+    stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "6.1.0"
     stylelint-prettier "2.0.0"
 
@@ -3057,6 +3057,11 @@
     doctrine "^3.0.0"
     lodash "^4.17.21"
     regenerator-runtime "^0.13.7"
+
+"@storybook/global@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
+  integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
 
 "@storybook/manager-webpack4@6.5.16":
   version "6.5.16"
@@ -16787,18 +16792,18 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.2.tgz#56138d200f9fe5f582ad63bc2704dbc0e4a45068"
   integrity sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==
 
-storybook-dark-mode@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-2.0.5.tgz#a15e8a43bf4b60745f73fd362133ba565a3bc61e"
-  integrity sha512-egOMu2tgGttGAMtFZcDLZobs1xc7LzFOh+pRVqaW59AVp05ABdQ3Hj6IX2Pz7tYGmF9AmaK+nBv0hDFxPe7Hfg==
+storybook-dark-mode@2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-2.0.6.tgz#1d660eb46024df40e6eb62e8b25c72979fc81ce0"
+  integrity sha512-uQYTL6U8VSa26n8ekEImc2+UHURIIgdiwQCO4PtRpVOxoqFUj26i7EsTsQQwIDhDgyC8okEaxYGDIf29Vlb9yA==
   dependencies:
     "@storybook/addons" "^6.5.14"
     "@storybook/api" "^6.5.14"
     "@storybook/components" "^6.5.14"
     "@storybook/core-events" "^6.5.14"
+    "@storybook/global" "^5.0.0"
     "@storybook/theming" "^6.5.14"
     fast-deep-equal "^3.1.3"
-    global "^4.4.0"
     memoizerific "^1.11.3"
 
 stream-browserify@^2.0.1:
@@ -17112,17 +17117,17 @@ style-to-object@0.3.0, style-to-object@^0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
-stylelint-config-css-modules@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.1.0.tgz#b507bc074ba5bfda9f40f0be79b540db249f0c78"
-  integrity sha512-w6d552NscwvpUEaUcmq8GgWXKRv6lVHLbDj6QIHSM2vCWr83qRqRvXBJCfXDyaG/J3Zojw2inU9VvU99ZlXuUw==
+stylelint-config-css-modules@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.2.0.tgz#0196347d5c143eff9e2a3e97b1ba980253b6b8bf"
+  integrity sha512-5x7lzPNCc42puQEAFdr7dSzQ00aIg1vCVyV+QPUiSp2oZILpAt8HTgveXaDttazxcwWPBNJrxrLpa556xUP7Bw==
   optionalDependencies:
-    stylelint-scss "^4.2.0"
+    stylelint-scss "^4.3.0"
 
-stylelint-config-prettier@9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-9.0.4.tgz#1b1dda614d5b3ef6c1f583fa6fa55f88245eb00b"
-  integrity sha512-38nIGTGpFOiK5LjJ8Ma1yUgpKENxoKSOhbDNSemY7Ep0VsJoXIW9Iq/2hSt699oB9tReynfWicTAoIHiq8Rvbg==
+stylelint-config-prettier@9.0.5:
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-9.0.5.tgz#9f78bbf31c7307ca2df2dd60f42c7014ee9da56e"
+  integrity sha512-U44lELgLZhbAD/xy/vncZ2Pq8sh2TnpiPvo38Ifg9+zeioR+LAkHu0i6YORIOxFafZoVg0xqQwex6e6F25S5XA==
 
 stylelint-config-recommended-scss@^8.0.0:
   version "8.0.0"
@@ -17160,7 +17165,7 @@ stylelint-prettier@2.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@^4.0.0, stylelint-scss@^4.2.0:
+stylelint-scss@^4.0.0, stylelint-scss@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.3.0.tgz#638800faf823db11fff60d537c81051fe74c90fa"
   integrity sha512-GvSaKCA3tipzZHoz+nNO7S02ZqOsdBzMiCx9poSmLlb3tdJlGddEX/8QzCOD8O7GQan9bjsvLMsO5xiw6IhhIQ==
