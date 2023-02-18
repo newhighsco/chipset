@@ -1912,10 +1912,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/commitlint-config@1.1.14":
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.14.tgz#43543f2be416a79b463bc0f27478fcfac5f606e6"
-  integrity sha512-93yr1FXtUy7vCrOWociqtBED1ixmpEgvzG/a00J+Ko9xOufqvPSqbOvAQ+j+dfuJFEkndhUd28QYd258QjF+wg==
+"@newhighsco/commitlint-config@1.1.15":
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.15.tgz#4791296767210ce77b4f4dda503ee786e9b1116d"
+  integrity sha512-/f0CQA4Yc+lfPe2YQdo++Rvbv4adag/Tq+Mms255jAaE7j6dO9g863jlimagrChbJBppWQFz3LZCut2WW48Q0w==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
@@ -1949,14 +1949,14 @@
     eslint-plugin-testing-library "5.10.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.115":
-  version "3.5.115"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.115.tgz#2abf0b95870662462fb04ab9c86426ee1842f1fc"
-  integrity sha512-ostHCaqnAs3CQ0A0fZcuEQS8w6bw7pqiOsJYw2SDcEua9NTLZ9BFZoyWN+vRAfjXf4TMaXEO+pj5VB0jRNcrpQ==
+"@newhighsco/postcss-config@3.5.116":
+  version "3.5.116"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.116.tgz#8e5240d93c02683e5c347385f09ec96f92444ce3"
+  integrity sha512-94zoQhjh0w9lQghti7T5ZazAQiyPKUYFlEmlnipmwxdwjzDBr2+0NtZp4PwlFBBev2FxeOyYWdjJDeCVjY+u7A==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.13"
-    caniuse-lite "1.0.30001453"
+    caniuse-lite "1.0.30001456"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "8.0.1"
 
@@ -1978,10 +1978,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.64":
-  version "4.5.64"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.64.tgz#d6112f70027b93b5c2ba9dc7609f8c017eb95152"
-  integrity sha512-xdAX3dOHLXrT0JlNDsLMKIejUK9VouYB1n3i97K/GHavbIK8n9drrInunUpoLEk9nPZBWgyAamAwqjyky1WahQ==
+"@newhighsco/storybook-preset@4.5.65":
+  version "4.5.65"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.65.tgz#a8931437a8464fae2645d1aa97fdcfceb9233601"
+  integrity sha512-rUMLBdVcCUYaxPWokEyCQGjIiZbSDezxuf8puG3AR6aH7+CXFk3zguTL5MrGjq9tR7tprQCNf+FwXPickrdElw==
   dependencies:
     "@storybook/addon-actions" "6.5.16"
     "@storybook/addon-backgrounds" "6.5.16"
@@ -1994,7 +1994,7 @@
     new-url-loader "0.1.1"
     postcss "8.4.21"
     react-is "18.2.0"
-    sass "1.58.1"
+    sass "1.58.2"
     sass-loader "13.2.0"
     storybook-dark-mode "2.0.6"
 
@@ -5810,10 +5810,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001453, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
-  version "1.0.30001453"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001453.tgz#6d3a1501622bf424a3cee5ad9550e640b0de3de8"
-  integrity sha512-R9o/uySW38VViaTrOtwfbFEiBFUh7ST3uIG4OEymIG3/uKdHDO4xk/FaqfUw0d+irSUyFPy3dZszf9VvSTPnsA==
+caniuse-lite@1.0.30001456, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
+  version "1.0.30001456"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001456.tgz#734ec1dbfa4f3abe6e435b78ecf40d68e8c32ce4"
+  integrity sha512-XFHJY5dUgmpMV25UqaD4kVq2LsiaU5rS8fb0f17pCoXQiQslzmFgnfOxfvo1bTpTqf7dwG/N/05CnLCnOEKmzA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -16109,10 +16109,10 @@ sass-true@7.0.0:
     jest-diff "^29.3.1"
     lodash "^4.17.21"
 
-sass@1.58.1:
-  version "1.58.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.58.1.tgz#17ab0390076a50578ed0733f1cc45429e03405f6"
-  integrity sha512-bnINi6nPXbP1XNRaranMFEBZWUfdW/AF16Ql5+ypRxfTvCRTTKrLsMIakyDcayUt2t/RZotmL4kgJwNH5xO+bg==
+sass@1.58.2:
+  version "1.58.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.58.2.tgz#ef3c5098a02dd006f09a2350b114f1ac445e38ce"
+  integrity sha512-2mbyOWOv/lhEXD6nVrQZQ4KT2DlwcODbTskM42EyqBAFUWOhiiYtAXZqjZz1ygzapYf+N+2GwfIH9M5FM4GUMg==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
