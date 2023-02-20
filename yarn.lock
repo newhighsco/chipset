@@ -1949,14 +1949,14 @@
     eslint-plugin-testing-library "5.10.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.116":
-  version "3.5.116"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.116.tgz#8e5240d93c02683e5c347385f09ec96f92444ce3"
-  integrity sha512-94zoQhjh0w9lQghti7T5ZazAQiyPKUYFlEmlnipmwxdwjzDBr2+0NtZp4PwlFBBev2FxeOyYWdjJDeCVjY+u7A==
+"@newhighsco/postcss-config@3.5.117":
+  version "3.5.117"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.117.tgz#3204978e60ace4b558bb30c2616911e9fbd4ac3f"
+  integrity sha512-KhbcQm5OwX8f04DS4wpkNZl+39cQQbhoJI/AldhVUB2gqkHdl8jGOR0rXu2nx4FrrhY5HaaE7SnwEPxRywRVtw==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.13"
-    caniuse-lite "1.0.30001456"
+    caniuse-lite "1.0.30001457"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "8.0.1"
 
@@ -1978,10 +1978,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.66":
-  version "4.5.66"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.66.tgz#a520cc027ca1fd68911c2269156d7d1f12aa3b1a"
-  integrity sha512-drGRwc3H874F6oDGZRgR1RBMPQX8onFysgcwfozIXDoaC4BOKL8niWVFl8rMV6xt/WN17qY6afhuah28HoZWhA==
+"@newhighsco/storybook-preset@4.5.67":
+  version "4.5.67"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.67.tgz#63ff770389bfcf00031be0017ba4400ea5524432"
+  integrity sha512-w8uLkKhNtCnny+QluY79tPg3pqXip95DUNDHkdAAp/b5FRkui6D1beBFROtjGPvLwGRbtr5ZYF7evyddGFJuEQ==
   dependencies:
     "@storybook/addon-actions" "6.5.16"
     "@storybook/addon-backgrounds" "6.5.16"
@@ -1996,12 +1996,12 @@
     react-is "18.2.0"
     sass "1.58.3"
     sass-loader "13.2.0"
-    storybook-dark-mode "2.0.6"
+    storybook-dark-mode "2.1.0"
 
-"@newhighsco/stylelint-config@3.1.39":
-  version "3.1.39"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.39.tgz#d95c6a6dc1831354ad4a91413e974fbc4bfe628e"
-  integrity sha512-DD7lmi//yDfL7Zi1vCzeO9Aear2uto8NyB1Nhxz6uLtcn0Thb9SPeGIjvfwzJ89bc5PPLt0lAUe5VmUBuI6NxA==
+"@newhighsco/stylelint-config@3.1.40":
+  version "3.1.40"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.40.tgz#680e3630f5e4fc5e23916cad668a93c28931c87e"
+  integrity sha512-jMdJdZwDlZzN6uiI3Djk9fQhuL4+xgyoscFq0MN3T3qlXhfCRZrRuJMp87xqII27tsh2U/gUtt+8bY52AKgQuw==
   dependencies:
     stylelint-config-css-modules "4.2.0"
     stylelint-config-prettier "9.0.5"
@@ -5810,10 +5810,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001456, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
-  version "1.0.30001456"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001456.tgz#734ec1dbfa4f3abe6e435b78ecf40d68e8c32ce4"
-  integrity sha512-XFHJY5dUgmpMV25UqaD4kVq2LsiaU5rS8fb0f17pCoXQiQslzmFgnfOxfvo1bTpTqf7dwG/N/05CnLCnOEKmzA==
+caniuse-lite@1.0.30001457, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
+  version "1.0.30001457"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001457.tgz#6af34bb5d720074e2099432aa522c21555a18301"
+  integrity sha512-SDIV6bgE1aVbK6XyxdURbUE89zY7+k1BBBaOwYwkNCglXlel/E7mELiHC64HQ+W0xSKlqWhV9Wh7iHxUjMs4fA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -16791,10 +16791,10 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.2.tgz#56138d200f9fe5f582ad63bc2704dbc0e4a45068"
   integrity sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==
 
-storybook-dark-mode@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-2.0.6.tgz#1d660eb46024df40e6eb62e8b25c72979fc81ce0"
-  integrity sha512-uQYTL6U8VSa26n8ekEImc2+UHURIIgdiwQCO4PtRpVOxoqFUj26i7EsTsQQwIDhDgyC8okEaxYGDIf29Vlb9yA==
+storybook-dark-mode@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-2.1.0.tgz#2e6b09f6065632d687c15c8f40ab7fc3851f6795"
+  integrity sha512-h9in9pa1SzUD4bZ9eYSQfvPMW2Gp17XdkfF0GbTrOBx8DgmTUoqyA2xa3D/asJaGeaksPWcmFURoqUkJuta5JA==
   dependencies:
     "@storybook/addons" "^6.5.14"
     "@storybook/api" "^6.5.14"
