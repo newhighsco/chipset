@@ -1,4 +1,3 @@
 @use '../../../styles/mixins/grid';
-
 @include grid.initialize;
 @include grid.gutter('gutterless', 0);
