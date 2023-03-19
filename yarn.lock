@@ -1967,14 +1967,14 @@
     eslint-plugin-testing-library "5.10.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.124":
-  version "3.5.124"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.124.tgz#9883582d4e3cdd5e8cfe8c3a762f7c77b589d267"
-  integrity sha512-kXJIVjLOGvpGU8osWjhaEM+5vV8PBVrdYs8cs9eb0g3hgsyZ6HdU+HAT67ZGqZLOTaSF/QbuByCe2OduwAJPZw==
+"@newhighsco/postcss-config@3.5.126":
+  version "3.5.126"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.126.tgz#b944b6690638250230a994c2b30ac714dcac8d3a"
+  integrity sha512-QsEy/+kBqq+ZN2xWvbiDSWX5WShZtcoVlCljlID3LxbE/8gHvDEegcuzl34TSIf+k/wbFujNGEB5n8OMelzfHQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.14"
-    caniuse-lite "1.0.30001466"
+    caniuse-lite "1.0.30001468"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "8.0.1"
 
@@ -1983,10 +1983,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.8.tgz#8a310d37876eeba956c1796897621a4b4cdd8664"
   integrity sha512-kG1d3K5DEz6RflAaKlJxhykHPthpP7tGxA10OIy42QPp+lp3Potoh9gbziMTNDr0tKfZ6xzkhDseUJfGbdEXnw==
 
-"@newhighsco/release-config@1.3.16":
-  version "1.3.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.16.tgz#26f1f325fdebdc440a045f5375fc6d0b256f3e19"
-  integrity sha512-O+u10B3MB1WQE3Ze9dFir9IFRsYqvaMOo16YthHvy+Rhoj0CbUYXT5+qw/bzp3mReYd9OG740g5qPJHB/uoqlg==
+"@newhighsco/release-config@1.3.17":
+  version "1.3.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.17.tgz#002ecee609eb05fd02a94481193df85206a1baf9"
+  integrity sha512-XwsbgHvb/lLYpdUSo2ve3qku6UDx0aOgAcTTLtDki5FQL+/BmrWAxJNytxzBycU0w73SQW7hQu7EAVtLjfyQaQ==
   dependencies:
     "@semantic-release/changelog" "6.0.2"
     "@semantic-release/commit-analyzer" "9.0.2"
@@ -1996,10 +1996,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.70":
-  version "4.5.70"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.70.tgz#4fd3d93b6fd82502595fc5f7d882b9325d504870"
-  integrity sha512-xessy9wM9XkFp78ULuejtC4woYCjqlD1LEu3yIsBGUSJ31Zfdip4lfmtT9eAyko8nSR4O6dmaI3219cM86njUA==
+"@newhighsco/storybook-preset@4.5.71":
+  version "4.5.71"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.71.tgz#6c787658358b219f289b7711ad2b734846060518"
+  integrity sha512-FArfoMTT2TnnukSLtRLEcpDn2pgwUyAkMKClMSSSDGCUtIfourrlGPA9tidzqonyZid3SOSTffdsKpGG8cFj7g==
   dependencies:
     "@storybook/addon-actions" "6.5.16"
     "@storybook/addon-backgrounds" "6.5.16"
@@ -2013,13 +2013,13 @@
     postcss "8.4.21"
     react-is "18.2.0"
     sass "1.59.3"
-    sass-loader "13.2.0"
+    sass-loader "13.2.1"
     storybook-dark-mode "2.1.1"
 
-"@newhighsco/stylelint-config@3.1.41":
-  version "3.1.41"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.41.tgz#1b2e1f72f3af553361c7c3dfe2c08cfb94fedb78"
-  integrity sha512-5X7IedzazJVwivGDCUThC+XwLb9ieug4HAxSCBZDPU2ZWLavElFmILgSuFGYnRhr7/NlZLcZpkGXfbdZRzpG5w==
+"@newhighsco/stylelint-config@3.1.42":
+  version "3.1.42"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.42.tgz#8cff4411b8bdbf68cc96aeee662936c2025a2b34"
+  integrity sha512-INZpKgzzV5oiXevHxoqQBVVj9bFBQ8/KMA8YIavtPrN7Pwrke2MBKLmfM3c5Raia7JYO3tnLj47XJ5jpWfAfIQ==
   dependencies:
     stylelint-config-css-modules "4.2.0"
     stylelint-config-prettier "9.0.5"
@@ -5828,10 +5828,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001466, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001464:
-  version "1.0.30001466"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001466.tgz#c1e6197c540392e09709ecaa9e3e403428c53375"
-  integrity sha512-ewtFBSfWjEmxUgNBSZItFSmVtvk9zkwkl1OfRZlKA8slltRN+/C/tuGVrF9styXkN36Yu3+SeJ1qkXxDEyNZ5w==
+caniuse-lite@1.0.30001468, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001464:
+  version "1.0.30001468"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001468.tgz#0101837c6a4e38e6331104c33dcfb3bdf367a4b7"
+  integrity sha512-zgAo8D5kbOyUcRAgSmgyuvBkjrGk5CGYG5TYgFdpQv+ywcyEpo1LOWoG8YmoflGnh+V+UsNuKYedsoYs0hzV5A==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -11227,10 +11227,10 @@ kleur@^4.0.3:
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-4.1.5.tgz#95106101795f7050c6c650f350c683febddb1780"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
 
-klona@^2.0.4:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
-  integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
+klona@^2.0.4, klona@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
+  integrity sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==
 
 known-css-properties@^0.26.0:
   version "0.26.0"
@@ -16135,12 +16135,12 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@13.2.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.2.0.tgz#80195050f58c9aac63b792fa52acb6f5e0f6bdc3"
-  integrity sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==
+sass-loader@13.2.1:
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.2.1.tgz#5255c9aa5ad6c8f8c869ddf5d48e71fd48ba4b81"
+  integrity sha512-VQUrgUa5/waIzMrzyuko3sj5WD9NMsYph91cNICx+OaODbRtLl6To2fswLx8MH2qNxXFqRtpvdPQIa7mE93YOA==
   dependencies:
-    klona "^2.0.4"
+    klona "^2.0.6"
     neo-async "^2.6.2"
 
 sass-true@7.0.0:
