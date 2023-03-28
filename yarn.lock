@@ -1999,10 +1999,10 @@
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-preset@4.5.73":
-  version "4.5.73"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.73.tgz#b36ff542fad33365da7442702eff89c22edcae3f"
-  integrity sha512-HiYyXc1OuaFzsarcttAikgHQw2s/efThFyCyltKLQodjqD0a61LrSffk1ohnT41Luh060+Xr5VuKn7IpKwf3RQ==
+"@newhighsco/storybook-preset@4.5.74":
+  version "4.5.74"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-4.5.74.tgz#2dd6ef42f561c9e41d6fcf2739eb9d7cb852a110"
+  integrity sha512-hUGl6MXQX2sI7gWC2HEkaN0dxlh5+EAI8pBE4IWUwwKhYiT6O2J0/lX284dedklVhrHJ1pOacjBlPSWq6erQqQ==
   dependencies:
     "@storybook/addon-actions" "6.5.16"
     "@storybook/addon-backgrounds" "6.5.16"
@@ -2016,7 +2016,7 @@
     postcss "8.4.21"
     react-is "18.2.0"
     sass "1.60.0"
-    sass-loader "13.2.1"
+    sass-loader "13.2.2"
     storybook-dark-mode "2.1.1"
 
 "@newhighsco/stylelint-config@3.1.44":
@@ -16928,10 +16928,10 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass-loader@13.2.1:
-  version "13.2.1"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.2.1.tgz#5255c9aa5ad6c8f8c869ddf5d48e71fd48ba4b81"
-  integrity sha512-VQUrgUa5/waIzMrzyuko3sj5WD9NMsYph91cNICx+OaODbRtLl6To2fswLx8MH2qNxXFqRtpvdPQIa7mE93YOA==
+sass-loader@13.2.2:
+  version "13.2.2"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.2.2.tgz#f97e803993b24012c10d7ba9676548bf7a6b18b9"
+  integrity sha512-nrIdVAAte3B9icfBiGWvmMhT/D+eCDwnk+yA7VE/76dp/WkHX+i44Q/pfo71NYbwj0Ap+PGsn0ekOuU1WFJ2AA==
   dependencies:
     klona "^2.0.6"
     neo-async "^2.6.2"
