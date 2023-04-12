@@ -1,12 +1,7 @@
 module.exports = {
-  core: {
-    builder: 'webpack5',
-    disableTelemetry: true
-  },
-  features: {
-    storyStoreV7: true
-  },
+  framework: '@storybook/react-webpack5',
   stories: ['../src'],
   addons: ['@newhighsco/storybook-preset'],
-  staticDirs: ['./static']
+  staticDirs: ['./static'],
+  docs: { autodocs: true }
 }
