@@ -81,7 +81,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass-true": "7.0.0",
-    "semantic-release": "21.0.1",
+    "semantic-release": "21.0.2",
     "stylelint": "15.6.0",
     "webpack": "5.81.0"
   },
