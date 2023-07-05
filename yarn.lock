@@ -2140,17 +2140,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.11.tgz#f6571f67c411cd49cec942aa166145600ff966cf"
   integrity sha512-IYHGJS8vIcMTF4IuIb4W+9s5uSSkza6xke1xNYW8GbpspfSNWhC4nbtKfb2WuN9fflH+wucvL6RBK91KyCvzAA==
 
-"@newhighsco/release-config@1.3.19":
-  version "1.3.19"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.19.tgz#6664a7992aaf6b9757b2937575ef5e104221a99c"
-  integrity sha512-79KMVk25Rkvfg22/9cBUwlnTrGaPSxxQHH+A6McNBByC+vnJMpNk8klqbqU5Eo88p/WMRJM8TeZiyIdChLfc6w==
+"@newhighsco/release-config@1.3.21":
+  version "1.3.21"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.21.tgz#d6ca5485e68acd63b4dd4e1f98345ce6acff4492"
+  integrity sha512-w7QyIlw5vMfgDcOGl1Pfkw0hb5/ayJhW4kGj5ggPESJDislE+dvaN6g4qg7cF4i1PU74CckJGxVDVmYQ73QBTQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "10.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "9.0.3"
     "@semantic-release/npm" "10.0.4"
-    "@semantic-release/release-notes-generator" "11.0.3"
+    "@semantic-release/release-notes-generator" "11.0.4"
     semantic-release-circleci-orb "1.1.1"
 
 "@newhighsco/storybook-preset@4.5.75":
@@ -2173,10 +2173,10 @@
     sass-loader "13.2.2"
     storybook-dark-mode "2.1.1"
 
-"@newhighsco/stylelint-config@3.1.47":
-  version "3.1.47"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.47.tgz#a35a45a75411f5cc2a58f3d290567440d7f902e7"
-  integrity sha512-m0EQ6+vWTElAYUtXkreuT97IYmO0DYe8JEMuDyE9Pu54aBqs6Ns42Ma/rW6+ecrH4PaZa4oLnrQzsKGXnVB/UA==
+"@newhighsco/stylelint-config@3.1.48":
+  version "3.1.48"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.48.tgz#fa973e3c3e0c1e71dfeb724840e85754dbfe2456"
+  integrity sha512-M1A+CN42TvLdx7SMPbXu3yw+BZnzd+D1JRzI9V++YJeiPffdkzjG1Wnd8dSIoW8hijTQuQ0GF3dKlKUycQLsfw==
   dependencies:
     stylelint-config-css-modules "4.2.0"
     stylelint-config-prettier "9.0.5"
@@ -2661,10 +2661,10 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@11.0.3", "@semantic-release/release-notes-generator@^11.0.0":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.3.tgz#9d7d94e305441d3b31385e29aa5a79ce3f6a21ae"
-  integrity sha512-NU77dWKQf+QcZrv/Hcp3DPeSxglPu8hYKCipGxAPpeaneLkg6S0zfTVug4tg4mfDhZHC6RtoI7ljQDK8VoJ2Dw==
+"@semantic-release/release-notes-generator@11.0.4", "@semantic-release/release-notes-generator@^11.0.0":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.4.tgz#8e4b81402bf544f912952909c0525e6fe8227232"
+  integrity sha512-j0Znnwq9IdWTCGzqSlkLv4MpALTsVDZxcVESzJCNN8pK2BYQlYaKsdZ1Ea/+7RlppI3vjhEi33ZKmjSGY1FLKw==
   dependencies:
     conventional-changelog-angular "^6.0.0"
     conventional-changelog-writer "^6.0.0"
@@ -2675,7 +2675,7 @@
     import-from "^4.0.0"
     into-stream "^7.0.0"
     lodash-es "^4.17.21"
-    read-pkg-up "^9.0.0"
+    read-pkg-up "^10.0.0"
 
 "@sigstore/protobuf-specs@^0.1.0":
   version "0.1.0"
@@ -13170,7 +13170,7 @@ normalize-package-data@^2.0.0, normalize-package-data@^2.3.2, normalize-package-
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
 
-normalize-package-data@^3.0.0, normalize-package-data@^3.0.2:
+normalize-package-data@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-3.0.3.tgz#dbcc3e2da59509a0983422884cd172eefdfa525e"
   integrity sha512-p2W1sgqij3zMMyRC067Dg16bfzVH+w7hyegmpIvZ4JNjqtGOVAIvLmjBx3yP7YTe9vKJgkoNOPjwQGogDoMXFA==
@@ -15492,15 +15492,6 @@ read-pkg-up@^7.0.1:
     read-pkg "^5.2.0"
     type-fest "^0.8.1"
 
-read-pkg-up@^9.0.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-9.1.0.tgz#38ca48e0bc6c6b260464b14aad9bcd4e5b1fbdc3"
-  integrity sha512-vaMRR1AC1nrd5CQM0PhlRsO5oc2AAigqr7cCrZ/MW/Rsaflz4RlgzkpL4qoU/z1F6wrbd85iFv1OQj/y5RdGvg==
-  dependencies:
-    find-up "^6.3.0"
-    read-pkg "^7.1.0"
-    type-fest "^2.5.0"
-
 read-pkg@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-1.1.0.tgz#f5ffaa5ecd29cb31c0474bca7d756b6bb29e3f28"
@@ -15537,16 +15528,6 @@ read-pkg@^5.0.0, read-pkg@^5.2.0:
     normalize-package-data "^2.5.0"
     parse-json "^5.0.0"
     type-fest "^0.6.0"
-
-read-pkg@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-7.1.0.tgz#438b4caed1ad656ba359b3e00fd094f3c427a43e"
-  integrity sha512-5iOehe+WF75IccPc30bWTbpdDQLOCc3Uu8bi3Dte3Eueij81yx1Mrufk8qBx/YAbR4uL1FdUr+7BKXDwEtisXg==
-  dependencies:
-    "@types/normalize-package-data" "^2.4.1"
-    normalize-package-data "^3.0.2"
-    parse-json "^5.2.0"
-    type-fest "^2.0.0"
 
 read-pkg@^8.0.0:
   version "8.0.0"
@@ -17820,7 +17801,7 @@ type-fest@^1.0.1, type-fest@^1.0.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
   integrity sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==
 
-type-fest@^2.0.0, type-fest@^2.12.2, type-fest@^2.5.0:
+type-fest@^2.12.2:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.19.0.tgz#88068015bb33036a598b952e55e9311a60fd3a9b"
   integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
