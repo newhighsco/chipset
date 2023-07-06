@@ -2172,10 +2172,10 @@
     sass-loader "13.2.2"
     storybook-dark-mode "2.1.1"
 
-"@newhighsco/stylelint-config@3.1.48":
-  version "3.1.48"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.48.tgz#fa973e3c3e0c1e71dfeb724840e85754dbfe2456"
-  integrity sha512-M1A+CN42TvLdx7SMPbXu3yw+BZnzd+D1JRzI9V++YJeiPffdkzjG1Wnd8dSIoW8hijTQuQ0GF3dKlKUycQLsfw==
+"@newhighsco/stylelint-config@3.1.49":
+  version "3.1.49"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.49.tgz#c4675ea5594cad01a86673e267aaa8518b2104c4"
+  integrity sha512-VoAL4O1RXaudUIMKqZq49uUwzjHQ4i2aa+6xJVw3oiMBrDXL0yJMZLPw2fvbzJLhTQllyEnZ4mj5s7hmrtNd6w==
   dependencies:
     stylelint-config-css-modules "4.2.0"
     stylelint-config-prettier "9.0.5"
