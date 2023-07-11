@@ -2096,10 +2096,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.34":
-  version "4.0.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.34.tgz#725fb62524af756fafee9572d94037b859754413"
-  integrity sha512-3UD92F6GSpDVwL/q01f5QGDiaCQtw6YkWlbnw2uODkoqAcsc3A5QViavJubF1Sjs/bUoCkgyhEXgCZH/ATwUAw==
+"@newhighsco/eslint-config@4.0.35":
+  version "4.0.35"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.35.tgz#f85f7e64753bf02c7bbd9e6708d799b20cbc453e"
+  integrity sha512-6A8Wgqz6D7ZUDVSGu3LN+KeKKBKswiotvFpLdbr6h1ZBSBmRN8StVBLJH00siD3WUJQKScERLTQCTy+IKYDUjA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.62.0"
     "@typescript-eslint/parser" "5.62.0"
@@ -2115,7 +2115,7 @@
     eslint-plugin-mdx "2.1.0"
     eslint-plugin-n "16.0.1"
     eslint-plugin-node "11.1.0"
-    eslint-plugin-prettier "5.0.0-alpha.2"
+    eslint-plugin-prettier "5.0.0"
     eslint-plugin-promise "6.1.1"
     eslint-plugin-react "7.32.2"
     eslint-plugin-react-hooks "4.6.0"
@@ -2124,14 +2124,14 @@
     eslint-plugin-testing-library "5.11.0"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.135":
-  version "3.5.135"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.135.tgz#1f15ed6cc4b4462f0107136730bcbef4b82c218e"
-  integrity sha512-UEWsmQezyeQ7GtEUrDo8Zj9NlxS/sMJiKMjh+WXbGDrrsJfIlfNCaBuSwssA45GosOWBYjdVZ9lIupsy/LsoDQ==
+"@newhighsco/postcss-config@3.5.136":
+  version "3.5.136"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.136.tgz#2ed7857d751b9862ec5630dac22d72f7a981dd62"
+  integrity sha512-f+C4ofn0AD6XlIMtcHOfYM2l/JTjgE+3aajyxeKzEdpuKl8RYHwpCfavlt0qZ8czrVORZnEdM4Y4TAep3ohhwA==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.14"
-    caniuse-lite "1.0.30001514"
+    caniuse-lite "1.0.30001515"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.0.0"
 
@@ -5860,10 +5860,10 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001514, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
-  version "1.0.30001514"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001514.tgz#e2a7e184a23affc9367b7c8d734e7ec4628c1309"
-  integrity sha512-ENcIpYBmwAAOm/V2cXgM7rZUrKKaqisZl4ZAI520FIkqGXUxJjmaIssbRW5HVVR5tyV6ygTLIm15aU8LUmQSaQ==
+caniuse-lite@1.0.30001515, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
+  version "1.0.30001515"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001515.tgz#418aefeed9d024cd3129bfae0ccc782d4cb8f12b"
+  integrity sha512-eEFDwUOZbE24sb+Ecsx3+OvNETqjWIdabMy52oOkIgcUtAsQifjUG9q4U9dgTHJM2mfk4uEPxc0+xuFdJ629QA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -7912,10 +7912,10 @@ eslint-plugin-node@11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier@5.0.0-alpha.2:
-  version "5.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0-alpha.2.tgz#4dd7edf88ff9bc13a3bbd91c059aae267dac4576"
-  integrity sha512-F6YBCbrRzvZwcINw3crm1+/uX/i+rJYaFErPtwCfUoPLywRfY7pwBtI3yMe5OpIotuaiws8cd29oM80ca6NQSQ==
+eslint-plugin-prettier@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0.tgz#6887780ed95f7708340ec79acfdf60c35b9be57a"
+  integrity sha512-AgaZCVuYDXHUGxj/ZGu1u8H8CYgDY3iG6w5kUFw4AzMVXzB7VvbKgYR4nATIN+OvUrghMbiDLeimVjVY5ilq3w==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.8.5"
