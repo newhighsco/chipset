@@ -2083,10 +2083,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/commitlint-config@1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.16.tgz#f73a6a08757533dbb23fbd597e07ed87030c9a11"
-  integrity sha512-CS2yxW1pmW7wUJc/wfIniz5UN9GehCBMPJKyJenwjeKTBlooHqaDChgd5o3MwAopKwOq3iOi8Pk+Xl9dG4D0PQ==
+"@newhighsco/commitlint-config@1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.17.tgz#25d0b2671468ea3aa434c1d17882a8fde5157c5a"
+  integrity sha512-ge83yU8udOssF/WyKqqzhx5qwGwYsbce1aJLz0LignJjsVvl55+ZRy6/10d2Qbg1yiu84RBlGRjGyB5ipgPPzg==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
@@ -2121,14 +2121,14 @@
     eslint-plugin-testing-library "5.11.0"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.137":
-  version "3.5.137"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.137.tgz#8b1fe4df3da560cc07235a900ae83710fb23799b"
-  integrity sha512-bKF9eP5xvH3Bltes/t+XkAOUArwfY+AGUYb9pBNRFJZyczUVZnJpKg1zk01pbBYOTCFrEtd/mWuORjCbbF/kRg==
+"@newhighsco/postcss-config@3.5.138":
+  version "3.5.138"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.138.tgz#25a676c2d1d814c95d3702b4ddb920db75266cfc"
+  integrity sha512-O0hvVRHlr/H0I9f6+b6q7R4MFD+qFLThQCFTIk/2tK/mY/vqMtLJSKaTEc+Uv3sh/O3G7dJhttkdd0cF0ugziQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.14"
-    caniuse-lite "1.0.30001516"
+    caniuse-lite "1.0.30001517"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.0.0"
 
@@ -2170,12 +2170,12 @@
     sass-loader "13.2.2"
     storybook-dark-mode "2.1.1"
 
-"@newhighsco/stylelint-config@3.1.50":
-  version "3.1.50"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.50.tgz#bd98321edb956fe4c0448802d1f86097f1ad61c5"
-  integrity sha512-70Ea9FRBsWRhmOUONkOVyJenIegtlct9or3UugYmGbv1zg7HQxCH9WH/kZrPJycmAdhKkFbXIyGUrtpxgYJnyg==
+"@newhighsco/stylelint-config@3.1.52":
+  version "3.1.52"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.52.tgz#0f8c6d8fea579610cae16ee42c1805973574c0c1"
+  integrity sha512-un6TRVt2laAhHWu4XXIWMXzmSAr6r6GDH3cqgjWBVvUuaTlRSEk0oQD2FHaZI5ZdH5P5mAHea/y/GIBrqC4fwA==
   dependencies:
-    stylelint-config-css-modules "4.2.0"
+    stylelint-config-css-modules "4.3.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "10.0.0"
     stylelint-prettier "4.0.0"
@@ -5820,10 +5820,10 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001516, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
-  version "1.0.30001516"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001516.tgz#621b1be7d85a8843ee7d210fd9d87b52e3daab3a"
-  integrity sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==
+caniuse-lite@1.0.30001517, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
+  version "1.0.30001517"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz#90fabae294215c3495807eb24fc809e11dc2f0a8"
+  integrity sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -14864,7 +14864,7 @@ postcss-selector-not@^7.0.1:
   dependencies:
     postcss-selector-parser "^6.0.10"
 
-postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.11, postcss-selector-parser@^6.0.13, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.7:
+postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.13, postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.7:
   version "6.0.13"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.13.tgz#d05d8d76b1e8e173257ef9d60b706a8e5e99bf1b"
   integrity sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==
@@ -17152,12 +17152,12 @@ style-to-object@0.3.0, style-to-object@^0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
-stylelint-config-css-modules@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.2.0.tgz#0196347d5c143eff9e2a3e97b1ba980253b6b8bf"
-  integrity sha512-5x7lzPNCc42puQEAFdr7dSzQ00aIg1vCVyV+QPUiSp2oZILpAt8HTgveXaDttazxcwWPBNJrxrLpa556xUP7Bw==
+stylelint-config-css-modules@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.3.0.tgz#aa2a861f9cf30c31676013db5412c15048ca97c3"
+  integrity sha512-KvIvhzzjpcjHKkGSPkQCueoZJHrb6sZ6GCtrQb/J45HQTBVwJAeNYXaSZZK6ZQOC7NxJ4v5kLxpQLDiCK6zzgw==
   optionalDependencies:
-    stylelint-scss "^4.3.0"
+    stylelint-scss "^5.0.0 || ^6.0.0"
 
 stylelint-config-prettier@9.0.5:
   version "9.0.5"
@@ -17200,17 +17200,7 @@ stylelint-prettier@4.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-stylelint-scss@^4.3.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.7.0.tgz#f986bf8c5a4b93eae2b67d3a3562eef822657908"
-  integrity sha512-TSUgIeS0H3jqDZnby1UO1Qv3poi1N8wUYIJY6D1tuUq2MN3lwp/rITVo0wD+1SWTmRm0tNmGO0b7nKInnqF6Hg==
-  dependencies:
-    postcss-media-query-parser "^0.2.3"
-    postcss-resolve-nested-selector "^0.1.1"
-    postcss-selector-parser "^6.0.11"
-    postcss-value-parser "^4.2.0"
-
-stylelint-scss@^5.0.0:
+stylelint-scss@^5.0.0, "stylelint-scss@^5.0.0 || ^6.0.0":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-5.0.1.tgz#b33a6580b5734eace083cfc2cc3021225e28547f"
   integrity sha512-n87iCRZrr2J7//I/QFsDXxFLnHKw633U4qvWZ+mOW6KDAp/HLj06H+6+f9zOuTYy+MdGdTuCSDROCpQIhw5fvQ==
