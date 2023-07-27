@@ -2172,15 +2172,15 @@
     sass-loader "13.2.2"
     storybook-dark-mode "2.1.1"
 
-"@newhighsco/stylelint-config@3.1.52":
-  version "3.1.52"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.52.tgz#0f8c6d8fea579610cae16ee42c1805973574c0c1"
-  integrity sha512-un6TRVt2laAhHWu4XXIWMXzmSAr6r6GDH3cqgjWBVvUuaTlRSEk0oQD2FHaZI5ZdH5P5mAHea/y/GIBrqC4fwA==
+"@newhighsco/stylelint-config@3.1.53":
+  version "3.1.53"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.53.tgz#6d6ea7624a09c846d18915df51a8f1899991c742"
+  integrity sha512-sRf+Q6mWyH7Fr3Hq+34qhH0WzqMNIbnrRncKKVpwyyvbHiOHve0yAcEPJA4R/n1v926suhcVi79tTwizpD12hA==
   dependencies:
     stylelint-config-css-modules "4.3.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "10.0.0"
-    stylelint-prettier "4.0.0"
+    stylelint-prettier "4.0.1"
 
 "@nicolo-ribaudo/semver-v6@^6.3.3":
   version "6.3.3"
@@ -17196,10 +17196,10 @@ stylelint-config-standard@^33.0.0:
   dependencies:
     stylelint-config-recommended "^12.0.0"
 
-stylelint-prettier@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-4.0.0.tgz#e04f33bf9968a5d5478d2d11b20bdc5a7de2dc35"
-  integrity sha512-hYlObunQiSzc5XRttNiDyaY1W7ytW/AJtEbaDxy0rr4ioQvko+cjAgSGrRbz0iRB+yc6jiMrUmHcGkvFb+zDqw==
+stylelint-prettier@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-4.0.1.tgz#dbde246677479f939a1cde64cebcd7d11029006f"
+  integrity sha512-OGOwLpETAZxDuHXDzRf0veK6II7rgp4KZUt9Xhw9FN9PQUX0DsxEI6FYt9f1BFg12dCYdn20Ir2pVkfB8/ok/g==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
