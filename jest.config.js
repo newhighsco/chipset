@@ -9,7 +9,8 @@ module.exports = {
       },
       setupFilesAfterEnv: ['<rootDir>/config/jest/setup-tests.js'],
       testEnvironment: 'jsdom',
-      testPathIgnorePatterns: ['/styles/']
+      testPathIgnorePatterns: ['/styles/'],
+      transformIgnorePatterns: []
     },
     {
       rootDir: './styles',

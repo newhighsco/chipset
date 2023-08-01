@@ -1,3 +1,5 @@
+## [6.14.16](https://github.com/newhighsco/chipset/compare/v6.14.15...v6.14.16) (2023-06-29)
+
 ## [6.14.15](https://github.com/newhighsco/chipset/compare/v6.14.14...v6.14.15) (2023-04-05)
 
 
