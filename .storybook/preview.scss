@@ -1,0 +1,16 @@
+/*! purgecss start ignore */
+@use '../styles/normalize';
+
+:global {
+  .sbdocs-title {
+    align-items: center;
+    display: flex;
+    gap: 0.25em;
+
+    * {
+      vertical-align: middle;
+    }
+  }
+}
+
+/*! purgecss end ignore */
