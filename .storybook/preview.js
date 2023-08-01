@@ -1,7 +1,6 @@
 import React from 'react'
 import { ThemeProvider } from '../src/providers'
 import componentTheme from '../example/theme'
-import theme from './theme'
 
 import breakpoints from '../styles/_breakpoints.module.scss'
 import './preview.scss'
@@ -19,9 +18,7 @@ export const decorators = [
 export const parameters = {
   chromatic: { viewports },
   darkMode: {
-    current: 'dark',
-    dark: theme,
-    light: theme
+    current: 'dark'
   },
   options: {
     storySort: {

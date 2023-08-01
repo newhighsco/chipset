@@ -1,4 +1,4 @@
-import { Meta, Title } from '@storybook/addon-docs'
+import { Meta, Title, Unstyled } from '@storybook/blocks'
 
 import { ReactComponent as LogoSvg } from '../../.storybook/static/logo.svg'
 import packageInfo from '../../package.json'
@@ -7,15 +7,14 @@ import { CreditLockup, Image, SmartLink } from '../../src'
 <Meta title="Docs/README" />
 
 <Title>
-  <LogoSvg /> <strong>{packageInfo.config.title}</strong>
-  &nbsp;
+  <LogoSvg />
+  <strong>{packageInfo.config.title}</strong>
   <SmartLink href="https://npmjs.com/@newhighsco/chipset" target="_blank">
     <Image
       src="https://img.shields.io/npm/v/@newhighsco/chipset.svg"
       alt="NPM version"
     />
   </SmartLink>
-  &nbsp;
   <SmartLink href="https://github.com/newhighsco/chipset" target="_blank">
     <Image
       src="https://img.shields.io/github/stars/newhighsco/chipset?style=social"
@@ -29,5 +28,7 @@ Shareable, theme-able component library
 ---
 
 <p>
-  <CreditLockup />
+  <Unstyled>
+    <CreditLockup />
+  </Unstyled>
 </p>

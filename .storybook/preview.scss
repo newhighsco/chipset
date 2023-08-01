@@ -2,12 +2,18 @@
 @use '../styles/normalize';
 
 :global {
-  body {
-    font-family: system-ui;
+  body.dark {
+    color: white;
   }
 
-  .sbdocs-title * {
-    vertical-align: middle !important;
+  .sbdocs-title {
+    align-items: center;
+    display: flex;
+    gap: 0.25em;
+
+    * {
+      vertical-align: middle;
+    }
   }
 }
 

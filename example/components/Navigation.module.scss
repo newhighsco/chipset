@@ -2,6 +2,7 @@
 @use '../styles/fonts';
 
 .root {
+  color: colors.$black;
   font-family: fonts.$body;
 }
 
