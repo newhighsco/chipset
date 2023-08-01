@@ -4,6 +4,7 @@
 
 .root {
   background-color: colors.$yellow;
+  color: colors.$black;
   font-family: fonts.$body;
 
   & + & {

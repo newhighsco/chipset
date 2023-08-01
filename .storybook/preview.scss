@@ -2,6 +2,10 @@
 @use '../styles/normalize';
 
 :global {
+  body.dark {
+    color: white;
+  }
+
   .sbdocs-title {
     align-items: center;
     display: flex;
