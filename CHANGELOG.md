@@ -1,3 +1,10 @@
+# [6.15.0](https://github.com/newhighsco/chipset/compare/v6.14.16...v6.15.0) (2023-08-01)
+
+
+### Features
+
+* **deps:** storybook v7 ([#1535](https://github.com/newhighsco/chipset/issues/1535)) ([96df217](https://github.com/newhighsco/chipset/commit/96df2172f7831005db06748db1d2d9e0c0d3c914))
+
 ## [6.14.16](https://github.com/newhighsco/chipset/compare/v6.14.15...v6.14.16) (2023-06-29)
 
 ## [6.14.15](https://github.com/newhighsco/chipset/compare/v6.14.14...v6.14.15) (2023-04-05)
