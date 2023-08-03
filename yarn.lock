@@ -2083,14 +2083,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.46":
-  version "4.0.46"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.46.tgz#b6cbfaa161d8ed4eafd5dede0d1306de2e69f31f"
-  integrity sha512-V4OnaF/TFLQg2ZfDdqhT6X0tcN0HEqUb4wlJYso676Lrk4z2BNSvz1q5HTBH6sQtXIjpc0LEU3oagvkfp3MLeQ==
+"@newhighsco/eslint-config@4.0.48":
+  version "4.0.48"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.48.tgz#6d8515990736296e6e303db5ac0f076bf33e3048"
+  integrity sha512-zkJ1D588jgJD8fue2vd1dBxofqACRQCR7Ak/Jz0sHDV7GPn8u6yo+jzYEhgiyO8sukapMUK+kFe9ehj6r668NA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.62.0"
     "@typescript-eslint/parser" "5.62.0"
-    eslint-config-prettier "8.9.0"
+    eslint-config-prettier "8.10.0"
     eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
@@ -2111,21 +2111,21 @@
     eslint-plugin-testing-library "5.11.0"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.140":
-  version "3.5.140"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.140.tgz#10cef5b7ac9e79a36d745562acf3e3ec967e3bb8"
-  integrity sha512-AC6WwYUvxZNazpD3v3/ALpdCndFdm64qu/GcB4JzQiokXd3ZGClB4lA8qjbHeatTF4vMqfDw1CBWYFbHfKnMAw==
+"@newhighsco/postcss-config@3.5.141":
+  version "3.5.141"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.141.tgz#2fc5f221a0d89144d93ef9b6bbd7e58f5a159450"
+  integrity sha512-B71op7higbJk54BBGME6NaEQV+tkQF5g2Tu1VC7stxJWOAYXBSwnb+Q7i+C6T7PuDdlM0akgHNXeYgDHCHiUgg==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.14"
-    caniuse-lite "1.0.30001518"
+    caniuse-lite "1.0.30001519"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.1.0"
 
-"@newhighsco/prettier-config@2.1.12":
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.12.tgz#95d13b599bedd438605a34eb1fe702cdd9612f61"
-  integrity sha512-ZQeJm4/o6JYO1qzRHPkdezCpuND7gWntfIJDEBDfwTln9V9ABv/0t3ZKRnP/z63AkVem/sy+Wf4cnhgyOMjhFw==
+"@newhighsco/prettier-config@2.1.13":
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.13.tgz#8b7605f744d0d7ebc21aeb0adc7835539a54b5cc"
+  integrity sha512-uj62Uui2TRIDxMWP60M6AYeHweYknj1LTmvDctZHr+h7A696Vsd7v4kJ+8uZBgHpSXWFd5W1gP88/VceKUBQyA==
 
 "@newhighsco/release-config@1.3.22":
   version "1.3.22"
@@ -2160,10 +2160,10 @@
     sass-loader "13.3.2"
     storybook-dark-mode "3.0.1"
 
-"@newhighsco/stylelint-config@3.1.54":
-  version "3.1.54"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.54.tgz#463bf05a071487bc0c4fc81668358a150079a372"
-  integrity sha512-r9s3Ha7PSsAbZbgV2IqTbaNLNHJYziL3WHZ8l9iTHYilx1uhSxvwmWQNCMicy7c/zGZfspC8993/QrJYooWWiw==
+"@newhighsco/stylelint-config@3.1.55":
+  version "3.1.55"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.55.tgz#af3e3df89135b027a9482900e9f79e93ac3ea9f6"
+  integrity sha512-V/HEtvX9P1Yd+UmTl/X2PKeQqj/mqdHaozpEta6YACv6yGoor3Lyu5Qmijuri9DqUbVPYyPB8+nP/Ll9aMJEAQ==
   dependencies:
     stylelint-config-css-modules "4.3.0"
     stylelint-config-prettier "9.0.5"
@@ -5624,10 +5624,10 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001518, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
-  version "1.0.30001518"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001518.tgz#b3ca93904cb4699c01218246c4d77a71dbe97150"
-  integrity sha512-rup09/e3I0BKjncL+FesTayKtPrdwKhUufQFd3riFw1hHg8JmIFoInYfB102cFcY/pPgGmdyl/iy+jgiDi2vdA==
+caniuse-lite@1.0.30001519, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001503:
+  version "1.0.30001519"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001519.tgz#3e7b8b8a7077e78b0eb054d69e6edf5c7df35601"
+  integrity sha512-0QHgqR+Jv4bxHMp8kZ1Kn8CH55OikjKJ6JmKkZYP1F3D7w+lnFXF70nG5eNfsZS89jadi5Ywy5UCSKLAglIRkg==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -7319,10 +7319,10 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@8.9.0:
-  version "8.9.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.9.0.tgz#094b6254b2804b0544f7cee535f802b6d29ee10b"
-  integrity sha512-+sbni7NfVXnOpnRadUA8S28AUlsZt9GjgFvABIRL9Hkn8KqNzOp+7Lw4QWtrwn20KzU3wqu1QoOj2m+7rKRqkA==
+eslint-config-prettier@8.10.0:
+  version "8.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.10.0.tgz#3a06a662130807e2502fc3ff8b4143d8a0658e11"
+  integrity sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==
 
 eslint-config-standard-jsx@11.0.0:
   version "11.0.0"
