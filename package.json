@@ -78,7 +78,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass-true": "7.0.0",
-    "semantic-release": "21.0.7",
+    "semantic-release": "21.0.9",
     "storybook": "7.2.0",
     "stylelint": "15.10.3",
     "webpack": "5.88.2"
