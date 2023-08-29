@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import React from 'react'
 
 import Image from './Image'
@@ -33,13 +33,13 @@ describe('Components/Image', () => {
     expect(container.firstChild.childNodes).toHaveLength(3)
   })
 
-  it('should set correct classNames', () => {
+  it("should set correct classNames when 'src' is set", () => {
     render(<Image className="foo" src="https://example.com/image.png" />)
 
     expect(screen.getByRole('img')).toHaveClass('foo')
+  })
 
-    cleanup()
-
+  it("should set correct classNames when 'sources' is set", () => {
     const { container } = render(
       <Image
         className="bar"
