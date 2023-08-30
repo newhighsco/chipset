@@ -16,5 +16,9 @@ module.exports = {
       rootDir: './styles',
       testEnvironment: 'jest-environment-node-single-context'
     }
+  ],
+  reporters: [
+    'default',
+    ['jest-junit', { outputDirectory: 'reports', outputName: 'jest.xml' }]
   ]
 }
