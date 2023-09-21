@@ -2074,10 +2074,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.72":
-  version "4.0.72"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.72.tgz#1e23870c640816d1e4bf2326c8497a4a8ebcd694"
-  integrity sha512-9STsFBmt9whbWgjLJvQ6fSDuxNvkU7mb7EnqDH/8MBiOfRaPWE3WtRoLJTD5i/IizTd8YmPKFiFWFfOojfGWTA==
+"@newhighsco/eslint-config@4.0.73":
+  version "4.0.73"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.73.tgz#3d8e400d3d8c9befe157507ba29a0f7f6c1599ac"
+  integrity sha512-ZD7cGifyLyDJg0PCfKhE2cWYcvbAv2tCWqI/XeGG15K6W3G0yR5eqVK0lsHoIHvn69w9gmmAgPjQlG4v48rMQg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.7.2"
     "@typescript-eslint/parser" "6.7.2"
@@ -2098,17 +2098,17 @@
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-simple-import-sort "10.0.0"
-    eslint-plugin-storybook "0.6.13"
+    eslint-plugin-storybook "0.6.14"
     eslint-plugin-testing-library "6.0.1"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.160":
-  version "3.5.160"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.160.tgz#f677fc9f2a4a8d89c9c66387c17a463c12873d74"
-  integrity sha512-a9FresmRupeO5pU3fGgKi0oL+Z25kmrnWOQkli3OAz9/sYfj/Y46o/yP9QqeE+BJA2XD5y6PKJsc4vIIl4npAQ==
+"@newhighsco/postcss-config@3.5.161":
+  version "3.5.161"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.161.tgz#dac230933584c83bbd7e4f90c66ca4eeb0e4f45c"
+  integrity sha512-SOHP9RVXnkYShxvFCLqqhFDVEWAq13AECAikIpfqM1iUyfVTJtWHg2037XWraVLm/Cf9TWu6BhHhszlCOWhwyw==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
-    autoprefixer "10.4.15"
+    autoprefixer "10.4.16"
     caniuse-lite "1.0.30001538"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.1.4"
@@ -5220,14 +5220,14 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@10.4.15, autoprefixer@^10.4.15:
-  version "10.4.15"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.15.tgz#a1230f4aeb3636b89120b34a1f513e2f6834d530"
-  integrity sha512-KCuPB8ZCIqFdA4HwKXsvz7j6gvSDNhDP7WnUjBleRkKjPdvCmHFuQ77ocavI8FT6NdvlBnE2UFr2H4Mycn8Vew==
+autoprefixer@10.4.16, autoprefixer@^10.4.15:
+  version "10.4.16"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.16.tgz#fad1411024d8670880bdece3970aa72e3572feb8"
+  integrity sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==
   dependencies:
     browserslist "^4.21.10"
-    caniuse-lite "^1.0.30001520"
-    fraction.js "^4.2.0"
+    caniuse-lite "^1.0.30001538"
+    fraction.js "^4.3.6"
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
     postcss-value-parser "^4.2.0"
@@ -5758,7 +5758,7 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001538, caniuse-lite@^1.0.30001517, caniuse-lite@^1.0.30001520:
+caniuse-lite@1.0.30001538, caniuse-lite@^1.0.30001517, caniuse-lite@^1.0.30001538:
   version "1.0.30001538"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001538.tgz#9dbc6b9af1ff06b5eb12350c2012b3af56744f3f"
   integrity sha512-HWJnhnID+0YMtGlzcp3T9drmBJUVDchPJ08tpUGFLs9CYlwWPH2uLgpHn8fND5pCgXVtnGS3H4QR9XLMHVNkHw==
@@ -7695,10 +7695,10 @@ eslint-plugin-simple-import-sort@10.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-10.0.0.tgz#cc4ceaa81ba73252427062705b64321946f61351"
   integrity sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==
 
-eslint-plugin-storybook@0.6.13:
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.13.tgz#897a9f6a9bb88c63b02f05850f30c28a9848a3f7"
-  integrity sha512-smd+CS0WH1jBqUEJ3znGS7DU4ayBE9z6lkQAK2yrSUv1+rq8BT/tiI5C/rKE7rmiqiAfojtNYZRhzo5HrulccQ==
+eslint-plugin-storybook@0.6.14:
+  version "0.6.14"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.14.tgz#dfc2b58700e45eb4a13c172dda2973c2e033cd71"
+  integrity sha512-IeYigPur/MvESNDo43Z+Z5UvlcEVnt0dDZmnw1odi9X2Th1R3bpGyOZsHXb9bp1pFecOpRUuoMG5xdID2TwwOg==
   dependencies:
     "@storybook/csf" "^0.0.1"
     "@typescript-eslint/utils" "^5.45.0"
@@ -8355,10 +8355,10 @@ forwarded@0.2.0:
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz#2269936428aad4c15c7ebe9779a84bf0b2a81811"
   integrity sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==
 
-fraction.js@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
-  integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
+fraction.js@^4.3.6:
+  version "4.3.6"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.6.tgz#e9e3acec6c9a28cf7bc36cbe35eea4ceb2c5c92d"
+  integrity sha512-n2aZ9tNfYDwaHhvFTkhFErqOMIb8uyzSQ+vGJBjZyanAKZVbGUQ1sngfk9FdkBw7G26O7AgNjLcecLffD1c7eg==
 
 fresh@0.5.2:
   version "0.5.2"
