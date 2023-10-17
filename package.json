@@ -46,8 +46,8 @@
     "react-device-detect": "2.2.3"
   },
   "devDependencies": {
-    "@babel/core": "7.22.20",
-    "@babel/preset-env": "7.22.20",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
     "@babel/preset-react": "7.22.15",
     "@commitlint/cli": "17.8.0",
     "@fullhuman/postcss-purgecss": "5.0.0",
