@@ -2111,14 +2111,14 @@
     eslint-plugin-testing-library "6.1.0"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.170":
-  version "3.5.170"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.170.tgz#eb56f722c85dd283285f7a3fc28d9f7d6f623422"
-  integrity sha512-yUjgObndOq5XUGoNMGpPiah5XeO7tWr2KPawf/2jMLcLdyuZ2b4cNtNX8Wm8REPOqUxCl7FcstjGOckC4MNcEA==
+"@newhighsco/postcss-config@3.5.171":
+  version "3.5.171"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.171.tgz#c0e72733c7d765b08bb4370054c807850edd324d"
+  integrity sha512-bX69NfxSKksH0uZI1zz9FLmKEFmk7rqLmZDUK2AqukKD5N6sZR634NKsVWzhi1kfmESCl5L0/R/+5sOQbSNLmQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.16"
-    caniuse-lite "1.0.30001549"
+    caniuse-lite "1.0.30001550"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.2.0"
 
@@ -2153,10 +2153,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-1.0.4.tgz#257219be8e404348dd156a0943858b9eef51f976"
   integrity sha512-IDim1cP1nwyyIou7g5m4CFPNBGnnc9/5wwmmXFn9oQBa0kvhLV3KrnpWApA4e4yM8pXpwSkxc6bTnBa1I3DuDA==
 
-"@newhighsco/storybook-preset@6.3.6":
-  version "6.3.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.6.tgz#e46ff6c584f7a4fb8ccef9316c8cb618222a0c02"
-  integrity sha512-sLqW5W71AENkyvg1RSIYsJgremp4EMIJGBtQStTnY+iqr5a96+yOikazy5zlssgkrQg1ce6CFMLdZ/ljMAMgXQ==
+"@newhighsco/storybook-preset@6.3.7":
+  version "6.3.7"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.7.tgz#a723ee90f9efa284fa243d084e2aac137722a67a"
+  integrity sha512-k6tkcZbQ4CTfWI418mNM6pTMzdf00ClfhhpzNaVMwW2lIfpvId4a43JtPmUdqfe8Rbr89UQH/FFfEqA5krkYBA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "1.0.5"
     "@newhighsco/storybook-addon-transpile-modules" "1.0.4"
@@ -2169,7 +2169,7 @@
     css-loader "6.8.1"
     postcss "8.4.31"
     postcss-loader "7.3.3"
-    sass "1.69.3"
+    sass "1.69.4"
     sass-loader "13.3.2"
     storybook-dark-mode "3.0.1"
     style-loader "3.3.3"
@@ -5767,10 +5767,10 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001549, caniuse-lite@^1.0.30001538, caniuse-lite@^1.0.30001541:
-  version "1.0.30001549"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001549.tgz#7d1a3dce7ea78c06ed72c32c2743ea364b3615aa"
-  integrity sha512-qRp48dPYSCYaP+KurZLhDYdVE+yEyht/3NlmcJgVQ2VMGt6JL36ndQ/7rgspdZsJuxDPFIo/OzBT2+GmIJ53BA==
+caniuse-lite@1.0.30001550, caniuse-lite@^1.0.30001538, caniuse-lite@^1.0.30001541:
+  version "1.0.30001550"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001550.tgz#6ec6a2239eb2a8123cc26cfe0571db5c79eb8669"
+  integrity sha512-p82WjBYIypO0ukTsd/FG3Xxs+4tFeaY9pfT4amQL8KWtYH7H9nYwReGAbMTJ0hsmRO8IfDtsS6p3ZWj8+1c2RQ==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -14957,10 +14957,10 @@ sass-true@7.0.0:
     jest-diff "^29.3.1"
     lodash "^4.17.21"
 
-sass@1.69.3:
-  version "1.69.3"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.3.tgz#f8a0c488697e6419519834a13335e7b65a609c11"
-  integrity sha512-X99+a2iGdXkdWn1akFPs0ZmelUzyAQfvqYc2P/MPTrJRuIRoTffGzT9W9nFqG00S+c8hXzVmgxhUuHFdrwxkhQ==
+sass@1.69.4:
+  version "1.69.4"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.69.4.tgz#10c735f55e3ea0b7742c6efa940bce30e07fbca2"
+  integrity sha512-+qEreVhqAy8o++aQfCJwp0sklr2xyEzkm9Pp/Igu9wNPoe7EZEQ8X/MBvvXggI2ql607cxKg/RKOwDj6pp2XDA==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
