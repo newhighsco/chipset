@@ -1539,10 +1539,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
-"@dr.pogodin/react-themes@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.5.0.tgz#6aeed3e96c40ffc6a3fcdda8e529cbc97e255be1"
-  integrity sha512-TpQR/zCQtur3ImTxoUbuFpytXpkKoA24PnpqHt0UJAhmBftq98WpdiT1sMfR7VxZX0GHThMJGJYmW1DZ5lca5Q==
+"@dr.pogodin/react-themes@1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.5.1.tgz#4c8a7fadded2b39c45f16f4f86a7bd9950b27548"
+  integrity sha512-ytb01g63eKQMT/ZJf71ShVKDXfkEJ6cM8qq3uDolUCs+cB2l1wolVI41Q0pnjXpKoaGAV6QsSujKVipdE/eMKw==
   dependencies:
     "@babel/runtime" "^7.23.2"
 
