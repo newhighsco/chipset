@@ -52,7 +52,7 @@
     "@commitlint/cli": "18.2.0",
     "@fullhuman/postcss-purgecss": "5.0.0",
     "@newhighsco/browserslist-config": "1.1.0",
-    "@newhighsco/commitlint-config": "1.1.24",
+    "@newhighsco/commitlint-config": "1.1.25",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.89",
     "@newhighsco/postcss-config": "3.5.174",
