@@ -1,4 +1,3 @@
-import fetch from 'node-fetch'
 import { isMobile } from 'react-device-detect'
 import urlJoin from 'url-join'
 

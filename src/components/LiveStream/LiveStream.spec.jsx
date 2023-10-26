@@ -3,16 +3,12 @@ import {
   screen,
   waitForElementToBeRemoved
 } from '@testing-library/react'
-import fetch from 'node-fetch'
 import React from 'react'
 import * as deviceDetect from 'react-device-detect'
 
 import LiveStream from './LiveStream'
 
-jest.mock('node-fetch')
 jest.mock('react-device-detect')
-
-const { Response } = jest.requireActual('node-fetch')
 
 describe('Components/LiveStream', () => {
   beforeAll(() => {
@@ -124,14 +120,13 @@ describe('Components/LiveStream', () => {
     const props = { href: 'https://www.youtube.com/failarmy' }
 
     beforeEach(() => {
-      fetch.mockReturnValue(
-        Promise.resolve(
-          new Response(
-            JSON.stringify({
+      global.fetch = jest.fn(() =>
+        Promise.resolve({
+          json: () =>
+            Promise.resolve({
               contents: `"liveStreamabilityRenderer":{"videoId":"FooBar123"`
             })
-          )
-        )
+        })
       )
     })
 
@@ -152,14 +147,8 @@ describe('Components/LiveStream', () => {
     })
 
     it("should render nothing when 'href' is invalid", async () => {
-      fetch.mockReturnValue(
-        Promise.resolve(
-          new Response(
-            JSON.stringify({
-              contents: '404'
-            })
-          )
-        )
+      global.fetch = jest.fn(() =>
+        Promise.resolve({ json: () => Promise.resolve({ contents: 404 }) })
       )
 
       const { container } = render(
