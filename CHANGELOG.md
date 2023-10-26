@@ -1,3 +1,10 @@
+## [6.15.4](https://github.com/newhighsco/chipset/compare/v6.15.3...v6.15.4) (2023-10-26)
+
+
+### Bug Fixes
+
+* **live-stream:** remove usage of `node-fetch` ([#1757](https://github.com/newhighsco/chipset/issues/1757)) ([befd2eb](https://github.com/newhighsco/chipset/commit/befd2eb0ab6670aae11544eb8cf41c8f7edd0747))
+
 ## [6.15.3](https://github.com/newhighsco/chipset/compare/v6.15.2...v6.15.3) (2023-10-23)
 
 
