@@ -2059,14 +2059,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.104":
-  version "4.0.104"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.104.tgz#fba51f2b5714c47517aee9e5fea77100f2be9037"
-  integrity sha512-EOTYdgNAezyyGlPKZMtsHOmbuvmqG4ukKz3JBotcJYZ2m3AMI6okVGvOgc81F9Qf/WE7mhIWttAlqpT8DWqXBA==
+"@newhighsco/eslint-config@4.0.106":
+  version "4.0.106"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.106.tgz#216c3b4735010bbb77d5e1b4188a5ad2458c7d6d"
+  integrity sha512-K6oUmqX2omXgMY3W5CalXQur3vqjyGvku2qpYEDQdKbC6b4Yvx1P8V3wNB6bsdtcM7HQcHaftbq/34Q85BA2zA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.13.1"
     "@typescript-eslint/parser" "6.13.1"
-    eslint-config-prettier "9.0.0"
+    eslint-config-prettier "9.1.0"
     eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
@@ -2129,10 +2129,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-1.0.11.tgz#d6be400db640021f7424a7ec4f4285be6605615b"
   integrity sha512-pUOs6q60d8mKc7ddHFpNqb+EGwcdp51DW52x8oAklyJIKTub243SelX1rF08ope2QiQj96HOMo0sL8IVDIQCGg==
 
-"@newhighsco/storybook-preset@6.3.16":
-  version "6.3.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.16.tgz#dff3861e2e0dbd45e07279482fd792d00edd1845"
-  integrity sha512-sxO46DmRWGaEpcS+h+RH+w8BUio7DOZQqAMnAqS+h1Ai+DE+e5Ek64m0W0WaljHag+yZgL4WIzpxB1zfBmwKNw==
+"@newhighsco/storybook-preset@6.3.17":
+  version "6.3.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.17.tgz#1bf2bacb5299be20526e11f950bbb39540496dd2"
+  integrity sha512-FX5ygkq5+Fm2zf5fWTh+RuPUPTXcohJ5nfDD/+fvcsIp9TEV4jeEqvJljzf3d8FJb42VAZ9gUBU4L/JDYOx3ig==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "1.0.12"
     "@newhighsco/storybook-addon-transpile-modules" "1.0.11"
@@ -2143,7 +2143,7 @@
     "@storybook/addon-styling-webpack" "0.0.5"
     "@storybook/addons" "7.6.3"
     css-loader "6.8.1"
-    postcss "8.4.31"
+    postcss "8.4.32"
     postcss-loader "7.3.3"
     sass "1.69.5"
     sass-loader "13.3.2"
@@ -7227,10 +7227,10 @@ escodegen@^2.0.0, escodegen@^2.1.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-9.0.0.tgz#eb25485946dd0c66cd216a46232dc05451518d1f"
-  integrity sha512-IcJsTkJae2S35pRsRAwoCE+925rJJStOdkKnLVgtE+tEpqU0EVVM7OqrwxqgptKdX29NUwC82I5pXsGFIgSevw==
+eslint-config-prettier@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-9.1.0.tgz#31af3d94578645966c082fcb71a5846d3c94867f"
+  integrity sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==
 
 eslint-config-standard-jsx@11.0.0:
   version "11.0.0"
@@ -11927,7 +11927,7 @@ mute-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-1.0.0.tgz#e31bd9fe62f0aed23520aa4324ea6671531e013e"
   integrity sha512-avsJQhyd+680gKXyG/sQc0nXaC6rBkPOfyHYcFb9+hdkqQkR9bdnkJ0AMZhke0oesPqIO+mFFJ+IdBc7mst4IA==
 
-nanoid@^3.3.6, nanoid@^3.3.7:
+nanoid@^3.3.7:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
@@ -13616,15 +13616,6 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
-
-postcss@8.4.31:
-  version "8.4.31"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
-  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
-  dependencies:
-    nanoid "^3.3.6"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
 
 postcss@8.4.32, postcss@^8.4.21, postcss@^8.4.28, postcss@^8.4.4:
   version "8.4.32"
