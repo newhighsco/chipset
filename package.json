@@ -81,7 +81,7 @@
     "sass-true": "7.0.0",
     "semantic-release": "22.0.12",
     "storybook": "7.6.4",
-    "stylelint": "15.11.0",
+    "stylelint": "16.0.2",
     "webpack": "5.89.0"
   },
   "peerDependencies": {
