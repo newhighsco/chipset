@@ -2060,10 +2060,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.112":
-  version "4.0.112"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.112.tgz#6320493ba9f4191a0da90dd73e7344b252516b88"
-  integrity sha512-oIf2qfpFvu0rtJBvwncQlmisnd7VUDGrY4SZvwUfm9uR2GZfv+C8GPrHCPfEGkoUOEBhoB/d79r78HH721bFSg==
+"@newhighsco/eslint-config@4.0.113":
+  version "4.0.113"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.113.tgz#2332b87a68677bdcab705e68742b8f5adc3714ff"
+  integrity sha512-kKPUEWpIonW/dWMuBe/MUiUmmjOGJn/Lwzj3DdBAwzG0V0Ad1z7CvcglvoM+JldXMGHtU6o0ufh6RSraxmJpmw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.14.0"
     "@typescript-eslint/parser" "6.14.0"
@@ -2151,15 +2151,15 @@
     storybook-dark-mode "3.0.3"
     style-loader "3.3.3"
 
-"@newhighsco/stylelint-config@3.1.65":
-  version "3.1.65"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.65.tgz#a60d4a04924c332de75a98d1aa4edd4ffb563856"
-  integrity sha512-2u8enLSGr0d7GFLiINXJMdcPy7aQR8iolmslmWNv0FBb/Y1SXMZpKQykwWCI0Qer08Vl+1PqYBGFpNxrnsgI2A==
+"@newhighsco/stylelint-config@3.1.67":
+  version "3.1.67"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.67.tgz#aba3bea14853a4e7f53f4be56584e800aeacdc59"
+  integrity sha512-990jqRPFDD4mPBVblVGQfZbcQtOzBedbtVEbiUSZPMfIR3jCnDhZncYXKHCyHDzGFuB7w1pZQ0XDTXwtH74Pcg==
   dependencies:
     stylelint-config-css-modules "4.3.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "12.0.0"
-    stylelint-prettier "4.1.0"
+    stylelint-prettier "5.0.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -15624,10 +15624,10 @@ stylelint-config-standard@^35.0.0:
   dependencies:
     stylelint-config-recommended "^14.0.0"
 
-stylelint-prettier@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-4.1.0.tgz#1ac2ffa2971086fe60bc92af37f8ddda1bd1a7a4"
-  integrity sha512-dd653q/d1IfvsSQshz1uAMe+XDm6hfM/7XiFH0htYY8Lse/s5ERTg7SURQehZPwVvm/rs7AsFhda9EQ2E9TS0g==
+stylelint-prettier@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-5.0.0.tgz#515a87800228f6bea603966462f7119755ee9b82"
+  integrity sha512-RHfSlRJIsaVg5Br94gZVdWlz/rBTyQzZflNE6dXvSxt/GthWMY3gEHsWZEBaVGg7GM+XrtVSp4RznFlB7i0oyw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
