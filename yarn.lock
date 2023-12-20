@@ -2151,12 +2151,12 @@
     storybook-dark-mode "3.0.3"
     style-loader "3.3.3"
 
-"@newhighsco/stylelint-config@3.1.67":
-  version "3.1.67"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.67.tgz#aba3bea14853a4e7f53f4be56584e800aeacdc59"
-  integrity sha512-990jqRPFDD4mPBVblVGQfZbcQtOzBedbtVEbiUSZPMfIR3jCnDhZncYXKHCyHDzGFuB7w1pZQ0XDTXwtH74Pcg==
+"@newhighsco/stylelint-config@3.1.68":
+  version "3.1.68"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.68.tgz#f00a73afdf693482e205b5bbc3db1f94d08cb688"
+  integrity sha512-tW1ScEbDZmqEu57Hq6ndqfrBzyVi7jeW0Ct8Ji5e2fMjzrx+4Fsd/enQaMsF4Ub/N1MezQaPYtsJ1fddnUD9vw==
   dependencies:
-    stylelint-config-css-modules "4.3.0"
+    stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "12.0.0"
     stylelint-prettier "5.0.0"
@@ -15583,12 +15583,12 @@ style-loader@3.3.3, style-loader@^3.3.1:
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.3.tgz#bba8daac19930169c0c9c96706749a597ae3acff"
   integrity sha512-53BiGLXAcll9maCYtZi2RCQZKa8NQQai5C4horqKyRmHj9H7QmcUyucrH+4KW/gBQbXM2AsB0axoEcFZPlfPcw==
 
-stylelint-config-css-modules@4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.3.0.tgz#aa2a861f9cf30c31676013db5412c15048ca97c3"
-  integrity sha512-KvIvhzzjpcjHKkGSPkQCueoZJHrb6sZ6GCtrQb/J45HQTBVwJAeNYXaSZZK6ZQOC7NxJ4v5kLxpQLDiCK6zzgw==
+stylelint-config-css-modules@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.4.0.tgz#63dd08dfa9440d6c71cf2adbe668bc667958f4c4"
+  integrity sha512-J93MtxPjRzs/TjwbJ5y9SQy4iIqULXwL1CF1yx2tQCJfS/VZUcDAmoGOwqlLbhHXSQtZO5XQiA75NVWUR3KDCQ==
   optionalDependencies:
-    stylelint-scss "^5.0.0 || ^6.0.0"
+    stylelint-scss "^6.0.0"
 
 stylelint-config-prettier@9.0.5:
   version "9.0.5"
@@ -15631,7 +15631,7 @@ stylelint-prettier@5.0.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-"stylelint-scss@^5.0.0 || ^6.0.0", stylelint-scss@^6.0.0:
+stylelint-scss@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-6.0.0.tgz#bf6be6798d71c898484b7e97007d5ed69a89308d"
   integrity sha512-N1xV/Ef5PNRQQt9E45unzGvBUN1KZxCI8B4FgN/pMfmyRYbZGVN4y9qWlvOMdScU17c8VVCnjIHTVn38Bb6qSA==
