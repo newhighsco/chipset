@@ -1,3 +1,10 @@
+## [6.15.5](https://github.com/newhighsco/chipset/compare/v6.15.4...v6.15.5) (2023-12-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency classnames to v2.3.3 ([#1846](https://github.com/newhighsco/chipset/issues/1846)) ([4f06142](https://github.com/newhighsco/chipset/commit/4f06142ea4b6012d92f2aa131534e4b1b524597f))
+
 ## [6.15.4](https://github.com/newhighsco/chipset/compare/v6.15.3...v6.15.4) (2023-10-26)
 
 
