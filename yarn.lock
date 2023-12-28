@@ -2135,10 +2135,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-1.0.14.tgz#5803228ba484ecdbe27bc50dd296763c5a85a8f5"
   integrity sha512-jq/HMExcvArcpnG22j3fZyERfNiS1LvTZXzmu8NzVGUWI99LdvyIfkamzdrli4nkyQ5bUkimaMljZoh1FxCTGA==
 
-"@newhighsco/storybook-preset@6.3.21":
-  version "6.3.21"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.21.tgz#724de05b7a7cd30acca081ee2d887bcfaa983e1a"
-  integrity sha512-Ep/gupsNCNLXuh5I7hUV0/zvAwzGoGPcCD70Jqf+5G1M9C6aFlcOlEWMXXX41Y+heIAakKotH0zWRVowm73ABg==
+"@newhighsco/storybook-preset@6.3.22":
+  version "6.3.22"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.22.tgz#fe95853d488c86221a7b2e533dfe423747436cc2"
+  integrity sha512-27EhM01JxtKr5lKbPcyoR2nHhY8MNjkTPZtHbpjh19nk+69qN5mqP0K/c6dyGXLd2/xTj5xkRuJ8Wi35oH4AkQ==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "1.0.15"
     "@newhighsco/storybook-addon-transpile-modules" "1.0.14"
@@ -2150,7 +2150,7 @@
     "@storybook/addons" "7.6.6"
     css-loader "6.8.1"
     postcss "8.4.32"
-    postcss-loader "7.3.3"
+    postcss-loader "7.3.4"
     sass "1.69.5"
     sass-loader "13.3.3"
     storybook-dark-mode "3.0.3"
@@ -6237,7 +6237,7 @@ cosmiconfig@^7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-cosmiconfig@^8.0.0, cosmiconfig@^8.1.3, cosmiconfig@^8.2.0, cosmiconfig@^8.3.6:
+cosmiconfig@^8.0.0, cosmiconfig@^8.1.3, cosmiconfig@^8.3.5, cosmiconfig@^8.3.6:
   version "8.3.6"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-8.3.6.tgz#060a2b871d66dba6c8538ea1118ba1ac16f5fae3"
   integrity sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==
@@ -10220,10 +10220,10 @@ jest@29.7.0:
     import-local "^3.0.2"
     jest-cli "^29.7.0"
 
-jiti@^1.18.2, jiti@^1.19.1:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.20.0.tgz#2d823b5852ee8963585c8dd8b7992ffc1ae83b42"
-  integrity sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==
+jiti@^1.19.1, jiti@^1.20.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.0.tgz#7c97f8fe045724e136a397f7340475244156105d"
+  integrity sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -13485,14 +13485,14 @@ postcss-lab-function@^6.0.7:
     "@csstools/css-tokenizer" "^2.2.1"
     "@csstools/postcss-progressive-custom-properties" "^3.0.2"
 
-postcss-loader@7.3.3:
-  version "7.3.3"
-  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-7.3.3.tgz#6da03e71a918ef49df1bb4be4c80401df8e249dd"
-  integrity sha512-YgO/yhtevGO/vJePCQmTxiaEwER94LABZN0ZMT4A0vsak9TpO+RvKRs7EmJ8peIlB9xfXCsS7M8LjqncsUZ5HA==
+postcss-loader@7.3.4:
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-7.3.4.tgz#aed9b79ce4ed7e9e89e56199d25ad1ec8f606209"
+  integrity sha512-iW5WTTBSC5BfsBJ9daFMPVrLT36MrNiC6fqOZTTaHjBNX6Pfd5p+hSBqe/fEeNd7pc13QiAyGt7VdGMw4eRC4A==
   dependencies:
-    cosmiconfig "^8.2.0"
-    jiti "^1.18.2"
-    semver "^7.3.8"
+    cosmiconfig "^8.3.5"
+    jiti "^1.20.0"
+    semver "^7.5.4"
 
 postcss-logical@^7.0.0:
   version "7.0.0"
