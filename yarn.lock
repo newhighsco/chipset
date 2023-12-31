@@ -9945,14 +9945,14 @@ jest-environment-jsdom@29.7.0:
     jest-util "^29.7.0"
     jsdom "^20.0.0"
 
-jest-environment-node-single-context@29.1.0:
-  version "29.1.0"
-  resolved "https://registry.yarnpkg.com/jest-environment-node-single-context/-/jest-environment-node-single-context-29.1.0.tgz#cbf88724cfd3a00703a139240fd707887f5a1aea"
-  integrity sha512-sMQSq/b4aK9f0V1atn/ZfBgdrEQZzoZo95UzUTXaS/GtiCx9e62IFP4gX0GR+IGDu1k7UuqB/Xot46vJoOsoyg==
+jest-environment-node-single-context@29.2.0:
+  version "29.2.0"
+  resolved "https://registry.yarnpkg.com/jest-environment-node-single-context/-/jest-environment-node-single-context-29.2.0.tgz#79ed07216f2d53652820d844c6cfa83a8288963e"
+  integrity sha512-EoaIJR8ofURhwOLKD4vMCe1SQws5xB1fjM1BDFUPoUS9HWGmKyzrc9bv5yFVxIYy3MOMpFh5fmv38XezYJ6icQ==
   dependencies:
-    jest-environment-node "^29.5.0"
+    jest-environment-node "^29.7.0"
 
-jest-environment-node@^29.5.0, jest-environment-node@^29.7.0:
+jest-environment-node@^29.7.0:
   version "29.7.0"
   resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-29.7.0.tgz#0b93e111dda8ec120bc8300e6d1fb9576e164376"
   integrity sha512-DOSwCRqXirTOyheM+4d5YZOrWcdu0LNZ87ewUoywbcb2XR4wKgqiG8vNeYwhjFMbEkfju7wx2GYH0P2gevGvFw==
