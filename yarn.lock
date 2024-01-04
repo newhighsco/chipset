@@ -2135,10 +2135,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-1.0.15.tgz#b4230e0abb315b0f756481a0431ea2bf443a744e"
   integrity sha512-j5pyuvDVWcRUEHXi92UGyjWzP5gp0x4X05YlxqJBfj27HhfHsqHeeNPJEkrsNDOSTWIzJurbWFKy0pUE+osL2A==
 
-"@newhighsco/storybook-preset@6.3.25":
-  version "6.3.25"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.25.tgz#5305250d18170aa5623df21000a33e5fbed9f0e1"
-  integrity sha512-3lYtRvPiZFwZ4r14XTP7NJRrj5p6qw12jvpHqC4wF82jmtu0t077wsS3b15mPAGWsJU4MUzfrtd0Dhw1250FLg==
+"@newhighsco/storybook-preset@6.3.26":
+  version "6.3.26"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.3.26.tgz#a5c2fa135a6a889cbce2949d0a3e447e40065e3a"
+  integrity sha512-+BRqOG1vmANJrvvkju6mSBxxYzrArP5W1vbb575v7/lNInDHT7UbaKD7X723a2Wfie2fUz0R5su8Ofm4bzrAgA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "1.0.16"
     "@newhighsco/storybook-addon-transpile-modules" "1.0.15"
@@ -2146,7 +2146,7 @@
     "@storybook/addon-backgrounds" "7.6.7"
     "@storybook/addon-docs" "7.6.7"
     "@storybook/addon-links" "7.6.7"
-    "@storybook/addon-styling-webpack" "0.0.5"
+    "@storybook/addon-styling-webpack" "0.0.6"
     "@storybook/addons" "7.6.7"
     css-loader "6.8.1"
     postcss "8.4.32"
@@ -3024,10 +3024,10 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-styling-webpack@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-styling-webpack/-/addon-styling-webpack-0.0.5.tgz#714c713cf8c57ed1f674ebc80bc16cb41b9bdf1b"
-  integrity sha512-8XdE3w+W7qxMeqnK/FDFipFN9XaVKUJFcHyM2ZBlhAAxVWMbTcifqw5lzqeK8jSAA/TUtpUp37gT2Bw/3k6slQ==
+"@storybook/addon-styling-webpack@0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-styling-webpack/-/addon-styling-webpack-0.0.6.tgz#6e974c7498c8cfe6a8f98344e9ef4c54c1980e95"
+  integrity sha512-JjM2FXFiHpjbJsp7nRUEMhYBRpK6ukBKsbtWzCrAGOfUgoElcGwPY8KhSKSnRknIhebonGK1bxalh3u8bGZ/dw==
   dependencies:
     "@storybook/node-logger" "^7.0.12"
 
