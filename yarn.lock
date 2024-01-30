@@ -2127,10 +2127,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-1.0.18.tgz#cd7b63a02b500db88ae325a1a2308882ab970b4d"
   integrity sha512-UFucLi3AoHQbGPCifC6k50Fw7f806jd1qaFl+mAjrhTGGTJv2s9XodUR4K8wtTOL0OKUTrLDrWgVMuFr+/5JYQ==
 
-"@newhighsco/storybook-preset@6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.4.0.tgz#8ccbcf08efda5eef414fdb8f227ef7c664b11f55"
-  integrity sha512-K954NFjYLrsd4Cp7x0tnETdgLnct1/jt/LcrC2SwHqM671YLU5ARP5wTTmuW9jTPTrIXjhadkMIoGVxlIaDN8w==
+"@newhighsco/storybook-preset@6.4.2":
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.4.2.tgz#ce09c8ad0273d747274157e8153bf9b2ab92cb56"
+  integrity sha512-Ek88STHHhRJkwamr0nwLCgw3ubL49XLInRc9Gv6cK984IMhR0iaNxQzkWK9haq83Gd4AVTNg9ZTLhEMxoqM15Q==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "1.0.19"
     "@newhighsco/storybook-addon-transpile-modules" "1.0.18"
@@ -2142,9 +2142,9 @@
     "@storybook/addons" "7.6.10"
     css-loader "6.9.1"
     postcss "8.4.33"
-    postcss-loader "8.0.0"
+    postcss-loader "8.1.0"
     sass "1.70.0"
-    sass-loader "14.0.0"
+    sass-loader "14.1.0"
     storybook-dark-mode "3.0.3"
     style-loader "3.3.4"
 
@@ -13392,10 +13392,10 @@ postcss-lab-function@^6.0.7:
     "@csstools/css-tokenizer" "^2.2.1"
     "@csstools/postcss-progressive-custom-properties" "^3.0.2"
 
-postcss-loader@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-8.0.0.tgz#98bb2fb8f5b8e756ef9847e639f6e323d3f15745"
-  integrity sha512-+RiNlmYd1aXYv6QSBOAu6n9eJYy0ydyXTfjljAJ3vFU6MMo2M552zTVcBpBH+R5aAeKaYVG1K9UEyAVsLL1Qjg==
+postcss-loader@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-8.1.0.tgz#590e8bd872d7cdf53c486cbcd40c4c94789f1216"
+  integrity sha512-AbperNcX3rlob7Ay7A/HQcrofug1caABBkopoFeOQMspZBqcqj6giYn1Bwey/0uiOPAcR+NQD0I2HC7rXzk91w==
   dependencies:
     cosmiconfig "^9.0.0"
     jiti "^1.20.0"
@@ -14636,10 +14636,10 @@ safe-regex-test@^1.0.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass-loader@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-14.0.0.tgz#fc8390f7cc16863622cd16f3ea07b36ba6ea8f91"
-  integrity sha512-oceP9wWbep/yRJ2+sMbCzk0UsXsDzdNis+N8nu9i5GwPXjy6v3DNB6TqfJLSpPO9k4+B8x8p/CEgjA9ZLkoLug==
+sass-loader@14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-14.1.0.tgz#43ba90e0cd8a15a1e932e818c525b0115a0ce8a3"
+  integrity sha512-LS2mLeFWA+orYxHNu+O18Xe4jR0kyamNOOUsE3NyBP4DvIL+8stHpNX0arYTItdPe80kluIiJ7Wfe/9iHSRO0Q==
   dependencies:
     neo-async "^2.6.2"
 
