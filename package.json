@@ -82,7 +82,7 @@
     "semantic-release": "23.0.2",
     "storybook": "7.6.12",
     "stylelint": "16.2.1",
-    "webpack": "5.90.1"
+    "webpack": "5.90.2"
   },
   "peerDependencies": {
     "react": "18.2.0",
