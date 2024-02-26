@@ -78,7 +78,7 @@
     "prettier": "3.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass-true": "7.0.1",
+    "sass-true": "8.0.0",
     "semantic-release": "23.0.2",
     "storybook": "7.6.17",
     "stylelint": "16.2.1",
