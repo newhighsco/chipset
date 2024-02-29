@@ -2145,10 +2145,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-1.0.21.tgz#a6ca372169d3d4dd4e009ab8f24d184ff074b8eb"
   integrity sha512-ueP5CBCk+l119nu79oO7BmUttszFHQJyPLCo3aEa5JfIzczQTBx2n1tPcznspVyZ30h3A4vU9WzLe4CfKRg8mA==
 
-"@newhighsco/storybook-preset@6.4.10":
-  version "6.4.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.4.10.tgz#22d30ab476a578033354f3a628a7774a497f1531"
-  integrity sha512-pKfNny11KciVh/agfRnHRHnZcj8pZxzMQe8sEuzWvE6XwgFuHP089CDC49/WuviTQ3j69qD9lb/KUSr5vJvQqA==
+"@newhighsco/storybook-preset@6.4.11":
+  version "6.4.11"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-6.4.11.tgz#7000415906f3ce2a5ab9065a1345608c34d4f7e1"
+  integrity sha512-/ChKHdHj4G9D0RwDXXKWoTCw0tfJ4X2ncIPls/WWLiQ0krUZzFSMT8baHotQ1+OCcbZYIF6OnzqbwA+Xg/HZkw==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "1.0.22"
     "@newhighsco/storybook-addon-transpile-modules" "1.0.21"
@@ -2160,7 +2160,7 @@
     "@storybook/addons" "7.6.17"
     css-loader "6.10.0"
     postcss "8.4.35"
-    postcss-loader "8.1.0"
+    postcss-loader "8.1.1"
     sass "1.71.1"
     sass-loader "14.1.1"
     storybook-dark-mode "3.0.3"
@@ -13440,10 +13440,10 @@ postcss-lab-function@^6.0.10:
     "@csstools/postcss-progressive-custom-properties" "^3.1.0"
     "@csstools/utilities" "^1.0.0"
 
-postcss-loader@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-8.1.0.tgz#590e8bd872d7cdf53c486cbcd40c4c94789f1216"
-  integrity sha512-AbperNcX3rlob7Ay7A/HQcrofug1caABBkopoFeOQMspZBqcqj6giYn1Bwey/0uiOPAcR+NQD0I2HC7rXzk91w==
+postcss-loader@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-8.1.1.tgz#2822589e7522927344954acb55bbf26e8b195dfe"
+  integrity sha512-0IeqyAsG6tYiDRCYKQJLAmgQr47DX6N7sFSWvQxt6AcupX8DIdmykuk/o/tx0Lze3ErGHJEp5OSRxrelC6+NdQ==
   dependencies:
     cosmiconfig "^9.0.0"
     jiti "^1.20.0"
