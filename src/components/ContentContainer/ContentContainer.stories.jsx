@@ -2,58 +2,48 @@ import React from 'react'
 
 import breakpoints from '../../../styles/_breakpoints.module.scss'
 import { ContentContainer } from '..'
-import PureContentContainer from './ContentContainer'
 
 export default {
-  component: PureContentContainer
+  component: ContentContainer
 }
 
-const Template = args => <ContentContainer {...args} />
-
-export const Source = Template.bind({})
-
-Source.args = {
-  children: 'Content'
-}
-Source.parameters = {
-  chromatic: { disable: true }
+export const Source = {
+  args: { children: 'Content' },
+  parameters: { chromatic: { disable: true } }
 }
 
-export const FullWidth = Template.bind({})
-
-FullWidth.args = {
-  children: 'Full-width content'
+export const FullWidth = {
+  args: { children: 'Full-width content' },
+  name: 'Full-width'
 }
-FullWidth.storyName = 'Full-width'
 
-export const FullWidthWithGutter = Template.bind({})
-
-FullWidthWithGutter.args = {
-  gutter: true,
-  children: 'Full-width content with gutter'
+export const FullWidthWithGutter = {
+  args: { gutter: true, children: 'Full-width content with gutter' },
+  name: 'Full-width with gutter'
 }
-FullWidthWithGutter.storyName = 'Full-width with gutter'
 
-export const RestrictedWidth = () => (
-  <>
-    {Object.keys(breakpoints).map(breakpoint => (
-      <ContentContainer key={breakpoint} size={breakpoint}>
-        size=&quot;{breakpoint}&quot; restricted-width content
-      </ContentContainer>
-    ))}
-  </>
-)
+export const RestrictedWidth = {
+  render: () => (
+    <>
+      {Object.keys(breakpoints).map(breakpoint => (
+        <ContentContainer key={breakpoint} size={breakpoint}>
+          size=&quot;{breakpoint}&quot; restricted-width content
+        </ContentContainer>
+      ))}
+    </>
+  ),
+  name: 'Restricted-width'
+}
 
-RestrictedWidth.storyName = 'Restricted-width'
-
-export const RestrictedWidthWithGutter = () => (
-  <>
-    {Object.keys(breakpoints).map(breakpoint => (
-      <ContentContainer key={breakpoint} size={breakpoint} gutter>
-        size=&quot;{breakpoint}&quot; restricted-width content with gutter
-      </ContentContainer>
-    ))}
-  </>
-)
-
-RestrictedWidthWithGutter.storyName = 'Restricted-width with gutter'
+export const RestrictedWidthWithGutter = {
+  render: () => (
+    <>
+      {Object.keys(breakpoints).map(breakpoint => (
+        <ContentContainer key={breakpoint} size={breakpoint} gutter>
+          size=&quot;{breakpoint}&quot; restricted-width content with gutter
+        </ContentContainer>
+      ))}
+    </>
+  ),
+  name: 'Restricted-width with gutter'
+}

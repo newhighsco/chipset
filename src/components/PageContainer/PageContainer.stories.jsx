@@ -1,39 +1,31 @@
 import React from 'react'
 
 import { FooterContainer, HeaderContainer, PageContainer } from '..'
-import PureContentContainer from '../ContentContainer/ContentContainer'
-import PurePageContainer from './PageContainer'
 
 export default {
-  component: PurePageContainer,
-  subcomponents: { [PureContentContainer.displayName]: PureContentContainer }
+  component: PageContainer
 }
 
-const Template = args => <PageContainer {...args} />
-
-export const Source = Template.bind({})
-
-Source.args = {
-  header: <header />,
-  footer: <footer />,
-  children: 'Content'
-}
-Source.parameters = {
-  chromatic: { disable: true }
+export const Source = {
+  args: {
+    header: <header />,
+    footer: <footer />,
+    children: 'Content'
+  },
+  parameters: { chromatic: { disable: true } }
 }
 
-export const Example = Template.bind({})
-
-Example.args = {
-  header: <HeaderContainer>Header</HeaderContainer>,
-  footer: <FooterContainer>Footer</FooterContainer>,
-  children: 'Content'
+export const Example = {
+  args: {
+    header: <HeaderContainer>Header</HeaderContainer>,
+    footer: <FooterContainer>Footer</FooterContainer>,
+    children: 'Content'
+  },
+  decorators: [
+    Story => (
+      <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
+        {Story()}
+      </div>
+    )
+  ]
 }
-Example.decorators = [
-  Story => (
-    <div style={{ display: 'flex', flexDirection: 'column', height: 300 }}>
-      {Story()}
-    </div>
-  )
-]
-Example.storyName = ' '

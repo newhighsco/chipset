@@ -1,19 +1,8 @@
-import React from 'react'
-
 import { Landmark } from '..'
 
 export default {
   component: Landmark,
-  parameters: {
-    chromatic: { disable: true }
-  }
+  parameters: { chromatic: { disable: true } }
 }
 
-const Template = args => <Landmark {...args} />
-
-export const Source = Template.bind({})
-
-Source.args = {
-  id: 'landmark',
-  children: 'Content'
-}
+export const Source = { args: { id: 'landmark', children: 'Content' } }

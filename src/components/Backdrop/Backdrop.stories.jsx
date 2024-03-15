@@ -7,7 +7,7 @@ export default {
   component: Backdrop
 }
 
-const storyDecorators = [
+const decorators = [
   Story => (
     <div
       style={{
@@ -22,27 +22,20 @@ const storyDecorators = [
     </div>
   )
 ]
-const Template = args => <Backdrop {...args} />
 
-export const Source = Template.bind({})
-
-Source.args = {
-  children: 'Content'
-}
-Source.parameters = {
-  chromatic: { disable: true }
+export const Source = {
+  args: { children: 'Content' },
+  parameters: { chromatic: { disable: true } }
 }
 
-export const WithImage = Template.bind({})
-
-WithImage.args = {
-  children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
+export const WithImage = {
+  args: {
+    children: <Image src={imageUrl} sources={[{ srcSet: imageWebPUrl }]} />
+  },
+  decorators
 }
-WithImage.decorators = storyDecorators
 
-export const WithVideo = Template.bind({})
-
-WithVideo.args = {
-  children: <video src={videoUrl} poster={imageUrl} muted />
+export const WithVideo = {
+  args: { children: <video src={videoUrl} poster={imageUrl} muted /> },
+  decorators
 }
-WithVideo.decorators = storyDecorators

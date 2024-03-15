@@ -1,31 +1,20 @@
 import React from 'react'
 
 import { CreditLockup } from '..'
-import PureCreditLockup from './CreditLockup'
 
 export default {
-  component: PureCreditLockup
+  component: CreditLockup
 }
 
-const Template = args => <CreditLockup {...args} />
+export const Source = { parameters: { chromatic: { disable: true } } }
 
-export const Source = Template.bind({})
-
-Source.parameters = {
-  chromatic: { disable: true }
+export const TextDirection = {
+  render: () => ['ltr', 'rtl'].map(dir => <CreditLockup key={dir} dir={dir} />)
 }
 
-export const TextDirection = () => (
-  <>
-    <CreditLockup dir="ltr" />
-    <CreditLockup dir="rtl" />
-  </>
-)
-
-export const Alignment = () => (
-  <>
-    <CreditLockup align="left" />
-    <CreditLockup align="center" />
-    <CreditLockup align="right" />
-  </>
-)
+export const Alignment = {
+  render: () =>
+    ['left', 'center', 'right'].map(align => (
+      <CreditLockup key={align} align={align} />
+    ))
+}
