@@ -2043,10 +2043,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/commitlint-config@1.1.37":
-  version "1.1.37"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.37.tgz#4782d083f5e834d3cbad57cfe95f96fda6972aac"
-  integrity sha512-CRr0NMOmwYzHC6R9FaSHQUcDss0dOsFdAhbkBRK4hkS7NiMOl/qMmionPlW+2fgRDnOjKorS7vKMPvc72tZ5uw==
+"@newhighsco/commitlint-config@1.1.38":
+  version "1.1.38"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.38.tgz#865791a689bdcd0d57cb574b913b9d6c016f0b19"
+  integrity sha512-IyVM8xv9b7oh9/CAlCWhB8H82jE+BVJnpDXWWJ0hvnmIY1YnF+ueNVCl0ja4Bv5SwPKACuxNWFUhmJghGIyllg==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
@@ -2097,13 +2097,13 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.22.tgz#df8ff8a50c84f41101659a04dc7c2319c68cfdd5"
   integrity sha512-/1YzXv+HnU5B51PrgIxCkUfjtuNBd2+kM2SlSyECabYmVzt6zIog5IWAX9BIWdCdAVZEzRvp6JD9KWOWAvP0Yw==
 
-"@newhighsco/release-config@1.3.65":
-  version "1.3.65"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.65.tgz#b5b2d8f16f3571de200d53c2fb07157d3dd2f75e"
-  integrity sha512-1BNBcj6EzZAtcrZ2GD2fprMV8e9KjJ90++jO/rcCEk9tr5Saxexzb1mJ/ac1TbtNf6eHg3JRO+AadKBDC/bpYg==
+"@newhighsco/release-config@1.3.66":
+  version "1.3.66"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.66.tgz#eaa788d252a8660ec99ae0bd0ef75fd96e8a0846"
+  integrity sha512-fK+tyk+8AAZMDynhd+aOgaz7ia2HkotpmQD9SEd2HvKUKJgh0u3kAkgOLu2af5efcAWpPWFGOy7nTHc7LmfY3A==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
-    "@semantic-release/commit-analyzer" "11.1.0"
+    "@semantic-release/commit-analyzer" "12.0.0"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "10.0.2"
     "@semantic-release/npm" "12.0.0"
@@ -2123,10 +2123,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.1.tgz#2918df31192d4b65ab96766fe169a7a00fc4fdd8"
   integrity sha512-/2msm3ZpHsj5M6UynRQ8FkHRdo0RWCTQ+p5XJbChRV6aRr93u4AnRWtYbbCIH6emaSCu8Qhp7dZNu//Bi3aI2A==
 
-"@newhighsco/storybook-preset@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.3.tgz#4c746c64699e567aa89d53798ec8c368efcb4c4a"
-  integrity sha512-AWNFNAYy814JGd+GCHFHy/Rvfa7QQp5wQ+MHZJuzdguoXN13yxJiJLd3Wc4/9Knk5TCFw76zmog9mFAM7RO6LA==
+"@newhighsco/storybook-preset@7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.4.tgz#bb7b27df791204e3cac6a7f752ef38be036b7eab"
+  integrity sha512-wTQ8XfZMxwsGq2nYB9/G/XEFyYe5oQevxHk3wWud7AutCgxS144pj8NExEUHRW5Mw9Py5/lp58c4q4RhpY3QDA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.1"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.1"
@@ -2134,7 +2134,7 @@
     "@storybook/addon-backgrounds" "8.0.1"
     "@storybook/addon-docs" "8.0.1"
     "@storybook/addon-links" "8.0.1"
-    "@storybook/addon-styling-webpack" "0.0.6"
+    "@storybook/addon-styling-webpack" "1.0.0"
     "@storybook/addon-webpack5-compiler-swc" "1.0.2"
     css-loader "6.10.0"
     postcss "8.4.36"
@@ -2480,20 +2480,7 @@
     fs-extra "^11.0.0"
     lodash "^4.17.4"
 
-"@semantic-release/commit-analyzer@11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-11.1.0.tgz#dd24663c4e1e7c218f53de73f5c639eb2d5a077e"
-  integrity sha512-cXNTbv3nXR2hlzHjAMgbuiQVtvWHTlwwISt60B+4NZv01y/QRY7p2HcJm8Eh2StzcTJoNnflvKjHH/cjFS7d5g==
-  dependencies:
-    conventional-changelog-angular "^7.0.0"
-    conventional-commits-filter "^4.0.0"
-    conventional-commits-parser "^5.0.0"
-    debug "^4.0.0"
-    import-from-esm "^1.0.3"
-    lodash-es "^4.17.21"
-    micromatch "^4.0.2"
-
-"@semantic-release/commit-analyzer@^12.0.0":
+"@semantic-release/commit-analyzer@12.0.0", "@semantic-release/commit-analyzer@^12.0.0":
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-12.0.0.tgz#7219b05ab79a4303c99fc9cd0413d68881599270"
   integrity sha512-qG+md5gdes+xa8zP7lIo1fWE17zRdO8yMCaxh9lyL65TQleoSv8WHHOqRURfghTytUh+NpkSyBprQ5hrkxOKVQ==
@@ -2721,12 +2708,12 @@
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-styling-webpack@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-styling-webpack/-/addon-styling-webpack-0.0.6.tgz#6e974c7498c8cfe6a8f98344e9ef4c54c1980e95"
-  integrity sha512-JjM2FXFiHpjbJsp7nRUEMhYBRpK6ukBKsbtWzCrAGOfUgoElcGwPY8KhSKSnRknIhebonGK1bxalh3u8bGZ/dw==
+"@storybook/addon-styling-webpack@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-styling-webpack/-/addon-styling-webpack-1.0.0.tgz#a4d0d449b8e76135565bdc4745f9d0420edd2420"
+  integrity sha512-jo1kzn7pi+NA+LZxrWoRvW6w7dXIKY/BjTG80XX2uU92lIKT+X1k/9vYk/0KPVK3Bsf4tO6ToAuqIRyOk7MHtg==
   dependencies:
-    "@storybook/node-logger" "^7.0.12"
+    "@storybook/node-logger" "^8.0.0-alpha.10"
 
 "@storybook/addon-webpack5-compiler-swc@1.0.2":
   version "1.0.2"
@@ -3113,15 +3100,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/manager/-/manager-8.0.1.tgz#527677cafa3a3ef5e2cd5b6f9bb5262f27dff175"
   integrity sha512-UbOSz6dNhugFTXdBgCdQTa8ZQdlPmpjN1fUY3bxpv+Ii3YN4U/CDWlAmmOUKlKi/Oj2ZNQBJtJWYUe8DkerlfA==
 
-"@storybook/node-logger@8.0.1":
+"@storybook/node-logger@8.0.1", "@storybook/node-logger@^8.0.0-alpha.10":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-8.0.1.tgz#e27e5796c462a12331fcf71e01df6db34cea848e"
   integrity sha512-uYWKSz9NhLOe2O60sJ4UPT1nzvbH0oR/YjK+OP3B4BySa6e195xY/5Uhou4lEaPSNU/0XXaLHCYeXjqeBjZopA==
-
-"@storybook/node-logger@^7.0.12":
-  version "7.6.17"
-  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.6.17.tgz#2747cee5395c3644408df2423d98502663c4bcf6"
-  integrity sha512-w59MQuXhhUNrUVmVkXhMwIg2nvFWjdDczLTwYLorhfsE36CWeUOY5QCZWQy0Qf/h+jz8Uo7Evy64qn18v9C4wA==
 
 "@storybook/preset-react-webpack@8.0.1":
   version "8.0.1"
