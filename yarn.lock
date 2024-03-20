@@ -2123,10 +2123,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.1.tgz#2918df31192d4b65ab96766fe169a7a00fc4fdd8"
   integrity sha512-/2msm3ZpHsj5M6UynRQ8FkHRdo0RWCTQ+p5XJbChRV6aRr93u4AnRWtYbbCIH6emaSCu8Qhp7dZNu//Bi3aI2A==
 
-"@newhighsco/storybook-preset@7.0.4":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.4.tgz#bb7b27df791204e3cac6a7f752ef38be036b7eab"
-  integrity sha512-wTQ8XfZMxwsGq2nYB9/G/XEFyYe5oQevxHk3wWud7AutCgxS144pj8NExEUHRW5Mw9Py5/lp58c4q4RhpY3QDA==
+"@newhighsco/storybook-preset@7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.5.tgz#f93bc234b99973d6785ab7066dc6b0c6763a3857"
+  integrity sha512-I0MXu0c7UPrBZLxuIzkrfa8JbwHiNq6b3S29Re88xCv/v99C4j4sCJETtSuWU6xHkyZk7fK+WX5Wz6kxg7qp8g==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.1"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.1"
@@ -2137,7 +2137,7 @@
     "@storybook/addon-styling-webpack" "1.0.0"
     "@storybook/addon-webpack5-compiler-swc" "1.0.2"
     css-loader "6.10.0"
-    postcss "8.4.36"
+    postcss "8.4.37"
     postcss-loader "8.1.1"
     sass "1.72.0"
     sass-loader "14.1.1"
@@ -13235,15 +13235,6 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.36:
-  version "8.4.36"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.36.tgz#dba513c3c3733c44e0288a712894f8910bbaabc6"
-  integrity sha512-/n7eumA6ZjFHAsbX30yhHup/IMkOmlmvtEi7P+6RMYf+bGJSUHc3geH4a0NSZxAz/RJfiS9tooCTs9LAVYUZKw==
-  dependencies:
-    nanoid "^3.3.7"
-    picocolors "^1.0.0"
-    source-map-js "^1.1.0"
-
 postcss@8.4.37, postcss@^8.4.33, postcss@^8.4.4:
   version "8.4.37"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.37.tgz#4505f992cd0c20e03d25f13b31901640b2db731a"
@@ -14615,7 +14606,7 @@ sorted-union-stream@~2.1.3:
     from2 "^1.3.0"
     stream-iterate "^1.1.0"
 
-"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.1.0, source-map-js@^1.2.0:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
   integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
