@@ -1389,7 +1389,7 @@
     "@csstools/selector-specificity" "^3.0.3"
     postcss-selector-parser "^6.0.13"
 
-"@csstools/postcss-light-dark-function@^1.0.2":
+"@csstools/postcss-light-dark-function@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@csstools/postcss-light-dark-function/-/postcss-light-dark-function-1.0.3.tgz#364f5b4c41ec485f7c8c9148566f0e79508bf5cf"
   integrity sha512-izW8hvhOqJlarLcGXO5PSylW9pQS3fytmhRdx2/e1oZFi15vs7ZShOHcREHJ3FfGdYqDA10cP9uhH0A3hmm1Rw==
@@ -2085,16 +2085,16 @@
     eslint-plugin-testing-library "6.2.0"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.221":
-  version "3.5.221"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.221.tgz#d301977ae587fc9c05dbad6fe7ecd51e0438b719"
-  integrity sha512-+s0FQASeelLARn/CNHXbDDDquxdY8df7J/wHYBTx+pnDAp4qowYlAvH7LElivIkjkwrofinOtj4JxaGbam+Qsg==
+"@newhighsco/postcss-config@3.5.222":
+  version "3.5.222"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.222.tgz#cdbd4ab6835de4a4341701b7f8b75a9ee61c126c"
+  integrity sha512-q9xxrZW+RykcXbcZ7fTee/DYnomsso/9/0abTX0Gmspg0xvOOe9jH5suFn+fS29vBSE0RBg2T73CXHfE+W1P4w==
   dependencies:
     "@fullhuman/postcss-purgecss" "5.0.0"
     autoprefixer "10.4.19"
     caniuse-lite "1.0.30001605"
     postcss-flexbugs-fixes "5.0.2"
-    postcss-preset-env "9.5.3"
+    postcss-preset-env "9.5.4"
 
 "@newhighsco/prettier-config@2.1.22":
   version "2.1.22"
@@ -12935,10 +12935,10 @@ postcss-place@^9.0.1:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@9.5.3:
-  version "9.5.3"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-9.5.3.tgz#1714bcecd24ce226ba8f368bdb51e7d02ca82f50"
-  integrity sha512-uOBG5kvYMxZGuepbAKr563PCB+syENPa1C9kPA8IvDGraVkrEUk//31oaO06oj9VtuujVtsgXHI7qbQynCuaVQ==
+postcss-preset-env@9.5.4:
+  version "9.5.4"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-9.5.4.tgz#ea01cc1eb404a9b80f3375a62b50d36d6f27415a"
+  integrity sha512-o/jOlJjhm4f6rI5q1f+4Og3tz1cjaO50er9ndk7ZdcXHjWOH49kMAhqDC/nQifypQkOAiAmF46dPt3pZM+Cwbg==
   dependencies:
     "@csstools/postcss-cascade-layers" "^4.0.4"
     "@csstools/postcss-color-function" "^3.0.13"
@@ -12951,7 +12951,7 @@ postcss-preset-env@9.5.3:
     "@csstools/postcss-ic-unit" "^3.0.6"
     "@csstools/postcss-initial" "^1.0.1"
     "@csstools/postcss-is-pseudo-class" "^4.0.6"
-    "@csstools/postcss-light-dark-function" "^1.0.2"
+    "@csstools/postcss-light-dark-function" "^1.0.3"
     "@csstools/postcss-logical-float-and-clear" "^2.0.1"
     "@csstools/postcss-logical-overflow" "^1.0.1"
     "@csstools/postcss-logical-overscroll-behavior" "^1.0.1"
