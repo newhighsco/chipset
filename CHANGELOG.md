@@ -1,3 +1,10 @@
+# [6.16.0](https://github.com/newhighsco/chipset/compare/v6.15.9...v6.16.0) (2024-04-10)
+
+
+### Features
+
+* disabled `CreditLockup` link by default ([41491b6](https://github.com/newhighsco/chipset/commit/41491b691025af07e8191bf6590e795071fd4401))
+
 ## [6.15.9](https://github.com/newhighsco/chipset/compare/v6.15.8...v6.15.9) (2024-01-10)
 
 
