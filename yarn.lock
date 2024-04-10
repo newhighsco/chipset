@@ -2136,10 +2136,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.5.tgz#a044a17b5890a2a938ab2e06a9aabb821bbcf605"
   integrity sha512-XjnENCcPunEB/5BHR6tu97LOy+8SBuq6qBbJ5E4VT8SASLe9U5X3nCSRG6LGh7kS6ScvbHUCXCKhz6YTjYs6ZA==
 
-"@newhighsco/storybook-preset@7.0.12":
-  version "7.0.12"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.12.tgz#3484bea677d9417483378c85204b24787b44c26b"
-  integrity sha512-bkc/8Wh0FyaxCvx2tnuA4ezlgJnH/o0DvUCqO4qC9FW/5VtHEQq9NAceKHB4+eFsYb96nUfiNJK6wwExH2TsrA==
+"@newhighsco/storybook-preset@7.0.13":
+  version "7.0.13"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.13.tgz#33ab5a3097d68aa0857dccc388a329c3b2e1d22b"
+  integrity sha512-ANbIqDpQhB0Pk4VCdBr+rtHRiawY4qjyhFkuegogpaxUMZ6SdFYYl4Rto0eI+/tmEwEaHY5uwKV5q47rhcGHMA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.5"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.5"
@@ -2155,7 +2155,7 @@
     sass "1.74.1"
     sass-loader "14.1.1"
     storybook-dark-mode "4.0.1"
-    style-loader "3.3.4"
+    style-loader "4.0.0"
 
 "@newhighsco/stylelint-config@3.1.79":
   version "3.1.79"
@@ -14866,7 +14866,12 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==
 
-style-loader@3.3.4, style-loader@^3.3.1:
+style-loader@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-4.0.0.tgz#0ea96e468f43c69600011e0589cb05c44f3b17a5"
+  integrity sha512-1V4WqhhZZgjVAVJyt7TdDPZoPBPNHbekX4fWnCJL1yQukhCeZhJySUL+gL9y6sNdN95uEOS83Y55SqHcP7MzLA==
+
+style-loader@^3.3.1:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.4.tgz#f30f786c36db03a45cbd55b6a70d930c479090e7"
   integrity sha512-0WqXzrsMTyb8yjZJHDqwmnwRJvhALK9LfRtRc6B4UTWe8AijYLZYZ9thuJTZc2VfQWINADW/j+LiJnfy2RoC1w==
