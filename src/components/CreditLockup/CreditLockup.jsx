@@ -20,6 +20,7 @@ const CreditLockup = ({ theme, ...rest }) => (
       href={href}
       target="_blank"
       title={title}
+      disabled
     >
       <Icon theme={{ root: theme?.logo }} alt={name}>
         <LogoSvg />

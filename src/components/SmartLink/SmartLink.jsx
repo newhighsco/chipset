@@ -1,4 +1,4 @@
-import { func, node, object, oneOf, oneOfType, string } from 'prop-types'
+import { bool, func, node, object, oneOf, oneOfType, string } from 'prop-types'
 import React from 'react'
 
 import { absoluteUrl } from '../../utils'
@@ -9,6 +9,7 @@ import { absoluteUrl } from '../../utils'
 const SmartLink = ({
   href,
   target,
+  disabled,
   type = 'button',
   setRef,
   children,
@@ -16,6 +17,17 @@ const SmartLink = ({
   ...rest
 }) => {
   if (!children) return null
+
+  if (disabled) {
+    const { role = 'link' } = rest
+
+    return (
+      // eslint-disable-next-line jsx-a11y/anchor-is-valid
+      <a ref={setRef} className={className} role={role} aria-disabled="true">
+        {children}
+      </a>
+    )
+  }
 
   if (!href) {
     return (
@@ -51,6 +63,7 @@ SmartLink.displayName = 'SmartLink'
 SmartLink.propTypes = {
   href: string,
   target: string,
+  disabled: bool,
   type: oneOf(['button', 'reset', 'submit']),
   setRef: oneOfType([func, object]),
   children: node,
