@@ -50,7 +50,7 @@
     "@babel/preset-env": "7.24.4",
     "@babel/preset-react": "7.24.1",
     "@commitlint/cli": "19.2.1",
-    "@fullhuman/postcss-purgecss": "5.0.0",
+    "@fullhuman/postcss-purgecss": "6.0.0",
     "@newhighsco/browserslist-config": "1.1.0",
     "@newhighsco/commitlint-config": "1.1.38",
     "@newhighsco/editor-config": "1.2.0",
