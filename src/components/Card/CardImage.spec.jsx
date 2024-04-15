@@ -13,7 +13,7 @@ describe('Components/CardImage', () => {
   it("should render a <ResponsiveImage /> when 'src' is set", () => {
     render(<CardImage src="https://example.com/image.png" />)
 
-    expect(screen.getByRole('img')).toBeInTheDocument()
+    expect(screen.getByRole('presentation')).toBeInTheDocument()
   })
 
   it("should render correctly when 'render' is set", () => {
@@ -23,6 +23,6 @@ describe('Components/CardImage', () => {
       />
     )
 
-    expect(screen.getByRole('img')).toBeInTheDocument()
+    expect(screen.getByRole('presentation')).toBeInTheDocument()
   })
 })
