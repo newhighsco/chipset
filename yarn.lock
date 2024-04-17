@@ -2136,10 +2136,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.7.tgz#661c32ad4c6a208cfd98f288fcafe420092c81fa"
   integrity sha512-reGvN0EI+ACpZpRMsdT2stQcinyDu0GnAW5itB3T7o2LHyAyk8jCBZGpwsTzRFT3m9CcifsOf/b5HASVTYbI0g==
 
-"@newhighsco/storybook-preset@7.0.18":
-  version "7.0.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.18.tgz#9c7d8cea7ad34a8b8fe9ef3403ae62b42722ff7a"
-  integrity sha512-hD9+J07XQ/e/zjPXL7dI0KGza2eMeeGDgbpnQkBNaZu+7oGsn9RlqcOIXLzvI5QqDesBsFmY+fPkgBVh/g7kyQ==
+"@newhighsco/storybook-preset@7.0.19":
+  version "7.0.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.19.tgz#c09a1ceefd520c29151ca74734277f281abc62cf"
+  integrity sha512-uR6nILO5qLZbOtuYn/tegI19VRneD+TM1ji+AeHlXa9Wp23G5EYaIkTpBAgI7vLHJXwirkkucsLOgQg/rVhKgA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.7"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.7"
@@ -2153,7 +2153,7 @@
     postcss "8.4.38"
     postcss-loader "8.1.1"
     sass "1.75.0"
-    sass-loader "14.2.0"
+    sass-loader "14.2.1"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
@@ -14053,10 +14053,10 @@ safe-regex-test@^1.0.3:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass-loader@14.2.0:
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-14.2.0.tgz#0d4440170fd9c9d93684e274a5ef73dbf55f414b"
-  integrity sha512-jxmjDXD9OYNDb2bp9JvopdE6QjecQY9beTWik/6sEHrsMxyo90Gyc471A4NUz60NLs4WsAh6yVtIvhLwEZcXeg==
+sass-loader@14.2.1:
+  version "14.2.1"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-14.2.1.tgz#db9ad96b56dc1c1ea546101e76375d5b008fec70"
+  integrity sha512-G0VcnMYU18a4N7VoNDegg2OuMjYtxnqzQWARVWCIVSZwJeiL9kg8QMsuIZOplsJgTzZLF6jGxI3AClj8I9nRdQ==
   dependencies:
     neo-async "^2.6.2"
 
