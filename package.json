@@ -51,7 +51,7 @@
     "@newhighsco/commitlint-config": "1.1.39",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.165",
-    "@newhighsco/postcss-config": "3.5.230",
+    "@newhighsco/postcss-config": "3.5.231",
     "@newhighsco/prettier-config": "2.1.22",
     "@newhighsco/release-config": "1.3.71",
     "@newhighsco/storybook-preset": "7.0.19",
