@@ -2094,14 +2094,14 @@
     eslint-plugin-testing-library "6.2.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.235":
-  version "3.5.235"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.235.tgz#42e882cff17769e7d2ec380ce7167118c7a5b813"
-  integrity sha512-gPdYCJIei8mytztSC/PwDsMBwF7YGrB2FXKnBr6CNqwcfJA6RriYMDDiy/eLxpTQo8IC2+cJ7FIUz+FCw+KuYA==
+"@newhighsco/postcss-config@3.5.236":
+  version "3.5.236"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.236.tgz#0597e7b6c93bc3b898ca4cc06242ccb7cf984c3d"
+  integrity sha512-wvNLoObN0flkrwOwMk5ASr9rPfKxvJbPx0bkdhE/Z4G4OFF6OiTGYqQh+y3I3LuGfio3kRnT61lOrua/5A4bGg==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.19"
-    caniuse-lite "1.0.30001614"
+    caniuse-lite "1.0.30001615"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.5.9"
 
@@ -2157,10 +2157,10 @@
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@3.1.80":
-  version "3.1.80"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.80.tgz#b8e1d9bb5ea63f5306f37815e82bff4e45c9f908"
-  integrity sha512-Tv05Z7tkNKJwk3kvnOy9qIWdut2AA2Cx5FgbDc6cv2uCmvbPKfD+aHV5av2W1WFLl5SGZiSIbohPuCfqMeCS3g==
+"@newhighsco/stylelint-config@3.1.81":
+  version "3.1.81"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.81.tgz#d16f66509b41a59b4eff0789d6b7a19ca3e91908"
+  integrity sha512-M/B3DKrWNu58in6cqUWW9ZtOZo97lApPV435MvgjYnTczvpWqh5sdZm5+kiZPogcrdLmc+iUtC2TeNDbcaxzqg==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
@@ -5240,10 +5240,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001614, caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001599:
-  version "1.0.30001614"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001614.tgz#f894b4209376a0bf923d67d9c361d96b1dfebe39"
-  integrity sha512-jmZQ1VpmlRwHgdP1/uiKzgiAuGOfLEJsYFP4+GBou/QQ4U6IOJCB4NP1c+1p9RGLpwObcT94jA5/uO+F1vBbog==
+caniuse-lite@1.0.30001615, caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001599:
+  version "1.0.30001615"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001615.tgz#7c2c8772db681b6dee74d81d6550db68f2d28842"
+  integrity sha512-1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
