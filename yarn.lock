@@ -1055,10 +1055,10 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.2", "@babel/runtime@^7.24.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.24.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.5.tgz#230946857c053a36ccc66e1dd03b17dd0c4ed02c"
-  integrity sha512-Nms86NXrsaeU9vbBJKni6gXiEXZ4CVpYVzEjDH9Sb8vmZ3UljyA1GSOJl/6LGPO8EHLuSF9H+IxNXHPX8QHJ4g==
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.21.0", "@babel/runtime@^7.23.2", "@babel/runtime@^7.24.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.24.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.6.tgz#5b76eb89ad45e2e4a0a8db54c456251469a3358e"
+  integrity sha512-Ja18XcETdEl5mzzACGd+DKgaGJzPTCow7EglgwTmHdwokzDFYh/MHua6lU6DV/hjF2IaOJ4oX2nqnjG7RElKOw==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -1558,12 +1558,12 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
-"@dr.pogodin/react-themes@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.6.1.tgz#b358924732c4f52dcf571ceca339e66028be6dee"
-  integrity sha512-LbM0pOOMJrLiS//k/VNDafM7Q6hq3hBLQGhDpsLhgaDP/fgyXnSV5gUYVCK1qkfQnEkxG6h8/lebsNH3M0Vl0A==
+"@dr.pogodin/react-themes@1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.6.2.tgz#9553aa1e20ef1bd7d1eb1a58c7de7dea32cb8f54"
+  integrity sha512-PiX4pB+Ut43BNn+2hMv4dndNFyOdx6TnT6yizN1WwoRXGuQUCEt2J01hlls5zB4Y6FGCFL7HstriXy/l6zqrTA==
   dependencies:
-    "@babel/runtime" "^7.24.5"
+    "@babel/runtime" "^7.24.6"
 
 "@dual-bundle/import-meta-resolve@^4.1.0":
   version "4.1.0"
