@@ -2093,14 +2093,14 @@
     eslint-plugin-testing-library "6.2.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.250":
-  version "3.5.250"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.250.tgz#2d36bd106f51e9ad464ff75760e7595c97449e71"
-  integrity sha512-6xHiQI3+FvCQ4JkJaDYl25JTAJOkqPdKl1k/fL1NqudOEQpKyihjDoyJ9KYLOH0rWnwEBHu8zRxYPXU8Al5e+Q==
+"@newhighsco/postcss-config@3.5.251":
+  version "3.5.251"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.251.tgz#454517a9dcd80196f6f25081ab79f400358d28a3"
+  integrity sha512-B+sCOWBb+QfG3siM461kdkGZ1RQgZvRkNrcBBft/9sIls/MHhlq6jmD1B21c01fd0xW5MePfBYSLPHi6Z6SHuw==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.19"
-    caniuse-lite "1.0.30001627"
+    caniuse-lite "1.0.30001628"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.5.14"
 
@@ -2109,15 +2109,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.23.tgz#e9edaa233b488e8cc8866d511cb031c676374142"
   integrity sha512-ZM5hBhUva6K/dCSs3UwnANl9LSY5qnTgMBoJHwiRYWsABpVpRgfQCalpSy3eMkgFd7dIAOLYbzbOP3Q4akfBXw==
 
-"@newhighsco/release-config@1.3.76":
-  version "1.3.76"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.76.tgz#585e2f23ec6341b862138f78e33c7e8fac8a5945"
-  integrity sha512-xTwujkuP3cfPKI21dsbhTA1PRvLeK290KC1oawwKqOKQn7vlODZloickubUpLurHUe2XLONrIFNksqaf1VZWqQ==
+"@newhighsco/release-config@1.3.77":
+  version "1.3.77"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.77.tgz#b31a70d667aa752d57971c8001523511824f9d2a"
+  integrity sha512-RXkjZtVyLfCqgwTxYps1FnfApssSZ/7+jzNcoFfTFmDU8sApIwTCB0Mzup3MVudnc2ILlelCjYDZWS/DBlJ9cg==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "10.0.5"
+    "@semantic-release/github" "10.0.6"
     "@semantic-release/npm" "12.0.1"
     "@semantic-release/release-notes-generator" "14.0.0"
     semantic-release-circleci-orb "1.1.1"
@@ -2679,10 +2679,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.0.5", "@semantic-release/github@^10.0.0":
-  version "10.0.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.0.5.tgz#18a091839ac16d32519b60e7508593c9a29f7603"
-  integrity sha512-hmuCDkfru/Uc9+ZBNOSremAupu6BCslvOVDiG0wYcL8TQodCycp6uvwDyeym1H0M4l3ob9c0s0xMBiZjjXQ2yA==
+"@semantic-release/github@10.0.6", "@semantic-release/github@^10.0.0":
+  version "10.0.6"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.0.6.tgz#58cdec447a423f5be9a6a4c912cbc422307f695b"
+  integrity sha512-sS4psqZacGTFEN49UQGqwFNG6Jyx2/RX1BhhDGn/2WoPbhAHislohOY05/5r+JoL4gJMWycfH7tEm1eGVutYeg==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
@@ -5388,10 +5388,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001627, caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001599:
-  version "1.0.30001627"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001627.tgz#8071c42d468e06ed2fb2c545efe79a663fd326ab"
-  integrity sha512-4zgNiB8nTyV/tHhwZrFs88ryjls/lHiqFhrxCW4qSTeuRByBVnPYpDInchOIySWknznucaf31Z4KYqjfbrecVw==
+caniuse-lite@1.0.30001628, caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001599:
+  version "1.0.30001628"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001628.tgz#90b6cd85ddc2e9f831de0225f4ca5a130c8d8222"
+  integrity sha512-S3BnR4Kh26TBxbi5t5kpbcUlLJb9lhtDXISDPwOfI+JoC+ik0QksvkZtUVyikw3hjnkgkMPSJ8oIM9yMm9vflA==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
