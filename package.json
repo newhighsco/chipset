@@ -57,7 +57,7 @@
     "@newhighsco/storybook-preset": "7.0.42",
     "@newhighsco/stylelint-config": "3.1.85",
     "@storybook/react-webpack5": "8.1.11",
-    "@testing-library/dom": "10.2.0",
+    "@testing-library/dom": "10.3.0",
     "@testing-library/jest-dom": "6.4.6",
     "@testing-library/react": "16.0.0",
     "babel-loader": "9.1.3",
