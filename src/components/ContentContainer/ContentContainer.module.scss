@@ -2,11 +2,11 @@
 @use '../../../styles/breakpoints.module';
 
 .root {
-  @include mixins.clearfix;
-
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+
+  @include mixins.clearfix;
 }
 
 @each $size, $maxWidth in breakpoints.$all {
