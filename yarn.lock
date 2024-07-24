@@ -2112,10 +2112,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.21.tgz#054e8ba8b3751456409b4f08778b69cf71f64fec"
   integrity sha512-5aS9214STor/vvzaCOjaEtP4g5kZKQqI1Y4xD7+kpAw17rAwO5Nwscw8dr4tQO3kTzJSb77sESwaG1BPb4U+1Q==
 
-"@newhighsco/storybook-preset@7.0.47":
-  version "7.0.47"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.47.tgz#53788436ba4db4f859ca24c4af0b79ea8d59fa38"
-  integrity sha512-r6B45649GuolAuM/skQPudlwE3TjwdUKUAmGZmK6+VebxyExPRAXXWFi5lONznAD3+QlJKsfQCETCSouR43Vqg==
+"@newhighsco/storybook-preset@7.0.48":
+  version "7.0.48"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.48.tgz#bd0b28fa83c370c26daafa5956c6fecb2b499593"
+  integrity sha512-VFQo7+JdgK7WMsYQnHjzg9GGeCZy4Z5NpXIoR6Wbvzhl+5wMVBWcxF0OnkVKCqHTO2ruULLlPVQq5wUl7hLolA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.21"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.21"
@@ -2130,7 +2130,7 @@
     postcss-loader "8.1.1"
     sass "1.77.8"
     sass-loader "14.2.1"
-    storybook-dark-mode "4.0.2"
+    storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
 "@newhighsco/stylelint-config@3.1.85":
@@ -14005,10 +14005,10 @@ statuses@2.0.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
-storybook-dark-mode@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-4.0.2.tgz#2536d1a229ac050172d37aa50bd9f6f7cdad0425"
-  integrity sha512-zjcwwQ01R5t1VsakA6alc2JDIRVtavryW8J3E3eKLDIlAMcvsgtpxlelWkZs2cuNspk6Z10XzhQVrUWtYc3F0w==
+storybook-dark-mode@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-4.0.1.tgz#899cedb527f43aec1a1a782b767ba2ac32a113da"
+  integrity sha512-9l3qY8NdgwZnY+NlO1XHB3eUb6FmZo9GazJeUSeFkjRqwA5FmnMSeq0YVqEOqfwniM/TvQwOiTYd5g/hC2wugA==
   dependencies:
     "@storybook/components" "^8.0.0"
     "@storybook/core-events" "^8.0.0"
