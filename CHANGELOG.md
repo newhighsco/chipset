@@ -1,3 +1,10 @@
+## [6.16.4](https://github.com/newhighsco/chipset/compare/v6.16.3...v6.16.4) (2024-07-24)
+
+
+### Bug Fixes
+
+* **content-container:** prevent Sass warnings ([#2189](https://github.com/newhighsco/chipset/issues/2189)) ([57a97df](https://github.com/newhighsco/chipset/commit/57a97df64efa03e6de915e279d09722f6906a260))
+
 ## [6.16.3](https://github.com/newhighsco/chipset/compare/v6.16.2...v6.16.3) (2024-06-19)
 
 
