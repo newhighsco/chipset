@@ -2043,10 +2043,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.192":
-  version "4.0.192"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.192.tgz#8dd58828bbc73b36d644c17b4bae3b9e00cd51ff"
-  integrity sha512-sz4wt1GQFcoSG9WS3HM8zOYhIBugmt7+p0tETxjp0GAeV7TMRInWyPWLvZIgYk8Dxwd+xUCx1y8ocuiRdOWjPQ==
+"@newhighsco/eslint-config@4.0.193":
+  version "4.0.193"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.193.tgz#4bb3f2de479c0679e791fecebc523cf9264eaf19"
+  integrity sha512-Sha493tu695G1gfWZa2qw2KHv+OnxN2oYxLMHpZP7GGc87Jjka/yuS05Ikr9QfHHbw8BH/5MODwt8abpKVRmJA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.13.0"
     "@typescript-eslint/parser" "7.13.0"
@@ -2065,19 +2065,19 @@
     eslint-plugin-promise "6.2.0"
     eslint-plugin-react "7.34.2"
     eslint-plugin-react-hooks "4.6.2"
-    eslint-plugin-simple-import-sort "12.1.0"
+    eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.8.0"
     eslint-plugin-testing-library "6.2.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.253":
-  version "3.5.253"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.253.tgz#fe9f71117efc2d37d52d0a30bc1b88c800df107c"
-  integrity sha512-1jB5tp69Ys68Y0zpBR3pN1VfptCY+kYtreCepryyElSczQ+8ZTNV1rlHQShDGL5qzKPLUTUvxgle9DUJv+eQng==
+"@newhighsco/postcss-config@3.5.254":
+  version "3.5.254"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.254.tgz#b1b6a768ee4330913b936b23135d42ff3b89e707"
+  integrity sha512-DS32Damqsb+5d/kFeZR6aKqoEK1dV7HPyK/vJVrhRVaX4Cnz8A6Bl0NdcrlOMmKXVbP/IuPMMPEqiUK5Xv8VOg==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.19"
-    caniuse-lite "1.0.30001632"
+    caniuse-lite "1.0.30001643"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "9.5.14"
 
@@ -2112,10 +2112,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.21.tgz#054e8ba8b3751456409b4f08778b69cf71f64fec"
   integrity sha512-5aS9214STor/vvzaCOjaEtP4g5kZKQqI1Y4xD7+kpAw17rAwO5Nwscw8dr4tQO3kTzJSb77sESwaG1BPb4U+1Q==
 
-"@newhighsco/storybook-preset@7.0.48":
-  version "7.0.48"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.48.tgz#bd0b28fa83c370c26daafa5956c6fecb2b499593"
-  integrity sha512-VFQo7+JdgK7WMsYQnHjzg9GGeCZy4Z5NpXIoR6Wbvzhl+5wMVBWcxF0OnkVKCqHTO2ruULLlPVQq5wUl7hLolA==
+"@newhighsco/storybook-preset@7.0.50":
+  version "7.0.50"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.50.tgz#79f6aa6308d7c256061fcc73e4dcbfcefe72e625"
+  integrity sha512-Ls4uikmV2NkREECDSsHiLNGjLgcJQFK00DTwj7un55Dl+Cmi0H3PBvRgNNxgFDGNgDEfNg9p4JFopxfxYoa12g==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.21"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.21"
@@ -2126,10 +2126,10 @@
     "@storybook/addon-styling-webpack" "1.0.0"
     "@storybook/addon-webpack5-compiler-swc" "1.0.4"
     css-loader "7.1.2"
-    postcss "8.4.39"
+    postcss "8.4.40"
     postcss-loader "8.1.1"
     sass "1.77.8"
-    sass-loader "14.2.1"
+    sass-loader "15.0.0"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
@@ -4811,15 +4811,10 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001632:
-  version "1.0.30001632"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001632.tgz#964207b7cba5851701afb4c8afaf1448db3884b6"
-  integrity sha512-udx3o7yHJfUxMLkGohMlVHCvFvWmirKh9JAH/d7WOLPetlH+LTL5cocMZ0t7oZx/mdlOWXti97xLZWc8uURRHg==
-
-caniuse-lite@^1.0.30001599, caniuse-lite@^1.0.30001640:
-  version "1.0.30001641"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001641.tgz#3572862cd18befae3f637f2a1101cc033c6782ac"
-  integrity sha512-Phv5thgl67bHYo1TtMY/MurjkHhV4EDaCosezRXgZ8jzA/Ub+wjxAvbGvjoFENStinwi5kCyOYV3mi5tOGykwA==
+caniuse-lite@1.0.30001643, caniuse-lite@^1.0.30001599, caniuse-lite@^1.0.30001640:
+  version "1.0.30001643"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001643.tgz#9c004caef315de9452ab970c3da71085f8241dbd"
+  integrity sha512-ERgWGNleEilSrHM6iUz/zJNSQTP8Mr21wDWpdgvRwcTXGAq6jMtOUPP4dqFPTdKqZ2wKTdtB+uucZ3MRpAUSmg==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -6677,10 +6672,10 @@ eslint-plugin-react@7.34.2:
     semver "^6.3.1"
     string.prototype.matchall "^4.0.11"
 
-eslint-plugin-simple-import-sort@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.0.tgz#8186ad55474d2f5c986a2f1bf70625a981e30d05"
-  integrity sha512-Y2fqAfC11TcG/WP3TrI1Gi3p3nc8XJyEOJYHyEPEGI/UAgNx6akxxlX74p7SbAQdLcgASKhj8M0GKvH3vq/+ig==
+eslint-plugin-simple-import-sort@12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
+  integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
 eslint-plugin-storybook@0.8.0:
   version "0.8.0"
@@ -12517,10 +12512,19 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.39, postcss@^8.4.33, postcss@^8.4.39, postcss@^8.4.4:
+postcss@8.4.39:
   version "8.4.39"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.39.tgz#aa3c94998b61d3a9c259efa51db4b392e1bde0e3"
   integrity sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==
+  dependencies:
+    nanoid "^3.3.7"
+    picocolors "^1.0.1"
+    source-map-js "^1.2.0"
+
+postcss@8.4.40, postcss@^8.4.33, postcss@^8.4.39, postcss@^8.4.4:
+  version "8.4.40"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.40.tgz#eb81f2a4dd7668ed869a6db25999e02e9ad909d8"
+  integrity sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==
   dependencies:
     nanoid "^3.3.7"
     picocolors "^1.0.1"
@@ -13471,10 +13475,10 @@ safe-regex-test@^1.0.3:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass-loader@14.2.1:
-  version "14.2.1"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-14.2.1.tgz#db9ad96b56dc1c1ea546101e76375d5b008fec70"
-  integrity sha512-G0VcnMYU18a4N7VoNDegg2OuMjYtxnqzQWARVWCIVSZwJeiL9kg8QMsuIZOplsJgTzZLF6jGxI3AClj8I9nRdQ==
+sass-loader@15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-15.0.0.tgz#a883fda2b70c27d4a49835057da6b8d8564a419d"
+  integrity sha512-mbXAL7sI/fgt3skXR6xHxtKkaGyxRrGf7zrU4hLLWxBDJEcAe0QsoNy92qKttCb3zfMniTkU2kD9yakUKtW7vQ==
   dependencies:
     neo-async "^2.6.2"
 
