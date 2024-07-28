@@ -2146,10 +2146,10 @@
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@3.1.87":
-  version "3.1.87"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.87.tgz#bf74569d2917ac093272382979911b46088ba27e"
-  integrity sha512-wqf8Fz3Ufn7s58gwLNMXXLz6pEyeIkihoU2oH4bIblcK9cZYqSUruyuRgYPKnrT6yg+OTCohCmOenJGBgxL8EA==
+"@newhighsco/stylelint-config@3.1.88":
+  version "3.1.88"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.88.tgz#fe40abcfaad216fe317fde242f7c1ef8bfa21ff6"
+  integrity sha512-LJo48dqyxTU/JDnTfkjIzcUHDduX33VVCENIEhKNczyedItKvRW2Nk6LHAxNWaq2gGrkQkQj4LSXCXQH7lSo+A==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
