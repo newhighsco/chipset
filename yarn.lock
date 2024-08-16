@@ -2101,15 +2101,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
   integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
-"@newhighsco/release-config@1.3.80":
-  version "1.3.80"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.80.tgz#dfa2ca7a29573acdb9c6b09a951788ffa2750f7a"
-  integrity sha512-WMD1GIRTwNyeP6GsEOFLdg6p9SpRvXpKdS+TSbT64v3Jy7cvKt0bdI4hvrgaVlhcwsunUl5uzAVn0JkzhKmXYw==
+"@newhighsco/release-config@1.3.81":
+  version "1.3.81"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.81.tgz#c3b4809c29593f0a04078907f9f7e3106a1ffaff"
+  integrity sha512-l6PThbmnNtMVDd06s5M8ihD//Fi2Y10tWUpy0VhqKSiWJ6xJUnwlcHcdEQkJNTXc1P98lV8UP/+HUR1CVax1qA==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "10.1.5"
+    "@semantic-release/github" "10.1.6"
     "@semantic-release/npm" "12.0.1"
     "@semantic-release/release-notes-generator" "14.0.1"
     semantic-release-circleci-orb "1.1.1"
@@ -2148,10 +2148,10 @@
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@3.1.90":
-  version "3.1.90"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.90.tgz#f1cb604bd3d3b5678e368b2705614b5991cff318"
-  integrity sha512-OvoDyNnBrtvYnOLRCUkgYoY3gQ71xpHdgh+FMuTSBq5DZjk+DJ6NPoUliwHK7Bz5rk2ztkoHTAr8tHGGulTUAQ==
+"@newhighsco/stylelint-config@3.1.91":
+  version "3.1.91"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.91.tgz#aa30fa63fb7c808559ea1c15728b4ba0ce6d40fc"
+  integrity sha512-WOh0Itr4OfbsT2/eEvonUe2pV2iRpAASDhJTxalWPX3F17PD1NfBIvWR9oKQ8uhYT7jxpN34Pgzz8ppteiIctw==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
@@ -2529,10 +2529,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.1.5", "@semantic-release/github@^10.0.0":
-  version "10.1.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.1.5.tgz#c60b09a988067924f1c603150286fffc54fcb1da"
-  integrity sha512-S68D1r3gxWxk8jh2nINjEX/HYFb/i6X7ooxyvrv5CWLFuyEJQpN/zFw4zr8ti0YFXtKaccfpVQuVOgF0w+VacA==
+"@semantic-release/github@10.1.6", "@semantic-release/github@^10.0.0":
+  version "10.1.6"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.1.6.tgz#7d61b42e40094e341fd3b62fc8f42307b48c2015"
+  integrity sha512-UTW7hNp6nDeJJWrHcNx8dki95d12WVh++PH98rIr7PQxrZrnjtL0ys/rsAt9tOBTWBaCZdj6797RMLkY9tU+ug==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
