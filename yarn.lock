@@ -2103,10 +2103,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.24.tgz#f45ac698811fb161370291ca821b866bd8535f73"
   integrity sha512-uGzXOODxmfh2SQFs+yYeDO60ml81tiPp4veV9lkN/wHvfLMXYBewvREHEh0Ls3uzZiVi14vCD+QnqhI+rf2W3g==
 
-"@newhighsco/storybook-preset@7.0.57":
-  version "7.0.57"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.57.tgz#45d0a4f55ca7441441310cc2dfc9bc78f92d8e92"
-  integrity sha512-BRR2tzCz11NoNTLhfXaXRu8Ii+e73tDLMzIPRFBpHwHJUzIBEP1Rd3FfY4TYCmTMvFKLHDylfRaAy0lMe3LPXQ==
+"@newhighsco/storybook-preset@7.0.58":
+  version "7.0.58"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.58.tgz#2b84fcf36d4e954ff7f1502c21c04c03fe834b34"
+  integrity sha512-MFxfQ+xQJtagPASFi3EjzfN4jwGM/oT/0DBCdwNaA6kPN9k6HEI9ON2PI1hONmdkFZyOTHOQ+OGYV21THadj8A==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.24"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.24"
@@ -2117,7 +2117,7 @@
     "@storybook/addon-styling-webpack" "1.0.0"
     "@storybook/addon-webpack5-compiler-swc" "1.0.5"
     css-loader "7.1.2"
-    postcss "8.4.41"
+    postcss "8.4.42"
     postcss-loader "8.1.1"
     sass "1.77.8"
     sass-loader "16.0.1"
@@ -12521,15 +12521,6 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
-
-postcss@8.4.41:
-  version "8.4.41"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.41.tgz#d6104d3ba272d882fe18fc07d15dc2da62fa2681"
-  integrity sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==
-  dependencies:
-    nanoid "^3.3.7"
-    picocolors "^1.0.1"
-    source-map-js "^1.2.0"
 
 postcss@8.4.42, postcss@^8.4.33, postcss@^8.4.4, postcss@^8.4.41:
   version "8.4.42"
