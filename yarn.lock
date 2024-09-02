@@ -2103,10 +2103,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.24.tgz#f45ac698811fb161370291ca821b866bd8535f73"
   integrity sha512-uGzXOODxmfh2SQFs+yYeDO60ml81tiPp4veV9lkN/wHvfLMXYBewvREHEh0Ls3uzZiVi14vCD+QnqhI+rf2W3g==
 
-"@newhighsco/storybook-preset@7.0.58":
-  version "7.0.58"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.58.tgz#2b84fcf36d4e954ff7f1502c21c04c03fe834b34"
-  integrity sha512-MFxfQ+xQJtagPASFi3EjzfN4jwGM/oT/0DBCdwNaA6kPN9k6HEI9ON2PI1hONmdkFZyOTHOQ+OGYV21THadj8A==
+"@newhighsco/storybook-preset@7.0.59":
+  version "7.0.59"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.59.tgz#3269cbda1b0876e90827ec598ab127f920d55dac"
+  integrity sha512-HhhevejXmeQFmou5tKmZPVw43FRsWWJCJchnujlfE3btH0lUQrQ3W+L9qkYqNSxMFeS3dJ3dFJW5JxKbKdUqYw==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.24"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.24"
@@ -2117,7 +2117,7 @@
     "@storybook/addon-styling-webpack" "1.0.0"
     "@storybook/addon-webpack5-compiler-swc" "1.0.5"
     css-loader "7.1.2"
-    postcss "8.4.42"
+    postcss "8.4.43"
     postcss-loader "8.1.1"
     sass "1.77.8"
     sass-loader "16.0.1"
