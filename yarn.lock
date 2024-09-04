@@ -2034,10 +2034,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.211":
-  version "4.0.211"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.211.tgz#4de52c8a6770fcedaf42809a0d8f8b87daf06926"
-  integrity sha512-9oJHJYMjuZSymsv2QacdKZg11Xh7tWPmI2jN2gW3MVtpIID/5Q4/BUH9env/WkWFirYF7eGBFYs880+QY7OX6g==
+"@newhighsco/eslint-config@4.0.212":
+  version "4.0.212"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.212.tgz#0baed1701df6014fe445cbd7d952955b6969e30a"
+  integrity sha512-UH4HPdIdE6oZrc1lwvp5RBLa3tjF5r7uXbQewFrtc9FF3kX5hj67pqaK0LRzSOwd0TlJ8HRVIJ6wbzXUl1Sh8w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -2054,7 +2054,7 @@
     eslint-plugin-n "17.10.2"
     eslint-plugin-prettier "5.2.1"
     eslint-plugin-promise "7.1.0"
-    eslint-plugin-react "7.35.1"
+    eslint-plugin-react "7.35.2"
     eslint-plugin-react-hooks "4.6.2"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.8.0"
@@ -2077,15 +2077,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
   integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
-"@newhighsco/release-config@1.3.84":
-  version "1.3.84"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.84.tgz#f89211ccbaf5294c551298cd0928aeca42a99f85"
-  integrity sha512-yJ01BA7n/u7r3zGXHgUZYFebOgm7LjcoIOQHU0eP7e64XEyXxNF1AnOkm+se3Y3icOKQnZOZCm5AACWOAbAOeA==
+"@newhighsco/release-config@1.3.85":
+  version "1.3.85"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.85.tgz#dca1f43e1dae6590e6ca206975f925409a6e4833"
+  integrity sha512-yR24ToJUzHTQXvCzBfoW17CmWvoyY81nM08rhrqjbIvDyZBwG3uWSfKN0PznAgEjyeDUiLs8duIDxaHbY2uekg==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "10.3.0"
+    "@semantic-release/github" "10.3.1"
     "@semantic-release/npm" "12.0.1"
     "@semantic-release/release-notes-generator" "14.0.1"
     semantic-release-circleci-orb "1.1.1"
@@ -2103,10 +2103,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.24.tgz#f45ac698811fb161370291ca821b866bd8535f73"
   integrity sha512-uGzXOODxmfh2SQFs+yYeDO60ml81tiPp4veV9lkN/wHvfLMXYBewvREHEh0Ls3uzZiVi14vCD+QnqhI+rf2W3g==
 
-"@newhighsco/storybook-preset@7.0.60":
-  version "7.0.60"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.60.tgz#a90f56b102696f694223ce740b184f6972886d0b"
-  integrity sha512-c3CKI3poDLBzDK/xaRRD7WFQEqW+lANIa0W0S4rs9JaNbFJZjr8/y8T4H1nmSvY++SOOy4aHc/o6OUIvQGP2Uw==
+"@newhighsco/storybook-preset@7.0.61":
+  version "7.0.61"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.61.tgz#e0319397b39f530970755ac63920a917cdad0aa4"
+  integrity sha512-5PdmXZvpELA4hETt3Rz0Nv3Kj+k8mOFTznbh2jJ3UHZftj39PZOjhCXQN41Df3iHrTBjoSmPMTwweYj2hxgoJw==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.24"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.24"
@@ -2119,7 +2119,7 @@
     css-loader "7.1.2"
     postcss "8.4.44"
     postcss-loader "8.1.1"
-    sass "1.77.8"
+    sass "1.78.0"
     sass-loader "16.0.1"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
@@ -2510,10 +2510,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.3.0", "@semantic-release/github@^10.0.0":
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.3.0.tgz#2c6fa6650f606afb30d92773bfff19fca42093e3"
-  integrity sha512-30ix6pw6PLW3tU0t8fNqPetCJq8IX1TX/sGMVCX6zhGa+7lkkvRMtx3Dar6slmiysPmF0o8iaQK1m5JoHyjYIQ==
+"@semantic-release/github@10.3.1", "@semantic-release/github@^10.0.0":
+  version "10.3.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.3.1.tgz#e3ed771f97f6b1de92e41d416e1e6ab69c8ccc46"
+  integrity sha512-i9aOeDgjhhbWWcm0UueHz4cjnk7Mu/TSEV94cKNCJ5y+x1mxZd/KdoQy+tuFdRyHiuTvsbOq16W7U/GAEsMAOQ==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
@@ -6665,10 +6665,10 @@ eslint-plugin-react-hooks@4.6.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
   integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
 
-eslint-plugin-react@7.35.1:
-  version "7.35.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.35.1.tgz#afc80387031aa99dd6e0a14437c77d02e5700b47"
-  integrity sha512-B5ok2JgbaaWn/zXbKCGgKDNL2tsID3Pd/c/yvjcpsd9HQDwyYc/TQv3AZMmOvrJgCs3AnYNUHRCQEMMQAYJ7Yg==
+eslint-plugin-react@7.35.2:
+  version "7.35.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.35.2.tgz#d32500d3ec268656d5071918bfec78cfd8b070ed"
+  integrity sha512-Rbj2R9zwP2GYNcIak4xoAMV57hrBh3hTaR0k7hVjwCQgryE/pw5px4b13EYjduOI0hfXyZhwBxaGpOTbWSGzKQ==
   dependencies:
     array-includes "^3.1.8"
     array.prototype.findlast "^1.2.5"
@@ -13489,10 +13489,10 @@ sass-true@8.0.0:
     jest-diff "^29.7.0"
     lodash "^4.17.21"
 
-sass@1.77.8:
-  version "1.77.8"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.77.8.tgz#9f18b449ea401759ef7ec1752a16373e296b52bd"
-  integrity sha512-4UHg6prsrycW20fqLGPShtEvo/WyHRVRHwOP4DzkUrObWoWI05QBSfzU71TVB7PFaL104TwNaHpjlWXAZbQiNQ==
+sass@1.78.0:
+  version "1.78.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.78.0.tgz#cef369b2f9dc21ea1d2cf22c979f52365da60841"
+  integrity sha512-AaIqGSrjo5lA2Yg7RvFZrlXDBCp3nV4XP73GrLGvdRWWwk+8H3l0SDvq/5bA4eF+0RFPLuWUk3E+P1U/YqnpsQ==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
