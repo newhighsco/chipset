@@ -70,7 +70,7 @@
     "jest-environment-jsdom": "29.7.0",
     "jest-environment-node-single-context": "29.4.0",
     "jest-junit": "16.0.0",
-    "postcss": "8.4.45",
+    "postcss": "8.4.47",
     "prettier": "3.3.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
