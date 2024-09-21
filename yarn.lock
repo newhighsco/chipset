@@ -2046,15 +2046,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
   integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
-"@newhighsco/release-config@1.3.89":
-  version "1.3.89"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.89.tgz#14665fca9875cbbfebbddb281fa96aa9c0df83b5"
-  integrity sha512-c0DuQvOXUiuktwizdshcXkY/GHkanuROk8EZa5BxDT/g5rGwwjTS5qr688rvA8YbRTJT+lbH0+69poMOBot5AA==
+"@newhighsco/release-config@1.3.90":
+  version "1.3.90"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.90.tgz#1e14526878842c2638b4864ddef6c4c2da20adcf"
+  integrity sha512-ihQn4y5KnFjqY106fU4/wtTpew8h7DY/jKYFlT9Xpcz2gJEu1t3zO0kXU5juZene3v1d8r/Qm+tG+MmZXM7ZPA==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "10.3.4"
+    "@semantic-release/github" "10.3.5"
     "@semantic-release/npm" "12.0.1"
     "@semantic-release/release-notes-generator" "14.0.1"
     semantic-release-circleci-orb "1.1.1"
@@ -2072,10 +2072,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.27.tgz#aee904cf2e4478f6d0346222386d7a2ee3c31483"
   integrity sha512-lZwNJV7xeo3zoyBbTAVpEjQ7BqJbxuzi4Dq1lzn0NA2SY2zpZDy+1qJiSNJRGlF9OPU8EbDJ1uzDDwFecTORLA==
 
-"@newhighsco/storybook-preset@7.0.67":
-  version "7.0.67"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.67.tgz#d553e3d0060534c5758a971f8a39f40ea6129ca1"
-  integrity sha512-N6chle9aTaJkPBTw2pysbnpyI6bggbJ+uvb8T7ELfyf7ZIGchDvJdTzPM2jEmOZrlzSA6KDoeZdsO8ZmJyH48A==
+"@newhighsco/storybook-preset@7.0.69":
+  version "7.0.69"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.69.tgz#653ca36b4ec60f74c933fd11920fb50db17f5404"
+  integrity sha512-yo+z4oXBPNOvdCTavNVK3fxnHCYEpZaMxplZqbpSFvhiG4Ecum/Ymt06tth8irFOcIxz0ylP7Scryj4Rks1xAg==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.27"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.27"
@@ -2088,8 +2088,8 @@
     css-loader "7.1.2"
     postcss "8.4.47"
     postcss-loader "8.1.1"
-    sass "1.79.2"
-    sass-loader "16.0.1"
+    sass "1.79.3"
+    sass-loader "16.0.2"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
@@ -2479,10 +2479,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.3.4", "@semantic-release/github@^10.0.0":
-  version "10.3.4"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.3.4.tgz#d54f3c18491592482e815690e9e8c702c5b3b277"
-  integrity sha512-JghCkEk7e2u+iauMje8lgHH11pbtaz9yTdMn/PyfulCdBshIwpp+Mu/NR8Ml216auEUtvmBpQX5+Cth2TsVUVw==
+"@semantic-release/github@10.3.5", "@semantic-release/github@^10.0.0":
+  version "10.3.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.3.5.tgz#112b6ee41fe78356359aa7ba9a1e98b68c8640fc"
+  integrity sha512-svvRglGmvqvxjmDgkXhrjf0lC88oZowFhOfifTldbgX9Dzj0inEtMLaC+3/MkDEmxmaQjWmF5Q/0CMIvPNSVdQ==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
@@ -13222,10 +13222,10 @@ safe-regex-test@^1.0.3:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sass-loader@16.0.1:
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-16.0.1.tgz#57049c1787076e923b21a1dccc612546ecaf4295"
-  integrity sha512-xACl1ToTsKnL9Ce5yYpRxrLj9QUDCnwZNhzpC7tKiFyA8zXsd3Ap+HGVnbCgkdQcm43E+i6oKAWBsvGA6ZoiMw==
+sass-loader@16.0.2:
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-16.0.2.tgz#e581bc13d7cb5090e27f155c6aa2855c08cafe86"
+  integrity sha512-Ll6iXZ1EYwYT19SqW4mSBb76vSSi8JgzElmzIerhEGgzB5hRjDQIWsPmuk1UrAXkR16KJHqVY0eH+5/uw9Tmfw==
   dependencies:
     neo-async "^2.6.2"
 
@@ -13238,10 +13238,10 @@ sass-true@8.0.0:
     jest-diff "^29.7.0"
     lodash "^4.17.21"
 
-sass@1.79.2:
-  version "1.79.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.79.2.tgz#e0ee2877eaadaf17b4086fd15783e625bb77447e"
-  integrity sha512-YmT1aoF1MwHsZEu/eXhbAJNsPGAhNP4UixW9ckEwWCvPcVdVF0/C104OGDVEqtoctKq0N+wM20O/rj+sSPsWeg==
+sass@1.79.3:
+  version "1.79.3"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.79.3.tgz#7811b000eb68195fe51dea89177e73e7ef7f546f"
+  integrity sha512-m7dZxh0W9EZ3cw50Me5GOuYm/tVAJAn91SUnohLRo9cXBixGUOdvmryN+dXpwR831bhoY3Zv7rEFt85PUwTmzA==
   dependencies:
     chokidar "^4.0.0"
     immutable "^4.0.0"
