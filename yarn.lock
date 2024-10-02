@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@adobe/css-tools@^4.3.3", "@adobe/css-tools@^4.4.0":
+"@adobe/css-tools@^4.4.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.4.0.tgz#728c484f4e10df03d5a3acd0d8adcbbebff8ad63"
   integrity sha512-Ff9+ksdQQB3rMncgqDK78uLznstjyfIf2Arnh22pW8kBpLs6rpKDwgnZT46hin5Hl1WzazzK64DOrhSwYpS7bQ==
@@ -13229,12 +13229,12 @@ sass-loader@16.0.2:
   dependencies:
     neo-async "^2.6.2"
 
-sass-true@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/sass-true/-/sass-true-8.0.0.tgz#ef7795ba4f3a28d94c7e5d60f0e640633597d0ff"
-  integrity sha512-bk6m12BFxjRWnu0DHfqmsF36Eoxg3grLlLM4PhcgN6Znd9DvK2xVGJtWQ05u5RqEos3JaIX50MMN+gsAYUnEDA==
+sass-true@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/sass-true/-/sass-true-8.1.0.tgz#bbf01b971b61b14cf4143620f94c3564792b9a1c"
+  integrity sha512-LUiNRslsNreGk8Oe85ZvMmV0mlIh3LFP2KTDMZsSHz5DxPElCy7wI9ocJzf8IpIf7Q5ZO0w+hDBF1nbdUcmZHA==
   dependencies:
-    "@adobe/css-tools" "^4.3.3"
+    "@adobe/css-tools" "^4.4.0"
     jest-diff "^29.7.0"
     lodash "^4.17.21"
 
