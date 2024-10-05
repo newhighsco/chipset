@@ -2025,16 +2025,16 @@
     eslint-plugin-testing-library "6.3.0"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.280":
-  version "3.5.280"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.280.tgz#c66d0d0caf8132991d15a78148e661b931f636f1"
-  integrity sha512-EfoA6qmmamR58QVjvAMF6gTbkPtcaZnm0OIKYDpfZFx5MIxnGJN0ozLmvIMEb89EXE2PsYxOar/AnYLkO/C8GQ==
+"@newhighsco/postcss-config@3.5.281":
+  version "3.5.281"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.281.tgz#0182ebab2d1ca7e47187294aca2959ee6fadd2a1"
+  integrity sha512-552kU+V+OkbnN+X2LF2cNQG+D4MCTJ6FOvHbDr2zYuOelLcMJ5amuZWO0ZS0oEivcXEf8KtIzSb5mLcLXqLrwg==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.20"
     caniuse-lite "1.0.30001667"
     postcss-flexbugs-fixes "5.0.2"
-    postcss-preset-env "10.0.5"
+    postcss-preset-env "10.0.6"
 
 "@newhighsco/prettier-config@2.1.26":
   version "2.1.26"
@@ -11987,10 +11987,10 @@ postcss-color-rebeccapurple@^10.0.0:
     "@csstools/utilities" "^2.0.0"
     postcss-value-parser "^4.2.0"
 
-postcss-custom-media@^11.0.1:
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-custom-media/-/postcss-custom-media-11.0.1.tgz#7f7157a9235d78432b20a722d8f3844a85043eb8"
-  integrity sha512-vfBliYVgEEJUFXCRPQ7jYt1wlD322u+/5GT0tZqMVYFInkpDHfjhU3nk2quTRW4uFc/umOOqLlxvrEOZRvloMw==
+postcss-custom-media@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-custom-media/-/postcss-custom-media-11.0.2.tgz#5e490d224e5d9714d1bf587a7df8561ce2db742c"
+  integrity sha512-IDtxB1VgPayRLjNBMjuf827sn1j2m9EGnhIxpx2coVerbWJF+twt590+PKvdDc4K8QNFqFJh+W/SOiHpasVXsg==
   dependencies:
     "@csstools/cascade-layer-name-parser" "^2.0.1"
     "@csstools/css-parser-algorithms" "^3.0.1"
@@ -12164,10 +12164,10 @@ postcss-place@^10.0.0:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@10.0.5:
-  version "10.0.5"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.0.5.tgz#f7bf8d5fdbc2d40627dccf07e7af5a48c2b61e6a"
-  integrity sha512-ipPOgr3RY0utgJDbNoCX2dxKoQ4e4WO1pC21QhDlxCAX8+qC8O2Ezkzb54fd+8XtZ1UveA5gLjBsVo6dJDoWIg==
+postcss-preset-env@10.0.6:
+  version "10.0.6"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.0.6.tgz#da0877287d63cbc5a5d623002714442deafcc6fd"
+  integrity sha512-qixfM2wbvKJhUjJELLB8lV2UCsyrMdSXqiXHiNKMgAbNturstc80j/8MsthJeOpxYEekrCrFzcaoOJm8JRSdBg==
   dependencies:
     "@csstools/postcss-cascade-layers" "^5.0.0"
     "@csstools/postcss-color-function" "^4.0.2"
@@ -12210,7 +12210,7 @@ postcss-preset-env@10.0.5:
     postcss-color-functional-notation "^7.0.2"
     postcss-color-hex-alpha "^10.0.0"
     postcss-color-rebeccapurple "^10.0.0"
-    postcss-custom-media "^11.0.1"
+    postcss-custom-media "^11.0.2"
     postcss-custom-properties "^14.0.1"
     postcss-custom-selectors "^8.0.1"
     postcss-dir-pseudo-class "^9.0.0"
