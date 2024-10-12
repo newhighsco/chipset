@@ -1948,10 +1948,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.223":
-  version "4.0.223"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.223.tgz#6cc41d8c9a35e2a29a72c5e7a0ec59fd77a02f27"
-  integrity sha512-leCGwtMwpqzu54uV4fIUCbJNXsHP1B97haipKcm8Xd5ZXMhaA7y7TjUvlfNr25o3NwqRsAXzBnE0f4A4V4k7pw==
+"@newhighsco/eslint-config@4.0.224":
+  version "4.0.224"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.224.tgz#069b6fd2c1d7324b62980d4b3d9082ab20511673"
+  integrity sha512-7H9hFKfxL6GiAq2KdqA+uNLRgxWei85kVu9F8NPariBan1y9zbQR69pfSsu2ptjQIFSQl/VcuSSM0yoxRPtehA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1960,7 +1960,7 @@
     eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
-    eslint-plugin-cypress "3.5.0"
+    eslint-plugin-cypress "3.6.0"
     eslint-plugin-import "2.31.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.0"
@@ -2038,10 +2038,10 @@
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@3.1.92":
-  version "3.1.92"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.92.tgz#0ccbf629bfbea611de1f412a0b57956865b0771d"
-  integrity sha512-6iH3npYijY+VpXLDFDfqrr4LL3etLygE8L5wAhHxFtbMKBcgnVp/y5KspBXMVwjYsAY/yCj3TCqYlgt0HkIS+g==
+"@newhighsco/stylelint-config@3.1.93":
+  version "3.1.93"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.93.tgz#1c3eb6978063e34c36d40c2fddcf0762a8a97135"
+  integrity sha512-FqQnqikDqk/qu99OH5i7A4NzAMtwfhpqtdTU5KMBLAt4UJU/+rS/4YI7bqFSAIzrz8+A8dz+bW00pmw6P6+2SA==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
@@ -6406,10 +6406,10 @@ eslint-module-utils@^2.12.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-cypress@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.5.0.tgz#380ef5049ad80ebeca923db69e4aa96e72fcd893"
-  integrity sha512-JZQ6XnBTNI8h1B9M7wJSFzc48SYbh7VMMKaNTQOFa3BQlnmXPrVc4PKen8R+fpv6VleiPeej6VxloGb42zdRvw==
+eslint-plugin-cypress@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.6.0.tgz#d0e2f68f27b9a34ecf565bef58ed82c8f10d39a8"
+  integrity sha512-7IAMcBbTVu5LpWeZRn5a9mQ30y4hKp3AfTz+6nSD/x/7YyLMoBI6X7XjDLYI6zFvuy4Q4QVGl563AGEXGW/aSA==
   dependencies:
     globals "^13.20.0"
 
