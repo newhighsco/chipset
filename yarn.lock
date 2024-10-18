@@ -1948,10 +1948,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.226":
-  version "4.0.226"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.226.tgz#d4aea0e04d3fd61c3caf8954e28616d3193517e8"
-  integrity sha512-uQBkeV+kWmY6NVn1SZnV2UkNPSF1KyFci5hSJ/EPKUDBnkFLYAe+ipH3TdUss5kI3cpLxZg7YQULv58nGUvUQA==
+"@newhighsco/eslint-config@4.0.227":
+  version "4.0.227"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.227.tgz#4736323bcd5f9aaa21f0eeacd22081d2113495cd"
+  integrity sha512-gBKEuoPnGTxwLSMTThTVbQbkB9oHus58fyeH/Y5+p+10UcVGw/8IupZlhtDF74fTrwVY/OmD9lXmTbXwtQsqow==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1972,7 +1972,7 @@
     eslint-plugin-react-hooks "5.0.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.9.0"
-    eslint-plugin-testing-library "6.3.2"
+    eslint-plugin-testing-library "6.3.4"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/postcss-config@3.5.284":
@@ -2017,10 +2017,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.30.tgz#664d363e8027af2839b48da908586be1b7885fae"
   integrity sha512-iOhI8xB+usLTLluwVk69xTi8HSPgrcB/yOpY46jjeBKw5wlRcZt+ryQZQ53h2l1aBObpZL0YORFr2kyg+yUcFQ==
 
-"@newhighsco/storybook-preset@7.0.75":
-  version "7.0.75"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.75.tgz#4aa7099f188c07de6adeef857f98dacf6b336473"
-  integrity sha512-vAMMbrd3CvSlV9nsW+6jDt9pzwOV4kuCII/YBV7RLOk92GY05JtMv6tbjSO3OdrACP7pqAfUkF8HJWJZDrF4eQ==
+"@newhighsco/storybook-preset@7.0.76":
+  version "7.0.76"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.76.tgz#0c59eba289f31eccd0a4b9ec390f71d219edb506"
+  integrity sha512-IomIdJT8imV2q2g958jBMoPkgneTShODtTVL+jhpdQsdcZUrd/UmjB+NoeCRO+DW8QS4xCCmZR8yqMudzBUJ4Q==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.30"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.30"
@@ -2033,7 +2033,7 @@
     css-loader "7.1.2"
     postcss "8.4.47"
     postcss-loader "8.1.1"
-    sass "1.80.1"
+    sass "1.80.2"
     sass-loader "16.0.2"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
@@ -3613,7 +3613,7 @@
     "@typescript-eslint/types" "7.18.0"
     "@typescript-eslint/typescript-estree" "7.18.0"
 
-"@typescript-eslint/utils@^5.58.0", "@typescript-eslint/utils@^5.62.0":
+"@typescript-eslint/utils@^5.62.0":
   version "5.62.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.62.0.tgz#141e809c71636e4a75daa39faed2fb5f4b10df86"
   integrity sha512-n8oxjeb5aIbPFEtmQxQYOLI0i9n5ySBEY/ZEHHZqKQSFnxio1rv6dthascc9dLuwrL0RC5mPCxB7vnAVGAYWAQ==
@@ -6575,12 +6575,12 @@ eslint-plugin-storybook@0.9.0:
     requireindex "^1.2.0"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@6.3.2:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.3.2.tgz#391ab33e2372b059c8d2439e7ec99fc433267ce3"
-  integrity sha512-Z+6gPhoxXoypKSX+GC3UNfxQtqE5VhBTymU8WmLqpfWCPZIEu+2UZcNYJbwuuGclWQtt6LzN95yEq79o5u4URA==
+eslint-plugin-testing-library@6.3.4:
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.3.4.tgz#3ab8cf3c2b08784cd64aedc104d18e766ed13b1f"
+  integrity sha512-nFwedetKOC8675r9UWePojlL/EgrBVywJPB1UygMpGsA0QocCCv+z8HmXOnI/wbXyJmwSOYRjnp8n4tqTjIL+A==
   dependencies:
-    "@typescript-eslint/utils" "^5.58.0"
+    "@typescript-eslint/utils" "^5.62.0"
 
 eslint-plugin-tsc@2.0.0:
   version "2.0.0"
@@ -13237,10 +13237,10 @@ sass-true@8.1.0:
     jest-diff "^29.7.0"
     lodash "^4.17.21"
 
-sass@1.80.1:
-  version "1.80.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.80.1.tgz#5b26cde787917e845f25585b741c0caa653d0154"
-  integrity sha512-9lBwDZ7j3y/1DKj5Ec249EVGo5CVpwnzIyIj+cqlCjKkApLnzsJ/l9SnV4YnORvW9dQwQN+gQvh/mFZ8CnDs7Q==
+sass@1.80.2:
+  version "1.80.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.80.2.tgz#9d13d85a4f81bb17e09d1dc3e1c0944f7fd7315e"
+  integrity sha512-9wXY8cGBlUmoUoT+vwOZOFCiS+naiWVjqlreN9ar9PudXbGwlMTFwCR5K9kB4dFumJ6ib98wZyAObJKsWf1nAA==
   dependencies:
     "@parcel/watcher" "^2.4.1"
     chokidar "^4.0.0"
