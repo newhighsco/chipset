@@ -62,7 +62,7 @@
     "@testing-library/react": "16.0.1",
     "babel-loader": "9.2.1",
     "chromatic": "11.16.3",
-    "concurrently": "9.0.1",
+    "concurrently": "9.1.0",
     "eslint": "8.57.1",
     "husky": "9.1.6",
     "identity-obj-proxy": "3.0.0",
