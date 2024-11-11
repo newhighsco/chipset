@@ -2016,10 +2016,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.34.tgz#c43eae03591beb56858f969fe984b90345adcb93"
   integrity sha512-rVSKByL7W9wClTaOJU1HitBx06vIiGKsmZBS7ADMEFn0JgXWfjONzi93fqYTiAry5rx5rvlC1ONxM3Owxs9akg==
 
-"@newhighsco/storybook-preset@7.0.86":
-  version "7.0.86"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.86.tgz#98f36fdbb5c50ceea48c06e5f091b25d25de1458"
-  integrity sha512-UZhSjyNqX5NaHYa85pTfNCvD266N68QZwBzZ/1mH4WSADf83vL5X05E7LOqobwSeNw8bPZro14CAkCSKMb5JYQ==
+"@newhighsco/storybook-preset@7.0.87":
+  version "7.0.87"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.87.tgz#6d429981cd93a6d52374777ca231dcb78f12b455"
+  integrity sha512-2T22lJmZE95xZBg2M3UHICRMlyBwY6PHwV26bEdp1dn3fLhzLVvQ/sVON/4H9BLuNDRR0oe2JT4TAa+ODBiI3A==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.34"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.34"
@@ -2030,7 +2030,7 @@
     "@storybook/addon-styling-webpack" "1.0.1"
     "@storybook/addon-webpack5-compiler-swc" "1.0.5"
     css-loader "7.1.2"
-    postcss "8.4.47"
+    postcss "8.4.48"
     postcss-loader "8.1.1"
     sass "1.80.6"
     sass-loader "16.0.3"
@@ -11498,7 +11498,7 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==
 
-picocolors@^1.0.0, picocolors@^1.0.1, picocolors@^1.1.0, picocolors@^1.1.1:
+picocolors@^1.0.0, picocolors@^1.0.1, picocolors@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
@@ -11896,15 +11896,6 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
-
-postcss@8.4.47:
-  version "8.4.47"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.47.tgz#5bf6c9a010f3e724c503bf03ef7947dcb0fea365"
-  integrity sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==
-  dependencies:
-    nanoid "^3.3.7"
-    picocolors "^1.1.0"
-    source-map-js "^1.2.1"
 
 postcss@8.4.48, postcss@^8.4.33, postcss@^8.4.4, postcss@^8.4.47:
   version "8.4.48"
