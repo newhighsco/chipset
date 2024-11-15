@@ -1965,10 +1965,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.234":
-  version "4.0.234"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.234.tgz#71906b39cf885f0dd57f71b5b049d68909b99a6d"
-  integrity sha512-P3NTeKCsSj2y72k+cPyaL+D0J62GdoZBSTkCaYZNz+XI3ejZn9xAnfnzMSui1un5L9Eqn3SbKiIQNcI8TAhFJA==
+"@newhighsco/eslint-config@4.0.235":
+  version "4.0.235"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.235.tgz#1fb6612f1ab207ed7362a4fe231383d7418e1d2f"
+  integrity sha512-qY8GnNGDccczLmy+5QWmkiVFkM1JKCdXF7SJ8A+4iFZ+x2KlXWdTuhRBW5NG5addrXpHfto9CGzCjzTD0xpCUA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1982,7 +1982,7 @@
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.2"
     eslint-plugin-mdx "3.1.5"
-    eslint-plugin-n "17.13.1"
+    eslint-plugin-n "17.13.2"
     eslint-plugin-prettier "5.2.1"
     eslint-plugin-promise "7.1.0"
     eslint-plugin-react "7.37.2"
@@ -2034,10 +2034,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.36.tgz#32cb3b42ab2c53629cc25b1bca5837a0e5538208"
   integrity sha512-tMn9woVgymVFdiIIztlrzrdLAsZl83OGEOHFw9IxsbM+1PaGBQi0DG8p6mD8uvKenqymUYztTIn/w23vDW1w+w==
 
-"@newhighsco/storybook-preset@7.0.91":
-  version "7.0.91"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.91.tgz#dcea01ced1255798744ae21dc95ce922c90c13af"
-  integrity sha512-HrPnVtdFxANPWkKqpuPC+AUbPnETpmpegHBglMFwccOwYh7fc2oDSTNFM6w0tN0RGWUHQOk8WuERrWN9G/Rcqg==
+"@newhighsco/storybook-preset@7.0.92":
+  version "7.0.92"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.92.tgz#cfae99dff3241947d7bdb9984f6535aeffbda452"
+  integrity sha512-MTIdJ3YsU/J9br9m6pJQHah7rQp3BSrClEMoeAvop8cFWmC+YT2GvbQJzEi7GJUYdy2gBmcO+g3NvtKaHnN8kw==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.36"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.36"
@@ -2050,7 +2050,7 @@
     css-loader "7.1.2"
     postcss "8.4.49"
     postcss-loader "8.1.1"
-    sass "1.80.7"
+    sass "1.81.0"
     sass-loader "16.0.3"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
@@ -6299,10 +6299,10 @@ eslint-plugin-mdx@3.1.5:
     unified "^11.0.4"
     vfile "^6.0.1"
 
-eslint-plugin-n@17.13.1:
-  version "17.13.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.13.1.tgz#3178c87989ad23417d22c5f66a13ecb1e9c5245e"
-  integrity sha512-97qzhk1z3DdSJNCqT45EslwCu5+LB9GDadSyBItgKUfGsXAmN/aa7LRQ0ZxHffUxUzvgbTPJL27/pE9ZQWHy7A==
+eslint-plugin-n@17.13.2:
+  version "17.13.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.13.2.tgz#6d1532e68de196189540271bb7188234b8b086c8"
+  integrity sha512-MhBAKkT01h8cOXcTBTlpuR7bxH5OBUNpUXefsvwSVEy46cY4m/Kzr2osUCQvA3zJFD6KuCeNNDv0+HDuWk/OcA==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.1"
     enhanced-resolve "^5.17.1"
@@ -12801,10 +12801,10 @@ sass-true@8.1.0:
     jest-diff "^29.7.0"
     lodash "^4.17.21"
 
-sass@1.80.7:
-  version "1.80.7"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.80.7.tgz#7569334c39220f8ca62fcea38dce60f809ba345c"
-  integrity sha512-MVWvN0u5meytrSjsU7AWsbhoXi1sc58zADXFllfZzbsBT1GHjjar6JwBINYPRrkx/zqnQ6uqbQuHgE95O+C+eQ==
+sass@1.81.0:
+  version "1.81.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.81.0.tgz#a9010c0599867909dfdbad057e4a6fbdd5eec941"
+  integrity sha512-Q4fOxRfhmv3sqCLoGfvrC9pRV8btc0UtqL9mN6Yrv6Qi9ScL55CVH1vlPP863ISLEEMNLLuu9P+enCeGHlnzhA==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
