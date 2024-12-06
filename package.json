@@ -59,7 +59,7 @@
     "@storybook/react-webpack5": "8.4.6",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
-    "@testing-library/react": "16.0.1",
+    "@testing-library/react": "16.1.0",
     "babel-loader": "9.2.1",
     "chromatic": "11.20.0",
     "concurrently": "9.1.0",
