@@ -72,8 +72,8 @@
     "jest-junit": "16.0.0",
     "postcss": "8.4.49",
     "prettier": "3.4.2",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "sass-true": "8.1.0",
     "semantic-release": "24.2.0",
     "storybook": "8.4.7",
@@ -81,8 +81,8 @@
     "webpack": "5.97.1"
   },
   "peerDependencies": {
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
