@@ -148,7 +148,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 
 /* stylelint-disable-next-line scss/at-function-pattern */
 @function _grid-gutter--item($g) {
-  @if unit($g) == '%' {
+  @if math.unit($g) == '%' {
     $scale: math.div(100, 100 + $g);
 
     @return ($scale * $g) + 0%;
