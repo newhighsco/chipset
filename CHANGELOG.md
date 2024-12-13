@@ -1,3 +1,10 @@
+## [6.16.5](https://github.com/newhighsco/chipset/compare/v6.16.4...v6.16.5) (2024-12-13)
+
+
+### Bug Fixes
+
+* **styles:** use explicit math functions ([d8c9e3a](https://github.com/newhighsco/chipset/commit/d8c9e3aeb3f53e78397206f842b7f602e104d497))
+
 ## [6.16.4](https://github.com/newhighsco/chipset/compare/v6.16.3...v6.16.4) (2024-07-24)
 
 
