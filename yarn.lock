@@ -1952,10 +1952,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
   integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
 
-"@newhighsco/commitlint-config@1.1.44":
-  version "1.1.44"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.44.tgz#141bc39e5d4a2faf2b49add2d445e0f1e6797edc"
-  integrity sha512-LNz33eAX9+tiS2B8kX1yrkhNbkjXQkLWRMz5Y9d2wOmwPW2N59lkm8meUWcgtcPs93VVeN8fId3OB4R8L4FPoQ==
+"@newhighsco/commitlint-config@1.1.45":
+  version "1.1.45"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.45.tgz#1a93d90264b70a9c5305212333712792744c13a0"
+  integrity sha512-QDLfF3tHGVDW8qQtSSnXKXhLkHaXF7qt3mkFT4sIyZI9RTC6L5F1x4ql/g42XQrtN+A7/lIpjBwrUq/FckfL3w==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
@@ -2052,10 +2052,10 @@
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@3.1.97":
-  version "3.1.97"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.97.tgz#a082948fdbaf75292afe55a6ef3853032158eb43"
-  integrity sha512-eqdFsxIv7f4xt3W+9pKrJe+KDA0sDm2CDYE8axG6xyw+G8i+uog3TFh52Xntrm9Zb+9LnD3piGOpROSS4UA9Tg==
+"@newhighsco/stylelint-config@3.1.98":
+  version "3.1.98"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-3.1.98.tgz#523e84dc306146d65b8ca2cc9baa7dabc7a58122"
+  integrity sha512-sj2P8NJMWeEuJArgc7QGsebXifMzsPqrBf6TQZlyTCBj0xUieynymoRGKUyEJiZ4fUA9vIJGTYCvrOGdYJ7+aQ==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
