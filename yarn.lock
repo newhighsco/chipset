@@ -2031,10 +2031,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.39.tgz#729ad458afdd4a5f9cdb14e4e1f09fd472a577bf"
   integrity sha512-1Q/7BfBPcrxMbIAdJJriNYSwl5Uvg89pp9LZZzSc+g9201Ccu9pjeJ1x0yzt/lXtdnAjiYP12rvqZv6X5DpBDA==
 
-"@newhighsco/storybook-preset@7.0.99":
-  version "7.0.99"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.99.tgz#ad0e358996de3a2716af0255bd5b7ef66b843f22"
-  integrity sha512-FJS9qNFchAJsYaWoJw3Ym9p9gj8gAcF4L4ET43CRCdq3oatcxk9VqusHZ9LAvJU6FkuCSOy7OdYp+O3z5VLpwg==
+"@newhighsco/storybook-preset@7.0.100":
+  version "7.0.100"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.100.tgz#c9536fc82a1ce02372329655ff4f1396093928b0"
+  integrity sha512-3AxRFCZuGkO404waSdOBjFYjlHJC43qe6JEFUmfm869/5uBObyvr0VuHd2ClEqhbR4qwvPYLJX1hWLsEV5og0Q==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.39"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.39"
@@ -2043,7 +2043,7 @@
     "@storybook/addon-docs" "8.4.7"
     "@storybook/addon-links" "8.4.7"
     "@storybook/addon-styling-webpack" "1.0.1"
-    "@storybook/addon-webpack5-compiler-swc" "1.0.5"
+    "@storybook/addon-webpack5-compiler-swc" "1.0.6"
     css-loader "7.1.2"
     postcss "8.4.49"
     postcss-loader "8.1.1"
@@ -2705,10 +2705,10 @@
   dependencies:
     "@storybook/node-logger" "^8.0.0-alpha.10"
 
-"@storybook/addon-webpack5-compiler-swc@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-1.0.5.tgz#675f8520c9df6d2a9873f5e23539538e43fe9b04"
-  integrity sha512-1NlM3noit2vA22OyWb8Ma2lhcEKCS1Snv2kr+EkaVABUqNDfVc9AD/GgYQhF7F/2CoF5N2JU7uzXDzFHd5TzZg==
+"@storybook/addon-webpack5-compiler-swc@1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-1.0.6.tgz#6fe1d3af421e3efc935c866a719e02b62f2ab6ea"
+  integrity sha512-QiZheKKYsUCAtPn9phwtmOBAWBNxnxyfu5E+HUSQIbX94pTwc3ROufJ3g1R/RMQZcklOYXpSI0V8FS1m6aUVkg==
   dependencies:
     "@swc/core" "^1.7.3"
     swc-loader "^0.2.3"
