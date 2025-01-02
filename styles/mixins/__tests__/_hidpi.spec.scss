@@ -6,14 +6,14 @@
     /* stylelint-disable media-feature-name-no-vendor-prefix */
     @include assert {
       @include output {
-        .element-1 {
-          @include hidpi {
+        @include hidpi {
+          .element-1 {
             color: #000;
           }
         }
 
-        @include hidpi {
-          .element-2 {
+        .element-2 {
+          @include hidpi {
             color: #000;
           }
         }
