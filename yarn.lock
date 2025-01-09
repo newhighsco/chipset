@@ -4660,10 +4660,10 @@ chownr@^2.0.0:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
   integrity sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
 
-chromatic@11.22.0:
-  version "11.22.0"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-11.22.0.tgz#9c2b05a0c5a94c5c0cc2b6be6969c112ac4543d0"
-  integrity sha512-u1kAPR9lj9aFzsCp0iWPXBbsKgcxFU7iJO6mFbgNHGVg+YPBqiJMuvgB8EQHdNbHjk5amFnGnIz/Ww8fK3t9Hw==
+chromatic@11.22.1:
+  version "11.22.1"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-11.22.1.tgz#8d18540632447d1f0a4adec55eb9a82a3b42a412"
+  integrity sha512-GQP+xE00YDYuxVA4F7n5l1+hPWZC5xBgzFanKRfSbBgx4j2ZEbXa53C7fdkxMNplQR546nFIyhnoFRUB8ljIQg==
 
 chrome-trace-event@^1.0.2:
   version "1.0.3"
