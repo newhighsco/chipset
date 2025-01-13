@@ -12,7 +12,7 @@ export const Source = {
   args: {
     children: [
       <Grid.Item key="0">Content</Grid.Item>,
-      <Grid.Item key="1" sizes={['one-half']}>
+      <Grid.Item key="1" sizes="one-half">
         Content
       </Grid.Item>,
       <Grid.Item key="2" sizes={['one-quarter', 'tablet-one-whole']}>
@@ -29,10 +29,10 @@ export const WithGutter = {
       <Grid.Item key="0">
         <ContentContainer>Full-width</ContentContainer>
       </Grid.Item>,
-      <Grid.Item key="1" sizes={['one-half']}>
+      <Grid.Item key="1" sizes="one-half">
         <ContentContainer>Left</ContentContainer>
       </Grid.Item>,
-      <Grid.Item key="2" sizes={['one-half']}>
+      <Grid.Item key="2" sizes="one-half">
         <ContentContainer>Right</ContentContainer>
       </Grid.Item>
     ]
@@ -46,14 +46,14 @@ export const Reversed = { args: { ...WithGutter.args, reverse: true } }
 export const Middled = {
   args: {
     children: [
-      <Grid.Item key="0" sizes={['one-half']}>
+      <Grid.Item key="0" sizes="one-half">
         <ContentContainer>
           Long content that wraps
           <br />
           Long content that wraps
         </ContentContainer>
       </Grid.Item>,
-      <Grid.Item key="1" sizes={['one-half']}>
+      <Grid.Item key="1" sizes="one-half">
         <ContentContainer>Short</ContentContainer>
       </Grid.Item>
     ],
