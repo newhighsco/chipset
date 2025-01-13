@@ -55,7 +55,7 @@
     "@newhighsco/prettier-config": "2.1.28",
     "@newhighsco/release-config": "1.4.0",
     "@newhighsco/storybook-preset": "7.0.102",
-    "@newhighsco/stylelint-config": "4.0.0",
+    "@newhighsco/stylelint-config": "4.0.1",
     "@storybook/react-webpack5": "8.4.7",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
