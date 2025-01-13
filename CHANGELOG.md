@@ -1,3 +1,10 @@
+# [6.17.0](https://github.com/newhighsco/chipset/compare/v6.16.6...v6.17.0) (2025-01-13)
+
+
+### Features
+
+* **grid:** support string or array for `sizes` ([#2461](https://github.com/newhighsco/chipset/issues/2461)) ([a937bbc](https://github.com/newhighsco/chipset/commit/a937bbcfb6e81423d37dc41507e8efe0f2779097))
+
 ## [6.16.6](https://github.com/newhighsco/chipset/compare/v6.16.5...v6.16.6) (2024-12-25)
 
 
