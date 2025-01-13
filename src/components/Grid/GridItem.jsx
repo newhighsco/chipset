@@ -1,9 +1,11 @@
 import classNames from 'classnames'
-import { arrayOf, node, oneOf, shape, string } from 'prop-types'
+import { arrayOf, node, oneOf, oneOfType, shape, string } from 'prop-types'
 import React from 'react'
 
 const GridItem = ({ sizes, children, theme, className, ...rest }) => {
   if (!children) return null
+
+  if (!Array.isArray(sizes)) sizes = [sizes]
 
   return (
     <div
@@ -21,7 +23,7 @@ const GridItem = ({ sizes, children, theme, className, ...rest }) => {
 
 GridItem.propTypes = {
   align: oneOf(['left', 'right', 'center']),
-  sizes: arrayOf(string),
+  sizes: oneOfType([string, arrayOf(string)]),
   children: node,
   theme: shape({ item: string }),
   className: string
