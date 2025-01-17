@@ -8517,13 +8517,6 @@ jest-environment-jsdom@29.7.0:
     jest-util "^29.7.0"
     jsdom "^20.0.0"
 
-jest-environment-node-single-context@29.4.0:
-  version "29.4.0"
-  resolved "https://registry.yarnpkg.com/jest-environment-node-single-context/-/jest-environment-node-single-context-29.4.0.tgz#4ab7c001e3a139fc5129783846de11f1c94adc2a"
-  integrity sha512-VOuB0Pf3/+Tu0eImZ888SeHpFIiujRiW/3b6NTST1/zdv6ZdRAblCV2q5SisF0PlDA8y9SHJWjKFtFXNJ7U6CQ==
-  dependencies:
-    jest-environment-node "^29.7.0"
-
 jest-environment-node@^29.7.0:
   version "29.7.0"
   resolved "https://registry.yarnpkg.com/jest-environment-node/-/jest-environment-node-29.7.0.tgz#0b93e111dda8ec120bc8300e6d1fb9576e164376"
