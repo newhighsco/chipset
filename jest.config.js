@@ -1,6 +1,8 @@
+/** @type {import('jest').Config} */
 module.exports = {
   projects: [
     {
+      displayName: 'src',
       moduleNameMapper: {
         '\\.(scss)$': 'identity-obj-proxy',
         '\\.(svg)$': '<rootDir>/config/jest/__mocks__/svg.js',
@@ -12,7 +14,7 @@ module.exports = {
       testPathIgnorePatterns: ['/styles/'],
       transformIgnorePatterns: []
     },
-    { rootDir: './styles' }
+    { displayName: 'styles', rootDir: './styles' }
   ],
   reporters: [
     'default',
