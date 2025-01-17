@@ -12,10 +12,7 @@ module.exports = {
       testPathIgnorePatterns: ['/styles/'],
       transformIgnorePatterns: []
     },
-    {
-      rootDir: './styles',
-      testEnvironment: 'jest-environment-node-single-context'
-    }
+    { rootDir: './styles' }
   ],
   reporters: [
     'default',
