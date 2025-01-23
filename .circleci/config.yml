@@ -23,7 +23,7 @@ workflows:
           cache-version: v1.1
       - newhighsco/test:
           name: test
-          command: yarn test:list | circleci tests run --command="xargs yarn test" --split-by=timings
+          command: yarn --silent test:list | circleci tests run --command="xargs yarn test" --split-by=timings
           requires:
             - setup
       - newhighsco/build:
