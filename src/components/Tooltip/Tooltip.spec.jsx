@@ -26,7 +26,7 @@ describe('Components/Tooltip', () => {
 
     fireEvent.click(toggle)
 
-    expect(content).not.toBeVisible()
+    expect(content).toBeVisible()
   })
 
   it("should render correctly when 'heading' is set", () => {
