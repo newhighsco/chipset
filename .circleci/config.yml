@@ -14,13 +14,16 @@ build-parameters: &build-parameters
   name: build
   path-to-persist: build
 
+setup-parameters: &setup-parameters
+  name: setup
+  cache-version: v1.1
+
 workflows:
   version: 2
   test_and_release:
     jobs:
       - newhighsco/setup:
-          name: setup
-          cache-version: v1.1
+          <<: *setup-parameters
       - newhighsco/test:
           name: test
           command: yarn --silent test:list | circleci tests run --command="xargs yarn test" --split-by=timings
@@ -46,7 +49,7 @@ workflows:
     jobs:
       - newhighsco/setup:
           <<: *only-version-tags
-          name: setup
+          <<: *setup-parameters
       - newhighsco/build:
           <<: *only-version-tags
           <<: *build-parameters
