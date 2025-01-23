@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@dev:alpha
+  newhighsco: newhighsco/orb@1.10.2
 
 only-version-tags: &only-version-tags
   filters:
@@ -26,7 +26,7 @@ workflows:
           <<: *setup-parameters
       - newhighsco/test:
           name: test
-          rerun-only-failed: true
+          command: yarn --silent test:list | circleci tests run --command="xargs yarn test" --split-by=timings
           requires:
             - setup
       - newhighsco/build:
