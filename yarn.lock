@@ -2041,16 +2041,16 @@
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.3.tgz#599740ac47c115fb594be838d8d1eb3d22218759"
-  integrity sha512-NG4sYnpnBVZpcHMHkLlWWiMTw+AWoIMUCJzlrqkA21mFzf/X0/xwfNc1sHFG80BHA+/xrB0KtFF9sHjnB5u8lQ==
+"@newhighsco/stylelint-config@4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.4.tgz#991cfaac48e98829047c3665ac0757eb1fa33a87"
+  integrity sha512-2Vxo48i4jhmkwSI1pFLJeiYhp0OTUQl1Qudr+0W2lRuzSdALpvyzS0azmnkbkG4rbfyB9Y4EkvJvVr4+Yrmdgg==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "14.0.0"
     stylelint-order "6.0.4"
-    stylelint-prettier "5.0.2"
+    stylelint-prettier "5.0.3"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -13759,10 +13759,10 @@ stylelint-order@6.0.4:
     postcss "^8.4.32"
     postcss-sorting "^8.0.2"
 
-stylelint-prettier@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-5.0.2.tgz#82c0a813d8981fe094fca28126fc88cee22fa789"
-  integrity sha512-qJ+BN+1T2ZcKz9WIrv0x+eFGHzSUnXfXd5gL///T6XoJvr3D8/ztzz2fhtmXef7Vb8P33zBXmLTTveByr0nwBw==
+stylelint-prettier@5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/stylelint-prettier/-/stylelint-prettier-5.0.3.tgz#470134ec5ed86501119be9a5cb44709b467d7c91"
+  integrity sha512-B6V0oa35ekRrKZlf+6+jA+i50C4GXJ7X1PPmoCqSUoXN6BrNF6NhqqhanvkLjqw2qgvrS0wjdpeC+Tn06KN3jw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
