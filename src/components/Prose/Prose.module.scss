@@ -2,7 +2,8 @@
 
 .root {
   // Unset common styles left in place by WYSIWYG editor
-  $overrides: 'box-sizing', 'color', 'font-family', 'font-size', 'font-style',
+  $overrides:
+    'box-sizing', 'color', 'font-family', 'font-size', 'font-style',
     'font-weight', 'line-height', 'margin', 'padding', 'text-decoration',
     'white-space';
 
