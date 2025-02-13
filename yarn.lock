@@ -1257,10 +1257,10 @@
     "@csstools/utilities" "^2.0.0"
     postcss-value-parser "^4.2.0"
 
-"@csstools/postcss-initial@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@csstools/postcss-initial/-/postcss-initial-2.0.0.tgz#a86f5fc59ab9f16f1422dade4c58bd941af5df22"
-  integrity sha512-dv2lNUKR+JV+OOhZm9paWzYBXOCi+rJPqJ2cJuhh9xd8USVrd0cBEPczla81HNOyThMQWeCcdln3gZkQV2kYxA==
+"@csstools/postcss-initial@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@csstools/postcss-initial/-/postcss-initial-2.0.1.tgz#c385bd9d8ad31ad159edd7992069e97ceea4d09a"
+  integrity sha512-L1wLVMSAZ4wovznquK0xmC7QSctzO4D0Is590bxpGqhqjboLXYA16dWZpfwImkdOgACdQ9PqXsuRroW6qPlEsg==
 
 "@csstools/postcss-is-pseudo-class@^5.0.1":
   version "5.0.1"
@@ -1979,16 +1979,16 @@
     eslint-plugin-testing-library "7.1.1"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.311":
-  version "3.5.311"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.311.tgz#21f58448f16125b9cafddd588691b8c3003a2790"
-  integrity sha512-ejvRGS9TC8D8/VqEkkMLmsIMDssg5BQ2xI5shkQRBYC+Lj2EGztKtlMrWwDqQT6sJrGq90wu+0L9DQUmVIW6Ng==
+"@newhighsco/postcss-config@3.5.312":
+  version "3.5.312"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.312.tgz#13fd07fcd63f46d46fce0abf57e657ff8e66cf8c"
+  integrity sha512-3AxlRGEb12+4bfMSOcoqGEHTYYf3k7afqlLTKwuTyo65yNx2+mpJmPwXjPj1/Dh1zAMjWk7KUjOdr6RyWmZKIQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.20"
     caniuse-lite "1.0.30001699"
     postcss-flexbugs-fixes "5.0.2"
-    postcss-preset-env "10.1.3"
+    postcss-preset-env "10.1.4"
 
 "@newhighsco/prettier-config@2.1.29":
   version "2.1.29"
@@ -2008,32 +2008,32 @@
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-addon-svgr@2.0.44":
-  version "2.0.44"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-svgr/-/storybook-addon-svgr-2.0.44.tgz#704bdaa26de27dbb7e35bf49b642538a99a8f59b"
-  integrity sha512-sGsdFfwKanabIitPagOShk0+7XhB2N3KV3BVaaqRvUI4z435SvmclkcNr3C+MJX2AO/vyPBkbNKasZ1EBoid/w==
+"@newhighsco/storybook-addon-svgr@2.0.45":
+  version "2.0.45"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-svgr/-/storybook-addon-svgr-2.0.45.tgz#3bb77651771db37f2d779b391bc2f810d761de60"
+  integrity sha512-TkCSaezJJ86IxPMMBqL9zzq7ZvzbzWEwWJl53qjeI0s/b287VaWgS5Nvs43HxlLsBGlQ7HPXQU/z8ZFFMkQnJA==
   dependencies:
     "@svgr/webpack" "8.1.0"
     new-url-loader "0.1.1"
 
-"@newhighsco/storybook-addon-transpile-modules@2.0.44":
-  version "2.0.44"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.44.tgz#4d02225ffc535f705b597b96a729000d6be383d7"
-  integrity sha512-Xqxx7nudbnQJAfzCCXcb27AWOb/sCizeqP7cQoW3CcxOXWJxRf6PnAheVPS7Mxjpoew85xUq+iMOFdi7Jn0vDA==
+"@newhighsco/storybook-addon-transpile-modules@2.0.45":
+  version "2.0.45"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.45.tgz#e5167a775b3a09862a9d8d1df1473cfb952bfd32"
+  integrity sha512-kfQH8Wr5yQi9lXs5tGXOgRN/Fm+SLVJ6d1NPDr1NMz2SYWxSn7fw2J32MSZ6Y01l9EW6OovO1hf/AarMpPOYug==
 
-"@newhighsco/storybook-preset@7.0.113":
-  version "7.0.113"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.113.tgz#ee17e2671bfc5f090c6890bb8104060c0e420d58"
-  integrity sha512-uak7dlDu7wMhZNIvP5yaxQdTUDcLFHuOoTs7GpB48zDUjie+GzGRtTd/H+r11kk7/97Lzyoi+pqN8zdN10WGhA==
+"@newhighsco/storybook-preset@7.0.114":
+  version "7.0.114"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.114.tgz#329b22c6bacd7672974243dce372fcc3b902ca61"
+  integrity sha512-DQZNOrmuWXeOVUaC3zstiVw5FINoFebKosEU1xLVWPbynNniWcl1ORGKnXjwZE9cEmoD1dcyIq12IVFw9YgeNg==
   dependencies:
-    "@newhighsco/storybook-addon-svgr" "2.0.44"
-    "@newhighsco/storybook-addon-transpile-modules" "2.0.44"
-    "@storybook/addon-actions" "8.5.4"
-    "@storybook/addon-backgrounds" "8.5.4"
-    "@storybook/addon-docs" "8.5.4"
-    "@storybook/addon-links" "8.5.4"
+    "@newhighsco/storybook-addon-svgr" "2.0.45"
+    "@newhighsco/storybook-addon-transpile-modules" "2.0.45"
+    "@storybook/addon-actions" "8.5.5"
+    "@storybook/addon-backgrounds" "8.5.5"
+    "@storybook/addon-docs" "8.5.5"
+    "@storybook/addon-links" "8.5.5"
     "@storybook/addon-styling-webpack" "1.0.1"
-    "@storybook/addon-webpack5-compiler-swc" "2.0.0"
+    "@storybook/addon-webpack5-compiler-swc" "2.1.0"
     css-loader "7.1.2"
     postcss "8.5.2"
     postcss-loader "8.1.1"
@@ -2647,10 +2647,10 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@storybook/addon-actions@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.5.4.tgz#8d1cd697a96d85d0e4d235b094753b3ac5610871"
-  integrity sha512-b7dwmVWaiJJmPdNrCCuy5wPD1HsPNGHCH+O9XJDrQpZ4EFREAcoWurIztldy5PV7DOOeLlW5rXxtwEEN41emQg==
+"@storybook/addon-actions@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.5.5.tgz#9fa67f95f4852491fde217b36c7c2c9620073b52"
+  integrity sha512-XJtE69QBXROM0xvAAFohkwuBLLnuEFBvAnmsY4+pfk001BCEZf7UXDY/XKD3Ew/Uou6o7oco7RmStycSlXU2Ng==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@types/uuid" "^9.0.1"
@@ -2658,32 +2658,32 @@
     polished "^4.2.2"
     uuid "^9.0.0"
 
-"@storybook/addon-backgrounds@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-8.5.4.tgz#2021295f44f8ce02ac05724c12a335fc9ab134a2"
-  integrity sha512-PldWAiNGZ2gjwHSYpqCgkMAQ9kt6yZSZ6BMvQMEMZ5uUhTlQ65g/aSAVN8a3baM79idPA3yetnMm2ybXbUxKOQ==
+"@storybook/addon-backgrounds@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-8.5.5.tgz#c64f751fb87b4e776bfaaf7acd43428dde2a8ee6"
+  integrity sha512-NWXOu9PIPd+/cUbicUv3Qmfj1L13sGUAeI5nkbTxgALtqW0ZdqmQDSsqlABz18jgd6JO1Wc4C5FW7L5wfaJG3A==
   dependencies:
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-docs@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-8.5.4.tgz#aa12e4adbdce1104f9befb70043c3f1e1c92202f"
-  integrity sha512-dLDM1oycm50a2wJVtuPwoNLIBmy8Z9r7e0F9InsPu9iTZAZLb6C5lYDNXG7GkFrRU/Q2yqSb9q7upoV7UiPGWA==
+"@storybook/addon-docs@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-8.5.5.tgz#8909b0d791c206a559616b40df798a5bc78441b2"
+  integrity sha512-pQVu6IAwcD7sV7i6alnugT1kHv2EMAhqeS5/Vq2JJoA/QaiHxF83f2L3eCVxP2nKbHYUttdBpIQ+acIsw3jx7Q==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/blocks" "8.5.4"
-    "@storybook/csf-plugin" "8.5.4"
-    "@storybook/react-dom-shim" "8.5.4"
+    "@storybook/blocks" "8.5.5"
+    "@storybook/csf-plugin" "8.5.5"
+    "@storybook/react-dom-shim" "8.5.5"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-links@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.5.4.tgz#ab0dcc30275b03c8cce2b92f822596dfad9f9dbb"
-  integrity sha512-t28NJXhtTGa4RbzGOWNoL0T9liqhdlVbq3wkhbpUgXI4ay5BA2bVsVUuO7vKDp26oNeaZDsSyWv78Gg7FoeVmQ==
+"@storybook/addon-links@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.5.5.tgz#594295032d0f29c0691a629f384a7beb4d060749"
+  integrity sha512-Ds0+/3+XBkfCAYqTxwslrzsJtTYWRLK1pKGoCJOhVqrL8WPbqpCYfB7Onk+f0t84JwNuIomB2ciq4mhLmzaaDA==
   dependencies:
     "@storybook/csf" "0.1.12"
     "@storybook/global" "^5.0.0"
@@ -2696,18 +2696,18 @@
   dependencies:
     "@storybook/node-logger" "^8.0.0-alpha.10"
 
-"@storybook/addon-webpack5-compiler-swc@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-2.0.0.tgz#fa72339611d6b6c6bf4219cd50c43ada64cb58ce"
-  integrity sha512-8lL6vzXMgBFYQ89TFNPG4KjQ1WcRjKOubCTsnv0lRWC6KbF1ipyMFiEDpHOxxHbKhfk2kvQKZVqt8KLNV5zwcg==
+"@storybook/addon-webpack5-compiler-swc@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-2.1.0.tgz#3f0b479f1f2342eb8818bcdf8d7d5eddd0fcefa4"
+  integrity sha512-mCzNtuqY8LJqj/2vW12o3S/UujRSBFstxRqhOUErrbbOBRyM6RgcPuvytDdRv1npFi8OaKOIz3SoJBT/EtAN3A==
   dependencies:
-    "@swc/core" "^1.7.3"
-    swc-loader "^0.2.3"
+    "@swc/core" "^1.10.8"
+    swc-loader "^0.2.6"
 
-"@storybook/blocks@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-8.5.4.tgz#cf91a257ab8e756d53393126251708149cfa8d26"
-  integrity sha512-QLfQ5KX6m2FAsz1zjB+mUp9jEA+LCzIHo3BxLr/tWN3pIwSURoHs2wrHDXT2r+wu5CBesGvTKI4KUWlsxsOF9g==
+"@storybook/blocks@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-8.5.5.tgz#72e5dcd4c1359bc91ad48c3f5f4c55b66b630943"
+  integrity sha512-O/59Dj2E4t3QtJkUyRgO0X4anAC5dx0M0gfsYACEUWFubhog9x5gw3xgPhFtc1UhezKBedM1nguqdPXHus1mTg==
   dependencies:
     "@storybook/csf" "0.1.12"
     "@storybook/icons" "^1.2.12"
@@ -2780,10 +2780,10 @@
     util "^0.12.5"
     ws "^8.2.3"
 
-"@storybook/csf-plugin@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-8.5.4.tgz#e8638a45f07fd3e9d080c29c3cf7f2737438e6af"
-  integrity sha512-W368wMblH861QlW5gfZEwF/LYrWQ2NheXgikBfYv73se1WxvQCo8IMLXCNpgmYhse81GsvXRddKULGsqDSH37A==
+"@storybook/csf-plugin@8.5.5":
+  version "8.5.5"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-8.5.5.tgz#ed4b5aa4f459980df3ebaf30108f5d1dfe6e948c"
+  integrity sha512-R2i+s5eO7i88tuT6um7jidZ/wt0Ar5lEdb2M5bbnZjTZqRAF9YpoRgDDXwTYWyDz55CDTmpMU3O0BFXLeF+ZpQ==
   dependencies:
     unplugin "^1.3.1"
 
@@ -2848,11 +2848,6 @@
     micromatch "^4.0.2"
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
-
-"@storybook/react-dom-shim@8.5.4":
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.5.4.tgz#32f2d82b0a7478f5ad39013fba5d0a093b4e7a01"
-  integrity sha512-m6soTAZFlOH5L2CW3V3g1eJ9Z06Gzgv8urOrnqeBmyCTcpuzxs4GRf9whvu5x/ULZAuvAL77H53d9W1/UYI4sQ==
 
 "@storybook/react-dom-shim@8.5.5":
   version "8.5.5"
@@ -2991,84 +2986,84 @@
     "@svgr/plugin-jsx" "8.1.0"
     "@svgr/plugin-svgo" "8.1.0"
 
-"@swc/core-darwin-arm64@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.7.3.tgz#ab6e9e126628cdd4a9f53dcdd99b08a5e07a2122"
-  integrity sha512-CTkHa6MJdov9t41vuV2kmQIMu+Q19LrEHGIR/UiJYH06SC/sOu35ZZH8DyfLp9ZoaCn21gwgWd61ixOGQlwzTw==
+"@swc/core-darwin-arm64@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.10.16.tgz#2aa09f2bcea4cfdaac67673b4661fca1e5422dc2"
+  integrity sha512-iikIxwqCQ4Bvz79vJ4ELh26efPf1u5D9TFdmXSJUBs7C3mmMHvk5zyWD9A9cTowXiW6WHs2gE58U1R9HOTTIcg==
 
-"@swc/core-darwin-x64@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.7.3.tgz#8dacc0e9b61cc7e88bff1a53ae96d4bea992e710"
-  integrity sha512-mun623y6rCoZ2EFIYfIRqXYRFufJOopoYSJcxYhZUrfTpAvQ1zLngjQpWCUU1krggXR2U0PQj+ls0DfXUTraNg==
+"@swc/core-darwin-x64@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.10.16.tgz#fbcd585956e381e2eb7fe395d6205d1dea6e0847"
+  integrity sha512-R2Eb9aktWd62vPfW9H/c/OaQ0e94iURibBo4uzUUcgxNNmB4+wb6piKbHxGdr/5bEsT+vJ1lwZFSRzfb45E7DA==
 
-"@swc/core-linux-arm-gnueabihf@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.7.3.tgz#57dfcb332f4e47cddd679174bc048ce107296344"
-  integrity sha512-4Jz4UcIcvZNMp9qoHbBx35bo3rjt8hpYLPqnR4FFq6gkAsJIMFC56UhRZwdEQoDuYiOFMBnnrsg31Fyo6YQypA==
+"@swc/core-linux-arm-gnueabihf@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.10.16.tgz#249cad76197ff6ac68dd1ae189996d88b8f8809b"
+  integrity sha512-mkqN3HBAMnuiSGZ/k2utScuH8rAPshvNj0T1LjBWon+X9DkMNHSA+aMLdWsy0yZKF1zjOPc4L3Uq2l2wzhUlzA==
 
-"@swc/core-linux-arm64-gnu@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.7.3.tgz#c8bfdf93a29b6ec25c44380350ddf28ffde353e5"
-  integrity sha512-p+U/M/oqV7HC4erQ5TVWHhJU1984QD+wQBPxslAYq751bOQGm0R/mXK42GjugqjnR6yYrAiwKKbpq4iWVXNePA==
+"@swc/core-linux-arm64-gnu@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.10.16.tgz#5d9ce61a1f0ef220fa6b073282563ac287393005"
+  integrity sha512-PH/+q/L5nVZJ91CU07CL6Q9Whs6iR6nneMZMAgtVF9Ix8ST0cWVItdUhs6D38kFklCFhaOrpHhS01HlMJ72vWw==
 
-"@swc/core-linux-arm64-musl@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.7.3.tgz#e5948128209b76764a8018a14a7a670d737a04c4"
-  integrity sha512-s6VzyaJwaRGTi2mz2h6Ywxfmgpkc69IxhuMzl+sl34plH0V0RgnZDm14HoCGIKIzRk4+a2EcBV1ZLAfWmPACQg==
+"@swc/core-linux-arm64-musl@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.10.16.tgz#99798b7dbe8ce35c7410d4d5f741362517bfd9c9"
+  integrity sha512-1169+C9XbydKKc6Ec1XZxTGKtHjZHDIFn0r+Nqp/QSVwkORrOY1Vz2Hdu7tn/lWMg36ZkGePS+LnnyV67s/7yg==
 
-"@swc/core-linux-x64-gnu@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.7.3.tgz#70e46e0b9f2add154aa45bbae5f0b8eda2baa677"
-  integrity sha512-IrFY48C356Z2dU2pjYg080yvMXzmSV3Lmm/Wna4cfcB1nkVLjWsuYwwRAk9CY7E19c+q8N1sMNggubAUDYoX2g==
+"@swc/core-linux-x64-gnu@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.10.16.tgz#ad3bdb5ca57d99b479912b496bcd6510616e9a11"
+  integrity sha512-n2rV0XwkjoHn4MDJmpYp5RBrnyi94/6GsJVpbn6f+/eqSrZn3mh3dT7pdZc9zCN1Qp9eDHo+uI6e/wgvbL22uA==
 
-"@swc/core-linux-x64-musl@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.7.3.tgz#52744f190c066fb472da7d2ebb2bbb1b0e8a5288"
-  integrity sha512-qoLgxBlBnnyUEDu5vmRQqX90h9jldU1JXI96e6eh2d1gJyKRA0oSK7xXmTzorv1fGHiHulv9qiJOUG+g6uzJWg==
+"@swc/core-linux-x64-musl@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.10.16.tgz#07d92aa670c4873116c5cf54b721e6e09fecc914"
+  integrity sha512-EevCpwreBrkPrJjQVIbiM81lK42ukNNSlBmrSRxxbx2V9VGmOd5qxX0cJBn0TRRSLIPi62BuMS76F9iYjqsjgg==
 
-"@swc/core-win32-arm64-msvc@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.7.3.tgz#a67f93d05d49257c3844a5cc866a63910f4b09df"
-  integrity sha512-OAd7jVVJ7nb0Ev80VAa1aeK+FldPeC4eZ35H4Qn6EICzIz0iqJo2T33qLKkSZiZEBKSoF4KcwrqYfkjLOp5qWg==
+"@swc/core-win32-arm64-msvc@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.10.16.tgz#2a8b13914b79235291a50f252c9ed2736d75d832"
+  integrity sha512-BvE7RWAnKJeELVQWLok6env5I4GUVBTZSvaSN/VPgxnTjF+4PsTeQptYx0xCYhp5QCv68wWYsBnZKuPDS+SBsw==
 
-"@swc/core-win32-ia32-msvc@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.7.3.tgz#99fd285d48258790dfd3f5043f7d23077532a17a"
-  integrity sha512-31+Le1NyfSnILFV9+AhxfFOG0DK0272MNhbIlbcv4w/iqpjkhaOnNQnLsYJD1Ow7lTX1MtIZzTjOhRlzSviRWg==
+"@swc/core-win32-ia32-msvc@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.10.16.tgz#f3c31df61748cd211e0f5b3f9912360f3ffe5bd6"
+  integrity sha512-7Jf/7AeCgbLR/JsQgMJuacHIq4Jeie3knf6+mXxn8aCvRypsOTIEu0eh7j24SolOboxK1ijqJ86GyN1VA2Rebg==
 
-"@swc/core-win32-x64-msvc@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.7.3.tgz#732a50849836ab2fd44e7d8630cd73a228d3a960"
-  integrity sha512-jVQPbYrwcuueI4QB0fHC29SVrkFOBcfIspYDlgSoHnEz6tmLMqUy+txZUypY/ZH/KaK0HEY74JkzgbRC1S6LFQ==
+"@swc/core-win32-x64-msvc@1.10.16":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.10.16.tgz#0a7aa33a24cb9f09908e62de06366d28add3e845"
+  integrity sha512-p0blVm0R8bjaTtmW+FoPmLxLSQdRNbqhuWcR/8g80OzMSkka9mk5/J3kn/5JRVWh+MaR9LHRHZc1Q1L8zan13g==
 
-"@swc/core@^1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.7.3.tgz#c5046b2fb45d2da0b460624b4dc6bd7322e21664"
-  integrity sha512-HHAlbXjWI6Kl9JmmUW1LSygT1YbblXgj2UvvDzMkTBPRzYMhW6xchxdO8HbtMPtFYRt/EQq9u1z7j4ttRSrFsA==
+"@swc/core@^1.10.8":
+  version "1.10.16"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.10.16.tgz#ee5e973ee68b51844b52629adfed311c7f23b390"
+  integrity sha512-nOINg/OUcZazCW7B55QV2/UB8QAqz9FYe4+z229+4RYboBTZ102K7ebOEjY5sKn59JgAkhjZTz+5BKmXpDFopw==
   dependencies:
     "@swc/counter" "^0.1.3"
-    "@swc/types" "^0.1.12"
+    "@swc/types" "^0.1.17"
   optionalDependencies:
-    "@swc/core-darwin-arm64" "1.7.3"
-    "@swc/core-darwin-x64" "1.7.3"
-    "@swc/core-linux-arm-gnueabihf" "1.7.3"
-    "@swc/core-linux-arm64-gnu" "1.7.3"
-    "@swc/core-linux-arm64-musl" "1.7.3"
-    "@swc/core-linux-x64-gnu" "1.7.3"
-    "@swc/core-linux-x64-musl" "1.7.3"
-    "@swc/core-win32-arm64-msvc" "1.7.3"
-    "@swc/core-win32-ia32-msvc" "1.7.3"
-    "@swc/core-win32-x64-msvc" "1.7.3"
+    "@swc/core-darwin-arm64" "1.10.16"
+    "@swc/core-darwin-x64" "1.10.16"
+    "@swc/core-linux-arm-gnueabihf" "1.10.16"
+    "@swc/core-linux-arm64-gnu" "1.10.16"
+    "@swc/core-linux-arm64-musl" "1.10.16"
+    "@swc/core-linux-x64-gnu" "1.10.16"
+    "@swc/core-linux-x64-musl" "1.10.16"
+    "@swc/core-win32-arm64-msvc" "1.10.16"
+    "@swc/core-win32-ia32-msvc" "1.10.16"
+    "@swc/core-win32-x64-msvc" "1.10.16"
 
 "@swc/counter@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@swc/counter/-/counter-0.1.3.tgz#cc7463bd02949611c6329596fccd2b0ec782b0e9"
   integrity sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==
 
-"@swc/types@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@swc/types/-/types-0.1.12.tgz#7f632c06ab4092ce0ebd046ed77ff7557442282f"
-  integrity sha512-wBJA+SdtkbFhHjTMYH+dEH1y4VpfGdAc2Kw/LK09i9bXd/K6j6PkDcFCEzb6iVfZMkPRrl/q0e3toqTAJdkIVA==
+"@swc/types@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@swc/types/-/types-0.1.17.tgz#bd1d94e73497f27341bf141abdf4c85230d41e7c"
+  integrity sha512-V5gRru+aD8YVyCOMAjMpWR1Ui577DD5KSJsHP8RAxopAH22jFz6GZd/qxqjO6MJHQhcsjvjOFXyDhyLQUnMveQ==
   dependencies:
     "@swc/counter" "^0.1.3"
 
@@ -4379,7 +4374,7 @@ browser-assert@^1.2.1:
   resolved "https://registry.yarnpkg.com/browser-assert/-/browser-assert-1.2.1.tgz#9aaa5a2a8c74685c2ae05bfe46efd606f068c200"
   integrity sha512-nfulgvOR6S4gt9UKCeGJOuSGBPGiFT6oQ/2UBnvTY/5aQ1PnksW72fhZkM30DzoRRv2WpwZf1vHHEr3mtuXIWQ==
 
-browserslist@^4.23.1, browserslist@^4.23.3, browserslist@^4.24.0, browserslist@^4.24.3:
+browserslist@^4.23.3, browserslist@^4.24.0, browserslist@^4.24.3, browserslist@^4.24.4:
   version "4.24.4"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.24.4.tgz#c6b2865a3f08bcb860a0e827389003b9fe686e4b"
   integrity sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==
@@ -11855,10 +11850,10 @@ postcss-place@^10.0.0:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@10.1.3:
-  version "10.1.3"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.1.3.tgz#7d07adef2237a643162e751b00eb1e339aa3b82e"
-  integrity sha512-9qzVhcMFU/MnwYHyYpJz4JhGku/4+xEiPTmhn0hj3IxnUYlEF9vbh7OC1KoLAnenS6Fgg43TKNp9xcuMeAi4Zw==
+postcss-preset-env@10.1.4:
+  version "10.1.4"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.1.4.tgz#bb7847e5b9a99849221bb0b9c17d825f4d096a21"
+  integrity sha512-awWKS3CwyY7I4Eb3YSWOZisbj3qXyuQCrylYiu2vSHxnSZAj3LHStN6jOcpCrc6EjYunLwbeNto3M5/JBtXpzg==
   dependencies:
     "@csstools/postcss-cascade-layers" "^5.0.1"
     "@csstools/postcss-color-function" "^4.0.7"
@@ -11870,7 +11865,7 @@ postcss-preset-env@10.1.3:
     "@csstools/postcss-gradients-interpolation-method" "^5.0.7"
     "@csstools/postcss-hwb-function" "^4.0.7"
     "@csstools/postcss-ic-unit" "^4.0.0"
-    "@csstools/postcss-initial" "^2.0.0"
+    "@csstools/postcss-initial" "^2.0.1"
     "@csstools/postcss-is-pseudo-class" "^5.0.1"
     "@csstools/postcss-light-dark-function" "^2.0.7"
     "@csstools/postcss-logical-float-and-clear" "^3.0.0"
@@ -11893,7 +11888,7 @@ postcss-preset-env@10.1.3:
     "@csstools/postcss-trigonometric-functions" "^4.0.6"
     "@csstools/postcss-unset-value" "^4.0.0"
     autoprefixer "^10.4.19"
-    browserslist "^4.23.1"
+    browserslist "^4.24.4"
     css-blank-pseudo "^7.0.1"
     css-has-pseudo "^7.0.2"
     css-prefers-color-scheme "^10.0.0"
@@ -13882,10 +13877,12 @@ svgo@^3.0.2:
     csso "^5.0.5"
     picocolors "^1.0.0"
 
-swc-loader@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/swc-loader/-/swc-loader-0.2.3.tgz#6792f1c2e4c9ae9bf9b933b3e010210e270c186d"
-  integrity sha512-D1p6XXURfSPleZZA/Lipb3A8pZ17fP4NObZvFCDjK/OKljroqDpPmsBdTraWhVBqUNpcWBQY1imWdoPScRlQ7A==
+swc-loader@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/swc-loader/-/swc-loader-0.2.6.tgz#bf0cba8eeff34bb19620ead81d1277fefaec6bc8"
+  integrity sha512-9Zi9UP2YmDpgmQVbyOPJClY0dwf58JDyDMQ7uRc4krmc72twNI2fvlBWHLqVekBpPc7h5NJkGVT1zNDxFrqhvg==
+  dependencies:
+    "@swc/counter" "^0.1.3"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
