@@ -1956,10 +1956,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.0.tgz#6f8be9c1c1bac09344d1076cd3ef489ed5825c77"
-  integrity sha512-Bec2jvTXjYF9HaGYtiztr120QEhOb/DjK9pyO9Ne4VCZgVNd5Fa1bjIfyRX+FVpStEeHieTk/rhv5KvyhB+92Q==
+"@newhighsco/eslint-config@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.1.tgz#4182fbc3565b948ae1cd901eee22585de6e6aa87"
+  integrity sha512-ou21mCxtO/JnJ0Ro8QGAL6t5dBhAsbClr4Yn2ssBEMdI1H7RUzWdscXDI08K45mIhoF/HoOlHQdBHBP2LpTxIg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -2046,10 +2046,10 @@
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.7":
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.7.tgz#22dbbcde29ef6489374eb57e350f6eda05339050"
-  integrity sha512-8T8b5ALnJHqZU9Umt1+NrpjfojN13R99o+iZhlRvaJNGWZfgWU89P6x2xsUTAkQQKXN80Rz/KsQDhAlOOjN2WQ==
+"@newhighsco/stylelint-config@4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.8.tgz#fbbd320c3b62b9625cbe763df4dc0265e12da73c"
+  integrity sha512-5NrWIYfSJhPxcHRMWBax0or/6RJXrGfrSmRY7O3ooen4mIed1lArwkHPdZlNUEwuJGyn1gbpVxSQnLlBCkvuWQ==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
