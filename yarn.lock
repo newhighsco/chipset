@@ -2012,30 +2012,30 @@
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
 
-"@newhighsco/storybook-addon-svgr@2.0.54":
-  version "2.0.54"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-svgr/-/storybook-addon-svgr-2.0.54.tgz#7f0832a466b2e0ebfc0560017005cdd560cf385a"
-  integrity sha512-HB9nkDBdENGlKj+/b9FsaRG1a6BJUkFcsvXb6u61aQgt5SsSnOIOljMxX2GoWNCW/Qx2bdIhYevRdr1rje0WUA==
+"@newhighsco/storybook-addon-svgr@2.0.55":
+  version "2.0.55"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-svgr/-/storybook-addon-svgr-2.0.55.tgz#16cf064e9e35e9beeca08e7bb5ed9c8afddf4047"
+  integrity sha512-CvRHyZjfATCKLUUvrJ55UW5NQzePxNusMR2B2kvzjcjLKj6mZXrGW/2GeEfuH/8VefJinOwCwmwvLY+VhR8vCw==
   dependencies:
     "@svgr/webpack" "8.1.0"
     new-url-loader "0.1.1"
 
-"@newhighsco/storybook-addon-transpile-modules@2.0.54":
-  version "2.0.54"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.54.tgz#d59ec7301e1550245a0c7c3ca6b6418d7da0a134"
-  integrity sha512-U8rhbPT67tXNdlm5skNLbeVLG9+IAFucx6XkG0AVJmtvVvalYTry+JNsYL0cfLYpiH/YkSz2QrPHpLutVilQKQ==
+"@newhighsco/storybook-addon-transpile-modules@2.0.55":
+  version "2.0.55"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.55.tgz#528fc41c9f50f81b63fcad6d54ac06999914d60f"
+  integrity sha512-cH8kNkofWRwhTy4EqS9Br4F9My+zs+Vua9Dq6O2m2DJIzxSXUIxLUf1pv1m672hR3ES9wcPQgJ4L8tmuUCe2aQ==
 
-"@newhighsco/storybook-preset@7.0.129":
-  version "7.0.129"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.129.tgz#ab58ec804565e59d33e16d56403d171817d62b4a"
-  integrity sha512-eJ0Xopt9i+rHm5zT+sRGRhH+bmthGhHD44RDrT7GoNmFd06rjjc35+Z6GMzrMpbxepiDa3eQLQ8jJFJlxRX3LQ==
+"@newhighsco/storybook-preset@7.0.130":
+  version "7.0.130"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.130.tgz#d001f54aef9811a32508147f1e7840fb6109f718"
+  integrity sha512-bhZagWM8dAjfHohaDrnlIxy5sMpj7nnuSRpqCEUqy1MK9pgOfulz/rETRrehYtbJR0H1nDmLbXTJH8Cn1Qe1mw==
   dependencies:
-    "@newhighsco/storybook-addon-svgr" "2.0.54"
-    "@newhighsco/storybook-addon-transpile-modules" "2.0.54"
-    "@storybook/addon-actions" "8.6.7"
-    "@storybook/addon-backgrounds" "8.6.7"
-    "@storybook/addon-docs" "8.6.7"
-    "@storybook/addon-links" "8.6.7"
+    "@newhighsco/storybook-addon-svgr" "2.0.55"
+    "@newhighsco/storybook-addon-transpile-modules" "2.0.55"
+    "@storybook/addon-actions" "8.6.8"
+    "@storybook/addon-backgrounds" "8.6.8"
+    "@storybook/addon-docs" "8.6.8"
+    "@storybook/addon-links" "8.6.8"
     "@storybook/addon-styling-webpack" "1.0.1"
     "@storybook/addon-webpack5-compiler-swc" "3.0.0"
     css-loader "7.1.2"
@@ -2651,10 +2651,10 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@storybook/addon-actions@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.6.7.tgz#d5d5712cee0c593c3e5d51546ff88a801f748c0b"
-  integrity sha512-XgZCwIcZGThEyD7e2q7rN/jzg7ZHUxn/ln403eex04jWAGBBbtC2IVuowwCWV8HwDihnhpCZEP6HlgjakOYZbQ==
+"@storybook/addon-actions@8.6.8":
+  version "8.6.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-8.6.8.tgz#1c8c604ea240511f2d5b3a43d1c6e5d6d80613ea"
+  integrity sha512-ZTlbWMTosU6kyBeJmZUA3gsMl5iiztAJ2+hE/KhxBTdEpPl2xVWxmkv8iLFmmic6MW4WIvCzVg5Qth+rJlFMzw==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@types/uuid" "^9.0.1"
@@ -2662,32 +2662,32 @@
     polished "^4.2.2"
     uuid "^9.0.0"
 
-"@storybook/addon-backgrounds@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-8.6.7.tgz#281fa0a46542c358f71df58e06460dc63ce6f3a2"
-  integrity sha512-aDFzi83gDhYn0+FGjRYbY5TfBtoG/UgVr9Abi7s5ceabZRhPrYikMyFX0o8V3Z8COl6wUmWmF1luYE4MfXgN2g==
+"@storybook/addon-backgrounds@8.6.8":
+  version "8.6.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-8.6.8.tgz#e47c89e3aa8a8034d8395bee4add7d247cd0732d"
+  integrity sha512-ciXOb9u9Te5XXAnE65ByaTmWfDRvMerYTZZLen1ekzN0bZonL9G3/ptkz6vzuWFv1tjytq6cbea1QZlBVBGd0A==
   dependencies:
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-docs@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-8.6.7.tgz#825acd7c14b80c8cd65108325c0d0226f312f1df"
-  integrity sha512-kgNPEVuLGNJE8EdVQi5Tg2DYgR66/gut07jvhqnJfNqUkj6UpBHad0JR1uwrd7xS3kJs29Fs7UyU87RJnSlwcg==
+"@storybook/addon-docs@8.6.8":
+  version "8.6.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-8.6.8.tgz#cd7d696c5c96a5af9b731df7053dc3e2f9772626"
+  integrity sha512-grtXbIzkgypOuHqeVUIhInBNogDDjTSQ9G2EHnH6EYv7lLII6cX3crZp5Ugxax3M0UX1KnQxcKb7LfUpl0Ev/g==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/blocks" "8.6.7"
-    "@storybook/csf-plugin" "8.6.7"
-    "@storybook/react-dom-shim" "8.6.7"
+    "@storybook/blocks" "8.6.8"
+    "@storybook/csf-plugin" "8.6.8"
+    "@storybook/react-dom-shim" "8.6.8"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-links@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.6.7.tgz#a102e818137fbdd7b2fef67fac02a02e3557a17e"
-  integrity sha512-fIiXlaOa9Bv2tbBshQbh/BjzGOilXVx+6nrX9VkLOg7UvzAvivtSraRmPWjgdtsChAHC8Xac42KUCNGQ/rkf5w==
+"@storybook/addon-links@8.6.8":
+  version "8.6.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.6.8.tgz#fd5a17edfd0977199db6bff44daa73c4a714415a"
+  integrity sha512-vj2+PPjEddSCpctPc6i5PIyAW8Ff470neoOIVX7qKc8XdhGB83yp9+qQmEBkZ1T2BI0Eu3Z+u4cqx7kjmrf2nw==
   dependencies:
     "@storybook/global" "^5.0.0"
     ts-dedent "^2.0.0"
@@ -2707,10 +2707,10 @@
     "@swc/core" "^1.10.8"
     swc-loader "^0.2.6"
 
-"@storybook/blocks@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-8.6.7.tgz#a84c771650cf76e36645c18d283177cd99b86c30"
-  integrity sha512-IFhIKO7R1UPpnoG/5tZH0FgC79oYgXNf+7aGUwq29M/CQWy6p/Pvp0y4P962btY1UZRol+SsU//33nH8o6yNRw==
+"@storybook/blocks@8.6.8":
+  version "8.6.8"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-8.6.8.tgz#654d89491ec8fe77477e7899ee1be72b7f345a44"
+  integrity sha512-m52Xyb/bKlbkwJ8KwhHLI8lKVs9rjYciAbIq6L0OLvK6k9b+uRDLaNihvp2W45YkGea1M8259uhZu1toNgK49w==
   dependencies:
     "@storybook/icons" "^1.2.12"
     ts-dedent "^2.0.0"
@@ -2782,10 +2782,10 @@
     util "^0.12.5"
     ws "^8.2.3"
 
-"@storybook/csf-plugin@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-8.6.7.tgz#130d3896c20520ab756a4c9caad00731fe9b78c2"
-  integrity sha512-HK7yQD4kFu04JOKnUwoFeR58r5WY6ucF0D8zfW4Gx+r8hBJ5K4t3z6k2dlIlRQF1X5+2vNkQOwD8liHjckuZ8Q==
+"@storybook/csf-plugin@8.6.8":
+  version "8.6.8"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-8.6.8.tgz#245a859cb250b8c4aba9c44ac09e002d54bacd27"
+  integrity sha512-0HEZgtk1bbWRJSFI4LZFgVW+WFI9ZTvnmtgrWysqXd/+CFJCSaAKaO+0eR/8UAAtNmkI7fM1N5BhIwJuPYnVOQ==
   dependencies:
     unplugin "^1.3.1"
 
@@ -2850,11 +2850,6 @@
     micromatch "^4.0.2"
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
-
-"@storybook/react-dom-shim@8.6.7":
-  version "8.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-8.6.7.tgz#c5017d25204ef0688846fe00e126c1ccad131a19"
-  integrity sha512-+JH7gbRI6NRbt9o0l1rY4wFdeVt8wGRddm0b55OBlwBGlFo2nvGVOH73J4AGphXVhfY7z33I3TXIjXQ561UdEQ==
 
 "@storybook/react-dom-shim@8.6.8":
   version "8.6.8"
