@@ -1956,10 +1956,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.19":
-  version "4.1.19"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.19.tgz#4527a76be089657bb6c37fa1d9b0599c7b842e69"
-  integrity sha512-Lhi7ygmOQvH71922ApVyAYMk5FWisr/Nflar6anV2uBR9q+AHVbKYvAo1E0Ys7ZXvMfJmtbPlPYftWBD4bcOEw==
+"@newhighsco/eslint-config@4.1.20":
+  version "4.1.20"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.20.tgz#97ef25b9efccbb339af865279fc7631855099492"
+  integrity sha512-/C+YqYnh2OzBRzrAOZCwzCHBV87iLtQWz/G4U9EQHoN9nibgtsZsnEqpDRDfgydpgTxeKKp08LwsGPOd/vmXjA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1972,7 +1972,7 @@
     eslint-plugin-import "2.31.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.2"
-    eslint-plugin-mdx "3.4.0"
+    eslint-plugin-mdx "3.4.1"
     eslint-plugin-n "17.15.1"
     eslint-plugin-prettier "5.2.6"
     eslint-plugin-promise "7.2.1"
@@ -2025,10 +2025,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.59.tgz#181c26fed82f93a8c6efdbe0bf02b0559747178d"
   integrity sha512-YQaaM4jKndhcDGMra07UircYx5ENkvGwVgf6GWya/Ltr43F99+HWnaqzGhR2vXF30zd4aJJDPtnv1CNUTiHzCQ==
 
-"@newhighsco/storybook-preset@7.0.136":
-  version "7.0.136"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.136.tgz#0200864e33870e954e2ffb80a51f5eb42ec62538"
-  integrity sha512-PptA2yJ1DlKiyhfvRDu7rfs1Pxpia/GXOTkq+J5ccu115rbPAIyxp1wbcw/L25hhQyxG5Rxlo/BgA8puKlZIzg==
+"@newhighsco/storybook-preset@7.0.137":
+  version "7.0.137"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.0.137.tgz#6bb795d465bd9f33b4c68414ed43f42004e94209"
+  integrity sha512-Tm6jbgRv/ShEDsJMCyoiX6ypnGjVaRvylgr6OFaTD7Jb06yRedTnn+Pf1rqubQRQR6tFfgOfU2lrHYMnmFFfcA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.59"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.59"
@@ -2041,20 +2041,20 @@
     css-loader "7.1.2"
     postcss "8.5.3"
     postcss-loader "8.1.1"
-    sass "1.86.3"
+    sass "1.87.0"
     sass-loader "16.0.5"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.11.tgz#6a5dc965e4ccdd49087e19a364f18006316b6b4c"
-  integrity sha512-yJINQmNXRP4A+/etgJRdBOEuxSx9eZKo93ek8kXqd60IY00+WzkQSu4Yw9DXWKAm35xEOIAea2tHtHRqkRr2DA==
+"@newhighsco/stylelint-config@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.12.tgz#5525af4aacd53846c11fb490a05e800ac2a24a5e"
+  integrity sha512-prQfYfWA5TI7Gr9jHAqYp9+WRwNWR8tsf5uWirE6vEek4AdrdtQjWWwGWdSQASAnzsYBoA/B4TYOilMtjKi9Yw==
   dependencies:
     stylelint-config-css-modules "4.4.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "14.0.0"
-    stylelint-order "6.0.4"
+    stylelint-order "7.0.0"
     stylelint-prettier "5.0.3"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -2433,10 +2433,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@pkgr/core@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.1.tgz#6d083acfddae21fb329c8df8c94bf895ce7d0c15"
-  integrity sha512-VzgHzGblFmUeBmmrk55zPyrQIArQN4vujc9shWytaPdB3P7qhi0cpaiKIr7tlCmFv2lYUwnLospIqjL9ZSAhhg==
+"@pkgr/core@^0.2.3":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.4.tgz#d897170a2b0ba51f78a099edccd968f7b103387c"
+  integrity sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==
 
 "@pnpm/network.ca-file@^1.0.1":
   version "1.0.2"
@@ -6111,10 +6111,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-mdx@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.4.0.tgz#73d767b19451aeaf8d5ccb9079c25730ff44a7e8"
-  integrity sha512-sNffDEvt3fAEkrCntX0Kk/IWhHkfp0fhQ7/n30gQuIRm/FeUjLMkKkgAwlOFqxIMD4XJ03Iidmkf18EC8zTyYw==
+eslint-mdx@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.4.1.tgz#edcd5f7fdf442b4c3d99c51f1cda2a3b9d38bc9e"
+  integrity sha512-/Pt9D5TIAZwAUnCJA24i+uE9NuqulmLI58a1oU1eRb5jeUNOR23FpIt4xuBE9CFR50nd4FkLnuyox7dSNSZ5Tg==
   dependencies:
     acorn "^8.14.1"
     acorn-jsx "^5.3.2"
@@ -6123,7 +6123,7 @@ eslint-mdx@^3.4.0:
     remark-mdx "^3.1.0"
     remark-parse "^11.0.0"
     remark-stringify "^11.0.0"
-    synckit "^0.11.2"
+    synckit "^0.11.4"
     tslib "^2.8.1"
     unified "^11.0.5"
     unified-engine "^11.2.2"
@@ -6214,19 +6214,19 @@ eslint-plugin-jsx-a11y@6.10.2:
     safe-regex-test "^1.0.3"
     string.prototype.includes "^2.0.1"
 
-eslint-plugin-mdx@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.4.0.tgz#328a0b4eab39178e46a18e3a8dd6383d9b76d767"
-  integrity sha512-f/ot8rSp/telkW1joqe0y9XQigTrE99sQHqyqLYYVgGLtQvl54suDidepbiGsDF7Z5V9uyQPWpmY0Qu/ZMRzmg==
+eslint-plugin-mdx@3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.4.1.tgz#4981e0d345e321f95c1dee36f09c6ad051b74600"
+  integrity sha512-dfQ7LthK/Kmfw2d5XrR4CS1ScmFOa1S9vPjBUxtKgCEl6mNnYVfA/yg50xLyab0pI/GEfGEmvlajs2biDHJBsA==
   dependencies:
-    eslint-mdx "^3.4.0"
+    eslint-mdx "^3.4.1"
     mdast-util-from-markdown "^2.0.2"
     mdast-util-mdx "^3.0.0"
     micromark-extension-mdxjs "^3.0.0"
     remark-mdx "^3.1.0"
     remark-parse "^11.0.0"
     remark-stringify "^11.0.0"
-    synckit "^0.11.2"
+    synckit "^0.11.4"
     tslib "^2.8.1"
     unified "^11.0.5"
     vfile "^6.0.3"
@@ -11874,17 +11874,17 @@ postcss-selector-parser@^7.0.0, postcss-selector-parser@^7.1.0:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
-postcss-sorting@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-8.0.2.tgz#6393385ece272baf74bee9820fb1b58098e4eeca"
-  integrity sha512-M9dkSrmU00t/jK7rF6BZSZauA5MAaBW4i5EnJXspMwt4iqTh/L9j6fgMnbElEOfyRyfLfVbIHj/R52zHzAPe1Q==
+postcss-sorting@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-9.1.0.tgz#d2e7d43896dd399c23b5b86fc0b807a86146b590"
+  integrity sha512-Mn8KJ45HNNG6JBpBizXcyf6LqY/qyqetGcou/nprDnFwBFBLGj0j/sNKV2lj2KMOVOwdXu14aEzqJv8CIV6e8g==
 
 postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.5.3, postcss@^8.4.32, postcss@^8.4.33, postcss@^8.4.4, postcss@^8.4.47, postcss@^8.5.3:
+postcss@8.5.3, postcss@^8.4.33, postcss@^8.4.4, postcss@^8.4.47, postcss@^8.5.3:
   version "8.5.3"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.3.tgz#1463b6f1c7fb16fe258736cba29a2de35237eafb"
   integrity sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==
@@ -12778,10 +12778,10 @@ sass-true@8.1.0:
     jest-diff "^29.7.0"
     lodash "^4.17.21"
 
-sass@1.86.3:
-  version "1.86.3"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.86.3.tgz#0a0d9ea97cb6665e73f409639f8533ce057464c9"
-  integrity sha512-iGtg8kus4GrsGLRDLRBRHY9dNVA78ZaS7xr01cWnS7PEMQyFtTqBiyCrfpTYTZXRWM94akzckYjh8oADfFNTzw==
+sass@1.87.0:
+  version "1.87.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.87.0.tgz#8cceb36fa63fb48a8d5d7f2f4c13b49c524b723e"
+  integrity sha512-d0NoFH4v6SjEK7BoX810Jsrhj7IQSYHAHLi/iSpgqKc7LaIDshFRlSg5LOymf9FqQhxEHs2W5ZQXlvy0KD45Uw==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
@@ -13640,13 +13640,13 @@ stylelint-config-standard@^36.0.1:
   dependencies:
     stylelint-config-recommended "^14.0.1"
 
-stylelint-order@6.0.4:
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-6.0.4.tgz#3e80d876c61a98d2640de181433686f24284748b"
-  integrity sha512-0UuKo4+s1hgQ/uAxlYU4h0o0HS4NiQDud0NAUNI0aa8FJdmYHA5ZZTFHiV5FpmE3071e9pZx5j0QpVJW5zOCUA==
+stylelint-order@7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-7.0.0.tgz#ef129101fcc61f5376a2f89f464829cf1e2e349f"
+  integrity sha512-rSWxx0KscYfxU02wEskKXES9lkRzuuONMMNkZ7SUc6uiF3tDKm7e+sE0Ax/SBlG4TUf1sp1R6f3/SlsPGmzthg==
   dependencies:
-    postcss "^8.4.32"
-    postcss-sorting "^8.0.2"
+    postcss "^8.5.3"
+    postcss-sorting "^9.1.0"
 
 stylelint-prettier@5.0.3:
   version "5.0.3"
@@ -13794,12 +13794,12 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-synckit@^0.11.0, synckit@^0.11.2:
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.11.3.tgz#8b83e145d7cedc56c01e3510cf516d91a0e568c2"
-  integrity sha512-szhWDqNNI9etJUvbZ1/cx1StnZx8yMmFxme48SwR4dty4ioSY50KEZlpv0qAfgc1fpRzuh9hBXEzoCpJ779dLg==
+synckit@^0.11.0, synckit@^0.11.4:
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.11.4.tgz#48972326b59723fc15b8d159803cf8302b545d59"
+  integrity sha512-Q/XQKRaJiLiFIBNN+mndW7S/RHxvwzuZS6ZwmRzUBqJBv/5QIKCEwkBC8GBf8EQJKYnaFs0wOZbKTXBPj8L9oQ==
   dependencies:
-    "@pkgr/core" "^0.2.1"
+    "@pkgr/core" "^0.2.3"
     tslib "^2.8.1"
 
 table@^6.9.0:
