@@ -44,7 +44,7 @@
     "@babel/core": "7.27.1",
     "@babel/preset-env": "7.27.2",
     "@babel/preset-react": "7.27.1",
-    "@commitlint/cli": "19.8.0",
+    "@commitlint/cli": "19.8.1",
     "@fullhuman/postcss-purgecss": "7.0.2",
     "@newhighsco/browserslist-config": "1.1.0",
     "@newhighsco/commitlint-config": "1.1.46",
