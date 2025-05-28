@@ -1,3 +1,10 @@
+## [6.17.4](https://github.com/newhighsco/chipset/compare/v6.17.3...v6.17.4) (2025-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.9.1 ([#2614](https://github.com/newhighsco/chipset/issues/2614)) ([f59965d](https://github.com/newhighsco/chipset/commit/f59965d39c17f47ab5b775368156bccf75dfe8d4))
+
 ## [6.17.3](https://github.com/newhighsco/chipset/compare/v6.17.2...v6.17.3) (2025-05-12)
 
 
