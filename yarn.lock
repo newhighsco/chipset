@@ -2047,10 +2047,10 @@
     "@emnapi/runtime" "^1.4.3"
     "@tybys/wasm-util" "^0.9.0"
 
-"@newhighsco/browserslist-config@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-1.1.0.tgz#23e1ce88944d770bd31878133089e31e676e7d19"
-  integrity sha512-gPpJ1qgm/GvD5L/LQe299m/7aWguvfdy2Sg5E46QHo/AGGx0ws9r5f7a4SP54ntQXvFFpaSQsq8+CDY52JIN3w==
+"@newhighsco/browserslist-config@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
+  integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
 "@newhighsco/commitlint-config@1.1.46":
   version "1.1.46"
