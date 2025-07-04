@@ -1182,10 +1182,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/media-query-list-parser/-/media-query-list-parser-4.0.3.tgz#7aec77bcb89c2da80ef207e73f474ef9e1b3cdf1"
   integrity sha512-HAYH7d3TLRHDOUQK4mZKf9k9Ph/m8Akstg66ywKR4SFAigjs3yBiUeZtFxywiTm5moZMAp/5W/ZuFnNXXYLuuQ==
 
-"@csstools/postcss-cascade-layers@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@csstools/postcss-cascade-layers/-/postcss-cascade-layers-5.0.1.tgz#9640313e64b5e39133de7e38a5aa7f40dc259597"
-  integrity sha512-XOfhI7GShVcKiKwmPAnWSqd2tBR0uxt+runAxttbSp/LY2U16yAVPmAf7e9q4JJ0d+xMNmpwNDLBXnmRCl3HMQ==
+"@csstools/postcss-cascade-layers@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@csstools/postcss-cascade-layers/-/postcss-cascade-layers-5.0.2.tgz#dd2c70db3867b88975f2922da3bfbae7d7a2cae7"
+  integrity sha512-nWBE08nhO8uWl6kSAeCx4im7QfVko3zLrtgWZY4/bP87zrSPpSyN/3W3TDqz1jJuH+kbKOHXg5rJnK+ZVYcFFg==
   dependencies:
     "@csstools/selector-specificity" "^5.0.0"
     postcss-selector-parser "^7.0.0"
@@ -2096,32 +2096,32 @@
     eslint-plugin-testing-library "7.5.3"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.337":
-  version "3.5.337"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.337.tgz#dcf81ddf7e9005c3606bedeb840880967b0d8f6f"
-  integrity sha512-JnBK5V5/wplem+XmEZB/F3BUBqsvpJM1kJ64CmOGuKKjkgTA0H3/zqW+aF/ZQGrRt5T5Fv+TVBiurdnuQ3Ajxg==
+"@newhighsco/postcss-config@3.5.338":
+  version "3.5.338"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.338.tgz#f913f1e6ee5f949254133dc356227a724cbf32a3"
+  integrity sha512-cslNSWCC51sBKp+FxHxtE78XR4lOLA7tkpJlNOEoyBc7nxAVils0DFa07u8LX0L1Ubq7yN/dfuWc2GlMwrmjtw==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
     caniuse-lite "1.0.30001726"
     postcss-flexbugs-fixes "5.0.2"
-    postcss-preset-env "10.2.3"
+    postcss-preset-env "10.2.4"
 
 "@newhighsco/prettier-config@2.1.32":
   version "2.1.32"
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.5.tgz#f3bd9ffe14dc67e6f95f03de864f5e8a1a17a0b0"
-  integrity sha512-mzxmtbpjiQIHDN39s23QM7IixMLvi93/pc2E6c5zaEtyFHpOE+THS2dhTtxNXgSc18ABEfUFwd+W5bzDQWxt9A==
+"@newhighsco/release-config@1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.6.tgz#8ec00f2da59f232a5ffe36b444dc6c2263fd567b"
+  integrity sha512-cVx5pUPt+VANNMWrDTAwvn3BRraY8DfMpqWKu8/q96cgOQVj77Cl3QPxCdSG1mcYe7U7sKNomi2OjW/qh7vSlw==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "11.0.3"
-    "@semantic-release/npm" "12.0.1"
+    "@semantic-release/npm" "12.0.2"
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
 
@@ -2672,26 +2672,7 @@
     p-filter "^4.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/npm@12.0.1":
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-12.0.1.tgz#ffb47906de95f8dade8fe0480df0a08dbe1b80c9"
-  integrity sha512-/6nntGSUGK2aTOI0rHPwY3ZjgY9FkXmEHbW9Kr+62NVOsyqpKKeP0lrCH+tphv+EsNdJNmqqwijTEnVWUMQ2Nw==
-  dependencies:
-    "@semantic-release/error" "^4.0.0"
-    aggregate-error "^5.0.0"
-    execa "^9.0.0"
-    fs-extra "^11.0.0"
-    lodash-es "^4.17.21"
-    nerf-dart "^1.0.0"
-    normalize-url "^8.0.0"
-    npm "^10.5.0"
-    rc "^1.2.8"
-    read-pkg "^9.0.0"
-    registry-auth-token "^5.0.0"
-    semver "^7.1.2"
-    tempy "^3.0.0"
-
-"@semantic-release/npm@^12.0.2":
+"@semantic-release/npm@12.0.2", "@semantic-release/npm@^12.0.2":
   version "12.0.2"
   resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-12.0.2.tgz#eaee2de9e543ea86c058b204943d8916a64efb7b"
   integrity sha512-+M9/Lb35IgnlUO6OSJ40Ie+hUsZLuph2fqXC/qrKn0fMvUU/jiCjpoL6zEm69vzcmaZJ8yNKtMBEKHWN49WBbQ==
@@ -10818,7 +10799,7 @@ npm-user-validate@^3.0.0:
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-3.0.0.tgz#9b1410796bf1f1d78297a8096328c55d3083f233"
   integrity sha512-9xi0RdSmJ4mPYTC393VJPz1Sp8LyCx9cUnm/L9Qcb3cFO8gjT4mN20P9FAsea8qDHdQ7LtcN8VLh2UT47SdKCw==
 
-npm@^10.5.0, npm@^10.9.3:
+npm@^10.9.3:
   version "10.9.3"
   resolved "https://registry.yarnpkg.com/npm/-/npm-10.9.3.tgz#e803ef2166aa96eda9b795a9acee1877c8b4e6f2"
   integrity sha512-6Eh1u5Q+kIVXeA8e7l2c/HpnFFcwrkt37xDMujD5be1gloWa9p6j3Fsv3mByXXmqJHy+2cElRMML8opNT7xIJQ==
@@ -11914,12 +11895,12 @@ postcss-place@^10.0.0:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-preset-env@10.2.3:
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.2.3.tgz#3a84bde7205b48f1304a656b25841bd3f40fb3cb"
-  integrity sha512-zlQN1yYmA7lFeM1wzQI14z97mKoM8qGng+198w1+h6sCud/XxOjcKtApY9jWr7pXNS3yHDEafPlClSsWnkY8ow==
+postcss-preset-env@10.2.4:
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/postcss-preset-env/-/postcss-preset-env-10.2.4.tgz#17d386b5a86b136dfbca89b52ef03a95ad9e32fa"
+  integrity sha512-q+lXgqmTMdB0Ty+EQ31SuodhdfZetUlwCA/F0zRcd/XdxjzI+Rl2JhZNz5US2n/7t9ePsvuhCnEN4Bmu86zXlA==
   dependencies:
-    "@csstools/postcss-cascade-layers" "^5.0.1"
+    "@csstools/postcss-cascade-layers" "^5.0.2"
     "@csstools/postcss-color-function" "^4.0.10"
     "@csstools/postcss-color-mix-function" "^3.0.10"
     "@csstools/postcss-color-mix-variadic-function-arguments" "^1.0.0"
