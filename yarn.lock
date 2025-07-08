@@ -2084,10 +2084,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.35":
-  version "4.1.35"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.35.tgz#d451d06560c9f8289f49e79f60a036f187eee3d4"
-  integrity sha512-mwLRo7TQqHsDy4QjcWwAXNFvKpQwPZm8O4MI3/8aiAKaS7KLldpBHlamT+4N5RqK+WKpMsH4U3KSKejdZiRZkA==
+"@newhighsco/eslint-config@4.1.36":
+  version "4.1.36"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.36.tgz#288882d9f9c3f217111e19abb535ad430a959336"
+  integrity sha512-RIRkIMloRa6FVhmNuPr9IWsYPfSguMLsVzfAX7pzZgTJqDRfmVzX3sCo3bMvlRchbptWlBW7xbuhPZgcmdE1GA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -2100,7 +2100,7 @@
     eslint-plugin-import "2.32.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.2"
-    eslint-plugin-mdx "3.5.0"
+    eslint-plugin-mdx "3.6.0"
     eslint-plugin-n "17.15.1"
     eslint-plugin-prettier "5.5.1"
     eslint-plugin-promise "7.2.1"
@@ -2111,14 +2111,14 @@
     eslint-plugin-testing-library "7.5.3"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.338":
-  version "3.5.338"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.338.tgz#f913f1e6ee5f949254133dc356227a724cbf32a3"
-  integrity sha512-cslNSWCC51sBKp+FxHxtE78XR4lOLA7tkpJlNOEoyBc7nxAVils0DFa07u8LX0L1Ubq7yN/dfuWc2GlMwrmjtw==
+"@newhighsco/postcss-config@3.5.339":
+  version "3.5.339"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.339.tgz#589596abdb4cf126d6bcd0eaa4496582f000769d"
+  integrity sha512-D5iSqahxO8MwlWH/zodEUBSLGH/HWotbmL2xgOmai4qg4eyEbe8nZ5WgHb4G0WwBzkPfzPNDjPYamTPdZv0t/g==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
-    caniuse-lite "1.0.30001726"
+    caniuse-lite "1.0.30001727"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.2.4"
 
@@ -4709,10 +4709,10 @@ camelcase@^6.2.0, camelcase@^6.3.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.3.0.tgz#5685b95eb209ac9c0c177467778c9c84df58ba9a"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@1.0.30001726, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
-  version "1.0.30001726"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001726.tgz#a15bd87d5a4bf01f6b6f70ae7c97fdfd28b5ae47"
-  integrity sha512-VQAUIUzBiZ/UnlM28fSp2CRF3ivUn1BWEvxMcVTNwpw91Py1pGbPIyIKtd+tzct9C3ouceCVdGAXxZOpZAsgdw==
+caniuse-lite@1.0.30001727, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
+  version "1.0.30001727"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001727.tgz#22e9706422ad37aa50556af8c10e40e2d93a8b85"
+  integrity sha512-pB68nIHmbN6L/4C6MH1DokyR3bYqFwjaSs/sWDHGj4CTcFtQUQMuJftVwWkXq7mNWOybD3KhUv3oWHoGxgP14Q==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -6270,10 +6270,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-mdx@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.5.0.tgz#20fc7ee7352049e1eb59abf45b6939b82d22290c"
-  integrity sha512-3iFgW201z26bnFJelrrG2D8YXx1jk9JzXBp2pN32EMIpg47ZBM20mkdneLXn2CBKp27ZMHTygEA1DJNpqMu4Pg==
+eslint-mdx@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.6.0.tgz#24558770be792eef17ecdbbf30c4a282f322a39c"
+  integrity sha512-D1YKiLODSJmNK5+zOGqk5gU4lXEXCImUgT8uChDFgcwZYFYNUT71r+sOyLc0tYhTbuHg+tTOSkgSxJUhVon1Yg==
   dependencies:
     acorn "^8.15.0"
     acorn-jsx "^5.3.2"
@@ -6372,12 +6372,12 @@ eslint-plugin-jsx-a11y@6.10.2:
     safe-regex-test "^1.0.3"
     string.prototype.includes "^2.0.1"
 
-eslint-plugin-mdx@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.5.0.tgz#6cea1aabe04bdf690006f4492f3dde4fe0296da1"
-  integrity sha512-pxXH/a2eH3Pxkmp1LSTqFfizIF1ZEUJjEm99gy+k/c+rK+SITEHg04LbPZBqG0T3Z4x0tPtY7zm9miqypcPxuw==
+eslint-plugin-mdx@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.6.0.tgz#0873e9bc8204935631bf9fb5d195df3309041ce9"
+  integrity sha512-q+OYdm/9QemwvxxMGmLFAJPx62l4V/38+Gk1wgRC8unnzF14sFgmCplrfuSQBUv5cndNd97xDuZO+83qM2n30A==
   dependencies:
-    eslint-mdx "^3.5.0"
+    eslint-mdx "^3.6.0"
     mdast-util-from-markdown "^2.0.2"
     mdast-util-mdx "^3.0.0"
     micromark-extension-mdxjs "^3.0.0"
