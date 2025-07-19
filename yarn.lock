@@ -968,10 +968,10 @@
     "@babel/plugin-transform-modules-commonjs" "^7.23.3"
     "@babel/plugin-transform-typescript" "^7.23.3"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.27.3":
-  version "7.27.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.3.tgz#10491113799fb8d77e1d9273384d5d68deeea8f6"
-  integrity sha512-7EYtGezsdiDMyY80+65EzwiGmcJqpmcZCojSXaRgdrBaGtWTgDZKq69cPIVped6MkIM78cTQ2GOiEYjwOlG4xw==
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.27.6":
+  version "7.27.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.27.6.tgz#ec4070a04d76bae8ddbb10770ba55714a417b7c6"
+  integrity sha512-vbavdySgbTTrmFE+EsiqUTzlOr5bzlnJtUv9PynGCAKvfQqjIXbvFdumPM/GxMDfyuGMJaJAU6TO4zc1Jf1i8Q==
 
 "@babel/template@^7.27.1", "@babel/template@^7.27.2":
   version "7.27.2"
@@ -1493,12 +1493,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/utilities/-/utilities-2.0.0.tgz#f7ff0fee38c9ffb5646d47b6906e0bc8868bde60"
   integrity sha512-5VdOr0Z71u+Yp3ozOx8T11N703wIFGVRgOWbOZMKgglPJsWA54MRIoMNVMa7shUToIhx5J8vX4sOZgD2XiihiQ==
 
-"@dr.pogodin/react-themes@1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.1.tgz#58e1362b29f6416007bf68dea88b371d3349771d"
-  integrity sha512-OlBLoisF/EDsHyAKSK2iipKM4QuckRQlFsJpQPxiFqIcPFakFKtqhLjvbH9L+ltXdwb3A+S84+MPRgji1o0/kw==
+"@dr.pogodin/react-themes@1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.2.tgz#823e4b963a24f3bac12f865397b62eddecfd7467"
+  integrity sha512-FSr4Z5OnY04Spwo3wrlyqDf0DRDPBjZkJ9hVvBApzSGFsgdq3mxd3YmA0ajO3D127vE0Txz3PDio0x7IgS5bUg==
   dependencies:
-    "@babel/runtime" "^7.27.3"
+    "@babel/runtime" "^7.27.6"
 
 "@dual-bundle/import-meta-resolve@^4.1.0":
   version "4.1.0"
