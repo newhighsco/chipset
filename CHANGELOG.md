@@ -1,3 +1,10 @@
+## [6.17.6](https://github.com/newhighsco/chipset/compare/v6.17.5...v6.17.6) (2025-07-25)
+
+
+### Bug Fixes
+
+* **icon:** set default fill to `currentColor` ([#2659](https://github.com/newhighsco/chipset/issues/2659)) ([8c26aa4](https://github.com/newhighsco/chipset/commit/8c26aa4a158f3645284eeeaf54d5877041dd759f))
+
 ## [6.17.5](https://github.com/newhighsco/chipset/compare/v6.17.4...v6.17.5) (2025-07-19)
 
 
