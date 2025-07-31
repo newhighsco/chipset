@@ -1,7 +1,13 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@1.11.0
+  newhighsco: newhighsco/orb@1.12.0
+
+only-main: &only-main
+  filters:
+    branches:
+      only:
+        - main
 
 only-version-tags: &only-version-tags
   filters:
@@ -38,13 +44,15 @@ workflows:
           requires:
             - build
       - newhighsco/release:
+          <<: *only-main
           name: release
           requires:
             - snapshot
-          filters:
-            branches:
-              only:
-                - main
+      - newhighsco/analyze:
+          <<: *only-main
+          name: analyze
+          requires:
+            - release
   snapshot_version:
     jobs:
       - newhighsco/setup:
