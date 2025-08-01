@@ -1,8 +1,8 @@
-import classNames from 'classnames'
 import { array, bool, func, shape, string } from 'prop-types'
 import React from 'react'
 
-import { useToggle } from '../../hooks'
+import { useIds, useToggle } from '../../hooks'
+import { classNames } from '../../utils'
 import Button from '../Button'
 import Icon from '../Icon'
 import List from '../List'
@@ -22,6 +22,7 @@ const Navigation = ({
   className
 }) => {
   const [visible, setVisibility] = useToggle(!toggle)
+  const [titleId, menuId] = useIds(['title', 'menu'])
 
   if (!links.length) return null
 
@@ -31,11 +32,18 @@ const Navigation = ({
   }
 
   return (
-    <nav role="navigation" className={classNames(theme?.root, className)}>
-      <VisuallyHidden as="h2">{title}</VisuallyHidden>
+    <nav
+      aria-labelledby={titleId}
+      role="navigation"
+      className={classNames(theme?.root, className)}
+    >
+      <VisuallyHidden as="h2" id={titleId}>
+        {title}
+      </VisuallyHidden>
       {toggle && (
         <Button
           active={visible}
+          aria-controls={menuId}
           aria-expanded={visible}
           onClick={toggleVisibility}
           theme={{ root: theme?.toggle, active: theme?.toggleActive }}
@@ -49,6 +57,7 @@ const Navigation = ({
         </Button>
       )}
       <List
+        id={menuId}
         role="menubar"
         unstyled
         inline={inline}

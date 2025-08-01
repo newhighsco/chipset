@@ -1,7 +1,7 @@
-import classNames from 'classnames'
 import { node, string } from 'prop-types'
 import React from 'react'
 
+import { classNames } from '../../utils'
 import Element from '../Element'
 import styles from './Backdrop.module.scss'
 

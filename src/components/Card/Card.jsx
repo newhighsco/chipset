@@ -1,4 +1,3 @@
-import classNames from 'classnames'
 import {
   func,
   node,
@@ -10,6 +9,7 @@ import {
 } from 'prop-types'
 import React from 'react'
 
+import { classNames } from '../../utils'
 import CardHeading from './CardHeading'
 import CardImage from './CardImage'
 
