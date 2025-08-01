@@ -1,7 +1,7 @@
-import classNames from 'classnames'
 import { bool, func, node, object, oneOfType, shape, string } from 'prop-types'
 import React from 'react'
 
+import { classNames } from '../../utils'
 import SmartLink from '../SmartLink'
 
 const Button = ({ active, children, theme, className, setRef, ...rest }) => {

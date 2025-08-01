@@ -1,6 +1,7 @@
-import classNames from 'classnames'
 import { arrayOf, node, oneOf, oneOfType, shape, string } from 'prop-types'
 import React from 'react'
+
+import { classNames } from '../../utils'
 
 const GridItem = ({ sizes, children, theme, className, ...rest }) => {
   if (!children) return null
