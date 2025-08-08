@@ -2116,10 +2116,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.42":
-  version "4.1.42"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.42.tgz#3a22c47ce466bc043e3c0fc0722327778539cce7"
-  integrity sha512-Vbjo/dBhin97d2QJhdzTtrNaQ2q8rpWuSrpO0t5FUKCIjN9geTU0cBlpmdBC4KiXk64rP+H9rkSdZacl3V2TcQ==
+"@newhighsco/eslint-config@4.1.43":
+  version "4.1.43"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.43.tgz#1a904d825e4e3360faf81120bb8c8d11f2f61ddf"
+  integrity sha512-5QvoWwo7ydPlQvESQySGHjnHmIyD9lYZIXi6hzQKAJt0+798arJnfeAOhorfm4XKGYCRZsom6wbl61WjBzUf1g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -2134,7 +2134,7 @@
     eslint-plugin-jsx-a11y "6.10.2"
     eslint-plugin-mdx "3.6.2"
     eslint-plugin-n "17.15.1"
-    eslint-plugin-prettier "5.5.3"
+    eslint-plugin-prettier "5.5.4"
     eslint-plugin-promise "7.2.1"
     eslint-plugin-react "7.37.5"
     eslint-plugin-react-hooks "5.2.0"
@@ -2185,10 +2185,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-2.0.60.tgz#7e154b25dbc449a69b07762f0fea21ff54bf9a89"
   integrity sha512-X6QfuQ4xkz3kPL0ADSMRrheek7+1NPS9XznEOZkDwg4u6bqg8VXB49I8apai+zqJYX9YRQgamNj6eKlx3yZjUA==
 
-"@newhighsco/storybook-preset@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.1.0.tgz#c06e4adb2fd5176ff56d5270fecdd3a85f1d1fc6"
-  integrity sha512-h1XHAWseDs75cAqfVxZJvCS2iZ4FYaUNb6Vv+zGcVhB5Esn6A4+XvqXFjxRVooCsNGnfP2NwyMKc+eVuqWzfhw==
+"@newhighsco/storybook-preset@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-7.1.1.tgz#5e4493329d3c3bc4748c2f9883e3993b4215dc95"
+  integrity sha512-O2NF3lkyyfmwGfRyuVl29hw4IxjNy/8bcjXMbEgExqTOHsN63+1j+m2Aoc/tyyQOdT91jqDLUG4Ra1uj7zv27Q==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "2.0.60"
     "@newhighsco/storybook-addon-transpile-modules" "2.0.60"
@@ -2202,7 +2202,7 @@
     css-loader "7.1.2"
     postcss "8.5.6"
     postcss-loader "8.1.1"
-    sass "1.89.2"
+    sass "1.90.0"
     sass-loader "16.0.5"
     storybook-dark-mode "4.0.1"
     style-loader "4.0.0"
@@ -6871,10 +6871,10 @@ eslint-plugin-n@17.15.1:
     minimatch "^9.0.5"
     semver "^7.6.3"
 
-eslint-plugin-prettier@5.5.3:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.3.tgz#1f88e9220a72ac8be171eec5f9d4e4d529b5f4a0"
-  integrity sha512-NAdMYww51ehKfDyDhv59/eIItUVzU0Io9H2E8nHNGKEeeqlnci+1gCvrHib6EmZdf6GxF+LCV5K7UC65Ezvw7w==
+eslint-plugin-prettier@5.5.4:
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.4.tgz#9d61c4ea11de5af704d4edf108c82ccfa7f2e61c"
+  integrity sha512-swNtI95SToIz05YINMA6Ox5R057IMAmWZ26GqPxusAp1TZzj+IdY9tXNWWD3vkF/wEqydCONcwjTFpxybBqZsg==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.11.7"
@@ -13689,10 +13689,10 @@ sass-true@9.0.0:
     jest-diff "^30.0.2"
     lodash "^4.17.21"
 
-sass@1.89.2:
-  version "1.89.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.89.2.tgz#a771716aeae774e2b529f72c0ff2dfd46c9de10e"
-  integrity sha512-xCmtksBKd/jdJ9Bt9p7nPKiuqrlBMBuuGkQlkhZjjQk3Ty48lv93k5Dq6OPkKt4XwxDJ7tvlfrTa1MPA9bf+QA==
+sass@1.90.0:
+  version "1.90.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.90.0.tgz#d6fc2be49c7c086ce86ea0b231a35bf9e33cb84b"
+  integrity sha512-9GUyuksjw70uNpb1MTYWsH9MQHOHY6kwfnkafC24+7aOMZn9+rVMBxRbLvw756mrBFbIsFg6Xw9IkR2Fnn3k+Q==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
