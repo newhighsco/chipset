@@ -1,3 +1,10 @@
+# [6.18.0](https://github.com/newhighsco/chipset/compare/v6.17.6...v6.18.0) (2025-08-12)
+
+
+### Features
+
+* trim class names ([#2668](https://github.com/newhighsco/chipset/issues/2668)) ([3cc8b41](https://github.com/newhighsco/chipset/commit/3cc8b41dc4c00822a4e86e401b5cfb16ad7718a8))
+
 ## [6.17.6](https://github.com/newhighsco/chipset/compare/v6.17.5...v6.17.6) (2025-07-25)
 
 
