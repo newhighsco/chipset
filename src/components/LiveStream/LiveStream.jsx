@@ -1,7 +1,7 @@
-import classNames from 'classnames'
 import { bool, shape, string } from 'prop-types'
 import React, { useEffect, useState } from 'react'
 
+import { classNames } from '../../utils'
 import Grid from '../Grid'
 import ResponsiveMedia from '../ResponsiveMedia'
 import VisuallyHidden from '../VisuallyHidden'

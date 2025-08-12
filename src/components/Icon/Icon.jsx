@@ -1,7 +1,7 @@
-import classNames from 'classnames'
 import { node, number, oneOfType, shape, string } from 'prop-types'
 import React from 'react'
 
+import { classNames } from '../../utils'
 import VisuallyHidden from '../VisuallyHidden'
 
 /**

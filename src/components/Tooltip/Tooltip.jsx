@@ -1,8 +1,8 @@
-import classNames from 'classnames'
 import { bool, node, oneOf, shape, string } from 'prop-types'
 import React from 'react'
 
 import { useToggle } from '../../hooks'
+import { classNames } from '../../utils'
 import SmartLink from '../SmartLink'
 
 /**
