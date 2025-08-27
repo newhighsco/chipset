@@ -8,8 +8,22 @@ export const Source = {
   args: {
     links: [
       { href: '/foo', children: 'Foo' },
-      { href: '/bar', children: 'Bar' },
-      { href: '/fizz', children: 'Fizz' },
+      {
+        href: '/bar',
+        children: 'Bar',
+        links: [
+          { href: '/foo', children: 'Foo' },
+          { href: '/bar', children: 'Bar' }
+        ]
+      },
+      {
+        href: '/fizz',
+        children: 'Fizz',
+        links: [
+          { href: '/foo', children: 'Foo' },
+          { href: '/bar', children: 'Bar' }
+        ]
+      },
       { href: 'https://buzz.com', target: '_blank', children: 'Buzz' }
     ]
   },

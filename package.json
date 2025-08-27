@@ -22,7 +22,7 @@
   },
   "scripts": {
     "prepare": "husky",
-    "start": "storybook dev --port 49928 --docs",
+    "start": "storybook dev --port 49928",
     "build": "storybook build --output-dir build --docs --quiet --webpack-stats-json",
     "pretest": "yarn lint",
     "test": "jest --runInBand",
