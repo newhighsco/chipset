@@ -6,5 +6,5 @@ export default {
 }
 
 export const Source = {
-  args: { href: 'https://Example.com/', children: 'Content' }
+  args: { href: 'https://example.com/', children: 'Content' }
 }

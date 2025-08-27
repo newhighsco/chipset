@@ -1,6 +1,7 @@
 import { oneOf, shape, string } from 'prop-types'
 import React from 'react'
 
+import { classNames } from '../../utils'
 import Icon from '../Icon'
 import SmartLink from '../SmartLink'
 import { ReactComponent as LogoSvg } from './images/logo.svg'
@@ -13,8 +14,8 @@ const href = 'http://newhighsco.re'
 /**
  * The `CreditLockup` provides a link to the New High Score website
  */
-const CreditLockup = ({ theme, ...rest }) => (
-  <span className={theme?.root} {...rest}>
+const CreditLockup = ({ theme, className, ...rest }) => (
+  <span className={classNames(theme?.root, className)} {...rest}>
     <SmartLink
       className={theme?.link}
       href={href}
@@ -38,7 +39,8 @@ CreditLockup.displayName = 'CreditLockup'
 CreditLockup.propTypes = {
   align: oneOf(['left', 'right', 'center']),
   dir: oneOf(['ltr', 'rtl']),
-  theme: shape({ root: string, link: string, logo: string, text: string })
+  theme: shape({ root: string, link: string, logo: string, text: string }),
+  className: string
 }
 
 export default CreditLockup
