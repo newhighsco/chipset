@@ -14,7 +14,7 @@ export const useLink = () => {
   return renderLink
 }
 
-const LinkProvider = ({ children, renderLink }) => {
+export const LinkProvider = ({ children, renderLink }) => {
   return (
     <LinkContext.Provider value={renderLink}>{children}</LinkContext.Provider>
   )
@@ -24,5 +24,3 @@ LinkProvider.propTypes = {
   children: node,
   renderLink: func
 }
-
-export default LinkProvider

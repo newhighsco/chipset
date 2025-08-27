@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import React from 'react'
 
-import LinkProvider, { useLink } from '.'
+import { LinkProvider, useLink } from '.'
 
 const Link = props => {
   const renderLink = useLink()
