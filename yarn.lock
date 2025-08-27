@@ -2116,10 +2116,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.43":
-  version "4.1.43"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.43.tgz#1a904d825e4e3360faf81120bb8c8d11f2f61ddf"
-  integrity sha512-5QvoWwo7ydPlQvESQySGHjnHmIyD9lYZIXi6hzQKAJt0+798arJnfeAOhorfm4XKGYCRZsom6wbl61WjBzUf1g==
+"@newhighsco/eslint-config@4.1.44":
+  version "4.1.44"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.44.tgz#64f9a8c51d6cff9636946e846aeb910b079cc2fd"
+  integrity sha512-EqTmbG+tnTB+VsqIcRCMKqqMqVHSEQkC8kO7cB3XlmEduMsr1WenxX6/JN/g1XpBAW4QIb6lAcayzzRNeIB0pw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -2140,17 +2140,17 @@
     eslint-plugin-react-hooks "5.2.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.6.3"
+    eslint-plugin-testing-library "7.6.6"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.341":
-  version "3.5.341"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.341.tgz#e06afc948199d86f5b7d5433b3db1e97bcfe21af"
-  integrity sha512-QlEGtQBl2y6ocuLreZEyTUvLuK8NYT7T4dJ1Nn5iBf6O/LN9EBm3a9eQ+Bwz9nXgs3+JT+y/55iUtM5/rz4DSg==
+"@newhighsco/postcss-config@3.5.343":
+  version "3.5.343"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.343.tgz#f682fc27819e097d8b203110c6d55537caa7bc91"
+  integrity sha512-7VIeMPpEKmNVU6cY3tCGAu3PnB+yQ0BsBgZQV9c6KwNMl1Xdx9k1FEx8dq7JjknEy1M6pKS6H0F0QmGzjNAXqQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
-    caniuse-lite "1.0.30001733"
+    caniuse-lite "1.0.30001735"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.2.4"
 
@@ -2159,15 +2159,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.6.tgz#8ec00f2da59f232a5ffe36b444dc6c2263fd567b"
-  integrity sha512-cVx5pUPt+VANNMWrDTAwvn3BRraY8DfMpqWKu8/q96cgOQVj77Cl3QPxCdSG1mcYe7U7sKNomi2OjW/qh7vSlw==
+"@newhighsco/release-config@1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.7.tgz#9b2d5648c0cd37143305ccde52eea371b6579ea8"
+  integrity sha512-yPw6Rvx4UdIDaXFe38zGBbiGAXGQClT1XFrguXiVU0F2yLYtYgkH+t8IxgBAZHj5/ixJtkAB6rgfH8kgp++2JQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "11.0.3"
+    "@semantic-release/github" "11.0.4"
     "@semantic-release/npm" "12.0.2"
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
@@ -2785,10 +2785,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@11.0.3", "@semantic-release/github@^11.0.0":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.3.tgz#00d1bcaeab651db89134ccd47b63970f5aa7cf93"
-  integrity sha512-T2fKUyFkHHkUNa5XNmcsEcDPuG23hwBKptfUVcFXDVG2cSjXXZYDOfVYwfouqbWo/8UefotLaoGfQeK+k3ep6A==
+"@semantic-release/github@11.0.4", "@semantic-release/github@^11.0.0":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.4.tgz#dfc665acea9d7cb6385ce1b3838467bea8f696c5"
+  integrity sha512-fU/nLSjkp9DmB0h7FVO5imhhWJMvq2LjD4+3lz3ZAzpDLY9+KYwC+trJ+g7LbZeJv9y3L9fSFSg2DduUpiT6bw==
   dependencies:
     "@octokit/core" "^7.0.0"
     "@octokit/plugin-paginate-rest" "^13.0.0"
@@ -5068,10 +5068,10 @@ camelcase@^8.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
   integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
-caniuse-lite@1.0.30001733, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
-  version "1.0.30001733"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001733.tgz#918405ed6647a62840fb328832cf5a03f986974b"
-  integrity sha512-e4QKw/O2Kavj2VQTKZWrwzkt3IxOmIlU6ajRb6LP64LHpBo1J67k2Hi4Vu/TgJWsNtynurfS0uK3MaUTCPfu5Q==
+caniuse-lite@1.0.30001735, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001718:
+  version "1.0.30001735"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001735.tgz#ba658fd3fd24a4106fd68d5ce472a2c251494dbe"
+  integrity sha512-EV/laoX7Wq2J9TQlyIXRxTJqIw4sxfXS4OYgudGxBYRuTv0q7AM6yMEpU/Vo1I94thg9U6EZ2NfZx9GJq83u7w==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -6927,10 +6927,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.6.3:
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.6.3.tgz#b4478533abb1a107edabde0aa0db66044df9a234"
-  integrity sha512-tI/epV/DD4+nJ51VGg7MWfqajMAW0+U+9dTLFrnqrJHoPO2TyGRU8ASrPNFPe2zzDT1qwznkCeeqMzViALgiig==
+eslint-plugin-testing-library@7.6.6:
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.6.6.tgz#b0a1f42b32670ede4967f546410a0b0b0dedba8f"
+  integrity sha512-eSexC+OPhDLuCpLbFEC7Qrk0x4IE4Mn+UW0db8YAhUatVB6CzGHdeHv4pyoInglbhhQc0Z9auY/2HKyMZW5s7Q==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
