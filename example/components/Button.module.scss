@@ -14,7 +14,8 @@
     text-decoration: none !important;
   }
 
-  &[disabled] {
+  &[disabled],
+  &[aria-disabled] {
     opacity: 0.5;
     pointer-events: none;
   }

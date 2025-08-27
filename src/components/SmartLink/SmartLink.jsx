@@ -1,6 +1,7 @@
 import { bool, func, node, object, oneOf, oneOfType, string } from 'prop-types'
 import React from 'react'
 
+import { useLink } from '../../providers'
 import { absoluteUrl } from '../../utils'
 
 /**
@@ -16,7 +17,23 @@ const SmartLink = ({
   className,
   ...rest
 }) => {
+  const renderLink = useLink()
+
   if (!children) return null
+
+  if (!href) {
+    return (
+      <button
+        ref={setRef}
+        className={className}
+        disabled={disabled}
+        type={type}
+        {...rest}
+      >
+        {children}
+      </button>
+    )
+  }
 
   if (disabled) {
     const { role = 'link' } = rest
@@ -26,14 +43,6 @@ const SmartLink = ({
       <a ref={setRef} className={className} role={role} aria-disabled="true">
         {children}
       </a>
-    )
-  }
-
-  if (!href) {
-    return (
-      <button ref={setRef} className={className} type={type} {...rest}>
-        {children}
-      </button>
     )
   }
 
@@ -52,11 +61,7 @@ const SmartLink = ({
     )
   }
 
-  return (
-    <a ref={setRef} className={className} href={href} {...rest}>
-      {children}
-    </a>
-  )
+  return renderLink({ ref: setRef, className, href, children, ...rest })
 }
 
 SmartLink.displayName = 'SmartLink'

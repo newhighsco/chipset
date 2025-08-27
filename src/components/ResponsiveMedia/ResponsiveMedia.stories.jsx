@@ -27,7 +27,7 @@ export const WithIframe = {
   args: {
     ratio: '16:9',
     children: (
-      <iframe title="iframe" src="https://Example.com/" loading="lazy" />
+      <iframe title="iframe" src="https://example.com/" loading="lazy" />
     )
   }
 }

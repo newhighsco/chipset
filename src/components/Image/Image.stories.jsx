@@ -7,10 +7,10 @@ export default {
 
 export const Source = {
   args: {
-    src: 'https://Example.com/image.jpg',
+    src: 'https://example.com/image.jpg',
     sources: [
-      { srcSet: 'https://Example.com/image.webp' },
-      { srcSet: 'https://Example.com/image.jpg' }
+      { srcSet: 'https://example.com/image.webp' },
+      { srcSet: 'https://example.com/image.jpg' }
     ]
   },
   parameters: { chromatic: { disable: true } }
