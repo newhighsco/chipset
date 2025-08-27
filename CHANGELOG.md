@@ -1,3 +1,10 @@
+# [6.19.0](https://github.com/newhighsco/chipset/compare/v6.18.0...v6.19.0) (2025-08-27)
+
+
+### Features
+
+* add `LinkProvider` ([#2681](https://github.com/newhighsco/chipset/issues/2681)) ([008a0ff](https://github.com/newhighsco/chipset/commit/008a0ff0a8673bc1fccd7e54c40ba30bf3c11a94))
+
 # [6.18.0](https://github.com/newhighsco/chipset/compare/v6.17.6...v6.18.0) (2025-08-12)
 
 
