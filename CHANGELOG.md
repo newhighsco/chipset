@@ -1,3 +1,10 @@
+## [6.19.1](https://github.com/newhighsco/chipset/compare/v6.19.0...v6.19.1) (2025-08-27)
+
+
+### Bug Fixes
+
+* **link-provider:** use correct exports ([#2682](https://github.com/newhighsco/chipset/issues/2682)) ([eeb13ba](https://github.com/newhighsco/chipset/commit/eeb13ba5dea86e97471eda3a98e49bb327d9bc3f))
+
 # [6.19.0](https://github.com/newhighsco/chipset/compare/v6.18.0...v6.19.0) (2025-08-27)
 
 
