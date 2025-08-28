@@ -1,38 +1,31 @@
-import { node, number, oneOfType, shape, string } from 'prop-types'
-import React from 'react'
+import { node, number, object, oneOfType, shape, string } from 'prop-types'
+import { Children, cloneElement } from 'react'
 
 import { classNames } from '../../utils'
-import VisuallyHidden from '../VisuallyHidden'
 
 /**
  * Use `Icon` to wrap SVGs
  */
-const Icon = ({ height, width, alt, children, theme }) => {
+const Icon = ({
+  width,
+  height,
+  alt,
+  children,
+  theme,
+  className,
+  style,
+  ...rest
+}) => {
   if (!children) return null
 
-  return (
-    <span
-      className={classNames(
-        theme?.root,
-        (width ?? height) && theme?.customSize
-      )}
-      {...(alt && {
-        role: 'img',
-        'aria-label': alt
-      })}
-      {...(!alt && {
-        'aria-hidden': 'true'
-      })}
-      style={{
-        width,
-        height,
-        lineHeight: height
-      }}
-    >
-      {alt && <VisuallyHidden>{alt}</VisuallyHidden>}
-      {children}
-    </span>
-  )
+  return cloneElement(Children.only(children), {
+    className: classNames(theme?.root, className),
+    ...(alt && { role: 'img' }),
+    ...(!alt && { 'aria-hidden': true }),
+    style: { ...style, width, height },
+    title: alt,
+    ...rest
+  })
 }
 
 Icon.displayName = 'Icon'
@@ -41,7 +34,9 @@ Icon.propTypes = {
   width: oneOfType([number, string]),
   alt: string,
   children: node,
-  theme: shape({ root: string })
+  theme: shape({ root: string }),
+  className: string,
+  style: object
 }
 
 export default Icon

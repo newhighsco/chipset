@@ -47,12 +47,16 @@ describe('Components/Navigation', () => {
     const menu = screen.getByRole('menubar', { hidden: true })
 
     expect(button).toBeInTheDocument()
-    expect(screen.getByLabelText('Show Navigation')).toBeInTheDocument()
+    expect(
+      screen.getByRole('img', { name: 'Show Navigation' })
+    ).toBeInTheDocument()
     expect(menu).not.toBeVisible()
 
     fireEvent.click(button)
 
-    expect(screen.getByLabelText('Hide Navigation')).toBeInTheDocument()
+    expect(
+      screen.getByRole('img', { name: 'Hide Navigation' })
+    ).toBeInTheDocument()
     expect(menu).toBeVisible()
 
     fireEvent.click(button)

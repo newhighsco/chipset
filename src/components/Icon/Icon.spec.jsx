@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import React from 'react'
 
+import { ImageSvg } from '../../__mocks__/fixtures'
 import Icon from './Icon'
 
 const theme = { root: 'root', customSize: 'customSize' }
@@ -13,33 +14,41 @@ describe('Components/Icon', () => {
   })
 
   it("should render a <span /> when 'children' is set", () => {
-    const { container } = render(<Icon>Content</Icon>)
-
-    expect(container.firstChild).toHaveAttribute('aria-hidden')
-    expect(screen.getByText('Content')).toBeInTheDocument()
-  })
-
-  it("should render a <VisuallyHidden /> when 'alt' is set", () => {
-    const { container } = render(<Icon alt="foo">Content</Icon>)
-
-    expect(container.firstChild).not.toHaveAttribute('aria-hidden')
-    expect(screen.getByText('Content')).toBeInTheDocument()
-    expect(screen.getByLabelText('foo')).toBeInTheDocument()
-    expect(screen.getByRole('img')).toBeInTheDocument()
-  })
-
-  it('should set correct classNames', () => {
-    const { container } = render(
-      <Icon theme={theme} width={20} height="10px">
-        Content
+    render(
+      <Icon id="icon">
+        <ImageSvg />
       </Icon>
     )
 
-    expect(container.firstChild).toHaveClass('root customSize')
-    expect(container.firstChild).toHaveStyle({
-      width: '20px',
-      height: '10px',
-      lineHeight: '10px'
-    })
+    const icon = screen.getByTestId('icon')
+
+    expect(icon).toBeInTheDocument()
+    expect(icon).toHaveAttribute('aria-hidden')
+  })
+
+  it("should render a <VisuallyHidden /> when 'alt' is set", () => {
+    render(
+      <Icon alt="foo">
+        <ImageSvg />
+      </Icon>
+    )
+
+    const icon = screen.getByRole('img', { name: 'foo' })
+
+    expect(icon).toBeInTheDocument()
+    expect(icon).not.toHaveAttribute('aria-hidden')
+  })
+
+  it('should set correct classNames', () => {
+    render(
+      <Icon id="icon" className="foo" theme={theme} width={20} height="10px">
+        <ImageSvg />
+      </Icon>
+    )
+
+    const icon = screen.getByTestId('icon')
+
+    expect(icon).toHaveClass('root foo')
+    expect(icon).toHaveStyle({ width: '20px', height: '10px' })
   })
 })
