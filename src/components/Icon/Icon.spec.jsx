@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import React from 'react'
 
+import { ImageSvg } from '../../__mocks__/fixtures'
 import Icon from './Icon'
 
 const theme = { root: 'root', customSize: 'customSize' }
@@ -15,7 +16,7 @@ describe('Components/Icon', () => {
   it("should render a <span /> when 'children' is set", () => {
     render(
       <Icon id="icon">
-        <svg />
+        <ImageSvg />
       </Icon>
     )
 
@@ -28,7 +29,7 @@ describe('Components/Icon', () => {
   it("should render a <VisuallyHidden /> when 'alt' is set", () => {
     render(
       <Icon alt="foo">
-        <svg />
+        <ImageSvg />
       </Icon>
     )
 
@@ -41,7 +42,7 @@ describe('Components/Icon', () => {
   it('should set correct classNames', () => {
     render(
       <Icon id="icon" theme={theme} width={20} height="10px">
-        <svg />
+        <ImageSvg />
       </Icon>
     )
 
