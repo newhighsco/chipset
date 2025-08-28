@@ -41,14 +41,14 @@ describe('Components/Icon', () => {
 
   it('should set correct classNames', () => {
     render(
-      <Icon id="icon" theme={theme} width={20} height="10px">
+      <Icon id="icon" className="foo" theme={theme} width={20} height="10px">
         <ImageSvg />
       </Icon>
     )
 
     const icon = screen.getByTestId('icon')
 
-    expect(icon).toHaveClass('root')
+    expect(icon).toHaveClass('root foo')
     expect(icon).toHaveStyle({ width: '20px', height: '10px' })
   })
 })

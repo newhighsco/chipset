@@ -1,17 +1,28 @@
-import { node, number, oneOfType, shape, string } from 'prop-types'
+import { node, number, object, oneOfType, shape, string } from 'prop-types'
 import { Children, cloneElement } from 'react'
+
+import { classNames } from '../../utils'
 
 /**
  * Use `Icon` to wrap SVGs
  */
-const Icon = ({ width, height, alt, children, theme, ...rest }) => {
+const Icon = ({
+  width,
+  height,
+  alt,
+  children,
+  theme,
+  className,
+  style,
+  ...rest
+}) => {
   if (!children) return null
 
   return cloneElement(Children.only(children), {
-    className: theme?.root,
+    className: classNames(theme?.root, className),
     ...(alt && { role: 'img' }),
     ...(!alt && { 'aria-hidden': true }),
-    style: { width, height },
+    style: { ...style, width, height },
     title: alt,
     ...rest
   })
@@ -23,7 +34,9 @@ Icon.propTypes = {
   width: oneOfType([number, string]),
   alt: string,
   children: node,
-  theme: shape({ root: string })
+  theme: shape({ root: string }),
+  className: string,
+  style: object
 }
 
 export default Icon
