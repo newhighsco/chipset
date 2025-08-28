@@ -7,11 +7,7 @@ import { Children, cloneElement } from 'react'
 const Icon = ({ width, height, alt, children, theme, ...rest }) => {
   if (!children) return null
 
-  const svg = Children.only(children)
-
-  if (!svg) return null
-
-  return cloneElement(svg, {
+  return cloneElement(Children.only(children), {
     className: theme?.root,
     ...(alt && { role: 'img' }),
     ...(!alt && { 'aria-hidden': true }),
