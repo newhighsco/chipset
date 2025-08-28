@@ -1,38 +1,24 @@
 import { node, number, oneOfType, shape, string } from 'prop-types'
-import React from 'react'
-
-import { classNames } from '../../utils'
-import VisuallyHidden from '../VisuallyHidden'
+import { Children, cloneElement } from 'react'
 
 /**
  * Use `Icon` to wrap SVGs
  */
-const Icon = ({ height, width, alt, children, theme }) => {
+const Icon = ({ width, height, alt, children, theme, ...rest }) => {
   if (!children) return null
 
-  return (
-    <span
-      className={classNames(
-        theme?.root,
-        (width ?? height) && theme?.customSize
-      )}
-      {...(alt && {
-        role: 'img',
-        'aria-label': alt
-      })}
-      {...(!alt && {
-        'aria-hidden': 'true'
-      })}
-      style={{
-        width,
-        height,
-        lineHeight: height
-      }}
-    >
-      {alt && <VisuallyHidden>{alt}</VisuallyHidden>}
-      {children}
-    </span>
-  )
+  const svg = Children.only(children)
+
+  if (!svg) return null
+
+  return cloneElement(svg, {
+    className: theme?.root,
+    ...(alt && { role: 'img' }),
+    ...(!alt && { 'aria-hidden': true }),
+    style: { width, height },
+    title: alt,
+    ...rest
+  })
 }
 
 Icon.displayName = 'Icon'

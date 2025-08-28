@@ -2240,6 +2240,11 @@
     stylelint-order "7.0.0"
     stylelint-prettier "5.0.3"
 
+"@newhighsco/svgo-config@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/svgo-config/-/svgo-config-1.0.2.tgz#994162cdd7e3646e2c22c325608abc46e8f7706d"
+  integrity sha512-N0mMtBu0PGlRH7gsPRxoyiibfBsxLxGH13zW32ykMSoC/ab7JvWkw3VJKkVTReHA0/R6V3NEy1cvtlMtQAmOng==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
