@@ -1,3 +1,10 @@
+# [6.20.0](https://github.com/newhighsco/chipset/compare/v6.19.1...v6.20.0) (2025-08-28)
+
+
+### Features
+
+* **icons:** improve accessibility ([#2686](https://github.com/newhighsco/chipset/issues/2686)) ([47d6710](https://github.com/newhighsco/chipset/commit/47d671092a25900d126ee52700eb4aeae4ce17fc))
+
 ## [6.19.1](https://github.com/newhighsco/chipset/compare/v6.19.0...v6.19.1) (2025-08-27)
 
 
