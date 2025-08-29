@@ -20,10 +20,9 @@ const Icon = ({
 
   return cloneElement(Children.only(children), {
     className: classNames(theme?.root, className),
-    ...(alt && { role: 'img' }),
+    ...(alt && { role: 'img', title: alt }),
     ...(!alt && { 'aria-hidden': true }),
     style: { ...style, width, height },
-    title: alt,
     ...rest
   })
 }
