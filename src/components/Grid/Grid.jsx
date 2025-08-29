@@ -14,7 +14,8 @@ const Grid = ({
   valign,
   children,
   theme,
-  className
+  className,
+  ...rest
 }) => {
   if (!children) return null
 
@@ -29,6 +30,7 @@ const Grid = ({
         valign && theme[`valign-${valign}`],
         className
       )}
+      {...rest}
     >
       {children}
     </div>
