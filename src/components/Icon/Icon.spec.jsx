@@ -4,7 +4,7 @@ import React from 'react'
 import { ImageSvg } from '../../__mocks__/fixtures'
 import Icon from './Icon'
 
-const theme = { root: 'root', customSize: 'customSize' }
+const theme = { root: 'root' }
 
 describe('Components/Icon', () => {
   it('should render nothing by default', () => {
