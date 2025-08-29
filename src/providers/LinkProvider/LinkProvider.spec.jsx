@@ -26,7 +26,7 @@ describe('Provider/LinkProvider', () => {
     ).toThrow(/missing 'renderLink'/)
   })
 
-  it("should throw error when 'renderLink' is not set", () => {
+  it("should render custom element when 'renderLink' is set", () => {
     render(
       // eslint-disable-next-line jsx-a11y/anchor-has-content
       <LinkProvider renderLink={props => <a {...props} role="button" />}>
