@@ -1,3 +1,10 @@
+# [6.21.0](https://github.com/newhighsco/chipset/compare/v6.20.0...v6.21.0) (2025-08-29)
+
+
+### Features
+
+* **svg:** use `@newhighsco/svgr-config` ([#2687](https://github.com/newhighsco/chipset/issues/2687)) ([f0d381a](https://github.com/newhighsco/chipset/commit/f0d381a0275ff7cd66daf89d28c936cb14e1944f))
+
 # [6.20.0](https://github.com/newhighsco/chipset/compare/v6.19.1...v6.20.0) (2025-08-28)
 
 
