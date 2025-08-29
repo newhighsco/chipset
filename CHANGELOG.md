@@ -1,3 +1,10 @@
+## [6.21.1](https://github.com/newhighsco/chipset/compare/v6.21.0...v6.21.1) (2025-08-29)
+
+
+### Bug Fixes
+
+* **grid:** pass rest props to `Grid` container ([#2688](https://github.com/newhighsco/chipset/issues/2688)) ([6f836be](https://github.com/newhighsco/chipset/commit/6f836be5b1b7d9b5e84c13286b99109dbf781aba))
+
 # [6.21.0](https://github.com/newhighsco/chipset/compare/v6.20.0...v6.21.0) (2025-08-29)
 
 
