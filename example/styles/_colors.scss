@@ -3,3 +3,5 @@
 $black: #000;
 $yellow: #ff0;
 $lemon: color.adjust($yellow, $lightness: 40%);
+$red: #f00;
+$rose: color.adjust($red, $lightness: 40%);
