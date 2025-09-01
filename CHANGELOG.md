@@ -1,3 +1,10 @@
+# [6.23.0](https://github.com/newhighsco/chipset/compare/v6.22.0...v6.23.0) (2025-09-01)
+
+
+### Features
+
+* **button:** add `variant` prop ([#2691](https://github.com/newhighsco/chipset/issues/2691)) ([d4d0e15](https://github.com/newhighsco/chipset/commit/d4d0e156666e8edaf744525aae09008d81b86583))
+
 # [6.22.0](https://github.com/newhighsco/chipset/compare/v6.21.1...v6.22.0) (2025-08-29)
 
 
