@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { cloneElement } from 'react'
 
 import { Button } from '..'
 import ButtonGroup from './ButtonGroup'
@@ -14,7 +14,6 @@ export const Source = {
 }
 
 export const WithButtons = {
-  render: args => <Button.Group {...args} />,
   args: {
     children: [
       <Button key="default">Default</Button>,
@@ -25,22 +24,24 @@ export const WithButtons = {
         Disabled
       </Button>
     ]
-  }
+  },
+  render: args => <Button.Group {...args} />
 }
 
 export const WithLinks = {
-  render: args => <Button.Group {...args} />,
+  ...WithButtons,
   args: {
-    children: [
-      <Button key="default" href="/">
-        Default
-      </Button>,
-      <Button key="active" href="https://example.com/" target="_blank" active>
-        Active
-      </Button>,
-      <Button key="disabled" href="/" disabled>
-        Disabled
-      </Button>
-    ]
+    children: WithButtons.args.children.map(Button =>
+      cloneElement(Button, { href: '/' })
+    )
+  }
+}
+
+export const WithVariant = {
+  ...WithButtons,
+  args: {
+    children: WithButtons.args.children.map(Button =>
+      cloneElement(Button, { variant: 'variant' })
+    )
   }
 }

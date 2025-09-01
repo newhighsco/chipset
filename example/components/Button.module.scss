@@ -28,3 +28,12 @@
     margin: 0 0.5em;
   }
 }
+
+.variant {
+  background: colors.$rose;
+
+  &:hover,
+  &.active {
+    background-color: colors.$red;
+  }
+}
