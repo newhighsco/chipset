@@ -49,7 +49,6 @@ workflows:
           requires:
             - snapshot
       - newhighsco/analyze:
-          <<: *only-main
           name: analyze
           disabled: true
           requires:
