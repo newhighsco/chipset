@@ -49,10 +49,11 @@ workflows:
           requires:
             - snapshot
       - newhighsco/analyze:
+          <<: *only-main
           name: analyze
           disabled: true
           requires:
-            - build
+            - release
   snapshot_version:
     jobs:
       - newhighsco/setup:
