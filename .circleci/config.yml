@@ -52,7 +52,7 @@ workflows:
           name: analyze
           disabled: true
           requires:
-            - release
+            - build
   snapshot_version:
     jobs:
       - newhighsco/setup:
