@@ -110,11 +110,6 @@
   "release": {
     "extends": "@newhighsco/release-config"
   },
-  "renovate": {
-    "extends": [
-      "local>newhighsco/.github:renovate-config"
-    ]
-  },
   "stylelint": {
     "extends": [
       "@newhighsco/stylelint-config"
