@@ -2,8 +2,10 @@
 @use '../styles/normalize';
 
 :global {
-  body.dark {
-    color: white;
+  :root {
+    @media (prefers-color-scheme: dark) {
+      color-scheme: dark;
+    }
   }
 
   .sbdocs-title {
@@ -11,7 +13,7 @@
     display: flex;
     gap: 0.25em;
 
-    * {
+    img {
       vertical-align: middle;
     }
   }

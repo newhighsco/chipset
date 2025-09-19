@@ -18,12 +18,11 @@ export const decorators = [
 
 export const parameters = {
   chromatic: { viewports },
-  darkMode: {
-    current: 'dark'
-  },
   options: {
     storySort: {
       order: ['Docs', ['README', 'CHANGELOG'], 'Components']
     }
   }
 }
+
+export const tags = ['autodocs']
