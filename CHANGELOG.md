@@ -1,3 +1,10 @@
+## [6.23.1](https://github.com/newhighsco/chipset/compare/v6.23.0...v6.23.1) (2025-09-19)
+
+
+### Bug Fixes
+
+* **visually-hidden:** correct syntax for `clip-path` ([6377c0f](https://github.com/newhighsco/chipset/commit/6377c0fb4cd5bb803ffa69b0fec18bc0aaeb4240))
+
 # [6.23.0](https://github.com/newhighsco/chipset/compare/v6.22.0...v6.23.0) (2025-09-01)
 
 
