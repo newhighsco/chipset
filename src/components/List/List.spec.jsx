@@ -38,7 +38,8 @@ describe('Components/List', () => {
     )
 
     expect(container.firstChild).toHaveClass(
-      'root unstyled inline commaSeparated'
+      'root unstyled inline commaSeparated',
+      { exact: true }
     )
   })
 })

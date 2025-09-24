@@ -15,7 +15,10 @@ export const Source = {
       <Grid.Item key="1" sizes="one-half">
         Content
       </Grid.Item>,
-      <Grid.Item key="2" sizes={['one-quarter', 'tablet-one-whole']}>
+      <Grid.Item
+        key="2"
+        sizes={['one-quarter', 'tablet-one-whole', 'desktop-hidden']}
+      >
         Content
       </Grid.Item>
     ]
@@ -62,3 +65,17 @@ export const Middled = {
 }
 
 export const Bottomed = { args: { ...Middled.args, valign: 'bottom' } }
+
+export const VisuallyHidden = {
+  args: {
+    children: [null, 'tablet', 'desktop'].map(breakpoint => {
+      const sizes = [breakpoint, 'hidden'].filter(Boolean).join('-')
+
+      return (
+        <Grid.Item key={breakpoint} sizes={sizes}>
+          <ContentContainer>{sizes}</ContentContainer>
+        </Grid.Item>
+      )
+    })
+  }
+}

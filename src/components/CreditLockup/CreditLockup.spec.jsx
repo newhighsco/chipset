@@ -17,6 +17,6 @@ describe('Components/CreditLockup', () => {
   it('should set correct classNames', () => {
     const { container } = render(<CreditLockup theme={theme} />)
 
-    expect(container.firstChild).toHaveClass('root')
+    expect(container.firstChild).toHaveClass('root', { exact: true })
   })
 })

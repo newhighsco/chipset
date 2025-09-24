@@ -1,7 +1,7 @@
 @use 'sass:list';
 @use 'sass:math';
 @use 'sass:map';
-@use './visually-hidden' as *;
+@use './a11y';
 
 // DEFAULT VARIABLES
 
@@ -97,9 +97,12 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 @mixin hidden($namespace: '') {
   $namespace: -namespace-suffix($namespace, 'hidden');
 
+  /*! purgecss start ignore */
   .item#{$namespace} {
-    @include visually-hidden;
+    @include a11y.visually-hidden;
   }
+
+  /*! purgecss end ignore */
 }
 
 // GRID VERTICAL ALIGNMENTS

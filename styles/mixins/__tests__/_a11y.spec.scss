@@ -1,0 +1,50 @@
+@use 'true' as *;
+@use '../a11y';
+
+@include test-module('a11y.visually-hidden()') {
+  @include test('should output expected styles') {
+    @include assert {
+      @include output {
+        .element {
+          @include a11y.visually-hidden;
+        }
+      }
+
+      @include expect {
+        .element {
+          position: absolute !important;
+          height: 1px !important;
+          width: 1px !important;
+          margin: -1px !important;
+          padding: 0 !important;
+          border: 0 !important;
+          overflow: hidden !important;
+          clip-path: rect(0 0 0 0) !important;
+        }
+      }
+    }
+  }
+}
+
+@include test-module('a11y.visually-unhidden()') {
+  @include test('should output expected styles') {
+    @include assert {
+      @include output {
+        .element {
+          @include a11y.visually-unhidden;
+        }
+      }
+
+      @include expect {
+        .element {
+          position: static !important;
+          height: auto !important;
+          width: 1px !important;
+          margin: 0 !important;
+          overflow: visible !important;
+          clip-path: none !important;
+        }
+      }
+    }
+  }
+}

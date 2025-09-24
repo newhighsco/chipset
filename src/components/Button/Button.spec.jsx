@@ -24,6 +24,8 @@ describe('Components/Button', () => {
       </Button>
     )
 
-    expect(screen.getByRole('button')).toHaveClass('root active foo')
+    expect(screen.getByRole('button')).toHaveClass('root active foo', {
+      exact: true
+    })
   })
 })
