@@ -1,3 +1,10 @@
+# [6.25.0](https://github.com/newhighsco/chipset/compare/v6.24.1...v6.25.0) (2025-09-24)
+
+
+### Features
+
+* remove vendor prefixes ([#2713](https://github.com/newhighsco/chipset/issues/2713)) ([152a889](https://github.com/newhighsco/chipset/commit/152a88933f2e46b05cfa6ca8871957414bef82ba))
+
 ## [6.24.1](https://github.com/newhighsco/chipset/compare/v6.24.0...v6.24.1) (2025-09-24)
 
 # [6.24.0](https://github.com/newhighsco/chipset/compare/v6.23.1...v6.24.0) (2025-09-24)
