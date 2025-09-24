@@ -18,11 +18,7 @@ export const decorators = [
 
 export const parameters = {
   chromatic: { viewports },
-  options: {
-    storySort: {
-      order: ['Docs', ['README', 'CHANGELOG'], 'Components']
-    }
-  }
+  options: { storySort: { order: ['Docs', ['README', 'CHANGELOG']] } }
 }
 
 export const tags = ['autodocs']
