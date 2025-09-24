@@ -46,10 +46,9 @@ export const KitchenSink = () => (
       <article>
         <p>
           This paragraph is nested inside an article. It contains many
-          different, sometimes useful,{' '}
-          <a href="https://www.w3schools.com/tags/">HTML5 tags</a>. Of course
-          there are classics like <em>emphasis</em>, <strong>strong</strong>,
-          and <small>small</small> but there are many others as well. Hover the
+          different, sometimes useful, HTML5 tags. Of course there are classics
+          like <em>emphasis</em>, <strong>strong</strong>, and{' '}
+          <small>small</small> but there are many others as well. Hover the
           following text for abbreviation tag:{' '}
           <abbr title="abbreviation">abbr</abbr>. Similarly, you can use acronym
           tag like this: <acronym title="For The Win">ftw</acronym>. You can
@@ -224,11 +223,8 @@ export const KitchenSink = () => (
     </section>
     <hr />
     <figure>
-      <img src="https://www.fillmurray.com/505/314" alt="" />
-      <figcaption>
-        Fig1. A picture of Bill Murray from{' '}
-        <a href="https://www.fillmurray.com/">fillmurray.com</a>
-      </figcaption>
+      <img src={imageUrl} alt="" />
+      <figcaption>A sample image</figcaption>
     </figure>
     <hr />
     <section>
