@@ -65,9 +65,9 @@ export const KitchenSink = () => (
           <sub>2</sub>O) and sup (E = MC<sup>2</sup>) tags.{' '}
         </p>
       </article>
-      <aside>This is an aside.</aside>
       <footer>This is footer for this section</footer>
     </section>
+    <aside>This is an aside.</aside>
     <hr />
     <section>
       <blockquote>
@@ -393,8 +393,12 @@ export const KitchenSink = () => (
         </fieldset>
         <fieldset>
           <legend>I am also legend</legend>
-          <input type="checkbox" /> Check me out
-          <input type="checkbox" /> Or check me out
+          <label>
+            <input type="checkbox" /> Check me out
+          </label>
+          <label>
+            <input type="checkbox" /> Or check me out
+          </label>
         </fieldset>
         <p>
           <button type="button" name="button">
