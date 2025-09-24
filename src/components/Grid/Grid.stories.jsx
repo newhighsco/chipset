@@ -62,3 +62,17 @@ export const Middled = {
 }
 
 export const Bottomed = { args: { ...Middled.args, valign: 'bottom' } }
+
+export const Hidden = {
+  args: {
+    children: [null, 'tablet', 'desktop'].map(breakpoint => {
+      const sizes = [breakpoint, 'hidden'].filter(Boolean).join('-')
+
+      return (
+        <Grid.Item key={breakpoint} sizes={sizes}>
+          <ContentContainer>{sizes}</ContentContainer>
+        </Grid.Item>
+      )
+    })
+  }
+}

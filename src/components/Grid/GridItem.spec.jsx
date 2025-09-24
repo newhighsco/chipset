@@ -14,7 +14,7 @@ describe('Components/GridItem', () => {
   it('should set correct classNames', () => {
     const { container } = render(
       <GridItem
-        sizes={['one-half', 'desktop-one-whole']}
+        sizes={['one-half', 'tablet-one-whole', 'desktop-hidden']}
         theme={theme}
         className="bar"
       >
@@ -23,7 +23,8 @@ describe('Components/GridItem', () => {
     )
 
     expect(container.firstChild).toHaveClass(
-      'item one-half desktop-one-whole bar'
+      'item one-half tablet-one-whole desktop-hidden bar',
+      { exact: true }
     )
   })
 })

@@ -38,6 +38,6 @@ describe('Components/Card', () => {
       </Card>
     )
 
-    expect(container.firstChild).toHaveClass('root foo')
+    expect(container.firstChild).toHaveClass('root foo', { exact: true })
   })
 })

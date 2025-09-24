@@ -7,7 +7,13 @@
 @include grid.flex;
 @include grid.valign(middle bottom);
 @include grid.widths('', 2 3 4);
+@include grid.hidden;
 
 @include mixins.mq(breakpoints.$tablet) {
   @include grid.widths('tablet', 1 2 3 4);
+  @include grid.hidden('tablet');
+}
+
+@include mixins.mq(breakpoints.$desktop) {
+  @include grid.hidden('desktop');
 }

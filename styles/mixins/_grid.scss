@@ -97,9 +97,12 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 @mixin hidden($namespace: '') {
   $namespace: -namespace-suffix($namespace, 'hidden');
 
+  /*! purgecss start ignore */
   .item#{$namespace} {
     @include visually-hidden;
   }
+
+  /*! purgecss end ignore */
 }
 
 // GRID VERTICAL ALIGNMENTS
