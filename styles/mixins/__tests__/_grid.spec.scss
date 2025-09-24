@@ -1,6 +1,6 @@
 @use 'true' as *;
 @use '../grid';
-@use '../visually-hidden' as visibility;
+@use '../a11y';
 
 @include test-module('grid.initialize()') {
   @include test('should output base styles using fallback gutter') {
@@ -28,9 +28,9 @@
         @include grid.hidden;
       }
 
-      @include expect {
+      @include contains {
         .item.hidden {
-          @include visibility.visually-hidden;
+          @include a11y.visually-hidden;
         }
       }
     }
@@ -42,9 +42,9 @@
         @include grid.hidden('desktop');
       }
 
-      @include expect {
+      @include contains {
         .item.desktop-hidden {
-          @include visibility.visually-hidden;
+          @include a11y.visually-hidden;
         }
       }
     }

@@ -63,7 +63,7 @@ export const Middled = {
 
 export const Bottomed = { args: { ...Middled.args, valign: 'bottom' } }
 
-export const Hidden = {
+export const VisuallyHidden = {
   args: {
     children: [null, 'tablet', 'desktop'].map(breakpoint => {
       const sizes = [breakpoint, 'hidden'].filter(Boolean).join('-')
