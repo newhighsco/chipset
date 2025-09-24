@@ -123,6 +123,18 @@
           "number-max-precision": null
         }
       }
-    ]
+    ],
+    "rules": {
+      "value-keyword-case": [
+        "lower",
+        {
+          "camelCaseSvgKeywords": true,
+          "ignoreKeywords": [
+            "/(mobile|tablet)Landscape/",
+            "/desktop(Medium|Large)/"
+          ]
+        }
+      ]
+    }
   }
 }

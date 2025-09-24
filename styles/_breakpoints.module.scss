@@ -7,8 +7,6 @@ $tablet-landscape: 800px !default;
 $desktop: 960px !default;
 $desktop-medium: 1280px !default;
 $desktop-large: 1600px !default;
-
-/* stylelint-disable value-keyword-case */
 $all: (
   mobile: $mobile,
   mobileLandscape: $mobile-landscape,
@@ -18,7 +16,6 @@ $all: (
   desktopMedium: $desktop-medium,
   desktopLarge: $desktop-large
 );
-/* stylelint-enable value-keyword-case */
 
 :export {
   mobile: strip-unit($mobile);
