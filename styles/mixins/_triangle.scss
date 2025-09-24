@@ -3,7 +3,7 @@
 
 @mixin triangle($point: 'up', $size: 1em, $color: '') {
   @if $point == 'up' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         right: transparent,
         bottom: filled,
@@ -13,7 +13,7 @@
       $color
     );
   } @else if $point == 'right' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         top: transparent,
         bottom: transparent,
@@ -23,7 +23,7 @@
       $color
     );
   } @else if $point == 'down' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         top: filled,
         right: transparent,
@@ -33,7 +33,7 @@
       $color
     );
   } @else if $point == 'left' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         top: transparent,
         right: filled,
@@ -43,7 +43,7 @@
       $color
     );
   } @else if $point == 'up-left' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         top: filled,
         right: transparent,
@@ -54,7 +54,7 @@
       $color
     );
   } @else if $point == 'up-right' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         top: filled,
         right: filled,
@@ -65,7 +65,7 @@
       $color
     );
   } @else if $point == 'down-right' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         top: transparent,
         right: filled,
@@ -76,7 +76,7 @@
       $color
     );
   } @else if $point == 'down-left' {
-    @include _triangle-borders(
+    @include -triangle-borders(
       (
         top: transparent,
         right: transparent,
@@ -89,9 +89,7 @@
   }
 }
 
-/* stylelint-disable annotation-no-unknown */
-/* stylelint-disable-next-line scss/at-mixin-pattern */
-@mixin _triangle-borders($sides, $size, $color) {
+@mixin -triangle-borders($sides, $size, $color) {
   width: 0;
   height: 0;
 
