@@ -1,3 +1,10 @@
+# [6.24.0](https://github.com/newhighsco/chipset/compare/v6.23.1...v6.24.0) (2025-09-24)
+
+
+### Features
+
+* **grid:** add `grid.hidden()` ([#2712](https://github.com/newhighsco/chipset/issues/2712)) ([70c0d0b](https://github.com/newhighsco/chipset/commit/70c0d0bdd55741dcef365d41cba38f4a465e7e1f))
+
 ## [6.23.1](https://github.com/newhighsco/chipset/compare/v6.23.0...v6.23.1) (2025-09-19)
 
 
