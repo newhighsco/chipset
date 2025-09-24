@@ -113,6 +113,16 @@
   "stylelint": {
     "extends": [
       "@newhighsco/stylelint-config"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.spec.*"
+        ],
+        "rules": {
+          "number-max-precision": null
+        }
+      }
     ]
   }
 }
