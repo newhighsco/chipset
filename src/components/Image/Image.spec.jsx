@@ -36,7 +36,7 @@ describe('Components/Image', () => {
   it("should set correct classNames when 'src' is set", () => {
     render(<Image className="foo" src="https://example.com/image.png" />)
 
-    expect(screen.getByRole('presentation')).toHaveClass('foo')
+    expect(screen.getByRole('presentation')).toHaveClass('foo', { exact: true })
   })
 
   it("should set correct classNames when 'sources' is set", () => {
@@ -51,7 +51,7 @@ describe('Components/Image', () => {
       />
     )
 
-    expect(container.firstChild).toHaveClass('bar')
+    expect(container.firstChild).toHaveClass('bar', { exact: true })
     expect(screen.getByRole('presentation')).not.toHaveClass()
   })
 })

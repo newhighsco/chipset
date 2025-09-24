@@ -1,6 +1,7 @@
 @use 'sass:list';
 @use 'sass:math';
 @use 'sass:map';
+@use './a11y';
 
 // DEFAULT VARIABLES
 
@@ -47,7 +48,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
     margin-left: -($grid-modifier--gutter);
 
     & > .item {
-      padding-left: _grid-gutter--item($grid-modifier--gutter);
+      padding-left: -grid-gutter($grid-modifier--gutter);
     }
   }
 
@@ -58,7 +59,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 // Reverses the rendered layout of the `grid__item`s
 
 @mixin reverse($namespace: '') {
-  $namespace: _namespace-suffix($namespace, 'reverse');
+  $namespace: -namespace-suffix($namespace, 'reverse');
 
   /*! purgecss start ignore */
   .root#{$namespace} {
@@ -78,9 +79,9 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 // Sets up grid width styles
 
 @mixin widths($namespace, $columns) {
-  $namespace: _namespace-suffix($namespace);
+  $namespace: -namespace-suffix($namespace);
 
-  @include _grid($namespace, $columns, 'width');
+  @include -grid($namespace, $columns, 'width');
 }
 
 // GRID FLEXBOX
@@ -91,6 +92,17 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
     display: flex;
     flex-wrap: wrap;
   }
+}
+
+@mixin hidden($namespace: '') {
+  $namespace: -namespace-suffix($namespace, 'hidden');
+
+  /*! purgecss start ignore */
+  .item#{$namespace} {
+    @include a11y.visually-hidden;
+  }
+
+  /*! purgecss end ignore */
 }
 
 // GRID VERTICAL ALIGNMENTS
@@ -104,7 +116,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
   );
 
   @each $align in $aligns {
-    $namespace: _namespace-suffix('valign', $align);
+    $namespace: -namespace-suffix('valign', $align);
 
     /*! purgecss start ignore */
     .root#{$namespace} {
@@ -125,8 +137,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
 // These mixins should not be called directly,
 // instead are used as helpers within other mixins
 
-/* stylelint-disable-next-line scss/at-mixin-pattern */
-@mixin _grid($namespace, $columns, $property) {
+@mixin -grid($namespace, $columns, $property) {
   $columns-length: list.length($columns);
 
   @for $i from 1 through $columns-length {
@@ -146,8 +157,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
   }
 }
 
-/* stylelint-disable-next-line scss/at-function-pattern */
-@function _grid-gutter--item($g) {
+@function -grid-gutter($g) {
   @if math.unit($g) == '%' {
     $scale: math.div(100, 100 + $g);
 
@@ -157,8 +167,7 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
   }
 }
 
-/* stylelint-disable-next-line scss/at-function-pattern */
-@function _namespace-suffix($namespace, $suffix: '') {
+@function -namespace-suffix($namespace, $suffix: '') {
   @if $namespace != '' {
     $namespace: $namespace + '-';
   }

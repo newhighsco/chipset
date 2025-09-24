@@ -6,7 +6,6 @@
 
 @include test-module('grid: i18n') {
   @include test('should output i18n grid widths if set') {
-    /* stylelint-disable number-max-precision */
     @include assert {
       @include output {
         @include grid.widths('', 1 2 3);
@@ -30,6 +29,5 @@
         }
       }
     }
-    /* stylelint-enable number-max-precision */
   }
 }

@@ -48,7 +48,7 @@ describe('Components/Icon', () => {
 
     const icon = screen.getByTestId('icon')
 
-    expect(icon).toHaveClass('root foo')
+    expect(icon).toHaveClass('root foo', { exact: true })
     expect(icon).toHaveStyle({ width: '20px', height: '10px' })
   })
 })
