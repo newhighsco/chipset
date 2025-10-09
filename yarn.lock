@@ -956,10 +956,10 @@
     "@babel/plugin-transform-modules-commonjs" "^7.27.1"
     "@babel/plugin-transform-typescript" "^7.27.1"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.18.9", "@babel/runtime@^7.27.6":
-  version "7.28.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.3.tgz#75c5034b55ba868121668be5d5bb31cc64e6e61a"
-  integrity sha512-9uIQ10o0WGdpP6GDhXcdOJPJuDgFtIDtN/9+ArJQ2NAfAmiuhTQdzkaTGR33v43GYS2UrSA0eX2pPPHoFVvpxA==
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.18.9", "@babel/runtime@^7.28.4":
+  version "7.28.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.4.tgz#a70226016fabe25c5783b2f22d3e1c9bc5ca3326"
+  integrity sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==
 
 "@babel/template@^7.27.1", "@babel/template@^7.27.2":
   version "7.27.2"
@@ -1528,12 +1528,12 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@dr.pogodin/react-themes@1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.2.tgz#823e4b963a24f3bac12f865397b62eddecfd7467"
-  integrity sha512-FSr4Z5OnY04Spwo3wrlyqDf0DRDPBjZkJ9hVvBApzSGFsgdq3mxd3YmA0ajO3D127vE0Txz3PDio0x7IgS5bUg==
+"@dr.pogodin/react-themes@1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.3.tgz#572e32cf2711ac7b700630586f0559d32321a161"
+  integrity sha512-3gr++vy5ArJaTRFSzE62ybBNVd6PhpDG4GDCA2HafX3q6vQwJ5IgOH6pe552JumtX084m1W4DjeE11/gKHdtHw==
   dependencies:
-    "@babel/runtime" "^7.27.6"
+    "@babel/runtime" "^7.28.4"
 
 "@dual-bundle/import-meta-resolve@^4.2.1":
   version "4.2.1"
