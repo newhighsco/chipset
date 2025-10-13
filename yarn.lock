@@ -2199,14 +2199,14 @@
     eslint-plugin-testing-library "7.13.1"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.356":
-  version "3.5.356"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.356.tgz#2bdfdd367c2c9ee4b8d6e6dfb41c0ab1290c6695"
-  integrity sha512-Lxa8p+i7igYRU4efNvlpf07FaUuXAIj9263kAISxMcsyMzsJz2anVAc7Ute3PZZJXW2TuSClPTnvDJfwSsdfEg==
+"@newhighsco/postcss-config@3.5.357":
+  version "3.5.357"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.357.tgz#f9e4647a53210642535c5ca689c41ef6d6d96133"
+  integrity sha512-UOrDc9iovO6yJk7g61+AxOVmXtKGKcGUS8u43tvWCYUw/ZQFKUKCk02H3rIL6wAz87JD22SOZIZQxYyD391Fug==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
-    caniuse-lite "1.0.30001749"
+    caniuse-lite "1.0.30001750"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.4.0"
 
@@ -4830,10 +4830,10 @@ camelcase@^8.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
   integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
-caniuse-lite@1.0.30001749, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001746:
-  version "1.0.30001749"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001749.tgz#21a43b923577932097fe32bcaabb6da7f4677632"
-  integrity sha512-0rw2fJOmLfnzCRbkm8EyHL8SvI2Apu5UbnQuTsJ0ClgrH8hcwFooJ1s5R0EP8o8aVrFu8++ae29Kt9/gZAZp/Q==
+caniuse-lite@1.0.30001750, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001746:
+  version "1.0.30001750"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001750.tgz#c229f82930033abd1502c6f73035356cf528bfbc"
+  integrity sha512-cuom0g5sdX6rw00qOoLNSFCJ9/mYIsuSOA+yzpDw8eopiFqcVwQvZHqov0vmEighRxX++cfC0Vg1G+1Iy/mSpQ==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
