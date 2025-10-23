@@ -2312,10 +2312,10 @@
     eslint-plugin-testing-library "7.13.3"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/postcss-config@3.5.358":
-  version "3.5.358"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-3.5.358.tgz#a553d754f4accefcc633c3f55e8d0cf80fa88773"
-  integrity sha512-87Pk6WTmLek2EvzudH4aj610oA+rmYq3lfGhkdHYqz3KFA/+JPFW7aoS+evsObqjHtWvfgkcgzbcN75R0yw+NQ==
+"@newhighsco/postcss-config@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-4.0.0.tgz#6721fa2166a6f53d94d041a2a84c20655085fa26"
+  integrity sha512-j8e/AUB1q00NsIx6dDJojhaC1rMlCwmwrUwqytKh4ZR3xwA8bO0tq7FaljEY2lntd3O35INyfLEqEaBoMxV12A==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.21"
