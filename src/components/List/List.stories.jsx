@@ -2,9 +2,7 @@ import React from 'react'
 
 import { List } from '..'
 
-export default {
-  component: List
-}
+export default { component: List }
 
 export const Source = {
   args: { children: 'Content' },

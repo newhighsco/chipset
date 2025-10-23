@@ -2,9 +2,7 @@ import React from 'react'
 
 import { CreditLockup } from '..'
 
-export default {
-  component: CreditLockup
-}
+export default { component: CreditLockup }
 
 export const Source = { parameters: { chromatic: { disable: true } } }
 

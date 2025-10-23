@@ -43,10 +43,7 @@ const Tooltip = ({
         target={target}
         disabled={disabled}
         aria-label="Toggle tooltip"
-        {...(manual && {
-          'aria-expanded': visible,
-          onClick: setVisibility
-        })}
+        {...(manual && { 'aria-expanded': visible, onClick: setVisibility })}
       >
         {toggle}
       </SmartLink>

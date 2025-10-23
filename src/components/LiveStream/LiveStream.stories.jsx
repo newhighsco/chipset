@@ -14,11 +14,7 @@ export default {
 export const Source = { args: { href: 'https://www.twitch.tv/newhighsco' } }
 
 export const Twitch = {
-  args: {
-    autoPlay: false,
-    muted: true,
-    href: 'https://www.twitch.tv/failarmy'
-  }
+  args: { autoPlay: false, muted: true, href: 'https://www.twitch.tv/failarmy' }
 }
 
 export const TwitchDarkMode = {

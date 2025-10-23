@@ -1,8 +1,6 @@
 import { SiteContainer } from '..'
 
-export default {
-  component: SiteContainer
-}
+export default { component: SiteContainer }
 
 export const Source = {
   args: { children: 'Content' },

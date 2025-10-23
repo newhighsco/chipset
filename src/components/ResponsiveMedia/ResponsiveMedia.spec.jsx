@@ -22,9 +22,7 @@ describe('Components/ResponsiveMedia', () => {
       <ResponsiveMedia ratio={9 / 16}>Content</ResponsiveMedia>
     )
 
-    expect(container.firstChild).toHaveStyle({
-      paddingBottom: '56.25%'
-    })
+    expect(container.firstChild).toHaveStyle({ paddingBottom: '56.25%' })
   })
 
   it("should render correct `style` when 'ratio' is set to a string", () => {

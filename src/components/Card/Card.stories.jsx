@@ -3,9 +3,7 @@ import React from 'react'
 import { imageUrl } from '../../__mocks__/fixtures'
 import { Button, Card, SmartLink } from '..'
 
-export default {
-  component: Card
-}
+export default { component: Card }
 
 export const Source = {
   args: {

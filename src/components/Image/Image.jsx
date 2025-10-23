@@ -45,12 +45,7 @@ const Image = ({
 Image.propTypes = {
   src: string,
   sources: arrayOf(
-    shape({
-      srcSet: string,
-      sizes: string,
-      media: string,
-      type: string
-    })
+    shape({ srcSet: string, sizes: string, media: string, type: string })
   ),
   alt: string,
   loading: oneOf(['auto', 'lazy', 'eager']),

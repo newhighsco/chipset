@@ -13,8 +13,6 @@ const Landmark = ({ children, ...rest }) => (
   </a>
 )
 
-Landmark.propTypes = {
-  children: node
-}
+Landmark.propTypes = { children: node }
 
 export default Landmark

@@ -1,8 +1,6 @@
 import { Navigation } from '..'
 
-export default {
-  component: Navigation
-}
+export default { component: Navigation }
 
 export const Source = {
   args: {

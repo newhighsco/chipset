@@ -20,7 +20,4 @@ export const LinkProvider = ({ children, renderLink }) => {
   )
 }
 
-LinkProvider.propTypes = {
-  children: node,
-  renderLink: func
-}
+LinkProvider.propTypes = { children: node, renderLink: func }
