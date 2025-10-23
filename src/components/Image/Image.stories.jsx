@@ -1,9 +1,7 @@
 import { imageUrl, imageWebPUrl } from '../../__mocks__/fixtures'
 import { Image } from '..'
 
-export default {
-  component: Image
-}
+export default { component: Image }
 
 export const Source = {
   args: {

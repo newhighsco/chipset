@@ -3,9 +3,7 @@ import React from 'react'
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 import { Image, ResponsiveMedia } from '..'
 
-export default {
-  component: ResponsiveMedia
-}
+export default { component: ResponsiveMedia }
 
 export const Source = {
   args: { ratio: '16:9', children: 'Content' },

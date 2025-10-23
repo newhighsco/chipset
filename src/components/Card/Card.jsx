@@ -53,10 +53,7 @@ Card.displayName = 'Card'
 Card.propTypes = {
   href: string,
   target: string,
-  image: shape({
-    src: string,
-    ratio: oneOfType([number, string])
-  }),
+  image: shape({ src: string, ratio: oneOfType([number, string]) }),
   heading: node,
   children: node,
   theme: shape({

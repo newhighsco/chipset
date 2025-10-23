@@ -1,3 +1,1 @@
-module.exports = {
-  includePaths: [__dirname]
-}
+module.exports = { includePaths: [__dirname] }

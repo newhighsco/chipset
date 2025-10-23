@@ -3,9 +3,7 @@ import React from 'react'
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 import { Backdrop, Button, Image } from '..'
 
-export default {
-  component: Backdrop
-}
+export default { component: Backdrop }
 
 const decorators = [
   Story => (

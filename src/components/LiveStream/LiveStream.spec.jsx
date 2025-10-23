@@ -12,7 +12,6 @@ jest.mock('react-device-detect')
 
 describe('Components/LiveStream', () => {
   beforeAll(() => {
-    // eslint-disable-next-line no-import-assign
     deviceDetect.isMobile = false
   })
 
@@ -197,7 +196,6 @@ describe('Components/LiveStream', () => {
 
     describe('Mobile device', () => {
       beforeAll(() => {
-        // eslint-disable-next-line no-import-assign
         deviceDetect.isMobile = true
       })
 

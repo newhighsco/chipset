@@ -17,8 +17,6 @@ const VisuallyHidden = ({ children, ...rest }) => {
   )
 }
 
-VisuallyHidden.propTypes = {
-  children: node
-}
+VisuallyHidden.propTypes = { children: node }
 
 export default VisuallyHidden

@@ -22,7 +22,4 @@ export const ImageProvider = ({ children, renderImage }) => {
   )
 }
 
-ImageProvider.propTypes = {
-  children: node,
-  renderImage: func
-}
+ImageProvider.propTypes = { children: node, renderImage: func }

@@ -3,9 +3,7 @@ import React from 'react'
 import breakpoints from '../../../styles/_breakpoints.module.scss'
 import { ContentContainer } from '..'
 
-export default {
-  component: ContentContainer
-}
+export default { component: ContentContainer }
 
 export const Source = {
   args: { children: 'Content' },
