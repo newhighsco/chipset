@@ -1556,10 +1556,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@dr.pogodin/react-themes@1.9.3":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.3.tgz#572e32cf2711ac7b700630586f0559d32321a161"
-  integrity sha512-3gr++vy5ArJaTRFSzE62ybBNVd6PhpDG4GDCA2HafX3q6vQwJ5IgOH6pe552JumtX084m1W4DjeE11/gKHdtHw==
+"@dr.pogodin/react-themes@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.4.tgz#f31305068a5a7a41e0432684d572a4058ec2212f"
+  integrity sha512-STq5zC1KJ4TDsuvPwCHjrmrkQlAql0kvoa6bvYPPVU+klZRUX926FDfBGxYP9gU2YwpU/TERK4H/cP/eN9Zcew==
   dependencies:
     "@babel/runtime" "^7.28.4"
 
