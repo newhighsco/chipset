@@ -2369,21 +2369,21 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-3.0.6.tgz#df72a8adf2b05e081865b7d679dfdf821f8f6ea3"
   integrity sha512-YDHVs56OaJrFMeRvaxpr7naJBm0BlwVwtpUI6oR2LXHnXuk4bVWxbPQj0QovHAIdFwEmR55QxWclQMneoJr19w==
 
-"@newhighsco/storybook-preset@8.2.6":
-  version "8.2.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-8.2.6.tgz#00d974a23bc88587791b8237f372a8d20523b7b6"
-  integrity sha512-3f5M0+L3nA126fhCnJ1V5gxR6BTWMUqPzA9RYivlTBObloMJCG44qd9/vhQne/EYcl2AXGExRAGy6fR/oKlcEA==
+"@newhighsco/storybook-preset@8.2.8":
+  version "8.2.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-8.2.8.tgz#a14e3274fd8a516f5cc9ae0992b193a7a786cdd9"
+  integrity sha512-J9Rm5tIglFtOTPd1Tkxq7D2k94sSjTJQzBjQ9sSJyYG00WuiCPDvvqYMZ13R/Sbq2RX3tEZK+Hyfw/jljJPquQ==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "3.0.6"
     "@newhighsco/storybook-addon-transpile-modules" "3.0.6"
     "@storybook/addon-a11y" "9.1.16"
     "@storybook/addon-docs" "9.1.16"
     "@storybook/addon-styling-webpack" "2.0.0"
-    "@storybook/addon-webpack5-compiler-swc" "4.0.1"
+    "@storybook/addon-webpack5-compiler-swc" "4.0.2"
     css-loader "7.1.2"
     postcss "8.5.6"
     postcss-loader "8.2.0"
-    sass "1.93.3"
+    sass "1.94.0"
     sass-loader "16.0.6"
     style-loader "4.0.0"
 
@@ -3258,10 +3258,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/addon-styling-webpack/-/addon-styling-webpack-2.0.0.tgz#3e854c82a835a6df439a69e307f337b39b4a4cab"
   integrity sha512-N8jWhWnk3/nbL4P9zl0OEV/47P0Cxn/kPzSHjdAClyDYnqj9jI6upeLsraZgIV9Ro3QSeqeIloeXb1zMasWpOw==
 
-"@storybook/addon-webpack5-compiler-swc@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-4.0.1.tgz#178d45951dcce0d54b2c1032b0a6cf3b64c0cdaa"
-  integrity sha512-ZwdELxsMAnkE2loDP8mgogcMaMcSvY1xwifIze4TM3rgn2AXjS6QmWCM32MQOn3ej2hK681MPI5y2NLVB7m4hQ==
+"@storybook/addon-webpack5-compiler-swc@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-swc/-/addon-webpack5-compiler-swc-4.0.2.tgz#91f10a02cf9a917fd1ced5f3c836bf049d94b416"
+  integrity sha512-I/B4zXnpk+wLs2YA/VcCzUjF/TtB26X4zIoXw3xaPPUvk5aPc76/dhmZHLMXkICQEur5FkFQv0YGHNxWHbhnfw==
   dependencies:
     "@swc/core" "^1.13.5"
     swc-loader "^0.2.6"
@@ -11760,10 +11760,10 @@ sass-true@9.0.0:
     jest-diff "^30.0.2"
     lodash "^4.17.21"
 
-sass@1.93.3:
-  version "1.93.3"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.93.3.tgz#3ff0aa5879dc910d32eae10c282a2847bd63e758"
-  integrity sha512-elOcIZRTM76dvxNAjqYrucTSI0teAF/L2Lv0s6f6b7FOwcwIuA357bIE871580AjHJuSvLIRUosgV+lIWx6Rgg==
+sass@1.94.0:
+  version "1.94.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.94.0.tgz#a04198d8940358ca6ad537d2074051edbbe7c1a7"
+  integrity sha512-Dqh7SiYcaFtdv5Wvku6QgS5IGPm281L+ZtVD1U2FJa7Q0EFRlq8Z3sjYtz6gYObsYThUOz9ArwFqPZx+1azILQ==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
