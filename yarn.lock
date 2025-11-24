@@ -1573,10 +1573,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@dr.pogodin/react-themes@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.9.4.tgz#f31305068a5a7a41e0432684d572a4058ec2212f"
-  integrity sha512-STq5zC1KJ4TDsuvPwCHjrmrkQlAql0kvoa6bvYPPVU+klZRUX926FDfBGxYP9gU2YwpU/TERK4H/cP/eN9Zcew==
+"@dr.pogodin/react-themes@1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.0.tgz#6541926ed0bff155cefa85b2cf4d4737b9d8ef95"
+  integrity sha512-uHTS7eS64jV0gT085KVYGn/UOWe+promTTQDtUeQWu4wezTzBUPU60JEEZRXssxWwuTOusMD9KdyZH/E5aYFyQ==
   dependencies:
     "@babel/runtime" "^7.28.4"
 
