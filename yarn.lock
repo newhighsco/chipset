@@ -2376,15 +2376,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@9.0.2":
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-9.0.2.tgz#48defb494faabc9adab288224715d719becd4446"
-  integrity sha512-P9VqlPyo/un9kzO/fbiKXIkfBu9tzDfZ1j+OrtqPJDxq3rhR0A4JTPQMohDiJ9vcAcwUoCKfSbdLHOZb/vK6sg==
+"@newhighsco/storybook-preset@9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-9.0.3.tgz#9910e8440353c966305cb5d667deac12aa2a130a"
+  integrity sha512-CdQ2ZRcm2xbnO+QSTUrkcjhnAX8OruWbueYksFh1i4QXdY8WGmJ93P3BxadIIE6/NlGBgWI0w5X9ZBVFR+pERA==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "4.0.0"
     "@newhighsco/storybook-addon-transpile-modules" "4.0.0"
-    "@storybook/addon-a11y" "10.1.2"
-    "@storybook/addon-docs" "10.1.2"
+    "@storybook/addon-a11y" "10.1.3"
+    "@storybook/addon-docs" "10.1.3"
     "@storybook/addon-styling-webpack" "3.0.0"
     "@storybook/addon-webpack5-compiler-swc" "4.0.2"
     css-loader "7.1.2"
@@ -3218,23 +3218,23 @@
     color "^5.0.2"
     text-hex "1.0.x"
 
-"@storybook/addon-a11y@10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.1.2.tgz#5f5fedec3ae3acdd980b068b625ce5fa000079e2"
-  integrity sha512-O4Rp+ftREulVLREOKwx3IKkUiSLx+F3V5zQ++h6bzlmwRuaknMHs5P3qSnjJprYV6K8qXTRbvgR2qKBgga8Qxw==
+"@storybook/addon-a11y@10.1.3":
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.1.3.tgz#35b9f1f80980f457f159091e321cfc353eb1b5da"
+  integrity sha512-czp7P7gGO0xUn2cfRDq+3xqToJwWEFSXUZMhjrTBCcTFVzbUvmC4AnDUZ1KuANuM86GY6uBWSA110acjn11+Iw==
   dependencies:
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
 
-"@storybook/addon-docs@10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.1.2.tgz#b8cf4107056f8ac8b482241ea8eef1edf689869b"
-  integrity sha512-2D89qp6WwNxbiyylixJDC9C8tU8qgRS68HFcYruSNVX3dcCoty7xVytdWJIoDdTjvYlKZZdK23eD9r7+AEA3oA==
+"@storybook/addon-docs@10.1.3":
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.1.3.tgz#2fd8fa984d010f00fbfbb84df2c5a7872e9997df"
+  integrity sha512-+Wg07mGNzwMT0hA8paWqm0Nj4GmEEuJGe45arVHaPUWBT6sY0ipFO3BEN/M7UocC/HOGezn4tUHBYuJ+zrNNGw==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/csf-plugin" "10.1.2"
+    "@storybook/csf-plugin" "10.1.3"
     "@storybook/icons" "^2.0.0"
-    "@storybook/react-dom-shim" "10.1.2"
+    "@storybook/react-dom-shim" "10.1.3"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
@@ -3281,10 +3281,10 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/csf-plugin@10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.1.2.tgz#447be2cf88ed6f44d2cdda540ee18d9d27dce059"
-  integrity sha512-dwFKoKsV73SEKdaA78/AZlMa8+pAt2YS8f8cAvRLtsCxus9u0sJqxR/5axlZk0KLHnoJ+exZDD/zpK/HCsqtNw==
+"@storybook/csf-plugin@10.1.3":
+  version "10.1.3"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.1.3.tgz#b99050bb168e3474f0a3a02e936e22fcc48c3604"
+  integrity sha512-is4z3TVLtQK2zYzgFiQlB6aRt1Y2xAVkOBDXKSKXor4pY4Jf1UWEk5kFYlwtJOISVJXYM8Y2axTHpGKnbdhI5Q==
   dependencies:
     unplugin "^2.3.5"
 
@@ -3325,11 +3325,6 @@
     micromatch "^4.0.2"
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
-
-"@storybook/react-dom-shim@10.1.2":
-  version "10.1.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.1.2.tgz#3bfd417e3bb5f3efa577530437b2711603607b2d"
-  integrity sha512-HxmL6rD99qaZervm3S/g0QjflSpCk31kZX6+guLBD85KzH+sgo7XNjlipNqfdzAOfWpri0rh6zEGyNI0erFlag==
 
 "@storybook/react-dom-shim@10.1.3":
   version "10.1.3"
