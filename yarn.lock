@@ -2306,10 +2306,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@6.0.4":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-6.0.4.tgz#37e19a7c611d87400e7c4f3628c94ff96e4faefd"
-  integrity sha512-5oTqvT5olI+MfYgL5oJA/w+i+6oLXoDGrlcms51Emml7TgbEUVO46cw0lxSZd3+CN9RsBzgWb5mcNg+0oEtNUg==
+"@newhighsco/eslint-config@6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-6.0.5.tgz#dc12c1f8d1b62d76b1fe1c83c5c36b9fdae99df3"
+  integrity sha512-mvjyAoAUsaboEhcVkVqlJZH3N4PAi6tBruEMMmn0UVMPyVg0UOT8vX+phOgope4aG3wEUTRcP1WSaJhaCjiifA==
   dependencies:
     "@eslint/compat" "2.0.0"
     "@eslint/eslintrc" "3.3.3"
@@ -2332,17 +2332,17 @@
     eslint-plugin-react "7.37.5"
     eslint-plugin-react-hooks "7.0.1"
     eslint-plugin-simple-import-sort "12.1.1"
-    eslint-plugin-storybook "10.1.3"
+    eslint-plugin-storybook "10.1.4"
     eslint-plugin-testing-library "7.13.5"
 
-"@newhighsco/postcss-config@4.0.7":
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-4.0.7.tgz#b54df21d43ed26e1a97f516e2e2132df92f58102"
-  integrity sha512-IvnIW2N0Q/48TnqQHjog4GT0QK1fITXu9SJjfS3L46CySPsQw2b7DOvp5cyjkHxQYLr5cK7ska+NKeSUqDaP8A==
+"@newhighsco/postcss-config@4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/postcss-config/-/postcss-config-4.0.8.tgz#a1cb13205c7005262ab19990d954cf9b379f386c"
+  integrity sha512-V/7L8FoHFND+8sfISLC9nhagsgoenxHjZVD8craHwf2baxfwB7LqoMFvRIkiy7r8szeY/oi1RPumEU59GungEw==
   dependencies:
     "@fullhuman/postcss-purgecss" "6.0.0"
     autoprefixer "10.4.22"
-    caniuse-lite "1.0.30001757"
+    caniuse-lite "1.0.30001759"
     postcss-flexbugs-fixes "5.0.2"
     postcss-preset-env "10.4.0"
 
@@ -4951,10 +4951,10 @@ camelcase@^8.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-8.0.0.tgz#c0d36d418753fb6ad9c5e0437579745c1c14a534"
   integrity sha512-8WB3Jcas3swSvjIeA2yvCJ+Miyz5l1ZmB6HFb9R1317dt9LCQoswg/BGrmAmkWVEszSrrg4RwmO46qIm2OEnSA==
 
-caniuse-lite@1.0.30001757, caniuse-lite@^1.0.30001754:
-  version "1.0.30001757"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001757.tgz#a46ff91449c69522a462996c6aac4ef95d7ccc5e"
-  integrity sha512-r0nnL/I28Zi/yjk1el6ilj27tKcdjLsNqAOZr0yVjWPrSQyHgKI2INaEWw21bAQSv2LXRt1XuCS/GomNpWOxsQ==
+caniuse-lite@1.0.30001759, caniuse-lite@^1.0.30001754:
+  version "1.0.30001759"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001759.tgz#d569e7b010372c6b0ca3946e30dada0a2e9d5006"
+  integrity sha512-Pzfx9fOKoKvevQf8oCXoyNRQ5QyxJj+3O0Rqx2V5oxT61KGx8+n6hV/IUyJeifUci2clnmmKVpvtiqRzgiWjSw==
 
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
@@ -6404,10 +6404,10 @@ eslint-plugin-simple-import-sort@12.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
   integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
-eslint-plugin-storybook@10.1.3:
-  version "10.1.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-10.1.3.tgz#d3f7d11f67807a492350f145583730c6e989a60d"
-  integrity sha512-TcLZtQZ66ao0r4l7e8xsiu8YTdoV0fcltuLo9aZCEzqfMm28zN/ljpwSpSNFLUau6WBo/XNANaXz4ETdGR33SA==
+eslint-plugin-storybook@10.1.4:
+  version "10.1.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-10.1.4.tgz#4c992d06a40949a7669b52047903801b5ecf1460"
+  integrity sha512-itG2eLrWyuP5RGIL3TMGA5KSGoBOX3aTnQd43qLJu36ZMzd9H4RHN1I8WTVvyiaInppYJMGB4nnXzSdNXUUeTQ==
   dependencies:
     "@typescript-eslint/utils" "^8.8.1"
 
