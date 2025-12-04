@@ -11004,7 +11004,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.7.4, prettier@^3.6.2:
+prettier@3.7.4, prettier@^3.7.4:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.4.tgz#d2f8335d4b1cec47e1c8098645411b0c9dff9c0f"
   integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
@@ -11644,15 +11644,15 @@ sass-loader@16.0.6:
   dependencies:
     neo-async "^2.6.2"
 
-sass-true@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/sass-true/-/sass-true-10.0.0.tgz#4f28b80e49487031d2314b757c2ae05f67fe6b2b"
-  integrity sha512-kSXpFDG9+hbKJo8geG8+d1OvGn4pf4sJwm5cUoFqxxV4Bb7cZyw+pnCjnFX29RRYuQjDeoLsOqmZUffiefrLHg==
+sass-true@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/sass-true/-/sass-true-10.0.1.tgz#576f16ad40e60e2747adfadef59d3ef22fff74af"
+  integrity sha512-tYYhdwQljnh5YoWMAJaNbmR6Eg9cgxGJAGbZ4H9KzdAssQHzFfczsTezIggHMp5u4+DMcL3tTi8Zx2Dd6d+0Xw==
   dependencies:
     "@prettier/sync" "^0.6.1"
     jest-diff "^30.2.0"
     postcss "^8.5.6"
-    prettier "^3.6.2"
+    prettier "^3.7.4"
 
 sass@1.94.2:
   version "1.94.2"
