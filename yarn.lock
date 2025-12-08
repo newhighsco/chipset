@@ -2389,10 +2389,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@9.0.4":
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-9.0.4.tgz#9cade1641610b278e178055c1956783cc1e5a833"
-  integrity sha512-qjb9vwe7W5fxB8jxZQnijeN/N6B31T1PRX+Zkgz7+tSB0lmZwjpmCGLnR11cFtLyyZAVyNJG3ahVhfRJ6Uc3LQ==
+"@newhighsco/storybook-preset@9.0.5":
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-9.0.5.tgz#87b1cd8d1d7708242db384fbf3d3cd53cbe6079c"
+  integrity sha512-m5teKBvukLOX5gu+Cr1ntpaqr9xftMkMDMh4S2MVcTwsCZ856vpfQa/ZeUJtABITzMhmMfxejT0IF5fjG82uYg==
   dependencies:
     "@newhighsco/storybook-addon-svgr" "4.0.0"
     "@newhighsco/storybook-addon-transpile-modules" "4.0.0"
@@ -2403,7 +2403,7 @@
     css-loader "7.1.2"
     postcss "8.5.6"
     postcss-loader "8.2.0"
-    sass "1.94.2"
+    sass "1.95.0"
     sass-loader "16.0.6"
     style-loader "4.0.0"
 
@@ -11664,10 +11664,10 @@ sass-true@10.0.1:
     postcss "^8.5.6"
     prettier "^3.7.4"
 
-sass@1.94.2:
-  version "1.94.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.94.2.tgz#198511fc6fdd2fc0a71b8d1261735c12608d4ef3"
-  integrity sha512-N+7WK20/wOr7CzA2snJcUSSNTCzeCGUTFY3OgeQP3mZ1aj9NMQ0mSTXwlrnd89j33zzQJGqIN52GIOmYrfq46A==
+sass@1.95.0:
+  version "1.95.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.95.0.tgz#3a3a4d4d954313ab50eaf16f6e2548a2f6ec0811"
+  integrity sha512-9QMjhLq+UkOg/4bb8Lt8A+hJZvY3t+9xeZMKSBtBEgxrXA3ed5Ts4NDreUkYgJP1BTmrscQE/xYhf7iShow6lw==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
