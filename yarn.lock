@@ -11723,10 +11723,10 @@ sass-loader@16.0.6:
   dependencies:
     neo-async "^2.6.2"
 
-sass-true@10.0.1:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/sass-true/-/sass-true-10.0.1.tgz#576f16ad40e60e2747adfadef59d3ef22fff74af"
-  integrity sha512-tYYhdwQljnh5YoWMAJaNbmR6Eg9cgxGJAGbZ4H9KzdAssQHzFfczsTezIggHMp5u4+DMcL3tTi8Zx2Dd6d+0Xw==
+sass-true@10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/sass-true/-/sass-true-10.1.0.tgz#e2abf1c994a4746b4cbac1e2c5dee3fd7f100a57"
+  integrity sha512-+kC19viISYaaY5cjYccUOTxG7Zi2AmSz++flhtDt87BRrRemIiRKHkPMy2DA8pTOzomK6NaSDrUCBr40HZ/PuQ==
   dependencies:
     "@prettier/sync" "^0.6.1"
     jest-diff "^30.2.0"
