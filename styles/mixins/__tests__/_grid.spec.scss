@@ -1,4 +1,5 @@
 @use 'true' as *;
+@use '../a11y';
 @use '../grid';
 
 @include test-module('grid.initialize()') {
@@ -14,6 +15,36 @@
           vertical-align: top;
           display: inline-block;
           width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include test-module('grid.hidden()') {
+  @include test('should output base styles using fallback gutter') {
+    @include assert {
+      @include output {
+        @include grid.hidden;
+      }
+
+      @include contains {
+        .item.hidden {
+          @include a11y.visually-hidden;
+        }
+      }
+    }
+  }
+
+  @include test('should output grid hidden, prefixed with modifiers') {
+    @include assert {
+      @include output {
+        @include grid.hidden('desktop');
+      }
+
+      @include contains {
+        .item.desktop-hidden {
+          @include a11y.visually-hidden;
         }
       }
     }
@@ -58,7 +89,6 @@
   }
 
   @include test('should output base styles when passed a gutter as %') {
-    /* stylelint-disable number-max-precision */
     @include assert {
       @include output {
         @include grid.gutter('', 20%);
@@ -74,11 +104,9 @@
         }
       }
     }
-    /* stylelint-enable number-max-precision */
   }
 
   @include test('should allow custom gutters for grid modifiers') {
-    /* stylelint-disable number-max-precision */
     @include assert {
       @include output {
         @include grid.gutter('foo', 1em);
@@ -104,7 +132,6 @@
       }
     }
   }
-  /* stylelint-enable number-max-precision */
 }
 
 @include test-module('grid.reverse()') {
@@ -153,7 +180,6 @@
   @include test(
     'should output grid widths from whole width, through to sixteenths'
   ) {
-    /* stylelint-disable number-max-precision */
     @include assert {
       @include output {
         @include grid.widths('', 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16);
@@ -645,7 +671,6 @@
         }
       }
     }
-    /* stylelint-enable number-max-precision */
   }
 
   @include test('should output grid widths, prefixed with modifiers') {

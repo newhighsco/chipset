@@ -1,14 +1,13 @@
-/* stylelint-disable scss/dollar-variable-pattern */
 @mixin mq($min: false, $max: false, $height: false, $and: false, $media: all) {
-  $_direction: if($height, height, width);
+  $-direction: if($height, height, width);
   $mq: '#{$media} ';
 
   @if $min {
-    $mq: '#{$mq} and (min-#{$_direction}: #{$min})';
+    $mq: '#{$mq} and (min-#{$-direction}: #{$min})';
   }
 
   @if $max {
-    $mq: '#{$mq} and (max-#{$_direction}: #{$max})';
+    $mq: '#{$mq} and (max-#{$-direction}: #{$max})';
   }
 
   @if $and {

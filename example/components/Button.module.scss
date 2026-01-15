@@ -14,7 +14,8 @@
     text-decoration: none !important;
   }
 
-  &[disabled] {
+  &[disabled],
+  &[aria-disabled] {
     opacity: 0.5;
     pointer-events: none;
   }
@@ -25,5 +26,14 @@
 
   .root {
     margin: 0 0.5em;
+  }
+}
+
+.variant {
+  background: colors.$rose;
+
+  &:hover,
+  &.active {
+    background-color: colors.$red;
   }
 }

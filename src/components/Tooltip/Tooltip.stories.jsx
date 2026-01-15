@@ -2,16 +2,10 @@ import React from 'react'
 
 import { Tooltip } from '..'
 
-export default {
-  component: Tooltip
-}
+export default { component: Tooltip }
 
 export const Source = {
-  args: {
-    toggle: 'Toggle',
-    heading: 'Heading',
-    children: 'Content'
-  },
+  args: { toggle: 'Toggle', heading: 'Heading', children: 'Content' },
   parameters: { chromatic: { disable: true } }
 }
 

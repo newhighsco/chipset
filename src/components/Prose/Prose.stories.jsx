@@ -2,9 +2,7 @@ import React from 'react'
 
 import { Prose } from '..'
 
-export default {
-  component: Prose
-}
+export default { component: Prose }
 
 export const Source = {
   args: { children: 'Content' },

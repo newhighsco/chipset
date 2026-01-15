@@ -1,6 +1,8 @@
 import { arrayOf, oneOf, shape, string } from 'prop-types'
 import React from 'react'
 
+import { useImage } from '../../providers'
+
 const Image = ({
   src,
   sources,
@@ -10,6 +12,8 @@ const Image = ({
   className,
   ...rest
 }) => {
+  const renderImage = useImage()
+
   if (!src) return null
 
   const Picture = ({ render, children }) =>
@@ -26,14 +30,14 @@ const Image = ({
         </picture>
       )}
     >
-      <img
-        {...(!sources?.length && { className })}
-        src={src}
-        alt={alt}
-        loading={loading}
-        decoding={decoding}
-        {...rest}
-      />
+      {renderImage({
+        ...(!sources?.length && { className }),
+        src,
+        alt,
+        loading,
+        decoding,
+        ...rest
+      })}
     </Picture>
   )
 }
@@ -41,12 +45,7 @@ const Image = ({
 Image.propTypes = {
   src: string,
   sources: arrayOf(
-    shape({
-      srcSet: string,
-      sizes: string,
-      media: string,
-      type: string
-    })
+    shape({ srcSet: string, sizes: string, media: string, type: string })
   ),
   alt: string,
   loading: oneOf(['auto', 'lazy', 'eager']),

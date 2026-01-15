@@ -1,17 +1,15 @@
 import React from 'react'
 
 import { imageUrl } from '../../__mocks__/fixtures'
-import { Button, Card } from '..'
+import { Button, Card, SmartLink } from '..'
 
-export default {
-  component: Card
-}
+export default { component: Card }
 
 export const Source = {
   args: {
-    href: 'https://Example.com/',
+    href: 'https://example.com/',
     heading: 'Heading',
-    image: { src: 'https://Example.com/image.png' },
+    image: { src: 'https://example.com/image.png' },
     children: 'Content'
   },
   parameters: { chromatic: { disable: true } }
@@ -32,13 +30,13 @@ export const WithImage = {
 export const WithLink = {
   args: {
     heading: <h2>With link</h2>,
-    href: 'https://Example.com/outer-link',
+    href: 'https://example.com/outer-link',
     children: [
       <p key="content">Content</p>,
       <p key="inner-link">
-        <a href="https://Example.com/inner-link">Inner link</a>
+        <SmartLink href="https://example.com/inner-link">Inner link</SmartLink>
       </p>,
-      <Button key="button" href="https://Example.com/inner-button">
+      <Button key="button" href="https://example.com/inner-button">
         Inner button
       </Button>
     ]

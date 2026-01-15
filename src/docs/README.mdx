@@ -1,4 +1,4 @@
-import { Meta, Title, Unstyled } from '@storybook/blocks'
+import { Meta, Title } from '@storybook/addon-docs/blocks'
 
 import { ReactComponent as LogoSvg } from '../../.storybook/static/logo.svg'
 import { CreditLockup, Image, SmartLink } from '../../src'
@@ -27,7 +27,5 @@ Shareable, theme-able component library
 ---
 
 <p>
-  <Unstyled>
-    <CreditLockup />
-  </Unstyled>
+  <CreditLockup className="sb-unstyled" />
 </p>

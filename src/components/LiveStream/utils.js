@@ -61,10 +61,7 @@ const PROVIDERS = {
     },
     getVideoUrl: ({ channel, autoPlay, muted }) => {
       const url = new URL(`https://www.youtube-nocookie.com/embed/${channel}`)
-      url.search = new URLSearchParams({
-        autoplay: !!autoPlay,
-        mute: !!muted
-      })
+      url.search = new URLSearchParams({ autoplay: !!autoPlay, mute: !!muted })
 
       return url
     },

@@ -9,13 +9,14 @@ describe('Components/CreditLockup', () => {
     render(<CreditLockup align="left" dir="rtl" />)
 
     expect(screen.getByRole('link')).toBeInTheDocument()
-    expect(screen.getByRole('img')).toBeInTheDocument()
-    expect(screen.getByLabelText('New High Score')).toBeInTheDocument()
+    expect(
+      screen.getByRole('img', { name: 'New High Score' })
+    ).toBeInTheDocument()
   })
 
   it('should set correct classNames', () => {
     const { container } = render(<CreditLockup theme={theme} />)
 
-    expect(container.firstChild).toHaveClass('root')
+    expect(container.firstChild).toHaveClass('root', { exact: true })
   })
 })

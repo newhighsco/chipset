@@ -1,7 +1,6 @@
 module.exports = {
   framework: '@storybook/react-webpack5',
-  stories: ['../src'],
+  stories: ['../src', { directory: '../styles', titlePrefix: 'Styles' }],
   addons: ['@newhighsco/storybook-preset'],
-  staticDirs: ['./static'],
-  docs: { autodocs: true }
+  staticDirs: ['./static']
 }

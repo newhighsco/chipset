@@ -2,16 +2,10 @@ import React from 'react'
 
 import { FooterContainer, HeaderContainer, PageContainer } from '..'
 
-export default {
-  component: PageContainer
-}
+export default { component: PageContainer }
 
 export const Source = {
-  args: {
-    header: <header />,
-    footer: <footer />,
-    children: 'Content'
-  },
+  args: { header: <header />, footer: <footer />, children: 'Content' },
   parameters: { chromatic: { disable: true } }
 }
 

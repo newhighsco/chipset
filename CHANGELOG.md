@@ -1,3 +1,105 @@
+## [6.25.5](https://github.com/newhighsco/chipset/compare/v6.25.4...v6.25.5) (2025-11-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.10.1 ([#2791](https://github.com/newhighsco/chipset/issues/2791)) ([b799b7c](https://github.com/newhighsco/chipset/commit/b799b7c544168d3d83fa889c832f4aad95cd4c52))
+
+## [6.25.4](https://github.com/newhighsco/chipset/compare/v6.25.3...v6.25.4) (2025-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.10.0 ([#2782](https://github.com/newhighsco/chipset/issues/2782)) ([74641a5](https://github.com/newhighsco/chipset/commit/74641a58f46f9b005fd498549f077cac143b23e5))
+
+## [6.25.3](https://github.com/newhighsco/chipset/compare/v6.25.2...v6.25.3) (2025-11-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.9.4 ([#2763](https://github.com/newhighsco/chipset/issues/2763)) ([bdb9b30](https://github.com/newhighsco/chipset/commit/bdb9b3009b95bb8959d18ec8f47022c66c92c3d3))
+
+## [6.25.2](https://github.com/newhighsco/chipset/compare/v6.25.1...v6.25.2) (2025-10-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@dr](https://github.com/dr).pogodin/react-themes to v1.9.3 ([#2733](https://github.com/newhighsco/chipset/issues/2733)) ([3069b62](https://github.com/newhighsco/chipset/commit/3069b62b3bc858647f107145db3e7a53eaf64496))
+
+## [6.25.1](https://github.com/newhighsco/chipset/compare/v6.25.0...v6.25.1) (2025-09-24)
+
+# [6.25.0](https://github.com/newhighsco/chipset/compare/v6.24.1...v6.25.0) (2025-09-24)
+
+
+### Features
+
+* remove vendor prefixes ([#2713](https://github.com/newhighsco/chipset/issues/2713)) ([152a889](https://github.com/newhighsco/chipset/commit/152a88933f2e46b05cfa6ca8871957414bef82ba))
+
+## [6.24.1](https://github.com/newhighsco/chipset/compare/v6.24.0...v6.24.1) (2025-09-24)
+
+# [6.24.0](https://github.com/newhighsco/chipset/compare/v6.23.1...v6.24.0) (2025-09-24)
+
+
+### Features
+
+* **grid:** add `grid.hidden()` ([#2712](https://github.com/newhighsco/chipset/issues/2712)) ([70c0d0b](https://github.com/newhighsco/chipset/commit/70c0d0bdd55741dcef365d41cba38f4a465e7e1f))
+
+## [6.23.1](https://github.com/newhighsco/chipset/compare/v6.23.0...v6.23.1) (2025-09-19)
+
+
+### Bug Fixes
+
+* **visually-hidden:** correct syntax for `clip-path` ([6377c0f](https://github.com/newhighsco/chipset/commit/6377c0fb4cd5bb803ffa69b0fec18bc0aaeb4240))
+
+# [6.23.0](https://github.com/newhighsco/chipset/compare/v6.22.0...v6.23.0) (2025-09-01)
+
+
+### Features
+
+* **button:** add `variant` prop ([#2691](https://github.com/newhighsco/chipset/issues/2691)) ([d4d0e15](https://github.com/newhighsco/chipset/commit/d4d0e156666e8edaf744525aae09008d81b86583))
+
+# [6.22.0](https://github.com/newhighsco/chipset/compare/v6.21.1...v6.22.0) (2025-08-29)
+
+
+### Features
+
+* add `LinkProvider` ([#2689](https://github.com/newhighsco/chipset/issues/2689)) ([b46b2de](https://github.com/newhighsco/chipset/commit/b46b2def8697d5998f34806cbf65d7df743c1568))
+
+## [6.21.1](https://github.com/newhighsco/chipset/compare/v6.21.0...v6.21.1) (2025-08-29)
+
+
+### Bug Fixes
+
+* **grid:** pass rest props to `Grid` container ([#2688](https://github.com/newhighsco/chipset/issues/2688)) ([6f836be](https://github.com/newhighsco/chipset/commit/6f836be5b1b7d9b5e84c13286b99109dbf781aba))
+
+# [6.21.0](https://github.com/newhighsco/chipset/compare/v6.20.0...v6.21.0) (2025-08-29)
+
+
+### Features
+
+* **svg:** use `@newhighsco/svgr-config` ([#2687](https://github.com/newhighsco/chipset/issues/2687)) ([f0d381a](https://github.com/newhighsco/chipset/commit/f0d381a0275ff7cd66daf89d28c936cb14e1944f))
+
+# [6.20.0](https://github.com/newhighsco/chipset/compare/v6.19.1...v6.20.0) (2025-08-28)
+
+
+### Features
+
+* **icons:** improve accessibility ([#2686](https://github.com/newhighsco/chipset/issues/2686)) ([47d6710](https://github.com/newhighsco/chipset/commit/47d671092a25900d126ee52700eb4aeae4ce17fc))
+
+## [6.19.1](https://github.com/newhighsco/chipset/compare/v6.19.0...v6.19.1) (2025-08-27)
+
+
+### Bug Fixes
+
+* **link-provider:** use correct exports ([#2682](https://github.com/newhighsco/chipset/issues/2682)) ([eeb13ba](https://github.com/newhighsco/chipset/commit/eeb13ba5dea86e97471eda3a98e49bb327d9bc3f))
+
+# [6.19.0](https://github.com/newhighsco/chipset/compare/v6.18.0...v6.19.0) (2025-08-27)
+
+
+### Features
+
+* add `LinkProvider` ([#2681](https://github.com/newhighsco/chipset/issues/2681)) ([008a0ff](https://github.com/newhighsco/chipset/commit/008a0ff0a8673bc1fccd7e54c40ba30bf3c11a94))
+
 # [6.18.0](https://github.com/newhighsco/chipset/compare/v6.17.6...v6.18.0) (2025-08-12)
 
 

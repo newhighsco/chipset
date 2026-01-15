@@ -24,6 +24,8 @@ describe('Components/ContentContainer', () => {
       </ContentContainer>
     )
 
-    expect(container.firstChild).toHaveClass('root mobile gutter')
+    expect(container.firstChild).toHaveClass('root mobile gutter', {
+      exact: true
+    })
   })
 })

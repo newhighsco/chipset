@@ -3,9 +3,7 @@ import React from 'react'
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 import { Image, ResponsiveMedia } from '..'
 
-export default {
-  component: ResponsiveMedia
-}
+export default { component: ResponsiveMedia }
 
 export const Source = {
   args: { ratio: '16:9', children: 'Content' },
@@ -27,7 +25,7 @@ export const WithIframe = {
   args: {
     ratio: '16:9',
     children: (
-      <iframe title="iframe" src="https://Example.com/" loading="lazy" />
+      <iframe title="iframe" src="https://example.com/" loading="lazy" />
     )
   }
 }

@@ -24,6 +24,8 @@ describe('Components/ButtonGroup', () => {
       </ButtonGroup>
     )
 
-    expect(screen.getByText('Content')).toHaveClass('group foo')
+    expect(screen.getByText('Content')).toHaveClass('group foo', {
+      exact: true
+    })
   })
 })

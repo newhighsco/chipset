@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/chipset",
   "description": "Shareable, theme-able component library by New High Score",
-  "version": "6.18.0",
+  "version": "6.25.5",
   "author": "New High Score",
   "license": "ISC",
   "repository": {
@@ -30,59 +30,60 @@
     "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded --only-changed",
     "analyze": "omlet analyze",
     "lint": "concurrently yarn:lint:*",
-    "lint:js": "eslint --cache --ignore-path .gitignore .",
+    "lint:js": "eslint --cache .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
     "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix",
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@dr.pogodin/react-themes": "1.9.2",
+    "@dr.pogodin/react-themes": "1.10.1",
     "classnames": "2.5.1",
     "react-device-detect": "2.2.3"
   },
   "devDependencies": {
-    "@babel/core": "7.28.0",
-    "@babel/preset-env": "7.28.0",
-    "@babel/preset-react": "7.27.1",
-    "@commitlint/cli": "19.8.1",
+    "@babel/core": "7.28.6",
+    "@babel/preset-env": "7.28.6",
+    "@babel/preset-react": "7.28.5",
+    "@commitlint/cli": "20.3.1",
     "@fullhuman/postcss-purgecss": "7.0.2",
     "@newhighsco/browserslist-config": "2.0.0",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.1.43",
-    "@newhighsco/postcss-config": "3.5.341",
-    "@newhighsco/prettier-config": "2.1.32",
-    "@newhighsco/release-config": "1.4.6",
-    "@newhighsco/storybook-preset": "7.1.1",
-    "@newhighsco/stylelint-config": "4.0.17",
+    "@newhighsco/eslint-config": "6.0.7",
+    "@newhighsco/postcss-config": "4.0.10",
+    "@newhighsco/prettier-config": "2.3.2",
+    "@newhighsco/release-config": "1.4.20",
+    "@newhighsco/storybook-preset": "9.0.7",
+    "@newhighsco/stylelint-config": "4.0.19",
+    "@newhighsco/svgr-config": "1.0.0",
     "@omlet/cli": "2.0.0",
-    "@storybook/react-webpack5": "8.6.14",
+    "@storybook/react-webpack5": "10.1.11",
     "@testing-library/dom": "10.4.1",
-    "@testing-library/jest-dom": "6.6.4",
-    "@testing-library/react": "16.3.0",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "16.3.1",
     "babel-loader": "10.0.0",
-    "chromatic": "13.1.3",
-    "concurrently": "9.2.0",
-    "eslint": "8.57.1",
+    "chromatic": "13.3.5",
+    "concurrently": "9.2.1",
+    "eslint": "9.39.2",
     "husky": "9.1.7",
     "identity-obj-proxy": "3.0.0",
-    "jest": "30.0.5",
-    "jest-environment-jsdom": "30.0.5",
+    "jest": "30.2.0",
+    "jest-environment-jsdom": "30.2.0",
     "jest-junit": "16.0.0",
     "postcss": "8.5.6",
-    "prettier": "3.6.2",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
-    "sass-true": "9.0.0",
-    "semantic-release": "24.2.7",
-    "storybook": "8.6.14",
-    "stylelint": "16.23.1",
-    "webpack": "5.101.1"
+    "prettier": "3.8.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "sass-true": "10.1.0",
+    "semantic-release": "25.0.2",
+    "storybook": "10.1.11",
+    "stylelint": "17.0.0",
+    "webpack": "5.104.1"
   },
   "peerDependencies": {
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
@@ -90,11 +91,6 @@
   "commitlint": {
     "extends": [
       "@newhighsco"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "@newhighsco/eslint-config"
     ]
   },
   "omlet": {
@@ -107,19 +103,33 @@
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
-    "extends": "@newhighsco/release-config",
-    "branches": [
-      "main"
-    ]
-  },
-  "renovate": {
-    "extends": [
-      "local>newhighsco/.github:renovate-config"
-    ]
+    "extends": "@newhighsco/release-config"
   },
   "stylelint": {
     "extends": [
       "@newhighsco/stylelint-config"
-    ]
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.spec.*"
+        ],
+        "rules": {
+          "number-max-precision": null
+        }
+      }
+    ],
+    "rules": {
+      "value-keyword-case": [
+        "lower",
+        {
+          "camelCaseSvgKeywords": true,
+          "ignoreKeywords": [
+            "/(mobile|tablet)Landscape/",
+            "/desktop(Medium|Large)/"
+          ]
+        }
+      ]
+    }
   }
 }
