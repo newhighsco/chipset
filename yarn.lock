@@ -2,14 +2,6 @@
 # yarn lockfile v1
 
 
-"@actions/core@^1.11.1":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@actions/core/-/core-1.11.1.tgz#ae683aac5112438021588030efb53b1adb86f172"
-  integrity sha512-hXJCSrkwfA46Vd9Z3q4cpEpHB1rL5NG04+/rbqW9d3+CSvtB1tYe8UTpAlixa1vj0m/ULglfEK2UKxMGxCxv5A==
-  dependencies:
-    "@actions/exec" "^1.1.1"
-    "@actions/http-client" "^2.0.1"
-
 "@actions/core@^2.0.0":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@actions/core/-/core-2.0.2.tgz#81c59e1f3437660d2148a064c1ba8e99931f2cf7"
@@ -18,27 +10,12 @@
     "@actions/exec" "^2.0.0"
     "@actions/http-client" "^3.0.1"
 
-"@actions/exec@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@actions/exec/-/exec-1.1.1.tgz#2e43f28c54022537172819a7cf886c844221a611"
-  integrity sha512-+sCcHHbVdk93a0XT19ECtO/gIXoxvdsgQLzb2fE2/5sIZmWQuluYyjPQtrtTHdU1YzTZ7bAPN4sITq2xi1679w==
-  dependencies:
-    "@actions/io" "^1.0.1"
-
 "@actions/exec@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@actions/exec/-/exec-2.0.0.tgz#35e829723389f80e362ec2cc415697ec74362ad8"
   integrity sha512-k8ngrX2voJ/RIN6r9xB82NVqKpnMRtxDoiO+g3olkIUpQNqjArXrCQceduQZCQj3P3xm32pChRLqRrtXTlqhIw==
   dependencies:
     "@actions/io" "^2.0.0"
-
-"@actions/http-client@^2.0.1":
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/@actions/http-client/-/http-client-2.2.3.tgz#31fc0b25c0e665754ed39a9f19a8611fc6dab674"
-  integrity sha512-mx8hyJi/hjFvbPokCg4uRd4ZX78t+YyRPtnKWwIl+RzNaVuFpQHfmlGVfsKEJN8LwTCvL+DfVgAM04XaHkm6bA==
-  dependencies:
-    tunnel "^0.0.6"
-    undici "^5.25.4"
 
 "@actions/http-client@^3.0.1":
   version "3.0.1"
@@ -47,11 +24,6 @@
   dependencies:
     tunnel "^0.0.6"
     undici "^5.28.5"
-
-"@actions/io@^1.0.1":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@actions/io/-/io-1.1.3.tgz#4cdb6254da7962b07473ff5c335f3da485d94d71"
-  integrity sha512-wi9JjgKLYS7U/z8PPbco+PvTb/nRWjeoFlJ1Qer83k/3C5PHQi28hiVdeE2kHXmIL99mQFawx8qt/JPjZilJ8Q==
 
 "@actions/io@^2.0.0":
   version "2.0.0"
@@ -2438,16 +2410,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.3.2.tgz#9f400cca221372fc5b05dec749c59bb5da669a4d"
   integrity sha512-p7QE7Etfr5bzMsVx0gL0kYeI8og7lGKap0CzrzRd+nnBjtanXPPITJd6eoRQYJCUSgSs59i2bhgf/+jiws8Gyw==
 
-"@newhighsco/release-config@1.4.19":
-  version "1.4.19"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.19.tgz#cade81bfc95538887f73fce78c95c8ecbda38fdd"
-  integrity sha512-FYGqiw1tGpYtI7Un03i+nZrHn1sMch9iM2lmoUQQqAaY0K6ypUGdTH5bIVjNL4opFMfSuf2z8TT5D6TrlHHu8Q==
+"@newhighsco/release-config@1.4.20":
+  version "1.4.20"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.20.tgz#4ca9cc5bf83143321d44692ee0ac9e690b17abea"
+  integrity sha512-+fee2ObbQ+uR+PJthrV86LxJUCTTyUy8VHYwZCmWmHYWuso0qeWtYUl1e8uhECUMSAljyZgg23JCXJkUN87QqQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "12.0.2"
-    "@semantic-release/npm" "13.1.2"
+    "@semantic-release/npm" "13.1.3"
     "@semantic-release/release-notes-generator" "14.1.0"
 
 "@newhighsco/storybook-addon-svgr@4.0.0":
@@ -2481,15 +2453,15 @@
     sass-loader "16.0.6"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.18":
-  version "4.0.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.18.tgz#7505ae68ca91725a470e594e988a47c6f16c27fd"
-  integrity sha512-y1oaAUqujt6IUgnZJGD+BRkDqGeaDnDhxdc7xP7S7saF8iz0UntJ1MHE5zZNswrNolTGGga8MaFuruTRqwDTJg==
+"@newhighsco/stylelint-config@4.0.19":
+  version "4.0.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.19.tgz#e76f664cd119c947d16edbf4512ea6a8cc35454d"
+  integrity sha512-RZX/Ld0976ERUo9F8pImZhXQhk7h8XEdbd1K2F7xKfEeSJwdRmOszVS+4EuuGf8ZoYx3cEl2xCyLw7+SiXdz7A==
   dependencies:
     stylelint-config-css-modules "4.5.1"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "16.0.0"
-    stylelint-order "7.0.0"
+    stylelint-order "7.0.1"
     stylelint-prettier "5.0.3"
 
 "@newhighsco/svgo-config@1.0.2":
@@ -3135,28 +3107,7 @@
     undici "^7.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/npm@13.1.2":
-  version "13.1.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-13.1.2.tgz#f19ad4275e487e5b633e42e6b7dc41d499ce0280"
-  integrity sha512-9rtshDTNlzYrC7uSBtB1vHqFzFZaNHigqkkCH5Ls4N/BSlVOenN5vtwHYxjAR4jf1hNvWSVwL4eIFTHONYckkw==
-  dependencies:
-    "@actions/core" "^1.11.1"
-    "@semantic-release/error" "^4.0.0"
-    aggregate-error "^5.0.0"
-    env-ci "^11.2.0"
-    execa "^9.0.0"
-    fs-extra "^11.0.0"
-    lodash-es "^4.17.21"
-    nerf-dart "^1.0.0"
-    normalize-url "^8.0.0"
-    npm "^11.6.2"
-    rc "^1.2.8"
-    read-pkg "^10.0.0"
-    registry-auth-token "^5.0.0"
-    semver "^7.1.2"
-    tempy "^3.0.0"
-
-"@semantic-release/npm@^13.1.1":
+"@semantic-release/npm@13.1.3", "@semantic-release/npm@^13.1.1":
   version "13.1.3"
   resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-13.1.3.tgz#f75bc82e005fcb859932461bfc5583746a31f6c1"
   integrity sha512-q7zreY8n9V0FIP1Cbu63D+lXtRAVAIWb30MH5U3TdrfXt6r2MIrWCY0whAImN53qNvSGp0Zt07U95K+Qp9GpEg==
@@ -11171,7 +11122,7 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.5.6, postcss@^8.4.33, postcss@^8.4.4, postcss@^8.4.47, postcss@^8.5.3, postcss@^8.5.6:
+postcss@8.5.6, postcss@^8.4.33, postcss@^8.4.4, postcss@^8.4.47, postcss@^8.5.6:
   version "8.5.6"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.6.tgz#2825006615a619b4f62a9e7426cc120b349a8f3c"
   integrity sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==
@@ -12540,12 +12491,12 @@ stylelint-config-standard@^39.0.0:
   dependencies:
     stylelint-config-recommended "^17.0.0"
 
-stylelint-order@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-7.0.0.tgz#ef129101fcc61f5376a2f89f464829cf1e2e349f"
-  integrity sha512-rSWxx0KscYfxU02wEskKXES9lkRzuuONMMNkZ7SUc6uiF3tDKm7e+sE0Ax/SBlG4TUf1sp1R6f3/SlsPGmzthg==
+stylelint-order@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-7.0.1.tgz#6075378153d8727ff5b5dee8615150f56bce35d3"
+  integrity sha512-GWPei1zBVDDjxM+/BmcSCiOcHNd8rSqW6FUZtqQGlTRpD0Z5nSzspzWD8rtKif5KPdzUG68DApKEV/y/I9VbTw==
   dependencies:
-    postcss "^8.5.3"
+    postcss "^8.5.6"
     postcss-sorting "^9.1.0"
 
 stylelint-prettier@5.0.3:
@@ -13137,7 +13088,7 @@ undici-types@~7.16.0:
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-7.16.0.tgz#ffccdff36aea4884cbfce9a750a0580224f58a46"
   integrity sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==
 
-undici@^5.25.4, undici@^5.28.5:
+undici@^5.28.5:
   version "5.29.0"
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.29.0.tgz#419595449ae3f2cdcba3580a2e8903399bd1f5a3"
   integrity sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==
