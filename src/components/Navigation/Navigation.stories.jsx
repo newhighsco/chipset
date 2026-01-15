@@ -14,14 +14,7 @@ export const Source = {
           { href: '/bar', children: 'Bar' }
         ]
       },
-      {
-        href: '/fizz',
-        children: 'Fizz',
-        links: [
-          { href: '/foo', children: 'Foo' },
-          { href: '/bar', children: 'Bar' }
-        ]
-      },
+      { href: '/fizz', children: 'Fizz' },
       { href: 'https://buzz.com', target: '_blank', children: 'Buzz' }
     ]
   },
