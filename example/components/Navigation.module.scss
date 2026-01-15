@@ -19,14 +19,24 @@
 .list {
   background: colors.$lemon;
   border: 1px solid colors.$black;
+
+  .list {
+    background: colors.$yellow;
+    border-bottom: 0;
+    border-inline: 0;
+  }
 }
 
 .item {
   border-top: 1px solid colors.$black;
 
-  .inline & {
+  .inline > & {
     border-top: 0;
     border-left: 1px solid colors.$black;
+
+    .list {
+      border: 1px solid colors.$black;
+    }
   }
 
   &:first-child {
@@ -35,9 +45,12 @@
 }
 
 .link {
+  background: none;
+  border: 0;
   color: currentColor;
   display: block;
   padding: 1em;
+  text-align: left !important;
   text-decoration: none;
 
   &:hover {

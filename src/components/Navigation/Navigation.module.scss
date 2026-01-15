@@ -1,3 +1,17 @@
 .list[hidden] {
   display: none;
 }
+
+.itemToggle {
+  position: relative;
+
+  .inline & .list {
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.link {
+  display: block;
+  width: 100%;
+}
