@@ -1,3 +1,10 @@
+# [6.26.0](https://github.com/newhighsco/chipset/compare/v6.25.5...v6.26.0) (2026-01-15)
+
+
+### Features
+
+* sub navigation ([#2845](https://github.com/newhighsco/chipset/issues/2845)) ([dbe4750](https://github.com/newhighsco/chipset/commit/dbe4750df59302037c080d4eda7288e14a86ae98))
+
 ## [6.25.5](https://github.com/newhighsco/chipset/compare/v6.25.4...v6.25.5) (2025-11-27)
 
 
