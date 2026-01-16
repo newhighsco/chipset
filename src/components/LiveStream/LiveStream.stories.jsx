@@ -1,13 +1,11 @@
-import { breakpoints } from '../../constants'
+import { modes } from '@newhighsco/storybook-preset'
+
 import { LiveStream } from '..'
 
 export default {
   component: LiveStream,
   parameters: {
-    chromatic: {
-      disable: true,
-      viewports: [Number(breakpoints.mobile), Number(breakpoints.desktopLarge)]
-    }
+    chromatic: { disable: true, modes: modes('mobile', 'desktopLarge') }
   }
 }
 
