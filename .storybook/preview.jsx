@@ -3,9 +3,7 @@ import './preview.scss'
 import React from 'react'
 
 import componentTheme from '../example/theme'
-import { breakpoints, ThemeProvider } from '../src'
-
-const viewports = [Number(breakpoints.desktopLarge)]
+import { ThemeProvider } from '../src'
 
 export const decorators = [
   Story => (
@@ -16,7 +14,6 @@ export const decorators = [
 ]
 
 export const parameters = {
-  chromatic: { viewports },
   options: { storySort: { order: ['Docs', ['README', 'CHANGELOG']] } }
 }
 

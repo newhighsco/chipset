@@ -54,7 +54,7 @@
     "@newhighsco/postcss-config": "4.0.11",
     "@newhighsco/prettier-config": "2.3.2",
     "@newhighsco/release-config": "1.4.20",
-    "@newhighsco/storybook-preset": "9.0.8",
+    "@newhighsco/storybook-preset": "10.0.0",
     "@newhighsco/stylelint-config": "4.0.20",
     "@newhighsco/svgr-config": "1.0.0",
     "@omlet/cli": "2.0.0",
