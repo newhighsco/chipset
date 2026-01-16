@@ -1,3 +1,10 @@
+## [6.26.1](https://github.com/newhighsco/chipset/compare/v6.26.0...v6.26.1) (2026-01-16)
+
+
+### Bug Fixes
+
+* **menubar:** correct `toggle` propType ([c673413](https://github.com/newhighsco/chipset/commit/c6734133da5b2b54585178b5d590ecd6f9338a20))
+
 # [6.26.0](https://github.com/newhighsco/chipset/compare/v6.25.5...v6.26.0) (2026-01-15)
 
 
