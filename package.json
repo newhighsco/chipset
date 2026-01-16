@@ -55,7 +55,7 @@
     "@newhighsco/prettier-config": "2.3.2",
     "@newhighsco/release-config": "1.4.20",
     "@newhighsco/storybook-preset": "9.0.8",
-    "@newhighsco/stylelint-config": "4.0.19",
+    "@newhighsco/stylelint-config": "4.0.20",
     "@newhighsco/svgr-config": "1.0.0",
     "@omlet/cli": "2.0.0",
     "@storybook/react-webpack5": "10.1.11",
