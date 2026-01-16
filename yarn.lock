@@ -2355,6 +2355,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
+"@newhighsco/chipset@6.27.0":
+  version "6.27.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.0.tgz#648b635f881ab9be524ab3c3bc39f8975403ddf6"
+  integrity sha512-vpjvyp/Ut1YIqdctmjY7WtCLfEW2pjIinQYQ3tt3ZcWqJV0tzRnPGPdutQCh1atcMHYIOy8oYB9qBKG2jXezYA==
+  dependencies:
+    "@dr.pogodin/react-themes" "1.10.1"
+    classnames "2.5.1"
+    react-device-detect "2.2.3"
+
 "@newhighsco/commitlint-config@1.1.46":
   version "1.1.46"
   resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.46.tgz#2ab32ea1eacc8a8af319c2a809c1a45512636cbc"
@@ -2435,11 +2444,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@9.0.8":
-  version "9.0.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-9.0.8.tgz#43934cdceca5e22e0ab2614f9508e35e29d10656"
-  integrity sha512-AW8cbhXJpsN181pDeB2Y89xRejgKVL3kf+EgzEEwqllTUFv7RKCyqYO/75kUUXW795f3H9DMPkVdeMnIGN/YsQ==
+"@newhighsco/storybook-preset@10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.0.tgz#46f6f8418888d384cff1e093329ced9c1ac06026"
+  integrity sha512-4tsCXj/sFkU8w4EiCLrTwTrNGrUoi7sqLBFcz+bHig7jg935I0GLwKTnrDUFcRQw/zBnSE0vWM5kciQtX673Lg==
   dependencies:
+    "@newhighsco/chipset" "6.27.0"
     "@newhighsco/storybook-addon-svgr" "4.0.0"
     "@newhighsco/storybook-addon-transpile-modules" "4.0.0"
     "@storybook/addon-a11y" "10.1.11"
