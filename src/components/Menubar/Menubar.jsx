@@ -103,10 +103,10 @@ Menubar.propTypes = {
   links: array,
   inline: bool,
   renderLink: func,
-  toggle: oneOf(
+  toggle: oneOf([
     bool,
     shape({ icons: { true: any, false: any }, children: node })
-  ),
+  ]),
   onToggle: func,
   theme: shape({
     list: string,
