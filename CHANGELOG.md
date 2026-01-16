@@ -1,3 +1,10 @@
+# [6.27.0](https://github.com/newhighsco/chipset/compare/v6.26.2...v6.27.0) (2026-01-16)
+
+
+### Features
+
+* export breakpoints ([#2850](https://github.com/newhighsco/chipset/issues/2850)) ([36cdeb7](https://github.com/newhighsco/chipset/commit/36cdeb7f944bc2b4168b5a002fc50410f79a1101))
+
 ## [6.26.2](https://github.com/newhighsco/chipset/compare/v6.26.1...v6.26.2) (2026-01-16)
 
 
