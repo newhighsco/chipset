@@ -1,3 +1,10 @@
+## [6.26.2](https://github.com/newhighsco/chipset/compare/v6.26.1...v6.26.2) (2026-01-16)
+
+
+### Bug Fixes
+
+* **mixins:** refactor deprecated sass if functions ([2b24470](https://github.com/newhighsco/chipset/commit/2b244702e6e272104406ba217aa7cc334de974d1)), closes [#2847](https://github.com/newhighsco/chipset/issues/2847)
+
 ## [6.26.1](https://github.com/newhighsco/chipset/compare/v6.26.0...v6.26.1) (2026-01-16)
 
 
