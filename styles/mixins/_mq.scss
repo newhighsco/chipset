@@ -1,5 +1,7 @@
 @mixin mq($min: false, $max: false, $height: false, $and: false, $media: all) {
-  $-direction: if($height, height, width);
+  $-direction: if(
+    sass($height): height; else: width
+  );
   $mq: '#{$media} ';
 
   @if $min {

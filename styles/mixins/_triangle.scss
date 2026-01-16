@@ -98,7 +98,7 @@
     $type: list.nth($side, 2);
 
     @if $type == filled {
-      border-#{$direction}: $size solid if($color != '', $color, null);
+      border-#{$direction}: $size solid if(sass($color != ''): $color);
     } @else if $type == transparent {
       border-#{$direction}: $size solid transparent;
     }

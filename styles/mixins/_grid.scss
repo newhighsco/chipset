@@ -143,10 +143,14 @@ $fraction-names: whole half third quarter fifth sixth seventh eighth ninth tenth
   @for $i from 1 through $columns-length {
     $column: list.nth($columns, $i);
     $grid: list.nth($fraction-names, $column);
-    $column-count: if($column == 1, 1, $column - 1);
+    $column-count: if(
+      sass($column == 1): 1; else: $column - 1
+    );
 
     @for $j from 1 through $column-count {
-      $plural: if($j == 1, '', 's');
+      $plural: if(
+        sass($j == 1): '' ; else: 's'
+      );
       $column-width: $j * math.div(100, $column);
       $column-name: list.nth($count-names, $j);
 
