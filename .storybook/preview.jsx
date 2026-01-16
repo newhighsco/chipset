@@ -3,8 +3,7 @@ import './preview.scss'
 import React from 'react'
 
 import componentTheme from '../example/theme'
-import { ThemeProvider } from '../src/providers'
-import breakpoints from '../styles/_breakpoints.module.scss'
+import { breakpoints, ThemeProvider } from '../src'
 
 const viewports = [Number(breakpoints.desktopLarge)]
 

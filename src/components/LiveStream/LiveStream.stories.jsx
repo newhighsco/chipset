@@ -1,4 +1,4 @@
-import breakpoints from '../../../styles/_breakpoints.module.scss'
+import { breakpoints } from '../../constants'
 import { LiveStream } from '..'
 
 export default {

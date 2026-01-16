@@ -1,6 +1,6 @@
 import React from 'react'
 
-import breakpoints from '../../../styles/_breakpoints.module.scss'
+import { breakpoints } from '../../constants'
 import { ContentContainer } from '..'
 
 export default { component: ContentContainer }
