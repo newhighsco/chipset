@@ -984,7 +984,7 @@
     "@babel/plugin-transform-modules-commonjs" "^7.27.1"
     "@babel/plugin-transform-typescript" "^7.28.5"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.28.4":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.28.4", "@babel/runtime@^7.28.6":
   version "7.28.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.6.tgz#d267a43cb1836dc4d182cce93ae75ba954ef6d2b"
   integrity sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==
@@ -1649,6 +1649,13 @@
   integrity sha512-BbdcwVJT7Pc8rDHXIjojnOvuhze9uAaUjkFSx4vJr3XMmvXSkxU7ehRm5XmqteLmI5aOdOHjupb+9Msd71Rl5w==
   dependencies:
     "@babel/runtime" "^7.28.4"
+
+"@dr.pogodin/react-themes@1.10.2":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.2.tgz#dd2591bb74c12141f5f03c14072e1ca99062f6e3"
+  integrity sha512-XQjUY7TqsVQSYPG9apebjA/PnBoVRkzviujQgBsV8uPplwuKchNNKHIZQ/JHBLKvsuj5bZneIEP12bJBvwuasw==
+  dependencies:
+    "@babel/runtime" "^7.28.6"
 
 "@emnapi/core@^1.4.3":
   version "1.8.1"
