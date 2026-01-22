@@ -2444,10 +2444,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@10.0.1":
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.1.tgz#0756420d6bec75cb15cca3600eea742cd2ebe38f"
-  integrity sha512-PXRISv4SQbxjCF7S/RDmx7jeSSnKN5ZbZdakjRuOSajgp5FbQ3CStH423otDDNTbZPwRRVwwgHknAA28fh7GqQ==
+"@newhighsco/storybook-preset@10.0.2":
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.2.tgz#62fcf12a9b1df0be1e93a032b62677fdb3a61b63"
+  integrity sha512-hBKVYg1jeZH5Pfi553Bo2dihlK8FuoZTn2F1id+GgpB22zT+KH3MQPesu3MsWCER6qdyQR4OnlJAuTLo1cs4QA==
   dependencies:
     "@newhighsco/chipset" "6.27.0"
     "@newhighsco/storybook-addon-svgr" "4.0.0"
@@ -2459,7 +2459,7 @@
     css-loader "7.1.2"
     postcss "8.5.6"
     postcss-loader "8.2.0"
-    sass "1.97.2"
+    sass "1.97.3"
     sass-loader "16.0.6"
     style-loader "4.0.0"
 
@@ -11798,10 +11798,10 @@ sass-true@10.1.0:
     postcss "^8.5.6"
     prettier "^3.7.4"
 
-sass@1.97.2:
-  version "1.97.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.97.2.tgz#e515a319092fd2c3b015228e3094b40198bff0da"
-  integrity sha512-y5LWb0IlbO4e97Zr7c3mlpabcbBtS+ieiZ9iwDooShpFKWXf62zz5pEPdwrLYm+Bxn1fnbwFGzHuCLSA9tBmrw==
+sass@1.97.3:
+  version "1.97.3"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.97.3.tgz#9cb59339514fa7e2aec592b9700953ac6e331ab2"
+  integrity sha512-fDz1zJpd5GycprAbu4Q2PV/RprsRtKC/0z82z0JLgdytmcq0+ujJbJ/09bPGDxCLkKY3Np5cRAOcWiVkLXJURg==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
