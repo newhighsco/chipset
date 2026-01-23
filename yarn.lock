@@ -2463,12 +2463,12 @@
     sass-loader "16.0.6"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.21":
-  version "4.0.21"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.21.tgz#5768d38af4b2e51285242f2f1df8d8a62dbd36ae"
-  integrity sha512-pBZXj0oEaxnQLt3Yx3Cu37kiUD1S7c0+fkqOSjNY7VD9gX2p1nd1WJWUv62MtvbDDYrDF5UxLwUjFwxH4p5n0w==
+"@newhighsco/stylelint-config@4.0.22":
+  version "4.0.22"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.22.tgz#7427c27e2a3655662575f4287f0353a8d906d003"
+  integrity sha512-Z/sJwwO+0ns1LQR5h3d7nLFM12iZXnUQSmhK0WZ3Ta+6yb0YACUMOWQK8/j3zgRYRhXqTuKPccLHPaIPejwkng==
   dependencies:
-    stylelint-config-css-modules "4.5.1"
+    stylelint-config-css-modules "4.6.0"
     stylelint-config-prettier "9.0.5"
     stylelint-config-standard-scss "17.0.0"
     stylelint-order "7.0.1"
@@ -12455,12 +12455,12 @@ style-loader@4.0.0, style-loader@^4.0.0:
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-4.0.0.tgz#0ea96e468f43c69600011e0589cb05c44f3b17a5"
   integrity sha512-1V4WqhhZZgjVAVJyt7TdDPZoPBPNHbekX4fWnCJL1yQukhCeZhJySUL+gL9y6sNdN95uEOS83Y55SqHcP7MzLA==
 
-stylelint-config-css-modules@4.5.1:
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.5.1.tgz#7275283bbc6519feb833cc56e5bafbe7afc72084"
-  integrity sha512-xRMvAOVWa8h3Dw2NmanJHuPqMUInmMoBy14kkJDT2xs2xevxl7WnQOe/nDAMvgf9NkodzKrhKZ97E61yQOKkDA==
+stylelint-config-css-modules@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.6.0.tgz#b56c5198b7484ac0417684431fe8f7d294bc6956"
+  integrity sha512-LIgfzNmpiwf/eDxQva2g1mj+mqDpvP1XwOKJC7DSWY/iCQAZdIKnY42jbXuY8thcFN4yM/uF1xfCyfd7fJKh6w==
   optionalDependencies:
-    stylelint-scss "^6.12.1"
+    stylelint-scss "^7.0.0"
 
 stylelint-config-prettier@9.0.5:
   version "9.0.5"
@@ -12510,20 +12510,6 @@ stylelint-prettier@5.0.3:
   integrity sha512-B6V0oa35ekRrKZlf+6+jA+i50C4GXJ7X1PPmoCqSUoXN6BrNF6NhqqhanvkLjqw2qgvrS0wjdpeC+Tn06KN3jw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
-
-stylelint-scss@^6.12.1:
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-6.14.0.tgz#b3f69e6e6236807aef021caf995fdf00255d80f0"
-  integrity sha512-ZKmHMZolxeuYsnB+PCYrTpFce0/QWX9i9gh0hPXzp73WjuIMqUpzdQaBCrKoLWh6XtCFSaNDErkMPqdjy1/8aA==
-  dependencies:
-    css-tree "^3.0.1"
-    is-plain-object "^5.0.0"
-    known-css-properties "^0.37.0"
-    mdn-data "^2.25.0"
-    postcss-media-query-parser "^0.2.3"
-    postcss-resolve-nested-selector "^0.1.6"
-    postcss-selector-parser "^7.1.1"
-    postcss-value-parser "^4.2.0"
 
 stylelint-scss@^7.0.0:
   version "7.0.0"
