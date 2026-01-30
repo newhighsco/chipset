@@ -3432,12 +3432,12 @@
     "@swc/core" "^1.13.5"
     swc-loader "^0.2.6"
 
-"@storybook/builder-webpack5@10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-10.2.2.tgz#dd23be93a89b71867fa42712b74351e0df0f9f2a"
-  integrity sha512-IZS3JiTVEru8u1keKqcwkoufYg72NVxpC7AErLoqd0MqS+M27u+uacZP8y4kRERyXJ3wZwAqmj3A3+g39DrbWw==
+"@storybook/builder-webpack5@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-10.2.3.tgz#a3023377e3f6dfaee41b4f29995947ab67e6f048"
+  integrity sha512-H6lp7Mc5aTZjVefXfPSxI4ZuimnOEwui/DfEvKC7Rhlig21O501F9+tHl+zHIhrrcXheYxqZCmARJ/hAYwO/0g==
   dependencies:
-    "@storybook/core-webpack" "10.2.2"
+    "@storybook/core-webpack" "10.2.3"
     case-sensitive-paths-webpack-plugin "^2.4.0"
     cjs-module-lexer "^1.2.3"
     css-loader "^7.1.2"
@@ -3453,10 +3453,10 @@
     webpack-hot-middleware "^2.25.1"
     webpack-virtual-modules "^0.6.0"
 
-"@storybook/core-webpack@10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-10.2.2.tgz#36511b4189c8746e21a0d1f44a549e9437244f0e"
-  integrity sha512-OFUfyNujUHa/yZtOXOqm+Hu0OjbVNFSfmankjc0RRbkFQijYWFonFRBXmhZwNcgRBtE8dm0h1Lhb6O1axSinPw==
+"@storybook/core-webpack@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-10.2.3.tgz#dc233103ad979a568af24a52b5ce55ffe510d503"
+  integrity sha512-pqlPj9mSv0rtTFgz+ok3YT2LPIi/CPn9p0XEUhdE8a/vP80ne8CpkAS1jZ3ceY5awfwXCTaz5ROKBx7tc+Q1Kw==
   dependencies:
     ts-dedent "^2.0.0"
 
@@ -3477,12 +3477,12 @@
   resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-2.0.1.tgz#1bd351db1d33bfccbbafa7b64fb413168f1a6616"
   integrity sha512-/smVjw88yK3CKsiuR71vNgWQ9+NuY2L+e8X7IMrFjexjm6ZR8ULrV2DRkTA61aV6ryefslzHEGDInGpnNeIocg==
 
-"@storybook/preset-react-webpack@10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-react-webpack/-/preset-react-webpack-10.2.2.tgz#0a4700f671fb450d112e15bb40258def8b3b4803"
-  integrity sha512-cPM3uxbWjXW+pJiCMMdRvT0cP1ra+Mjp+DUImmZdMtRY7o+gE9z/N12Nb3CxpXXMgBfG4I7+04Yzl5wQxhcRAA==
+"@storybook/preset-react-webpack@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-react-webpack/-/preset-react-webpack-10.2.3.tgz#0bc7b2fc0b2c2318d13869a6d840f2e141f7b3ac"
+  integrity sha512-q49cmtDwb/6EdnwA0+jSYFi2V+ki0imiBA5SnCO3EEJK8dIXxevC0elt6PG5QPJtKSZWBclrdR2iAo95ALu7hA==
   dependencies:
-    "@storybook/core-webpack" "10.2.2"
+    "@storybook/core-webpack" "10.2.3"
     "@storybook/react-docgen-typescript-plugin" "1.0.6--canary.9.0c3f3b7.0"
     "@types/semver" "^7.7.1"
     magic-string "^0.30.5"
@@ -3505,32 +3505,27 @@
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
 
-"@storybook/react-dom-shim@10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.2.2.tgz#62c66d1d3d1dbfad0d6840b602f06269318ca2c4"
-  integrity sha512-l07S645SbVHEhDiMZLA1ft6EV2VwO19O94pom8yHVNZcjZeCEFYo+W4/QW515XgBigE7RpRDqhKwo5yzHsoadA==
-
 "@storybook/react-dom-shim@10.2.3":
   version "10.2.3"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.2.3.tgz#c25b8b7b71976eda896be7f78dab05e48f8c97e3"
   integrity sha512-xMZXvjfQCsmzOTqFCRQ1/gxs//jDGLlnmBCikH4NSGPPogRPaNUkxgdNjOResd6pB+G3ZYAOspJkmGEEbq8dVw==
 
-"@storybook/react-webpack5@10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react-webpack5/-/react-webpack5-10.2.2.tgz#6725b6d1ecec53fe5201a44690ef3ddd31ef56b1"
-  integrity sha512-CDm1fiy+fxgjuVJH872oMFPE/HC9EU8PjwpUSGxNHqtHBIR3WhM1EyuCk/nlMFVVOkT2UUBvTqnSfW4R/eF3vg==
+"@storybook/react-webpack5@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/react-webpack5/-/react-webpack5-10.2.3.tgz#8708bbfb2eefb148b981abe111e1a77ca11ed7f0"
+  integrity sha512-FhG4lJgX4WExF7/QzZIsoOb9smIQiuvn6yUzLPn3VhtxQVs34ZOM+6XC5/tiVX9XtCLLWDai1O1kxbS1QCHEJA==
   dependencies:
-    "@storybook/builder-webpack5" "10.2.2"
-    "@storybook/preset-react-webpack" "10.2.2"
-    "@storybook/react" "10.2.2"
+    "@storybook/builder-webpack5" "10.2.3"
+    "@storybook/preset-react-webpack" "10.2.3"
+    "@storybook/react" "10.2.3"
 
-"@storybook/react@10.2.2":
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-10.2.2.tgz#6f7756a89e277a9a985082de8b8a704806ce191c"
-  integrity sha512-BpaeaU7ydbqcR4xctJShNkZg5LevZDoD5PuZBuJrDhY1+iimGhLXyeXPakb3QszBoKi56brdXjecJNbkO7M97Q==
+"@storybook/react@10.2.3":
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-10.2.3.tgz#98698cde649627d86124ee80ec068c2971c6241a"
+  integrity sha512-M67G7IY9TcLQQJ/9mHPItIiNvZFyuXf5r/wBY03YGquwCqo4GtLdp9uyGg3uCc2i0dS5VV5OQenisldmdjWFWQ==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/react-dom-shim" "10.2.2"
+    "@storybook/react-dom-shim" "10.2.3"
     react-docgen "^8.0.2"
 
 "@svgr/babel-plugin-add-jsx-attribute@8.0.0":
@@ -12164,10 +12159,10 @@ stop-iteration-iterator@^1.1.0:
     es-errors "^1.3.0"
     internal-slot "^1.1.0"
 
-storybook@10.2.2:
-  version "10.2.2"
-  resolved "https://registry.yarnpkg.com/storybook/-/storybook-10.2.2.tgz#d85be0c14543de79c01d1226c1e6dfe69e010fdf"
-  integrity sha512-6vFtykuCEolgO6pG3sXmhNMsAbe+PKgW4cbfqjJcM1bK89qbWBxad7gUsPs7P8SctPjpssQcOCL15vH/g9lgMQ==
+storybook@10.2.3:
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/storybook/-/storybook-10.2.3.tgz#31c219025462b7a968434cbd9723b22ff946234c"
+  integrity sha512-kjsJ0hctkTO0ipHiyv1MY39wP4tAyVM7rPQGyVMU1iQ7NYHxthiiCHhFB/szmVjXdJa58fu3ZH5cwENMn8Y5eA==
   dependencies:
     "@storybook/global" "^5.0.0"
     "@storybook/icons" "^2.0.1"
