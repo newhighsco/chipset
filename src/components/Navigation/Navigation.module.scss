@@ -1,4 +1,4 @@
-.list[hidden] {
+[aria-expanded='false'] ~ .list {
   display: none;
 }
 

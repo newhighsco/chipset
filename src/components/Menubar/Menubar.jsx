@@ -1,12 +1,11 @@
 import { any, array, bool, func, node, oneOf, shape, string } from 'prop-types'
-import React, { useId } from 'react'
+import React from 'react'
 
-import { useToggle } from '../../hooks'
+import { useIds, useToggle } from '../../hooks'
 import { classNames } from '../../utils'
 import Button from '../Button'
 import Icon from '../Icon'
 import List from '../List'
-import SmartLink from '../SmartLink'
 import { ReactComponent as ArrowDownSvg } from './images/arrow-down.svg'
 import { ReactComponent as ArrowUpSvg } from './images/arrow-up.svg'
 import { ReactComponent as CloseSvg } from './images/close.svg'
@@ -26,7 +25,7 @@ const Menubar = ({
   theme
 }) => {
   const [visible, setVisibility] = useToggle(!toggle)
-  const id = useId()
+  const [listId, iconId] = useIds(['list', 'icon'])
 
   if (!links.length) return null
 
@@ -42,13 +41,16 @@ const Menubar = ({
       {toggle && (
         <Button
           active={visible}
-          aria-controls={id}
+          aria-controls={listId}
           aria-expanded={visible}
+          aria-labelledby={iconId}
+          aria-haspopup
           onClick={toggleVisibility}
           theme={{ root: theme?.toggle, active: theme?.toggleActive }}
         >
           {toggle.children}
           <Icon
+            id={iconId}
             theme={{ root: theme?.toggleIcon }}
             alt={`${LABELS[visible]} ${title}`}
           >
@@ -57,11 +59,10 @@ const Menubar = ({
         </Button>
       )}
       <List
-        id={id}
+        id={listId}
         role={role}
         unstyled
         inline={inline}
-        hidden={!visible}
         theme={{ root: theme?.list, inline: theme?.inline }}
       >
         {links.map(({ links = [], ...rest }, index) => {

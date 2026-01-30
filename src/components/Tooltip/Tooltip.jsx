@@ -1,5 +1,5 @@
 import { bool, node, oneOf, shape, string } from 'prop-types'
-import React from 'react'
+import React, { useId } from 'react'
 
 import { useToggle } from '../../hooks'
 import { classNames } from '../../utils'
@@ -9,6 +9,7 @@ import SmartLink from '../SmartLink'
  * Use `Tooltip` to present additional information about a specific element
  */
 const Tooltip = ({
+  role = 'tooltip',
   hidden = true,
   manual = true,
   toggle,
@@ -23,11 +24,14 @@ const Tooltip = ({
   className
 }) => {
   const [visible, setVisibility] = useToggle(!hidden)
+  const id = useId()
 
   if (!heading && !children) return null
 
   return (
     <span
+      role={role}
+      aria-describedby={id}
       className={classNames(theme?.root, className)}
       {...(!manual && {
         onMouseOver: setVisibility,
@@ -42,19 +46,19 @@ const Tooltip = ({
         href={href}
         target={target}
         disabled={disabled}
-        aria-label="Toggle tooltip"
-        {...(manual && { 'aria-expanded': visible, onClick: setVisibility })}
+        aria-expanded={visible}
+        {...(manual && { onClick: setVisibility })}
       >
         {toggle}
       </SmartLink>
       {(heading || children) && (
         <span
+          id={id}
           className={classNames(
             theme?.content,
             align && theme?.[align],
             valign && theme?.[valign]
           )}
-          hidden={!visible}
         >
           {heading && <span className={theme?.heading}>{heading}</span>}
           {children && <span className={theme?.copy}>{children}</span>}
@@ -66,6 +70,7 @@ const Tooltip = ({
 
 Tooltip.displayName = 'Tooltip'
 Tooltip.propTypes = {
+  role: string,
   hidden: bool,
   manual: bool,
   toggle: node,
