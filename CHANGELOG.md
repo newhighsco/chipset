@@ -1,3 +1,10 @@
+## [6.27.2](https://github.com/newhighsco/chipset/compare/v6.27.1...v6.27.2) (2026-01-30)
+
+
+### Bug Fixes
+
+* **a11y:** interaction improvements ([#2879](https://github.com/newhighsco/chipset/issues/2879)) ([a8fb5f9](https://github.com/newhighsco/chipset/commit/a8fb5f9d950c138beded18da99be1147d823b9a4))
+
 ## [6.27.1](https://github.com/newhighsco/chipset/compare/v6.27.0...v6.27.1) (2026-01-22)
 
 
