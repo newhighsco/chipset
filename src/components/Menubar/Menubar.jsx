@@ -1,5 +1,5 @@
 import { any, array, bool, func, node, oneOf, shape, string } from 'prop-types'
-import React, { useId } from 'react'
+import React from 'react'
 
 import { useIds, useToggle } from '../../hooks'
 import { classNames } from '../../utils'
