@@ -57,7 +57,7 @@
     "@newhighsco/stylelint-config": "4.0.22",
     "@newhighsco/svgr-config": "1.0.0",
     "@omlet/cli": "2.0.0",
-    "@storybook/react-webpack5": "10.2.1",
+    "@storybook/react-webpack5": "10.2.2",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.2",
@@ -76,7 +76,7 @@
     "react-dom": "19.2.4",
     "sass-true": "10.1.0",
     "semantic-release": "25.0.2",
-    "storybook": "10.2.1",
+    "storybook": "10.2.2",
     "stylelint": "17.0.0",
     "webpack": "5.104.1"
   },
