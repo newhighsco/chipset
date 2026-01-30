@@ -17,7 +17,7 @@
   position: absolute;
   z-index: 1;
 
-  &[hidden] {
+  [aria-expanded='false'] ~ & {
     display: none;
   }
 

@@ -6,7 +6,6 @@ import { classNames } from '../../utils'
 import Button from '../Button'
 import Icon from '../Icon'
 import List from '../List'
-import SmartLink from '../SmartLink'
 import { ReactComponent as ArrowDownSvg } from './images/arrow-down.svg'
 import { ReactComponent as ArrowUpSvg } from './images/arrow-up.svg'
 import { ReactComponent as CloseSvg } from './images/close.svg'
@@ -44,6 +43,7 @@ const Menubar = ({
           active={visible}
           aria-controls={id}
           aria-expanded={visible}
+          aria-haspopup
           onClick={toggleVisibility}
           theme={{ root: theme?.toggle, active: theme?.toggleActive }}
         >
@@ -61,7 +61,6 @@ const Menubar = ({
         role={role}
         unstyled
         inline={inline}
-        hidden={!visible}
         theme={{ root: theme?.list, inline: theme?.inline }}
       >
         {links.map(({ links = [], ...rest }, index) => {

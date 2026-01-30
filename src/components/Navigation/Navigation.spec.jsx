@@ -43,24 +43,23 @@ describe('Components/Navigation', () => {
   it("should render a <Button /> with 'toggle' is set", () => {
     render(<Navigation links={links} toggle />)
 
-    const button = screen.getByRole('button')
-    const menu = screen.getByRole('menubar', { hidden: true })
+    const button = screen.getByRole('button', { expanded: false })
 
     expect(button).toBeInTheDocument()
+    expect(screen.getByRole('menubar')).toBeInTheDocument()
     expect(
       screen.getByRole('img', { name: 'Show Navigation' })
     ).toBeInTheDocument()
-    expect(menu).not.toBeVisible()
 
     fireEvent.click(button)
 
     expect(
       screen.getByRole('img', { name: 'Hide Navigation' })
     ).toBeInTheDocument()
-    expect(menu).toBeVisible()
+    expect(button).toHaveAttribute('aria-expanded', 'true')
 
     fireEvent.click(button)
 
-    expect(menu).not.toBeVisible()
+    expect(button).toHaveAttribute('aria-expanded', 'false')
   })
 })

@@ -7,10 +7,6 @@
 }
 
 .toggle {
-  &:focus {
-    outline: none;
-  }
-
   &.toggleActive {
     margin-bottom: 0.5em;
   }
