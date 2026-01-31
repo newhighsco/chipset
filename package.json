@@ -52,7 +52,7 @@
     "@newhighsco/eslint-config": "6.0.13",
     "@newhighsco/postcss-config": "4.0.16",
     "@newhighsco/prettier-config": "2.3.3",
-    "@newhighsco/release-config": "1.4.20",
+    "@newhighsco/release-config": "1.4.21",
     "@newhighsco/storybook-preset": "10.0.8",
     "@newhighsco/stylelint-config": "4.0.23",
     "@newhighsco/svgr-config": "1.0.0",
