@@ -2554,16 +2554,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@10.0.8":
-  version "10.0.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.8.tgz#9b102e54ddf6949938d2cdc35a0f1d5b5ff22491"
-  integrity sha512-gRl6gBwlRBpvHL0JcmYCjw/qsLBmLJksz1eJUWc7GjK45PhmKOElAQXfZ4C+7GhiYUWO6m5vQRVyYR7HZxmipg==
+"@newhighsco/storybook-preset@10.0.9":
+  version "10.0.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.0.9.tgz#84c9d0e4fa476abc24714a3001d5b239c39cced1"
+  integrity sha512-2aIm0X8f8QuE1ih+g0PGMlHCFX/KbnI3+QMlCuBbjSJ28UPtMdphMrTrUZGKnij8vk7dc/8VgqtVoM2dcYNwJA==
   dependencies:
     "@newhighsco/chipset" "6.27.2"
     "@newhighsco/storybook-addon-svgr" "4.0.0"
     "@newhighsco/storybook-addon-transpile-modules" "4.0.0"
-    "@storybook/addon-a11y" "10.2.3"
-    "@storybook/addon-docs" "10.2.3"
+    "@storybook/addon-a11y" "10.2.4"
+    "@storybook/addon-docs" "10.2.4"
     "@storybook/addon-styling-webpack" "3.0.0"
     "@storybook/addon-webpack5-compiler-swc" "4.0.2"
     css-loader "7.1.3"
@@ -2573,10 +2573,10 @@
     sass-loader "16.0.6"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.23":
-  version "4.0.23"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.23.tgz#6492a663ef440e43f902e805e922dff470c9579b"
-  integrity sha512-a72KN7pvaCXh9tNpob07M5qB0aF3Wh1gOAsc2h3zn8FjKpUB5LtxCNvz7R/93+vvA/SxP/EfoDxb6kUXWrcBKg==
+"@newhighsco/stylelint-config@4.0.24":
+  version "4.0.24"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.24.tgz#ed4e4d5525adb561b05c8a4fdd464a56f90438ec"
+  integrity sha512-cMCznnLjQsDQXr6FZ1rL0CV6IsM89pd6TY/8KWqolP7OpWsVCUIIG7qwDxpJ88tlIl6kAk1YMYPvXIswtcZrXQ==
   dependencies:
     stylelint-config-css-modules "4.6.0"
     stylelint-config-prettier "9.0.5"
@@ -3397,23 +3397,23 @@
     color "^5.0.2"
     text-hex "1.0.x"
 
-"@storybook/addon-a11y@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.2.3.tgz#033fdbf27b8a5e1a29e1c85c6044fac8e1a50eb7"
-  integrity sha512-EZLTmu/f5uENvbTKzCXlRN9TpaiKVzMfw4JF3qkw4Efae12xTJMIWieehHhl3Clc1x2d6ZtE7vhtMI9mKYQdKw==
+"@storybook/addon-a11y@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-10.2.4.tgz#63fcef8454a1bc42ddf09f89d9a0e2aa48fef47c"
+  integrity sha512-VGhdZ+iP2l/CSulIKV2kt3SMWVHntOigqWqGkNYf6YNYofynUYEKdsNqBvHx4ySuNEl/eXJ8LRO8FKYnU7LxZQ==
   dependencies:
     "@storybook/global" "^5.0.0"
     axe-core "^4.2.0"
 
-"@storybook/addon-docs@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.2.3.tgz#05ff93ea415606497c81bc7d0b7e7b917faa29fa"
-  integrity sha512-IPprt2qp4HN1uyE1Ki1sH0ZOE5B6z5sKzEMfrKMGokYKYk/AAJVfSiVIKju3q525GrBFlNhRW2+fB4pQfklv2w==
+"@storybook/addon-docs@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-10.2.4.tgz#4fb70439b14e18035c6e862234aa8a12a89d0ae9"
+  integrity sha512-FzscAmdBiOGnGrxiEM+8eTg43kjqgjLfObg+lbJVRR/a0DmZ3xfAPNB0+VKYQbN0FacNcWLM9LZ/7U0hRBPBnQ==
   dependencies:
     "@mdx-js/react" "^3.0.0"
-    "@storybook/csf-plugin" "10.2.3"
+    "@storybook/csf-plugin" "10.2.4"
     "@storybook/icons" "^2.0.1"
-    "@storybook/react-dom-shim" "10.2.3"
+    "@storybook/react-dom-shim" "10.2.4"
     react "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent "^2.0.0"
@@ -3459,10 +3459,10 @@
   dependencies:
     ts-dedent "^2.0.0"
 
-"@storybook/csf-plugin@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.2.3.tgz#65ee09c33e9f7e3bfbf04765dd55317257d49897"
-  integrity sha512-/b/C8C40ukzXs3Xauud2+yOJqwBdOkADfRtJ9O4TzrhftzkEdqsNI03xXZySeh7eXW8eI3Vq4t75Ljuj27Xytw==
+"@storybook/csf-plugin@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-10.2.4.tgz#d39734349475eb158d3c384f15230f424145e696"
+  integrity sha512-kupPQEV+4N9mzsZHYaokvhO/KHBjYdWda9PNmPQwy0TR7r2mzthgaNH72TjmgN1L6DIbsuyOG1wtczcPJn4+Jg==
   dependencies:
     unplugin "^2.3.5"
 
@@ -3503,11 +3503,6 @@
     micromatch "^4.0.2"
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
-
-"@storybook/react-dom-shim@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-10.2.3.tgz#c25b8b7b71976eda896be7f78dab05e48f8c97e3"
-  integrity sha512-xMZXvjfQCsmzOTqFCRQ1/gxs//jDGLlnmBCikH4NSGPPogRPaNUkxgdNjOResd6pB+G3ZYAOspJkmGEEbq8dVw==
 
 "@storybook/react-dom-shim@10.2.4":
   version "10.2.4"
