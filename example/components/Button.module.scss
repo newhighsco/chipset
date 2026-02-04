@@ -9,15 +9,20 @@
   padding: 1em;
 
   &:hover,
+  &:active,
   &.active {
     background-color: colors.$yellow;
     text-decoration: none !important;
   }
 
+  &:focus-visible {
+    outline: 1px solid colors.$black;
+    outline-offset: 0.1em;
+  }
+
   &[disabled],
   &[aria-disabled] {
     opacity: 0.5;
-    pointer-events: none;
   }
 }
 
@@ -33,6 +38,7 @@
   background: colors.$rose;
 
   &:hover,
+  &:active,
   &.active {
     background-color: colors.$red;
   }

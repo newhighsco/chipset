@@ -1,3 +1,4 @@
+import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { ContentContainer, Grid } from '..'
@@ -22,8 +23,7 @@ export const Source = {
         Content
       </Grid.Item>
     ]
-  },
-  parameters: { chromatic: { disable: true } }
+  }
 }
 
 export const WithGutter = {
@@ -79,3 +79,12 @@ export const VisuallyHidden = {
     })
   }
 }
+
+export const Snapshot = snapshot([
+  WithGutter,
+  WithoutGutter,
+  Reversed,
+  Middled,
+  Bottomed,
+  VisuallyHidden
+])

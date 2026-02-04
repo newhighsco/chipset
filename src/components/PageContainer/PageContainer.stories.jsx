@@ -5,8 +5,7 @@ import { FooterContainer, HeaderContainer, PageContainer } from '..'
 export default { component: PageContainer }
 
 export const Source = {
-  args: { header: <header />, footer: <footer />, children: 'Content' },
-  parameters: { chromatic: { disable: true } }
+  args: { header: <header />, footer: <footer />, children: 'Content' }
 }
 
 export const Example = {
@@ -21,5 +20,6 @@ export const Example = {
         {Story()}
       </div>
     )
-  ]
+  ],
+  parameters: { chromatic: { disableSnapshot: false } }
 }

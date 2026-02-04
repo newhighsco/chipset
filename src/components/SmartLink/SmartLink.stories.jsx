@@ -2,15 +2,8 @@ import React from 'react'
 
 import { Prose, SmartLink } from '..'
 
-export default { component: SmartLink }
-
-export const Source = {
-  args: { href: 'https://example.com/', children: 'Content' },
-  parameters: { chromatic: { disable: true } }
-}
-
-export const Example = {
-  args: Source.args,
+export default {
+  component: SmartLink,
   decorators: [
     Story => (
       <Prose>
@@ -18,4 +11,13 @@ export const Example = {
       </Prose>
     )
   ]
+}
+
+export const Source = {
+  args: { href: 'https://example.com/', children: 'Content' }
+}
+
+export const Example = {
+  args: Source.args,
+  parameters: { chromatic: { disableSnapshot: false } }
 }

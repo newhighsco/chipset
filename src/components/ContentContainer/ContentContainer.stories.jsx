@@ -1,3 +1,4 @@
+import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { breakpoints } from '../../constants'
@@ -5,10 +6,7 @@ import { ContentContainer } from '..'
 
 export default { component: ContentContainer }
 
-export const Source = {
-  args: { children: 'Content' },
-  parameters: { chromatic: { disable: true } }
-}
+export const Source = { args: { children: 'Content' } }
 
 export const FullWidth = {
   args: { children: 'Full-width content' },
@@ -45,3 +43,10 @@ export const RestrictedWidthWithGutter = {
   ),
   name: 'Restricted-width with gutter'
 }
+
+export const Snapshot = snapshot([
+  FullWidth,
+  FullWidthWithGutter,
+  RestrictedWidth,
+  RestrictedWidthWithGutter
+])

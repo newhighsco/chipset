@@ -1,13 +1,11 @@
+import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { List } from '..'
 
 export default { component: List }
 
-export const Source = {
-  args: { children: 'Content' },
-  parameters: { chromatic: { disable: true } }
-}
+export const Source = { args: { children: 'Content' } }
 
 export const Unordered = {
   args: {
@@ -29,3 +27,11 @@ export const InlineCommaSeparated = {
   args: { ...Inline.args, commaSeparated: true },
   name: 'Inline, comma-separated'
 }
+
+export const Snapshot = snapshot([
+  Unordered,
+  Ordered,
+  Unstyled,
+  Inline,
+  InlineCommaSeparated
+])
