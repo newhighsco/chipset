@@ -4,7 +4,6 @@ export default { component: KitchenSink }
 
 export const Source = {
   parameters: {
-    chromatic: { disable: true },
     docs: {
       source: {
         code: "@use '~@newhighsco/chipset/styles/normalize';",

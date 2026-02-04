@@ -1,13 +1,6 @@
-import { modes } from '@newhighsco/storybook-preset'
-
 import { LiveStream } from '..'
 
-export default {
-  component: LiveStream,
-  parameters: {
-    chromatic: { disable: true, modes: modes('mobile', 'desktopLarge') }
-  }
-}
+export default { component: LiveStream }
 
 export const Source = { args: { href: 'https://www.twitch.tv/newhighsco' } }
 

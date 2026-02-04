@@ -1,3 +1,4 @@
+import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
@@ -5,10 +6,7 @@ import { Image, ResponsiveMedia } from '..'
 
 export default { component: ResponsiveMedia }
 
-export const Source = {
-  args: { ratio: '16:9', children: 'Content' },
-  parameters: { chromatic: { disable: true } }
-}
+export const Source = { args: { ratio: '16:9', children: 'Content' } }
 
 export const WithImage = {
   args: { ratio: '4:1', children: <Image src={imageUrl} /> }
@@ -36,3 +34,10 @@ export const WithVideo = {
     children: <video src={videoUrl} poster={imageUrl} muted />
   }
 }
+
+export const Snapshot = snapshot([
+  WithImage,
+  WithPicture,
+  WithIframe,
+  WithVideo
+])

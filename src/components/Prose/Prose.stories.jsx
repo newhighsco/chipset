@@ -4,10 +4,7 @@ import { Prose } from '..'
 
 export default { component: Prose }
 
-export const Source = {
-  args: { children: 'Content' },
-  parameters: { chromatic: { disable: true } }
-}
+export const Source = { args: { children: 'Content' } }
 
 export const WithChildren = {
   args: {
@@ -182,7 +179,8 @@ export const WithChildren = {
         </p>
       </>
     )
-  }
+  },
+  parameters: { chromatic: { disableSnapshot: false } }
 }
 
 export const WithHTML = {

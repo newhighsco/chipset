@@ -2,10 +2,8 @@
 @use '../styles/normalize';
 
 :global {
-  :root {
-    @media (prefers-color-scheme: dark) {
-      color-scheme: dark;
-    }
+  .dark.sbdocs {
+    color: white;
   }
 
   .sbdocs-title {

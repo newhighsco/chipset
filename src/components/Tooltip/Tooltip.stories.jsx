@@ -5,8 +5,7 @@ import { Tooltip } from '..'
 export default { component: Tooltip }
 
 export const Source = {
-  args: { toggle: 'Toggle', heading: 'Heading', children: 'Content' },
-  parameters: { chromatic: { disable: true } }
+  args: { toggle: 'Toggle', heading: 'Heading', children: 'Content' }
 }
 
 export const WithClick = {
@@ -61,5 +60,6 @@ export const Alignment = {
         </div>
       ))}
     </>
-  )
+  ),
+  parameters: { chromatic: { disableSnapshot: false } }
 }

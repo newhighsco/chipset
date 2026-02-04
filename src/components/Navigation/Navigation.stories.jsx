@@ -1,3 +1,5 @@
+import { snapshot } from '@newhighsco/storybook-preset'
+
 import { Navigation } from '..'
 
 export default { component: Navigation }
@@ -17,12 +19,13 @@ export const Source = {
       { href: '/fizz', children: 'Fizz' },
       { href: 'https://buzz.com', target: '_blank', children: 'Buzz' }
     ]
-  },
-  parameters: { chromatic: { disable: true } }
+  }
 }
 
-export const Block = { args: Source.args }
+export const Block = { ...Source }
 
 export const Inline = { args: { ...Source.args, inline: true } }
 
 export const Toggle = { args: { ...Source.args, toggle: true } }
+
+export const Snapshot = snapshot([Block, Inline, Toggle])

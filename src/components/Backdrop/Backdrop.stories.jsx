@@ -1,9 +1,13 @@
+import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
 import { Backdrop, Button, Image } from '..'
 
-export default { component: Backdrop }
+export default {
+  component: Backdrop,
+  parameters: { chromatic: { disableSnapshot: false } }
+}
 
 const decorators = [
   Story => (
@@ -23,7 +27,7 @@ const decorators = [
 
 export const Source = {
   args: { children: 'Content' },
-  parameters: { chromatic: { disable: true } }
+  parameters: { chromatic: { disableSnapshot: true } }
 }
 
 export const WithImage = {

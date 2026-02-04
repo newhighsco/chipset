@@ -14,6 +14,7 @@ export const decorators = [
 ]
 
 export const parameters = {
+  chromatic: { disableSnapshot: true },
   options: { storySort: { order: ['Docs', ['README', 'CHANGELOG']] } }
 }
 

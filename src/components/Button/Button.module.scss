@@ -11,6 +11,11 @@
   &[type] {
     cursor: pointer;
   }
+
+  &[disabled],
+  &[aria-disabled] {
+    cursor: not-allowed;
+  }
 }
 
 .group {

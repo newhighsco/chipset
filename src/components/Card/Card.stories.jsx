@@ -1,3 +1,4 @@
+import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { imageUrl } from '../../__mocks__/fixtures'
@@ -11,8 +12,7 @@ export const Source = {
     heading: 'Heading',
     image: { src: 'https://example.com/image.png' },
     children: 'Content'
-  },
-  parameters: { chromatic: { disable: true } }
+  }
 }
 
 export const WithHeading = {
@@ -42,3 +42,5 @@ export const WithLink = {
     ]
   }
 }
+
+export const Snapshot = snapshot([WithHeading, WithImage, WithLink])

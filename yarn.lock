@@ -2554,10 +2554,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@10.1.1":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.1.1.tgz#5e47efb4175986db4014579b46acdb44057a127a"
-  integrity sha512-qygIAnaINyvEb6JAh7xSiAsdp49D++sMOnCUdOGbecBNORLrf3MOXrczWDtmgyvlgmMta+P5z6otgkII704/cw==
+"@newhighsco/storybook-preset@10.2.0":
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.2.0.tgz#136e9b68a73a367e3c91a7065dc6474b0d22beed"
+  integrity sha512-crUYdERV6c2VBEvJIWfEng/oyXBtlv7YnBXDhjJfsXQl5MLFNjAQPovjvlh42mi/XgdXJbs9I2USKH46MbDKew==
   dependencies:
     "@newhighsco/chipset" "6.27.2"
     "@newhighsco/storybook-addon-svgr" "4.0.0"
