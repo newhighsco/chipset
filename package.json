@@ -37,7 +37,7 @@
     "format:css": "yarn lint:css --fix"
   },
   "dependencies": {
-    "@dr.pogodin/react-themes": "1.10.2",
+    "@dr.pogodin/react-themes": "1.10.3",
     "classnames": "2.5.1",
     "react-device-detect": "2.2.3"
   },
