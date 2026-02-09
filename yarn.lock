@@ -1642,13 +1642,6 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@dr.pogodin/react-themes@1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.2.tgz#dd2591bb74c12141f5f03c14072e1ca99062f6e3"
-  integrity sha512-XQjUY7TqsVQSYPG9apebjA/PnBoVRkzviujQgBsV8uPplwuKchNNKHIZQ/JHBLKvsuj5bZneIEP12bJBvwuasw==
-  dependencies:
-    "@babel/runtime" "^7.28.6"
-
 "@dr.pogodin/react-themes@1.10.3":
   version "1.10.3"
   resolved "https://registry.yarnpkg.com/@dr.pogodin/react-themes/-/react-themes-1.10.3.tgz#61c1cbb8d1aa53bcbe8ffba7511c64a4e2a8ccf1"
@@ -2472,12 +2465,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/browserslist-config/-/browserslist-config-2.0.0.tgz#5b61d7689c59073145d063c7d698c7579ed1ad5e"
   integrity sha512-2pONPrJX/6uAFjWPcOoSWH+nwXcmNej7wS9a1q0yAoxV6rY/paE3jJ6pyjXsWgzn/Rr179SnJ79TJDLtYNq71w==
 
-"@newhighsco/chipset@6.27.2":
-  version "6.27.2"
-  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.2.tgz#7e68a6fa7eb7181affa0dcc778fa7b528f441ad2"
-  integrity sha512-8090t5XL9FImmh0/X6ywmlZF3fSycdh/oik/xoeCbkAnAJYROuQGQC9NGcfVG7N+1T0MJTcNtUzMdEzwdEeUbQ==
+"@newhighsco/chipset@6.27.3":
+  version "6.27.3"
+  resolved "https://registry.yarnpkg.com/@newhighsco/chipset/-/chipset-6.27.3.tgz#77f6ca762381673cf815a18ad4b564bb84b92408"
+  integrity sha512-a4WuxMqvI+RmQmN4Wa4UTYugcXoprDatGyZBKg3GfX2P7io0BP3ypTwOmVF8HpDWntJXjYtjjH+B3bbH8oIrFA==
   dependencies:
-    "@dr.pogodin/react-themes" "1.10.2"
+    "@dr.pogodin/react-themes" "1.10.3"
     classnames "2.5.1"
     react-device-detect "2.2.3"
 
@@ -2561,12 +2554,12 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/storybook-addon-transpile-modules/-/storybook-addon-transpile-modules-4.0.0.tgz#8ad71a43442873ce92da15848c7392533b8450a1"
   integrity sha512-JcNSuVglf4tN0IA1pPf7k32hz6Ol+rC1GQ8/DB6QT0ilwbcGL48/YbC9fbTZadqSNYUaRoLccNJQeRk9LQIS5A==
 
-"@newhighsco/storybook-preset@10.2.3":
-  version "10.2.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.2.3.tgz#1ae040b5150ca839bc69d9863a740813086add38"
-  integrity sha512-wxLhmiEixnA96yY1JZDLxD/RCEhtCXr3u1k3GICRIssBpbSn81O4gaQAq4MLHJuNe+Y851sfhpuImEG7hIJKzA==
+"@newhighsco/storybook-preset@10.2.4":
+  version "10.2.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/storybook-preset/-/storybook-preset-10.2.4.tgz#465c61f52eb63d22eb4cbe67f894adb425926938"
+  integrity sha512-P4reNhzHC1J56DNP/zJ2I/X5GUnLjRHvXpgxj7ddtoYbA+RIGMKB/qwFPscoktHfhmgPofC7cDqLWMNl6Z2r/w==
   dependencies:
-    "@newhighsco/chipset" "6.27.2"
+    "@newhighsco/chipset" "6.27.3"
     "@newhighsco/storybook-addon-svgr" "4.0.0"
     "@newhighsco/storybook-addon-transpile-modules" "4.0.0"
     "@storybook/addon-a11y" "10.2.7"
