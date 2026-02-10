@@ -28,7 +28,6 @@ describe('Provider/LinkProvider', () => {
 
   it("should render custom element when 'renderLink' is set", () => {
     render(
-      // eslint-disable-next-line jsx-a11y/anchor-has-content
       <LinkProvider renderLink={props => <a {...props} role="button" />}>
         <Link href="/">Content</Link>
       </LinkProvider>

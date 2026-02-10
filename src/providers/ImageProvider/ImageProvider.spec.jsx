@@ -29,7 +29,6 @@ describe('Provider/ImageProvider', () => {
   it("should render custom element when 'renderImage' is set", () => {
     render(
       <ImageProvider
-        // eslint-disable-next-line jsx-a11y/alt-text
         renderImage={props => <img {...props} role="presentation" />}
       >
         <Image src="https://example.com/image.png" />

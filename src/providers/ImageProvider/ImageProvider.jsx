@@ -1,7 +1,6 @@
 import { func, node } from 'prop-types'
 import React, { createContext, useContext } from 'react'
 
-// eslint-disable-next-line jsx-a11y/alt-text
 const ImageContext = createContext(props => <img {...props} />)
 
 export const useImage = () => {

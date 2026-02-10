@@ -13,7 +13,6 @@ const Image = props => {
 
 export const Source = {
   args: {
-    // eslint-disable-next-line jsx-a11y/alt-text
     renderImage: props => <img {...props} role="presentation" />,
     children: <Image src={imageUrl} />
   }
