@@ -2574,10 +2574,10 @@
     storybook-addon-pseudo-states "10.2.8"
     style-loader "4.0.0"
 
-"@newhighsco/stylelint-config@4.0.24":
-  version "4.0.24"
-  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.24.tgz#ed4e4d5525adb561b05c8a4fdd464a56f90438ec"
-  integrity sha512-cMCznnLjQsDQXr6FZ1rL0CV6IsM89pd6TY/8KWqolP7OpWsVCUIIG7qwDxpJ88tlIl6kAk1YMYPvXIswtcZrXQ==
+"@newhighsco/stylelint-config@4.0.25":
+  version "4.0.25"
+  resolved "https://registry.yarnpkg.com/@newhighsco/stylelint-config/-/stylelint-config-4.0.25.tgz#062b19dce40a4abde7b80351361aa99d86562a75"
+  integrity sha512-cWoid7E7PAgf/GjooiQlatMBuHYOmblrt3HaJu+2c7H2vGOSTXOHX2ZMFcJje/r4DEYtcveN6/imoo3QXc8YGQ==
   dependencies:
     stylelint-config-css-modules "4.6.0"
     stylelint-config-prettier "9.0.5"
