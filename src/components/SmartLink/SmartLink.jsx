@@ -39,7 +39,6 @@ const SmartLink = ({
     const { role = 'link' } = rest
 
     return (
-      // eslint-disable-next-line jsx-a11y/anchor-is-valid
       <a ref={setRef} className={className} role={role} aria-disabled="true">
         {children}
       </a>
