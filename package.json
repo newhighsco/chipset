@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/newhighsco/chipset/issues"
   },
+  "packageManager": "yarn@4.12.0",
   "main": "src/index.js",
   "files": [
     "src",
@@ -130,6 +131,5 @@
         }
       ]
     }
-  },
-  "packageManager": "yarn@4.12.0"
+  }
 }
