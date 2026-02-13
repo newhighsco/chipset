@@ -33,6 +33,7 @@ workflows:
           <<: *setup-parameters
       - newhighsco/test:
           name: test
+          list-command: yarn test:list
           rerun-only-failed: true
           requires:
             - setup
