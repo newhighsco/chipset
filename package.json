@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/newhighsco/chipset/issues"
   },
+  "packageManager": "yarn@4.12.0",
   "main": "src/index.js",
   "files": [
     "src",
@@ -29,10 +30,10 @@
     "test:list": "jest --listTests",
     "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded --only-changed",
     "analyze": "omlet analyze",
-    "lint": "concurrently yarn:lint:*",
+    "lint": "concurrently 'yarn:lint:*'",
     "lint:js": "eslint --cache .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
-    "format": "concurrently yarn:format:*",
+    "format": "concurrently 'yarn:format:*'",
     "format:js": "yarn lint:js --fix",
     "format:css": "yarn lint:css --fix"
   },
