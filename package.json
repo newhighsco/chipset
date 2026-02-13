@@ -53,7 +53,7 @@
     "@newhighsco/eslint-config": "7.0.5",
     "@newhighsco/postcss-config": "4.0.19",
     "@newhighsco/prettier-config": "2.3.3",
-    "@newhighsco/release-config": "1.4.24",
+    "@newhighsco/release-config": "1.4.25",
     "@newhighsco/storybook-preset": "10.2.5",
     "@newhighsco/stylelint-config": "4.0.25",
     "@newhighsco/svgr-config": "1.0.0",
@@ -79,7 +79,7 @@
     "semantic-release": "25.0.3",
     "storybook": "10.2.8",
     "stylelint": "17.2.0",
-    "webpack": "5.105.1"
+    "webpack": "5.105.2"
   },
   "peerDependencies": {
     "react": "19.2.4",
