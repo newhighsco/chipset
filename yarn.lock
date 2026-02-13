@@ -3433,7 +3433,7 @@ __metadata:
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.25"
     "@newhighsco/storybook-preset": "npm:10.2.5"
-    "@newhighsco/stylelint-config": "npm:4.0.25"
+    "@newhighsco/stylelint-config": "npm:4.0.27"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@omlet/cli": "npm:2.0.0"
     "@storybook/react-webpack5": "npm:10.2.8"
@@ -3607,19 +3607,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.25":
-  version: 4.0.25
-  resolution: "@newhighsco/stylelint-config@npm:4.0.25"
+"@newhighsco/stylelint-config@npm:4.0.27":
+  version: 4.0.27
+  resolution: "@newhighsco/stylelint-config@npm:4.0.27"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
-    stylelint-config-prettier: "npm:9.0.5"
     stylelint-config-standard-scss: "npm:17.0.0"
     stylelint-order: "npm:7.0.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.1
-    stylelint: 17.2.0
-  checksum: 10c0/7e017a3683aecf1947db1a9db36077b18bc4a389e03d00e817f01aa53f29274563f009d44b9d9638c54b2c3f5308d321bb69b876a9153e3cd4d1f8bfcf4cace4
+    stylelint: 17.3.0
+  checksum: 10c0/66483237a74328a97f0833993d786ade6fc683b2e3ff5b52fe83d9c23bd2b44b6f277b1674353d0e06db34cfcce4e3e6a48d62aefdc4f1b6bb73482da486a21b
   languageName: node
   linkType: hard
 
@@ -15627,18 +15626,6 @@ __metadata:
     stylelint-scss:
       optional: true
   checksum: 10c0/b6ff7e20d6b87627cd828304a88d3f3f312244544f190af3d80a8688d035d30cc0f9a6e9de3eb9839b8eee925845a536a1034570077713388c5fbd6ef0e68489
-  languageName: node
-  linkType: hard
-
-"stylelint-config-prettier@npm:9.0.5":
-  version: 9.0.5
-  resolution: "stylelint-config-prettier@npm:9.0.5"
-  peerDependencies:
-    stylelint: ">= 11.x < 15"
-  bin:
-    stylelint-config-prettier: bin/check.js
-    stylelint-config-prettier-check: bin/check.js
-  checksum: 10c0/4fb049b3ea00a9fff009b83583d42b7c76978d1befe8e3132ab2722deb25601931b076902a2fab4d4570ece03ec0cb8ba062cc59a9440251a32eb71d1b29803c
   languageName: node
   linkType: hard
 
