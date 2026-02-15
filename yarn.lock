@@ -3432,7 +3432,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.20"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.25"
-    "@newhighsco/storybook-preset": "npm:10.2.5"
+    "@newhighsco/storybook-preset": "npm:10.2.6"
     "@newhighsco/stylelint-config": "npm:4.0.27"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@omlet/cli": "npm:2.0.0"
@@ -3582,9 +3582,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.5":
-  version: 10.2.5
-  resolution: "@newhighsco/storybook-preset@npm:10.2.5"
+"@newhighsco/storybook-preset@npm:10.2.6":
+  version: 10.2.6
+  resolution: "@newhighsco/storybook-preset@npm:10.2.6"
   dependencies:
     "@newhighsco/chipset": "npm:6.27.3"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3595,7 +3595,7 @@ __metadata:
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.2"
     css-loader: "npm:7.1.3"
     postcss: "npm:8.5.6"
-    postcss-loader: "npm:8.2.0"
+    postcss-loader: "npm:8.2.1"
     sass: "npm:1.97.3"
     sass-loader: "npm:16.0.7"
     storybook-addon-pseudo-states: "npm:10.2.8"
@@ -3603,7 +3603,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.2.8
-  checksum: 10c0/e70bde088b7ef1fadba68fdb6dba68334cccd142f7ecc3cbff6b72da26764f0228b524d56a14baeb96c2d30d6fb9af548ec6b08e6ac1cf61976f270c084e9d73
+  checksum: 10c0/63cbfe62f64a30a88b108790f50e879d999b129c46590fc1ed5bce3d309430a1de316305613b03ef1fcc1428bd88714fc05468787a50fed8bcc98e57010b1a8d
   languageName: node
   linkType: hard
 
@@ -13663,15 +13663,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-loader@npm:8.2.0":
-  version: 8.2.0
-  resolution: "postcss-loader@npm:8.2.0"
+"postcss-loader@npm:8.2.1":
+  version: 8.2.1
+  resolution: "postcss-loader@npm:8.2.1"
   dependencies:
     cosmiconfig: "npm:^9.0.0"
     jiti: "npm:^2.5.1"
     semver: "npm:^7.6.2"
   peerDependencies:
-    "@rspack/core": 0.x || 1.x
+    "@rspack/core": 0.x || ^1.0.0 || ^2.0.0-0
     postcss: ^7.0.0 || ^8.0.1
     webpack: ^5.0.0
   peerDependenciesMeta:
@@ -13679,7 +13679,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/471f9a1c313522580f3385b92ab847cf161c6972bedc73525126a3c0a08733f0f6444d04ca9e0a8b1e36b44123e103dfcd8f53378b7e5afc95fa6d9ab423c480
+  checksum: 10c0/8ef4687f05972a85b4ad8e714f692fceec16f334d99edaa09c222dc08d01afcdcf7bed2b3a45f7888900cb9fd3324b9741d98ce694e33e87bebdc038dd17e30b
   languageName: node
   linkType: hard
 
