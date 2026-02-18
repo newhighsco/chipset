@@ -1,5 +1,5 @@
 import { Icon as IconifyIcon } from '@iconify/react'
-import { number, object, oneOfType, shape, string } from 'prop-types'
+import { node, number, object, oneOfType, shape, string } from 'prop-types'
 import React, { Children, cloneElement } from 'react'
 
 import { useIcon } from '../../hooks'
@@ -50,6 +50,7 @@ Icon.propTypes = {
   height: oneOfType([number, string]),
   width: oneOfType([number, string]),
   alt: string,
+  children: node,
   theme: shape({ root: string }),
   className: string,
   style: object
