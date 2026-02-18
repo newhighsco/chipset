@@ -3428,7 +3428,7 @@ __metadata:
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.48"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.7"
+    "@newhighsco/eslint-config": "npm:7.0.8"
     "@newhighsco/postcss-config": "npm:4.0.20"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.25"
@@ -3482,9 +3482,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.7":
-  version: 7.0.7
-  resolution: "@newhighsco/eslint-config@npm:7.0.7"
+"@newhighsco/eslint-config@npm:7.0.8":
+  version: 7.0.8
+  resolution: "@newhighsco/eslint-config@npm:7.0.8"
   dependencies:
     "@eslint/compat": "npm:2.0.2"
     "@eslint/js": "npm:10.0.1"
@@ -3498,7 +3498,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:7.0.1"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
     eslint-plugin-storybook: "npm:10.2.9"
-    eslint-plugin-testing-library: "npm:7.15.4"
+    eslint-plugin-testing-library: "npm:7.16.0"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.56.0"
   peerDependencies:
@@ -3511,7 +3511,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/24f1aa412d7e63bdb1b486fc39f81aabce4575eb27a32ad21b157931d4df54be71f47ad07bc11badd85d8dc78b30f9c43b45edc4313f4bb16f0ec8ac69102748
+  checksum: 10c0/0e7d14e8e663797bfcba16c00c259809db827a7f50634480ef91b94e2242dade91a2f50c5de3f8ff2adedafb42d8ee7ffd5cd3c6d0a434a10b753bd13e37780c
   languageName: node
   linkType: hard
 
@@ -5500,7 +5500,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:8.56.0, @typescript-eslint/scope-manager@npm:^8.51.0":
+"@typescript-eslint/scope-manager@npm:8.56.0, @typescript-eslint/scope-manager@npm:^8.56.0":
   version: 8.56.0
   resolution: "@typescript-eslint/scope-manager@npm:8.56.0"
   dependencies:
@@ -5561,7 +5561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.56.0, @typescript-eslint/utils@npm:^8.48.0, @typescript-eslint/utils@npm:^8.51.0":
+"@typescript-eslint/utils@npm:8.56.0, @typescript-eslint/utils@npm:^8.48.0, @typescript-eslint/utils@npm:^8.56.0":
   version: 8.56.0
   resolution: "@typescript-eslint/utils@npm:8.56.0"
   dependencies:
@@ -8663,15 +8663,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:7.15.4":
-  version: 7.15.4
-  resolution: "eslint-plugin-testing-library@npm:7.15.4"
+"eslint-plugin-testing-library@npm:7.16.0":
+  version: 7.16.0
+  resolution: "eslint-plugin-testing-library@npm:7.16.0"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:^8.51.0"
-    "@typescript-eslint/utils": "npm:^8.51.0"
+    "@typescript-eslint/scope-manager": "npm:^8.56.0"
+    "@typescript-eslint/utils": "npm:^8.56.0"
   peerDependencies:
-    eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/5c35dd1c0dbb6bbbae5f379c4508d0efd377fd99ba75ee63607650a7c695ae88240984d547329a18a5d0ba3126d51c1cdf4b904856242214dcfac3f13835f051
+    eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
+  checksum: 10c0/d8b997dc04f8ccb8c57d3e0b13c1a0b205aa9e6f4e52543acc39829e85f149f85fb4d1b506002776a5c5514b3a51b44cf354396c1ade3091217bf258450c3bf5
   languageName: node
   linkType: hard
 
