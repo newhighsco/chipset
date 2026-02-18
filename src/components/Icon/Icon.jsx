@@ -20,6 +20,9 @@ const Icon = ({
   ...rest
 }) => {
   const icon = useIcon(name)
+
+  if (!name && !children) return null
+
   const fallback = {
     className: classNames(theme?.root, className),
     style: { ...style, width, height }

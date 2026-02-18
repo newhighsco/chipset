@@ -7,11 +7,11 @@ import Icon from './Icon'
 const theme = { root: 'root' }
 
 describe('Components/Icon', () => {
-  // it('should render nothing by default', () => {
-  //   const { container } = render(<Icon />)
+  it('should render nothing by default', () => {
+    const { container } = render(<Icon />)
 
-  //   expect(container.firstChild).toBeNull()
-  // })
+    expect(container.firstChild).toBeNull()
+  })
 
   it("should render a <span /> when 'children' is set", () => {
     render(
