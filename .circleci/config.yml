@@ -26,6 +26,7 @@ setup-parameters: &setup-parameters
   checkout-method: full
 
 workflows:
+  max_auto_reruns: 2
   version: 2
   test_and_release:
     jobs:
