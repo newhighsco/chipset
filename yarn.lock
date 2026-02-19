@@ -3434,7 +3434,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:6.27.3, @newhighsco/chipset@workspace:.":
+"@newhighsco/chipset@npm:6.27.3":
+  version: 6.27.3
+  resolution: "@newhighsco/chipset@npm:6.27.3"
+  dependencies:
+    "@dr.pogodin/react-themes": "npm:1.10.3"
+    classnames: "npm:2.5.1"
+    react-device-detect: "npm:2.2.3"
+  peerDependencies:
+    react: 19.2.4
+    react-dom: 19.2.4
+  checksum: 10c0/d907d36d5f41b2783e776d36238833ca0805b63eed4c822cd1e919a192974f9fcb883cdd101fe494a88f35a908cbc69d63f1c3af99faa1d083f19fe4b0530b24
+  languageName: node
+  linkType: hard
+
+"@newhighsco/chipset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@newhighsco/chipset@workspace:."
   dependencies:
