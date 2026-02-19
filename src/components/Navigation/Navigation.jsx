@@ -1,6 +1,7 @@
 import { shape, string } from 'prop-types'
-import React, { useId } from 'react'
+import React from 'react'
 
+import { useIds } from '../../hooks'
 import { classNames } from '../../utils'
 import Menubar from '../Menubar'
 import SmartLink from '../SmartLink'
@@ -16,7 +17,7 @@ const Navigation = ({
   theme,
   className
 }) => {
-  const id = useId()
+  const id = useIds()
 
   if (!links.length) return null
 

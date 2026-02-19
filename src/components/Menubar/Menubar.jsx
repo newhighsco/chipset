@@ -6,12 +6,8 @@ import { classNames } from '../../utils'
 import Button from '../Button'
 import Icon from '../Icon'
 import List from '../List'
-import { ReactComponent as ArrowDownSvg } from './images/arrow-down.svg'
-import { ReactComponent as ArrowUpSvg } from './images/arrow-up.svg'
-import { ReactComponent as CloseSvg } from './images/close.svg'
-import { ReactComponent as MenuSvg } from './images/menu.svg'
 
-const ICONS = { true: <CloseSvg />, false: <MenuSvg /> }
+const ICONS = { false: 'material-symbols:menu', true: 'material-symbols:close' }
 const LABELS = { false: 'Show', true: 'Hide' }
 
 const Menubar = ({
@@ -25,7 +21,7 @@ const Menubar = ({
   theme
 }) => {
   const [visible, setVisibility] = useToggle(!toggle)
-  const [listId, iconId] = useIds(['list', 'icon'])
+  const id = useIds()
 
   if (!links.length) return null
 
@@ -41,25 +37,19 @@ const Menubar = ({
       {toggle && (
         <Button
           active={visible}
-          aria-controls={listId}
+          aria-controls={id}
           aria-expanded={visible}
-          aria-labelledby={iconId}
+          aria-label={`${LABELS[visible]} ${title}`}
           aria-haspopup
           onClick={toggleVisibility}
           theme={{ root: theme?.toggle, active: theme?.toggleActive }}
         >
           {toggle.children}
-          <Icon
-            id={iconId}
-            theme={{ root: theme?.toggleIcon }}
-            alt={`${LABELS[visible]} ${title}`}
-          >
-            {icons[visible]}
-          </Icon>
+          <Icon theme={{ root: theme?.toggleIcon }} name={icons[visible]} />
         </Button>
       )}
       <List
-        id={listId}
+        id={id}
         role={role}
         unstyled
         inline={inline}
@@ -83,7 +73,10 @@ const Menubar = ({
                   role="menu"
                   links={links}
                   toggle={{
-                    icons: { true: <ArrowUpSvg />, false: <ArrowDownSvg /> },
+                    icons: {
+                      false: 'material-symbols:arrow-drop-down',
+                      true: 'material-symbols:arrow-drop-up'
+                    },
                     ...props
                   }}
                   theme={{ ...theme, toggle: theme?.link }}

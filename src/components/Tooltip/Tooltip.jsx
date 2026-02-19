@@ -1,7 +1,7 @@
 import { bool, node, oneOf, shape, string } from 'prop-types'
-import React, { useId } from 'react'
+import React from 'react'
 
-import { useToggle } from '../../hooks'
+import { useIds, useToggle } from '../../hooks'
 import { classNames } from '../../utils'
 import SmartLink from '../SmartLink'
 
@@ -24,7 +24,7 @@ const Tooltip = ({
   className
 }) => {
   const [visible, setVisibility] = useToggle(!hidden)
-  const id = useId()
+  const id = useIds()
 
   if (!heading && !children) return null
 

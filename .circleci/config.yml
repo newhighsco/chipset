@@ -28,6 +28,7 @@ setup-parameters: &setup-parameters
 workflows:
   version: 2
   test_and_release:
+    max_auto_reruns: 2
     jobs:
       - newhighsco/setup:
           <<: *setup-parameters

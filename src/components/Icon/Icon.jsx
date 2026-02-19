@@ -1,5 +1,6 @@
+import { Icon as IconifyIcon } from '@iconify/react'
 import { node, number, object, oneOfType, shape, string } from 'prop-types'
-import { Children, cloneElement } from 'react'
+import React, { Children, cloneElement } from 'react'
 
 import { classNames } from '../../utils'
 
@@ -7,8 +8,9 @@ import { classNames } from '../../utils'
  * Use `Icon` to wrap SVGs
  */
 const Icon = ({
+  name,
   width,
-  height,
+  height = width,
   alt,
   children,
   theme,
@@ -16,19 +18,27 @@ const Icon = ({
   style,
   ...rest
 }) => {
-  if (!children) return null
+  if (!name && !children) return null
 
-  return cloneElement(Children.only(children), {
+  const props = {
+    'aria-hidden': alt ? null : true,
+    'aria-label': alt,
     className: classNames(theme?.root, className),
-    ...(alt && { role: 'img', title: alt }),
-    ...(!alt && { 'aria-hidden': true }),
+    role: alt ? 'img' : null,
     style: { ...style, width, height },
     ...rest
-  })
+  }
+
+  if (children) {
+    return cloneElement(Children.only(children), props)
+  }
+
+  return <IconifyIcon icon={name} fallback={<span {...props} />} {...props} />
 }
 
 Icon.displayName = 'Icon'
 Icon.propTypes = {
+  name: string,
   height: oneOfType([number, string]),
   width: oneOfType([number, string]),
   alt: string,
