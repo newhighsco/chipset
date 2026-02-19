@@ -2,7 +2,6 @@ import { Icon as IconifyIcon } from '@iconify/react'
 import { node, number, object, oneOfType, shape, string } from 'prop-types'
 import React, { Children, cloneElement } from 'react'
 
-import { useIcon } from '../../hooks'
 import { classNames } from '../../utils'
 
 /**
@@ -19,19 +18,14 @@ const Icon = ({
   style,
   ...rest
 }) => {
-  const icon = useIcon(name)
-
   if (!name && !children) return null
 
-  const fallback = {
-    className: classNames(theme?.root, className),
-    style: { ...style, width, height }
-  }
   const props = {
-    ...fallback,
     'aria-hidden': alt ? null : true,
     'aria-label': alt,
+    className: classNames(theme?.root, className),
     role: alt ? 'img' : null,
+    style: { ...style, width, height },
     ...rest
   }
 
@@ -39,9 +33,7 @@ const Icon = ({
     return cloneElement(Children.only(children), props)
   }
 
-  return (
-    <IconifyIcon icon={icon} fallback={<span {...fallback} />} {...props} />
-  )
+  return <IconifyIcon icon={name} fallback={<span {...props} />} {...props} />
 }
 
 Icon.displayName = 'Icon'

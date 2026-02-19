@@ -1,7 +1,7 @@
 import { any, array, bool, func, node, oneOf, shape, string } from 'prop-types'
-import React, { useId } from 'react'
+import React from 'react'
 
-import { useToggle } from '../../hooks'
+import { useIds, useToggle } from '../../hooks'
 import { classNames } from '../../utils'
 import Button from '../Button'
 import Icon from '../Icon'
@@ -21,7 +21,7 @@ const Menubar = ({
   theme
 }) => {
   const [visible, setVisibility] = useToggle(!toggle)
-  const listId = useId()
+  const id = useIds()
 
   if (!links.length) return null
 
@@ -37,7 +37,7 @@ const Menubar = ({
       {toggle && (
         <Button
           active={visible}
-          aria-controls={listId}
+          aria-controls={id}
           aria-expanded={visible}
           aria-label={`${LABELS[visible]} ${title}`}
           aria-haspopup
@@ -49,7 +49,7 @@ const Menubar = ({
         </Button>
       )}
       <List
-        id={listId}
+        id={id}
         role={role}
         unstyled
         inline={inline}

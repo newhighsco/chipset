@@ -1,4 +1,5 @@
 import { snapshot } from '@newhighsco/storybook-preset'
+import React from 'react'
 
 import { Icon } from '..'
 
@@ -7,7 +8,7 @@ export default { component: Icon }
 export const Source = { args: { name: 'name' } }
 
 export const Decorative = {
-  args: { name: 'material-symbols:menu', style: { outline: '1px dashed' } }
+  args: { name: 'material-symbols:menu', style: { border: '1px dashed' } }
 }
 
 export const Accessible = { args: { ...Decorative.args, alt: 'Alt text' } }

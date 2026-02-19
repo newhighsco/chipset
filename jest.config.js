@@ -7,7 +7,8 @@ module.exports = {
         '\\.(scss)$': 'identity-obj-proxy',
         '\\.(svg)$': '<rootDir>/config/jest/__mocks__/svg.js',
         '\\.(png|jpg|gif|eot|ttf|woff(2)?)$':
-          '<rootDir>/config/jest/file-transform.js'
+          '<rootDir>/config/jest/file-transform.js',
+        '^@newhighsco/chipset': '<rootDir>'
       },
       setupFilesAfterEnv: ['<rootDir>/config/jest/setup-tests.js'],
       testEnvironment: 'jsdom',
