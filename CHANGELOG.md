@@ -1,3 +1,13 @@
+# [7.0.0](https://github.com/newhighsco/chipset/compare/v6.27.3...v7.0.0) (2026-02-19)
+
+
+* feat(icons)!: use Iconify ([#2944](https://github.com/newhighsco/chipset/issues/2944)) ([877816c](https://github.com/newhighsco/chipset/commit/877816cdf078a34d55e98b18dc3dceec1f89beec))
+
+
+### BREAKING CHANGES
+
+* Adds support for using Iconify icons via the `name` prop of the `<Icon />` component
+
 ## [6.27.3](https://github.com/newhighsco/chipset/compare/v6.27.2...v6.27.3) (2026-02-09)
 
 
