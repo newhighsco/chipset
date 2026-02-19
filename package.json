@@ -49,7 +49,7 @@
     "@babel/preset-react": "7.28.5",
     "@commitlint/cli": "20.4.2",
     "@newhighsco/browserslist-config": "2.0.0",
-    "@newhighsco/commitlint-config": "1.1.48",
+    "@newhighsco/commitlint-config": "1.1.49",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "7.0.10",
     "@newhighsco/postcss-config": "4.0.20",
