@@ -3461,11 +3461,11 @@ __metadata:
     "@newhighsco/commitlint-config": "npm:1.1.49"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.15"
-    "@newhighsco/postcss-config": "npm:4.0.23"
+    "@newhighsco/postcss-config": "npm:4.0.24"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.25"
     "@newhighsco/storybook-preset": "npm:10.2.12"
-    "@newhighsco/stylelint-config": "npm:4.0.27"
+    "@newhighsco/stylelint-config": "npm:4.0.28"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.1"
     "@omlet/cli": "npm:2.0.0"
@@ -3548,18 +3548,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.23":
-  version: 4.0.23
-  resolution: "@newhighsco/postcss-config@npm:4.0.23"
+"@newhighsco/postcss-config@npm:4.0.24":
+  version: 4.0.24
+  resolution: "@newhighsco/postcss-config@npm:4.0.24"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
-    autoprefixer: "npm:10.4.24"
+    autoprefixer: "npm:10.4.25"
     caniuse-lite: "npm:1.0.30001774"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.2.0"
   peerDependencies:
     postcss: 8.5.6
-  checksum: 10c0/67fe76846dc22472f222c13069c17859cc8469bfab77074123c199732c944639f43ce4e8fc2112e8d20ee6693828b9299c363e2c4d1aa0ae9fb01faff08393a2
+  checksum: 10c0/6a9f9d9b4e39162d5d72720adf78d635f8282760baa73cc5e83afbd14347181dbb1cfd8bfa36a0c30c76fca3526e511a401f47ab7bee68a6b7ce87e129eb9f5d
   languageName: node
   linkType: hard
 
@@ -3640,9 +3640,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.27":
-  version: 4.0.27
-  resolution: "@newhighsco/stylelint-config@npm:4.0.27"
+"@newhighsco/stylelint-config@npm:4.0.28":
+  version: 4.0.28
+  resolution: "@newhighsco/stylelint-config@npm:4.0.28"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
@@ -3650,8 +3650,8 @@ __metadata:
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.1
-    stylelint: 17.3.0
-  checksum: 10c0/66483237a74328a97f0833993d786ade6fc683b2e3ff5b52fe83d9c23bd2b44b6f277b1674353d0e06db34cfcce4e3e6a48d62aefdc4f1b6bb73482da486a21b
+    stylelint: 17.4.0
+  checksum: 10c0/c172dfce9891b0a81a54335f24768561460db815dabb771be613927c39fb1f8babca9e5425045e04aa985038d61865ed906f9b6a45998bd797038db34f0a9e4b
   languageName: node
   linkType: hard
 
@@ -6578,12 +6578,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.24, autoprefixer@npm:^10.4.24":
-  version: 10.4.24
-  resolution: "autoprefixer@npm:10.4.24"
+"autoprefixer@npm:10.4.25, autoprefixer@npm:^10.4.24":
+  version: 10.4.25
+  resolution: "autoprefixer@npm:10.4.25"
   dependencies:
     browserslist: "npm:^4.28.1"
-    caniuse-lite: "npm:^1.0.30001766"
+    caniuse-lite: "npm:^1.0.30001774"
     fraction.js: "npm:^5.3.4"
     picocolors: "npm:^1.1.1"
     postcss-value-parser: "npm:^4.2.0"
@@ -6591,7 +6591,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 10c0/16737dfc865afed338f3166718ece0f77539e53c1ba9f064f2e6369b9dec9ea0542f3fb98bcb7ab37e64897dc3304bae6b2004fbf79ada8b2aeaa3db336e4b77
+  checksum: 10c0/d1620bda732b6a424ad00b0ebd5968b2d97c7b58835b3f9922654d143643c09eec36ed10749277a8fff40d907b37b5eb9adb550e2dd02e3f14aea02cdc174fef
   languageName: node
   linkType: hard
 
@@ -7042,7 +7042,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001774, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001766":
+"caniuse-lite@npm:1.0.30001774, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
   version: 1.0.30001774
   resolution: "caniuse-lite@npm:1.0.30001774"
   checksum: 10c0/cc6a340a5421b9a67d8fa80889065ee27b2839ad62993571dded5296e18f02bbf685ce7094e93fe908cddc9fefdfad35d6c010b724cc3d22a6479b0d0b679f8c
