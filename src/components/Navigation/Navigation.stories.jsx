@@ -22,10 +22,14 @@ export const Source = {
   }
 }
 
-export const Block = { ...Source }
+export const Block = { args: { ...Source.args, title: 'Block' } }
 
-export const Inline = { args: { ...Source.args, inline: true } }
+export const Inline = {
+  args: { ...Source.args, inline: true, title: 'Inline' }
+}
 
-export const Toggle = { args: { ...Source.args, toggle: true } }
+export const Toggle = {
+  args: { ...Source.args, toggle: true, title: 'Toggle' }
+}
 
 export const Snapshot = snapshot([Block, Inline, Toggle])
