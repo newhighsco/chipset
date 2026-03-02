@@ -3463,7 +3463,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.0.16"
     "@newhighsco/postcss-config": "npm:4.0.26"
     "@newhighsco/prettier-config": "npm:2.3.3"
-    "@newhighsco/release-config": "npm:1.4.25"
+    "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/storybook-preset": "npm:10.2.13"
     "@newhighsco/stylelint-config": "npm:4.0.28"
     "@newhighsco/svgr-config": "npm:1.0.0"
@@ -3572,15 +3572,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.4.25":
-  version: 1.4.25
-  resolution: "@newhighsco/release-config@npm:1.4.25"
+"@newhighsco/release-config@npm:1.4.26":
+  version: 1.4.26
+  resolution: "@newhighsco/release-config@npm:1.4.26"
   dependencies:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/github": "npm:12.0.6"
-    "@semantic-release/npm": "npm:13.1.4"
+    "@semantic-release/npm": "npm:13.1.5"
     "@semantic-release/release-notes-generator": "npm:14.1.0"
   peerDependencies:
     semantic-release: 25.0.3
@@ -3588,7 +3588,7 @@ __metadata:
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/6739df67a12fa55387a8cbcf376bf482280b610d30efd8ba9c4b2e2f1f6b13740279d07881a48105fcaecd45991519571639b6b535a4ddbdfabf33a0da917e2d
+  checksum: 10c0/044ad1c0a4817c7813053dbe6c34d1a665c0642c286ab2709610fbf7d9f4e28d5a43c2abc4a5b531d3e6c27fa0c11664ab6466744a86dd193e0485799b08591f
   languageName: node
   linkType: hard
 
@@ -4442,9 +4442,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/npm@npm:13.1.4, @semantic-release/npm@npm:^13.1.1":
-  version: 13.1.4
-  resolution: "@semantic-release/npm@npm:13.1.4"
+"@semantic-release/npm@npm:13.1.5, @semantic-release/npm@npm:^13.1.1":
+  version: 13.1.5
+  resolution: "@semantic-release/npm@npm:13.1.5"
   dependencies:
     "@actions/core": "npm:^3.0.0"
     "@semantic-release/error": "npm:^4.0.0"
@@ -4454,7 +4454,7 @@ __metadata:
     fs-extra: "npm:^11.0.0"
     lodash-es: "npm:^4.17.21"
     nerf-dart: "npm:^1.0.0"
-    normalize-url: "npm:^8.0.0"
+    normalize-url: "npm:^9.0.0"
     npm: "npm:^11.6.2"
     rc: "npm:^1.2.8"
     read-pkg: "npm:^10.0.0"
@@ -4463,7 +4463,7 @@ __metadata:
     tempy: "npm:^3.0.0"
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: 10c0/a0924893ccdb277fcfea65a5894f807f47b9155d0d04153adc874a25a9c4187eaff08e6b038e8408426545ee0a45760c19525f6308da143effb712ecdb8e6414
+  checksum: 10c0/940bfe3f7ec1189e100b81242835230ab3c14da58a5e2feaf43055fd432453ee7efbde93562daf083aedd73478b7f7b12b7dc63752af9e61b3e010043374c552
   languageName: node
   linkType: hard
 
@@ -12960,10 +12960,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize-url@npm:^8.0.0":
-  version: 8.1.1
-  resolution: "normalize-url@npm:8.1.1"
-  checksum: 10c0/1beb700ce42acb2288f39453cdf8001eead55bbf046d407936a40404af420b8c1c6be97a869884ae9e659d7b1c744e40e905c875ac9290644eec2e3e6fb0b370
+"normalize-url@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "normalize-url@npm:9.0.0"
+  checksum: 10c0/ff8271b26b808dc4c9caf309e1f5f0dcf75e4e05c5c09f3ee3c9dde2bda7f761df1b4c9458758c1919e3420a71c464da8026c1a9a11dedff99c056f3efd6afbc
   languageName: node
   linkType: hard
 
