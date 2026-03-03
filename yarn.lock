@@ -3470,10 +3470,10 @@ __metadata:
     "@newhighsco/commitlint-config": "npm:1.1.49"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.17"
-    "@newhighsco/postcss-config": "npm:4.0.26"
+    "@newhighsco/postcss-config": "npm:4.0.28"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
-    "@newhighsco/storybook-preset": "npm:10.2.14"
+    "@newhighsco/storybook-preset": "npm:10.2.15"
     "@newhighsco/stylelint-config": "npm:4.0.28"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.1"
@@ -3557,18 +3557,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.26":
-  version: 4.0.26
-  resolution: "@newhighsco/postcss-config@npm:4.0.26"
+"@newhighsco/postcss-config@npm:4.0.28":
+  version: 4.0.28
+  resolution: "@newhighsco/postcss-config@npm:4.0.28"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.4.27"
-    caniuse-lite: "npm:1.0.30001775"
+    caniuse-lite: "npm:1.0.30001776"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.2.0"
   peerDependencies:
-    postcss: 8.5.6
-  checksum: 10c0/f63c7bc94c65389a680350d80ecd2354d0f317a8745c86fd8917296c6d875024e8293cd694fdf86c62571617c5db5213c545d4c7871d5f632cb25a2e45cefa15
+    postcss: 8.5.8
+  checksum: 10c0/f5245aca514c45f205a28fba5c3fa18e18e73ceb3c1e92722a7d2417341579dbae34baa5a5c65359b33477e09eebdf8453d3a335b518dbcdcace555333e02cd4
   languageName: node
   linkType: hard
 
@@ -3624,9 +3624,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.14":
-  version: 10.2.14
-  resolution: "@newhighsco/storybook-preset@npm:10.2.14"
+"@newhighsco/storybook-preset@npm:10.2.15":
+  version: 10.2.15
+  resolution: "@newhighsco/storybook-preset@npm:10.2.15"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3636,7 +3636,7 @@ __metadata:
     "@storybook/addon-styling-webpack": "npm:3.0.0"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.2"
     css-loader: "npm:7.1.4"
-    postcss: "npm:8.5.6"
+    postcss: "npm:8.5.8"
     postcss-loader: "npm:8.2.1"
     sass: "npm:1.97.3"
     sass-loader: "npm:16.0.7"
@@ -3645,7 +3645,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.2.14
-  checksum: 10c0/59ee35938f820d293b3b9f1fd88d294fbe7a0b775529665a2649f58d4241da99426175e53543ba3e6fe328ed171488b3f71452c490ae681ab675fa8123ec8ebb
+  checksum: 10c0/b037b0eab820d31884ff60d8b0cdda9e2b33a66d11548e6ead85d47b36d617e2bba8b91cd56e75a4f6e37833e1abb933b4e79217e2f1bd5539814a32b7afe1d4
   languageName: node
   linkType: hard
 
@@ -7066,10 +7066,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001775, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
-  version: 1.0.30001775
-  resolution: "caniuse-lite@npm:1.0.30001775"
-  checksum: 10c0/96e59a83abd171c729db80a93d7a50becebc145102e3c2d2ea4b3749385cae1e6e09155bada486f662fa070009989d043c4c60f1ee64a19eb50139c7e6dbe574
+"caniuse-lite@npm:1.0.30001776, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
+  version: 1.0.30001776
+  resolution: "caniuse-lite@npm:1.0.30001776"
+  checksum: 10c0/d5a7624ea50548c6c4381979a2900ac451caa7ecbeafec209309da25d547ba1406355cf66d6c6d537d8532ab5a56f2bbc0bf62300a4c3f66aa6fca5954264735
   languageName: node
   linkType: hard
 
@@ -14342,17 +14342,6 @@ __metadata:
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
   checksum: 10c0/f4142a4f56565f77c1831168e04e3effd9ffcc5aebaf0f538eee4b2d465adfd4b85a44257bb48418202a63806a7da7fe9f56c330aebb3cac898e46b4cbf49161
-  languageName: node
-  linkType: hard
-
-"postcss@npm:8.5.6":
-  version: 8.5.6
-  resolution: "postcss@npm:8.5.6"
-  dependencies:
-    nanoid: "npm:^3.3.11"
-    picocolors: "npm:^1.1.1"
-    source-map-js: "npm:^1.2.1"
-  checksum: 10c0/5127cc7c91ed7a133a1b7318012d8bfa112da9ef092dddf369ae699a1f10ebbd89b1b9f25f3228795b84585c72aabd5ced5fc11f2ba467eedf7b081a66fad024
   languageName: node
   linkType: hard
 
