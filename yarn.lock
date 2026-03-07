@@ -2601,17 +2601,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eslint/compat@npm:2.0.2"
+"@eslint/compat@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@eslint/compat@npm:2.0.3"
   dependencies:
-    "@eslint/core": "npm:^1.1.0"
+    "@eslint/core": "npm:^1.1.1"
   peerDependencies:
     eslint: ^8.40 || 9 || 10
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/176df611bcb54ff7d9c3ac440df6844e552a4ed5de30eba28edbeebb68ccc7f19111fdd4c10780101ee5f871bd03ec0457f38c67834c285751c2bdb37d8ae73c
+  checksum: 10c0/e7b1a1bdf366759f9a7c3f09fe35cdd0f45208a6ca789be1357895869e546d0c3185ec92b29996141fdd1173103c3408a81ba2ecb86219bd15671ae65af6595b
   languageName: node
   linkType: hard
 
@@ -2635,12 +2635,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@eslint/core@npm:1.1.0"
+"@eslint/core@npm:^1.1.0, @eslint/core@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@eslint/core@npm:1.1.1"
   dependencies:
     "@types/json-schema": "npm:^7.0.15"
-  checksum: 10c0/0f875d6f24fbf67cc796e01c2ca82884f755488052ed84183e56377c5b90fe10b491a26e600642db4daea1d5d8ab7906ec12f2bd5cbdb5004b0ef73c802bdb57
+  checksum: 10c0/129c654c78afc1f6d61dccb0ce841be667f09f052f7d5642614b6ba5eeebd579ca6cc336d7b750d88625e61f7aad22fdd62bf83847fbfc10cc3e58cfe6c5072e
   languageName: node
   linkType: hard
 
@@ -3469,7 +3469,7 @@ __metadata:
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.50"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.19"
+    "@newhighsco/eslint-config": "npm:7.0.20"
     "@newhighsco/postcss-config": "npm:4.0.29"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
@@ -3524,11 +3524,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.19":
-  version: 7.0.19
-  resolution: "@newhighsco/eslint-config@npm:7.0.19"
+"@newhighsco/eslint-config@npm:7.0.20":
+  version: 7.0.20
+  resolution: "@newhighsco/eslint-config@npm:7.0.20"
   dependencies:
-    "@eslint/compat": "npm:2.0.2"
+    "@eslint/compat": "npm:2.0.3"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:1.0.1"
     eslint-config-prettier: "npm:10.1.8"
@@ -3553,7 +3553,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/5bf8ce95722e958542a1d8d3001109111884dfe8bb5ed96f4f94b6946c9d1ebe8e6e7f5b65dbefb6651dcc3fa6da76a4e7a0331a54f7163365f885ef0be47bd9
+  checksum: 10c0/fe8b9e1300a3fe619da648aad115553493c997301544bd7ab8b476258057c832b6db16af75293b80c027b3516e51d85239360f5c7c07d9dc76ee125d3d01966e
   languageName: node
   linkType: hard
 
