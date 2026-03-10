@@ -3472,7 +3472,7 @@ __metadata:
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/storybook-preset": "npm:10.2.18"
-    "@newhighsco/stylelint-config": "npm:4.0.28"
+    "@newhighsco/stylelint-config": "npm:4.0.29"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.1"
     "@omlet/cli": "npm:2.0.0"
@@ -3647,18 +3647,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.28":
-  version: 4.0.28
-  resolution: "@newhighsco/stylelint-config@npm:4.0.28"
+"@newhighsco/stylelint-config@npm:4.0.29":
+  version: 4.0.29
+  resolution: "@newhighsco/stylelint-config@npm:4.0.29"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
-    stylelint-order: "npm:7.0.1"
+    stylelint-order: "npm:8.0.0"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.1
     stylelint: 17.4.0
-  checksum: 10c0/c172dfce9891b0a81a54335f24768561460db815dabb771be613927c39fb1f8babca9e5425045e04aa985038d61865ed906f9b6a45998bd797038db34f0a9e4b
+  checksum: 10c0/6710dbbf0b3302f617a4edc78d3c4522b28dd39be25667cb805695fb1ab497bf33509f50ab9e3ef71577cdff5bd558c754285c8c77e0334cd8e8d7d64cf52e3f
   languageName: node
   linkType: hard
 
@@ -14316,12 +14316,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-sorting@npm:^9.1.0":
-  version: 9.1.0
-  resolution: "postcss-sorting@npm:9.1.0"
+"postcss-sorting@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "postcss-sorting@npm:10.0.0"
   peerDependencies:
     postcss: ^8.4.20
-  checksum: 10c0/1faea84bf00d85929228d297587798fa9c384a02966a28a942777b2de553a8186087cfdcd0aca3dd40e4b2793aee050792d807458db8cf4880867c98c7bf22fd
+  checksum: 10c0/2e53560ccfaefb6ccfaa44cd258735f815de7a06ff6c79e6fb0fe789422f10242266044902c716e2eec9680879d7e0872b4ecd5d89e9bd8670f6d9f6c3ce5adc
   languageName: node
   linkType: hard
 
@@ -14332,7 +14332,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.8, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.6":
+"postcss@npm:8.5.8, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.6, postcss@npm:^8.5.8":
   version: 8.5.8
   resolution: "postcss@npm:8.5.8"
   dependencies:
@@ -16087,15 +16087,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-order@npm:7.0.1":
-  version: 7.0.1
-  resolution: "stylelint-order@npm:7.0.1"
+"stylelint-order@npm:8.0.0":
+  version: 8.0.0
+  resolution: "stylelint-order@npm:8.0.0"
   dependencies:
-    postcss: "npm:^8.5.6"
-    postcss-sorting: "npm:^9.1.0"
+    postcss: "npm:^8.5.8"
+    postcss-sorting: "npm:^10.0.0"
   peerDependencies:
     stylelint: ^16.18.0 || ^17.0.0
-  checksum: 10c0/dfe3ab8f18725c9c2fead65f2940a6590208591ca267da6d25ee191c6e5f1df04813a6f6a76791bfe5f6fda33fbf6d81369c17c71831bfbd6802dfed26559845
+  checksum: 10c0/b46e9c1bcb47bb05399b2518007aa8a200a6b5ed1b024ac2a6200e207d85e9398ed758edd104db54b95d3408bfce5a5eec8d48111de16a4c1fe45f323e6886fa
   languageName: node
   linkType: hard
 
