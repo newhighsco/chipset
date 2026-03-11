@@ -3471,7 +3471,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.29"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
-    "@newhighsco/storybook-preset": "npm:10.2.18"
+    "@newhighsco/storybook-preset": "npm:10.2.19"
     "@newhighsco/stylelint-config": "npm:4.0.29"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.1"
@@ -3622,9 +3622,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.18":
-  version: 10.2.18
-  resolution: "@newhighsco/storybook-preset@npm:10.2.18"
+"@newhighsco/storybook-preset@npm:10.2.19":
+  version: 10.2.19
+  resolution: "@newhighsco/storybook-preset@npm:10.2.19"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3636,14 +3636,14 @@ __metadata:
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.8"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.97.3"
+    sass: "npm:1.98.0"
     sass-loader: "npm:16.0.7"
     storybook-addon-pseudo-states: "npm:10.2.17"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.2.17
-  checksum: 10c0/9eae74f580ce2ff412939b51f17e80c727940c7a4d0091225c1cf92ce1972101c572133a27eea5b7a86eaa193dd13c1941df5dbce08f12520ebb9529cdc03e83
+  checksum: 10c0/a98fb182f67cc35cc35fdc60de4ae47a3767310f4a6b4ce7f9233a23c9812d720e7b5eee515c5746a0d05cb9ac6d1b13e5d878f5a51a661b39e74b0d08551dd2
   languageName: node
   linkType: hard
 
@@ -10404,7 +10404,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immutable@npm:^5.0.2":
+"immutable@npm:^5.1.5":
   version: 5.1.5
   resolution: "immutable@npm:5.1.5"
   checksum: 10c0/8017ece1578e3c5939ba3305176aee059def1b8a90c7fa2a347ef583ebbd38cbe77ce1bbd786a5fab57e2da00bbcb0493b92e4332cdc4e1fe5cfb09a4688df31
@@ -15220,20 +15220,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.97.3":
-  version: 1.97.3
-  resolution: "sass@npm:1.97.3"
+"sass@npm:1.98.0":
+  version: 1.98.0
+  resolution: "sass@npm:1.98.0"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^4.0.0"
-    immutable: "npm:^5.0.2"
+    immutable: "npm:^5.1.5"
     source-map-js: "npm:>=0.6.2 <2.0.0"
   dependenciesMeta:
     "@parcel/watcher":
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/67f6b5d220f20c1c23a8b16dda5fd1c5d119ad5caf8195b185d553b5b239fb188a3787f04fc00171c62515f2c4e5e0eb5ad4992a80f8543428556883c1240ba3
+  checksum: 10c0/9e91daa20f970fefb364ac31289f070636da7aa7eaeb43e371ea98fa98085a6dbc2d3d058504226a02d07717faf0a4ce8d41b579ecb428c4a9d96b4dc1944a95
   languageName: node
   linkType: hard
 
