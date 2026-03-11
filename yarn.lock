@@ -3467,7 +3467,7 @@ __metadata:
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.50"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.22"
+    "@newhighsco/eslint-config": "npm:7.0.23"
     "@newhighsco/postcss-config": "npm:4.0.29"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
@@ -3522,15 +3522,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.22":
-  version: 7.0.22
-  resolution: "@newhighsco/eslint-config@npm:7.0.22"
+"@newhighsco/eslint-config@npm:7.0.23":
+  version: 7.0.23
+  resolution: "@newhighsco/eslint-config@npm:7.0.23"
   dependencies:
     "@eslint/compat": "npm:2.0.3"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:1.1.0"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-cypress: "npm:6.1.0"
+    eslint-plugin-cypress: "npm:6.2.0"
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.5"
@@ -3551,7 +3551,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/ab290aaa8e617f6dcda9aa6bfae5e86202857abdadb58c8bbbce4d152d11cab90f46bbb896f190091d88100e8a125cd7aca0affb73c06e430d92e744abd37dbd
+  checksum: 10c0/9e2b78600ee26f3336f11f68cfa8b9868ac03b668aef5b85aec546141bf6c154e6abe30733cb9dd77460cd7459a5e7c32290dbbcd91718c03507b435813cdae6
   languageName: node
   linkType: hard
 
@@ -8788,14 +8788,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:6.1.0":
-  version: 6.1.0
-  resolution: "eslint-plugin-cypress@npm:6.1.0"
+"eslint-plugin-cypress@npm:6.2.0":
+  version: 6.2.0
+  resolution: "eslint-plugin-cypress@npm:6.2.0"
   dependencies:
     globals: "npm:^17.3.0"
   peerDependencies:
     eslint: ">=9"
-  checksum: 10c0/89a85318d23b5fb725d2075519f7a793bd63b25b2631ae55654c03a91660e92d73414beaead4ee15b311dc51a76752e39f430cd469ca1d89efe13e4e30759136
+  checksum: 10c0/2b61c0891149359d73d339703cbdec7b08523e4f15efaeccb4b034d26f2e29246aab80e9bbafaced8a460e4066f4d79558fcaff69156dcd3e4c8b71c7d0a4e51
   languageName: node
   linkType: hard
 
