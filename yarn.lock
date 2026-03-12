@@ -3468,7 +3468,7 @@ __metadata:
     "@newhighsco/commitlint-config": "npm:1.1.50"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.23"
-    "@newhighsco/postcss-config": "npm:4.0.29"
+    "@newhighsco/postcss-config": "npm:4.0.30"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/storybook-preset": "npm:10.2.19"
@@ -3555,18 +3555,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.29":
-  version: 4.0.29
-  resolution: "@newhighsco/postcss-config@npm:4.0.29"
+"@newhighsco/postcss-config@npm:4.0.30":
+  version: 4.0.30
+  resolution: "@newhighsco/postcss-config@npm:4.0.30"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.4.27"
-    caniuse-lite: "npm:1.0.30001777"
+    caniuse-lite: "npm:1.0.30001778"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.2.0"
   peerDependencies:
     postcss: 8.5.8
-  checksum: 10c0/191f140ac5599c4811640c998650313f74bd88e7641b997b4bb900857c9a9d29e3ffca740369de920efd84d48329d5022b0a6498e827db02dd0cfc4cd417a555
+  checksum: 10c0/06160478bfecd2bcf6d0a1e5245279ff84e67a8056537da46ae212eabd6f8e04f77edaa3b3c90ac5718ae783ef7b6aaf5956384ca61a3504a4ac20ca9364d962
   languageName: node
   linkType: hard
 
@@ -7063,10 +7063,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001777, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
-  version: 1.0.30001777
-  resolution: "caniuse-lite@npm:1.0.30001777"
-  checksum: 10c0/e35443fa7c470edc06e315297cca706790840e96983fff12dfe502a4b123d6e4a64b9b4e8e35fb2f5bb60c31b24fbda93d76b2f700ce183df474671236fa7a4a
+"caniuse-lite@npm:1.0.30001778, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
+  version: 1.0.30001778
+  resolution: "caniuse-lite@npm:1.0.30001778"
+  checksum: 10c0/830042e0a6af0796d3da4d9575f60966b92308c5504577993b618dd196c835d023dbd725fa8b47c33b74c487d75ce01ee3ebd6e7a078714989513110e8ff80e5
   languageName: node
   linkType: hard
 
