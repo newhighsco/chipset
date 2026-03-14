@@ -3491,7 +3491,7 @@ __metadata:
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/storybook-preset": "npm:10.2.21"
-    "@newhighsco/stylelint-config": "npm:4.0.29"
+    "@newhighsco/stylelint-config": "npm:4.0.30"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.1"
     "@omlet/cli": "npm:2.0.0"
@@ -3666,18 +3666,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.29":
-  version: 4.0.29
-  resolution: "@newhighsco/stylelint-config@npm:4.0.29"
+"@newhighsco/stylelint-config@npm:4.0.30":
+  version: 4.0.30
+  resolution: "@newhighsco/stylelint-config@npm:4.0.30"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
-    stylelint-order: "npm:8.0.0"
+    stylelint-order: "npm:8.1.0"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.1
     stylelint: 17.4.0
-  checksum: 10c0/6710dbbf0b3302f617a4edc78d3c4522b28dd39be25667cb805695fb1ab497bf33509f50ab9e3ef71577cdff5bd558c754285c8c77e0334cd8e8d7d64cf52e3f
+  checksum: 10c0/e92b936700c9171adbebbbc86127809bbeae27961973163f788fbf202abe3a0187de3f8a79ee65189593343413697304b93b689436e754fe2efa7c90eafec287
   languageName: node
   linkType: hard
 
@@ -16104,15 +16104,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-order@npm:8.0.0":
-  version: 8.0.0
-  resolution: "stylelint-order@npm:8.0.0"
+"stylelint-order@npm:8.1.0":
+  version: 8.1.0
+  resolution: "stylelint-order@npm:8.1.0"
   dependencies:
     postcss: "npm:^8.5.8"
     postcss-sorting: "npm:^10.0.0"
   peerDependencies:
     stylelint: ^16.18.0 || ^17.0.0
-  checksum: 10c0/b46e9c1bcb47bb05399b2518007aa8a200a6b5ed1b024ac2a6200e207d85e9398ed758edd104db54b95d3408bfce5a5eec8d48111de16a4c1fe45f323e6886fa
+  checksum: 10c0/466536325a8213b1163908edd04e9610feed60534586c248a164e8f6d71cdae91a253e4d3c2a8ed5758cd66ff313ad87d23137cf6fe5b82ac772134eedb653b3
   languageName: node
   linkType: hard
 
