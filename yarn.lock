@@ -3484,14 +3484,14 @@ __metadata:
     "@dr.pogodin/react-themes": "npm:1.10.3"
     "@iconify/react": "npm:6.0.2"
     "@newhighsco/browserslist-config": "npm:2.0.0"
-    "@newhighsco/commitlint-config": "npm:1.1.51"
+    "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.24"
-    "@newhighsco/postcss-config": "npm:4.0.30"
+    "@newhighsco/postcss-config": "npm:4.0.31"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/storybook-preset": "npm:10.2.21"
-    "@newhighsco/stylelint-config": "npm:4.0.30"
+    "@newhighsco/stylelint-config": "npm:4.0.31"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.1"
     "@omlet/cli": "npm:2.0.0"
@@ -3525,12 +3525,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@newhighsco/commitlint-config@npm:1.1.51":
-  version: 1.1.51
-  resolution: "@newhighsco/commitlint-config@npm:1.1.51"
+"@newhighsco/commitlint-config@npm:1.1.52":
+  version: 1.1.52
+  resolution: "@newhighsco/commitlint-config@npm:1.1.52"
   peerDependencies:
-    "@commitlint/cli": 20.4.4
-  checksum: 10c0/85b0f22162e3b338d65a93dea813c10f69112c47c580837f2af5f5b6b77b423e475d896e29157e92392a2699313517ee4184e62c1e7ccce66fda54ec658dfdd2
+    "@commitlint/cli": 20.5.0
+  checksum: 10c0/f0956c78e31fe10b7362885fe2cd6bf05c13e3bc9bccd3cc2e5bb9559f7553fa26d74df26ad5dba26881a10f727bbd8ddb66e12f4e4556c8e279b1c0fc460783
   languageName: node
   linkType: hard
 
@@ -3574,18 +3574,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.30":
-  version: 4.0.30
-  resolution: "@newhighsco/postcss-config@npm:4.0.30"
+"@newhighsco/postcss-config@npm:4.0.31":
+  version: 4.0.31
+  resolution: "@newhighsco/postcss-config@npm:4.0.31"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.4.27"
-    caniuse-lite: "npm:1.0.30001778"
+    caniuse-lite: "npm:1.0.30001779"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.2.0"
   peerDependencies:
     postcss: 8.5.8
-  checksum: 10c0/06160478bfecd2bcf6d0a1e5245279ff84e67a8056537da46ae212eabd6f8e04f77edaa3b3c90ac5718ae783ef7b6aaf5956384ca61a3504a4ac20ca9364d962
+  checksum: 10c0/912ad525809c0aad6db48a892d106e683d4660b8c2d2d397db695fbc190460687702d346fbc38f0c3dd756239b32331c054367fa47aaeb1753fa43d82371886f
   languageName: node
   linkType: hard
 
@@ -3666,18 +3666,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.30":
-  version: 4.0.30
-  resolution: "@newhighsco/stylelint-config@npm:4.0.30"
+"@newhighsco/stylelint-config@npm:4.0.31":
+  version: 4.0.31
+  resolution: "@newhighsco/stylelint-config@npm:4.0.31"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
-    stylelint-order: "npm:8.1.0"
+    stylelint-order: "npm:8.1.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.1
     stylelint: 17.4.0
-  checksum: 10c0/e92b936700c9171adbebbbc86127809bbeae27961973163f788fbf202abe3a0187de3f8a79ee65189593343413697304b93b689436e754fe2efa7c90eafec287
+  checksum: 10c0/65abae0d99522e663b3a6fc59b20f4bd86862854dee51f20a9e321807a80da236aaf5060631899f153c128ad7581fe7c2494e3eafd42e0c528789e2d2e2be39b
   languageName: node
   linkType: hard
 
@@ -7102,10 +7102,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001778, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
-  version: 1.0.30001778
-  resolution: "caniuse-lite@npm:1.0.30001778"
-  checksum: 10c0/830042e0a6af0796d3da4d9575f60966b92308c5504577993b618dd196c835d023dbd725fa8b47c33b74c487d75ce01ee3ebd6e7a078714989513110e8ff80e5
+"caniuse-lite@npm:1.0.30001779, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001774":
+  version: 1.0.30001779
+  resolution: "caniuse-lite@npm:1.0.30001779"
+  checksum: 10c0/6cae9492140722ebc6be76cf3057ff8d1b427c7d8c2588b92bba7979bb1ec7ece457c7d3578a099a757ec12cb01b893fe05f224ac8feb841072897f0c12de6cc
   languageName: node
   linkType: hard
 
@@ -16104,15 +16104,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-order@npm:8.1.0":
-  version: 8.1.0
-  resolution: "stylelint-order@npm:8.1.0"
+"stylelint-order@npm:8.1.1":
+  version: 8.1.1
+  resolution: "stylelint-order@npm:8.1.1"
   dependencies:
     postcss: "npm:^8.5.8"
     postcss-sorting: "npm:^10.0.0"
   peerDependencies:
     stylelint: ^16.18.0 || ^17.0.0
-  checksum: 10c0/466536325a8213b1163908edd04e9610feed60534586c248a164e8f6d71cdae91a253e4d3c2a8ed5758cd66ff313ad87d23137cf6fe5b82ac772134eedb653b3
+  checksum: 10c0/ef135a414d3ed98a53cc19e52f1cdff25105e34d96430ecc805d831dbdf4f505031d692dba0f2275b6e7b3a4f4b406f352d85a3924e2e3d89931af65a64eb047
   languageName: node
   linkType: hard
 
