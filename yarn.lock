@@ -3489,7 +3489,7 @@ __metadata:
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.26"
+    "@newhighsco/eslint-config": "npm:7.0.27"
     "@newhighsco/postcss-config": "npm:4.0.32"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
@@ -3544,9 +3544,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.26":
-  version: 7.0.26
-  resolution: "@newhighsco/eslint-config@npm:7.0.26"
+"@newhighsco/eslint-config@npm:7.0.27":
+  version: 7.0.27
+  resolution: "@newhighsco/eslint-config@npm:7.0.27"
   dependencies:
     "@eslint/compat": "npm:2.0.3"
     "@eslint/js": "npm:10.0.1"
@@ -3560,7 +3560,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:7.0.1"
     eslint-plugin-simple-import-sort: "npm:12.1.1"
     eslint-plugin-storybook: "npm:10.3.0"
-    eslint-plugin-testing-library: "npm:7.16.0"
+    eslint-plugin-testing-library: "npm:7.16.1"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.57.1"
   peerDependencies:
@@ -3573,7 +3573,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/452b3eabf966600442a8b14adc55d7bc373c96f345d6f84c08806273cf74f816560ea7592f9b2dbdedab30b8b94c8ad4e922ef8b1105fb673d5decf5d2938fb7
+  checksum: 10c0/9629804975228ef758dc074d98fd719e607fd1c2b59342d915ea6dc3a390d7650adbc0f962b59a39bf165f1ab6ccd1dd266f1255500f6381b8e8268e63f6c45b
   languageName: node
   linkType: hard
 
@@ -8966,15 +8966,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:7.16.0":
-  version: 7.16.0
-  resolution: "eslint-plugin-testing-library@npm:7.16.0"
+"eslint-plugin-testing-library@npm:7.16.1":
+  version: 7.16.1
+  resolution: "eslint-plugin-testing-library@npm:7.16.1"
   dependencies:
     "@typescript-eslint/scope-manager": "npm:^8.56.0"
     "@typescript-eslint/utils": "npm:^8.56.0"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
-  checksum: 10c0/d8b997dc04f8ccb8c57d3e0b13c1a0b205aa9e6f4e52543acc39829e85f149f85fb4d1b506002776a5c5514b3a51b44cf354396c1ade3091217bf258450c3bf5
+  checksum: 10c0/d6a93b7bb953a5fc2cc23afc782e5d430543773afb61e63e53200b7d859f6caf16f31e29f4b2217a4ad03aa465ec9a56bcea5fe34f8f1f6c5f90af9bdd42db78
   languageName: node
   linkType: hard
 
