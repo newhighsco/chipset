@@ -3493,7 +3493,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.33"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
-    "@newhighsco/storybook-preset": "npm:10.2.27"
+    "@newhighsco/storybook-preset": "npm:10.2.28"
     "@newhighsco/stylelint-config": "npm:4.0.32"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.2"
@@ -3644,9 +3644,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.27":
-  version: 10.2.27
-  resolution: "@newhighsco/storybook-preset@npm:10.2.27"
+"@newhighsco/storybook-preset@npm:10.2.28":
+  version: 10.2.28
+  resolution: "@newhighsco/storybook-preset@npm:10.2.28"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3654,7 +3654,7 @@ __metadata:
     "@storybook/addon-a11y": "npm:10.3.3"
     "@storybook/addon-docs": "npm:10.3.3"
     "@storybook/addon-styling-webpack": "npm:3.0.1"
-    "@storybook/addon-webpack5-compiler-swc": "npm:4.0.2"
+    "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.8"
     postcss-loader: "npm:8.2.1"
@@ -3665,7 +3665,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.3.3
-  checksum: 10c0/9c914d9741a1304c5ac22b47b8414e973b857415bc210485eb69db77578fc48e3a3ad5ced511d9587e49dc2ee8491bbb78faf93eb7f6752cfcc58ea585b614bf
+  checksum: 10c0/7a6dc0ab3b5aa5dac613bea4e797db601478894dd61bca588b746630a99cbc5c7f83ccdea9b963d2976ba037543a3f18ccefcef24ac5d04351568c58b26a122a
   languageName: node
   linkType: hard
 
@@ -4740,15 +4740,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-webpack5-compiler-swc@npm:4.0.2":
-  version: 4.0.2
-  resolution: "@storybook/addon-webpack5-compiler-swc@npm:4.0.2"
+"@storybook/addon-webpack5-compiler-swc@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@storybook/addon-webpack5-compiler-swc@npm:4.0.3"
   dependencies:
     "@swc/core": "npm:^1.13.5"
     swc-loader: "npm:^0.2.6"
   peerDependencies:
-    storybook: ^9.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0
-  checksum: 10c0/dc550285432525ffce1702d9b158f3639db5f61bfaad790dc0cd2a08ffde3cf67db474a2499104c9260c9709b5643ae9c73ffe8bf3bc1f25a7af9a38e05ac09f
+    storybook: ^9.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0
+  checksum: 10c0/f748ce4a00f353de2a805b6811cc9af7ab174c7b57e9e88edc5d192b42836a9e499cee5b814fe143613880b4d080fe92db490888a350f2a76db4d73750e8687b
   languageName: node
   linkType: hard
 
