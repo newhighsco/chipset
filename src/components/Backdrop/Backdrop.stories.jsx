@@ -1,4 +1,3 @@
-import { snapshot } from '@newhighsco/storybook-preset'
 import React from 'react'
 
 import { imageUrl, imageWebPUrl, videoUrl } from '../../__mocks__/fixtures'
