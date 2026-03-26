@@ -3,7 +3,7 @@ import React from 'react'
 
 import SmartLink from '../SmartLink'
 
-const CardHeading = ({ href, target, children, ref, theme }) => {
+const CardHeading = ({ href, target, children, theme }) => {
   if (!children) return null
 
   return (
