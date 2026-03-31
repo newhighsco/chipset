@@ -3493,7 +3493,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.34"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
-    "@newhighsco/storybook-preset": "npm:10.2.28"
+    "@newhighsco/storybook-preset": "npm:10.2.29"
     "@newhighsco/stylelint-config": "npm:4.0.33"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.2"
@@ -3645,16 +3645,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.28":
-  version: 10.2.28
-  resolution: "@newhighsco/storybook-preset@npm:10.2.28"
+"@newhighsco/storybook-preset@npm:10.2.29":
+  version: 10.2.29
+  resolution: "@newhighsco/storybook-preset@npm:10.2.29"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.3.3"
     "@storybook/addon-docs": "npm:10.3.3"
-    "@storybook/addon-styling-webpack": "npm:3.0.1"
+    "@storybook/addon-styling-webpack": "npm:3.0.2"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.8"
@@ -3666,7 +3666,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.3.3
-  checksum: 10c0/7a6dc0ab3b5aa5dac613bea4e797db601478894dd61bca588b746630a99cbc5c7f83ccdea9b963d2976ba037543a3f18ccefcef24ac5d04351568c58b26a122a
+  checksum: 10c0/a0729325c8743624ee788299d6c6327896c98c95713fe12ca789ddab0b4f9316363ed4630fe4e8ba43e83c8f0db71c19be00c779d2964938065df646daaff451
   languageName: node
   linkType: hard
 
@@ -4731,13 +4731,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-styling-webpack@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@storybook/addon-styling-webpack@npm:3.0.1"
+"@storybook/addon-styling-webpack@npm:3.0.2":
+  version: 3.0.2
+  resolution: "@storybook/addon-styling-webpack@npm:3.0.2"
   peerDependencies:
     storybook: ^10.0.0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0
     webpack: ^5.0.0
-  checksum: 10c0/03c9dcc726e6dd658757f852aa1086d6b5eb46eacc2e914cad000892b1cc2b61b224633a7f21d4932769995ed4ae0a7583742c44373fc568dc21620ce0f8e926
+  checksum: 10c0/46967887851367856c28b60b6d3497159894954f3f8472a89ecbc8ebd17f7a9f5f34d48fdd281dbfd0f47ee03fb351aaa9aa4acac8d5e310918e2ec13af03ef2
   languageName: node
   linkType: hard
 
