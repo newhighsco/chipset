@@ -3489,7 +3489,7 @@ __metadata:
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.37"
+    "@newhighsco/eslint-config": "npm:7.0.38"
     "@newhighsco/postcss-config": "npm:4.0.35"
     "@newhighsco/prettier-config": "npm:2.3.3"
     "@newhighsco/release-config": "npm:1.4.26"
@@ -3545,15 +3545,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.37":
-  version: 7.0.37
-  resolution: "@newhighsco/eslint-config@npm:7.0.37"
+"@newhighsco/eslint-config@npm:7.0.38":
+  version: 7.0.38
+  resolution: "@newhighsco/eslint-config@npm:7.0.38"
   dependencies:
     "@eslint/compat": "npm:2.0.3"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:1.2.0"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-cypress: "npm:6.2.1"
+    eslint-plugin-cypress: "npm:6.2.2"
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.5"
@@ -3574,7 +3574,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/1980073b92f036abec355885a61792155fc1a474b370cf4c4aa16eb4f9ad086f33263857e2210a42af077b9fcadca15aa2718d0a62fa86d7e48d31588574afa7
+  checksum: 10c0/d9c383287b73a3b86c374ff7d98f034788d688d6e34bb55992e70adac913384251450728b114b835fc4bcb7523afce80a3bb38bd94f8ddb00569efa13c1b1243
   languageName: node
   linkType: hard
 
@@ -8828,14 +8828,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:6.2.1":
-  version: 6.2.1
-  resolution: "eslint-plugin-cypress@npm:6.2.1"
+"eslint-plugin-cypress@npm:6.2.2":
+  version: 6.2.2
+  resolution: "eslint-plugin-cypress@npm:6.2.2"
   dependencies:
-    globals: "npm:^17.3.0"
+    globals: "npm:^17.4.0"
   peerDependencies:
     eslint: ">=9"
-  checksum: 10c0/ebfd774418062fd7e503845b5835f1fc3a3908f8833ca45eaf045e0bba5a3c4e2e2e6a903362579648a8a182fa18eb5d204f6ea60a8800f13efc962a246bffa4
+  checksum: 10c0/1a017d4acb596ffe2806658e81ec2cf38a50f537939f0c74db110ce3e52b3d9c5fb4949c96573437cdd93c7be4484342359201cdd13eeae18d239529cf9900be
   languageName: node
   linkType: hard
 
@@ -9920,7 +9920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^17.3.0":
+"globals@npm:^17.4.0":
   version: 17.4.0
   resolution: "globals@npm:17.4.0"
   checksum: 10c0/2be9e8c2b9035836f13d420b22f0247a328db82967d3bebfc01126d888ed609305f06c05895914e969653af5c6ba35fd7a0920f3e6c869afa60666c810630feb
