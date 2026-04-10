@@ -74,7 +74,7 @@
     "jest-environment-jsdom": "30.3.0",
     "jest-junit": "16.0.0",
     "postcss": "8.5.9",
-    "prettier": "3.8.1",
+    "prettier": "3.8.2",
     "react": "19.2.5",
     "react-dom": "19.2.5",
     "sass-true": "10.1.0",
