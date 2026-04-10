@@ -82,7 +82,7 @@
     "storybook": "10.3.5",
     "stylelint": "17.6.0",
     "typescript": "6.0.2",
-    "webpack": "5.106.0"
+    "webpack": "5.106.1"
   },
   "peerDependencies": {
     "react": "19.2.5",
