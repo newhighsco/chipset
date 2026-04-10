@@ -3501,10 +3501,10 @@ __metadata:
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.46"
     "@newhighsco/postcss-config": "npm:4.0.38"
-    "@newhighsco/prettier-config": "npm:2.3.3"
+    "@newhighsco/prettier-config": "npm:2.3.4"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/storybook-preset": "npm:10.2.33"
-    "@newhighsco/stylelint-config": "npm:4.0.33"
+    "@newhighsco/stylelint-config": "npm:4.0.34"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.2"
     "@omlet/cli": "npm:2.0.0"
@@ -3603,12 +3603,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/prettier-config@npm:2.3.3":
-  version: 2.3.3
-  resolution: "@newhighsco/prettier-config@npm:2.3.3"
+"@newhighsco/prettier-config@npm:2.3.4":
+  version: 2.3.4
+  resolution: "@newhighsco/prettier-config@npm:2.3.4"
   peerDependencies:
-    prettier: 3.8.1
-  checksum: 10c0/b8e623721def7d2f71f654b672e78df4210cc7af2cd74b6195e56df570661b1dd5777f4da146b6ac1e64bc83a9dea5afa69e604a1194ae49e65721995930b690
+    prettier: 3.8.2
+  checksum: 10c0/b343d23d0f64a5d7d11aba40f20e465268c0be57556a90c29cf87e716ee1bb1eb318dece1112c2ff187678db0fed26c043f59d765a7fc197b5b09f60cdcdc914
   languageName: node
   linkType: hard
 
@@ -3680,18 +3680,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.33":
-  version: 4.0.33
-  resolution: "@newhighsco/stylelint-config@npm:4.0.33"
+"@newhighsco/stylelint-config@npm:4.0.34":
+  version: 4.0.34
+  resolution: "@newhighsco/stylelint-config@npm:4.0.34"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
     stylelint-order: "npm:8.1.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
-    prettier: 3.8.1
+    prettier: 3.8.2
     stylelint: 17.6.0
-  checksum: 10c0/09d09ad100b70cd12e5a6967eb468bcff68c40a63d6d400c4b86bb51afccdc53c6ab730008f8b072e20fb271df3a3f4bcb65f4018869f685da0770b35a851a8c
+  checksum: 10c0/73b92e2524c675df5c0ec10d7034c5b9ec084fef8b276f7c794bab4ed3af2096a2583db4142760c28e04072b8bcee3f422a75b341178d0feff4e5691d7c5cb8e
   languageName: node
   linkType: hard
 
