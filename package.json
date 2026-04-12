@@ -56,7 +56,7 @@
     "@newhighsco/prettier-config": "2.3.4",
     "@newhighsco/release-config": "1.4.26",
     "@newhighsco/storybook-preset": "10.2.33",
-    "@newhighsco/stylelint-config": "4.0.34",
+    "@newhighsco/stylelint-config": "4.0.35",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.2",
     "@omlet/cli": "2.0.0",

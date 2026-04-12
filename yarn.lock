@@ -3504,7 +3504,7 @@ __metadata:
     "@newhighsco/prettier-config": "npm:2.3.4"
     "@newhighsco/release-config": "npm:1.4.26"
     "@newhighsco/storybook-preset": "npm:10.2.33"
-    "@newhighsco/stylelint-config": "npm:4.0.34"
+    "@newhighsco/stylelint-config": "npm:4.0.35"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.2"
     "@omlet/cli": "npm:2.0.0"
@@ -3680,9 +3680,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.34":
-  version: 4.0.34
-  resolution: "@newhighsco/stylelint-config@npm:4.0.34"
+"@newhighsco/stylelint-config@npm:4.0.35":
+  version: 4.0.35
+  resolution: "@newhighsco/stylelint-config@npm:4.0.35"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
@@ -3690,8 +3690,8 @@ __metadata:
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.2
-    stylelint: 17.6.0
-  checksum: 10c0/73b92e2524c675df5c0ec10d7034c5b9ec084fef8b276f7c794bab4ed3af2096a2583db4142760c28e04072b8bcee3f422a75b341178d0feff4e5691d7c5cb8e
+    stylelint: 17.7.0
+  checksum: 10c0/2d0ebeed747e4dc822d98112f26558ac405836d34f1cdb3b1a792f0b5b748040d66f19daf43324d60cd9cf047cc56012ad3f39ac831e6a5dca605247eb5ec550
   languageName: node
   linkType: hard
 
