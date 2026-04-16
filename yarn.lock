@@ -3500,11 +3500,11 @@ __metadata:
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.48"
-    "@newhighsco/postcss-config": "npm:4.0.41"
+    "@newhighsco/postcss-config": "npm:4.0.42"
     "@newhighsco/prettier-config": "npm:2.3.5"
-    "@newhighsco/release-config": "npm:1.4.26"
+    "@newhighsco/release-config": "npm:1.4.27"
     "@newhighsco/storybook-preset": "npm:10.2.33"
-    "@newhighsco/stylelint-config": "npm:4.0.36"
+    "@newhighsco/stylelint-config": "npm:4.0.37"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.2"
     "@omlet/cli": "npm:2.0.0"
@@ -3588,9 +3588,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.41":
-  version: 4.0.41
-  resolution: "@newhighsco/postcss-config@npm:4.0.41"
+"@newhighsco/postcss-config@npm:4.0.42":
+  version: 4.0.42
+  resolution: "@newhighsco/postcss-config@npm:4.0.42"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.5.0"
@@ -3598,8 +3598,8 @@ __metadata:
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.2.1"
   peerDependencies:
-    postcss: 8.5.9
-  checksum: 10c0/76839f57ae2a65647a3b010a0908d02fa9c0a1a41a8a005e31479b3a0052fee0fe7a0058db49977739651a6239065cf0eb29a8301917f97f6adb1227c22b40c7
+    postcss: 8.5.10
+  checksum: 10c0/b372a7459aad6d41b84a8148f8559b9e96e55a050a58cffcb5028e4928ae96976b0399d63af994d7b665675874b27eefaa85bfe27ae40712bee9df442ecfb234
   languageName: node
   linkType: hard
 
@@ -3612,9 +3612,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.4.26":
-  version: 1.4.26
-  resolution: "@newhighsco/release-config@npm:1.4.26"
+"@newhighsco/release-config@npm:1.4.27":
+  version: 1.4.27
+  resolution: "@newhighsco/release-config@npm:1.4.27"
   dependencies:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
@@ -3628,7 +3628,7 @@ __metadata:
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/044ad1c0a4817c7813053dbe6c34d1a665c0642c286ab2709610fbf7d9f4e28d5a43c2abc4a5b531d3e6c27fa0c11664ab6466744a86dd193e0485799b08591f
+  checksum: 10c0/e5f36ddf08eb941779093778ec189bb00985214d90aa3f12f79af413f025b6fa772b1269b77b6ab14e30c3e9466ce3dc087aa49a6c390b2be0bee16a04044de2
   languageName: node
   linkType: hard
 
@@ -3680,9 +3680,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.36":
-  version: 4.0.36
-  resolution: "@newhighsco/stylelint-config@npm:4.0.36"
+"@newhighsco/stylelint-config@npm:4.0.37":
+  version: 4.0.37
+  resolution: "@newhighsco/stylelint-config@npm:4.0.37"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
@@ -3690,8 +3690,8 @@ __metadata:
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: 3.8.3
-    stylelint: 17.7.0
-  checksum: 10c0/65a5e4b0c5c12f42c539e3567b14c1271d1349ae24cf66fe5598acd47b573886fb0b1c9530f4c09c153e9abc37ea0e3f25701fbe4dcda7485123467003a136e7
+    stylelint: 17.8.0
+  checksum: 10c0/8b694e4e93f46af3bed1a281a0143acf265725c848a889130aaa78f7c92809d2d1c1b7f13fd11ee2bb41db8a8381537351006dc2cf1012093fd8f4e156dc4312
   languageName: node
   linkType: hard
 
