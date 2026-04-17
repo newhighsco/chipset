@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 9
   cacheKey: 10c0
 
 "@actions/core@npm:^3.0.0":
@@ -3503,10 +3503,10 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.42"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.4.27"
-    "@newhighsco/storybook-preset": "npm:10.2.33"
+    "@newhighsco/storybook-preset": "npm:10.2.34"
     "@newhighsco/stylelint-config": "npm:4.0.37"
     "@newhighsco/svgr-config": "npm:1.0.0"
-    "@newhighsco/yarn-plugin-preset": "npm:1.1.2"
+    "@newhighsco/yarn-plugin-preset": "npm:1.1.3"
     "@omlet/cli": "npm:2.0.0"
     "@storybook/react-webpack5": "npm:10.3.5"
     "@testing-library/dom": "npm:10.4.1"
@@ -3522,7 +3522,7 @@ __metadata:
     jest: "npm:30.3.0"
     jest-environment-jsdom: "npm:30.3.0"
     jest-junit: "npm:16.0.0"
-    postcss: "npm:8.5.9"
+    postcss: "npm:8.5.10"
     prettier: "npm:3.8.3"
     react: "npm:19.2.5"
     react-device-detect: "npm:2.2.3"
@@ -3530,7 +3530,7 @@ __metadata:
     sass-true: "npm:10.1.0"
     semantic-release: "npm:25.0.3"
     storybook: "npm:10.3.5"
-    stylelint: "npm:17.7.0"
+    stylelint: "npm:17.8.0"
     typescript: "npm:6.0.2"
     webpack: "npm:5.106.2"
   peerDependencies:
@@ -3655,9 +3655,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.33":
-  version: 10.2.33
-  resolution: "@newhighsco/storybook-preset@npm:10.2.33"
+"@newhighsco/storybook-preset@npm:10.2.34":
+  version: 10.2.34
+  resolution: "@newhighsco/storybook-preset@npm:10.2.34"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -3667,7 +3667,7 @@ __metadata:
     "@storybook/addon-styling-webpack": "npm:3.0.2"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
     css-loader: "npm:7.1.4"
-    postcss: "npm:8.5.9"
+    postcss: "npm:8.5.10"
     postcss-loader: "npm:8.2.1"
     sass: "npm:1.99.0"
     sass-loader: "npm:16.0.7"
@@ -3676,7 +3676,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.3.5
-  checksum: 10c0/bda5d751c90180e3675c758f2390ba3ecfdbb8ca27fb5dd9b595db8df2142416250a6a53c2297eb52d17b0a5cb161b9e7bf22a034af54fad2f23e210363b9ace
+  checksum: 10c0/60799ada952468abccba2e5ebe5504fd8e726d9b09b56e67c886b195f1ca6447a6baab2de0eb04d870390e98fd8d4711ccec5108b5ca0df78f5c4ae7287e9987
   languageName: node
   linkType: hard
 
@@ -3711,13 +3711,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/yarn-plugin-preset@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@newhighsco/yarn-plugin-preset@npm:1.1.2"
+"@newhighsco/yarn-plugin-preset@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@newhighsco/yarn-plugin-preset@npm:1.1.3"
   dependencies:
-    "@yarnpkg/core": "npm:4.6.0"
+    "@yarnpkg/core": "npm:4.7.0"
     "@yarnpkg/shell": "npm:4.1.3"
-  checksum: 10c0/780b0847e6b01f8d9c14ccef70a7bc76204231ebbf75144f44b9b2d60f431531adcaadfc63731177e3f9084d19d1468048ee66740c715e740caf8cd640e56a3c
+  checksum: 10c0/991a67418ad8dc2d7a2f0e4cf1c781a37607a8e70b2d2fad92f347ef5a696fc08a264cfe466989e0e365377c29f69d16869e78d01e2f8f748cb9d050ac67cc4d
   languageName: node
   linkType: hard
 
@@ -6116,9 +6116,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.6.0":
-  version: 4.6.0
-  resolution: "@yarnpkg/core@npm:4.6.0"
+"@yarnpkg/core@npm:4.7.0":
+  version: 4.7.0
+  resolution: "@yarnpkg/core@npm:4.7.0"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
@@ -6146,7 +6146,7 @@ __metadata:
     tinylogic: "npm:^2.0.0"
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/69c5f388c75f30001fd2c7cb6e4381d8f9f862a8f535a0c44b82f9cef087c7fc2464402af202700da56ca8ca0153a62727e3602dcfa68e5d29cfa60ab1d54d3a
+  checksum: 10c0/242ca7066467b55839f31ab7445deae4ae76076449c481d2dfbc5faaba2c832bce922d633f962f575ff3d4e22480336d933a3f3dbc85246c7e73d6dff98278aa
   languageName: node
   linkType: hard
 
@@ -12494,10 +12494,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mdn-data@npm:2.27.1, mdn-data@npm:^2.25.0":
+"mdn-data@npm:2.27.1":
   version: 2.27.1
   resolution: "mdn-data@npm:2.27.1"
   checksum: 10c0/eb8abf5d22e4d1e090346f5e81b67d23cef14c83940e445da5c44541ad874dc8fb9f6ca236e8258c3a489d9fb5884188a4d7d58773adb9089ac2c0b966796393
+  languageName: node
+  linkType: hard
+
+"mdn-data@npm:^2.25.0":
+  version: 2.28.0
+  resolution: "mdn-data@npm:2.28.0"
+  checksum: 10c0/5cab176947487cb20a72f89ac2e4610208d78788e414093e494af6b8d03fb30bc817d3de89d141a50c755a77c8ecc839f4add81dce2a644c33c0a492c837c437
   languageName: node
   linkType: hard
 
@@ -14365,14 +14372,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.9, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.6, postcss@npm:^8.5.8":
-  version: 8.5.9
-  resolution: "postcss@npm:8.5.9"
+"postcss@npm:8.5.10, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.6, postcss@npm:^8.5.8, postcss@npm:^8.5.9":
+  version: 8.5.10
+  resolution: "postcss@npm:8.5.10"
   dependencies:
     nanoid: "npm:^3.3.11"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/7cb2b32202ea1ead03f15cfbb2756a64a0f98942378e99b3dfce33678fe5eaf93e31d675a46e3a0dfb417d7b49b82d8999d0dd42a33c3b128e71ade0f978719a
+  checksum: 10c0/c592dffa0c4873b401f01955b265538d9942f425040df5e2b8f0ad34c83773a792ea0fa5859ccc99cfb5b955b4ebff118ab7056315388dc83b107b0fa8313576
   languageName: node
   linkType: hard
 
@@ -16134,9 +16141,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:17.7.0":
-  version: 17.7.0
-  resolution: "stylelint@npm:17.7.0"
+"stylelint@npm:17.8.0":
+  version: 17.8.0
+  resolution: "stylelint@npm:17.8.0"
   dependencies:
     "@csstools/css-calc": "npm:^3.1.1"
     "@csstools/css-parser-algorithms": "npm:^4.0.0"
@@ -16165,7 +16172,7 @@ __metadata:
     micromatch: "npm:^4.0.8"
     normalize-path: "npm:^3.0.0"
     picocolors: "npm:^1.1.1"
-    postcss: "npm:^8.5.8"
+    postcss: "npm:^8.5.9"
     postcss-safe-parser: "npm:^7.0.1"
     postcss-selector-parser: "npm:^7.1.1"
     postcss-value-parser: "npm:^4.2.0"
@@ -16176,7 +16183,7 @@ __metadata:
     write-file-atomic: "npm:^7.0.1"
   bin:
     stylelint: bin/stylelint.mjs
-  checksum: 10c0/6af0ddf4462e071f1ab00036b2ae81aa29d33df3ae11ab0109c33844884fad56c8aa2ee6372f947f4d0dbe386e747138e1f014f1d508748335a3ecc7c0bf9a10
+  checksum: 10c0/de822c902944ed094afabb48802e5659ef479e7707cc0a789e11e833fff5d54fb7a82b83052df83882f77de00190c109dbacd0b2d87157857c3ed626eb0fb4d5
   languageName: node
   linkType: hard
 
