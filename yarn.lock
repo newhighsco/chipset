@@ -3499,7 +3499,7 @@ __metadata:
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.0.50"
+    "@newhighsco/eslint-config": "npm:7.0.51"
     "@newhighsco/postcss-config": "npm:4.0.42"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.4.27"
@@ -3555,9 +3555,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.0.50":
-  version: 7.0.50
-  resolution: "@newhighsco/eslint-config@npm:7.0.50"
+"@newhighsco/eslint-config@npm:7.0.51":
+  version: 7.0.51
+  resolution: "@newhighsco/eslint-config@npm:7.0.51"
   dependencies:
     "@eslint/compat": "npm:2.0.5"
     "@eslint/js": "npm:10.0.1"
@@ -3584,7 +3584,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/daeb8a9740f3f2a559a4d89fa1c9e2ff28936ebfabc5676222f40a992279feb9b606549e9d0ec3aa30b6745616f578761961c68b6d4efa9e7404365ab4a8ad0d
+  checksum: 10c0/290627ecaaa0c8d2058f5baa620588d2cacc82aef88fe28d7444a21ef9346eb78da44cb82a457ea31d6bb4f530f666e80d6f692d99ce477c009d30cae2cbb980
   languageName: node
   linkType: hard
 
