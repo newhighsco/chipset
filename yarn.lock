@@ -3510,7 +3510,7 @@ __metadata:
     "@newhighsco/commitlint-config": "npm:1.1.52"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.0.52"
-    "@newhighsco/postcss-config": "npm:4.0.42"
+    "@newhighsco/postcss-config": "npm:4.0.43"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.4.27"
     "@newhighsco/storybook-preset": "npm:10.2.34"
@@ -3598,18 +3598,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.42":
-  version: 4.0.42
-  resolution: "@newhighsco/postcss-config@npm:4.0.42"
+"@newhighsco/postcss-config@npm:4.0.43":
+  version: 4.0.43
+  resolution: "@newhighsco/postcss-config@npm:4.0.43"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.5.0"
-    caniuse-lite: "npm:1.0.30001788"
+    caniuse-lite: "npm:1.0.30001790"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.2.1"
   peerDependencies:
     postcss: 8.5.10
-  checksum: 10c0/b372a7459aad6d41b84a8148f8559b9e96e55a050a58cffcb5028e4928ae96976b0399d63af994d7b665675874b27eefaa85bfe27ae40712bee9df442ecfb234
+  checksum: 10c0/075f4f6c9e59292090e04778131de3c52412f3e99cf8406d36ad4a8bd21161b438df4167f76c5980ea73a9c6b179ecbebb6347f36a2b2973f9f7a91bb25ef1c5
   languageName: node
   linkType: hard
 
@@ -7142,14 +7142,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001788":
-  version: 1.0.30001788
-  resolution: "caniuse-lite@npm:1.0.30001788"
-  checksum: 10c0/d3c4695d0e7a1e95194cc5072e26db59cbcd25adfff64253859213c1a04ce9bc17f7b8ec8b11908ac1ecc6c1a0caf95fae0aec064a64b8df03286dffa629ce8a
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001782, caniuse-lite@npm:^1.0.30001787":
+"caniuse-lite@npm:1.0.30001790, caniuse-lite@npm:^1.0.30001782, caniuse-lite@npm:^1.0.30001787":
   version: 1.0.30001790
   resolution: "caniuse-lite@npm:1.0.30001790"
   checksum: 10c0/eec0adc1dcb35d51e57bcfa0657493cb57ef43f0ceb03c1edcfee34d43e7a938e6beed2781118c7a5ee99d4f71d443977f08ca5a549005cf89260733af9ad3f8
