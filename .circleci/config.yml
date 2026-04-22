@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@1.14.0
+  newhighsco: newhighsco/orb@1.15.0
 
 only-main: &only-main
   filters:
@@ -34,7 +34,6 @@ workflows:
           <<: *setup-parameters
       - newhighsco/test:
           name: test
-          list-command: yarn test:list
           rerun-only-failed: true
           requires:
             - setup
