@@ -3523,7 +3523,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:6.9.1"
     "@testing-library/react": "npm:16.3.2"
     babel-loader: "npm:10.1.1"
-    chromatic: "npm:16.6.0"
+    chromatic: "npm:16.6.1"
     classnames: "npm:2.5.1"
     concurrently: "npm:9.2.1"
     eslint: "npm:10.2.1"
@@ -7234,9 +7234,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:16.6.0":
-  version: 16.6.0
-  resolution: "chromatic@npm:16.6.0"
+"chromatic@npm:16.6.1":
+  version: 16.6.1
+  resolution: "chromatic@npm:16.6.1"
   dependencies:
     semver: "npm:^7.3.5"
   peerDependencies:
@@ -7254,7 +7254,7 @@ __metadata:
     chroma: dist/bin.cjs
     chromatic: dist/bin.cjs
     chromatic-cli: dist/bin.cjs
-  checksum: 10c0/27f905e3d8cc1a865e354b0a09ac533daea1a5be0e60f82ae489cda5e5c5d2ff773a749bd5e904cf712ca040d19561e0c4e7877d3e49e32f7010c50b0a94346f
+  checksum: 10c0/6d8c5b5dd90e2b0d50cdbdab000f373896acabdda0b9987aab42f0dc37d48b349e810ce11055970a854a03a7a3c4be0a0d7c55ffff235e65f51baddf1f38c5f5
   languageName: node
   linkType: hard
 
