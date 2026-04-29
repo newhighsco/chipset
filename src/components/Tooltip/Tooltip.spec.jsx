@@ -56,7 +56,15 @@ describe('Components/Tooltip', () => {
 
     expect(toggle).toHaveAttribute('aria-expanded', 'true')
 
-    fireEvent.mouseOver(wrapper)
+    fireEvent.mouseOut(wrapper)
+
+    expect(toggle).toHaveAttribute('aria-expanded', 'false')
+
+    fireEvent.focus(wrapper)
+
+    expect(toggle).toHaveAttribute('aria-expanded', 'true')
+
+    fireEvent.blur(wrapper)
 
     expect(toggle).toHaveAttribute('aria-expanded', 'false')
   })
