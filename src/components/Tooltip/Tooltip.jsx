@@ -23,7 +23,7 @@ const Tooltip = ({
   theme,
   className
 }) => {
-  const [visible, setVisibility] = useToggle(!hidden)
+  const [visible, toggleVisibility, setVisibility] = useToggle(!hidden)
   const id = useIds()
 
   if (!heading && !children) return null
@@ -34,11 +34,11 @@ const Tooltip = ({
       aria-describedby={id}
       className={classNames(theme?.root, className)}
       {...(!manual && {
-        onMouseOver: setVisibility,
-        onMouseOut: setVisibility,
-        onFocus: setVisibility,
-        onBlur: setVisibility,
-        onTouchEnd: setVisibility
+        onMouseOver: () => setVisibility(true),
+        onMouseOut: () => setVisibility(false),
+        onFocus: () => setVisibility(true),
+        onBlur: () => setVisibility(false),
+        onTouchEnd: () => setVisibility(false)
       })}
     >
       <SmartLink
@@ -47,7 +47,7 @@ const Tooltip = ({
         target={target}
         disabled={disabled}
         aria-expanded={visible}
-        {...(manual && { onClick: setVisibility })}
+        {...(manual && { onClick: toggleVisibility })}
       >
         {toggle}
       </SmartLink>

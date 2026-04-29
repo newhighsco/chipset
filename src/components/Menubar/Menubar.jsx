@@ -20,15 +20,15 @@ const Menubar = ({
   onToggle = () => {},
   theme
 }) => {
-  const [visible, setVisibility] = useToggle(!toggle)
+  const [visible, toggleVisibility] = useToggle(!toggle)
   const id = useIds()
 
   if (!links.length) return null
 
   const icons = toggle?.icons || ICONS
 
-  const toggleVisibility = () => {
-    setVisibility()
+  const handleToggle = () => {
+    toggleVisibility()
     onToggle({ visible })
   }
 
@@ -41,7 +41,7 @@ const Menubar = ({
           aria-expanded={visible}
           aria-label={`${LABELS[visible]} ${title}`}
           aria-haspopup
-          onClick={toggleVisibility}
+          onClick={handleToggle}
           theme={{ root: theme?.toggle, active: theme?.toggleActive }}
         >
           {toggle.children}
