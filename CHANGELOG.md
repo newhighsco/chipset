@@ -1,3 +1,10 @@
+## [7.0.1](https://github.com/newhighsco/chipset/compare/v7.0.0...v7.0.1) (2026-04-29)
+
+
+### Bug Fixes
+
+* **tooltip:** adjust hover events ([#3104](https://github.com/newhighsco/chipset/issues/3104)) ([0f2a799](https://github.com/newhighsco/chipset/commit/0f2a79995a97650d7aafd96ac678aa0d021ee361))
+
 # [7.0.0](https://github.com/newhighsco/chipset/compare/v6.27.3...v7.0.0) (2026-02-19)
 
 
