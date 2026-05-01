@@ -3556,7 +3556,6 @@ __metadata:
     jest: "npm:30.3.0"
     jest-environment-jsdom: "npm:30.3.0"
     jest-junit: "npm:17.0.0"
-    postcss: "npm:8.5.12"
     prettier: "npm:3.8.3"
     react: "npm:19.2.5"
     react-device-detect: "npm:2.2.3"
