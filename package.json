@@ -79,7 +79,7 @@
     "sass-true": "10.1.0",
     "semantic-release": "25.0.3",
     "storybook": "10.3.6",
-    "stylelint": "17.9.1",
+    "stylelint": "17.10.0",
     "typescript": "6.0.3",
     "webpack": "5.106.2"
   },
