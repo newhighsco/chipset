@@ -3563,7 +3563,7 @@ __metadata:
     sass-true: "npm:10.1.0"
     semantic-release: "npm:25.0.3"
     storybook: "npm:10.3.6"
-    stylelint: "npm:17.10.0"
+    stylelint: "npm:17.11.0"
     typescript: "npm:6.0.3"
     webpack: "npm:5.106.2"
   peerDependencies:
@@ -15824,7 +15824,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^8.2.0":
+"string-width@npm:^8.2.1":
   version: 8.2.1
   resolution: "string-width@npm:8.2.1"
   dependencies:
@@ -16149,9 +16149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:17.10.0":
-  version: 17.10.0
-  resolution: "stylelint@npm:17.10.0"
+"stylelint@npm:17.11.0":
+  version: 17.11.0
+  resolution: "stylelint@npm:17.11.0"
   dependencies:
     "@csstools/css-calc": "npm:^3.2.0"
     "@csstools/css-parser-algorithms": "npm:^4.0.0"
@@ -16184,14 +16184,14 @@ __metadata:
     postcss-safe-parser: "npm:^7.0.1"
     postcss-selector-parser: "npm:^7.1.1"
     postcss-value-parser: "npm:^4.2.0"
-    string-width: "npm:^8.2.0"
+    string-width: "npm:^8.2.1"
     supports-hyperlinks: "npm:^4.4.0"
     svg-tags: "npm:^1.0.0"
     table: "npm:^6.9.0"
     write-file-atomic: "npm:^7.0.1"
   bin:
     stylelint: bin/stylelint.mjs
-  checksum: 10c0/4a899cdc9de7d281dcd94174e5eb94f1c904f3e608df5a13039d2f67a4f7d7a304ea75c5a6c77e448f83f66c12dcde1e0d4aa03ed7ee5c964d3966de6a6ad2e6
+  checksum: 10c0/a494edaa51bc13b9765fe36106b5d165b20a49ca25960c478da1ca547937ad46f7880ac6149816b21e47def24ed434717b7481bd8560eb1705b19b3f42700b16
   languageName: node
   linkType: hard
 
