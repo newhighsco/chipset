@@ -29,7 +29,6 @@
     "test": "jest --runInBand",
     "test:list": "jest --listTests",
     "snapshot": "chromatic --storybook-build-dir build --auto-accept-changes main --exit-once-uploaded --only-changed",
-    "analyze": "omlet analyze",
     "lint": "concurrently 'yarn:lint:*'",
     "lint:js": "eslint --cache .",
     "lint:css": "stylelint --cache --ignore-path .gitignore '**/*.?(s)css'",
@@ -59,7 +58,6 @@
     "@newhighsco/stylelint-config": "4.0.42",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.3",
-    "@omlet/cli": "2.2.0",
     "@storybook/react-webpack5": "10.4.0",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",
@@ -93,14 +91,6 @@
   "commitlint": {
     "extends": [
       "@newhighsco"
-    ]
-  },
-  "omlet": {
-    "exports": {
-      ".": "src/index.js"
-    },
-    "ignore": [
-      "example/**"
     ]
   },
   "prettier": "@newhighsco/prettier-config",

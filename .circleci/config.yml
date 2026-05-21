@@ -50,12 +50,6 @@ workflows:
           name: release
           requires:
             - snapshot
-      - newhighsco/analyze:
-          <<: *only-main
-          name: analyze
-          disabled: true
-          requires:
-            - release
   snapshot_version:
     jobs:
       - newhighsco/setup:
