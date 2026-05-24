@@ -1427,7 +1427,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.28.6":
+"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.29.2":
   version: 7.29.2
   resolution: "@babel/runtime@npm:7.29.2"
   checksum: 10c0/30b80a0140d16467792e1bbeb06f655b0dab70407da38dfac7fedae9c859f9ae9d846ef14ad77bd3814c064295fe9b1bc551f1541ea14646ae9f22b71a8bc17a
@@ -2400,15 +2400,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dr.pogodin/react-themes@npm:1.10.3":
-  version: 1.10.3
-  resolution: "@dr.pogodin/react-themes@npm:1.10.3"
+"@dr.pogodin/react-themes@npm:1.10.4":
+  version: 1.10.4
+  resolution: "@dr.pogodin/react-themes@npm:1.10.4"
   dependencies:
-    "@babel/runtime": "npm:^7.28.6"
+    "@babel/runtime": "npm:^7.29.2"
   peerDependencies:
-    react: ^19.2.4
-    react-dom: ^19.2.4
-  checksum: 10c0/a76523c9b4f3850e65e1011bda99970f26c7a97780b2fefbca878dad4ebd3dfd5a27e42afff88ed2797495a8a8645d313fba855baec7f6ee853b54df0edde530
+    react: ^19.2.6
+    react-dom: ^19.2.6
+  checksum: 10c0/009f8de22d091a10702201ec8d6cce92714c8f63135749b237e161860d432bc01fd3e5758ee2579342d70d16d78342e173983276cd603bc7b6600cbb61d58d91
   languageName: node
   linkType: hard
 
@@ -3296,7 +3296,7 @@ __metadata:
     "@babel/preset-env": "npm:7.29.5"
     "@babel/preset-react": "npm:7.28.5"
     "@commitlint/cli": "npm:21.0.1"
-    "@dr.pogodin/react-themes": "npm:1.10.3"
+    "@dr.pogodin/react-themes": "npm:1.10.4"
     "@iconify/react": "npm:6.0.2"
     "@newhighsco/browserslist-config": "npm:2.0.0"
     "@newhighsco/commitlint-config": "npm:1.1.56"
