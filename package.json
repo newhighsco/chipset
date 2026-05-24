@@ -54,7 +54,7 @@
     "@newhighsco/postcss-config": "4.0.52",
     "@newhighsco/prettier-config": "2.3.5",
     "@newhighsco/release-config": "1.4.28",
-    "@newhighsco/storybook-preset": "10.2.46",
+    "@newhighsco/storybook-preset": "10.2.47",
     "@newhighsco/stylelint-config": "4.0.43",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
