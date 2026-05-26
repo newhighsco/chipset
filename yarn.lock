@@ -3280,10 +3280,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/browserslist-config@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@newhighsco/browserslist-config@npm:2.0.0"
-  checksum: 10c0/8fe5c9a2da2ee6ceea5e5423177674c8ff29bf4b27c3658b08f08f53de2ad44b27d38819aa4204067b25412fbbf4b374c2b912e3a9bbe69bcc46dbd54915eeea
+"@newhighsco/browserslist-config@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@newhighsco/browserslist-config@npm:3.0.0"
+  dependencies:
+    browserslist-config-baseline: "npm:0.5.0"
+  checksum: 10c0/1a1c9423e1a4aa8aeef168f4ce51edf9a746cb6c2dd20a0350f45f7a192889eba83e105a45a0267f13f9eb7bede26339d5ef1ff402f3d4cc8135bcb7e1ce67f7
   languageName: node
   linkType: hard
 
@@ -3297,7 +3299,7 @@ __metadata:
     "@commitlint/cli": "npm:21.0.1"
     "@dr.pogodin/react-themes": "npm:1.10.4"
     "@iconify/react": "npm:6.0.2"
-    "@newhighsco/browserslist-config": "npm:2.0.0"
+    "@newhighsco/browserslist-config": "npm:3.0.0"
     "@newhighsco/commitlint-config": "npm:1.3.0"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.2"
@@ -6745,7 +6747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"baseline-browser-mapping@npm:^2.10.12":
+"baseline-browser-mapping@npm:^2.10.12, baseline-browser-mapping@npm:^2.5.6":
   version: 2.10.32
   resolution: "baseline-browser-mapping@npm:2.10.32"
   bin:
@@ -6829,6 +6831,15 @@ __metadata:
   dependencies:
     fill-range: "npm:^7.1.1"
   checksum: 10c0/7c6dfd30c338d2997ba77500539227b9d1f85e388a5f43220865201e407e076783d0881f2d297b9f80951b4c957fcf0b51c1d2d24227631643c3f7c284b0aa04
+  languageName: node
+  linkType: hard
+
+"browserslist-config-baseline@npm:0.5.0":
+  version: 0.5.0
+  resolution: "browserslist-config-baseline@npm:0.5.0"
+  dependencies:
+    baseline-browser-mapping: "npm:^2.5.6"
+  checksum: 10c0/95e7bf3a472ede0a31dc0fb82c4ba1f4f7c69e11af5abe3d0b7b9040ed8f02bb71a1dcb6a75db9d1ca0eed767351fac7d10df632b6eb94ef1e6f14feac9f9a2f
   languageName: node
   linkType: hard
 
