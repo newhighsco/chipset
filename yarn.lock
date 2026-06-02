@@ -3292,12 +3292,12 @@ __metadata:
     "@newhighsco/browserslist-config": "npm:3.0.0"
     "@newhighsco/commitlint-config": "npm:1.3.1"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.6"
+    "@newhighsco/eslint-config": "npm:7.1.7"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
     "@newhighsco/postcss-config": "npm:4.0.52"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.5.0"
-    "@newhighsco/storybook-preset": "npm:10.2.47"
+    "@newhighsco/storybook-preset": "npm:10.2.48"
     "@newhighsco/stylelint-config": "npm:4.0.43"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -3351,9 +3351,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.1.6":
-  version: 7.1.6
-  resolution: "@newhighsco/eslint-config@npm:7.1.6"
+"@newhighsco/eslint-config@npm:7.1.7":
+  version: 7.1.7
+  resolution: "@newhighsco/eslint-config@npm:7.1.7"
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
@@ -3366,7 +3366,7 @@ __metadata:
     eslint-plugin-react: "npm:7.37.5"
     eslint-plugin-react-hooks: "npm:7.1.1"
     eslint-plugin-simple-import-sort: "npm:13.0.0"
-    eslint-plugin-storybook: "npm:10.4.1"
+    eslint-plugin-storybook: "npm:10.4.2"
     eslint-plugin-testing-library: "npm:7.16.2"
     find-up: "npm:8.0.0"
     typescript-eslint: "npm:8.60.1"
@@ -3380,7 +3380,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/3221b9eb12f9fc3f253446a8f2f0010f6cf5e11aa736b5e79617dcb57163826b5e6534e3d5004ea7940bacc52fa7380abfe20ff3500aa375eed12dcba5bba407
+  checksum: 10c0/9a92010639afcb2a21b7b6cb3458c9e545fe4acad6050f769000ae0d181644065f1a9a5634d9eaf19d2a9f8efb7914abe5d1a1a6d9f8299180f6832558e7f08c
   languageName: node
   linkType: hard
 
@@ -3461,15 +3461,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.47":
-  version: 10.2.47
-  resolution: "@newhighsco/storybook-preset@npm:10.2.47"
+"@newhighsco/storybook-preset@npm:10.2.48":
+  version: 10.2.48
+  resolution: "@newhighsco/storybook-preset@npm:10.2.48"
   dependencies:
     "@newhighsco/chipset": "npm:7.0.2"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
-    "@storybook/addon-a11y": "npm:10.4.1"
-    "@storybook/addon-docs": "npm:10.4.1"
+    "@storybook/addon-a11y": "npm:10.4.2"
+    "@storybook/addon-docs": "npm:10.4.2"
     "@storybook/addon-styling-webpack": "npm:3.0.2"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
     css-loader: "npm:7.1.4"
@@ -3477,12 +3477,12 @@ __metadata:
     postcss-loader: "npm:8.2.1"
     sass: "npm:1.100.0"
     sass-loader: "npm:17.0.0"
-    storybook-addon-pseudo-states: "npm:10.4.1"
+    storybook-addon-pseudo-states: "npm:10.4.2"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
-    storybook: 10.4.1
-  checksum: 10c0/eed6c6eb7a549004b13ed14aea143e33b9603bbe59bdc2b07d919384485c1c378ad269b7653bd9d2fd0421d370d5f9db66e0139d47f04699e17404f54eae7c7a
+    storybook: 10.4.2
+  checksum: 10c0/82cd485795bceccfedc0ef588dfe3ba3b5e711d573c111f796cb27f4cffab0038f082e5069b67ba1d3e7d3865dee45ba1001950c14cfa169221f1da353529ca6
   languageName: node
   linkType: hard
 
@@ -4625,36 +4625,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:10.4.1":
-  version: 10.4.1
-  resolution: "@storybook/addon-a11y@npm:10.4.1"
+"@storybook/addon-a11y@npm:10.4.2":
+  version: 10.4.2
+  resolution: "@storybook/addon-a11y@npm:10.4.2"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     axe-core: "npm:^4.2.0"
   peerDependencies:
-    storybook: ^10.4.1
-  checksum: 10c0/2a051276db77dbf196b0c509aae6e49e1d1a722db1ecd3a73fa60ff8c1d88e61900f9c31a66201cedab8dd555718fca407099b4f27662fd3d9404b2096770344
+    storybook: ^10.4.2
+  checksum: 10c0/164bad0c51122b6d2688e414dfb6649d50bcb6b67c46ac44980e9faa8f5f3fda75e0eadadcd43b13305c12c1c05ee4dc28d8b7df4e294a32415ce46221aa50c8
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:10.4.1":
-  version: 10.4.1
-  resolution: "@storybook/addon-docs@npm:10.4.1"
+"@storybook/addon-docs@npm:10.4.2":
+  version: 10.4.2
+  resolution: "@storybook/addon-docs@npm:10.4.2"
   dependencies:
     "@mdx-js/react": "npm:^3.0.0"
-    "@storybook/csf-plugin": "npm:10.4.1"
+    "@storybook/csf-plugin": "npm:10.4.2"
     "@storybook/icons": "npm:^2.0.2"
-    "@storybook/react-dom-shim": "npm:10.4.1"
+    "@storybook/react-dom-shim": "npm:10.4.2"
     react: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     react-dom: "npm:^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     ts-dedent: "npm:^2.0.0"
   peerDependencies:
     "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.4.1
+    storybook: ^10.4.2
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/d3fa09989e969a6319bab2d9a883450c3339b87d40836e7e6c1ccd56f0e45d04456b9e6ed80ec8897fde0aa489e6a711fdf3d24f210eefa12983aae374575ae0
+  checksum: 10c0/2b0b7d103116365d11efb2ad557a27dc454433babe3bbca5d25491e5388d66ad5c7f1871f50cb6429f3471a7ba5e81007ace266527ecb40e25e78b32a1ca4bd6
   languageName: node
   linkType: hard
 
@@ -4719,15 +4719,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/csf-plugin@npm:10.4.1":
-  version: 10.4.1
-  resolution: "@storybook/csf-plugin@npm:10.4.1"
+"@storybook/csf-plugin@npm:10.4.2":
+  version: 10.4.2
+  resolution: "@storybook/csf-plugin@npm:10.4.2"
   dependencies:
     unplugin: "npm:^2.3.5"
   peerDependencies:
     esbuild: "*"
     rollup: "*"
-    storybook: ^10.4.1
+    storybook: ^10.4.2
     vite: "*"
     webpack: "*"
   peerDependenciesMeta:
@@ -4739,7 +4739,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/4d23b69eb5107856b29e54d1b209392ff61e4ac37adc7def06e04a19e3279edfc36ebe38b8ac1841407406edae4caca3a1ddfa009e11314f3ec8ec3b01c1f847
+  checksum: 10c0/6515ebd9bef1b183fdc0f1dfaf9866c8686874bc8342cbe909e53f9055c0497b62399f136d67197eff97e0c7d86dfb0edbb559d20a69404bcc56d57867c3d6aa
   languageName: node
   linkType: hard
 
@@ -4817,6 +4817,24 @@ __metadata:
     "@types/react-dom":
       optional: true
   checksum: 10c0/1d39e86d861eef5577174721a938159e97f80c27a856af182157cf5d0936ca3a91eaf1e5bbbfd6560d1035db1ffebdd757d0f08fd1c2c21cf353a996ea04d6f0
+  languageName: node
+  linkType: hard
+
+"@storybook/react-dom-shim@npm:10.4.2":
+  version: 10.4.2
+  resolution: "@storybook/react-dom-shim@npm:10.4.2"
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    "@types/react-dom": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.4.2
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10c0/ae851a2b86adce768abb4649eddd6fad6d6e11e96791a185891accf121aebb30af4102f9a23107ff647d02c1820f8fbfeafce575f3efe57ade4314036ac25b12
   languageName: node
   linkType: hard
 
@@ -8739,15 +8757,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:10.4.1":
-  version: 10.4.1
-  resolution: "eslint-plugin-storybook@npm:10.4.1"
+"eslint-plugin-storybook@npm:10.4.2":
+  version: 10.4.2
+  resolution: "eslint-plugin-storybook@npm:10.4.2"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.48.0"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^10.4.1
-  checksum: 10c0/fa04c28a5818b879fdbc39a832672c329422e32729279d98905bfacb4dc232783c2b8f4230f1e278f15ec478fbd3869e109e1e60f921410c996a1254a4d15791
+    storybook: ^10.4.2
+  checksum: 10c0/5e89149fb4488319b2db61f1e7998bfce783941f742017ffb66d7c5fa681d2df1d47be833eda737f1b0e1df30b195a4710a702dbc90794f74bf4ecb973515cba
   languageName: node
   linkType: hard
 
@@ -15241,12 +15259,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook-addon-pseudo-states@npm:10.4.1":
-  version: 10.4.1
-  resolution: "storybook-addon-pseudo-states@npm:10.4.1"
+"storybook-addon-pseudo-states@npm:10.4.2":
+  version: 10.4.2
+  resolution: "storybook-addon-pseudo-states@npm:10.4.2"
   peerDependencies:
-    storybook: ^10.4.1
-  checksum: 10c0/cb355ecc2c8b15e3e62efed7b89a9b7b439dca263e043106bf440aedb524f5c8cc477aa891b8cb47084828549382d64cf2a52afec10b457b53c31ed99c7e2fe4
+    storybook: ^10.4.2
+  checksum: 10c0/9eafff92b2cc4540d84468c9cc65e3378c5ca2973904f47860adb2e5bf26e11cd19a59a227d9bb3c4f682c429e23cfab5602e50a9255d44baa13e45311cdd738
   languageName: node
   linkType: hard
 
