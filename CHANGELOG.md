@@ -1,3 +1,9 @@
+## [7.1.0](https://github.com/newhighsco/chipset/compare/v7.0.2...v7.1.0) (2026-06-10)
+
+### Features
+
+* **image:** use `fetchPriority` ([#3207](https://github.com/newhighsco/chipset/issues/3207)) ([9e52567](https://github.com/newhighsco/chipset/commit/9e52567ce6185a6578b09a4a670fd7af5810f847))
+
 ## [7.0.2](https://github.com/newhighsco/chipset/compare/v7.0.1...v7.0.2) (2026-05-24)
 
 
