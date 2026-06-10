@@ -7,6 +7,7 @@ const Image = ({
   src,
   sources,
   alt = '',
+  fetchPriority = 'low',
   loading = 'lazy',
   decoding = 'async',
   className,
@@ -34,6 +35,7 @@ const Image = ({
         ...(!sources?.length && { className }),
         src,
         alt,
+        fetchPriority,
         loading,
         decoding,
         ...rest
@@ -48,6 +50,7 @@ Image.propTypes = {
     shape({ srcSet: string, sizes: string, media: string, type: string })
   ),
   alt: string,
+  fetchPriority: oneOf(['auto', 'low', 'high']),
   loading: oneOf(['auto', 'lazy', 'eager']),
   decoding: oneOf(['auto', 'async', 'sync']),
   className: string

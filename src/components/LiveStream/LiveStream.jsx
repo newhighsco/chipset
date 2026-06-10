@@ -54,13 +54,19 @@ const LiveStream = ({
             title="Live stream"
             src={videoUrl.href}
             allowFullScreen={allowFullScreen}
+            fetchPriority="low"
             loading="lazy"
           />
         </ResponsiveMedia>
       </Grid.Item>
       {chatUrl && (
         <Grid.Item className={theme?.chat}>
-          <iframe title="Live chat" src={chatUrl.href} loading="lazy" />
+          <iframe
+            title="Live chat"
+            src={chatUrl.href}
+            fetchPriority="low"
+            loading="lazy"
+          />
         </Grid.Item>
       )}
     </Grid>
