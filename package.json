@@ -53,7 +53,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "7.1.9",
     "@newhighsco/lint-staged-config": "1.1.0",
-    "@newhighsco/postcss-config": "4.0.53",
+    "@newhighsco/postcss-config": "4.0.54",
     "@newhighsco/prettier-config": "2.3.6",
     "@newhighsco/release-config": "1.5.1",
     "@newhighsco/storybook-preset": "10.2.50",
