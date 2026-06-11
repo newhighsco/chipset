@@ -1,5 +1,6 @@
 import { isMobile } from 'react-device-detect'
-import urlJoin from 'url-join'
+
+import { urlJoin } from '../../utils'
 
 const getExternalUrl = url =>
   `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`

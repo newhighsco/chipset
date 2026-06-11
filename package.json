@@ -40,7 +40,8 @@
     "@dr.pogodin/react-themes": "1.10.4",
     "@iconify/react": "6.0.2",
     "classnames": "2.5.1",
-    "react-device-detect": "2.2.3"
+    "react-device-detect": "2.2.3",
+    "url-join": "5.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.29.7",
