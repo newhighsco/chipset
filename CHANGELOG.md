@@ -1,3 +1,9 @@
+## [7.2.0](https://github.com/newhighsco/chipset/compare/v7.1.0...v7.2.0) (2026-06-11)
+
+### Features
+
+* **utils:** add `urlJoin` ([#3209](https://github.com/newhighsco/chipset/issues/3209)) ([a991b61](https://github.com/newhighsco/chipset/commit/a991b619b7f2aa7822d0ee66ff7491bd14360e55))
+
 ## [7.1.0](https://github.com/newhighsco/chipset/compare/v7.0.2...v7.1.0) (2026-06-10)
 
 ### Features
