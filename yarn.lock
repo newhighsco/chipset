@@ -3325,6 +3325,7 @@ __metadata:
     storybook: "npm:10.4.3"
     stylelint: "npm:17.13.0"
     typescript: "npm:6.0.3"
+    url-join: "npm:5.0.0"
     webpack: "npm:5.107.2"
   peerDependencies:
     react: 19.2.7
@@ -16569,7 +16570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-join@npm:^5.0.0":
+"url-join@npm:5.0.0, url-join@npm:^5.0.0":
   version: 5.0.0
   resolution: "url-join@npm:5.0.0"
   checksum: 10c0/ed2b166b4b5a98adcf6828a48b6bd6df1dac4c8a464a73cf4d8e2457ed410dd8da6be0d24855b86026cd7f5c5a3657c1b7b2c7a7c5b8870af17635a41387b04c

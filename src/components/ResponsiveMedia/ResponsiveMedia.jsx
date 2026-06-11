@@ -1,4 +1,3 @@
-import classNames from 'classnames'
 import {
   func,
   node,
@@ -9,6 +8,8 @@ import {
   string
 } from 'prop-types'
 import React from 'react'
+
+import { classNames } from '../../utils'
 
 const ratioRegExp = /^\d+:\d+$/
 
