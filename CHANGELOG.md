@@ -1,3 +1,9 @@
+## [7.2.1](https://github.com/newhighsco/chipset/compare/v7.2.0...v7.2.1) (2026-06-11)
+
+### Bug Fixes
+
+* update lockfile ([65a7d0b](https://github.com/newhighsco/chipset/commit/65a7d0ba46ed3d112bac2231cee16b0a6b5326aa))
+
 ## [7.2.0](https://github.com/newhighsco/chipset/compare/v7.1.0...v7.2.0) (2026-06-11)
 
 ### Features
