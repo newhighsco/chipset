@@ -2657,13 +2657,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:21.0.2":
-  version: 21.0.2
-  resolution: "@commitlint/config-conventional@npm:21.0.2"
+"@commitlint/config-conventional@npm:21.1.0":
+  version: 21.1.0
+  resolution: "@commitlint/config-conventional@npm:21.1.0"
   dependencies:
-    "@commitlint/types": "npm:^21.0.1"
+    "@commitlint/types": "npm:^21.1.0"
     conventional-changelog-conventionalcommits: "npm:^9.2.0"
-  checksum: 10c0/b399fc7b1b5d9964f24f040ecf4fd667556af3a24e49a40ac6b3f5724b24ce8a754201e8c75e7cd9517bad31655bc271be11912dcfa23ca728de332559fa15b7
+  checksum: 10c0/15cdf9c611976a29bef58fa1629d04979bde26ac09a65766c9e8350c48792fdc696970a6275e7c11658fa4cd4394e3d5012c78f0c5215b2fe91f9b678c8020d0
   languageName: node
   linkType: hard
 
@@ -2814,13 +2814,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^21.0.1":
-  version: 21.0.1
-  resolution: "@commitlint/types@npm:21.0.1"
+"@commitlint/types@npm:^21.0.1, @commitlint/types@npm:^21.1.0":
+  version: 21.1.0
+  resolution: "@commitlint/types@npm:21.1.0"
   dependencies:
     conventional-commits-parser: "npm:^6.3.0"
     picocolors: "npm:^1.1.1"
-  checksum: 10c0/a9f46c2fc4d00e8970baea7bb7ad46422e16dcbda2e580003d65860e6cf5d98e48e60fc24aea9965a1e15174c2d945754dfb1efec69e1e38636a4f043d5116f9
+  checksum: 10c0/472c5394d069589fe1e21a9108849682a1067ae37bf82801fa4a2183f4809db5de0b5204a8f2672bd3658751eefecff5321fd62c41f25a12d1dab8f1ad1cc19c
   languageName: node
   linkType: hard
 
@@ -4452,11 +4452,11 @@ __metadata:
     "@dr.pogodin/react-themes": "npm:1.10.5"
     "@iconify/react": "npm:6.0.2"
     "@newhighsco/browserslist-config": "npm:3.0.0"
-    "@newhighsco/commitlint-config": "npm:1.3.1"
+    "@newhighsco/commitlint-config": "npm:1.3.2"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.14"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
-    "@newhighsco/postcss-config": "npm:4.0.55"
+    "@newhighsco/postcss-config": "npm:4.0.56"
     "@newhighsco/prettier-config": "npm:2.3.6"
     "@newhighsco/release-config": "npm:1.5.1"
     "@newhighsco/storybook-preset": "npm:10.2.55"
@@ -4495,15 +4495,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@newhighsco/commitlint-config@npm:1.3.1":
-  version: 1.3.1
-  resolution: "@newhighsco/commitlint-config@npm:1.3.1"
+"@newhighsco/commitlint-config@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@newhighsco/commitlint-config@npm:1.3.2"
   dependencies:
-    "@commitlint/config-conventional": "npm:21.0.2"
+    "@commitlint/config-conventional": "npm:21.1.0"
   peerDependencies:
-    "@commitlint/cli": 21.0.2
+    "@commitlint/cli": 21.1.0
     husky: 9.1.7
-  checksum: 10c0/e237bf8d78a4e1ca93bd2040ba951d78a1fc3abf4a81bbd09356770c5bf0d64c29322dfdd7608ef50a658fad91a917def2dfcdd7b575729a5e22ed4462e9116a
+  checksum: 10c0/9edd7e574aa67ab52fd5ae31bcea012a89a06cea9c5f95971c89c5575555532a41caccc5c1ca6486b7ffd8197dd29746b8574a08cd42d21e2bbb522f5ea9bfe5
   languageName: node
   linkType: hard
 
@@ -4557,18 +4557,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.55":
-  version: 4.0.55
-  resolution: "@newhighsco/postcss-config@npm:4.0.55"
+"@newhighsco/postcss-config@npm:4.0.56":
+  version: 4.0.56
+  resolution: "@newhighsco/postcss-config@npm:4.0.56"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
-    autoprefixer: "npm:10.5.0"
+    autoprefixer: "npm:10.5.1"
     caniuse-lite: "npm:1.0.30001799"
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.3.1"
   peerDependencies:
     postcss: 8.5.15
-  checksum: 10c0/44822cb7607a7af362f69b94596d755a9ef5482a4ec68342ab85382125e2ae62e54ad8f59c6b7f930578e8162d212e00f57d52f464a32a6b6c516942ef431e45
+  checksum: 10c0/19f6cb4623aab14e9a86d10d27e05bbe78ed10bb1487ff3c7649873fcc957ad7763d0e167b5c5394660dd6bf3d9a5e5652d67953a30498ecf86337b961ea550d
   languageName: node
   linkType: hard
 
@@ -7731,12 +7731,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.5.0, autoprefixer@npm:^10.5.0":
-  version: 10.5.0
-  resolution: "autoprefixer@npm:10.5.0"
+"autoprefixer@npm:10.5.1, autoprefixer@npm:^10.5.0":
+  version: 10.5.1
+  resolution: "autoprefixer@npm:10.5.1"
   dependencies:
-    browserslist: "npm:^4.28.2"
-    caniuse-lite: "npm:^1.0.30001787"
+    browserslist: "npm:^4.28.4"
+    caniuse-lite: "npm:^1.0.30001799"
     fraction.js: "npm:^5.3.4"
     picocolors: "npm:^1.1.1"
     postcss-value-parser: "npm:^4.2.0"
@@ -7744,7 +7744,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: 10c0/3e1a7bb65ef3a44925d19fd18cbb96a9a73ef1a8bfaa134bc131743787a8983045d6e756cff0204d37c34a52cfc86d79182f444c221b631401f79d7873ae97a8
+  checksum: 10c0/abc050d82c27b3edf4a38f79b30a11ca41bcdaf1bec765efebf3506125f3333b98150e8f5449d3c9a2ca83ab5cfef3c113e58dccd5bc8ba4ac5a6f92226d3228
   languageName: node
   linkType: hard
 
@@ -8023,7 +8023,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.24.0, browserslist@npm:^4.28.1, browserslist@npm:^4.28.2":
+"browserslist@npm:^4.24.0, browserslist@npm:^4.28.1, browserslist@npm:^4.28.4":
   version: 4.28.4
   resolution: "browserslist@npm:4.28.4"
   dependencies:
@@ -8179,7 +8179,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:1.0.30001799, caniuse-lite@npm:^1.0.30001787, caniuse-lite@npm:^1.0.30001799":
+"caniuse-lite@npm:1.0.30001799, caniuse-lite@npm:^1.0.30001799":
   version: 1.0.30001799
   resolution: "caniuse-lite@npm:1.0.30001799"
   checksum: 10c0/f24f9834edc7b60188f368ce44714695c3901bc4acb7f2a977dd9b7b697e39ddc0f9947fad6224a955b789f36a73432cb888d620aa7280d728f582d3bd8927a7
