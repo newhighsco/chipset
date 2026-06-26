@@ -4457,10 +4457,10 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.1.14"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
     "@newhighsco/postcss-config": "npm:4.0.57"
-    "@newhighsco/prettier-config": "npm:2.3.6"
+    "@newhighsco/prettier-config": "npm:2.3.7"
     "@newhighsco/release-config": "npm:1.5.1"
     "@newhighsco/storybook-preset": "npm:10.2.55"
-    "@newhighsco/stylelint-config": "npm:4.0.46"
+    "@newhighsco/stylelint-config": "npm:4.0.47"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@storybook/react-webpack5": "npm:10.4.6"
@@ -4572,12 +4572,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/prettier-config@npm:2.3.6":
-  version: 2.3.6
-  resolution: "@newhighsco/prettier-config@npm:2.3.6"
+"@newhighsco/prettier-config@npm:2.3.7":
+  version: 2.3.7
+  resolution: "@newhighsco/prettier-config@npm:2.3.7"
   peerDependencies:
-    prettier: 3.8.4
-  checksum: 10c0/0eb39f3d7e57710e114ec35f1b94eff599cad4877de8d2c2e57da301b424b87069f2a322a56535849e3f1cfc26588a973ea498411cdc82990334f1d576e0bb9e
+    prettier: 3.8.5
+  checksum: 10c0/c1245f65a7e49aaf521e7771518a42664d1cc165246d6183aaff1f1df2e93860c5132d81214cd448ab897d38b420d57103bb16a14cc117806928fb746061cbd7
   languageName: node
   linkType: hard
 
@@ -4649,18 +4649,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.46":
-  version: 4.0.46
-  resolution: "@newhighsco/stylelint-config@npm:4.0.46"
+"@newhighsco/stylelint-config@npm:4.0.47":
+  version: 4.0.47
+  resolution: "@newhighsco/stylelint-config@npm:4.0.47"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
     stylelint-order: "npm:8.1.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
-    prettier: 3.8.4
+    prettier: 3.8.5
     stylelint: 17.14.0
-  checksum: 10c0/a4a450044152dbfd38048a4edded0eab64801343bf729d6675569e4a98c823e76872d070cf73e8936c4d8267d0f8ad469cd545d1df28499200929f36d0d5fadf
+  checksum: 10c0/2d08e38f53bdc1f4e2e64807ab4f57757912d21ae6c165d3061b7678a3c4163b70ad2319323723ae92047a01457b7b4bf67c3fe7a9492f61ee2e19cc02641e4d
   languageName: node
   linkType: hard
 
