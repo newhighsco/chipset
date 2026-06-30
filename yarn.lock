@@ -4488,7 +4488,7 @@ __metadata:
     stylelint: "npm:17.14.0"
     typescript: "npm:6.0.3"
     url-join: "npm:5.0.0"
-    webpack: "npm:5.108.2"
+    webpack: "npm:5.108.3"
   peerDependencies:
     react: 19.2.7
     react-dom: 19.2.7
@@ -18063,9 +18063,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5, webpack@npm:5.108.2":
-  version: 5.108.2
-  resolution: "webpack@npm:5.108.2"
+"webpack@npm:5, webpack@npm:5.108.3":
+  version: 5.108.3
+  resolution: "webpack@npm:5.108.3"
   dependencies:
     "@types/estree": "npm:^1.0.8"
     "@types/json-schema": "npm:^7.0.15"
@@ -18094,7 +18094,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 10c0/0415339267d6759502022d0fe9a18f59d8c5d5bd08c42566f6591b86814073ee63078ad90344e45ed8bd6f2de13d58623a98b4bf47a620fca356b997da3d7f74
+  checksum: 10c0/96a0e17e5443ed179be24ee91fe2d5aca25aad8cf61e3ea469219b1fe9f970642ae40e0f32ad84888e8867c7141e2b8b2eaf32c290edce2e93762482231b7dad
   languageName: node
   linkType: hard
 
