@@ -55,7 +55,7 @@
     "@newhighsco/lint-staged-config": "1.1.0",
     "@newhighsco/postcss-config": "4.0.59",
     "@newhighsco/prettier-config": "2.3.11",
-    "@newhighsco/release-config": "1.5.1",
+    "@newhighsco/release-config": "1.5.2",
     "@newhighsco/storybook-preset": "10.2.56",
     "@newhighsco/stylelint-config": "4.0.51",
     "@newhighsco/svgr-config": "1.0.0",
