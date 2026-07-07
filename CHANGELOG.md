@@ -1,3 +1,5 @@
+## [7.2.3](https://github.com/newhighsco/chipset/compare/v7.2.2...v7.2.3) (2026-07-07)
+
 ## [7.2.2](https://github.com/newhighsco/chipset/compare/v7.2.1...v7.2.2) (2026-06-20)
 
 ### Bug Fixes
