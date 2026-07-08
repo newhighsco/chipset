@@ -4458,7 +4458,7 @@ __metadata:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.2"
     "@newhighsco/browserslist-config": "npm:3.0.1"
-    "@newhighsco/commitlint-config": "npm:1.3.3"
+    "@newhighsco/commitlint-config": "npm:1.3.4"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.18"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
@@ -4501,15 +4501,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@newhighsco/commitlint-config@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@newhighsco/commitlint-config@npm:1.3.3"
+"@newhighsco/commitlint-config@npm:1.3.4":
+  version: 1.3.4
+  resolution: "@newhighsco/commitlint-config@npm:1.3.4"
   dependencies:
     "@commitlint/config-conventional": "npm:21.2.0"
   peerDependencies:
-    "@commitlint/cli": 21.2.0
+    "@commitlint/cli": 21.2.1
     husky: 9.1.7
-  checksum: 10c0/d44c7221900ec0677c82b050640a1ccf37847f56cd81e2b528e38b1800bc8df787c3a8543a5140119d644a4547411074371b84f85664a84ec955ff8b383e2a79
+  checksum: 10c0/21d70927916acbc33cbaa676362d6df5e5d5b576a6b27849d7ef83cbd39daf577ad0fdabb2dfe10c0591091f178c4de7928753a55e01f058ae150d948d7f8963
   languageName: node
   linkType: hard
 
