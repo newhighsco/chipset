@@ -1,0 +1,55 @@
+@use 'true' as *;
+@use '../font-faces' as *;
+
+@include test-module('font-faces') {
+  @include test('should output nothing by default') {
+    @include assert {
+      @include output {
+        @include font-faces;
+      }
+
+      @include expect {
+        // empty
+      }
+    }
+  }
+}
+
+@include test-module('font-faces($font-faces)') {
+  @include test('should output expected styles') {
+    @include assert {
+      @include output {
+        @include font-faces(
+          (
+            fizz: (
+              filename: 'fizz.woff',
+              font-weight: bold
+            ),
+            buzz: (
+              filename: 'buzz.woff2',
+              font-style: italic
+            )
+          )
+        );
+      }
+
+      @include expect {
+        @font-face {
+          font-display: swap;
+          font-family: fizz;
+          font-style: normal;
+          font-weight: bold;
+          src: url('/fonts/fizz.woff') format('woff');
+        }
+
+        @font-face {
+          font-display: swap;
+          font-family: buzz;
+          font-style: italic;
+          font-weight: normal;
+          src: url('/fonts/buzz.woff2') format('woff2');
+        }
+      }
+    }
+  }
+}
