@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+@use 'sass:list';
+@use 'sass:map';
+@use 'sass:string';
+
+@mixin font-faces($font-faces: (), $base: '/fonts/') {
+  @each $font-family, $font in $font-faces {
+    $filename: map.get($font, filename);
+    $format: list.nth(string.split($filename, '.'), -1);
+    $font-style: map.get($font, font-style) or normal;
+    $font-weight: map.get($font, font-weight) or normal;
+
+    @font-face {
+      font-display: swap;
+      font-family: $font-family;
+      font-style: $font-style;
+      font-weight: $font-weight;
+      src: url('#{$base}#{$filename}') format($format);
+    }
+  }
+}
