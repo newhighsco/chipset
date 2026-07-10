@@ -1,36 +1,34 @@
 @use 'true' as *;
-@use '../font-faces' as *;
+@use '../font';
 
-@include test-module('font-faces') {
+$font-files: (
+  fizz: (
+    filename: 'fizz.woff',
+    font-weight: bold
+  ),
+  buzz: (
+    filename: 'buzz.woff2',
+    font-style: italic
+  )
+);
+
+@include test-module('font.font-faces') {
   @include test('should output nothing by default') {
     @include assert {
       @include output {
-        @include font-faces;
+        @include font.font-faces;
       }
 
-      @include expect {
-        // empty
-      }
+      @include expect;
     }
   }
 }
 
-@include test-module('font-faces($font-faces)') {
+@include test-module('font.font-faces($font-faces)') {
   @include test('should output expected styles') {
     @include assert {
       @include output {
-        @include font-faces(
-          (
-            fizz: (
-              filename: 'fizz.woff',
-              font-weight: bold
-            ),
-            buzz: (
-              filename: 'buzz.woff2',
-              font-style: italic
-            )
-          )
-        );
+        @include font.font-faces(($font-files));
       }
 
       @include expect {
@@ -51,5 +49,15 @@
         }
       }
     }
+  }
+}
+
+@include test-module('font.font-urls') {
+  @include test('should output expected styles') {
+    @include assert-equal(font.font-urls(), null);
+    @include assert-equal(
+      font.font-urls($font-files),
+      ('/fonts/fizz.woff', '/fonts/buzz.woff2')
+    );
   }
 }
