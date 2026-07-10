@@ -60,7 +60,7 @@
     "@newhighsco/stylelint-config": "4.0.52",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
-    "@storybook/react-webpack5": "10.4.6",
+    "@storybook/react-webpack5": "10.5.0",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.2",
@@ -79,7 +79,7 @@
     "react-dom": "19.2.7",
     "sass-true": "10.1.0",
     "semantic-release": "25.0.5",
-    "storybook": "10.4.6",
+    "storybook": "10.5.0",
     "stylelint": "17.14.0",
     "typescript": "6.0.3",
     "webpack": "5.108.4"
