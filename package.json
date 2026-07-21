@@ -65,7 +65,7 @@
     "@testing-library/jest-dom": "7.0.0",
     "@testing-library/react": "16.3.2",
     "babel-loader": "10.1.1",
-    "chromatic": "18.0.1",
+    "chromatic": "18.1.0",
     "concurrently": "10.0.3",
     "eslint": "10.7.0",
     "husky": "9.1.7",
