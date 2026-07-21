@@ -4463,10 +4463,10 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.1.26"
     "@newhighsco/lint-staged-config": "npm:1.1.1"
     "@newhighsco/postcss-config": "npm:4.0.66"
-    "@newhighsco/prettier-config": "npm:2.3.12"
+    "@newhighsco/prettier-config": "npm:2.3.13"
     "@newhighsco/release-config": "npm:1.5.5"
-    "@newhighsco/storybook-preset": "npm:10.2.67"
-    "@newhighsco/stylelint-config": "npm:4.0.53"
+    "@newhighsco/storybook-preset": "npm:10.2.68"
+    "@newhighsco/stylelint-config": "npm:4.0.54"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@storybook/react-webpack5": "npm:10.5.3"
@@ -4578,12 +4578,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/prettier-config@npm:2.3.12":
-  version: 2.3.12
-  resolution: "@newhighsco/prettier-config@npm:2.3.12"
+"@newhighsco/prettier-config@npm:2.3.13":
+  version: 2.3.13
+  resolution: "@newhighsco/prettier-config@npm:2.3.13"
   peerDependencies:
-    prettier: 3.9.5
-  checksum: 10c0/2d3c02a407a5c42b13b9ad88130a5be7ec0b72aeb114903997ffaa19bc37bd24a970e7f82d100602f6eaad8c56ac6607958035df9c5f48622501e5357d8f1b40
+    prettier: 3.9.6
+  checksum: 10c0/a930cba7051f6bdad6dee3303b3b46fda848f2260cdb2bb73ccfd324434b5a40b094d6ac672291c3ab6a35f28b0e0d8df671fb3d63f66b5275994a7b86acbf5e
   languageName: node
   linkType: hard
 
@@ -4630,9 +4630,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.67":
-  version: 10.2.67
-  resolution: "@newhighsco/storybook-preset@npm:10.2.67"
+"@newhighsco/storybook-preset@npm:10.2.68":
+  version: 10.2.68
+  resolution: "@newhighsco/storybook-preset@npm:10.2.68"
   dependencies:
     "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -4644,29 +4644,29 @@ __metadata:
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.20"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.101.0"
+    sass: "npm:1.101.3"
     sass-loader: "npm:17.0.0"
     storybook-addon-pseudo-states: "npm:10.5.3"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.5.3
-  checksum: 10c0/dca722e726a691d439fe6293fdbe1b570e0c016afa87d8eaacfcb2061fdae0b53583977148a2fc2af3e95f757195c88f1634c5cd42ee991da34f8d0c4ca7b1d6
+  checksum: 10c0/683fdfa249ce94ffd806c6380553e0861a4367d95ac05f60d130eccd9015b884e16d654c2309228f13c4f3e51bfdcca7fd3010cce30f8de370ed409936fcce80
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.53":
-  version: 4.0.53
-  resolution: "@newhighsco/stylelint-config@npm:4.0.53"
+"@newhighsco/stylelint-config@npm:4.0.54":
+  version: 4.0.54
+  resolution: "@newhighsco/stylelint-config@npm:4.0.54"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
     stylelint-order: "npm:8.1.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
-    prettier: 3.9.5
+    prettier: 3.9.6
     stylelint: 17.14.1
-  checksum: 10c0/9b08c3ffc2bdd2f6917c806e250d08019b1269fbced187dba13b280e5ebb9d0b7339713d0bef1bca46aa88a38aa4dfa02b8d36989aa6218e13fee42af11686ec
+  checksum: 10c0/32c1d1f1f8b099f4bc6ec32dfa75cd0df300324432a8762b35fb8b87ce47f975152b37778528076306cdae2cd5ef1c849396b7397d092c909160e7a1ce271f44
   languageName: node
   linkType: hard
 
@@ -15994,9 +15994,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.101.0":
-  version: 1.101.0
-  resolution: "sass@npm:1.101.0"
+"sass@npm:1.101.3":
+  version: 1.101.3
+  resolution: "sass@npm:1.101.3"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^5.0.0"
@@ -16007,7 +16007,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/1fbbcef2f767dec4d97773a2a084f4e1ef2e4abecf574e08743e52237069f1129a6b43b07b5c23aa3bcbf395509e40db758d9748a07940da227aa1626329a74d
+  checksum: 10c0/a1ae0d12511f7bb3b49bc0bc3c126093078b0c901608b5f45c03dfec82b4afdef2887f4699188e818b0ce159c5f6eee297282a387e19a264f4dd41437329e1b8
   languageName: node
   linkType: hard
 
