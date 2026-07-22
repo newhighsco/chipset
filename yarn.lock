@@ -4465,7 +4465,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.67"
     "@newhighsco/prettier-config": "npm:2.3.13"
     "@newhighsco/release-config": "npm:1.5.6"
-    "@newhighsco/storybook-preset": "npm:10.2.68"
+    "@newhighsco/storybook-preset": "npm:10.2.69"
     "@newhighsco/stylelint-config": "npm:4.0.54"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -4630,9 +4630,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.68":
-  version: 10.2.68
-  resolution: "@newhighsco/storybook-preset@npm:10.2.68"
+"@newhighsco/storybook-preset@npm:10.2.69":
+  version: 10.2.69
+  resolution: "@newhighsco/storybook-preset@npm:10.2.69"
   dependencies:
     "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -4642,7 +4642,7 @@ __metadata:
     "@storybook/addon-styling-webpack": "npm:3.0.2"
     "@storybook/addon-webpack5-compiler-swc": "npm:4.0.3"
     css-loader: "npm:7.1.4"
-    postcss: "npm:8.5.20"
+    postcss: "npm:8.5.21"
     postcss-loader: "npm:8.2.1"
     sass: "npm:1.101.3"
     sass-loader: "npm:17.0.0"
@@ -4651,7 +4651,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.5.3
-  checksum: 10c0/683fdfa249ce94ffd806c6380553e0861a4367d95ac05f60d130eccd9015b884e16d654c2309228f13c4f3e51bfdcca7fd3010cce30f8de370ed409936fcce80
+  checksum: 10c0/0084ab040d16f423b23fd5951b2a2584d17ed26387493341d61cd707446c3cbe62324f1695cb8c1ef0b933b18d1360cd48e1518ddd66c4a6a2202760e09a9abb
   languageName: node
   linkType: hard
 
@@ -15152,14 +15152,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.20, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.16, postcss@npm:^8.5.6, postcss@npm:^8.5.8":
-  version: 8.5.20
-  resolution: "postcss@npm:8.5.20"
+"postcss@npm:8.5.21, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.16, postcss@npm:^8.5.6, postcss@npm:^8.5.8":
+  version: 8.5.21
+  resolution: "postcss@npm:8.5.21"
   dependencies:
     nanoid: "npm:^3.3.16"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/9c7a0e32c77ac54c5613f974e6ccc97d4a70fdb3bf242617f3fb4d652e5c62a37c86c589e6e7a2d1e7120f80bc169cdf673482b88bd75020d2a44899fa569c13
+  checksum: 10c0/89bf8860bba456eafcbc6c8addc3f5d3010529069ec67adb1a26b79b098d1b2afa49cc1abf80c5b01867980db6eae0c02fd0350e17a84c5f12d07aaec704aa50
   languageName: node
   linkType: hard
 
