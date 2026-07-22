@@ -4464,8 +4464,8 @@ __metadata:
     "@newhighsco/lint-staged-config": "npm:1.1.2"
     "@newhighsco/postcss-config": "npm:4.0.68"
     "@newhighsco/prettier-config": "npm:2.3.13"
-    "@newhighsco/release-config": "npm:1.5.6"
-    "@newhighsco/storybook-preset": "npm:10.2.70"
+    "@newhighsco/release-config": "npm:1.5.7"
+    "@newhighsco/storybook-preset": "npm:10.2.71"
     "@newhighsco/stylelint-config": "npm:4.0.54"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -4587,9 +4587,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.5.6":
-  version: 1.5.6
-  resolution: "@newhighsco/release-config@npm:1.5.6"
+"@newhighsco/release-config@npm:1.5.7":
+  version: 1.5.7
+  resolution: "@newhighsco/release-config@npm:1.5.7"
   dependencies:
     "@semantic-release/changelog": "npm:7.0.0"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
@@ -4597,13 +4597,14 @@ __metadata:
     "@semantic-release/github": "npm:12.0.9"
     "@semantic-release/npm": "npm:13.1.5"
     "@semantic-release/release-notes-generator": "npm:14.1.1"
+    conventional-changelog-conventionalcommits: "npm:10.2.1"
   peerDependencies:
     semantic-release: 25.0.8
     semantic-release-circleci-orb: 1.1.1
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/3648c65960ac44b47ad17a37eb8a7eae800d58e343f0cb64218eab03387646fd39ae832a09884b6c28763f615f6646120363fcd38ce9b8975604056b6e92f427
+  checksum: 10c0/40711d8c27ad3f944d535b438ed18fa8f2f3205a94382a5fb4fc322c06455e2a2fdab3b7eec1840a1cc0a9a7534ffbba141e303ab12c416cff55bce2b2fcf748
   languageName: node
   linkType: hard
 
@@ -4630,9 +4631,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.70":
-  version: 10.2.70
-  resolution: "@newhighsco/storybook-preset@npm:10.2.70"
+"@newhighsco/storybook-preset@npm:10.2.71":
+  version: 10.2.71
+  resolution: "@newhighsco/storybook-preset@npm:10.2.71"
   dependencies:
     "@newhighsco/chipset": "npm:7.4.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -4644,14 +4645,14 @@ __metadata:
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.22"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.101.3"
+    sass: "npm:1.101.5"
     sass-loader: "npm:17.0.0"
     storybook-addon-pseudo-states: "npm:10.5.3"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: 10.5.3
-  checksum: 10c0/c51e0f49b16f2863ac1e116721152d45a95e50bace493cf9f42024afd15a50bbe031fc4e6d3d3d6166a93cc68d780a32c233537fd8200a70c34ca3bfbb15aa92
+  checksum: 10c0/d7abb4726c4ee0d80ef671248c38840c3616b281204c0d9b07cfffd05572d86e393685f06d0f62293b24d561ff60ba97c50e4dc273c5bb5000f2a9fed7de0b8e
   languageName: node
   linkType: hard
 
@@ -8628,7 +8629,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^10.0.0":
+"conventional-changelog-conventionalcommits@npm:10.2.1, conventional-changelog-conventionalcommits@npm:^10.0.0":
   version: 10.2.1
   resolution: "conventional-changelog-conventionalcommits@npm:10.2.1"
   dependencies:
@@ -15962,9 +15963,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.101.3":
-  version: 1.101.3
-  resolution: "sass@npm:1.101.3"
+"sass@npm:1.101.5":
+  version: 1.101.5
+  resolution: "sass@npm:1.101.5"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^5.0.0"
@@ -15975,7 +15976,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/a1ae0d12511f7bb3b49bc0bc3c126093078b0c901608b5f45c03dfec82b4afdef2887f4699188e818b0ce159c5f6eee297282a387e19a264f4dd41437329e1b8
+  checksum: 10c0/09b862a2bb39087644672b997dbbb45d5344dae32076bc1320877cb8de70ec4ad98d91a178853b04f0b42fa61ce3d513d1893817382a3835a69746e8a7f2a145
   languageName: node
   linkType: hard
 
