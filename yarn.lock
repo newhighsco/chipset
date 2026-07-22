@@ -4461,7 +4461,7 @@ __metadata:
     "@newhighsco/commitlint-config": "npm:1.3.4"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.26"
-    "@newhighsco/lint-staged-config": "npm:1.1.1"
+    "@newhighsco/lint-staged-config": "npm:1.1.2"
     "@newhighsco/postcss-config": "npm:4.0.67"
     "@newhighsco/prettier-config": "npm:2.3.13"
     "@newhighsco/release-config": "npm:1.5.6"
@@ -4553,13 +4553,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/lint-staged-config@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@newhighsco/lint-staged-config@npm:1.1.1"
+"@newhighsco/lint-staged-config@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@newhighsco/lint-staged-config@npm:1.1.2"
   peerDependencies:
     husky: 9.1.7
-    lint-staged: 17.1.0
-  checksum: 10c0/b52f4509cb9da3422f7b7ba1f43d51fb96e333e5999c48d82115aca39c07668af22b20e05bda22b2e5d874ec4b3e9d711c72f5dd24694185bf2f3351a92a28de
+    lint-staged: 17.1.1
+  checksum: 10c0/7d1447d2eaea447ca0d86d9e2da210123e829e23dc9b486cf4c0252a9e4e26c7f1bb3107b4bd27f739e90a5ebe040905840dc9082ec6d5add0878ec35c127b39
   languageName: node
   linkType: hard
 
