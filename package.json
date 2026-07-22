@@ -76,7 +76,7 @@
     "lint-staged": "17.1.0",
     "prettier": "3.9.6",
     "react": "19.2.7",
-    "react-dom": "19.2.7",
+    "react-dom": "19.2.8",
     "sass-true": "10.1.0",
     "semantic-release": "25.0.8",
     "storybook": "10.5.3",
@@ -86,7 +86,7 @@
   },
   "peerDependencies": {
     "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react-dom": "19.2.8"
   },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
