@@ -4447,23 +4447,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.4.0":
-  version: 7.4.0
-  resolution: "@newhighsco/chipset@npm:7.4.0"
-  dependencies:
-    "@dr.pogodin/react-themes": "npm:1.11.0"
-    "@iconify/react": "npm:6.0.2"
-    classnames: "npm:2.5.1"
-    react-device-detect: "npm:2.2.3"
-    url-join: "npm:5.0.0"
-  peerDependencies:
-    react: 19.2.7
-    react-dom: 19.2.7
-  checksum: 10c0/d399baf8f1060b7cf6ada7b604dc71502a8ff2bef35d7c22ed70c12f1ee6c1c3e36ce2f7810d943b996b21d3d3a22c331d7af26df3f44f88894aeff41c50167b
-  languageName: node
-  linkType: hard
-
-"@newhighsco/chipset@workspace:.":
+"@newhighsco/chipset@npm:7.4.1, @newhighsco/chipset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@newhighsco/chipset@workspace:."
   dependencies:
@@ -4474,15 +4458,15 @@ __metadata:
     "@dr.pogodin/react-themes": "npm:1.11.0"
     "@iconify/react": "npm:6.0.2"
     "@newhighsco/browserslist-config": "npm:3.0.1"
-    "@newhighsco/commitlint-config": "npm:1.3.4"
+    "@newhighsco/commitlint-config": "npm:1.3.5"
     "@newhighsco/editor-config": "npm:1.2.0"
     "@newhighsco/eslint-config": "npm:7.1.28"
-    "@newhighsco/lint-staged-config": "npm:1.1.3"
-    "@newhighsco/postcss-config": "npm:4.0.69"
-    "@newhighsco/prettier-config": "npm:2.3.13"
-    "@newhighsco/release-config": "npm:1.5.9"
-    "@newhighsco/storybook-preset": "npm:10.2.75"
-    "@newhighsco/stylelint-config": "npm:4.0.54"
+    "@newhighsco/lint-staged-config": "npm:1.1.4"
+    "@newhighsco/postcss-config": "npm:4.0.70"
+    "@newhighsco/prettier-config": "npm:2.3.14"
+    "@newhighsco/release-config": "npm:1.5.10"
+    "@newhighsco/storybook-preset": "npm:10.2.77"
+    "@newhighsco/stylelint-config": "npm:4.0.55"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@storybook/react-webpack5": "npm:10.5.4"
@@ -4517,15 +4501,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@newhighsco/commitlint-config@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@newhighsco/commitlint-config@npm:1.3.4"
+"@newhighsco/commitlint-config@npm:1.3.5":
+  version: 1.3.5
+  resolution: "@newhighsco/commitlint-config@npm:1.3.5"
   dependencies:
     "@commitlint/config-conventional": "npm:21.2.0"
   peerDependencies:
-    "@commitlint/cli": 21.2.1
-    husky: 9.1.7
-  checksum: 10c0/21d70927916acbc33cbaa676362d6df5e5d5b576a6b27849d7ef83cbd39daf577ad0fdabb2dfe10c0591091f178c4de7928753a55e01f058ae150d948d7f8963
+    "@commitlint/cli": ^21
+    husky: ^9
+  checksum: 10c0/cadaa467f5c3c8ab89762c15ec0ac14211891f4740c03162952d094035e986164a74f7d7cad17cd65281012beafee65d94dd61395bfe32846f72054bdf38e4fa
   languageName: node
   linkType: hard
 
@@ -4569,19 +4553,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/lint-staged-config@npm:1.1.3":
-  version: 1.1.3
-  resolution: "@newhighsco/lint-staged-config@npm:1.1.3"
+"@newhighsco/lint-staged-config@npm:1.1.4":
+  version: 1.1.4
+  resolution: "@newhighsco/lint-staged-config@npm:1.1.4"
   peerDependencies:
-    husky: 9.1.7
-    lint-staged: 17.2.0
-  checksum: 10c0/c1cd13d5fa493d5331a8cad5b71bcb525ef743e1656e5947cc3a8740307496e4ddb4c78045bdc04348e314721a02909eca6b9e95d2553ee344898b2832d1ff59
+    husky: ^9
+    lint-staged: ^17
+  checksum: 10c0/70b691ca8f45fa828900b2afa51c37b0fc053f4e4c26f0c68ce1f64cb7f88e345ed06f92a3e8603b0e723f930215dd6e919a28a066c5b13ece5f115b2bfb5001
   languageName: node
   linkType: hard
 
-"@newhighsco/postcss-config@npm:4.0.69":
-  version: 4.0.69
-  resolution: "@newhighsco/postcss-config@npm:4.0.69"
+"@newhighsco/postcss-config@npm:4.0.70":
+  version: 4.0.70
+  resolution: "@newhighsco/postcss-config@npm:4.0.70"
   dependencies:
     "@fullhuman/postcss-purgecss": "npm:8.0.0"
     autoprefixer: "npm:10.5.4"
@@ -4589,23 +4573,23 @@ __metadata:
     postcss-flexbugs-fixes: "npm:5.0.2"
     postcss-preset-env: "npm:11.3.2"
   peerDependencies:
-    postcss: 8.5.23
-  checksum: 10c0/106e86be1b8c5b9e8a81bcbf610d8f37019917136747ec5ef29c6efb56d2857ce53b19887d1c99d720ef61434e529a10428df1bcc138f630b9009b15ea8f41f0
+    postcss: ^8
+  checksum: 10c0/553bd6b04f62dcd4066134001125c9bf2c6bf2999ced607c1c4d79090545e2ba4f26b0a6f735284b23e34a3ee1196d3ac24f6b8f2896537abef6bdf912ac6dbd
   languageName: node
   linkType: hard
 
-"@newhighsco/prettier-config@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@newhighsco/prettier-config@npm:2.3.13"
+"@newhighsco/prettier-config@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@newhighsco/prettier-config@npm:2.3.14"
   peerDependencies:
-    prettier: 3.9.6
-  checksum: 10c0/a930cba7051f6bdad6dee3303b3b46fda848f2260cdb2bb73ccfd324434b5a40b094d6ac672291c3ab6a35f28b0e0d8df671fb3d63f66b5275994a7b86acbf5e
+    prettier: ^3
+  checksum: 10c0/522a2f0ae219760069c7458809448812740ab435f6b8f3ab556e76d4a8ae65d5dd780239085640e9531fd3ecccaa58e304debcc2f269840c4d5499faf8b153ef
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.5.9":
-  version: 1.5.9
-  resolution: "@newhighsco/release-config@npm:1.5.9"
+"@newhighsco/release-config@npm:1.5.10":
+  version: 1.5.10
+  resolution: "@newhighsco/release-config@npm:1.5.10"
   dependencies:
     "@semantic-release/changelog": "npm:7.0.0"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
@@ -4615,12 +4599,12 @@ __metadata:
     "@semantic-release/release-notes-generator": "npm:14.1.1"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
   peerDependencies:
-    semantic-release: 25.0.8
-    semantic-release-circleci-orb: 1.1.1
+    semantic-release: ^25
+    semantic-release-circleci-orb: ^1
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/225bf1b729bdbf6e5dce54865a71dbaf2b2dfc4f3c851fd84932e81a1cad9610885cdebe3320cf5da463956af279793385cb43743a018562a66174772ada2891
+  checksum: 10c0/64c011d849487a1cd93a2235267a715848e4e39826bdcf6a4ed7f9e7bdc8928f92a84fcd68acf2bf84e178ed1faca029cf6e68d0ac0017c80f0ee610783b8c21
   languageName: node
   linkType: hard
 
@@ -4647,11 +4631,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.75":
-  version: 10.2.75
-  resolution: "@newhighsco/storybook-preset@npm:10.2.75"
+"@newhighsco/storybook-preset@npm:10.2.77":
+  version: 10.2.77
+  resolution: "@newhighsco/storybook-preset@npm:10.2.77"
   dependencies:
-    "@newhighsco/chipset": "npm:7.4.0"
+    "@newhighsco/chipset": "npm:7.4.1"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.5.4"
@@ -4661,29 +4645,29 @@ __metadata:
     css-loader: "npm:7.1.4"
     postcss: "npm:8.5.23"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.101.7"
+    sass: "npm:1.102.0"
     sass-loader: "npm:17.0.0"
     storybook-addon-pseudo-states: "npm:10.5.4"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
-    storybook: 10.5.4
-  checksum: 10c0/c4d1acb0090550172d4cd77438bebffddc1aa6b0fde8807709f03a5197d70234153915eb97e4c478cac453207a073141e43d7b3aa3f576a22358ff223f07f2d0
+    storybook: ^10
+  checksum: 10c0/8d6c3339411eb62b5e0449d2f85bd38752f6a46037dd37b8badc920b98bc1205495ecebf55bc3c8efa87927047da4dfcdbefa6e9a6c448a334728d0c60c31d3b
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.54":
-  version: 4.0.54
-  resolution: "@newhighsco/stylelint-config@npm:4.0.54"
+"@newhighsco/stylelint-config@npm:4.0.55":
+  version: 4.0.55
+  resolution: "@newhighsco/stylelint-config@npm:4.0.55"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
     stylelint-order: "npm:8.1.1"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
-    prettier: 3.9.6
-    stylelint: 17.14.1
-  checksum: 10c0/32c1d1f1f8b099f4bc6ec32dfa75cd0df300324432a8762b35fb8b87ce47f975152b37778528076306cdae2cd5ef1c849396b7397d092c909160e7a1ce271f44
+    prettier: ^3
+    stylelint: ^17
+  checksum: 10c0/82176e38b029dd0fd60d98c94a2eee9dc4adc12c96a85452d5391e63db7b533a6e3ba16b1147b38f758a15d85f0594f5c3b1fcd2f4cd83364674fb57ae923f5b
   languageName: node
   linkType: hard
 
@@ -15993,9 +15977,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.101.7":
-  version: 1.101.7
-  resolution: "sass@npm:1.101.7"
+"sass@npm:1.102.0":
+  version: 1.102.0
+  resolution: "sass@npm:1.102.0"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^5.0.0"
@@ -16006,7 +15990,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/26f251b5f6db131fe55abc603a5a9890bdac45bf78199ec9b070a876736862d5b1bad610fbc1b4798022f658da0ba610428f87031f6788773b851620d89e7e60
+  checksum: 10c0/77c05a0d14dc05653e98978c4f1cc6754254fcbf6cba71f111bc49c0c69477f3f9e180f99c65641d19a23b964d6039ef116191700144ebefc1709a5b6d5899b1
   languageName: node
   linkType: hard
 
