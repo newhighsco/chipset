@@ -4496,8 +4496,8 @@ __metadata:
     url-join: "npm:5.0.0"
     webpack: "npm:5.109.0"
   peerDependencies:
-    react: 19.2.8
-    react-dom: 19.2.8
+    react: ^19
+    react-dom: ^19
   languageName: unknown
   linkType: soft
 

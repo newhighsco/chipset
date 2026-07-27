@@ -85,8 +85,8 @@
     "webpack": "5.109.0"
   },
   "peerDependencies": {
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react": "^19",
+    "react-dom": "^19"
   },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
