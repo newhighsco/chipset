@@ -4469,7 +4469,7 @@ __metadata:
     "@newhighsco/stylelint-config": "npm:4.0.55"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
-    "@storybook/react-webpack5": "npm:10.5.4"
+    "@storybook/react-webpack5": "npm:10.5.5"
     "@testing-library/dom": "npm:10.4.1"
     "@testing-library/jest-dom": "npm:7.0.0"
     "@testing-library/react": "npm:16.3.2"
@@ -5843,11 +5843,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/builder-webpack5@npm:10.5.4":
-  version: 10.5.4
-  resolution: "@storybook/builder-webpack5@npm:10.5.4"
+"@storybook/builder-webpack5@npm:10.5.5":
+  version: 10.5.5
+  resolution: "@storybook/builder-webpack5@npm:10.5.5"
   dependencies:
-    "@storybook/core-webpack": "npm:10.5.4"
+    "@storybook/core-webpack": "npm:10.5.5"
     case-sensitive-paths-webpack-plugin: "npm:^2.4.0"
     cjs-module-lexer: "npm:^1.2.3"
     css-loader: "npm:^7.1.2"
@@ -5864,22 +5864,22 @@ __metadata:
     webpack-hot-middleware: "npm:^2.25.1"
     webpack-virtual-modules: "npm:^0.6.0"
   peerDependencies:
-    storybook: ^10.5.4
+    storybook: ^10.5.5
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/bf64e3d104443b847acc86407293c8dbad8878ae86ddb24b79243412957d9650383adfc30807f087587c48db8150bdff0628f6cf3c6bc92a575caccf0e83c0a1
+  checksum: 10c0/7180b40f690c49b43e1797e5e59ca24e464376dd9ce2e6f7072d33327de09fa601bc357c8a74c411ad8875d536690d10228ccebb8d2b2a26a314a07db9001c6c
   languageName: node
   linkType: hard
 
-"@storybook/core-webpack@npm:10.5.4":
-  version: 10.5.4
-  resolution: "@storybook/core-webpack@npm:10.5.4"
+"@storybook/core-webpack@npm:10.5.5":
+  version: 10.5.5
+  resolution: "@storybook/core-webpack@npm:10.5.5"
   dependencies:
     ts-dedent: "npm:^2.0.0"
   peerDependencies:
-    storybook: ^10.5.4
-  checksum: 10c0/c67c6745c143e5d9a753196f7d936669da38611d424feec7ff10904d0c51a705bf9e8e09e84579c9d56adb9b83fe2ae7ffa84447ab9be4892bd4b03cd8102254
+    storybook: ^10.5.5
+  checksum: 10c0/7fa4acdda304452be1f105af5a1cbe89ab3e594fc247d3f73ea91407586c06abbb6ecb0f10d2bd1f92b6355b87f5189a0e6a18687dba27b990ea887b551af8e0
   languageName: node
   linkType: hard
 
@@ -5923,11 +5923,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/preset-react-webpack@npm:10.5.4":
-  version: 10.5.4
-  resolution: "@storybook/preset-react-webpack@npm:10.5.4"
+"@storybook/preset-react-webpack@npm:10.5.5":
+  version: 10.5.5
+  resolution: "@storybook/preset-react-webpack@npm:10.5.5"
   dependencies:
-    "@storybook/core-webpack": "npm:10.5.4"
+    "@storybook/core-webpack": "npm:10.5.5"
     "@storybook/react-docgen-typescript-plugin": "npm:1.0.6--canary.9.0c3f3b7.0"
     "@types/semver": "npm:^7.7.1"
     magic-string: "npm:^0.30.5"
@@ -5939,11 +5939,11 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.5.4
+    storybook: ^10.5.5
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/cedab76517b4d16c46d1eb6491d5085b0a029ec96831af342289beab1fc99c29bbd85b291d97c8fa3ae454d8a4f69d5933ee35324c6000536c3c2794667fe023
+  checksum: 10c0/f695d36118a21b2cc46ade5745d60b667fa3fd0170340556ea70ee380c1ee8fe153ac82e884aa68e412db882c215cb2cb32a353eaf2c3d72da07a7061c5dc1c4
   languageName: node
   linkType: hard
 
@@ -5983,31 +5983,49 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-webpack5@npm:10.5.4":
-  version: 10.5.4
-  resolution: "@storybook/react-webpack5@npm:10.5.4"
+"@storybook/react-dom-shim@npm:10.5.5":
+  version: 10.5.5
+  resolution: "@storybook/react-dom-shim@npm:10.5.5"
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    "@types/react-dom": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    storybook: ^10.5.5
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10c0/f469ff9b6c0e41c4b5b8b5d50e13bcdb63ff221af04f10d53584b5997b44e374ce41827d471cb9273a4ab52d2486ab0b7e90c724cb90cfb0a1c3658c925fa840
+  languageName: node
+  linkType: hard
+
+"@storybook/react-webpack5@npm:10.5.5":
+  version: 10.5.5
+  resolution: "@storybook/react-webpack5@npm:10.5.5"
   dependencies:
-    "@storybook/builder-webpack5": "npm:10.5.4"
-    "@storybook/preset-react-webpack": "npm:10.5.4"
-    "@storybook/react": "npm:10.5.4"
+    "@storybook/builder-webpack5": "npm:10.5.5"
+    "@storybook/preset-react-webpack": "npm:10.5.5"
+    "@storybook/react": "npm:10.5.5"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.5.4
+    storybook: ^10.5.5
     typescript: ">= 4.9.x"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/d1e04d08804156b46975698bbf1d02728d30596a8b9d9b378b35d90bba65ccc191f18363668e12b2ad7f14d742965fa1e760c183bb0fcde9646592c1fc364932
+  checksum: 10c0/c748ad3b07082eb5dfc2fd501299239404d91e62198cc4e536f09b2c2a66ea3596570c5286c9906d0eba700d3a42e59e0790b8255d4fe57dd68f29d8d7d05da0
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:10.5.4":
-  version: 10.5.4
-  resolution: "@storybook/react@npm:10.5.4"
+"@storybook/react@npm:10.5.5":
+  version: 10.5.5
+  resolution: "@storybook/react@npm:10.5.5"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
-    "@storybook/react-dom-shim": "npm:10.5.4"
+    "@storybook/react-dom-shim": "npm:10.5.5"
     react-docgen: "npm:^8.0.2"
     react-docgen-typescript: "npm:^2.2.2"
   peerDependencies:
@@ -6015,7 +6033,7 @@ __metadata:
     "@types/react-dom": ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    storybook: ^10.5.4
+    storybook: ^10.5.5
     typescript: ">= 4.9.x"
   peerDependenciesMeta:
     "@types/react":
@@ -6024,7 +6042,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/65b5cf6cfcfb85c2138ca1939efd846d1d29994993fb5fbed036cc9167930e7a334aa76c98de3c025e0afba3a54361744696e8ff522ac5e6b6e8e9ff75d5f274
+  checksum: 10c0/5970fc386c38a46107fbf522c04fb8fd2f9f935059ce4cbc1c501eff14366d07db1fc3df6c5e744c5fa3b5892cc1d8ae9a56d69fb39994937148f9d544773b44
   languageName: node
   linkType: hard
 
