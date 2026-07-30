@@ -1,3 +1,5 @@
+## [7.4.2](https://github.com/newhighsco/chipset/compare/v7.4.1...v7.4.2) (2026-07-30)
+
 ## [7.4.1](https://github.com/newhighsco/chipset/compare/v7.4.0...v7.4.1) (2026-07-27)
 
 ## [7.4.0](https://github.com/newhighsco/chipset/compare/v7.3.0...v7.4.0) (2026-07-10)
