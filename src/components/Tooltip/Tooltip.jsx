@@ -20,8 +20,10 @@ const Tooltip = ({
   align = 'center',
   valign = 'top',
   disabled,
+  described = true,
   theme,
-  className
+  className,
+  ...rest
 }) => {
   const [visible, toggleVisibility, setVisibility] = useToggle(!hidden)
   const id = useIds()
@@ -30,8 +32,6 @@ const Tooltip = ({
 
   return (
     <span
-      role={role}
-      aria-describedby={id}
       className={classNames(theme?.root, className)}
       {...(!manual && {
         onMouseOver: () => setVisibility(true),
@@ -40,6 +40,7 @@ const Tooltip = ({
         onBlur: () => setVisibility(false),
         onTouchEnd: () => setVisibility(false)
       })}
+      {...rest}
     >
       <SmartLink
         className={classNames(theme?.toggle, visible && theme?.toggleActive)}
@@ -47,6 +48,8 @@ const Tooltip = ({
         target={target}
         disabled={disabled}
         aria-expanded={visible}
+        aria-describedby={described ? id : undefined}
+        aria-labelledby={!described ? id : undefined}
         {...(manual && { onClick: toggleVisibility })}
       >
         {toggle}
@@ -54,6 +57,7 @@ const Tooltip = ({
       {(heading || children) && (
         <span
           id={id}
+          role={role}
           className={classNames(
             theme?.content,
             align && theme?.[align],
@@ -81,6 +85,7 @@ Tooltip.propTypes = {
   align: oneOf(['left', 'right', 'center']),
   valign: oneOf(['top', 'middle', 'bottom']),
   disabled: bool,
+  described: bool,
   theme: shape({
     root: string,
     toggle: string,
