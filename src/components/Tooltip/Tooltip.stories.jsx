@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Tooltip } from '..'
+import Icon from '../Icon/Icon'
 
 export default { component: Tooltip }
 
@@ -27,6 +28,16 @@ export const WithHover = {
   args: { ...WithClick.args, toggle: 'Hover/focus to view', manual: false },
   decorators: WithClick.decorators,
   name: 'With Hover/focus'
+}
+
+export const WithAriaLabelledBy = {
+  args: {
+    ...WithClick.args,
+    described: false,
+    toggle: <Icon name="material-symbols:menu" />
+  },
+  decorators: WithClick.decorators,
+  name: 'With [aria-labelledby]'
 }
 
 export const Alignment = {
