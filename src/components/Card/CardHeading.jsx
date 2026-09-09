@@ -3,18 +3,18 @@ import React from 'react'
 
 import SmartLink from '../SmartLink'
 
-const CardHeading = ({ href, target, children, theme }) => {
+const CardHeading = ({
+  href,
+  target,
+  renderLink = props => <SmartLink {...props} />,
+  children,
+  theme
+}) => {
   if (!children) return null
 
   return (
     <div className={theme?.heading}>
-      {href ? (
-        <SmartLink href={href} target={target}>
-          {children}
-        </SmartLink>
-      ) : (
-        children
-      )}
+      {href ? renderLink({ href, target, children }) : children}
     </div>
   )
 }
@@ -24,6 +24,7 @@ CardHeading.propTypes = {
   target: string,
   children: node,
   ref: oneOfType([func, object]),
+  renderLink: func,
   theme: object
 }
 

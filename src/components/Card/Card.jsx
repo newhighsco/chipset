@@ -24,6 +24,7 @@ const Card = ({
   children,
   theme,
   className,
+  renderLink,
   setRef,
   ...rest
 }) => {
@@ -39,7 +40,12 @@ const Card = ({
       <CardImage {...image} theme={theme} />
       {(heading || children) && (
         <div className={theme?.content}>
-          <CardHeading href={href} target={target} theme={theme}>
+          <CardHeading
+            href={href}
+            target={target}
+            theme={theme}
+            renderLink={renderLink}
+          >
             {heading}
           </CardHeading>
           {children && <div className={theme?.copy}>{children}</div>}
@@ -63,6 +69,7 @@ Card.propTypes = {
     heading: string,
     copy: string
   }),
+  renderLink: func,
   setRef: oneOfType([func, object]),
   className: string
 }
