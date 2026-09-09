@@ -8684,15 +8684,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^10.0.0":
-  version: 10.4.0
-  resolution: "conventional-changelog-conventionalcommits@npm:10.4.0"
-  dependencies:
-    "@conventional-changelog/template": "npm:^1.4.0"
-  checksum: 10c0/60d99d74e6fdba134fc4785c13f87df82b9cabd980b4390dc958a8abf75d6fe1fdad921f52fb75e02f01a376cfd194b9f506f1e7718041e522b5260b53273882
-  languageName: node
-  linkType: hard
-
 "conventional-changelog-writer@npm:^8.0.0":
   version: 8.4.0
   resolution: "conventional-changelog-writer@npm:8.4.0"

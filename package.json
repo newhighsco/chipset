@@ -88,6 +88,9 @@
     "react": "^19",
     "react-dom": "^19"
   },
+  "resolutions": {
+    "conventional-changelog-conventionalcommits": "9.3.1"
+  },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
   ],
