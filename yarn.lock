@@ -4481,7 +4481,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.4.2, @newhighsco/chipset@workspace:.":
+"@newhighsco/chipset@npm:7.4.2":
+  version: 7.4.2
+  resolution: "@newhighsco/chipset@npm:7.4.2"
+  dependencies:
+    "@dr.pogodin/react-themes": "npm:1.11.0"
+    "@iconify/react": "npm:6.0.2"
+    classnames: "npm:2.5.1"
+    react-device-detect: "npm:2.2.3"
+    url-join: "npm:5.0.0"
+  peerDependencies:
+    react: ^19
+    react-dom: ^19
+  checksum: 10c0/e036319652f250d6675a76df46098acb90241001a35d0db90de060f3fd1d4734eb5fbbaae6a7ab745c4f973ae701b498e133892944f95994153d7d047f4d4875
+  languageName: node
+  linkType: hard
+
+"@newhighsco/chipset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@newhighsco/chipset@workspace:."
   dependencies:
