@@ -1,3 +1,9 @@
+## [7.5.0](https://github.com/newhighsco/chipset/compare/v7.4.2...v7.5.0) (2026-09-09)
+
+### Features
+
+* **card:** support custom link rendering ([#3388](https://github.com/newhighsco/chipset/issues/3388)) ([7eeab03](https://github.com/newhighsco/chipset/commit/7eeab03e89b85c985b659405ea645b82e9c6c270))
+
 ## [7.4.2](https://github.com/newhighsco/chipset/compare/v7.4.1...v7.4.2) (2026-07-30)
 
 ## [7.4.1](https://github.com/newhighsco/chipset/compare/v7.4.0...v7.4.1) (2026-07-27)
