@@ -4481,7 +4481,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.4.2, @newhighsco/chipset@workspace:.":
+"@newhighsco/chipset@npm:7.4.2":
+  version: 7.4.2
+  resolution: "@newhighsco/chipset@npm:7.4.2"
+  dependencies:
+    "@dr.pogodin/react-themes": "npm:1.11.0"
+    "@iconify/react": "npm:6.0.2"
+    classnames: "npm:2.5.1"
+    react-device-detect: "npm:2.2.3"
+    url-join: "npm:5.0.0"
+  peerDependencies:
+    react: ^19
+    react-dom: ^19
+  checksum: 10c0/e036319652f250d6675a76df46098acb90241001a35d0db90de060f3fd1d4734eb5fbbaae6a7ab745c4f973ae701b498e133892944f95994153d7d047f4d4875
+  languageName: node
+  linkType: hard
+
+"@newhighsco/chipset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@newhighsco/chipset@workspace:."
   dependencies:
@@ -8675,12 +8691,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:9.3.1":
-  version: 9.3.1
-  resolution: "conventional-changelog-conventionalcommits@npm:9.3.1"
+"conventional-changelog-conventionalcommits@npm:10.4.0":
+  version: 10.4.0
+  resolution: "conventional-changelog-conventionalcommits@npm:10.4.0"
   dependencies:
-    compare-func: "npm:^2.0.0"
-  checksum: 10c0/e3d0dfe5680899da3660a7fbc859de1a92dd9358dc497624c3582596173713a80dcc8236d844116a3ba8403350e244c007c0c7fa5796631aea19e464cc6c2f44
+    "@conventional-changelog/template": "npm:^1.4.0"
+  checksum: 10c0/60d99d74e6fdba134fc4785c13f87df82b9cabd980b4390dc958a8abf75d6fe1fdad921f52fb75e02f01a376cfd194b9f506f1e7718041e522b5260b53273882
   languageName: node
   linkType: hard
 
