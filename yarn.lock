@@ -4533,7 +4533,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.1.52"
     "@newhighsco/lint-staged-config": "npm:1.1.4"
     "@newhighsco/postcss-config": "npm:4.0.83"
-    "@newhighsco/prettier-config": "npm:2.3.16"
+    "@newhighsco/prettier-config": "npm:2.3.17"
     "@newhighsco/release-config": "npm:1.5.11"
     "@newhighsco/storybook-preset": "npm:10.2.95"
     "@newhighsco/stylelint-config": "npm:4.0.56"
@@ -4648,12 +4648,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/prettier-config@npm:2.3.16":
-  version: 2.3.16
-  resolution: "@newhighsco/prettier-config@npm:2.3.16"
+"@newhighsco/prettier-config@npm:2.3.17":
+  version: 2.3.17
+  resolution: "@newhighsco/prettier-config@npm:2.3.17"
   peerDependencies:
     prettier: ^3
-  checksum: 10c0/c50f0e9174931f06c22765d79e9c23e269695871be6fe00f77788015d9f68ee43787325d5943c52a09e1cc2373a02c4ad9c8540306b2e64a9a5548be4fc78d9a
+  checksum: 10c0/7b1af92475c428d211a341b67ca79cdb7a2510fa4efd6e68f62fc7f75b444b45c2aed762126d16e880c8418bace315b3372adf0eff17fc17bf62373b08c268fd
   languageName: node
   linkType: hard
 
