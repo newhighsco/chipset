@@ -4501,23 +4501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.4.2":
-  version: 7.4.2
-  resolution: "@newhighsco/chipset@npm:7.4.2"
-  dependencies:
-    "@dr.pogodin/react-themes": "npm:1.11.0"
-    "@iconify/react": "npm:6.0.2"
-    classnames: "npm:2.5.1"
-    react-device-detect: "npm:2.2.3"
-    url-join: "npm:5.0.0"
-  peerDependencies:
-    react: ^19
-    react-dom: ^19
-  checksum: 10c0/e036319652f250d6675a76df46098acb90241001a35d0db90de060f3fd1d4734eb5fbbaae6a7ab745c4f973ae701b498e133892944f95994153d7d047f4d4875
-  languageName: node
-  linkType: hard
-
-"@newhighsco/chipset@workspace:.":
+"@newhighsco/chipset@npm:7.5.0, @newhighsco/chipset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@newhighsco/chipset@workspace:."
   dependencies:
@@ -4535,7 +4519,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.86"
     "@newhighsco/prettier-config": "npm:2.3.17"
     "@newhighsco/release-config": "npm:1.5.11"
-    "@newhighsco/storybook-preset": "npm:10.2.95"
+    "@newhighsco/storybook-preset": "npm:10.2.96"
     "@newhighsco/stylelint-config": "npm:4.0.56"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -4701,11 +4685,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.95":
-  version: 10.2.95
-  resolution: "@newhighsco/storybook-preset@npm:10.2.95"
+"@newhighsco/storybook-preset@npm:10.2.96":
+  version: 10.2.96
+  resolution: "@newhighsco/storybook-preset@npm:10.2.96"
   dependencies:
-    "@newhighsco/chipset": "npm:7.4.2"
+    "@newhighsco/chipset": "npm:7.5.0"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.6.0"
@@ -4715,14 +4699,14 @@ __metadata:
     css-loader: "npm:7.1.5"
     postcss: "npm:8.5.28"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.104.0"
+    sass: "npm:1.105.0"
     sass-loader: "npm:17.0.1"
     storybook-addon-pseudo-states: "npm:10.6.0"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: ^10
-  checksum: 10c0/6b2799038e29cf8a87a1503a9c3fd1b0d6e38c267611822d5d9348d4b9f5a87fe6b415c822bd97b54b749c3acacf4844583dd7dce9f638f9991ecd590b205db1
+  checksum: 10c0/da80aeabb70b7cfd47961288eaabdad5b22c7bf42425408f16abd1a0585b28c07126bfbc772f664bee122615281a598630dbbaaf748fae72ba91bca2059d7521
   languageName: node
   linkType: hard
 
@@ -15972,9 +15956,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.104.0":
-  version: 1.104.0
-  resolution: "sass@npm:1.104.0"
+"sass@npm:1.105.0":
+  version: 1.105.0
+  resolution: "sass@npm:1.105.0"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^5.0.0"
@@ -15985,7 +15969,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/f43dafaf582526bece2e854f73eecab433300b641468e56966ed97717e7eb06db2c010f8b6bdfccd6ff6b4c07083732ef0d524dfe12a1a19e9e5c953083c06a6
+  checksum: 10c0/ddd6a8cc70d325fe7465036de32cb3506b578e131719c8bcfd4c225e051b7e8f5b231c3be450e293043876db58a247b9c354ecc1ca466a8274e2d9a8d4bc1ae1
   languageName: node
   linkType: hard
 
