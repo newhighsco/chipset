@@ -57,7 +57,7 @@
     "@newhighsco/prettier-config": "2.3.18",
     "@newhighsco/release-config": "1.5.11",
     "@newhighsco/storybook-preset": "10.2.99",
-    "@newhighsco/stylelint-config": "4.0.57",
+    "@newhighsco/stylelint-config": "4.0.58",
     "@newhighsco/svgr-config": "1.0.0",
     "@newhighsco/yarn-plugin-preset": "1.1.4",
     "@storybook/react-webpack5": "10.6.1",
