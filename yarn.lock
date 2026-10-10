@@ -4557,7 +4557,7 @@ __metadata:
     "@newhighsco/prettier-config": "npm:2.3.18"
     "@newhighsco/release-config": "npm:1.5.11"
     "@newhighsco/storybook-preset": "npm:10.2.99"
-    "@newhighsco/stylelint-config": "npm:4.0.57"
+    "@newhighsco/stylelint-config": "npm:4.0.58"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
     "@storybook/react-webpack5": "npm:10.6.1"
@@ -4747,18 +4747,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/stylelint-config@npm:4.0.57":
-  version: 4.0.57
-  resolution: "@newhighsco/stylelint-config@npm:4.0.57"
+"@newhighsco/stylelint-config@npm:4.0.58":
+  version: 4.0.58
+  resolution: "@newhighsco/stylelint-config@npm:4.0.58"
   dependencies:
     stylelint-config-css-modules: "npm:4.6.0"
     stylelint-config-standard-scss: "npm:17.0.0"
-    stylelint-order: "npm:8.1.1"
+    stylelint-order: "npm:8.1.2"
     stylelint-prettier: "npm:5.0.3"
   peerDependencies:
     prettier: ^3
     stylelint: ^17
-  checksum: 10c0/7ab94ebc7d64360f0cba5ea8e9d67b992888e9028f221250509d408c49f7e04f3b91ccc54773179d71d2e65aadc3d7d3494f7f9049b16542325b2560de230951
+  checksum: 10c0/01ada2cc0a6c333b5aebf904d8bd1e7962ccb76e5fc67fbed0aed7f11e57638ee6fc2663a9e177f8ad0b9bf70bdacf1a637a5cb7dabd10d2889b68e3464d58b6
   languageName: node
   linkType: hard
 
@@ -15198,7 +15198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.29, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.26, postcss@npm:^8.5.6, postcss@npm:^8.5.8":
+"postcss@npm:8.5.29, postcss@npm:^8.4.40, postcss@npm:^8.4.47, postcss@npm:^8.5.26, postcss@npm:^8.5.28, postcss@npm:^8.5.6":
   version: 8.5.29
   resolution: "postcss@npm:8.5.29"
   dependencies:
@@ -16824,15 +16824,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-order@npm:8.1.1":
-  version: 8.1.1
-  resolution: "stylelint-order@npm:8.1.1"
+"stylelint-order@npm:8.1.2":
+  version: 8.1.2
+  resolution: "stylelint-order@npm:8.1.2"
   dependencies:
-    postcss: "npm:^8.5.8"
+    postcss: "npm:^8.5.28"
     postcss-sorting: "npm:^10.0.0"
   peerDependencies:
     stylelint: ^16.18.0 || ^17.0.0
-  checksum: 10c0/ef135a414d3ed98a53cc19e52f1cdff25105e34d96430ecc805d831dbdf4f505031d692dba0f2275b6e7b3a4f4b406f352d85a3924e2e3d89931af65a64eb047
+  checksum: 10c0/f0a4cd0f811086798ed0cddeccebd88342b06122cf8e6e0836b01fb125c701016769eda7ed037976b37ea7124d72bc43110b438c0d589d648211920df59d4c0b
   languageName: node
   linkType: hard
 
