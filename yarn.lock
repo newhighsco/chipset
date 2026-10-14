@@ -4538,7 +4538,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.5.1, @newhighsco/chipset@workspace:.":
+"@newhighsco/chipset@npm:7.5.2, @newhighsco/chipset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@newhighsco/chipset@workspace:."
   dependencies:
@@ -4556,7 +4556,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.90"
     "@newhighsco/prettier-config": "npm:2.3.18"
     "@newhighsco/release-config": "npm:1.5.11"
-    "@newhighsco/storybook-preset": "npm:10.2.102"
+    "@newhighsco/storybook-preset": "npm:10.2.103"
     "@newhighsco/stylelint-config": "npm:4.0.58"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -4722,11 +4722,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.102":
-  version: 10.2.102
-  resolution: "@newhighsco/storybook-preset@npm:10.2.102"
+"@newhighsco/storybook-preset@npm:10.2.103":
+  version: 10.2.103
+  resolution: "@newhighsco/storybook-preset@npm:10.2.103"
   dependencies:
-    "@newhighsco/chipset": "npm:7.5.1"
+    "@newhighsco/chipset": "npm:7.5.2"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.6.2"
@@ -4743,7 +4743,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: ^10
-  checksum: 10c0/58d7fb1b8e255baacf84ce451881344b302fbd2adb3300344b4ecc1b39b4b6d49a9fbab353ff4108b73198ad2c919a5e9d8fbc155826ff0d2b8c04f3ded67fa6
+  checksum: 10c0/a7bbd2e93ee3619e3b88be2ff9993fc8a19027fc4c8051868486a3f5bc090306796916499f799eadee0d53b9b254f098f0a04782887f3df8793d1be849d96e62
   languageName: node
   linkType: hard
 
