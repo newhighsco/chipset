@@ -1,3 +1,9 @@
+## [7.5.2](https://github.com/newhighsco/chipset/compare/v7.5.1...v7.5.2) (2026-10-14)
+
+### Bug Fixes
+
+* **deps:** update dependency url-join to v5.1.1 ([#3455](https://github.com/newhighsco/chipset/issues/3455)) ([f304a9c](https://github.com/newhighsco/chipset/commit/f304a9cb2daa578b4a412d9b526a9105c6bfb388))
+
 ## [7.5.1](https://github.com/newhighsco/chipset/compare/v7.5.0...v7.5.1) (2026-10-13)
 
 ### Bug Fixes
