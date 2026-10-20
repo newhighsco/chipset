@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@dr.pogodin/react-themes": "1.11.0",
-    "@iconify/react": "6.0.2",
+    "@iconify/react": "6.0.3",
     "classnames": "2.5.1",
     "react-device-detect": "2.2.3",
     "url-join": "5.1.1"
