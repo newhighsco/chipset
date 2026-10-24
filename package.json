@@ -41,7 +41,7 @@
     "@iconify/react": "6.0.3",
     "classnames": "2.5.1",
     "react-device-detect": "2.2.3",
-    "url-join": "5.1.1"
+    "url-join": "5.2.0"
   },
   "devDependencies": {
     "@babel/core": "8.0.9",
