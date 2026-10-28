@@ -4538,23 +4538,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/chipset@npm:7.5.3":
-  version: 7.5.3
-  resolution: "@newhighsco/chipset@npm:7.5.3"
-  dependencies:
-    "@dr.pogodin/react-themes": "npm:1.11.0"
-    "@iconify/react": "npm:6.0.3"
-    classnames: "npm:2.5.1"
-    react-device-detect: "npm:2.2.3"
-    url-join: "npm:5.1.1"
-  peerDependencies:
-    react: ^19
-    react-dom: ^19
-  checksum: 10c0/1efdc79f83e37df97c02fd94c24334cb6ef75509db79c30eee93bb4d49d54ae28100fb3b96cb0660aa2197d6d835eb59d545b254e28c8f7112f1075ca0bea569
-  languageName: node
-  linkType: hard
-
-"@newhighsco/chipset@workspace:.":
+"@newhighsco/chipset@npm:7.5.5, @newhighsco/chipset@workspace:.":
   version: 0.0.0-use.local
   resolution: "@newhighsco/chipset@workspace:."
   dependencies:
@@ -4572,7 +4556,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.92"
     "@newhighsco/prettier-config": "npm:2.3.18"
     "@newhighsco/release-config": "npm:1.5.11"
-    "@newhighsco/storybook-preset": "npm:10.2.110"
+    "@newhighsco/storybook-preset": "npm:10.2.111"
     "@newhighsco/stylelint-config": "npm:4.0.58"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -4738,11 +4722,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.110":
-  version: 10.2.110
-  resolution: "@newhighsco/storybook-preset@npm:10.2.110"
+"@newhighsco/storybook-preset@npm:10.2.111":
+  version: 10.2.111
+  resolution: "@newhighsco/storybook-preset@npm:10.2.111"
   dependencies:
-    "@newhighsco/chipset": "npm:7.5.3"
+    "@newhighsco/chipset": "npm:7.5.5"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
     "@newhighsco/storybook-addon-transpile-modules": "npm:4.0.0"
     "@storybook/addon-a11y": "npm:10.6.5"
@@ -4759,7 +4743,7 @@ __metadata:
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: ^10
-  checksum: 10c0/e95b3066ab8d4da5f6a14c3b8bd528dcf9bc896fec2c8d453b781182637c2cdab167cec479adf6380b2784cf8f54fae7fe824835d860abf67e0c01aac1b82cb5
+  checksum: 10c0/b6aec59301a85034c1a4c3424dbb217ac3ee5fda79fffb942e1de4391c5e32f20782eb9ef6fe1502f72fa2d80e4d57a60eec9a8986b5e02cd04a437b6f1765bd
   languageName: node
   linkType: hard
 
@@ -17907,13 +17891,6 @@ __metadata:
   dependencies:
     punycode: "npm:^2.1.0"
   checksum: 10c0/4ef57b45aa820d7ac6496e9208559986c665e49447cb072744c13b66925a362d96dd5a46c4530a6b8e203e5db5fe849369444440cb22ecfc26c679359e5dfa3c
-  languageName: node
-  linkType: hard
-
-"url-join@npm:5.1.1":
-  version: 5.1.1
-  resolution: "url-join@npm:5.1.1"
-  checksum: 10c0/517e886d302527c7faa999f13e0d131a06dce3bb1577be210cf40f55d9cad83af07c0e2160e86ebe6d095cbbe992f9bb32811897b5fa5ddcc786ab02d03c109f
   languageName: node
   linkType: hard
 
