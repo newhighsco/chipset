@@ -1,3 +1,9 @@
+## [7.5.6](https://github.com/newhighsco/chipset/compare/v7.5.5...v7.5.6) (2026-11-01)
+
+### Bug Fixes
+
+* **deps:** update dependency @iconify/react to v6.0.4 ([#3494](https://github.com/newhighsco/chipset/issues/3494)) ([a5cb5ca](https://github.com/newhighsco/chipset/commit/a5cb5ca77eee28a2e7b20786aa4ebb965db7d1ea))
+
 ## [7.5.5](https://github.com/newhighsco/chipset/compare/v7.5.4...v7.5.5) (2026-10-28)
 
 ### Bug Fixes
