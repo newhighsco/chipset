@@ -4556,7 +4556,7 @@ __metadata:
     "@newhighsco/postcss-config": "npm:4.0.92"
     "@newhighsco/prettier-config": "npm:2.3.18"
     "@newhighsco/release-config": "npm:1.5.11"
-    "@newhighsco/storybook-preset": "npm:10.2.115"
+    "@newhighsco/storybook-preset": "npm:10.2.116"
     "@newhighsco/stylelint-config": "npm:4.0.58"
     "@newhighsco/svgr-config": "npm:1.0.0"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -4722,9 +4722,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/storybook-preset@npm:10.2.115":
-  version: 10.2.115
-  resolution: "@newhighsco/storybook-preset@npm:10.2.115"
+"@newhighsco/storybook-preset@npm:10.2.116":
+  version: 10.2.116
+  resolution: "@newhighsco/storybook-preset@npm:10.2.116"
   dependencies:
     "@newhighsco/chipset": "npm:7.5.6"
     "@newhighsco/storybook-addon-svgr": "npm:4.0.0"
@@ -4736,14 +4736,14 @@ __metadata:
     css-loader: "npm:7.1.5"
     postcss: "npm:8.5.32"
     postcss-loader: "npm:8.2.1"
-    sass: "npm:1.107.1"
+    sass: "npm:1.108.0"
     sass-loader: "npm:17.1.0"
     storybook-addon-pseudo-states: "npm:10.6.6"
     style-loader: "npm:4.0.0"
   peerDependencies:
     "@storybook/react-webpack5": ^10
     storybook: ^10
-  checksum: 10c0/5f0eaf992f2c6e96f597b8b4151b842365c429365857fc03715eb5d70f58b0bf768256dae8f351db161e2590962fb97e667887fe4d282e59d39c0f8989b87cc9
+  checksum: 10c0/4a6ca1e4542a51b7a98a8d3f0ae79d3be148d8e3b407c1e9678a939ddda0356bfe9f6d29da73dda3e9d983a2a815467a4b3eff79c4450633bf30db95e5c38788
   languageName: node
   linkType: hard
 
@@ -16080,9 +16080,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.107.1":
-  version: 1.107.1
-  resolution: "sass@npm:1.107.1"
+"sass@npm:1.108.0":
+  version: 1.108.0
+  resolution: "sass@npm:1.108.0"
   dependencies:
     "@parcel/watcher": "npm:^2.4.1"
     chokidar: "npm:^5.0.0"
@@ -16093,7 +16093,7 @@ __metadata:
       optional: true
   bin:
     sass: sass.js
-  checksum: 10c0/35672944940bd78e89cf661c0c8f6e3ea434fa25a7c815466dfee0b37a6185306da9d8f47ef3b241bd672d5e0e25d368da0f23393e8434b923f927e5e1ed6665
+  checksum: 10c0/c7282648376a3293b3d66dfd57306b3be3545d9bb80d45a1c7674773d575624c17ae2e18f8233a45748498842c2144cf900e134c71417091279e24775e139a8d
   languageName: node
   linkType: hard
 
