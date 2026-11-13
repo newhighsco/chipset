@@ -67,7 +67,7 @@
     "babel-loader": "10.1.1",
     "chromatic": "18.14.3",
     "concurrently": "10.0.7",
-    "eslint": "10.14.0",
+    "eslint": "10.15.0",
     "husky": "9.1.7",
     "identity-obj-proxy": "3.0.0",
     "jest": "30.5.2",
